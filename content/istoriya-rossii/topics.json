@@ -1,0 +1,73 @@
+{
+  "subject": {"name": "История России", "slug": "istoriya-rossii"},
+  "sections": [
+    {
+      "name": "Народы и государства на территории нашей страны в древности",
+      "order": 1,
+      "topics": [
+        {"slug": "drevnie-lyudi-na-territorii-rossii", "title": "Древние люди и их стоянки на территории современной России", "order": 1},
+        {"slug": "neoliticheskaya-revolyuciya", "title": "Неолитическая революция. Первые скотоводы, земледельцы, ремесленники", "order": 2},
+        {"slug": "obrazovanie-pervyh-gosudarstv", "title": "Образование первых государств на территории нашей страны", "order": 3}
+      ]
+    },
+    {
+      "name": "Русь в IX — первой половине XII века",
+      "order": 2,
+      "topics": [
+        {"slug": "vostochnye-slavyane-i-sosedi", "title": "Восточные славяне и их соседи", "order": 1},
+        {"slug": "pervye-izvestiya-o-rusi", "title": "Первые известия о Руси", "order": 2},
+        {"slug": "stanovlenie-drevnerusskogo-gosudarstva", "title": "Становление Древнерусского государства", "order": 3},
+        {"slug": "knyaz-vladimir-kreschenie-rusi", "title": "Правление князя Владимира. Крещение Руси", "order": 4},
+        {"slug": "yaroslav-mudry", "title": "Русское государство при Ярославе Мудром", "order": 5},
+        {"slug": "vladimir-monomah", "title": "Русь при наследниках Ярослава Мудрого. Владимир Мономах", "order": 6},
+        {"slug": "obschestvenny-stroy-cerkov", "title": "Общественный строй и церковная организация на Руси", "order": 7},
+        {"slug": "kultura-drevney-rusi", "title": "Культурное пространство Европы и культура Древней Руси", "order": 8},
+        {"slug": "povsednevnaya-zhizn-naseleniya", "title": "Повседневная жизнь населения Древней Руси", "order": 9}
+      ]
+    },
+    {
+      "name": "Русь в середине XII — начале XIII века",
+      "order": 3,
+      "topics": [
+        {"slug": "politicheskaya-razdroblennost", "title": "Политическая раздробленность на Руси", "order": 1},
+        {"slug": "vladimiro-suzdalskoe-knyazhestvo", "title": "Владимиро-Суздальское княжество", "order": 2},
+        {"slug": "novgorodskaya-respublika", "title": "Новгородская республика", "order": 3},
+        {"slug": "yuzhnye-yugo-zapadnye-knyazhestva", "title": "Южные и юго-западные русские княжества", "order": 4}
+      ]
+    },
+    {
+      "name": "Русские земли в середине XIII — XIV веке",
+      "order": 4,
+      "topics": [
+        {"slug": "mongolskaya-imperiya", "title": "Монгольская империя и изменение политической карты мира", "order": 1},
+        {"slug": "batyevo-nashestvie", "title": "Батыево нашествие на Русь", "order": 2},
+        {"slug": "aleksandr-nevsky", "title": "Северо-Западная Русь между Востоком и Западом. Александр Невский", "order": 3},
+        {"slug": "zolotaya-orda", "title": "Золотая Орда: государственный строй, население, культура", "order": 4},
+        {"slug": "litovskoe-gosudarstvo-i-rus", "title": "Литовское государство и Русь", "order": 5},
+        {"slug": "usilenie-moskovskogo-knyazhestva", "title": "Усиление Московского княжества", "order": 6},
+        {"slug": "kulikovskaya-bitva", "title": "Объединение русских земель вокруг Москвы. Куликовская битва", "order": 7},
+        {"slug": "kultura-rusi-xiii-xiv", "title": "Развитие культуры в русских землях в XIII-XIV веках", "order": 8}
+      ]
+    },
+    {
+      "name": "Формирование единого Русского государства",
+      "order": 5,
+      "topics": [
+        {"slug": "russkie-zemli-nachalo-xv", "title": "Русские земли на карте Европы и мира в начале XV века", "order": 1},
+        {"slug": "moskovskoe-knyazhestvo-pervaya-polovina-xv", "title": "Московское княжество в первой половине XV века", "order": 2},
+        {"slug": "raspad-zolotoy-ordy", "title": "Распад Золотой Орды и его последствия", "order": 3},
+        {"slug": "moskovskoe-gosudarstvo-i-sosedi", "title": "Московское государство и его соседи во второй половине XV века", "order": 4},
+        {"slug": "russkaya-pravoslavnaya-cerkov-xv", "title": "Русская православная церковь в XV — начале XVI века", "order": 5},
+        {"slug": "chelovek-v-rossiyskom-gosudarstve", "title": "Человек в Российском государстве второй половины XV века", "order": 6},
+        {"slug": "kultura-edinogo-gosudarstva", "title": "Формирование культурного пространства единого государства", "order": 7}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 6,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-istoriya-rossii", "title": "Итоговое повторение курса истории России за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

@@ -1,20 +1,18 @@
-"""Build a school-year calendar mapping each topic (russian + math) to a specific
-teaching DAY (not just a week), plus placeholder hour-slots for subjects that don't
-have real lesson content yet (biology, geography, history, literature).
+"""Build a school-year calendar mapping each topic to a specific teaching DAY
+(not just a week), for every subject that has real lesson.md/quiz.json content.
 
 Standard Russian school calendar, 2026/2027 academic year, ~37 teaching weeks with the
-usual quarter breaks, Monday-Friday school days only. Russian/math topics are spread
+usual quarter breaks, Monday-Friday school days only. Each subject's topics are spread
 evenly across all school days (round-robin by proportion), so most days get one new
-topic per subject and the rest are left as review/practice buffer days.
+topic per subject and the rest are left as review/practice buffer days. Subjects with
+fewer topics (e.g. english, biology, geography -- lower weekly-hour subjects in the
+real curriculum) naturally get a lower day-to-day frequency than russian/math/
+literature without any extra scheduling logic -- topic count IS the frequency knob.
 
-The four "hours only" subjects don't have lesson.md/quiz.json content yet -- they're
-placed on fixed weekdays at the standard federal curriculum (БУП) weekly-hour count for
-6th grade, so the schedule reflects real annual lesson totals even before content
-exists:
-    Литература  -- 3 ч/нед (~102 ч/год) -- Пн, Ср, Пт
-    История     -- 2 ч/нед (~68 ч/год)  -- Вт, Чт
-    Биология    -- 1 ч/нед (~34 ч/год)  -- Пн
-    География   -- 1 ч/нед (~34 ч/год)  -- Ср
+HOUR_ONLY_SUBJECTS below is for subjects that don't have real content yet: they get
+placeholder slots on fixed weekdays at the standard federal curriculum (БУП) weekly-hour
+count, so the schedule still reflects real annual lesson totals. Empty for now -- every
+subject in this app has real content.
 
 Usage: python pipeline/build_schedule.py
 Writes: content/schedule.json
@@ -32,13 +30,14 @@ TERMS = [
     (date(2027, 4, 1), date(2027, 5, 24)),
 ]
 
-# weekday() -> 0=Mon .. 4=Fri. Which "hours only" subjects meet on which weekday.
-HOUR_ONLY_SUBJECTS = {
-    "literature": {"name": "Литература", "weekdays": {0, 2, 4}},
-    "history": {"name": "История", "weekdays": {1, 3}},
-    "biology": {"name": "Биология", "weekdays": {0}},
-    "geography": {"name": "География", "weekdays": {2}},
-}
+SUBJECTS = [
+    "russian", "math", "english",
+    "biology", "geography", "vseobschaya-istoriya", "istoriya-rossii", "literature",
+]
+
+# weekday() -> 0=Mon .. 4=Fri. Which "hours only" (no real content yet) subjects meet
+# on which weekday.
+HOUR_ONLY_SUBJECTS = {}
 
 
 def school_days():
@@ -75,7 +74,7 @@ def assign(topics, days):
 def main():
     days = school_days()
     subjects = {}
-    for subj_dir in ["russian", "math", "english"]:
+    for subj_dir in SUBJECTS:
         manifest_path = CONTENT_DIR / subj_dir / "topics.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         subjects[subj_dir] = {
@@ -114,7 +113,7 @@ def main():
 
     out_path = CONTENT_DIR / "schedule.json"
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in ["russian", "math", "english"]}
+    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in SUBJECTS}
     print(f"Wrote {out_path}: {len(days)} school days, {n_topics} topics per subject, hour-only totals: {hour_only_totals}.")
 
 

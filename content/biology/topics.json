@@ -1,0 +1,72 @@
+{
+  "subject": {"name": "Биология", "slug": "biology"},
+  "sections": [
+    {
+      "name": "Клеточное строение растений",
+      "order": 1,
+      "topics": [
+        {"slug": "obschie-priznaki-rasteniy", "title": "Общие признаки, разнообразие и значение растений", "order": 1},
+        {"slug": "stroenie-rastitelnoy-kletki", "title": "Строение растительной клетки", "order": 2},
+        {"slug": "zhiznedeyatelnost-kletki", "title": "Жизнедеятельность клетки: деление и рост", "order": 3},
+        {"slug": "rastitelnye-tkani", "title": "Растительные ткани и органы растения", "order": 4}
+      ]
+    },
+    {
+      "name": "Строение и разнообразие цветковых растений",
+      "order": 2,
+      "topics": [
+        {"slug": "stroenie-semyan", "title": "Строение семян", "order": 1},
+        {"slug": "korni-i-kornevye-sistemy", "title": "Виды корней, типы корневых систем, видоизменения корней", "order": 2},
+        {"slug": "pobeg-stebel", "title": "Побег и строение стебля", "order": 3},
+        {"slug": "list-stroenie-vidoizmeneniya", "title": "Строение листа и видоизменения побегов", "order": 4},
+        {"slug": "cvetok-socvetiya-plody", "title": "Цветок, соцветия, плоды", "order": 5}
+      ]
+    },
+    {
+      "name": "Жизнедеятельность растений",
+      "order": 3,
+      "topics": [
+        {"slug": "mineralnoe-pitanie", "title": "Обмен веществ и минеральное питание растений", "order": 1},
+        {"slug": "fotosintez-dyhanie", "title": "Фотосинтез и дыхание растений", "order": 2},
+        {"slug": "peredvizhenie-vydelenie", "title": "Передвижение веществ и выделение у растений", "order": 3},
+        {"slug": "prorastanie-rost-razvitie", "title": "Прорастание семян, рост и развитие растений", "order": 4},
+        {"slug": "razmnozhenie-rasteniy", "title": "Размножение растений: половое и вегетативное", "order": 5}
+      ]
+    },
+    {
+      "name": "Многообразие растений",
+      "order": 4,
+      "topics": [
+        {"slug": "sistematika-vodorosli", "title": "Систематика растений и водоросли", "order": 1},
+        {"slug": "mhi-plauny-hvoschi-paporotniki", "title": "Мхи, плауны, хвощи и папоротники", "order": 2},
+        {"slug": "golosemennye", "title": "Отдел Голосеменные", "order": 3},
+        {"slug": "pokrytosemennye-dvudolnye", "title": "Покрытосеменные: класс Двудольные", "order": 4},
+        {"slug": "pokrytosemennye-odnodolnye", "title": "Покрытосеменные: класс Однодольные", "order": 5}
+      ]
+    },
+    {
+      "name": "Развитие растительного мира",
+      "order": 5,
+      "topics": [
+        {"slug": "etapy-razvitiya-rasteniy", "title": "Основные этапы развития растительного мира", "order": 1},
+        {"slug": "kulturnye-rasteniya", "title": "Происхождение культурных растений", "order": 2}
+      ]
+    },
+    {
+      "name": "Природные сообщества",
+      "order": 6,
+      "topics": [
+        {"slug": "ponyatie-o-soobschestve", "title": "Понятие о природном сообществе, совместная жизнь организмов", "order": 1},
+        {"slug": "smena-mnogoobrazie-soobschestv", "title": "Смена и многообразие природных сообществ", "order": 2},
+        {"slug": "chelovek-i-soobschestva", "title": "Влияние человека на природные сообщества и их охрана", "order": 3}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 7,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-biologiya", "title": "Итоговое повторение курса биологии за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

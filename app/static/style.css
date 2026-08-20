@@ -196,8 +196,9 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
 }
 .subject-tag.subject-math { background: #dbeafe; color: #1d4ed8; }
 .subject-tag.subject-english { background: #fee2e2; color: #b91c1c; }
-.subject-tag.subject-literature { background: #fce7f3; color: #be185d; }
-.subject-tag.subject-history { background: #fef3c7; color: #b45309; }
 .subject-tag.subject-biology { background: #dcfce7; color: #15803d; }
 .subject-tag.subject-geography { background: #cffafe; color: #0e7490; }
+.subject-tag.subject-vseobschaya-istoriya { background: #fef3c7; color: #b45309; }
+.subject-tag.subject-istoriya-rossii { background: #fed7aa; color: #c2410c; }
+.subject-tag.subject-literature { background: #fce7f3; color: #be185d; }
 .lesson-count { color: var(--muted); font-size: .78em; }

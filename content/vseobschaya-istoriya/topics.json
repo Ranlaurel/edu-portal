@@ -1,0 +1,103 @@
+{
+  "subject": {"name": "Всеобщая история", "slug": "vseobschaya-istoriya"},
+  "sections": [
+    {
+      "name": "Становление средневековой Европы (VI-XI века)",
+      "order": 1,
+      "topics": [
+        {"slug": "obrazovanie-varvarskih-korolevstv", "title": "Образование варварских королевств. Государство франков", "order": 1},
+        {"slug": "hristianskaya-cerkov-rannee-srednevekove", "title": "Христианская церковь в раннее Средневековье", "order": 2},
+        {"slug": "imperiya-karla-velikogo", "title": "Возникновение и распад империи Карла Великого", "order": 3},
+        {"slug": "feodalnaya-razdroblennost", "title": "Феодальная раздробленность Западной Европы", "order": 4},
+        {"slug": "angliya-v-rannee-srednevekove", "title": "Англия в раннее Средневековье", "order": 5}
+      ]
+    },
+    {
+      "name": "Византийская империя и славяне",
+      "order": 2,
+      "topics": [
+        {"slug": "vizantiya-pri-yustiniane", "title": "Византия при Юстиниане. Борьба с внешними врагами", "order": 1},
+        {"slug": "kultura-vizantii", "title": "Культура Византии", "order": 2},
+        {"slug": "obrazovanie-slavyanskih-gosudarstv", "title": "Образование славянских государств", "order": 3}
+      ]
+    },
+    {
+      "name": "Арабы в VI-XI веках",
+      "order": 3,
+      "topics": [
+        {"slug": "vozniknovenie-islama-halifat", "title": "Возникновение ислама. Арабский халифат и его распад", "order": 1},
+        {"slug": "kultura-stran-halifata", "title": "Культура стран халифата", "order": 2}
+      ]
+    },
+    {
+      "name": "Феодалы и крестьяне",
+      "order": 4,
+      "topics": [
+        {"slug": "srednevekovaya-derevnya", "title": "Средневековая деревня и её обитатели", "order": 1},
+        {"slug": "v-rycarskom-zamke", "title": "В рыцарском замке", "order": 2}
+      ]
+    },
+    {
+      "name": "Средневековый город",
+      "order": 5,
+      "topics": [
+        {"slug": "formirovanie-srednevekovyh-gorodov", "title": "Формирование средневековых городов. Городское ремесло", "order": 1},
+        {"slug": "torgovlya-v-srednie-veka", "title": "Торговля в Средние века", "order": 2},
+        {"slug": "gorozhane-i-obraz-zhizni", "title": "Горожане и их образ жизни", "order": 3}
+      ]
+    },
+    {
+      "name": "Католическая церковь. Крестовые походы",
+      "order": 6,
+      "topics": [
+        {"slug": "mogushestvo-papskoy-vlasti", "title": "Могущество папской власти. Церковь и еретики", "order": 1},
+        {"slug": "krestovye-pohody", "title": "Крестовые походы", "order": 2}
+      ]
+    },
+    {
+      "name": "Образование централизованных государств",
+      "order": 7,
+      "topics": [
+        {"slug": "obedinenie-francii", "title": "Как происходило объединение Франции", "order": 1},
+        {"slug": "nachalo-svobod-anglii", "title": "Что англичане считают началом своих свобод", "order": 2},
+        {"slug": "stoletnyaya-voyna", "title": "Столетняя война", "order": 3},
+        {"slug": "usilenie-korolevskoy-vlasti", "title": "Усиление королевской власти во Франции и в Англии", "order": 4},
+        {"slug": "rekonkista", "title": "Реконкиста и централизованные государства на Пиренеях", "order": 5},
+        {"slug": "germaniya-i-italiya", "title": "Раздробленные государства: Германия и Италия", "order": 6}
+      ]
+    },
+    {
+      "name": "Славянские государства и Византия",
+      "order": 8,
+      "topics": [
+        {"slug": "gusitskoe-dvizhenie", "title": "Гуситское движение в Чехии", "order": 1},
+        {"slug": "zavoevanie-turkami-balkan", "title": "Завоевание турками-османами Балканского полуострова", "order": 2}
+      ]
+    },
+    {
+      "name": "Культура Западной Европы в Средние века",
+      "order": 9,
+      "topics": [
+        {"slug": "obrazovanie-i-filosofiya", "title": "Образование и философия в Средние века", "order": 1},
+        {"slug": "srednevekovaya-literatura-iskusstvo", "title": "Средневековая литература и искусство", "order": 2},
+        {"slug": "kultura-rannego-vozrozhdeniya", "title": "Культура раннего Возрождения в Италии", "order": 3},
+        {"slug": "nauchnye-otkrytiya-izobreteniya", "title": "Научные открытия и изобретения", "order": 4}
+      ]
+    },
+    {
+      "name": "Народы Азии, Америки и Африки",
+      "order": 10,
+      "topics": [
+        {"slug": "srednevekovaya-aziya", "title": "Средневековая Азия: Китай, Индия, Япония", "order": 1},
+        {"slug": "afrika-i-dokolumbova-amerika", "title": "Государства и народы Африки и доколумбовой Америки", "order": 2}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 11,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-vseobschaya", "title": "Итоговое повторение курса истории Средних веков", "order": 1}
+      ]
+    }
+  ]
+}

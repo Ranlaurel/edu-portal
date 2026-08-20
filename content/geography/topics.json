@@ -1,0 +1,76 @@
+{
+  "subject": {"name": "География", "slug": "geography"},
+  "sections": [
+    {
+      "name": "Земля как планета",
+      "order": 1,
+      "topics": [
+        {"slug": "zemlya-vo-vselennoy", "title": "Земля во Вселенной. Форма и размеры Земли", "order": 1},
+        {"slug": "dvizheniya-zemli", "title": "Движения Земли: вращение вокруг оси и вокруг Солнца", "order": 2},
+        {"slug": "solnechny-svet-na-zemle", "title": "Распределение солнечного света и тепла на Земле", "order": 3}
+      ]
+    },
+    {
+      "name": "План и карта",
+      "order": 2,
+      "topics": [
+        {"slug": "orientirovanie-na-mestnosti", "title": "Ориентирование на местности. Азимут", "order": 1},
+        {"slug": "topograficheskiy-plan", "title": "Топографический план и условные знаки", "order": 2},
+        {"slug": "izobrazhenie-relyefa", "title": "Изображение рельефа на плане: горизонтали", "order": 3},
+        {"slug": "geograficheskaya-karta", "title": "Географическая карта и её виды", "order": 4},
+        {"slug": "gradusnaya-set-koordinaty", "title": "Градусная сеть и географические координаты", "order": 5}
+      ]
+    },
+    {
+      "name": "Литосфера",
+      "order": 3,
+      "topics": [
+        {"slug": "zemnaya-kora-gornye-porody", "title": "Земная кора и горные породы", "order": 1},
+        {"slug": "dvizheniya-zemnoy-kory", "title": "Движения земной коры: землетрясения и вулканы", "order": 2},
+        {"slug": "relyef-sushi-gory", "title": "Рельеф суши: горы", "order": 3},
+        {"slug": "relyef-sushi-ravniny", "title": "Рельеф суши: равнины", "order": 4},
+        {"slug": "relyef-dna-okeanov", "title": "Рельеф дна океанов", "order": 5},
+        {"slug": "litosfera-i-chelovek", "title": "Литосфера и человек", "order": 6}
+      ]
+    },
+    {
+      "name": "Атмосфера",
+      "order": 4,
+      "topics": [
+        {"slug": "atmosfera-stroenie", "title": "Атмосфера: строение, значение, изучение", "order": 1},
+        {"slug": "temperatura-vozduha", "title": "Температура воздуха", "order": 2},
+        {"slug": "atmosfernoe-davlenie-veter", "title": "Атмосферное давление и ветер", "order": 3},
+        {"slug": "vlazhnost-oblaka-osadki", "title": "Влажность воздуха, облака, атмосферные осадки", "order": 4},
+        {"slug": "pogoda-i-klimat", "title": "Погода и климат", "order": 5},
+        {"slug": "atmosfera-i-chelovek", "title": "Атмосфера и человек", "order": 6}
+      ]
+    },
+    {
+      "name": "Гидросфера",
+      "order": 5,
+      "topics": [
+        {"slug": "sostav-gidrosfery-mirovoy-okean", "title": "Состав гидросферы. Мировой океан", "order": 1},
+        {"slug": "vody-okeana", "title": "Воды океана: течения, волны, приливы", "order": 2},
+        {"slug": "reki", "title": "Реки: части, питание, режим", "order": 3},
+        {"slug": "ozera-podzemnye-vody-ledniki", "title": "Озёра, подземные воды, ледники и многолетняя мерзлота", "order": 4},
+        {"slug": "gidrosfera-i-chelovek", "title": "Гидросфера и человек", "order": 5}
+      ]
+    },
+    {
+      "name": "Биосфера и географическая оболочка",
+      "order": 6,
+      "topics": [
+        {"slug": "biosfera-zemnaya-obolochka", "title": "Биосфера — оболочка жизни", "order": 1},
+        {"slug": "pochva", "title": "Почва и её плодородие", "order": 2},
+        {"slug": "prirodny-kompleks", "title": "Природный комплекс и географическая оболочка", "order": 3}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 7,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-geografiya", "title": "Итоговое повторение курса географии за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

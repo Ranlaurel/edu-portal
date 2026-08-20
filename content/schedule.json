@@ -19,15 +19,31 @@
           "title": "Семья: члены семьи и семейные праздники",
           "section": "Семья и дом"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 1,
-          "total": 67
+        "biology": {
+          "slug": "obschie-priznaki-rasteniy",
+          "title": "Общие признаки, разнообразие и значение растений",
+          "section": "Клеточное строение растений"
         },
-        "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "zemlya-vo-vselennoy",
+          "title": "Земля во Вселенной. Форма и размеры Земли",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-varvarskih-korolevstv",
+          "title": "Образование варварских королевств. Государство франков",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "drevnie-lyudi-na-territorii-rossii",
+          "title": "Древние люди и их стоянки на территории современной России",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "obryadovy-folklor-poslovicy",
+          "title": "Обрядовый фольклор. Пословицы и поговорки",
+          "section": "Устное народное творчество и древнерусская литература"
+        }
       }
     },
     {
@@ -37,20 +53,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 1,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 1,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -64,15 +71,11 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 2,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -86,15 +89,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 2,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -108,20 +107,11 @@
           "title": "Дом: виды жилья и обустройство",
           "section": "Семья и дом"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 3,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 1,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -135,15 +125,27 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 3,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "dvizheniya-zemli",
+          "title": "Движения Земли: вращение вокруг оси и вокруг Солнца",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "hristianskaya-cerkov-rannee-srednevekove",
+          "title": "Христианская церковь в раннее Средневековье",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "neoliticheskaya-revolyuciya",
+          "title": "Неолитическая революция. Первые скотоводы, земледельцы, ремесленники",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "povest-vremennyh-let",
+          "title": "Древнерусская литература: «Повесть временных лет»",
+          "section": "Устное народное творчество и древнерусская литература"
+        }
       }
     },
     {
@@ -157,20 +159,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 4,
-          "total": 99
+        "biology": {
+          "slug": "stroenie-rastitelnoy-kletki",
+          "title": "Строение растительной клетки",
+          "section": "Клеточное строение растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 2,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -180,15 +177,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 4,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -202,15 +195,11 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 5,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -228,20 +217,11 @@
           "title": "Домашние обязанности и правила поведения",
           "section": "Семья и дом"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 6,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 2,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -251,15 +231,23 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 5,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "imperiya-karla-velikogo",
+          "title": "Возникновение и распад империи Карла Великого",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "obrazovanie-pervyh-gosudarstv",
+          "title": "Образование первых государств на территории нашей страны",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "dmitriev-basni-krylova",
+          "title": "И. И. Дмитриев и басни И. А. Крылова",
+          "section": "Русская литература XVIII-XIX веков: начало"
+        }
       }
     },
     {
@@ -273,20 +261,15 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 7,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
         "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 3,
-          "total": 32
-        }
+          "slug": "solnechny-svet-na-zemle",
+          "title": "Распределение солнечного света и тепла на Земле",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -300,15 +283,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 6,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -318,15 +297,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 8,
-          "total": 99
+        "biology": {
+          "slug": "zhiznedeyatelnost-kletki",
+          "title": "Жизнедеятельность клетки: деление и рост",
+          "section": "Клеточное строение растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -344,20 +323,11 @@
           "title": "Внешность человека",
           "section": "Внешность и характер"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 9,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 3,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -371,15 +341,19 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 7,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "feodalnaya-razdroblennost",
+          "title": "Феодальная раздробленность Западной Европы",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "vostochnye-slavyane-i-sosedi",
+          "title": "Восточные славяне и их соседи",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -389,19 +363,14 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 10,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 4,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "pushkin-litsey-stihi",
+          "title": "А. С. Пушкин: лицейские годы, «Узник», «Зимнее утро»",
+          "section": "Русская литература XVIII-XIX веков: начало"
         }
       }
     },
@@ -416,15 +385,15 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 8,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "orientirovanie-na-mestnosti",
+          "title": "Ориентирование на местности. Азимут",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -438,15 +407,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 11,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -460,20 +425,15 @@
           "title": "Характер человека",
           "section": "Внешность и характер"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 12,
-          "total": 99
-        },
-        "history": null,
         "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 4,
-          "total": 33
+          "slug": "rastitelnye-tkani",
+          "title": "Растительные ткани и органы растения",
+          "section": "Клеточное строение растений"
         },
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -487,15 +447,19 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 9,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "angliya-v-rannee-srednevekove",
+          "title": "Англия в раннее Средневековье",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "pervye-izvestiya-o-rusi",
+          "title": "Первые известия о Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -509,19 +473,14 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 13,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 5,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "dubrovsky-nachalo",
+          "title": "А. С. Пушкин «Дубровский»: сюжет и главные герои",
+          "section": "Русская литература XVIII-XIX веков: начало"
         }
       }
     },
@@ -532,15 +491,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 10,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "topograficheskiy-plan",
+          "title": "Топографический план и условные знаки",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -554,15 +513,11 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 14,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -580,20 +535,11 @@
           "title": "Хобби и увлечения",
           "section": "Досуг и увлечения"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 15,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 5,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -603,15 +549,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 11,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "vizantiya-pri-yustiniane",
+          "title": "Византия при Юстиниане. Борьба с внешними врагами",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "stanovlenie-drevnerusskogo-gosudarstva",
+          "title": "Становление Древнерусского государства",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -625,19 +575,18 @@
           "section": "Натуральные числа и делимость"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 16,
-          "total": 99
+        "biology": {
+          "slug": "stroenie-semyan",
+          "title": "Строение семян",
+          "section": "Строение и разнообразие цветковых растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 6,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "dubrovsky-konflikt",
+          "title": "А. С. Пушкин «Дубровский»: конфликт и судьба героев",
+          "section": "Русская литература XVIII-XIX веков: начало"
         }
       }
     },
@@ -652,15 +601,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 12,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -670,15 +615,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 17,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "izobrazhenie-relyefa",
+          "title": "Изображение рельефа на плане: горизонтали",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -696,20 +641,11 @@
           "title": "Свободное время: планы на выходные",
           "section": "Досуг и увлечения"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 18,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 6,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -723,15 +659,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 13,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -741,20 +673,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 19,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 7,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-vizantii",
+          "title": "Культура Византии",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "knyaz-vladimir-kreschenie-rusi",
+          "title": "Правление князя Владимира. Крещение Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -768,15 +699,15 @@
           "section": "Прямые на плоскости и симметрия"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 14,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "baratynsky-stihi",
+          "title": "Е. А. Баратынский: стихотворения",
+          "section": "Поэзия и проза середины XIX века"
+        }
       }
     },
     {
@@ -790,15 +721,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 20,
-          "total": 99
+        "biology": {
+          "slug": "korni-i-kornevye-sistemy",
+          "title": "Виды корней, типы корневых систем, видоизменения корней",
+          "section": "Строение и разнообразие цветковых растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -812,20 +743,15 @@
           "title": "Игры и развлечения",
           "section": "Досуг и увлечения"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 21,
-          "total": 99
+        "biology": null,
+        "geography": {
+          "slug": "geograficheskaya-karta",
+          "title": "Географическая карта и её виды",
+          "section": "План и карта"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 7,
-          "total": 33
-        },
-        "geography": null
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -839,15 +765,11 @@
           "section": "Прямые на плоскости и симметрия"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 15,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -861,20 +783,19 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 22,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 8,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-slavyanskih-gosudarstv",
+          "title": "Образование славянских государств",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "yaroslav-mudry",
+          "title": "Русское государство при Ярославе Мудром",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -884,15 +805,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 16,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "lermontov-stihi",
+          "title": "М. Ю. Лермонтов: «Тучи», «Утёс», «На севере диком...», «Три пальмы»",
+          "section": "Поэзия и проза середины XIX века"
+        }
       }
     },
     {
@@ -906,15 +827,11 @@
           "section": "Прямые на плоскости и симметрия"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 23,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -932,15 +849,15 @@
           "title": "Здоровое питание",
           "section": "Здоровый образ жизни"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 17,
-          "total": 67
+        "biology": {
+          "slug": "pobeg-stebel",
+          "title": "Побег и строение стебля",
+          "section": "Строение и разнообразие цветковых растений"
         },
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -950,15 +867,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 24,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "gradusnaya-set-koordinaty",
+          "title": "Градусная сеть и географические координаты",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -972,20 +889,19 @@
           "section": "Прямые на плоскости и симметрия"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 25,
-          "total": 99
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "vozniknovenie-islama-halifat",
+          "title": "Возникновение ислама. Арабский халифат и его распад",
+          "section": "Арабы в VI-XI веках"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 8,
-          "total": 33
+        "istoriya-rossii": {
+          "slug": "vladimir-monomah",
+          "title": "Русь при наследниках Ярослава Мудрого. Владимир Мономах",
+          "section": "Русь в IX — первой половине XII века"
         },
-        "geography": null
+        "literature": null
       }
     },
     {
@@ -999,15 +915,15 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 18,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "turgenev-bezhin-lug",
+          "title": "И. С. Тургенев «Бежин луг»",
+          "section": "Поэзия и проза середины XIX века"
+        }
       }
     },
     {
@@ -1021,20 +937,11 @@
           "title": "Режим дня и полезные привычки",
           "section": "Здоровый образ жизни"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 26,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 9,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1048,15 +955,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 19,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1070,15 +973,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 27,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "zemnaya-kora-gornye-porody",
+          "title": "Земная кора и горные породы",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1088,20 +991,23 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 28,
-          "total": 99
-        },
-        "history": null,
         "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 9,
-          "total": 33
+          "slug": "list-stroenie-vidoizmeneniya",
+          "title": "Строение листа и видоизменения побегов",
+          "section": "Строение и разнообразие цветковых растений"
         },
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-stran-halifata",
+          "title": "Культура стран халифата",
+          "section": "Арабы в VI-XI веках"
+        },
+        "istoriya-rossii": {
+          "slug": "obschestvenny-stroy-cerkov",
+          "title": "Общественный строй и церковная организация на Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1115,15 +1021,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 20,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1141,19 +1043,14 @@
           "title": "Покупки: одежда и обувь",
           "section": "Покупки"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 29,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 10,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "tyutchev-fet-stihi",
+          "title": "Ф. И. Тютчев и А. А. Фет: пейзажная лирика",
+          "section": "Поэзия и проза середины XIX века"
         }
       }
     },
@@ -1164,15 +1061,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 21,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1186,15 +1079,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 30,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1208,20 +1097,23 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 31,
-          "total": 99
+        "biology": null,
+        "geography": {
+          "slug": "dvizheniya-zemnoy-kory",
+          "title": "Движения земной коры: землетрясения и вулканы",
+          "section": "Литосфера"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 10,
-          "total": 33
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-derevnya",
+          "title": "Средневековая деревня и её обитатели",
+          "section": "Феодалы и крестьяне"
         },
-        "geography": null
+        "istoriya-rossii": {
+          "slug": "kultura-drevney-rusi",
+          "title": "Культурное пространство Европы и культура Древней Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1231,15 +1123,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 22,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1257,19 +1145,18 @@
           "title": "Покупки: продукты питания",
           "section": "Покупки"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 32,
-          "total": 99
+        "biology": {
+          "slug": "cvetok-socvetiya-plody",
+          "title": "Цветок, соцветия, плоды",
+          "section": "Строение и разнообразие цветковых растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 11,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "nekrasov-zheleznaya-doroga",
+          "title": "Н. А. Некрасов «Железная дорога»",
+          "section": "Поэзия и проза середины XIX века"
         }
       }
     },
@@ -1284,15 +1171,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 23,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1302,15 +1185,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 33,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1324,20 +1203,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 34,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 11,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1351,15 +1221,23 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 24,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "relyef-sushi-gory",
+          "title": "Рельеф суши: горы",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "v-rycarskom-zamke",
+          "title": "В рыцарском замке",
+          "section": "Феодалы и крестьяне"
+        },
+        "istoriya-rossii": {
+          "slug": "povsednevnaya-zhizn-naseleniya",
+          "title": "Повседневная жизнь населения Древней Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1373,19 +1251,14 @@
           "title": "Виды спорта",
           "section": "Спорт"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 35,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 12,
-          "total": 32
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "leskov-levsha",
+          "title": "Н. С. Лесков «Левша»",
+          "section": "Поэзия и проза середины XIX века"
         }
       }
     },
@@ -1400,15 +1273,15 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 25,
-          "total": 67
+        "biology": {
+          "slug": "mineralnoe-pitanie",
+          "title": "Обмен веществ и минеральное питание растений",
+          "section": "Жизнедеятельность растений"
         },
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1422,15 +1295,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 36,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1440,20 +1309,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 37,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 12,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1467,15 +1327,23 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 26,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "relyef-sushi-ravniny",
+          "title": "Рельеф суши: равнины",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "formirovanie-srednevekovyh-gorodov",
+          "title": "Формирование средневековых городов. Городское ремесло",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "politicheskaya-razdroblennost",
+          "title": "Политическая раздробленность на Руси",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1493,20 +1361,11 @@
           "title": "Спортивные соревнования и выдающиеся спортсмены",
           "section": "Спорт"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 38,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 13,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1516,15 +1375,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 27,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "chehov-tolstyy-tonkiy",
+          "title": "А. П. Чехов «Толстый и тонкий»",
+          "section": "Поэзия и проза середины XIX века"
+        }
       }
     },
     {
@@ -1538,15 +1397,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 39,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1560,20 +1415,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 40,
-          "total": 99
-        },
-        "history": null,
         "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 13,
-          "total": 33
+          "slug": "fotosintez-dyhanie",
+          "title": "Фотосинтез и дыхание растений",
+          "section": "Жизнедеятельность растений"
         },
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1583,15 +1433,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 28,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "torgovlya-v-srednie-veka",
+          "title": "Торговля в Средние века",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "vladimiro-suzdalskoe-knyazhestvo",
+          "title": "Владимиро-Суздальское княжество",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1609,20 +1463,15 @@
           "title": "Школьная жизнь и школьные предметы",
           "section": "Школа"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 41,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
         "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 14,
-          "total": 32
-        }
+          "slug": "relyef-dna-okeanov",
+          "title": "Рельеф дна океанов",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1636,15 +1485,15 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 29,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "priroda-v-poezii-xix",
+          "title": "Родная природа в стихотворениях поэтов XIX века",
+          "section": "Родная природа в поэзии XIX века"
+        }
       }
     },
     {
@@ -1654,15 +1503,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 42,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1676,20 +1521,11 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 43,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 14,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1703,15 +1539,19 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 30,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "gorozhane-i-obraz-zhizni",
+          "title": "Горожане и их образ жизни",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "novgorodskaya-respublika",
+          "title": "Новгородская республика",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1725,20 +1565,15 @@
           "title": "Правила поведения в школе",
           "section": "Школа"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 44,
-          "total": 99
+        "biology": {
+          "slug": "peredvizhenie-vydelenie",
+          "title": "Передвижение веществ и выделение у растений",
+          "section": "Жизнедеятельность растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 15,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1752,15 +1587,19 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 31,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "litosfera-i-chelovek",
+          "title": "Литосфера и человек",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "kuprin-chudesny-doktor",
+          "title": "А. И. Куприн «Чудесный доктор»",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -1774,15 +1613,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 45,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1792,20 +1627,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 46,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 15,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1819,15 +1645,19 @@
           "section": "Дроби"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 32,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "mogushestvo-papskoy-vlasti",
+          "title": "Могущество папской власти. Церковь и еретики",
+          "section": "Католическая церковь. Крестовые походы"
+        },
+        "istoriya-rossii": {
+          "slug": "yuzhnye-yugo-zapadnye-knyazhestva",
+          "title": "Южные и юго-западные русские княжества",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
       }
     },
     {
@@ -1845,15 +1675,11 @@
           "title": "Переписка с зарубежными сверстниками",
           "section": "Школа"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 33,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1863,20 +1689,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 47,
-          "total": 99
+        "biology": {
+          "slug": "prorastanie-rost-razvitie",
+          "title": "Прорастание семян, рост и развитие растений",
+          "section": "Жизнедеятельность растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 16,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1890,15 +1711,19 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 34,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "atmosfera-stroenie",
+          "title": "Атмосфера: строение, значение, изучение",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "platonov-neizvestny-cvetok",
+          "title": "А. П. Платонов «Неизвестный цветок»",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -1912,15 +1737,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 48,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1930,20 +1751,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 49,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 16,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -1961,15 +1773,19 @@
           "title": "Путешествия: виды отдыха и снаряжение",
           "section": "Путешествия и каникулы"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 35,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "krestovye-pohody",
+          "title": "Крестовые походы",
+          "section": "Католическая церковь. Крестовые походы"
+        },
+        "istoriya-rossii": {
+          "slug": "mongolskaya-imperiya",
+          "title": "Монгольская империя и изменение политической карты мира",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -1983,20 +1799,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 50,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 17,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2010,15 +1817,19 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 36,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "temperatura-vozduha",
+          "title": "Температура воздуха",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "proizvedeniya-o-vov",
+          "title": "Произведения о Великой Отечественной войне",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -2028,15 +1839,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 51,
-          "total": 99
+        "biology": {
+          "slug": "razmnozhenie-rasteniy",
+          "title": "Размножение растений: половое и вегетативное",
+          "section": "Жизнедеятельность растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2054,20 +1865,11 @@
           "title": "Каникулы: планы и впечатления",
           "section": "Путешествия и каникулы"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 52,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 17,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2081,15 +1883,19 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 37,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obedinenie-francii",
+          "title": "Как происходило объединение Франции",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "batyevo-nashestvie",
+          "title": "Батыево нашествие на Русь",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2099,20 +1905,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 53,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 18,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2126,15 +1923,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 38,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2148,15 +1941,19 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 54,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "atmosfernoe-davlenie-veter",
+          "title": "Атмосферное давление и ветер",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "astafyev-kon-s-rozovoy-grivoy",
+          "title": "В. П. Астафьев «Конь с розовой гривой»",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -2170,20 +1967,15 @@
           "title": "Знаменитые путешественники и открытия",
           "section": "Путешествия и каникулы"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 55,
-          "total": 99
-        },
-        "history": null,
         "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 18,
-          "total": 33
+          "slug": "sistematika-vodorosli",
+          "title": "Систематика растений и водоросли",
+          "section": "Многообразие растений"
         },
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2197,15 +1989,19 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 39,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "nachalo-svobod-anglii",
+          "title": "Что англичане считают началом своих свобод",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "aleksandr-nevsky",
+          "title": "Северо-Западная Русь между Востоком и Западом. Александр Невский",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2219,20 +2015,11 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 56,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 19,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2242,15 +2029,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 40,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2264,15 +2047,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 57,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "rasputin-uroki-francuzskogo",
+          "title": "В. Г. Распутин «Уроки французского»",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -2290,20 +2073,15 @@
           "title": "Профессии и планы на будущее",
           "section": "Мир профессий"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 58,
-          "total": 99
+        "biology": null,
+        "geography": {
+          "slug": "vlazhnost-oblaka-osadki",
+          "title": "Влажность воздуха, облака, атмосферные осадки",
+          "section": "Атмосфера"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 19,
-          "total": 33
-        },
-        "geography": null
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2313,15 +2091,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 41,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "stoletnyaya-voyna",
+          "title": "Столетняя война",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "zolotaya-orda",
+          "title": "Золотая Орда: государственный строй, население, культура",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2335,20 +2117,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 59,
-          "total": 99
+        "biology": {
+          "slug": "mhi-plauny-hvoschi-paporotniki",
+          "title": "Мхи, плауны, хвощи и папоротники",
+          "section": "Многообразие растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 20,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2362,15 +2139,11 @@
           "section": "Фигуры на плоскости"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 42,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2380,15 +2153,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 60,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "rubcov-stihi",
+          "title": "Н. М. Рубцов: стихотворения",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -2406,20 +2179,11 @@
           "title": "Работа и карьера",
           "section": "Мир профессий"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 61,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 20,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2433,15 +2197,23 @@
           "section": "Буквенные выражения и уравнения"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 43,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "pogoda-i-klimat",
+          "title": "Погода и климат",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "usilenie-korolevskoy-vlasti",
+          "title": "Усиление королевской власти во Франции и в Англии",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "litovskoe-gosudarstvo-i-rus",
+          "title": "Литовское государство и Русь",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2451,20 +2223,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 62,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 21,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2478,15 +2241,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 44,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2500,15 +2259,15 @@
           "section": "Буквенные выражения и уравнения"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 63,
-          "total": 99
+        "biology": {
+          "slug": "golosemennye",
+          "title": "Отдел Голосеменные",
+          "section": "Многообразие растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2522,20 +2281,15 @@
           "title": "Природа: дикие и домашние животные",
           "section": "Природа и погода"
         },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
         "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 64,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 21,
-          "total": 33
-        },
-        "geography": null
+          "slug": "pisateli-ulybayutsya",
+          "title": "Писатели улыбаются: В. М. Шукшин «Критики», Ф. Искандер",
+          "section": "Русская литература XX века"
+        }
       }
     },
     {
@@ -2549,15 +2303,23 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 45,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "atmosfera-i-chelovek",
+          "title": "Атмосфера и человек",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "rekonkista",
+          "title": "Реконкиста и централизованные государства на Пиренеях",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "usilenie-moskovskogo-knyazhestva",
+          "title": "Усиление Московского княжества",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2571,20 +2333,11 @@
           "section": "Буквенные выражения и уравнения"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 65,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 22,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2594,15 +2347,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 46,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2616,15 +2365,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 66,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2642,20 +2387,19 @@
           "title": "Погода и климат",
           "section": "Природа и погода"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 67,
-          "total": 99
-        },
-        "history": null,
         "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 22,
-          "total": 33
+          "slug": "pokrytosemennye-dvudolnye",
+          "title": "Покрытосеменные: класс Двудольные",
+          "section": "Многообразие растений"
         },
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "priroda-v-poezii-xx",
+          "title": "Родная природа в стихотворениях поэтов XX века",
+          "section": "Родная природа в поэзии XX века и литература народов России"
+        }
       }
     },
     {
@@ -2665,15 +2409,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 47,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2687,20 +2427,23 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 68,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
         "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 23,
-          "total": 32
-        }
+          "slug": "sostav-gidrosfery-mirovoy-okean",
+          "title": "Состав гидросферы. Мировой океан",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "germaniya-i-italiya",
+          "title": "Раздробленные государства: Германия и Италия",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "kulikovskaya-bitva",
+          "title": "Объединение русских земель вокруг Москвы. Куликовская битва",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2714,15 +2457,11 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 48,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2732,15 +2471,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 69,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2758,20 +2493,15 @@
           "title": "Город: транспорт и достопримечательности",
           "section": "Жизнь в городе и селе"
         },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
         "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 70,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 23,
-          "total": 33
-        },
-        "geography": null
+          "slug": "literatura-narodov-rossii",
+          "title": "Из литературы народов России: Г. Тукай, К. Кулиев",
+          "section": "Родная природа в поэзии XX века и литература народов России"
+        }
       }
     },
     {
@@ -2785,15 +2515,11 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 49,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2803,20 +2529,23 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 71,
-          "total": 99
+        "biology": {
+          "slug": "pokrytosemennye-odnodolnye",
+          "title": "Покрытосеменные: класс Однодольные",
+          "section": "Многообразие растений"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 24,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "gusitskoe-dvizhenie",
+          "title": "Гуситское движение в Чехии",
+          "section": "Славянские государства и Византия"
+        },
+        "istoriya-rossii": {
+          "slug": "kultura-rusi-xiii-xiv",
+          "title": "Развитие культуры в русских землях в XIII-XIV веках",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
       }
     },
     {
@@ -2830,15 +2559,15 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 50,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "vody-okeana",
+          "title": "Воды океана: течения, волны, приливы",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2852,15 +2581,11 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 72,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2874,20 +2599,11 @@
           "title": "Жизнь в сельской местности",
           "section": "Жизнь в городе и селе"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 73,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 24,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2901,15 +2617,15 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 51,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "mify-drevney-grecii",
+          "title": "Мифы Древней Греции: подвиги Геракла",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -2923,20 +2639,19 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 74,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 25,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "zavoevanie-turkami-balkan",
+          "title": "Завоевание турками-османами Балканского полуострова",
+          "section": "Славянские государства и Византия"
+        },
+        "istoriya-rossii": {
+          "slug": "russkie-zemli-nachalo-xv",
+          "title": "Русские земли на карте Европы и мира в начале XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
       }
     },
     {
@@ -2946,15 +2661,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 52,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "reki",
+          "title": "Реки: части, питание, режим",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2972,15 +2687,15 @@
           "title": "Мой город: описание",
           "section": "Жизнь в городе и селе"
         },
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 75,
-          "total": 99
+        "biology": {
+          "slug": "etapy-razvitiya-rasteniy",
+          "title": "Основные этапы развития растительного мира",
+          "section": "Развитие растительного мира"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -2994,20 +2709,11 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 76,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 25,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3017,15 +2723,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 53,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "gerodot-legenda-ob-arione",
+          "title": "Геродот. «Легенда об Арионе»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3039,15 +2745,19 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 77,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-i-filosofiya",
+          "title": "Образование и философия в Средние века",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "moskovskoe-knyazhestvo-pervaya-polovina-xv",
+          "title": "Московское княжество в первой половине XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
       }
     },
     {
@@ -3061,20 +2771,11 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 78,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 26,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3088,15 +2789,15 @@
           "title": "Средства массовой информации",
           "section": "СМИ и коммуникации"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 54,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "ozera-podzemnye-vody-ledniki",
+          "title": "Озёра, подземные воды, ледники и многолетняя мерзлота",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3110,20 +2811,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 79,
-          "total": 99
+        "biology": {
+          "slug": "kulturnye-rasteniya",
+          "title": "Происхождение культурных растений",
+          "section": "Развитие растительного мира"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 26,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3137,15 +2833,15 @@
           "section": "Положительные и отрицательные числа"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 55,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "gomer-iliada-odisseya",
+          "title": "Гомер «Илиада» и «Одиссея»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3155,15 +2851,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 80,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-literatura-iskusstvo",
+          "title": "Средневековая литература и искусство",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "raspad-zolotoy-ordy",
+          "title": "Распад Золотой Орды и его последствия",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
       }
     },
     {
@@ -3177,20 +2877,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 81,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 27,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3208,15 +2899,11 @@
           "title": "Великобритания: страны и символы",
           "section": "Родная страна и страна изучаемого языка"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 56,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3226,20 +2913,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 82,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
         "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 27,
-          "total": 32
-        }
+          "slug": "gidrosfera-i-chelovek",
+          "title": "Гидросфера и человек",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3253,15 +2935,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 57,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3275,15 +2953,19 @@
           "section": "Координаты и диаграммы"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 83,
-          "total": 99
+        "biology": {
+          "slug": "ponyatie-o-soobschestve",
+          "title": "Понятие о природном сообществе, совместная жизнь организмов",
+          "section": "Природные сообщества"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "servantes-don-kihot",
+          "title": "М. де Сервантес «Дон Кихот»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3293,20 +2975,19 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 84,
-          "total": 99
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-rannego-vozrozhdeniya",
+          "title": "Культура раннего Возрождения в Италии",
+          "section": "Культура Западной Европы в Средние века"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 28,
-          "total": 33
+        "istoriya-rossii": {
+          "slug": "moskovskoe-gosudarstvo-i-sosedi",
+          "title": "Московское государство и его соседи во второй половине XV века",
+          "section": "Формирование единого Русского государства"
         },
-        "geography": null
+        "literature": null
       }
     },
     {
@@ -3324,15 +3005,11 @@
           "title": "Достопримечательности и традиции",
           "section": "Родная страна и страна изучаемого языка"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 58,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3346,20 +3023,11 @@
           "section": "Координаты и диаграммы"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 85,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 28,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3369,15 +3037,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 59,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "biosfera-zemnaya-obolochka",
+          "title": "Биосфера — оболочка жизни",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3391,15 +3059,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 86,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "shiller-perchatka",
+          "title": "Ф. Шиллер «Перчатка»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3413,20 +3081,19 @@
           "section": "Координаты и диаграммы"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 87,
-          "total": 99
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "nauchnye-otkrytiya-izobreteniya",
+          "title": "Научные открытия и изобретения",
+          "section": "Культура Западной Европы в Средние века"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 29,
-          "total": 33
+        "istoriya-rossii": {
+          "slug": "russkaya-pravoslavnaya-cerkov-xv",
+          "title": "Русская православная церковь в XV — начале XVI века",
+          "section": "Формирование единого Русского государства"
         },
-        "geography": null
+        "literature": null
       }
     },
     {
@@ -3440,15 +3107,15 @@
           "title": "Родная страна: география и культура",
           "section": "Родная страна и страна изучаемого языка"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 60,
-          "total": 67
+        "biology": {
+          "slug": "smena-mnogoobrazie-soobschestv",
+          "title": "Смена и многообразие природных сообществ",
+          "section": "Природные сообщества"
         },
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3462,20 +3129,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 88,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 29,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3489,15 +3147,15 @@
           "section": "Координаты и диаграммы"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 61,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "pochva",
+          "title": "Почва и её плодородие",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3507,15 +3165,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 89,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "merime-matteo-falkone",
+          "title": "П. Мериме «Маттео Фальконе»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3529,20 +3187,19 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 90,
-          "total": 99
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-aziya",
+          "title": "Средневековая Азия: Китай, Индия, Япония",
+          "section": "Народы Азии, Америки и Африки"
         },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 30,
-          "total": 33
+        "istoriya-rossii": {
+          "slug": "chelovek-v-rossiyskom-gosudarstve",
+          "title": "Человек в Российском государстве второй половины XV века",
+          "section": "Формирование единого Русского государства"
         },
-        "geography": null
+        "literature": null
       }
     },
     {
@@ -3560,15 +3217,11 @@
           "title": "Выдающиеся люди: наука и искусство",
           "section": "Выдающиеся люди"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 62,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3578,20 +3231,15 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 91,
-          "total": 99
+        "biology": {
+          "slug": "chelovek-i-soobschestva",
+          "title": "Влияние человека на природные сообщества и их охрана",
+          "section": "Природные сообщества"
         },
-        "history": null,
-        "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 30,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3605,15 +3253,11 @@
         },
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 63,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3627,15 +3271,15 @@
           "section": "Фигуры в пространстве"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 92,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": {
+          "slug": "prirodny-kompleks",
+          "title": "Природный комплекс и географическая оболочка",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3645,20 +3289,23 @@
         "russian": null,
         "math": null,
         "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "afrika-i-dokolumbova-amerika",
+          "title": "Государства и народы Африки и доколумбовой Америки",
+          "section": "Народы Азии, Америки и Африки"
+        },
+        "istoriya-rossii": {
+          "slug": "kultura-edinogo-gosudarstva",
+          "title": "Формирование культурного пространства единого государства",
+          "section": "Формирование единого Русского государства"
+        },
         "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 93,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 31,
-          "total": 33
-        },
-        "geography": null
+          "slug": "sent-ekzyuperi-malenky-princ",
+          "title": "А. де Сент-Экзюпери «Маленький принц»",
+          "section": "Из зарубежной литературы"
+        }
       }
     },
     {
@@ -3676,15 +3323,11 @@
           "title": "Выдающиеся люди: спорт и литература",
           "section": "Выдающиеся люди"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 64,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3698,20 +3341,11 @@
           "section": "Фигуры в пространстве"
         },
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 94,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 31,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3721,15 +3355,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 65,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3743,15 +3373,15 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 95,
-          "total": 99
+        "biology": {
+          "slug": "itogovoe-povtorenie-biologiya",
+          "title": "Итоговое повторение курса биологии за 6 класс",
+          "section": "Итоговое повторение"
         },
-        "history": null,
-        "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3765,20 +3395,27 @@
           "section": "Фигуры в пространстве"
         },
         "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "itogovoe-povtorenie-geografiya",
+          "title": "Итоговое повторение курса географии за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "itogovoe-povtorenie-vseobschaya",
+          "title": "Итоговое повторение курса истории Средних веков",
+          "section": "Итоговое повторение"
+        },
+        "istoriya-rossii": {
+          "slug": "itogovoe-povtorenie-istoriya-rossii",
+          "title": "Итоговое повторение курса истории России за 6 класс",
+          "section": "Итоговое повторение"
+        },
         "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 96,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 32,
-          "total": 33
-        },
-        "geography": null
+          "slug": "itogovoe-povtorenie-literatura",
+          "title": "Итоговое повторение курса литературы за 6 класс",
+          "section": "Итоговое повторение"
+        }
       }
     },
     {
@@ -3792,15 +3429,11 @@
           "title": "Итоговое повторение курса английского языка за 6 класс",
           "section": "Итоговое повторение"
         },
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 66,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3814,20 +3447,11 @@
         },
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 97,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": {
-          "generic": true,
-          "title": "География",
-          "lesson_number": 32,
-          "total": 32
-        }
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3841,15 +3465,11 @@
           "section": "Итоговое повторение"
         },
         "english": null,
-        "literature": null,
-        "history": {
-          "generic": true,
-          "title": "История",
-          "lesson_number": 67,
-          "total": 67
-        },
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3859,15 +3479,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 98,
-          "total": 99
-        },
-        "history": null,
         "biology": null,
-        "geography": null
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     },
     {
@@ -3877,20 +3493,11 @@
         "russian": null,
         "math": null,
         "english": null,
-        "literature": {
-          "generic": true,
-          "title": "Литература",
-          "lesson_number": 99,
-          "total": 99
-        },
-        "history": null,
-        "biology": {
-          "generic": true,
-          "title": "Биология",
-          "lesson_number": 33,
-          "total": 33
-        },
-        "geography": null
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
       }
     }
   ]

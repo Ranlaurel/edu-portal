@@ -1,0 +1,84 @@
+{
+  "subject": {"name": "Литература", "slug": "literature"},
+  "sections": [
+    {
+      "name": "Устное народное творчество и древнерусская литература",
+      "order": 1,
+      "topics": [
+        {"slug": "obryadovy-folklor-poslovicy", "title": "Обрядовый фольклор. Пословицы и поговорки", "order": 1},
+        {"slug": "povest-vremennyh-let", "title": "Древнерусская литература: «Повесть временных лет»", "order": 2}
+      ]
+    },
+    {
+      "name": "Русская литература XVIII-XIX веков: начало",
+      "order": 2,
+      "topics": [
+        {"slug": "dmitriev-basni-krylova", "title": "И. И. Дмитриев и басни И. А. Крылова", "order": 1},
+        {"slug": "pushkin-litsey-stihi", "title": "А. С. Пушкин: лицейские годы, «Узник», «Зимнее утро»", "order": 2},
+        {"slug": "dubrovsky-nachalo", "title": "А. С. Пушкин «Дубровский»: сюжет и главные герои", "order": 3},
+        {"slug": "dubrovsky-konflikt", "title": "А. С. Пушкин «Дубровский»: конфликт и судьба героев", "order": 4}
+      ]
+    },
+    {
+      "name": "Поэзия и проза середины XIX века",
+      "order": 3,
+      "topics": [
+        {"slug": "baratynsky-stihi", "title": "Е. А. Баратынский: стихотворения", "order": 1},
+        {"slug": "lermontov-stihi", "title": "М. Ю. Лермонтов: «Тучи», «Утёс», «На севере диком...», «Три пальмы»", "order": 2},
+        {"slug": "turgenev-bezhin-lug", "title": "И. С. Тургенев «Бежин луг»", "order": 3},
+        {"slug": "tyutchev-fet-stihi", "title": "Ф. И. Тютчев и А. А. Фет: пейзажная лирика", "order": 4},
+        {"slug": "nekrasov-zheleznaya-doroga", "title": "Н. А. Некрасов «Железная дорога»", "order": 5},
+        {"slug": "leskov-levsha", "title": "Н. С. Лесков «Левша»", "order": 6},
+        {"slug": "chehov-tolstyy-tonkiy", "title": "А. П. Чехов «Толстый и тонкий»", "order": 7}
+      ]
+    },
+    {
+      "name": "Родная природа в поэзии XIX века",
+      "order": 4,
+      "topics": [
+        {"slug": "priroda-v-poezii-xix", "title": "Родная природа в стихотворениях поэтов XIX века", "order": 1}
+      ]
+    },
+    {
+      "name": "Русская литература XX века",
+      "order": 5,
+      "topics": [
+        {"slug": "kuprin-chudesny-doktor", "title": "А. И. Куприн «Чудесный доктор»", "order": 1},
+        {"slug": "platonov-neizvestny-cvetok", "title": "А. П. Платонов «Неизвестный цветок»", "order": 2},
+        {"slug": "proizvedeniya-o-vov", "title": "Произведения о Великой Отечественной войне", "order": 3},
+        {"slug": "astafyev-kon-s-rozovoy-grivoy", "title": "В. П. Астафьев «Конь с розовой гривой»", "order": 4},
+        {"slug": "rasputin-uroki-francuzskogo", "title": "В. Г. Распутин «Уроки французского»", "order": 5},
+        {"slug": "rubcov-stihi", "title": "Н. М. Рубцов: стихотворения", "order": 6},
+        {"slug": "pisateli-ulybayutsya", "title": "Писатели улыбаются: В. М. Шукшин «Критики», Ф. Искандер", "order": 7}
+      ]
+    },
+    {
+      "name": "Родная природа в поэзии XX века и литература народов России",
+      "order": 6,
+      "topics": [
+        {"slug": "priroda-v-poezii-xx", "title": "Родная природа в стихотворениях поэтов XX века", "order": 1},
+        {"slug": "literatura-narodov-rossii", "title": "Из литературы народов России: Г. Тукай, К. Кулиев", "order": 2}
+      ]
+    },
+    {
+      "name": "Из зарубежной литературы",
+      "order": 7,
+      "topics": [
+        {"slug": "mify-drevney-grecii", "title": "Мифы Древней Греции: подвиги Геракла", "order": 1},
+        {"slug": "gerodot-legenda-ob-arione", "title": "Геродот. «Легенда об Арионе»", "order": 2},
+        {"slug": "gomer-iliada-odisseya", "title": "Гомер «Илиада» и «Одиссея»", "order": 3},
+        {"slug": "servantes-don-kihot", "title": "М. де Сервантес «Дон Кихот»", "order": 4},
+        {"slug": "shiller-perchatka", "title": "Ф. Шиллер «Перчатка»", "order": 5},
+        {"slug": "merime-matteo-falkone", "title": "П. Мериме «Маттео Фальконе»", "order": 6},
+        {"slug": "sent-ekzyuperi-malenky-princ", "title": "А. де Сент-Экзюпери «Маленький принц»", "order": 7}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 8,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-literatura", "title": "Итоговое повторение курса литературы за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

@@ -148,23 +148,7 @@ sudo systemctl restart edu-portal
 шаги, что выше — код обновится и сервис перезапустится без ручных команд.
 Workflow уже в репозитории: `.github/workflows/deploy.yml`.
 
-### 1. Разрешить деплой-пользователю запускать systemctl без пароля
-
-Workflow дёргает `sudo systemctl restart edu-portal` — если под деплой-юзером
-это потребует пароль, шаг зависнет. На сервере:
-
-```bash
-sudo visudo -f /etc/sudoers.d/edu-portal-deploy
-```
-
-Впиши (замени `user` на реального пользователя, под которым будет заходить
-Actions):
-
-```
-user ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart edu-portal, /usr/bin/systemctl is-active --quiet edu-portal
-```
-
-### 2. Добавить SSH-ключ на сервер
+### 1. Добавить SSH-ключ на сервер
 
 Уже сгенерирован отдельный ключ только для деплоя (не твой личный). Публичный
 ключ — допиши его в `~/.ssh/authorized_keys` того пользователя, под которым
@@ -179,23 +163,23 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHE9duSuCoUklnLEF3sqFXuvypExdcojtmEssDn9obFu
 Secrets (следующий шаг), или сгенерируй свою пару командой
 `ssh-keygen -t ed25519 -f deploy_key -N ""` и используй её вместо этой.
 
-### 3. Добавить секреты в GitHub
+### 2. Добавить секреты в GitHub
 
 Repo → Settings → Secrets and variables → Actions → New repository secret:
 
 | Имя | Значение |
 |---|---|
 | `SSH_HOST` | IP или домен сервера |
-| `SSH_USER` | пользователь для SSH (тот же, что в шаге 1-2) |
+| `SSH_USER` | `root` (или твой пользователь для SSH) |
 | `SSH_PRIVATE_KEY` | содержимое приватного ключа целиком (`-----BEGIN...-----END...`) |
 | `SSH_PORT` | порт SSH, если не 22 (необязательно) |
-| `DEPLOY_PATH` | `/var/www/edu-portal` (или твой путь) |
+| `DEPLOY_PATH` | `/var/www/edu-portal` |
 
-### 4. Проверка
+### 3. Проверка
 
 Пушни что-нибудь в `main` (или запусти workflow вручную: Actions →
 "Deploy to VPS" → Run workflow) и посмотри вкладку Actions — должен пройти
-зелёным. Если упадёт на `sudo systemctl restart` — вернись к шагу 1.
+зелёным.
 
 ## Дальше
 

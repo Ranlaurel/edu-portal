@@ -61,20 +61,22 @@ pipeline/load_content.py                # content/ → portal.db (безопас
 Предполагается сервер, уже настроенный аналогично `threads-automation` (nginx +
 Python 3.11+ уже стоят). Шаблоны конфигов лежат в `deploy/`.
 
-### 1. Собрать и залить код на сервер
+### 1. Получить код на сервер
 
-Локально (Git Bash), из корня проекта — упаковываем без `.venv`/`portal.db`/кэшей и
-льём на сервер через `tar` по SSH (не нужен ни git, ни rsync):
+Репозиторий: https://github.com/Ranlaurel/edu-portal. Клонируем на сервере через
+git — так же будет работать автодеплой (см. ниже), не только первая заливка:
 
 ```bash
-tar --exclude='.venv' --exclude='portal.db' --exclude='__pycache__' --exclude='.claude' \
-    -czf - . | ssh user@your-server-ip "mkdir -p /var/www/edu-portal && tar -xzf - -C /var/www/edu-portal"
+ssh user@your-server-ip
+sudo mkdir -p /var/www/edu-portal && sudo chown $USER:$USER /var/www/edu-portal
+git clone https://github.com/Ranlaurel/edu-portal.git /var/www/edu-portal
 ```
 
 Замени `user@your-server-ip` на свои реальные логин/IP сервера. Если каталог
 `/var/www/edu-portal` уже существует и должен принадлежать конкретному
 пользователю (как на threads-automation) — поправь путь и владельца под свою
-конвенцию.
+конвенцию (и не забудь поправить `WorkingDirectory` в `deploy/edu-portal.service`
+и `DEPLOY_PATH` в GitHub-секретах на тот же путь).
 
 ### 2. На сервере: окружение и БД
 
@@ -128,17 +130,72 @@ curl -I https://edu.rvnza.ru
 
 Должен вернуться `200 OK`. Дальше открывай `https://edu.rvnza.ru` в браузере.
 
-### Обновление контента после деплоя
-
-Когда добавишь новые темы или поправишь существующие — повторить шаг 1 (заливка
-кода), затем на сервере:
+### Обновление контента вручную (без автодеплоя)
 
 ```bash
+ssh user@your-server-ip
 cd /var/www/edu-portal
+git pull
+.venv/bin/pip install -q -r requirements.txt
 .venv/bin/python pipeline/load_content.py
 .venv/bin/python pipeline/build_schedule.py
 sudo systemctl restart edu-portal
 ```
+
+## Автодеплой через GitHub Actions
+
+После пуша в `main` GitHub Actions сам зайдёт на сервер по SSH и прогонит те же
+шаги, что выше — код обновится и сервис перезапустится без ручных команд.
+Workflow уже в репозитории: `.github/workflows/deploy.yml`.
+
+### 1. Разрешить деплой-пользователю запускать systemctl без пароля
+
+Workflow дёргает `sudo systemctl restart edu-portal` — если под деплой-юзером
+это потребует пароль, шаг зависнет. На сервере:
+
+```bash
+sudo visudo -f /etc/sudoers.d/edu-portal-deploy
+```
+
+Впиши (замени `user` на реального пользователя, под которым будет заходить
+Actions):
+
+```
+user ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart edu-portal, /usr/bin/systemctl is-active --quiet edu-portal
+```
+
+### 2. Добавить SSH-ключ на сервер
+
+Уже сгенерирован отдельный ключ только для деплоя (не твой личный). Публичный
+ключ — допиши его в `~/.ssh/authorized_keys` того пользователя, под которым
+будет заходить Actions:
+
+```
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHE9duSuCoUklnLEF3sqFXuvypExdcojtmEssDn9obFu edu-portal-deploy
+```
+
+Приватная часть ключа лежит у меня локально в скретчпаде сессии — не в
+репозитории. Попроси показать её содержимое, если нужно вставить в GitHub
+Secrets (следующий шаг), или сгенерируй свою пару командой
+`ssh-keygen -t ed25519 -f deploy_key -N ""` и используй её вместо этой.
+
+### 3. Добавить секреты в GitHub
+
+Repo → Settings → Secrets and variables → Actions → New repository secret:
+
+| Имя | Значение |
+|---|---|
+| `SSH_HOST` | IP или домен сервера |
+| `SSH_USER` | пользователь для SSH (тот же, что в шаге 1-2) |
+| `SSH_PRIVATE_KEY` | содержимое приватного ключа целиком (`-----BEGIN...-----END...`) |
+| `SSH_PORT` | порт SSH, если не 22 (необязательно) |
+| `DEPLOY_PATH` | `/var/www/edu-portal` (или твой путь) |
+
+### 4. Проверка
+
+Пушни что-нибудь в `main` (или запусти workflow вручную: Actions →
+"Deploy to VPS" → Run workflow) и посмотри вкладку Actions — должен пройти
+зелёным. Если упадёт на `sudo systemctl restart` — вернись к шагу 1.
 
 ## Дальше
 

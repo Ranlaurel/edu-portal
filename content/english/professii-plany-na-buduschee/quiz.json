@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «engineer»?",
+      "options": [
+        {"text": "инженер", "correct": true},
+        {"text": "учёный", "correct": false},
+        {"text": "художник", "correct": false}
+      ],
+      "explanation": "«Engineer» — инженер, специалист технической профессии."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Я стану врачом»?",
+      "options": [
+        {"text": "I will be a doctor.", "correct": true},
+        {"text": "I will a doctor.", "correct": false},
+        {"text": "I am will be a doctor.", "correct": false}
+      ],
+      "explanation": "После will всегда идёт глагол в базовой форме: will be."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают профессии? (выбери все верные варианты)",
+      "options": [
+        {"text": "vet", "correct": true},
+        {"text": "pilot", "correct": true},
+        {"text": "profession", "correct": false},
+        {"text": "chef", "correct": true},
+        {"text": "job", "correct": false}
+      ],
+      "explanation": "Vet, pilot, chef — конкретные профессии. Profession и job — общие слова для обозначения профессии."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ (work) as a teacher when she finishes university.",
+      "options": [
+        {"text": "will work", "correct": true},
+        {"text": "wills work", "correct": false},
+        {"text": "will works", "correct": false}
+      ],
+      "explanation": "Will не изменяется по лицам, после него глагол всегда в базовой форме без -s: will work."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you be an engineer?",
+      "options": [
+        {"text": "Will", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Are", "correct": false}
+      ],
+      "explanation": "Вопрос с будущим временем will образуется так: Will + подлежащее + глагол."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: программист",
+      "answer": "programmer",
+      "explanation": "«Программист» переводится как programmer."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: They ___ (not become) pilots.",
+      "answer": "won't become",
+      "accepted": ["won't become", "will not become"],
+      "explanation": "Отрицательная форма will: will not / won't + глагол в базовой форме."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "lawyer", "right": "юрист"},
+        {"left": "police officer", "right": "полицейский"},
+        {"left": "singer", "right": "певец"},
+        {"left": "businessman", "right": "бизнесмен"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I think robots ___ many jobs in the future.",
+      "options": [
+        {"text": "will do", "correct": true},
+        {"text": "do will", "correct": false},
+        {"text": "will did", "correct": false}
+      ],
+      "explanation": "Формула будущего времени: will + глагол в базовой форме — will do."
+    }
+  ]
+}

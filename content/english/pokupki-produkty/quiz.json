@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «shopping list»?",
+      "options": [
+        {"text": "список покупок", "correct": true},
+        {"text": "магазин", "correct": false},
+        {"text": "цена", "correct": false}
+      ],
+      "explanation": "«Shopping list» — список покупок."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: How ___ apples do you need?",
+      "options": [
+        {"text": "many", "correct": true},
+        {"text": "much", "correct": false},
+        {"text": "a lot", "correct": false}
+      ],
+      "explanation": "Apples — исчисляемое существительное во множественном числе, поэтому нужно how many."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие продукты являются неисчисляемыми (используются с how much)? (выбери все верные варианты)",
+      "options": [
+        {"text": "milk", "correct": true},
+        {"text": "eggs", "correct": false},
+        {"text": "rice", "correct": true},
+        {"text": "apples", "correct": false},
+        {"text": "sugar", "correct": true}
+      ],
+      "explanation": "Milk, rice, sugar нельзя посчитать по штукам — неисчисляемые. Eggs и apples считаются штуками — исчисляемые."
+    },
+    {
+      "type": "dropdown",
+      "text": "How ___ water is there in the bottle?",
+      "options": [
+        {"text": "much", "correct": true},
+        {"text": "many", "correct": false},
+        {"text": "few", "correct": false}
+      ],
+      "explanation": "Water — неисчисляемое существительное, используется how much."
+    },
+    {
+      "type": "dropdown",
+      "text": "We need a ___ of bread (буханка хлеба).",
+      "options": [
+        {"text": "loaf", "correct": true},
+        {"text": "bottle", "correct": false},
+        {"text": "bag", "correct": false}
+      ],
+      "explanation": "Хлеб измеряется словом loaf: a loaf of bread — буханка хлеба."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: покупать",
+      "answer": "buy",
+      "explanation": "«Покупать» переводится как buy."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово вопроса: How ___ eggs are there in the fridge?",
+      "answer": "many",
+      "explanation": "Eggs — исчисляемое существительное во множественном числе, значит how many."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "cheese", "right": "сыр"},
+        {"left": "a bottle of", "right": "бутылка (чего-то)"},
+        {"left": "price", "right": "цена"},
+        {"left": "a bag of", "right": "пакет (чего-то)"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое слово-контейнер используют для риса?",
+      "options": [
+        {"text": "a bag of rice", "correct": true},
+        {"text": "a loaf of rice", "correct": false},
+        {"text": "a piece of rice", "correct": false}
+      ],
+      "explanation": "Рис обычно продают в пакетах, поэтому говорят a bag of rice."
+    }
+  ]
+}

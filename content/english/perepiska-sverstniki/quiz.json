@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «pen friend»?",
+      "options": [
+        {"text": "друг по переписке", "correct": true},
+        {"text": "лучший друг", "correct": false},
+        {"text": "сосед", "correct": false}
+      ],
+      "explanation": "«Pen friend» (или pen pal) — друг по переписке."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: I ___ this letter right now.",
+      "options": [
+        {"text": "am writing", "correct": true},
+        {"text": "write", "correct": false},
+        {"text": "writes", "correct": false}
+      ],
+      "explanation": "«Right now» указывает на действие в момент речи, поэтому нужен Present Continuous: am writing."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы обычно используются в начале или конце письма? (выбери все верные варианты)",
+      "options": [
+        {"text": "Dear...", "correct": true},
+        {"text": "Best wishes", "correct": true},
+        {"text": "at the moment", "correct": false},
+        {"text": "Love", "correct": true},
+        {"text": "hobby", "correct": false}
+      ],
+      "explanation": "Dear, Best wishes и Love — стандартные фразы для начала и конца письма. At the moment и hobby используются в основном тексте письма."
+    },
+    {
+      "type": "dropdown",
+      "text": "My pen friend usually ___ (play) computer games after school.",
+      "options": [
+        {"text": "plays", "correct": true},
+        {"text": "is playing", "correct": false},
+        {"text": "play", "correct": false}
+      ],
+      "explanation": "Usually указывает на привычное действие — Present Simple, и для he/she добавляется -s: plays."
+    },
+    {
+      "type": "dropdown",
+      "text": "It ___ (rain) at the moment, so I'm at home.",
+      "options": [
+        {"text": "is raining", "correct": true},
+        {"text": "rains", "correct": false},
+        {"text": "rain", "correct": false}
+      ],
+      "explanation": "«At the moment» указывает на действие, происходящее сейчас — Present Continuous: is raining."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: отвечать (на письмо)",
+      "answer": "reply",
+      "explanation": "«Отвечать» на письмо переводится как reply."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: I ___ (do) my homework right now.",
+      "answer": "am doing",
+      "explanation": "«Right now» — сигнал Present Continuous: am doing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "country", "right": "страна"},
+        {"left": "hobby", "right": "хобби"},
+        {"left": "address", "right": "адрес"},
+        {"left": "How are you?", "right": "Как ты?"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое предложение описывает привычное действие (Present Simple)?",
+      "options": [
+        {"text": "I usually go to school by bus.", "correct": true},
+        {"text": "I am writing a letter now.", "correct": false},
+        {"text": "It is raining at the moment.", "correct": false}
+      ],
+      "explanation": "Usually — сигнал регулярного действия, значит Present Simple. Остальные примеры описывают действие в момент речи (Present Continuous)."
+    }
+  ]
+}

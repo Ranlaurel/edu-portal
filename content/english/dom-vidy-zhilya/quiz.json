@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «wardrobe»?",
+      "options": [
+        {"text": "шкаф", "correct": true},
+        {"text": "полка", "correct": false},
+        {"text": "диван", "correct": false}
+      ],
+      "explanation": "«Wardrobe» — шкаф (для одежды)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «в гостиной есть диван»?",
+      "options": [
+        {"text": "There is a sofa in the living room", "correct": true},
+        {"text": "There are a sofa in the living room", "correct": false},
+        {"text": "There a sofa in the living room", "correct": false}
+      ],
+      "explanation": "Sofa — единственное число, поэтому используется there is."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к комнатам в доме? (выбери все верные варианты)",
+      "options": [
+        {"text": "bedroom", "correct": true},
+        {"text": "shelf", "correct": false},
+        {"text": "kitchen", "correct": true},
+        {"text": "lamp", "correct": false},
+        {"text": "bathroom", "correct": true}
+      ],
+      "explanation": "Bedroom, kitchen, bathroom — комнаты. Shelf (полка) и lamp (лампа) — предметы мебели/интерьера, а не комнаты."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ there any shelves in your room?",
+      "options": [
+        {"text": "Are", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Do", "correct": false}
+      ],
+      "explanation": "Shelves — множественное число, поэтому в вопросе используется are there."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a garage near our house.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "Garage — единственное число, значит нужна форма there is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: гостиная",
+      "answer": "living room",
+      "explanation": "«Гостиная» переводится как living room."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: There ___ two bedrooms in our flat.",
+      "answer": "are",
+      "explanation": "Two bedrooms — множественное число, значит there are."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "kitchen", "right": "кухня"},
+        {"left": "garden", "right": "сад"},
+        {"left": "stairs", "right": "лестница"},
+        {"left": "furniture", "right": "мебель"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "There isn't a garage ___ our house.",
+      "options": [
+        {"text": "near", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "on", "correct": false}
+      ],
+      "explanation": "Предлог near (рядом с) правильно указывает на расположение гаража возле дома."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «underground»?",
+      "options": [
+        {"text": "метро", "correct": true},
+        {"text": "автобус", "correct": false},
+        {"text": "такси", "correct": false}
+      ],
+      "explanation": "«Underground» (британский вариант) — метро."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «мост находится между площадью и станцией»?",
+      "options": [
+        {"text": "The bridge is between the square and the station.", "correct": true},
+        {"text": "The bridge is next to the square and the station.", "correct": false},
+        {"text": "The bridge is opposite the square and the station.", "correct": false}
+      ],
+      "explanation": "«Between» переводится как «между» и используется, когда объект находится между двумя другими."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к видам транспорта? (выбери все верные варианты)",
+      "options": [
+        {"text": "taxi", "correct": true},
+        {"text": "museum", "correct": false},
+        {"text": "tram", "correct": true},
+        {"text": "bridge", "correct": false},
+        {"text": "bus", "correct": true}
+      ],
+      "explanation": "Taxi, tram и bus — виды транспорта. Museum (музей) и bridge (мост) — не транспорт."
+    },
+    {
+      "type": "dropdown",
+      "text": "The bus stop is ___ the library (напротив библиотеки).",
+      "options": [
+        {"text": "opposite", "correct": true},
+        {"text": "between", "correct": false},
+        {"text": "next to", "correct": false}
+      ],
+      "explanation": "«Opposite» означает «напротив» — именно этот предлог нужен по смыслу."
+    },
+    {
+      "type": "dropdown",
+      "text": "The church is ___ Green Street (на углу улицы).",
+      "options": [
+        {"text": "on the corner of", "correct": true},
+        {"text": "opposite of", "correct": false},
+        {"text": "between of", "correct": false}
+      ],
+      "explanation": "«On the corner of» — устойчивое выражение «на углу (улицы)»."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: площадь",
+      "answer": "square",
+      "explanation": "«Площадь» переводится как square."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: The museum is ___ the park (рядом с парком).",
+      "answer": "next to",
+      "explanation": "«Рядом с» переводится предлогом next to."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "bridge", "right": "мост"},
+        {"left": "square", "right": "площадь"},
+        {"left": "museum", "right": "музей"},
+        {"left": "station", "right": "вокзал"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «Как мне добраться до музея?»",
+      "options": [
+        {"text": "How can I get to the museum?", "correct": true},
+        {"text": "How I can get the museum?", "correct": false},
+        {"text": "How can I get the museum?", "correct": false}
+      ],
+      "explanation": "Правильная конструкция: How can I get to + место."
+    }
+  ]
+}

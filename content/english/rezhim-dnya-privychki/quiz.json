@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «get up»?",
+      "options": [
+        {"text": "вставать", "correct": true},
+        {"text": "ложиться спать", "correct": false},
+        {"text": "просыпаться", "correct": false}
+      ],
+      "explanation": "«Get up» — вставать (с постели), в отличие от «wake up» — просыпаться."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: My father ___ breakfast at 8 o'clock.",
+      "options": [
+        {"text": "has", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "having", "correct": false}
+      ],
+      "explanation": "В Present Simple для he/she/it глагол have меняется на has."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с утренним распорядком? (выбери все верные варианты)",
+      "options": [
+        {"text": "wake up", "correct": true},
+        {"text": "go to bed", "correct": false},
+        {"text": "brush teeth", "correct": true},
+        {"text": "have dinner", "correct": false},
+        {"text": "get dressed", "correct": true}
+      ],
+      "explanation": "Wake up, brush teeth, get dressed — обычно утренние действия. Go to bed и have dinner относятся к вечеру."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ (usually) does his homework in the evening.",
+      "options": [
+        {"text": "usually", "correct": true},
+        {"text": "usual", "correct": false},
+        {"text": "usually is", "correct": false}
+      ],
+      "explanation": "Наречие частотности usually ставится перед основным глаголом does."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ never late for school (мы никогда не опаздываем).",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "С прилагательным late используется глагол to be: we are never late."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: привычка",
+      "answer": "habit",
+      "explanation": "«Привычка» переводится как habit."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: She ___ (always/take) a shower in the morning.",
+      "answer": "always takes",
+      "accepted": ["always takes"],
+      "explanation": "Present Simple: для she добавляем -s к глаголу, take → takes, always ставим перед глаголом."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "wake up", "right": "просыпаться"},
+        {"left": "go to bed", "right": "ложиться спать"},
+        {"left": "get dressed", "right": "одеваться"},
+        {"left": "take a shower", "right": "принимать душ"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое наречие означает «иногда»?",
+      "options": [
+        {"text": "sometimes", "correct": true},
+        {"text": "always", "correct": false},
+        {"text": "never", "correct": false}
+      ],
+      "explanation": "Sometimes переводится как «иногда»; always — «всегда», never — «никогда»."
+    }
+  ]
+}

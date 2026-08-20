@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «timetable»?",
+      "options": [
+        {"text": "расписание", "correct": true},
+        {"text": "оценка", "correct": false},
+        {"text": "перемена", "correct": false}
+      ],
+      "explanation": "«Timetable» — расписание уроков."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный предлог: The lesson starts ___ 9 o'clock.",
+      "options": [
+        {"text": "at", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "С точным временем (часами) используется предлог at."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к школьным предметам? (выбери все верные варианты)",
+      "options": [
+        {"text": "geography", "correct": true},
+        {"text": "break", "correct": false},
+        {"text": "history", "correct": true},
+        {"text": "timetable", "correct": false},
+        {"text": "science", "correct": true}
+      ],
+      "explanation": "Geography, history, science — школьные предметы. Break и timetable относятся к организации учебного дня, но не являются предметами."
+    },
+    {
+      "type": "dropdown",
+      "text": "We have Art ___ Wednesdays.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "at", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "С днями недели используется предлог on."
+    },
+    {
+      "type": "dropdown",
+      "text": "The new school year starts ___ September.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С месяцами используется предлог in."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: домашнее задание",
+      "answer": "homework",
+      "explanation": "«Домашнее задание» переводится как homework."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: Our English lesson ___ (start) at 10 o'clock.",
+      "answer": "starts",
+      "explanation": "В Present Simple для he/she/it (lesson = it) к глаголу добавляется -s: starts."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "classroom", "right": "класс (кабинет)"},
+        {"left": "exam", "right": "экзамен"},
+        {"left": "mark", "right": "оценка"},
+        {"left": "schoolbag", "right": "школьный рюкзак"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится PE?",
+      "options": [
+        {"text": "физкультура", "correct": true},
+        {"text": "рисование", "correct": false},
+        {"text": "математика", "correct": false}
+      ],
+      "explanation": "PE (physical education) — физкультура."
+    }
+  ]
+}

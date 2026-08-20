@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «well-built»?",
+      "options": [
+        {"text": "крепкого телосложения", "correct": true},
+        {"text": "стройный", "correct": false},
+        {"text": "невысокий", "correct": false}
+      ],
+      "explanation": "«Well-built» — крепкого телосложения."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «у неё голубые глаза»?",
+      "options": [
+        {"text": "She has got blue eyes", "correct": true},
+        {"text": "She is got blue eyes", "correct": false},
+        {"text": "She has blue eyes got", "correct": false}
+      ],
+      "explanation": "Для описания того, что у человека есть, используется has got."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают волосы? (выбери все верные варианты)",
+      "options": [
+        {"text": "curly", "correct": true},
+        {"text": "slim", "correct": false},
+        {"text": "straight", "correct": true},
+        {"text": "tall", "correct": false},
+        {"text": "fair hair", "correct": true}
+      ],
+      "explanation": "Curly, straight, fair hair описывают волосы. Slim и tall описывают телосложение и рост."
+    },
+    {
+      "type": "dropdown",
+      "text": "My friend ___ got curly dark hair.",
+      "options": [
+        {"text": "has", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "My friend — единственное число (he/she), значит has got."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ well-built.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "has", "correct": false},
+        {"text": "has got", "correct": false}
+      ],
+      "explanation": "Well-built — прилагательное, поэтому используется to be (is), а не has got."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: внешность",
+      "answer": "appearance",
+      "explanation": "«Внешность» переводится как appearance."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: He ___n't got a beard.",
+      "answer": "has",
+      "explanation": "Отрицание «у него нет» образуется как hasn't got, то есть has + n't."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "tall", "right": "высокий"},
+        {"left": "slim", "right": "стройный"},
+        {"left": "moustache", "right": "усы"},
+        {"left": "dark hair", "right": "тёмные волосы"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Has he got a moustache?",
+      "options": [
+        {"text": "У него есть усы?", "correct": true},
+        {"text": "Он высокий?", "correct": false},
+        {"text": "У него борода?", "correct": false}
+      ],
+      "explanation": "Moustache переводится как усы, вопрос построен с has got."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери правильную форму: My friend usually ___ to school by bus.",
+      "options": [
+        {"text": "goes", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "is going", "correct": false}
+      ],
+      "explanation": "Regular action (usually) — Present Simple, he/she/it + -s: goes."
+    },
+    {
+      "type": "single",
+      "text": "Look! She ___ to the bus stop now.",
+      "options": [
+        {"text": "is running", "correct": true},
+        {"text": "runs", "correct": false},
+        {"text": "run", "correct": false}
+      ],
+      "explanation": "Действие происходит прямо сейчас (now) — используется Present Continuous: is running."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих глаголов — модальные? (выбери все верные варианты)",
+      "options": [
+        {"text": "must", "correct": true},
+        {"text": "should", "correct": true},
+        {"text": "played", "correct": false},
+        {"text": "can", "correct": true},
+        {"text": "going", "correct": false}
+      ],
+      "explanation": "Must, should, can — модальные глаголы. Played и going — не модальные глаголы."
+    },
+    {
+      "type": "dropdown",
+      "text": "Yesterday we ___ (see) an interesting film.",
+      "options": [
+        {"text": "saw", "correct": true},
+        {"text": "seen", "correct": false},
+        {"text": "see", "correct": false}
+      ],
+      "explanation": "See — неправильный глагол, форма Past Simple: saw (yesterday указывает на прошедшее время)."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is the ___ (interesting) book I have ever read.",
+      "options": [
+        {"text": "most interesting", "correct": true},
+        {"text": "interestingest", "correct": false},
+        {"text": "more interesting", "correct": false}
+      ],
+      "explanation": "Interesting — длинное прилагательное, превосходная степень образуется через the most: the most interesting."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши some или any: There isn't ___ milk in the fridge.",
+      "answer": "any",
+      "explanation": "В отрицательных предложениях используется any, а не some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильный модальный глагол (совет): You ___ study hard before the exam.",
+      "answer": "should",
+      "explanation": "Should используется для совета, а не для строгой необходимости (must) или умения (can)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини грамматическое явление с примером",
+      "pairs": [
+        {"left": "Present Continuous", "right": "I am reading a book now."},
+        {"left": "Past Simple", "right": "We visited London last summer."},
+        {"left": "going to", "right": "We are going to visit our grandparents."},
+        {"left": "there is / there are", "right": "There is a museum in our city."}
+      ],
+      "explanation": "Каждый пример иллюстрирует своё грамматическое время или конструкцию из повторения."
+    },
+    {
+      "type": "single",
+      "text": "This is my sister ___ book.",
+      "options": [
+        {"text": "'s", "correct": true},
+        {"text": "s'", "correct": false},
+        {"text": "s", "correct": false}
+      ],
+      "explanation": "Sister — единственное число, притяжательный падеж образуется через 's: sister's book."
+    },
+    {
+      "type": "single",
+      "text": "I think it ___ rain tomorrow.",
+      "options": [
+        {"text": "will", "correct": true},
+        {"text": "is going to", "correct": false},
+        {"text": "must", "correct": false}
+      ],
+      "explanation": "Предположение о будущем (think) выражается через will, а не через going to (заранее спланированное намерение)."
+    }
+  ]
+}

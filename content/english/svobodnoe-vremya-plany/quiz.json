@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «arrangement»?",
+      "options": [
+        {"text": "договорённость", "correct": true},
+        {"text": "выходные", "correct": false},
+        {"text": "план", "correct": false}
+      ],
+      "explanation": "«Arrangement» — договорённость."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «я встречаюсь с другом в субботу» (уже договорились)?",
+      "options": [
+        {"text": "I'm meeting my friend on Saturday", "correct": true},
+        {"text": "I meet my friend on Saturday", "correct": false},
+        {"text": "I meeting my friend on Saturday", "correct": false}
+      ],
+      "explanation": "Для запланированного будущего действия используется Present Continuous: I'm meeting."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие выражения относятся к планам на выходные? (выбери все верные варианты)",
+      "options": [
+        {"text": "go shopping", "correct": true},
+        {"text": "free time", "correct": false},
+        {"text": "have a party", "correct": true},
+        {"text": "plan", "correct": false},
+        {"text": "meet friends", "correct": true}
+      ],
+      "explanation": "Go shopping, have a party, meet friends — конкретные действия-планы. Free time и plan — общие понятия, не сами действия."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ (have) a party next week.",
+      "options": [
+        {"text": "are having", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "has", "correct": false}
+      ],
+      "explanation": "We — множественное число, будущий запланированный план: are having."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ (visit) her grandmother tomorrow.",
+      "options": [
+        {"text": "is visiting", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "visits", "correct": false}
+      ],
+      "explanation": "She — единственное число (he/she/it), запланированное будущее действие: is visiting."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: отдыхать",
+      "answer": "relax",
+      "explanation": "«Отдыхать» переводится как relax."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: Are you ___ (go) shopping this weekend?",
+      "answer": "going",
+      "explanation": "В Present Continuous после to be глагол ставится в форме -ing: going."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "go for a walk", "right": "гулять"},
+        {"left": "watch a film", "right": "смотреть фильм"},
+        {"left": "stay at home", "right": "оставаться дома"},
+        {"left": "next week", "right": "на следующей неделе"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I'm meeting my friend on Saturday. Что означает это предложение?",
+      "options": [
+        {"text": "Я запланировал встречу с другом в субботу", "correct": true},
+        {"text": "Я всегда встречаюсь с другом по субботам", "correct": false},
+        {"text": "Я встречался с другом в прошлую субботу", "correct": false}
+      ],
+      "explanation": "Present Continuous с указанием времени (on Saturday) показывает конкретный запланированный план на будущее."
+    }
+  ]
+}

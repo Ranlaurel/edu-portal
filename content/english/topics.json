@@ -1,0 +1,129 @@
+{
+  "subject": {"name": "Английский язык", "slug": "english"},
+  "sections": [
+    {
+      "name": "Семья и дом",
+      "order": 1,
+      "topics": [
+        {"slug": "semya-chleny-prazdniki", "title": "Семья: члены семьи и семейные праздники", "order": 1},
+        {"slug": "dom-vidy-zhilya", "title": "Дом: виды жилья и обустройство", "order": 2},
+        {"slug": "domashnie-obyazannosti-pravila", "title": "Домашние обязанности и правила поведения", "order": 3}
+      ]
+    },
+    {
+      "name": "Внешность и характер",
+      "order": 2,
+      "topics": [
+        {"slug": "vneshnost-cheloveka", "title": "Внешность человека", "order": 1},
+        {"slug": "harakter-cheloveka", "title": "Характер человека", "order": 2}
+      ]
+    },
+    {
+      "name": "Досуг и увлечения",
+      "order": 3,
+      "topics": [
+        {"slug": "hobbi-uvlecheniya", "title": "Хобби и увлечения", "order": 1},
+        {"slug": "svobodnoe-vremya-plany", "title": "Свободное время: планы на выходные", "order": 2},
+        {"slug": "igry-razvlecheniya", "title": "Игры и развлечения", "order": 3}
+      ]
+    },
+    {
+      "name": "Здоровый образ жизни",
+      "order": 4,
+      "topics": [
+        {"slug": "zdorovoe-pitanie", "title": "Здоровое питание", "order": 1},
+        {"slug": "rezhim-dnya-privychki", "title": "Режим дня и полезные привычки", "order": 2}
+      ]
+    },
+    {
+      "name": "Покупки",
+      "order": 5,
+      "topics": [
+        {"slug": "pokupki-odezhda-obuv", "title": "Покупки: одежда и обувь", "order": 1},
+        {"slug": "pokupki-produkty", "title": "Покупки: продукты питания", "order": 2}
+      ]
+    },
+    {
+      "name": "Спорт",
+      "order": 6,
+      "topics": [
+        {"slug": "vidy-sporta", "title": "Виды спорта", "order": 1},
+        {"slug": "sportivnye-sorevnovaniya", "title": "Спортивные соревнования и выдающиеся спортсмены", "order": 2}
+      ]
+    },
+    {
+      "name": "Школа",
+      "order": 7,
+      "topics": [
+        {"slug": "shkolnaya-zhizn-predmety", "title": "Школьная жизнь и школьные предметы", "order": 1},
+        {"slug": "pravila-povedeniya-shkola", "title": "Правила поведения в школе", "order": 2},
+        {"slug": "perepiska-sverstniki", "title": "Переписка с зарубежными сверстниками", "order": 3}
+      ]
+    },
+    {
+      "name": "Путешествия и каникулы",
+      "order": 8,
+      "topics": [
+        {"slug": "puteshestviya-otdyh-snaryazhenie", "title": "Путешествия: виды отдыха и снаряжение", "order": 1},
+        {"slug": "kanikuly-plany-vpechatleniya", "title": "Каникулы: планы и впечатления", "order": 2},
+        {"slug": "znamenitye-puteshestvenniki", "title": "Знаменитые путешественники и открытия", "order": 3}
+      ]
+    },
+    {
+      "name": "Мир профессий",
+      "order": 9,
+      "topics": [
+        {"slug": "professii-plany-na-buduschee", "title": "Профессии и планы на будущее", "order": 1},
+        {"slug": "rabota-kariera", "title": "Работа и карьера", "order": 2}
+      ]
+    },
+    {
+      "name": "Природа и погода",
+      "order": 10,
+      "topics": [
+        {"slug": "priroda-zhivotnye", "title": "Природа: дикие и домашние животные", "order": 1},
+        {"slug": "pogoda-klimat", "title": "Погода и климат", "order": 2}
+      ]
+    },
+    {
+      "name": "Жизнь в городе и селе",
+      "order": 11,
+      "topics": [
+        {"slug": "gorod-transport-dostoprimechatelnosti", "title": "Город: транспорт и достопримечательности", "order": 1},
+        {"slug": "zhizn-v-derevne", "title": "Жизнь в сельской местности", "order": 2},
+        {"slug": "moy-gorod-opisanie", "title": "Мой город: описание", "order": 3}
+      ]
+    },
+    {
+      "name": "СМИ и коммуникации",
+      "order": 12,
+      "topics": [
+        {"slug": "smi-kommunikacii", "title": "Средства массовой информации", "order": 1}
+      ]
+    },
+    {
+      "name": "Родная страна и страна изучаемого языка",
+      "order": 13,
+      "topics": [
+        {"slug": "velikobritaniya-strany-simvoly", "title": "Великобритания: страны и символы", "order": 1},
+        {"slug": "dostoprimechatelnosti-tradicii", "title": "Достопримечательности и традиции", "order": 2},
+        {"slug": "rodnaya-strana-geografiya-kultura", "title": "Родная страна: география и культура", "order": 3}
+      ]
+    },
+    {
+      "name": "Выдающиеся люди",
+      "order": 14,
+      "topics": [
+        {"slug": "vydayuschiesya-lyudi-nauka-iskusstvo", "title": "Выдающиеся люди: наука и искусство", "order": 1},
+        {"slug": "vydayuschiesya-lyudi-sport-literatura", "title": "Выдающиеся люди: спорт и литература", "order": 2}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 15,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-angliyskiy", "title": "Итоговое повторение курса английского языка за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

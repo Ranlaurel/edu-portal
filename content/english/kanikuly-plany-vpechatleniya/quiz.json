@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «boring»?",
+      "options": [
+        {"text": "скучный", "correct": true},
+        {"text": "увлекательный", "correct": false},
+        {"text": "потрясающий", "correct": false}
+      ],
+      "explanation": "«Boring» — скучный, неинтересный."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Мы плавали в море каждый день»?",
+      "options": [
+        {"text": "We swam in the sea every day.", "correct": true},
+        {"text": "We swimmed in the sea every day.", "correct": false},
+        {"text": "We swim in the sea every day yesterday.", "correct": false}
+      ],
+      "explanation": "Swim — неправильный глагол, прошедшая форма swam, а не swimmed."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают впечатления? (выбери все верные варианты)",
+      "options": [
+        {"text": "amazing", "correct": true},
+        {"text": "terrible", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "boring", "correct": true},
+        {"text": "stay", "correct": false}
+      ],
+      "explanation": "Amazing, terrible, boring — прилагательные для впечатлений. Visit и stay — глаголы действий."
+    },
+    {
+      "type": "dropdown",
+      "text": "Last week we ___ (visit) my aunt in the countryside.",
+      "options": [
+        {"text": "visited", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "visiting", "correct": false}
+      ],
+      "explanation": "Visit — правильный глагол, в Past Simple добавляется -ed: visited."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you enjoy your holiday?",
+      "options": [
+        {"text": "Did", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Was", "correct": false}
+      ],
+      "explanation": "Вопрос в Past Simple образуется с помощью did + подлежащее + глагол без окончания."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: наслаждаться",
+      "answer": "enjoy",
+      "explanation": "«Наслаждаться» переводится как enjoy."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: I ___ (not like) the hotel.",
+      "answer": "didn't like",
+      "accepted": ["didn't like", "did not like"],
+      "explanation": "Отрицание в Past Simple: did not / didn't + глагол в базовой форме."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "memory", "right": "воспоминание"},
+        {"left": "relax", "right": "отдыхать"},
+        {"left": "have fun", "right": "веселиться"},
+        {"left": "take photos", "right": "фотографировать"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "The trip ___ amazing!",
+      "options": [
+        {"text": "was", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "were", "correct": false}
+      ],
+      "explanation": "Trip — единственное число, прошедшая форма глагола be для it/he/she — was."
+    }
+  ]
+}

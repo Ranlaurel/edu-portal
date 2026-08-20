@@ -195,6 +195,7 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
   background: #ede9fe; color: #6d28d9;
 }
 .subject-tag.subject-math { background: #dbeafe; color: #1d4ed8; }
+.subject-tag.subject-english { background: #fee2e2; color: #b91c1c; }
 .subject-tag.subject-literature { background: #fce7f3; color: #be185d; }
 .subject-tag.subject-history { background: #fef3c7; color: #b45309; }
 .subject-tag.subject-biology { background: #dcfce7; color: #15803d; }

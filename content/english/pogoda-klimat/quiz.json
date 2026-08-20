@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «climate»?",
+      "options": [
+        {"text": "климат", "correct": true},
+        {"text": "погода", "correct": false},
+        {"text": "температура", "correct": false}
+      ],
+      "explanation": "«Climate» — климат, устойчивый тип погоды в регионе за долгий период. «Weather» — погода сейчас."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Сейчас идёт дождь»?",
+      "options": [
+        {"text": "It is raining now.", "correct": true},
+        {"text": "It rains now.", "correct": false},
+        {"text": "It raining now.", "correct": false}
+      ],
+      "explanation": "Действие происходит прямо сейчас, поэтому используется Present Continuous: is raining."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают погоду? (выбери все верные варианты)",
+      "options": [
+        {"text": "sunny", "correct": true},
+        {"text": "windy", "correct": true},
+        {"text": "season", "correct": false},
+        {"text": "cloudy", "correct": true},
+        {"text": "degree", "correct": false}
+      ],
+      "explanation": "Sunny, windy, cloudy — прилагательные для описания погоды. Season и degree — существительные, связанные с темой, но не описывающие погоду напрямую."
+    },
+    {
+      "type": "dropdown",
+      "text": "It ___ (rain) a lot in autumn in Russia.",
+      "options": [
+        {"text": "rains", "correct": true},
+        {"text": "is raining", "correct": false},
+        {"text": "rain", "correct": false}
+      ],
+      "explanation": "Это общий факт о климате (регулярное явление), поэтому используется Present Simple с -s: rains."
+    },
+    {
+      "type": "dropdown",
+      "text": "Look! The sun ___ (shine) today.",
+      "options": [
+        {"text": "is shining", "correct": true},
+        {"text": "shines", "correct": false},
+        {"text": "shine", "correct": false}
+      ],
+      "explanation": "Слово «Look!» указывает, что действие происходит сейчас — нужен Present Continuous: is shining."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: ветреный",
+      "answer": "windy",
+      "explanation": "«Ветреный» переводится как windy."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: It ___ (not/snow) in summer.",
+      "answer": "doesn't snow",
+      "accepted": ["doesn't snow", "does not snow"],
+      "explanation": "Общий факт о климате в отрицательной форме Present Simple: doesn't (does not) + глагол без -s."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "forecast", "right": "прогноз"},
+        {"left": "degree", "right": "градус"},
+        {"left": "foggy", "right": "туманный"},
+        {"left": "wet", "right": "влажный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "The climate in Africa ___ usually hot.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "is being", "correct": false}
+      ],
+      "explanation": "Climate — единственное число, общий факт передаётся через Present Simple: is."
+    }
+  ]
+}

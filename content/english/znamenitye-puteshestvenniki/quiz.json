@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «explorer»?",
+      "options": [
+        {"text": "путешественник, исследователь", "correct": true},
+        {"text": "корабль", "correct": false},
+        {"text": "остров", "correct": false}
+      ],
+      "explanation": "«Explorer» — человек, который исследует новые земли, путешественник-первооткрыватель."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Колумб родился в Италии»?",
+      "options": [
+        {"text": "Columbus was born in Italy.", "correct": true},
+        {"text": "Columbus is born in Italy.", "correct": false},
+        {"text": "Columbus born in Italy.", "correct": false}
+      ],
+      "explanation": "«Родиться» — устойчивое выражение be born, в прошедшем времени was/were born."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с морскими путешествиями? (выбери все верные варианты)",
+      "options": [
+        {"text": "voyage", "correct": true},
+        {"text": "ship", "correct": true},
+        {"text": "continent", "correct": false},
+        {"text": "sail", "correct": true},
+        {"text": "brave", "correct": false}
+      ],
+      "explanation": "Voyage, ship, sail — связаны с морским путешествием. Continent и brave — не относятся напрямую."
+    },
+    {
+      "type": "dropdown",
+      "text": "Columbus ___ (sail) across the Atlantic Ocean in 1492.",
+      "options": [
+        {"text": "sailed", "correct": true},
+        {"text": "sail", "correct": false},
+        {"text": "sailing", "correct": false}
+      ],
+      "explanation": "Sail — правильный глагол, в Past Simple добавляется -ed: sailed."
+    },
+    {
+      "type": "dropdown",
+      "text": "Marco Polo ___ (discover) new trade routes to Asia.",
+      "options": [
+        {"text": "discovered", "correct": true},
+        {"text": "discover", "correct": false},
+        {"text": "discovering", "correct": false}
+      ],
+      "explanation": "Discover — правильный глагол, форма прошедшего времени discovered."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: исследовать",
+      "answer": "explore",
+      "explanation": "«Исследовать» переводится как explore."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: Magellan's expedition ___ (travel) around the world.",
+      "answer": "travelled",
+      "accepted": ["travelled", "traveled"],
+      "explanation": "Travel — правильный глагол, в Past Simple добавляется -ed: travelled (британский вариант с удвоением l)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "expedition", "right": "экспедиция"},
+        {"left": "continent", "right": "континент"},
+        {"left": "island", "right": "остров"},
+        {"left": "route", "right": "маршрут"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Columbus ___ know he had found a new continent.",
+      "options": [
+        {"text": "didn't", "correct": true},
+        {"text": "doesn't", "correct": false},
+        {"text": "isn't", "correct": false}
+      ],
+      "explanation": "Отрицание в Past Simple образуется через didn't (did not) + глагол в базовой форме."
+    }
+  ]
+}

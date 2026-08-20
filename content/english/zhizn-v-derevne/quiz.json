@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «peaceful»?",
+      "options": [
+        {"text": "спокойный", "correct": true},
+        {"text": "шумный", "correct": false},
+        {"text": "многолюдный", "correct": false}
+      ],
+      "explanation": "«Peaceful» — спокойный, мирный."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сравнить: «В деревне тише, чем в городе»?",
+      "options": [
+        {"text": "The countryside is quieter than the city.", "correct": true},
+        {"text": "The countryside is more quiet than the city.", "correct": false},
+        {"text": "The countryside is quiet than the city.", "correct": false}
+      ],
+      "explanation": "Quiet — короткое прилагательное (1 слог), сравнительная степень образуется через -er: quieter."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с сельской жизнью? (выбери все верные варианты)",
+      "options": [
+        {"text": "farm", "correct": true},
+        {"text": "crowded", "correct": false},
+        {"text": "field", "correct": true},
+        {"text": "noisy", "correct": false},
+        {"text": "nature", "correct": true}
+      ],
+      "explanation": "Farm, field и nature — типичные слова про сельскую жизнь. Crowded и noisy обычно описывают город."
+    },
+    {
+      "type": "dropdown",
+      "text": "Village life is ___ (peaceful) than city life.",
+      "options": [
+        {"text": "more peaceful", "correct": true},
+        {"text": "peacefuler", "correct": false},
+        {"text": "peacefulest", "correct": false}
+      ],
+      "explanation": "Peaceful — длинное прилагательное (2 слога), сравнительная степень образуется через more."
+    },
+    {
+      "type": "dropdown",
+      "text": "Life on a farm is ___ (good) for animals than life in a crowded city.",
+      "options": [
+        {"text": "better", "correct": true},
+        {"text": "gooder", "correct": false},
+        {"text": "more good", "correct": false}
+      ],
+      "explanation": "Good — исключение, сравнительная степень образуется не по правилу: better."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: ферма",
+      "answer": "farm",
+      "explanation": "«Ферма» переводится как farm."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень прилагательного quiet: The forest is ___ than the street.",
+      "answer": "quieter",
+      "explanation": "Короткое прилагательное quiet образует сравнительную степень через -er: quieter."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "field", "right": "поле"},
+        {"left": "neighbour", "right": "сосед"},
+        {"left": "fresh air", "right": "свежий воздух"},
+        {"left": "noisy", "right": "шумный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "The air in the village is ___ than in the city.",
+      "options": [
+        {"text": "cleaner", "correct": true},
+        {"text": "more clean", "correct": false},
+        {"text": "cleanest", "correct": false}
+      ],
+      "explanation": "Clean — короткое прилагательное, сравнительная степень: cleaner (через -er)."
+    }
+  ]
+}

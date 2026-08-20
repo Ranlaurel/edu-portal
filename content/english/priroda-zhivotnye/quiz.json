@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «wild animal»?",
+      "options": [
+        {"text": "дикое животное", "correct": true},
+        {"text": "домашнее животное", "correct": false},
+        {"text": "хвост", "correct": false}
+      ],
+      "explanation": "«Wild animal» — дикое животное, живущее в природе, а не у человека дома."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «В лесу есть волк»?",
+      "options": [
+        {"text": "There is a wolf in the forest.", "correct": true},
+        {"text": "There are a wolf in the forest.", "correct": false},
+        {"text": "It is a wolf in the forest.", "correct": false}
+      ],
+      "explanation": "Wolf — единственное число, поэтому используется there is, а не there are."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к диким животным? (выбери все верные варианты)",
+      "options": [
+        {"text": "tiger", "correct": true},
+        {"text": "wolf", "correct": true},
+        {"text": "hamster", "correct": false},
+        {"text": "lion", "correct": true},
+        {"text": "pet", "correct": false}
+      ],
+      "explanation": "Tiger, wolf, lion — дикие животные. Hamster обычно домашнее животное, pet — общее слово для домашнего питомца."
+    },
+    {
+      "type": "dropdown",
+      "text": "An elephant is ___ (big) than a rabbit.",
+      "options": [
+        {"text": "bigger", "correct": true},
+        {"text": "biggest", "correct": false},
+        {"text": "more big", "correct": false}
+      ],
+      "explanation": "Big — короткое прилагательное, сравнительная степень образуется через -er: bigger than."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ many wild animals in the jungle.",
+      "options": [
+        {"text": "There are", "correct": true},
+        {"text": "There is", "correct": false},
+        {"text": "It are", "correct": false}
+      ],
+      "explanation": "Animals — множественное число, поэтому используется there are."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: джунгли",
+      "answer": "jungle",
+      "explanation": "«Джунгли» переводится как jungle."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: A tiger is the ___ (big) wild cat.",
+      "answer": "biggest",
+      "explanation": "Превосходная степень коротких прилагательных: the + прилагательное + -est."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "fox", "right": "лиса"},
+        {"left": "bear", "right": "медведь"},
+        {"left": "rabbit", "right": "кролик"},
+        {"left": "tail", "right": "хвост"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Wild animals are usually ___ than pets.",
+      "options": [
+        {"text": "more dangerous", "correct": true},
+        {"text": "dangerouser", "correct": false},
+        {"text": "the most dangerous", "correct": false}
+      ],
+      "explanation": "Dangerous — длинное прилагательное, сравнительная степень образуется через more: more dangerous than."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «opponent»?",
+      "options": [
+        {"text": "соперник", "correct": true},
+        {"text": "чемпион", "correct": false},
+        {"text": "медаль", "correct": false}
+      ],
+      "explanation": "«Opponent» — соперник в соревновании."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильную сравнительную степень: fast →",
+      "options": [
+        {"text": "faster", "correct": true},
+        {"text": "more fast", "correct": false},
+        {"text": "fastest", "correct": false}
+      ],
+      "explanation": "Fast — короткое прилагательное, сравнительная степень образуется через -er: faster."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с победой в соревновании? (выбери все верные варианты)",
+      "options": [
+        {"text": "win", "correct": true},
+        {"text": "lose", "correct": false},
+        {"text": "champion", "correct": true},
+        {"text": "gold medal", "correct": true},
+        {"text": "opponent", "correct": false}
+      ],
+      "explanation": "Win, champion, gold medal связаны с победой. Lose означает проигрыш, opponent — соперник, не сама победа."
+    },
+    {
+      "type": "dropdown",
+      "text": "She is the ___ (fast) runner in our school.",
+      "options": [
+        {"text": "fastest", "correct": true},
+        {"text": "faster", "correct": false},
+        {"text": "more fast", "correct": false}
+      ],
+      "explanation": "Превосходная степень короткого прилагательного fast: the fastest."
+    },
+    {
+      "type": "dropdown",
+      "text": "This athlete is ___ (famous) than that one.",
+      "options": [
+        {"text": "more famous", "correct": true},
+        {"text": "famouser", "correct": false},
+        {"text": "the most famous", "correct": false}
+      ],
+      "explanation": "Famous — длинное прилагательное (2 слога), сравнительная степень образуется через more."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: рекорд",
+      "answer": "record",
+      "explanation": "«Рекорд» переводится как record."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: good → the ___",
+      "answer": "best",
+      "explanation": "Good — исключение, превосходная степень: the best."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "championship", "right": "чемпионат"},
+        {"left": "medal", "right": "медаль"},
+        {"left": "score", "right": "счёт (в игре)"},
+        {"left": "Olympic Games", "right": "Олимпийские игры"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сравнить: He is ___ than his brother (strong).",
+      "options": [
+        {"text": "stronger", "correct": true},
+        {"text": "more strong", "correct": false},
+        {"text": "strongest", "correct": false}
+      ],
+      "explanation": "Strong — короткое прилагательное, сравнительная степень через -er: stronger."
+    }
+  ]
+}

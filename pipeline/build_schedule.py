@@ -75,7 +75,7 @@ def assign(topics, days):
 def main():
     days = school_days()
     subjects = {}
-    for subj_dir in ["russian", "math"]:
+    for subj_dir in ["russian", "math", "english"]:
         manifest_path = CONTENT_DIR / subj_dir / "topics.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         subjects[subj_dir] = {
@@ -114,7 +114,7 @@ def main():
 
     out_path = CONTENT_DIR / "schedule.json"
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in ["russian", "math"]}
+    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in ["russian", "math", "english"]}
     print(f"Wrote {out_path}: {len(days)} school days, {n_topics} topics per subject, hour-only totals: {hour_only_totals}.")
 
 

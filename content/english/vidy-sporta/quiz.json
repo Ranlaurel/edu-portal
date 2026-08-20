@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «athlete»?",
+      "options": [
+        {"text": "спортсмен", "correct": true},
+        {"text": "тренировка", "correct": false},
+        {"text": "команда", "correct": false}
+      ],
+      "explanation": "«Athlete» — спортсмен."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный глагол: We ___ football every Saturday.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "go", "correct": false}
+      ],
+      "explanation": "Football — игра с мячом, поэтому используется play football."
+    },
+    {
+      "type": "multiple",
+      "text": "С какими видами спорта используется глагол «go»? (выбери все верные варианты)",
+      "options": [
+        {"text": "swimming", "correct": true},
+        {"text": "basketball", "correct": false},
+        {"text": "running", "correct": true},
+        {"text": "chess", "correct": false},
+        {"text": "skiing", "correct": true}
+      ],
+      "explanation": "Swimming, running, skiing оканчиваются на -ing, поэтому с ними используется go. Basketball и chess — игры, с ними используется play."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ gymnastics twice a week.",
+      "options": [
+        {"text": "does", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "goes", "correct": false}
+      ],
+      "explanation": "Gymnastics — вид спорта без мяча и команды, используется глагол do (does для she)."
+    },
+    {
+      "type": "dropdown",
+      "text": "My friends ___ chess after school.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "go", "correct": false}
+      ],
+      "explanation": "Chess — соревновательная игра, используется play chess."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: тренировка",
+      "answer": "training",
+      "explanation": "«Тренировка» переводится как training."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильный глагол: I ___ (go) running every morning.",
+      "answer": "go",
+      "explanation": "Running оканчивается на -ing, поэтому используется go running."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "volleyball", "right": "волейбол"},
+        {"left": "swimming", "right": "плавание"},
+        {"left": "team", "right": "команда"},
+        {"left": "exercise", "right": "упражнение"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какой глагол используется с karate?",
+      "options": [
+        {"text": "do karate", "correct": true},
+        {"text": "play karate", "correct": false},
+        {"text": "go karate", "correct": false}
+      ],
+      "explanation": "Karate — единоборство без мяча, используется глагол do."
+    }
+  ]
+}

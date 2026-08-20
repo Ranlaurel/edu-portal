@@ -1,0 +1,93 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чему равен объём куба со стороной 5 см?",
+      "options": [
+        {"text": "125 см³", "correct": true},
+        {"text": "25 см³", "correct": false},
+        {"text": "15 см³", "correct": false},
+        {"text": "100 см³", "correct": false}
+      ],
+      "explanation": "V = a³: 5 × 5 × 5 = 125 см³."
+    },
+    {
+      "type": "single",
+      "text": "Сколько см³ в одном литре?",
+      "options": [
+        {"text": "1000 см³", "correct": true},
+        {"text": "100 см³", "correct": false},
+        {"text": "10 см³", "correct": false},
+        {"text": "10000 см³", "correct": false}
+      ],
+      "explanation": "1 литр = 1000 см³ = 1 дм³."
+    },
+    {
+      "type": "dropdown",
+      "text": "Формула объёма куба со стороной a: V = ___.",
+      "options": [
+        {"text": "a³", "correct": true},
+        {"text": "a²", "correct": false},
+        {"text": "3a", "correct": false}
+      ],
+      "explanation": "Объём куба равен стороне в кубе: V = a³."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие единицы используются для измерения объёма? (выбери все верные варианты)",
+      "options": [
+        {"text": "см³", "correct": true},
+        {"text": "м³", "correct": true},
+        {"text": "литр", "correct": true},
+        {"text": "см²", "correct": false},
+        {"text": "метр", "correct": false}
+      ],
+      "explanation": "Объём измеряется в кубических единицах (см³, м³) и в литрах для жидкостей; см² и метр — единицы площади и длины."
+    },
+    {
+      "type": "single",
+      "text": "Аквариум объёмом 20 000 см³ вмещает сколько литров воды?",
+      "options": [
+        {"text": "20 литров", "correct": true},
+        {"text": "200 литров", "correct": false},
+        {"text": "2 литра", "correct": false},
+        {"text": "2000 литров", "correct": false}
+      ],
+      "explanation": "20 000 ÷ 1000 = 20 литров."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Куб со стороной 2 см имеет объём ___ см³.",
+      "answer": "8",
+      "explanation": "V = a³: 2 × 2 × 2 = 8 см³."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини сторону куба с его объёмом.",
+      "pairs": [
+        {"left": "Сторона 1 см", "right": "1 см³"},
+        {"left": "Сторона 2 см", "right": "8 см³"},
+        {"left": "Сторона 3 см", "right": "27 см³"},
+        {"left": "Сторона 10 см", "right": "1000 см³"}
+      ],
+      "explanation": "Объём куба V = a³: 1³=1, 2³=8, 3³=27, 10³=1000."
+    },
+    {
+      "type": "single",
+      "text": "Бутылка объёмом 1,5 литра содержит сколько см³?",
+      "options": [
+        {"text": "1500 см³", "correct": true},
+        {"text": "150 см³", "correct": false},
+        {"text": "15 см³", "correct": false},
+        {"text": "15000 см³", "correct": false}
+      ],
+      "explanation": "1,5 × 1000 = 1500 см³."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Аквариум-куб со стороной 30 см имеет объём 27 000 см³, что равно ___ литрам.",
+      "answer": "27",
+      "explanation": "27 000 ÷ 1000 = 27 литров."
+    }
+  ]
+}

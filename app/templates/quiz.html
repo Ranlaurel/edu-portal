@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Тест: {{ topic.title }}{% endblock %}
+{% block content %}
+<a class="back-link" href="/topics/{{ topic.id }}/lesson">← к уроку</a>
+<h1>Тест: {{ topic.title }}</h1>
+<p class="quiz-hint">Порог прохождения — 70%. Отвечай на все вопросы и нажми «Проверить».</p>
+
+<div id="quiz-root"></div>
+<div id="quiz-summary" class="quiz-summary" style="display:none"></div>
+
+<button id="submit-btn" class="btn btn-primary">Проверить</button>
+<a id="retry-link" class="btn btn-secondary" href="/topics/{{ topic.id }}/quiz" style="display:none">Пройти ещё раз</a>
+<a class="btn btn-secondary" href="/subjects/{{ topic.section.subject.slug }}">К списку тем</a>
+
+<script>
+  window.QUIZ_TOPIC_ID = {{ topic.id }};
+  window.QUIZ_QUESTIONS = {{ questions_json | safe }};
+</script>
+<script src="/static/quiz.js"></script>
+{% endblock %}

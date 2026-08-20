@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Расписание{% endblock %}
+{% block content %}
+<h1>Расписание на учебный год</h1>
+<p class="quiz-hint">Темы распределены по учебным дням на 2026/2027 год. Дни без новой темы — для повторения и практики.</p>
+
+<div class="schedule-list">
+  {% for w in weeks %}
+  <div class="week-card {% if w.is_current %}week-current{% endif %}">
+    <div class="week-title">Неделя {{ w.week_number }} <span class="week-dates">{{ w.start_date }} – {{ w.end_date }}</span></div>
+    <div class="day-grid">
+      {% for day in w.days %}
+      <div class="day-cell {% if day.is_today %}day-today{% endif %}">
+        <div class="day-head">{{ day.weekday }} <span class="day-date">{{ day.date[5:] }}</span></div>
+        {% set tag_labels = {"russian": "Рус", "math": "Мат", "literature": "Лит", "history": "Ист", "biology": "Био", "geography": "Гео"} %}
+        {% set core_subjects = ["russian", "math"] %}
+        {% for subj_slug, topic in day.subjects.items() %}
+        {% if topic or subj_slug in core_subjects %}
+        <div class="day-subject">
+          <span class="subject-tag subject-{{ subj_slug }}">{{ tag_labels.get(subj_slug, subj_slug) }}</span>
+          {% if not topic %}
+            <span class="topic-disabled">повторение</span>
+          {% elif topic.generic %}
+            <span class="topic-disabled">{{ topic.title }} <span class="lesson-count">{{ topic.lesson_number }}/{{ topic.total }}</span></span>
+          {% elif topic.has_content %}
+            <a href="/topics/{{ topic.topic_id }}/lesson">{{ topic.title }}</a>
+          {% else %}
+            <span class="topic-disabled">{{ topic.title }}</span>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

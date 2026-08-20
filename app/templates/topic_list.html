@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ subject.name }}{% endblock %}
+{% block content %}
+<h1>{{ subject.name }}</h1>
+<div class="progress-bar big"><div class="progress-fill" style="width: {{ percent }}%"></div></div>
+<span class="percent-label">{{ percent }}% программы пройдено</span>
+
+{% for s in sections %}
+<section class="section-block">
+  <h2>{{ s.section.name }}</h2>
+  <ul class="topic-list">
+    {% for row in s.topics %}
+    <li class="topic-row status-{{ row.status }}">
+      <span class="status-dot" title="{{ row.status }}"></span>
+      {% if row.topic.has_content %}
+        <a href="/topics/{{ row.topic.id }}/lesson">{{ row.topic.title }}</a>
+      {% else %}
+        <span class="topic-disabled">{{ row.topic.title }} <em>(скоро)</em></span>
+      {% endif %}
+      {% if row.status == 'passed' %}
+        <span class="badge badge-passed">✓ пройдено{% if row.best_score %} · {{ row.best_score }}%{% endif %}</span>
+      {% elif row.status == 'needs_review' %}
+        <span class="badge badge-review">повторить{% if row.best_score %} · {{ row.best_score }}%{% endif %}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

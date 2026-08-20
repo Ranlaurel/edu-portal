@@ -1,0 +1,120 @@
+{
+  "subject": {"name": "Русский язык", "slug": "russian"},
+  "sections": [
+    {
+      "name": "Повторение изученного в 5 классе",
+      "order": 1,
+      "topics": [
+        {"slug": "povtorenie-tverdyi-znak", "title": "Повторение. Разделительный Ъ", "order": 1},
+        {"slug": "povtorenie-myagkiy-znak", "title": "Повторение. Ь: разделительный, мягкость, после шипящих", "order": 2},
+        {"slug": "povtorenie-korni-proveryaemye", "title": "Повторение. Проверяемые и непроверяемые гласные в корне", "order": 3},
+        {"slug": "povtorenie-korni-cheredovanie", "title": "Повторение. Чередующиеся гласные в корне", "order": 4},
+        {"slug": "povtorenie-pristavki-z-s", "title": "Повторение. Неизменяемые приставки и приставки на з-/с-", "order": 5},
+        {"slug": "povtorenie-pristavki-pre-pri", "title": "Повторение. Приставки ПРЕ- и ПРИ-", "order": 6},
+        {"slug": "povtorenie-suffiksy-imya", "title": "Повторение. Суффиксы -ек-/-ик-, -чик-/-щик-", "order": 7},
+        {"slug": "povtorenie-suffiksy-glagol", "title": "Повторение. Суффиксы -к-/-ск- и гласные в суффиксах глаголов", "order": 8},
+        {"slug": "povtorenie-ne-s-glagolami", "title": "Повторение. НЕ с глаголами", "order": 9},
+        {"slug": "povtorenie-ne-s-sush-prilag", "title": "Повторение. НЕ с существительными и прилагательными", "order": 10}
+      ]
+    },
+    {
+      "name": "Текст и речь",
+      "order": 2,
+      "topics": [
+        {"slug": "tekst-tema-plan", "title": "Текст: тема, основная мысль, план", "order": 1},
+        {"slug": "tekst-svyaz-predlozheniy", "title": "Способы и средства связи предложений в тексте", "order": 2},
+        {"slug": "stil-razgovorny-nauchny", "title": "Разговорный и научный стили речи", "order": 3},
+        {"slug": "stil-oficialno-delovoy", "title": "Официально-деловой стиль речи", "order": 4},
+        {"slug": "tip-rechi-povestvovanie-opisanie", "title": "Типы речи: повествование и описание", "order": 5},
+        {"slug": "tip-rechi-rassuzhdenie", "title": "Тип речи: рассуждение", "order": 6}
+      ]
+    },
+    {
+      "name": "Лексикология и фразеология",
+      "order": 3,
+      "topics": [
+        {"slug": "iskonno-russkie-slova", "title": "Исконно русские слова", "order": 1},
+        {"slug": "zaimstvovannye-slova", "title": "Заимствованные слова", "order": 2},
+        {"slug": "arhaizmy-istorizmy", "title": "Архаизмы и историзмы", "order": 3},
+        {"slug": "neologizmy", "title": "Неологизмы", "order": 4},
+        {"slug": "dialektizmy-professionalizmy", "title": "Диалектизмы и профессионализмы", "order": 5},
+        {"slug": "terminy-zhargonizmy", "title": "Термины и жаргонизмы", "order": 6},
+        {"slug": "frazeologizmy", "title": "Фразеологизмы", "order": 7},
+        {"slug": "sredstva-vyrazitelnosti", "title": "Эпитет, метафора, олицетворение", "order": 8}
+      ]
+    },
+    {
+      "name": "Словообразование",
+      "order": 4,
+      "topics": [
+        {"slug": "sposoby-obrazovaniya-pristavka-suffiks", "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов", "order": 1},
+        {"slug": "sposoby-obrazovaniya-slozhenie", "title": "Сложение, бессуффиксный способ, переход в другую часть речи", "order": 2},
+        {"slug": "koren-kas-kos", "title": "Правописание корня -кас- / -кос-", "order": 3}
+      ]
+    },
+    {
+      "name": "Имя существительное",
+      "order": 5,
+      "topics": [
+        {"slug": "suschestvitelnoe-slovoobrazovanie", "title": "Словообразование имён существительных", "order": 1},
+        {"slug": "suschestvitelnoe-normy-slovoizmeneniya", "title": "Нормы словоизменения имён существительных", "order": 2}
+      ]
+    },
+    {
+      "name": "Имя прилагательное",
+      "order": 6,
+      "topics": [
+        {"slug": "prilagatelnye-kachestvennye", "title": "Качественные имена прилагательные", "order": 1},
+        {"slug": "prilagatelnye-otnositelnye-prityazhatelnye", "title": "Относительные и притяжательные имена прилагательные", "order": 2},
+        {"slug": "sravnitelnaya-stepen", "title": "Сравнительная степень имён прилагательных", "order": 3},
+        {"slug": "prevoshodnaya-stepen", "title": "Превосходная степень имён прилагательных", "order": 4},
+        {"slug": "n-nn-prilagatelnyh", "title": "Н и НН в именах прилагательных", "order": 5},
+        {"slug": "k-sk-slozhnye-prilagatelnye", "title": "Суффиксы -к-/-ск- и сложные имена прилагательные", "order": 6}
+      ]
+    },
+    {
+      "name": "Имя числительное",
+      "order": 7,
+      "topics": [
+        {"slug": "chislitelnye-kolichestvennye", "title": "Количественные числительные", "order": 1},
+        {"slug": "chislitelnye-poryadkovye-stroenie", "title": "Порядковые числительные и строение числительных", "order": 2},
+        {"slug": "sklonenie-kolichestvennyh", "title": "Склонение количественных числительных", "order": 3},
+        {"slug": "sklonenie-poryadkovyh-sobiratelnyh", "title": "Склонение порядковых и собирательных числительных", "order": 4},
+        {"slug": "ch-myagkiy-znak", "title": "Ь в именах числительных", "order": 5},
+        {"slug": "chislitelnye-slitno-razdelno", "title": "Слитное, раздельное, дефисное написание числительных", "order": 6}
+      ]
+    },
+    {
+      "name": "Местоимение",
+      "order": 8,
+      "topics": [
+        {"slug": "mestoimeniya-lichnye-prityazhatelnye", "title": "Личные, возвратное, притяжательные местоимения", "order": 1},
+        {"slug": "mestoimeniya-ukazatelnye-otricatelnye", "title": "Указательные, определительные, вопросительные, неопределённые, отрицательные местоимения", "order": 2},
+        {"slug": "sklonenie-lichnyh-mestoimeniy", "title": "Склонение личных местоимений", "order": 3},
+        {"slug": "normy-upotrebleniya-mestoimeniy", "title": "Нормы употребления местоимений", "order": 4},
+        {"slug": "ne-ni-mestoimeniya", "title": "НЕ и НИ в местоимениях", "order": 5},
+        {"slug": "defis-mestoimeniya", "title": "Дефис в местоимениях: кое-, -то, -либо, -нибудь", "order": 6}
+      ]
+    },
+    {
+      "name": "Глагол",
+      "order": 9,
+      "topics": [
+        {"slug": "glagol-perehodnost-vozvratnost", "title": "Переходность и возвратность глаголов", "order": 1},
+        {"slug": "glagol-spryazhenie", "title": "Спряжение глаголов, разноспрягаемые глаголы", "order": 2},
+        {"slug": "naklonenie-izyavitelnoe-uslovnoe", "title": "Изъявительное и условное наклонение глагола", "order": 3},
+        {"slug": "naklonenie-povelitelnoe", "title": "Повелительное наклонение глагола", "order": 4},
+        {"slug": "bezlichnye-glagoly", "title": "Безличные глаголы", "order": 5},
+        {"slug": "glagol-tsya-myagkiy-znak", "title": "-ться/-тся и Ь после шипящих в глаголах", "order": 6},
+        {"slug": "glagol-okonchaniya-suffiksy", "title": "Личные окончания глаголов и суффиксы -ова-/-ыва-", "order": 7}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 10,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-russkiy", "title": "Итоговое повторение курса русского языка за 6 класс", "order": 1}
+      ]
+    }
+  ]
+}

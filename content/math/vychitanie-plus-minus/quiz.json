@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чему равно 5 − 12?",
+      "options": [
+        {"text": "−7", "correct": true},
+        {"text": "7", "correct": false},
+        {"text": "−17", "correct": false},
+        {"text": "17", "correct": false}
+      ],
+      "explanation": "5 − 12 = 5 + (−12). Разные знаки: 12 − 5 = 7, знак от большего модуля (−12) — минус: −7."
+    },
+    {
+      "type": "single",
+      "text": "Чему равно −6 − (−10)?",
+      "options": [
+        {"text": "4", "correct": true},
+        {"text": "−4", "correct": false},
+        {"text": "16", "correct": false},
+        {"text": "−16", "correct": false}
+      ],
+      "explanation": "−6 − (−10) = −6 + 10. Разные знаки: 10 − 6 = 4, знак от большего модуля (10) — плюс: 4."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из следующих разностей равны −8? (выбери все верные)",
+      "options": [
+        {"text": "−3 − 5", "correct": true},
+        {"text": "2 − 10", "correct": true},
+        {"text": "−12 − (−4)", "correct": true},
+        {"text": "6 − (−8)", "correct": false},
+        {"text": "0 − 8", "correct": true}
+      ],
+      "explanation": "−3−5=−8; 2−10=−8; −12−(−4)=−12+4=−8; 0−8=−8. А 6−(−8)=6+8=14."
+    },
+    {
+      "type": "dropdown",
+      "text": "Правило вычитания: a − b = a + (___ число, противоположное b).",
+      "options": [
+        {"text": "сложение с", "correct": true},
+        {"text": "умножение на", "correct": false},
+        {"text": "деление на", "correct": false}
+      ],
+      "explanation": "По правилу a − b = a + (−b): вычитание заменяется сложением с противоположным числом."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выражение a − (−b) равносильно a ___ b.",
+      "options": [
+        {"text": "+", "correct": true},
+        {"text": "−", "correct": false},
+        {"text": "×", "correct": false}
+      ],
+      "explanation": "Вычитание отрицательного числа превращается в сложение: a − (−b) = a + b."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: −9 − 6 = ?",
+      "answer": "-15",
+      "accepted": ["-15", "−15"],
+      "explanation": "−9 − 6 = −9 + (−6). Одинаковые знаки: 9 + 6 = 15, знак минус: −15."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: 4 − (−4) = ?",
+      "answer": "8",
+      "accepted": ["8"],
+      "explanation": "Вычитание отрицательного числа: 4 − (−4) = 4 + 4 = 8."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини пример с его результатом:",
+      "pairs": [
+        {"left": "3 − 15", "right": "−12"},
+        {"left": "−7 − (−7)", "right": "0"},
+        {"left": "−4 − 5", "right": "−9"},
+        {"left": "9 − (−9)", "right": "18"}
+      ],
+      "explanation": "3−15=−12; −7−(−7)=−7+7=0; −4−5=−9; 9−(−9)=9+9=18 — все по правилу a−b=a+(−b)."
+    }
+  ]
+}

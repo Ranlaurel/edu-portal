@@ -1,0 +1,3595 @@
+{
+  "days": [
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-tverdyi-znak",
+          "title": "Повторение. Разделительный Ъ",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": {
+          "slug": "svoystva-deystviy",
+          "title": "Свойства сложения и умножения натуральных чисел",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 1,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 1,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 1,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "ocenka-prikidka-zadachi",
+          "title": "Оценка, прикидка результата и текстовые задачи на 4 действия",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 2,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-myagkiy-znak",
+          "title": "Повторение. Ь: разделительный, мягкость, после шипящих",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 2,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 3,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 1,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "poryadok-deystviy-skobki",
+          "title": "Порядок действий и скобки в числовых выражениях",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 3,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-korni-proveryaemye",
+          "title": "Повторение. Проверяемые и непроверяемые гласные в корне",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 4,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 2,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 4,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "stepen-chisla",
+          "title": "Степень числа и разрядные слагаемые",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 5,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-korni-cheredovanie",
+          "title": "Повторение. Чередующиеся гласные в корне",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 6,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 2,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 5,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "zadachi-na-dvizhenie",
+          "title": "Текстовые задачи на движение",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 7,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 3,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-pristavki-z-s",
+          "title": "Повторение. Неизменяемые приставки и приставки на з-/с-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 6,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 8,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "zadachi-na-rabotu-stoimost",
+          "title": "Текстовые задачи на работу и стоимость",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 9,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 3,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-pristavki-pre-pri",
+          "title": "Повторение. Приставки ПРЕ- и ПРИ-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 7,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 10,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 4,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "okruglenie-chisel",
+          "title": "Округление натуральных чисел",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 8,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-suffiksy-imya",
+          "title": "Повторение. Суффиксы -ек-/-ик-, -чик-/-щик-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 11,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 12,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 4,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nod",
+          "title": "Наибольший общий делитель (НОД)",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 9,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-suffiksy-glagol",
+          "title": "Повторение. Суффиксы -к-/-ск- и гласные в суффиксах глаголов",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 13,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 5,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 10,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nok",
+          "title": "Наименьшее общее кратное (НОК)",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 14,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-ne-s-glagolami",
+          "title": "Повторение. НЕ с глаголами",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 15,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 5,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 11,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "priznaki-delimosti",
+          "title": "Признаки делимости",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 16,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 6,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-ne-s-sush-prilag",
+          "title": "Повторение. НЕ с существительными и прилагательными",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 12,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 17,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "delenie-s-ostatkom",
+          "title": "Деление с остатком",
+          "section": "Натуральные числа и делимость"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 18,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 6,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "tekst-tema-plan",
+          "title": "Текст: тема, основная мысль, план",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 13,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 19,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 7,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "perpendikulyarnye-pryamye",
+          "title": "Перпендикулярные прямые",
+          "section": "Прямые на плоскости и симметрия"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 14,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "tekst-svyaz-predlozheniy",
+          "title": "Способы и средства связи предложений в тексте",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 20,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 21,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 7,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "parallelnye-pryamye",
+          "title": "Параллельные прямые",
+          "section": "Прямые на плоскости и симметрия"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 15,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "stil-razgovorny-nauchny",
+          "title": "Разговорный и научный стили речи",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 22,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 8,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 16,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "osevaya-simmetriya",
+          "title": "Осевая симметрия",
+          "section": "Прямые на плоскости и симметрия"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 23,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "stil-oficialno-delovoy",
+          "title": "Официально-деловой стиль речи",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 17,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 24,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "centralnaya-simmetriya",
+          "title": "Центральная симметрия",
+          "section": "Прямые на плоскости и симметрия"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 25,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 8,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "tip-rechi-povestvovanie-opisanie",
+          "title": "Типы речи: повествование и описание",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 18,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 26,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 9,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "obyknovennye-drobi-osnovy",
+          "title": "Обыкновенные дроби: понятие и основное свойство",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 19,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "tip-rechi-rassuzhdenie",
+          "title": "Тип речи: рассуждение",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 27,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 28,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 9,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "desyatichnye-drobi-perevod",
+          "title": "Десятичные дроби и перевод между видами дробей",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 20,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "iskonno-russkie-slova",
+          "title": "Исконно русские слова",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 29,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 10,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 21,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-obyknovennyh-drobey",
+          "title": "Сравнение обыкновенных дробей",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 30,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "zaimstvovannye-slova",
+          "title": "Заимствованные слова",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 31,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 10,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 22,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-desyatichnyh-drobey",
+          "title": "Сравнение десятичных дробей и дроби на числовой прямой",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 32,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 11,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "arhaizmy-istorizmy",
+          "title": "Архаизмы и историзмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 23,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 33,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-vychitanie-obyknovennyh",
+          "title": "Сложение и вычитание обыкновенных дробей",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 34,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 11,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "neologizmy",
+          "title": "Неологизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 24,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 35,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 12,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-vychitanie-desyatichnyh",
+          "title": "Сложение и вычитание десятичных дробей",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 25,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "dialektizmy-professionalizmy",
+          "title": "Диалектизмы и профессионализмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 36,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 37,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 12,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "umnozhenie-delenie-obyknovennyh",
+          "title": "Умножение и деление обыкновенных дробей",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 26,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "terminy-zhargonizmy",
+          "title": "Термины и жаргонизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 38,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 13,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 27,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "umnozhenie-delenie-desyatichnyh",
+          "title": "Умножение и деление десятичных дробей",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 39,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "frazeologizmy",
+          "title": "Фразеологизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 40,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 13,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 28,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "otnosheniya-proporcii",
+          "title": "Отношения и пропорции",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 41,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 14,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-12-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "sredstva-vyrazitelnosti",
+          "title": "Эпитет, метафора, олицетворение",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 29,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 42,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "masshtab",
+          "title": "Масштаб",
+          "section": "Дроби"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 43,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 14,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "sposoby-obrazovaniya-pristavka-suffiks",
+          "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 30,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 44,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 15,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2026-12-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "procenty-osnovy",
+          "title": "Понятие процента и перевод в дробь",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 31,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "sposoby-obrazovaniya-slozhenie",
+          "title": "Сложение, бессуффиксный способ, переход в другую часть речи",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 45,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 46,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 15,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2026-12-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "procenty-vychisleniya",
+          "title": "Нахождение процента от числа и числа по проценту",
+          "section": "Дроби"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 32,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-12",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "koren-kas-kos",
+          "title": "Правописание корня -кас- / -кос-",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 33,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-13",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 47,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 16,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-01-14",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "perimetr-mnogougolnika",
+          "title": "Периметр многоугольника",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 34,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-15",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "suschestvitelnoe-slovoobrazovanie",
+          "title": "Словообразование имён существительных",
+          "section": "Имя существительное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 48,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-18",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 49,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 16,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-19",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "ploshad-priblizhenno",
+          "title": "Приближённое измерение площади фигуры",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 35,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-20",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "suschestvitelnoe-normy-slovoizmeneniya",
+          "title": "Нормы словоизменения имён существительных",
+          "section": "Имя существительное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 50,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 17,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-01-21",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "svoystva-pryamougolnika-kvadrata",
+          "title": "Свойства прямоугольника и квадрата",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 36,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-22",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 51,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-25",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "prilagatelnye-kachestvennye",
+          "title": "Качественные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 52,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 17,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-26",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "ploshad-perimetr-formuly",
+          "title": "Формулы площади и периметра, составные фигуры",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 37,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-27",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 53,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 18,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-01-28",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "prilagatelnye-otnositelnye-prityazhatelnye",
+          "title": "Относительные и притяжательные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 38,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-01-29",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "vidy-uglov-izmerenie",
+          "title": "Виды углов и измерение транспортиром",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 54,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 55,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 18,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "sravnitelnaya-stepen",
+          "title": "Сравнительная степень имён прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 39,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-uglov",
+          "title": "Сравнение углов и сумма углов треугольника",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 56,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 19,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-02-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 40,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "prevoshodnaya-stepen",
+          "title": "Превосходная степень имён прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 57,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "vidy-treugolnikov",
+          "title": "Виды треугольников по сторонам и углам",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 58,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 19,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 41,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "n-nn-prilagatelnyh",
+          "title": "Н и НН в именах прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 59,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 20,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-02-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "zadachi-treugolniki",
+          "title": "Задачи на углы и периметр треугольника",
+          "section": "Фигуры на плоскости"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 42,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 60,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "k-sk-slozhnye-prilagatelnye",
+          "title": "Суффиксы -к-/-ск- и сложные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 61,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 20,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "bukvennye-vyrazheniya",
+          "title": "Буквенные выражения",
+          "section": "Буквенные выражения и уравнения"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 43,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 62,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 21,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-02-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-kolichestvennye",
+          "title": "Количественные числительные",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 44,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "uravneniya",
+          "title": "Уравнения и нахождение неизвестного",
+          "section": "Буквенные выражения и уравнения"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 63,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 64,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 21,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-23",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-poryadkovye-stroenie",
+          "title": "Порядковые числительные и строение числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 45,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-24",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "formula-puti-stoimosti",
+          "title": "Формулы пути и стоимости",
+          "section": "Буквенные выражения и уравнения"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 65,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 22,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-02-25",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 46,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-02-26",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-kolichestvennyh",
+          "title": "Склонение количественных числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 66,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "formuly-geometricheskie",
+          "title": "Формулы площади, периметра, объёма",
+          "section": "Буквенные выражения и уравнения"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 67,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 22,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 47,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-poryadkovyh-sobiratelnyh",
+          "title": "Склонение порядковых и собирательных числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 68,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 23,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-03-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "celye-chisla",
+          "title": "Целые числа",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 48,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 69,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "ch-myagkiy-znak",
+          "title": "Ь в именах числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 70,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 23,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "modul-chisla",
+          "title": "Модуль числа",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 49,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 71,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 24,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-03-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-slitno-razdelno",
+          "title": "Слитное, раздельное, дефисное написание числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 50,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-polozhitelnyh-otricatelnyh",
+          "title": "Сравнение положительных и отрицательных чисел",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 72,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 73,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 24,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "mestoimeniya-lichnye-prityazhatelnye",
+          "title": "Личные, возвратное, притяжательные местоимения",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 51,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-raznye-znaki",
+          "title": "Сложение чисел с одинаковыми и разными знаками",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 74,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 25,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-03-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 52,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "mestoimeniya-ukazatelnye-otricatelnye",
+          "title": "Указательные, определительные, вопросительные, неопределённые, отрицательные местоимения",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 75,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-03-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "vychitanie-plus-minus",
+          "title": "Вычитание положительных и отрицательных чисел",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 76,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 25,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 53,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-lichnyh-mestoimeniy",
+          "title": "Склонение личных местоимений",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 77,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "umnozhenie-plus-minus",
+          "title": "Умножение чисел со знаками",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 78,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 26,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 54,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "normy-upotrebleniya-mestoimeniy",
+          "title": "Нормы употребления местоимений",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 79,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 26,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-04-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "delenie-plus-minus",
+          "title": "Деление чисел со знаками",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 55,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 80,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "ne-ni-mestoimeniya",
+          "title": "НЕ и НИ в местоимениях",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 81,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 27,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "racionalnye-chisla",
+          "title": "Рациональные числа: совместные действия",
+          "section": "Положительные и отрицательные числа"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 56,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 82,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 27,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-04-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "defis-mestoimeniya",
+          "title": "Дефис в местоимениях: кое-, -то, -либо, -нибудь",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 57,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "koordinaty-tochki",
+          "title": "Координатная плоскость: оси и координаты точки",
+          "section": "Координаты и диаграммы"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 83,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 84,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 28,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-perehodnost-vozvratnost",
+          "title": "Переходность и возвратность глаголов",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 58,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "postroenie-po-koordinatam",
+          "title": "Построение точек и фигур по координатам",
+          "section": "Координаты и диаграммы"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 85,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 28,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-04-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 59,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-spryazhenie",
+          "title": "Спряжение глаголов, разноспрягаемые глаголы",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 86,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-26",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "stolbchatye-diagrammy",
+          "title": "Столбчатые диаграммы",
+          "section": "Координаты и диаграммы"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 87,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 29,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-27",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 60,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-28",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "naklonenie-izyavitelnoe-uslovnoe",
+          "title": "Изъявительное и условное наклонение глагола",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 88,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 29,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-04-29",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "krugovye-diagrammy",
+          "title": "Круговые диаграммы",
+          "section": "Координаты и диаграммы"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 61,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-04-30",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 89,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-03",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "naklonenie-povelitelnoe",
+          "title": "Повелительное наклонение глагола",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 90,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 30,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-04",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "parallelepiped-kub",
+          "title": "Прямоугольный параллелепипед и куб",
+          "section": "Фигуры в пространстве"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 62,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-05",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 91,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 30,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-05-06",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "bezlichnye-glagoly",
+          "title": "Безличные глаголы",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 63,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-07",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "prizma-piramida",
+          "title": "Призма и пирамида",
+          "section": "Фигуры в пространстве"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 92,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-10",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 93,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 31,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-11",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-tsya-myagkiy-znak",
+          "title": "-ться/-тся и Ь после шипящих в глаголах",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 64,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-12",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "tela-vrasheniya",
+          "title": "Конус, цилиндр, шар и сфера",
+          "section": "Фигуры в пространстве"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 94,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 31,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-05-13",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 65,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-14",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-okonchaniya-suffiksy",
+          "title": "Личные окончания глаголов и суффиксы -ова-/-ыва-",
+          "section": "Глагол"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 95,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-17",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "obyom-edinicy",
+          "title": "Объём и единицы измерения объёма",
+          "section": "Фигуры в пространстве"
+        },
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 96,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 32,
+          "total": 33
+        },
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-18",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 66,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-19",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "itogovoe-povtorenie-russkiy",
+          "title": "Итоговое повторение курса русского языка за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 97,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": {
+          "generic": true,
+          "title": "География",
+          "lesson_number": 32,
+          "total": 32
+        }
+      }
+    },
+    {
+      "date": "2027-05-20",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "itogovoe-povtorenie-matematika",
+          "title": "Итоговое повторение курса математики за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "literature": null,
+        "history": {
+          "generic": true,
+          "title": "История",
+          "lesson_number": 67,
+          "total": 67
+        },
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-21",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 98,
+          "total": 99
+        },
+        "history": null,
+        "biology": null,
+        "geography": null
+      }
+    },
+    {
+      "date": "2027-05-24",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "literature": {
+          "generic": true,
+          "title": "Литература",
+          "lesson_number": 99,
+          "total": 99
+        },
+        "history": null,
+        "biology": {
+          "generic": true,
+          "title": "Биология",
+          "lesson_number": 33,
+          "total": 33
+        },
+        "geography": null
+      }
+    }
+  ]
+}

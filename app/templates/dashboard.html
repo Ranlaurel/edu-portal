@@ -4,17 +4,42 @@
 <h1>Дашборд</h1>
 
 <div class="dash-hero">
-  <div class="dash-stat">
+  <div class="dash-stat dash-stat-accent">
     <div class="dash-stat-value">{{ overall_percent }}%</div>
-    <div class="dash-stat-label">программы пройдено ({{ total_passed }}/{{ total_topics }} тем)</div>
+    <div class="dash-stat-label">программы пройдено<br>{{ total_passed }} из {{ total_topics }} тем</div>
   </div>
   <div class="dash-stat">
-    <div class="dash-stat-value">{{ streak }}{% if streak > 0 %}🔥{% endif %}</div>
+    <div class="dash-stat-value">{{ streak }}{% if streak > 0 %} 🔥{% endif %}</div>
     <div class="dash-stat-label">{{ "дней подряд" if streak != 1 else "день подряд" }}</div>
   </div>
   <div class="dash-stat">
     <div class="dash-stat-value">{{ week_items|length }}</div>
     <div class="dash-stat-label">тем сдано за 7 дней</div>
+  </div>
+  <div class="dash-stat">
+    <div class="dash-stat-value">{{ avg_score }}%</div>
+    <div class="dash-stat-label">средний балл<br>{{ total_attempts }} попыт{{ "ка" if total_attempts % 10 == 1 and total_attempts % 100 != 11 else ("и" if 2 <= total_attempts % 10 <= 4 and not (12 <= total_attempts % 100 <= 14) else "ок") }}</div>
+  </div>
+</div>
+
+<h2>Активность за {{ heatmap|length }} недель</h2>
+<div class="heatmap-wrap">
+  <div class="heatmap">
+    {% for week in heatmap %}
+    <div class="heatmap-col">
+      {% for day in week %}
+      <div class="heatmap-cell level-{{ day.level }}{% if day.is_future %} heatmap-future{% endif %}" title="{{ day.date.strftime('%d.%m.%Y') }} — {{ day.count }} попыт{{ 'ка' if day.count == 1 else 'ки' }}"></div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="heatmap-legend">
+    <span>меньше</span>
+    <span class="heatmap-cell level-0"></span>
+    <span class="heatmap-cell level-1"></span>
+    <span class="heatmap-cell level-2"></span>
+    <span class="heatmap-cell level-3"></span>
+    <span>больше</span>
   </div>
 </div>
 
@@ -22,27 +47,24 @@
 <div class="dash-subjects">
   {% for c in subject_cards %}
   <a class="dash-subject-card" href="/subjects/{{ c.subject.slug }}">
-    <div class="dash-subject-name">{{ c.subject.name }}</div>
-    <div class="progress-bar"><div class="progress-fill" style="width: {{ c.percent }}%"></div></div>
-    <div class="dash-subject-meta">{{ c.passed }}/{{ c.total }} · {{ c.percent }}%</div>
+    <div class="dash-subject-head">
+      <span class="subject-tag subject-{{ c.subject.slug }}">{{ c.subject.name }}</span>
+      <span class="dash-subject-percent">{{ c.percent }}%</span>
+    </div>
+    <div class="dash-stacked-bar">
+      {% if c.total > 0 %}
+      <div class="dash-stacked-passed" style="width: {{ (c.passed / c.total * 100)|round|int }}%"></div>
+      <div class="dash-stacked-review" style="width: {{ (c.needs_review / c.total * 100)|round|int }}%"></div>
+      {% endif %}
+    </div>
+    <div class="dash-subject-meta">
+      <span class="dash-legend-passed">{{ c.passed }} пройдено</span>
+      {% if c.needs_review %}<span class="dash-legend-review">{{ c.needs_review }} на повторе</span>{% endif %}
+      <span class="dash-legend-rest">{{ c.not_started }} впереди</span>
+    </div>
   </a>
   {% endfor %}
 </div>
-
-<h2>На этой неделе</h2>
-{% if week_items %}
-<div class="review-list">
-  {% for item in week_items %}
-  <div class="topic-row">
-    <span class="status-dot" style="background: var(--green)"></span>
-    <a href="/topics/{{ item.topic.id }}/lesson">{{ item.topic.title }}</a>
-    <span class="dash-when">{{ item.when.strftime("%d.%m") }}</span>
-  </div>
-  {% endfor %}
-</div>
-{% else %}
-<p class="review-empty">На этой неделе ещё ничего не сдано.</p>
-{% endif %}
 
 <h2>Слабые места</h2>
 <p class="quiz-hint">Темы «нужно повторить» или сданные ниже {{ 85 }}% — стоит закрепить в первую очередь.</p>
@@ -50,7 +72,7 @@
 <div class="review-list">
   {% for item in weak_items %}
   <div class="topic-row">
-    <span class="status-dot" style="background: var(--red)"></span>
+    <span class="subject-tag subject-{{ item.topic.section.subject.slug }}">{{ item.topic.section.subject.name }}</span>
     <a href="/topics/{{ item.topic.id }}/lesson">{{ item.topic.title }}</a>
     <span class="badge badge-review">{{ item.progress.best_score }}%</span>
     {% if item.progress.wrong_question_ids %}
@@ -61,5 +83,21 @@
 </div>
 {% else %}
 <p class="review-empty">Слабых мест нет — все сданные темы держатся уверенно.</p>
+{% endif %}
+
+<h2>Последняя активность</h2>
+{% if recent_items %}
+<div class="review-list">
+  {% for item in recent_items %}
+  <div class="topic-row">
+    <span class="status-dot" style="background: {{ 'var(--green)' if item.attempt.passed else 'var(--red)' }}"></span>
+    <span class="subject-tag subject-{{ item.subject.slug }}">{{ item.subject.name }}</span>
+    <a href="/topics/{{ item.topic.id }}/lesson">{{ item.topic.title }}</a>
+    <span class="dash-when">{{ item.attempt.score }}% · {{ item.attempt.created_at.strftime("%d.%m %H:%M") }}</span>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<p class="review-empty">Пока нет ни одной попытки.</p>
 {% endif %}
 {% endblock %}

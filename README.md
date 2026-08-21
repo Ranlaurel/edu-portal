@@ -60,11 +60,23 @@ pipeline/load_content.py                # content/ → portal.db (безопас
   генерируется `pipeline/build_schedule.py`).
 - Прогресс по темам (не начато / пройдено / нужно повторить) и % по предмету.
 - Порог прохождения теста — 70%, можно пересдать («Пройти ещё раз»).
+- **Пароль на вход** — если задана переменная окружения `EDU_PORTAL_PASSWORD`,
+  весь сайт закрыт логин-страницей (`/login`), сессия — по подписанной куке. Без
+  переменной (по умолчанию — локальная разработка) пароль не спрашивается.
+- **Вопросы в тесте перемешиваются** при каждом заходе (порядок вопросов и
+  вариантов) — заучить последовательность ответов сложнее. Настоящее
+  разнообразие (новые вопросы, а не просто новый порядок) потребует расширить
+  банк вопросов на тему — сейчас 8-10 на тему, инфраструктура уже поддержит
+  больше без изменений кода.
+- **Интервальное повторение** (`/review`) — после сдачи темы на 70%+ она
+  переходит по расписанию Лейтнера (1 → 3 → 7 → 16 → 35 дней). Когда срок
+  подходит, тема появляется на странице «Повторение»; провал на повторении
+  сбрасывает интервал обратно к 1 дню.
 
 ## Деплой на VPS (edu.rvnza.ru)
 
-Предполагается сервер, уже настроенный аналогично `threads-automation` (nginx +
-Python 3.11+ уже стоят). Шаблоны конфигов лежат в `deploy/`.
+Реальный сервер — `lomaks-ai-seller`, на нём уже стоят Caddy (reverse proxy для
+других проектов на этом VPS) и Python 3.12+. Шаблоны конфигов лежат в `deploy/`.
 
 ### 1. Получить код на сервер
 
@@ -95,9 +107,34 @@ python3 -m venv .venv
 ```
 
 `portal.db` создаётся заново на сервере из `content/` — не переноси файл БД с
-локальной машины, база пересобирается за секунды.
+локальной машины, база пересобирается за секунды. При повторных деплоях этот
+файл уже существует и не трогается — прогресс не теряется, `load_content.py`
+только обновляет темы/уроки/тесты.
 
-### 3. systemd — держим процесс живым
+### 3. Пароль на вход
+
+Сайт публичный (открытый домен), поэтому стоит закрыть его паролем — иначе
+зайти и сбросить прогресс ребёнка может кто угодно со ссылкой. Создай файл
+`/etc/edu-portal.env` (он не в репозитории, README и systemd-юнит на него
+только ссылаются):
+
+```bash
+sudo tee /etc/edu-portal.env << 'EOF'
+EDU_PORTAL_PASSWORD=выбери-свой-пароль
+EDU_PORTAL_SECRET_KEY=любая-длинная-случайная-строка
+EOF
+sudo chmod 600 /etc/edu-portal.env
+```
+
+`EDU_PORTAL_SECRET_KEY` — просто случайная строка для подписи cookie-сессий
+(например, `openssl rand -hex 32`). Если её не задать, сервер сгенерирует
+случайный ключ при каждом запуске — и все сессии будут слетать при каждом
+рестарте/автодеплое, так что лучше задать один раз и не менять.
+
+Без этого файла (или без `EDU_PORTAL_PASSWORD` в нём) сайт остаётся открытым
+без пароля — так и работает сейчас локальная разработка.
+
+### 4. systemd — держим процесс живым
 
 ```bash
 sudo cp deploy/edu-portal.service /etc/systemd/system/edu-portal.service
@@ -107,25 +144,34 @@ sudo systemctl enable --now edu-portal
 sudo systemctl status edu-portal                   # должно быть active (running)
 ```
 
-### 4. nginx — reverse proxy на домен
+### 5. Reverse proxy на домен + HTTPS
+
+На реальном сервере (`lomaks-ai-seller`) уже стоит **Caddy**, не nginx —
+Caddy сам получает и обновляет сертификат Let's Encrypt, конфиг живёт как
+отдельный файл, основной Caddyfile не трогаем:
 
 ```bash
-sudo cp deploy/nginx-edu-portal.conf /etc/nginx/sites-available/edu-portal
-sudo ln -s /etc/nginx/sites-available/edu-portal /etc/nginx/sites-enabled/edu-portal
-sudo nginx -t && sudo systemctl reload nginx
+sudo tee /etc/caddy/sites/edu-portal.caddy << 'EOF'
+edu.rvnza.ru {
+        encode gzip
+        log {
+                output file /var/log/caddy/edu-portal.log
+                format json
+        }
+        reverse_proxy 127.0.0.1:8001
+}
+EOF
+sudo touch /var/log/caddy/edu-portal.log && sudo chown caddy:caddy /var/log/caddy/edu-portal.log
+sudo caddy validate --config /etc/caddy/Caddyfile
+sudo systemctl reload caddy
 ```
+
+Если у тебя на сервере вместо Caddy стоит nginx — используй
+`deploy/nginx-edu-portal.conf` и `certbot --nginx -d edu.rvnza.ru` (шаблон
+уже лежит в `deploy/`).
 
 Убедись, что A-запись `edu.rvnza.ru` в DNS указывает на IP сервера (обычно уже
 так, если поддомен настраивался вместе с остальными на этом же VPS).
-
-### 5. HTTPS
-
-```bash
-sudo certbot --nginx -d edu.rvnza.ru
-```
-
-Certbot сам допишет `listen 443 ssl` в конфиг и настроит автообновление
-сертификата.
 
 ### 6. Проверка
 

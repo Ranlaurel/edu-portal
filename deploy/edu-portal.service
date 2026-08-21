@@ -9,6 +9,9 @@ User=www-data
 Group=www-data
 WorkingDirectory=/var/www/edu-portal
 Environment="PATH=/var/www/edu-portal/.venv/bin"
+# EDU_PORTAL_PASSWORD and EDU_PORTAL_SECRET_KEY live here, NOT in the repo.
+# Create /etc/edu-portal.env once on the server (see README "Пароль на вход").
+EnvironmentFile=-/etc/edu-portal.env
 ExecStart=/var/www/edu-portal/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8001
 Restart=always
 RestartSec=3

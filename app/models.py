@@ -1,6 +1,7 @@
 from sqlalchemy import (
     Boolean,
     Column,
+    Date,
     ForeignKey,
     Integer,
     String,
@@ -110,3 +111,5 @@ class UserProgress(Base):
     status = Column(String, default="not_started")  # not_started | passed | needs_review
     best_score = Column(Integer, default=0)  # percent
     attempts = Column(Integer, default=0)
+    interval_stage = Column(Integer, default=0)  # index into REVIEW_INTERVALS_DAYS
+    next_review_at = Column(Date, nullable=True)

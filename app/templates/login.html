@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Вход{% endblock %}
+{% block content %}
+<div class="login-wrap">
+  <h1>Учебный портал</h1>
+  <form method="post" action="/login" class="login-form">
+    {% if error %}<div class="login-error">{{ error }}</div>{% endif %}
+    <input type="password" name="password" placeholder="Пароль" autofocus required>
+    <button type="submit" class="btn btn-primary">Войти</button>
+  </form>
+</div>
+{% endblock %}

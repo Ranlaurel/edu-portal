@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 from app.db import get_db
 from app.models import Question, Topic, UserProgress
 from app.progress_utils import DEFAULT_USER_ID
+from app.spaced_repetition import on_fail, on_pass
 from app.templating import templates
 
 router = APIRouter()
@@ -39,7 +40,9 @@ def quiz_page(topic_id: int, request: Request, db: Session = Depends(get_db)):
     topic = db.query(Topic).get(topic_id)
     if not topic:
         return RedirectResponse("/subjects")
-    questions = [serialize_question(q) for q in topic.questions]
+    topic_questions = list(topic.questions)
+    random.shuffle(topic_questions)
+    questions = [serialize_question(q) for q in topic_questions]
     return templates.TemplateResponse(
         "quiz.html",
         {"request": request, "topic": topic, "questions_json": json.dumps(questions, ensure_ascii=False)},
@@ -121,8 +124,12 @@ def submit_quiz(topic_id: int, payload: SubmitPayload, db: Session = Depends(get
     prog.best_score = max(prog.best_score, score)
     if passed:
         prog.status = "passed"
+        on_pass(prog)
     elif prog.status != "passed":
         prog.status = "needs_review"
+    else:
+        # was passed before, failed this review attempt -> back into rotation sooner
+        on_fail(prog)
     db.commit()
 
     return {
@@ -131,4 +138,5 @@ def submit_quiz(topic_id: int, payload: SubmitPayload, db: Session = Depends(get
         "correct_count": correct_count,
         "total": total,
         "results": results,
+        "next_review_at": prog.next_review_at.isoformat() if prog.next_review_at else None,
     }

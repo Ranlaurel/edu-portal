@@ -174,6 +174,11 @@
     applyResults(data);
   });
 
+  function formatDate(isoDate) {
+    const d = new Date(isoDate + "T00:00:00");
+    return d.toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+  }
+
   function applyResults(data) {
     submitted = true;
     document.getElementById("submit-btn").style.display = "none";
@@ -182,8 +187,11 @@
     const summary = document.getElementById("quiz-summary");
     summary.style.display = "block";
     summary.className = "quiz-summary " + (data.passed ? "pass" : "fail");
+    const reviewNote = data.next_review_at
+      ? ` Следующее повторение — ${formatDate(data.next_review_at)}.`
+      : "";
     summary.textContent = data.passed
-      ? `Отлично! ${data.correct_count}/${data.total} верно (${data.score}%). Тема пройдена.`
+      ? `Отлично! ${data.correct_count}/${data.total} верно (${data.score}%). Тема пройдена.${reviewNote}`
       : `${data.correct_count}/${data.total} верно (${data.score}%). Нужно 70% — попробуй ещё раз.`;
 
     data.results.forEach((r) => {

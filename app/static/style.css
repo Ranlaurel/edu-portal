@@ -202,3 +202,21 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
 .subject-tag.subject-istoriya-rossii { background: #fed7aa; color: #c2410c; }
 .subject-tag.subject-literature { background: #fce7f3; color: #be185d; }
 .lesson-count { color: var(--muted); font-size: .78em; }
+
+/* login */
+.login-wrap { max-width: 340px; margin: 80px auto 0; text-align: center; }
+.login-form { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+.login-form input[type="password"] {
+  padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem;
+}
+.login-form .btn { width: 100%; }
+.login-error { background: var(--red-bg); color: var(--red); padding: 8px 12px; border-radius: 8px; font-size: .9rem; }
+
+/* review */
+.review-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px;
+  background: var(--red); color: #fff; font-size: .72rem; font-weight: 700; margin-left: 4px;
+}
+.review-list { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+.review-empty { color: var(--muted); margin-top: 20px; }

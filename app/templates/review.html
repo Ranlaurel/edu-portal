@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Повторение{% endblock %}
+{% block content %}
+<h1>Повторение</h1>
+<p class="quiz-hint">Темы, которые пора освежить в памяти по методу интервальных повторений — чем дольше тема держится, тем реже к ней возвращаемся.</p>
+
+{% if not groups %}
+<p class="review-empty">Сегодня повторять нечего — все пройденные темы ещё «свежие». Загляни завтра.</p>
+{% endif %}
+
+{% for g in groups %}
+<section class="section-block">
+  <h2>{{ g.subject.name }} <span class="review-badge">{{ g.rows|length }}</span></h2>
+  <div class="review-list">
+    {% for item in g.rows %}
+    <div class="topic-row">
+      <span class="status-dot" style="background: var(--yellow)"></span>
+      <a href="/topics/{{ item.topic.id }}/quiz">{{ item.topic.title }}</a>
+      <span class="badge badge-review">лучший результат {{ item.progress.best_score }}%</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

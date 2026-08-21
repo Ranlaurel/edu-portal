@@ -12,6 +12,8 @@
     <nav class="topnav">
       <a href="/subjects">Предметы</a>
       <a href="/schedule">Расписание</a>
+      <a href="/review">Повторение</a>
+      {% if auth_enabled %}<a href="/logout">Выйти</a>{% endif %}
     </nav>
   </header>
   <main class="container">

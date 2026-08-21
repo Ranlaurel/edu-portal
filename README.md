@@ -149,6 +149,14 @@ sudo systemctl enable --now edu-portal
 sudo systemctl status edu-portal                   # должно быть active (running)
 ```
 
+⚠️ **Автодеплой этот файл не трогает.** GitHub Actions делает `git pull` +
+рестарт сервиса, но не копирует `deploy/edu-portal.service` в
+`/etc/systemd/system/`. Если когда-нибудь поменяешь юнит в репозитории
+(например, снова понадобится новая переменная окружения) — команду `sudo cp
+deploy/edu-portal.service /etc/systemd/system/edu-portal.service && sudo
+systemctl daemon-reload` нужно повторить на сервере вручную, иначе изменения
+просто не применятся, а найти причину будет не очевидно.
+
 ### 5. Reverse proxy на домен + HTTPS
 
 На реальном сервере (`lomaks-ai-seller`) уже стоит **Caddy**, не nginx —

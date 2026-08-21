@@ -47,7 +47,10 @@ def topic_list(slug: str, request: Request, db: Session = Depends(get_db)):
         for t in sec.topics:
             p = prog.get(t.id)
             status = p.status if (p and t.has_content) else ("no_content" if not t.has_content else "not_started")
-            topic_rows.append({"topic": t, "status": status, "best_score": p.best_score if p else None})
+            has_mistakes = bool(p and p.wrong_question_ids)
+            topic_rows.append(
+                {"topic": t, "status": status, "best_score": p.best_score if p else None, "has_mistakes": has_mistakes}
+            )
         sections.append({"section": sec, "topics": topic_rows})
 
     return templates.TemplateResponse(

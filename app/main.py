@@ -8,7 +8,7 @@ from starlette.middleware.sessions import SessionMiddleware
 from app import migrate
 from app.auth import AUTH_ENABLED, SECRET_KEY, is_authenticated, is_public_path
 from app.db import Base, engine
-from app.routers import auth, progress, quiz, review, schedule, topics
+from app.routers import auth, dashboard, progress, quiz, review, schedule, topics
 
 Base.metadata.create_all(bind=engine)
 migrate.run(engine)
@@ -38,3 +38,4 @@ app.include_router(quiz.router)
 app.include_router(progress.router)
 app.include_router(schedule.router)
 app.include_router(review.router)
+app.include_router(dashboard.router)

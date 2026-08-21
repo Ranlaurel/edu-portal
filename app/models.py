@@ -2,11 +2,13 @@ from sqlalchemy import (
     Boolean,
     Column,
     Date,
+    DateTime,
     ForeignKey,
     Integer,
     String,
     Text,
     UniqueConstraint,
+    func,
 )
 from sqlalchemy.orm import relationship
 
@@ -113,3 +115,19 @@ class UserProgress(Base):
     attempts = Column(Integer, default=0)
     interval_stage = Column(Integer, default=0)  # index into REVIEW_INTERVALS_DAYS
     next_review_at = Column(Date, nullable=True)
+    wrong_question_ids = Column(String, nullable=True)  # comma-separated ids missed on last failed attempt
+
+
+class Attempt(Base):
+    """One row per quiz submission -- powers the parent dashboard (streak, weekly activity)."""
+
+    __tablename__ = "attempts"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, default=1, nullable=False)
+    topic_id = Column(Integer, ForeignKey("topics.id"), nullable=False)
+    score = Column(Integer, nullable=False)
+    passed = Column(Boolean, default=False)
+    created_at = Column(DateTime, server_default=func.now())
+
+    topic = relationship("Topic")

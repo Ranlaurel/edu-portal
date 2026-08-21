@@ -94,6 +94,8 @@ h2 { font-size: 1.2rem; }
 .badge { margin-left: auto; font-size: .82rem; padding: 3px 10px; border-radius: 999px; font-weight: 600; }
 .badge-passed { background: var(--green-bg); color: var(--green); }
 .badge-review { background: var(--yellow-bg); color: var(--yellow); }
+.badge-mistakes { background: var(--red-bg); color: var(--red); text-decoration: none; }
+.badge-mistakes:hover { text-decoration: underline; }
 
 /* lesson */
 .lesson-content { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; margin: 18px 0 24px; }
@@ -212,6 +214,24 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
 }
 .login-form .btn { width: 100%; }
 .login-error { background: var(--red-bg); color: var(--red); padding: 8px 12px; border-radius: 8px; font-size: .9rem; }
+
+/* dashboard */
+.dash-hero { display: flex; gap: 16px; margin: 20px 0 8px; flex-wrap: wrap; }
+.dash-stat {
+  flex: 1; min-width: 140px; background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 18px; text-align: center;
+}
+.dash-stat-value { font-size: 2rem; font-weight: 700; color: var(--primary); }
+.dash-stat-label { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+.dash-subjects { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 12px 0 8px; }
+.dash-subject-card {
+  display: block; background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; text-decoration: none; color: var(--text);
+}
+.dash-subject-card:hover { border-color: var(--primary); }
+.dash-subject-name { font-weight: 600; margin-bottom: 6px; }
+.dash-subject-meta { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+.dash-when { margin-left: auto; color: var(--muted); font-size: .8rem; }
 
 /* review */
 .review-badge {

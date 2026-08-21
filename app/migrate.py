@@ -18,4 +18,6 @@ def run(engine):
             conn.execute(text("ALTER TABLE user_progress ADD COLUMN interval_stage INTEGER DEFAULT 0"))
         if "next_review_at" not in cols:
             conn.execute(text("ALTER TABLE user_progress ADD COLUMN next_review_at DATE"))
+        if "wrong_question_ids" not in cols:
+            conn.execute(text("ALTER TABLE user_progress ADD COLUMN wrong_question_ids VARCHAR"))
         conn.commit()

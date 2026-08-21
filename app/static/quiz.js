@@ -168,7 +168,7 @@
     const res = await fetch(`/topics/${topicId}/quiz/submit`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ answers: state }),
+      body: JSON.stringify({ answers: state, practice: !!window.QUIZ_PRACTICE_MODE }),
     });
     const data = await res.json();
     applyResults(data);
@@ -187,12 +187,18 @@
     const summary = document.getElementById("quiz-summary");
     summary.style.display = "block";
     summary.className = "quiz-summary " + (data.passed ? "pass" : "fail");
-    const reviewNote = data.next_review_at
-      ? ` Следующее повторение — ${formatDate(data.next_review_at)}.`
-      : "";
-    summary.textContent = data.passed
-      ? `Отлично! ${data.correct_count}/${data.total} верно (${data.score}%). Тема пройдена.${reviewNote}`
-      : `${data.correct_count}/${data.total} верно (${data.score}%). Нужно 70% — попробуй ещё раз.`;
+    if (data.practice) {
+      summary.textContent = data.correct_count === data.total
+        ? `Отлично! ${data.correct_count}/${data.total} верно. Все прошлые ошибки закрыты — можно пересдать полный тест.`
+        : `${data.correct_count}/${data.total} верно. Ещё не всё — попробуй те же вопросы ещё раз.`;
+    } else {
+      const reviewNote = data.next_review_at
+        ? ` Следующее повторение — ${formatDate(data.next_review_at)}.`
+        : "";
+      summary.textContent = data.passed
+        ? `Отлично! ${data.correct_count}/${data.total} верно (${data.score}%). Тема пройдена.${reviewNote}`
+        : `${data.correct_count}/${data.total} верно (${data.score}%). Нужно 70% — попробуй ещё раз.`;
+    }
 
     data.results.forEach((r) => {
       const card = document.getElementById("q-card-" + r.id);

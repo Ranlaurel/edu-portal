@@ -2,6 +2,7 @@ import os
 
 from fastapi import Request
 
+PORTAL_LOGIN = os.environ.get("EDU_PORTAL_LOGIN", "admin")
 PORTAL_PASSWORD = os.environ.get("EDU_PORTAL_PASSWORD")
 AUTH_ENABLED = bool(PORTAL_PASSWORD)
 

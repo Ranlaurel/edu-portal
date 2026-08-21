@@ -1,7 +1,9 @@
+import secrets
+
 from fastapi import APIRouter, Form, Request
 from fastapi.responses import RedirectResponse
 
-from app.auth import PORTAL_PASSWORD
+from app.auth import PORTAL_LOGIN, PORTAL_PASSWORD
 from app.templating import templates
 
 router = APIRouter()
@@ -13,12 +15,14 @@ def login_form(request: Request):
 
 
 @router.post("/login")
-def login_submit(request: Request, password: str = Form(...)):
-    if password == PORTAL_PASSWORD:
+def login_submit(request: Request, login: str = Form(...), password: str = Form(...)):
+    login_ok = secrets.compare_digest(login, PORTAL_LOGIN)
+    password_ok = secrets.compare_digest(password, PORTAL_PASSWORD or "")
+    if login_ok and password_ok:
         request.session["authenticated"] = True
         return RedirectResponse("/", status_code=303)
     return templates.TemplateResponse(
-        "login.html", {"request": request, "error": "Неверный пароль"}, status_code=401
+        "login.html", {"request": request, "error": "Неверный логин или пароль"}, status_code=401
     )
 
 

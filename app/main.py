@@ -13,7 +13,7 @@ from app.routers import auth, progress, quiz, review, schedule, topics
 Base.metadata.create_all(bind=engine)
 migrate.run(engine)
 
-app = FastAPI(title="Учебный портал")
+app = FastAPI(title="АНТИРЭШ")
 
 BASE_DIR = Path(__file__).resolve().parent
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")

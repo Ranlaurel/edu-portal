@@ -206,8 +206,9 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
 /* login */
 .login-wrap { max-width: 340px; margin: 80px auto 0; text-align: center; }
 .login-form { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
-.login-form input[type="password"] {
+.login-form input[type="text"], .login-form input[type="password"] {
   padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem;
+  width: 100%; box-sizing: border-box; font-family: inherit;
 }
 .login-form .btn { width: 100%; }
 .login-error { background: var(--red-bg); color: var(--red); padding: 8px 12px; border-radius: 8px; font-size: .9rem; }

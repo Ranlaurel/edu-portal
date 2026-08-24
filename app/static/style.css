@@ -44,6 +44,9 @@ body {
   margin: 0 auto;
   padding: 28px 20px 80px;
 }
+.container.container-wide {
+  max-width: 1400px;
+}
 
 h1 { font-size: 1.6rem; margin-bottom: 8px; }
 h2 { font-size: 1.2rem; }
@@ -182,7 +185,7 @@ select.q-select.incorrect, input.q-fill.incorrect { border-color: var(--red); ba
 .week-card.week-current { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(79,70,229,.15); }
 .week-title { font-weight: 700; margin-bottom: 10px; }
 .week-dates { font-weight: 400; font-size: .8rem; color: var(--muted); margin-left: 6px; }
-.day-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.day-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
 .day-cell {
   border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: #fafbff;
   display: flex; flex-direction: column; gap: 6px; min-width: 0;

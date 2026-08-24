@@ -89,6 +89,7 @@ h2 { font-size: 1.2rem; }
 .topic-row a:hover { color: var(--primary); }
 .topic-disabled { color: var(--muted); }
 .status-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); flex-shrink: 0; }
+.topic-num { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 1.6em; flex-shrink: 0; }
 .status-passed .status-dot { background: var(--green); }
 .status-needs_review .status-dot { background: var(--yellow); }
 .badge { margin-left: auto; font-size: .82rem; padding: 3px 10px; border-radius: 999px; font-weight: 600; }

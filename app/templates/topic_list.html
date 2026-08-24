@@ -5,13 +5,16 @@
 <div class="progress-bar big"><div class="progress-fill" style="width: {{ percent }}%"></div></div>
 <span class="percent-label">{{ percent }}% программы пройдено</span>
 
+{% set counter = namespace(n=0) %}
 {% for s in sections %}
 <section class="section-block">
   <h2>{{ s.section.name }}</h2>
   <ul class="topic-list">
     {% for row in s.topics %}
+    {% set counter.n = counter.n + 1 %}
     <li class="topic-row status-{{ row.status }}">
       <span class="status-dot" title="{{ row.status }}"></span>
+      <span class="topic-num">{{ counter.n }}.</span>
       {% if row.topic.has_content %}
         <a href="/topics/{{ row.topic.id }}/lesson">{{ row.topic.title }}</a>
       {% else %}

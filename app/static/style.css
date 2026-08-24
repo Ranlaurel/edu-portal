@@ -79,6 +79,7 @@ h2 { font-size: 1.2rem; }
   transition: box-shadow .15s, transform .15s;
 }
 .subject-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,.08); transform: translateY(-2px); }
+.subject-icon { font-size: 1.1em; margin-right: 2px; }
 
 /* topic list */
 .section-block { margin-top: 28px; }

@@ -2,10 +2,20 @@
 {% block title %}Предметы{% endblock %}
 {% block content %}
 <h1>Предметы</h1>
+{% set subject_icons = {
+  "russian": "📝",
+  "math": "🧮",
+  "english": "🔤",
+  "biology": "🌱",
+  "geography": "🌍",
+  "vseobschaya-istoriya": "🏛️",
+  "istoriya-rossii": "🏰",
+  "literature": "📖"
+} %}
 <div class="card-grid">
   {% for c in cards %}
   <a class="subject-card" href="/subjects/{{ c.subject.slug }}">
-    <h2>{{ c.subject.name }}</h2>
+    <h2><span class="subject-icon">{{ subject_icons.get(c.subject.slug, "📚") }}</span> {{ c.subject.name }}</h2>
     <div class="progress-bar"><div class="progress-fill" style="width: {{ c.percent }}%"></div></div>
     <span class="percent-label">{{ c.percent }}% пройдено</span>
   </a>

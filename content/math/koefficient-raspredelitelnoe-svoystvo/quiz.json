@@ -1,0 +1,93 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой коэффициент в выражении −3x?",
+      "options": [
+        {"text": "−3", "correct": true},
+        {"text": "3", "correct": false},
+        {"text": "x", "correct": false},
+        {"text": "−1", "correct": false}
+      ],
+      "explanation": "Коэффициент — это число перед буквенным множителем, в −3x это −3."
+    },
+    {
+      "type": "single",
+      "text": "Какой коэффициент в выражении y (число перед буквой не написано)?",
+      "options": [
+        {"text": "1", "correct": true},
+        {"text": "0", "correct": false},
+        {"text": "y", "correct": false},
+        {"text": "−1", "correct": false}
+      ],
+      "explanation": "Если перед буквой не написано число, коэффициент равен 1, так как y = 1 × y."
+    },
+    {
+      "type": "dropdown",
+      "text": "Распределительное свойство умножения записывается как a × (b + c) = ___.",
+      "options": [
+        {"text": "a × b + a × c", "correct": true},
+        {"text": "a × b × c", "correct": false},
+        {"text": "a + b × c", "correct": false}
+      ],
+      "explanation": "Распределительное свойство позволяет умножить число на каждое слагаемое в скобках отдельно: a × (b + c) = a × b + a × c."
+    },
+    {
+      "type": "single",
+      "text": "Приведи подобные слагаемые: 5a − 9a.",
+      "options": [
+        {"text": "−4a", "correct": true},
+        {"text": "4a", "correct": false},
+        {"text": "−14a", "correct": false},
+        {"text": "14a", "correct": false}
+      ],
+      "explanation": "Складываем коэффициенты: (5 − 9)a = −4a."
+    },
+    {
+      "type": "single",
+      "text": "Раскрой скобки: −2 × (6 + 4).",
+      "options": [
+        {"text": "−20", "correct": true},
+        {"text": "20", "correct": false},
+        {"text": "−8", "correct": false},
+        {"text": "−12", "correct": false}
+      ],
+      "explanation": "−2 × (6 + 4) = −2 × 6 + (−2) × 4 = −12 − 8 = −20 (проверка: −2 × 10 = −20)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих выражений равны 6x + 15 после раскрытия скобок или приведения подобных слагаемых? (выбери все верные варианты)",
+      "options": [
+        {"text": "3 × (2x + 5)", "correct": true},
+        {"text": "10x − 4x + 15", "correct": true},
+        {"text": "2x + 4x + 15", "correct": true},
+        {"text": "3 × (2x + 5) − 1", "correct": false},
+        {"text": "6x + 5 + 10", "correct": true}
+      ],
+      "explanation": "3×(2x+5) = 6x+15; 10x−4x+15 = 6x+15; 2x+4x+15 = 6x+15; 6x+5+10 = 6x+15; а 3×(2x+5)−1 = 6x+14, что не равно 6x+15."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши число: приведи подобные слагаемые −3y + 8y − 2y, коэффициент результата равен ___.",
+      "answer": "3",
+      "explanation": "(−3 + 8 − 2)y = 3y, коэффициент равен 3."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Раскрой скобки и запиши результат без пробелов: −5 × (2a − 3). Впиши в виде −10a+15.",
+      "answer": "-10a+15",
+      "explanation": "−5 × (2a − 3) = −5 × 2a − (−5) × 3 = −10a + 15."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с результатом его упрощения.",
+      "pairs": [
+        {"left": "6x + 9x", "right": "15x"},
+        {"left": "5 × (3 + x)", "right": "15 + 5x"},
+        {"left": "−3 × (4a − 2)", "right": "−12a + 6"},
+        {"left": "6x + 3 − 2x + 5", "right": "4x + 8"}
+      ],
+      "explanation": "6x+9x = 15x (складываем коэффициенты); 5×(3+x) = 15+5x (распределительное свойство); −3×(4a−2) = −12a+6; 6x+3−2x+5 = (6−2)x+(3+5) = 4x+8 (отдельно приводим слагаемые с x и числа)."
+    }
+  ]
+}

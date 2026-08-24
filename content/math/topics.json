@@ -2,111 +2,105 @@
   "subject": {"name": "Математика", "slug": "math"},
   "sections": [
     {
-      "name": "Натуральные числа и делимость",
+      "name": "Повторение курса 5 класса",
       "order": 1,
       "topics": [
         {"slug": "svoystva-deystviy", "title": "Свойства сложения и умножения натуральных чисел", "order": 1},
-        {"slug": "ocenka-prikidka-zadachi", "title": "Оценка, прикидка результата и текстовые задачи на 4 действия", "order": 2},
-        {"slug": "poryadok-deystviy-skobki", "title": "Порядок действий и скобки в числовых выражениях", "order": 3},
-        {"slug": "stepen-chisla", "title": "Степень числа и разрядные слагаемые", "order": 4},
-        {"slug": "zadachi-na-dvizhenie", "title": "Текстовые задачи на движение", "order": 5},
-        {"slug": "zadachi-na-rabotu-stoimost", "title": "Текстовые задачи на работу и стоимость", "order": 6},
-        {"slug": "okruglenie-chisel", "title": "Округление натуральных чисел", "order": 7},
-        {"slug": "nod", "title": "Наибольший общий делитель (НОД)", "order": 8},
-        {"slug": "nok", "title": "Наименьшее общее кратное (НОК)", "order": 9},
-        {"slug": "priznaki-delimosti", "title": "Признаки делимости", "order": 10},
-        {"slug": "delenie-s-ostatkom", "title": "Деление с остатком", "order": 11}
+        {"slug": "poryadok-deystviy-skobki", "title": "Порядок действий и скобки в числовых выражениях", "order": 2},
+        {"slug": "stepen-chisla", "title": "Степень числа и разрядные слагаемые", "order": 3},
+        {"slug": "okruglenie-chisel", "title": "Округление натуральных чисел", "order": 4},
+        {"slug": "delenie-s-ostatkom", "title": "Деление с остатком", "order": 5},
+        {"slug": "ocenka-prikidka-zadachi", "title": "Оценка, прикидка результата и текстовые задачи на 4 действия", "order": 6},
+        {"slug": "zadachi-na-dvizhenie", "title": "Текстовые задачи на движение", "order": 7},
+        {"slug": "zadachi-na-rabotu-stoimost", "title": "Текстовые задачи на работу и стоимость", "order": 8},
+        {"slug": "desyatichnye-drobi-perevod", "title": "Десятичные дроби и перевод между видами дробей", "order": 9},
+        {"slug": "sravnenie-desyatichnyh-drobey", "title": "Сравнение десятичных дробей и дроби на числовой прямой", "order": 10},
+        {"slug": "slozhenie-vychitanie-desyatichnyh", "title": "Сложение и вычитание десятичных дробей", "order": 11},
+        {"slug": "umnozhenie-delenie-desyatichnyh", "title": "Умножение и деление десятичных дробей", "order": 12},
+        {"slug": "procenty-osnovy", "title": "Понятие процента и перевод в дробь", "order": 13},
+        {"slug": "procenty-vychisleniya", "title": "Нахождение процента от числа и числа по проценту", "order": 14},
+        {"slug": "bukvennye-vyrazheniya", "title": "Буквенные выражения", "order": 15},
+        {"slug": "formula-puti-stoimosti", "title": "Формулы пути и стоимости", "order": 16},
+        {"slug": "formuly-geometricheskie", "title": "Формулы площади, периметра, объёма", "order": 17},
+        {"slug": "perimetr-mnogougolnika", "title": "Периметр многоугольника", "order": 18},
+        {"slug": "ploshad-priblizhenno", "title": "Приближённое измерение площади фигуры", "order": 19},
+        {"slug": "svoystva-pryamougolnika-kvadrata", "title": "Свойства прямоугольника и квадрата", "order": 20},
+        {"slug": "ploshad-perimetr-formuly", "title": "Формулы площади и периметра, составные фигуры", "order": 21},
+        {"slug": "vidy-uglov-izmerenie", "title": "Виды углов и измерение транспортиром", "order": 22},
+        {"slug": "sravnenie-uglov", "title": "Сравнение углов и сумма углов треугольника", "order": 23},
+        {"slug": "vidy-treugolnikov", "title": "Виды треугольников по сторонам и углам", "order": 24},
+        {"slug": "zadachi-treugolniki", "title": "Задачи на углы и периметр треугольника", "order": 25},
+        {"slug": "parallelepiped-kub", "title": "Прямоугольный параллелепипед и куб", "order": 26},
+        {"slug": "prizma-piramida", "title": "Призма и пирамида", "order": 27},
+        {"slug": "obyom-edinicy", "title": "Объём и единицы измерения объёма", "order": 28}
       ]
     },
     {
-      "name": "Прямые на плоскости и симметрия",
+      "name": "Делимость натуральных чисел",
       "order": 2,
       "topics": [
-        {"slug": "perpendikulyarnye-pryamye", "title": "Перпендикулярные прямые", "order": 1},
-        {"slug": "parallelnye-pryamye", "title": "Параллельные прямые", "order": 2},
-        {"slug": "osevaya-simmetriya", "title": "Осевая симметрия", "order": 3},
-        {"slug": "centralnaya-simmetriya", "title": "Центральная симметрия", "order": 4}
+        {"slug": "delitely-i-kratnye", "title": "Делители и кратные", "order": 1},
+        {"slug": "priznaki-delimosti", "title": "Признаки делимости на 10, 5, 2, 9 и 3", "order": 2},
+        {"slug": "prostye-sostavnye-chisla", "title": "Простые и составные числа", "order": 3},
+        {"slug": "nod", "title": "Наибольший общий делитель (НОД)", "order": 4},
+        {"slug": "nok", "title": "Наименьшее общее кратное (НОК)", "order": 5}
       ]
     },
     {
-      "name": "Дроби",
+      "name": "Обыкновенные дроби",
       "order": 3,
       "topics": [
-        {"slug": "obyknovennye-drobi-osnovy", "title": "Обыкновенные дроби: понятие и основное свойство", "order": 1},
-        {"slug": "desyatichnye-drobi-perevod", "title": "Десятичные дроби и перевод между видами дробей", "order": 2},
-        {"slug": "sravnenie-obyknovennyh-drobey", "title": "Сравнение обыкновенных дробей", "order": 3},
-        {"slug": "sravnenie-desyatichnyh-drobey", "title": "Сравнение десятичных дробей и дроби на числовой прямой", "order": 4},
-        {"slug": "slozhenie-vychitanie-obyknovennyh", "title": "Сложение и вычитание обыкновенных дробей", "order": 5},
-        {"slug": "slozhenie-vychitanie-desyatichnyh", "title": "Сложение и вычитание десятичных дробей", "order": 6},
-        {"slug": "umnozhenie-delenie-obyknovennyh", "title": "Умножение и деление обыкновенных дробей", "order": 7},
-        {"slug": "umnozhenie-delenie-desyatichnyh", "title": "Умножение и деление десятичных дробей", "order": 8},
-        {"slug": "otnosheniya-proporcii", "title": "Отношения и пропорции", "order": 9},
-        {"slug": "masshtab", "title": "Масштаб", "order": 10},
-        {"slug": "procenty-osnovy", "title": "Понятие процента и перевод в дробь", "order": 11},
-        {"slug": "procenty-vychisleniya", "title": "Нахождение процента от числа и числа по проценту", "order": 12}
+        {"slug": "obyknovennye-drobi-osnovy", "title": "Основное свойство дроби. Сокращение дробей", "order": 1},
+        {"slug": "sravnenie-obyknovennyh-drobey", "title": "Приведение дробей к общему знаменателю. Сравнение дробей", "order": 2},
+        {"slug": "slozhenie-vychitanie-obyknovennyh", "title": "Сложение и вычитание дробей с разными знаменателями", "order": 3},
+        {"slug": "nahozhdenie-drobi-ot-chisla", "title": "Нахождение дроби от числа", "order": 4},
+        {"slug": "vzaimno-obratnye-chisla", "title": "Взаимно обратные числа", "order": 5},
+        {"slug": "umnozhenie-delenie-obyknovennyh", "title": "Умножение и деление обыкновенных дробей", "order": 6},
+        {"slug": "nahozhdenie-chisla-po-ego-drobi", "title": "Нахождение числа по значению его дроби", "order": 7}
       ]
     },
     {
-      "name": "Фигуры на плоскости",
+      "name": "Отношения и пропорции",
       "order": 4,
       "topics": [
-        {"slug": "perimetr-mnogougolnika", "title": "Периметр многоугольника", "order": 1},
-        {"slug": "ploshad-priblizhenno", "title": "Приближённое измерение площади фигуры", "order": 2},
-        {"slug": "svoystva-pryamougolnika-kvadrata", "title": "Свойства прямоугольника и квадрата", "order": 3},
-        {"slug": "ploshad-perimetr-formuly", "title": "Формулы площади и периметра, составные фигуры", "order": 4},
-        {"slug": "vidy-uglov-izmerenie", "title": "Виды углов и измерение транспортиром", "order": 5},
-        {"slug": "sravnenie-uglov", "title": "Сравнение углов и сумма углов треугольника", "order": 6},
-        {"slug": "vidy-treugolnikov", "title": "Виды треугольников по сторонам и углам", "order": 7},
-        {"slug": "zadachi-treugolniki", "title": "Задачи на углы и периметр треугольника", "order": 8}
+        {"slug": "otnosheniya-proporcii", "title": "Отношения. Пропорции", "order": 1},
+        {"slug": "masshtab", "title": "Масштаб", "order": 2},
+        {"slug": "pryamaya-obratnaya-proporcionalnost", "title": "Прямая и обратная пропорциональные зависимости", "order": 3},
+        {"slug": "okruzhnost-i-krug", "title": "Окружность и круг", "order": 4},
+        {"slug": "dlina-okruzhnosti-ploshad-kruga", "title": "Длина окружности. Площадь круга", "order": 5},
+        {"slug": "tela-vrasheniya", "title": "Цилиндр, конус, шар", "order": 6},
+        {"slug": "stolbchatye-diagrammy", "title": "Столбчатые диаграммы", "order": 7},
+        {"slug": "krugovye-diagrammy", "title": "Круговые диаграммы", "order": 8},
+        {"slug": "sluchaynye-sobytiya-veroyatnost", "title": "Случайные события. Вероятность случайного события", "order": 9}
       ]
     },
     {
-      "name": "Буквенные выражения и уравнения",
+      "name": "Рациональные числа и действия над ними",
       "order": 5,
       "topics": [
-        {"slug": "bukvennye-vyrazheniya", "title": "Буквенные выражения", "order": 1},
-        {"slug": "uravneniya", "title": "Уравнения и нахождение неизвестного", "order": 2},
-        {"slug": "formula-puti-stoimosti", "title": "Формулы пути и стоимости", "order": 3},
-        {"slug": "formuly-geometricheskie", "title": "Формулы площади, периметра, объёма", "order": 4}
-      ]
-    },
-    {
-      "name": "Положительные и отрицательные числа",
-      "order": 6,
-      "topics": [
-        {"slug": "celye-chisla", "title": "Целые числа", "order": 1},
-        {"slug": "modul-chisla", "title": "Модуль числа", "order": 2},
-        {"slug": "sravnenie-polozhitelnyh-otricatelnyh", "title": "Сравнение положительных и отрицательных чисел", "order": 3},
-        {"slug": "slozhenie-raznye-znaki", "title": "Сложение чисел с одинаковыми и разными знаками", "order": 4},
-        {"slug": "vychitanie-plus-minus", "title": "Вычитание положительных и отрицательных чисел", "order": 5},
-        {"slug": "umnozhenie-plus-minus", "title": "Умножение чисел со знаками", "order": 6},
-        {"slug": "delenie-plus-minus", "title": "Деление чисел со знаками", "order": 7},
-        {"slug": "racionalnye-chisla", "title": "Рациональные числа: совместные действия", "order": 8}
-      ]
-    },
-    {
-      "name": "Координаты и диаграммы",
-      "order": 7,
-      "topics": [
-        {"slug": "koordinaty-tochki", "title": "Координатная плоскость: оси и координаты точки", "order": 1},
-        {"slug": "postroenie-po-koordinatam", "title": "Построение точек и фигур по координатам", "order": 2},
-        {"slug": "stolbchatye-diagrammy", "title": "Столбчатые диаграммы", "order": 3},
-        {"slug": "krugovye-diagrammy", "title": "Круговые диаграммы", "order": 4}
-      ]
-    },
-    {
-      "name": "Фигуры в пространстве",
-      "order": 8,
-      "topics": [
-        {"slug": "parallelepiped-kub", "title": "Прямоугольный параллелепипед и куб", "order": 1},
-        {"slug": "prizma-piramida", "title": "Призма и пирамида", "order": 2},
-        {"slug": "tela-vrasheniya", "title": "Конус, цилиндр, шар и сфера", "order": 3},
-        {"slug": "obyom-edinicy", "title": "Объём и единицы измерения объёма", "order": 4}
+        {"slug": "celye-chisla", "title": "Положительные и отрицательные числа. Целые числа", "order": 1},
+        {"slug": "koordinatnaya-pryamaya", "title": "Координатная прямая", "order": 2},
+        {"slug": "modul-chisla", "title": "Модуль числа", "order": 3},
+        {"slug": "sravnenie-polozhitelnyh-otricatelnyh", "title": "Сравнение чисел", "order": 4},
+        {"slug": "slozhenie-raznye-znaki", "title": "Сложение рациональных чисел", "order": 5},
+        {"slug": "vychitanie-plus-minus", "title": "Вычитание рациональных чисел", "order": 6},
+        {"slug": "umnozhenie-plus-minus", "title": "Умножение рациональных чисел", "order": 7},
+        {"slug": "koefficient-raspredelitelnoe-svoystvo", "title": "Коэффициент. Распределительное свойство умножения", "order": 8},
+        {"slug": "delenie-plus-minus", "title": "Деление рациональных чисел", "order": 9},
+        {"slug": "racionalnye-chisla", "title": "Рациональные числа: совместные действия", "order": 10},
+        {"slug": "uravneniya", "title": "Решение уравнений. Решение задач с помощью уравнений", "order": 11},
+        {"slug": "perpendikulyarnye-pryamye", "title": "Перпендикулярные прямые", "order": 12},
+        {"slug": "osevaya-simmetriya", "title": "Осевая симметрия", "order": 13},
+        {"slug": "centralnaya-simmetriya", "title": "Центральная симметрия", "order": 14},
+        {"slug": "parallelnye-pryamye", "title": "Параллельные прямые", "order": 15},
+        {"slug": "koordinaty-tochki", "title": "Координатная плоскость", "order": 16},
+        {"slug": "postroenie-po-koordinatam", "title": "Построение точек и фигур по координатам", "order": 17},
+        {"slug": "grafiki", "title": "Графики", "order": 18}
       ]
     },
     {
       "name": "Итоговое повторение",
-      "order": 9,
+      "order": 6,
       "topics": [
         {"slug": "itogovoe-povtorenie-matematika", "title": "Итоговое повторение курса математики за 6 класс", "order": 1}
       ]

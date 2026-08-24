@@ -12,7 +12,7 @@
         "math": {
           "slug": "svoystva-deystviy",
           "title": "Свойства сложения и умножения натуральных чисел",
-          "section": "Натуральные числа и делимость"
+          "section": "Повторение курса 5 класса"
         },
         "english": {
           "slug": "semya-chleny-prazdniki",
@@ -64,11 +64,15 @@
       "date": "2026-09-03",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "povtorenie-myagkiy-znak",
+          "title": "Повторение. Ь: разделительный, мягкость, после шипящих",
+          "section": "Повторение изученного в 5 классе"
+        },
         "math": {
-          "slug": "ocenka-prikidka-zadachi",
-          "title": "Оценка, прикидка результата и текстовые задачи на 4 действия",
-          "section": "Натуральные числа и делимость"
+          "slug": "poryadok-deystviy-skobki",
+          "title": "Порядок действий и скобки в числовых выражениях",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": null,
@@ -82,11 +86,7 @@
       "date": "2026-09-04",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-myagkiy-znak",
-          "title": "Повторение. Ь: разделительный, мягкость, после шипящих",
-          "section": "Повторение изученного в 5 классе"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -101,7 +101,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "stepen-chisla",
+          "title": "Степень числа и разрядные слагаемые",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "dom-vidy-zhilya",
           "title": "Дом: виды жилья и обустройство",
@@ -118,12 +122,12 @@
       "date": "2026-09-08",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "poryadok-deystviy-skobki",
-          "title": "Порядок действий и скобки в числовых выражениях",
-          "section": "Натуральные числа и делимость"
+        "russian": {
+          "slug": "povtorenie-korni-proveryaemye",
+          "title": "Повторение. Проверяемые и непроверяемые гласные в корне",
+          "section": "Повторение изученного в 5 классе"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -152,11 +156,7 @@
       "date": "2026-09-09",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-korni-proveryaemye",
-          "title": "Повторение. Проверяемые и непроверяемые гласные в корне",
-          "section": "Повторение изученного в 5 классе"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -175,7 +175,11 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "okruglenie-chisel",
+          "title": "Округление натуральных чисел",
+          "section": "Повторение курса 5 класса"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -188,12 +192,12 @@
       "date": "2026-09-11",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "stepen-chisla",
-          "title": "Степень числа и разрядные слагаемые",
-          "section": "Натуральные числа и делимость"
+        "russian": {
+          "slug": "povtorenie-korni-cheredovanie",
+          "title": "Повторение. Чередующиеся гласные в корне",
+          "section": "Повторение изученного в 5 классе"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -206,12 +210,12 @@
       "date": "2026-09-14",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-korni-cheredovanie",
-          "title": "Повторение. Чередующиеся гласные в корне",
-          "section": "Повторение изученного в 5 классе"
+        "russian": null,
+        "math": {
+          "slug": "delenie-s-ostatkom",
+          "title": "Деление с остатком",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": {
           "slug": "domashnie-obyazannosti-pravila",
           "title": "Домашние обязанности и правила поведения",
@@ -254,12 +258,12 @@
       "date": "2026-09-16",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "zadachi-na-dvizhenie",
-          "title": "Текстовые задачи на движение",
-          "section": "Натуральные числа и делимость"
+        "russian": {
+          "slug": "povtorenie-pristavki-z-s",
+          "title": "Повторение. Неизменяемые приставки и приставки на з-/с-",
+          "section": "Повторение изученного в 5 классе"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -276,12 +280,12 @@
       "date": "2026-09-17",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-pristavki-z-s",
-          "title": "Повторение. Неизменяемые приставки и приставки на з-/с-",
-          "section": "Повторение изученного в 5 классе"
+        "russian": null,
+        "math": {
+          "slug": "ocenka-prikidka-zadachi",
+          "title": "Оценка, прикидка результата и текстовые задачи на 4 действия",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -312,11 +316,15 @@
       "date": "2026-09-21",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "povtorenie-pristavki-pre-pri",
+          "title": "Повторение. Приставки ПРЕ- и ПРИ-",
+          "section": "Повторение изученного в 5 классе"
+        },
         "math": {
-          "slug": "zadachi-na-rabotu-stoimost",
-          "title": "Текстовые задачи на работу и стоимость",
-          "section": "Натуральные числа и делимость"
+          "slug": "zadachi-na-dvizhenie",
+          "title": "Текстовые задачи на движение",
+          "section": "Повторение курса 5 класса"
         },
         "english": {
           "slug": "vneshnost-cheloveka",
@@ -334,11 +342,7 @@
       "date": "2026-09-22",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-pristavki-pre-pri",
-          "title": "Повторение. Приставки ПРЕ- и ПРИ-",
-          "section": "Повторение изученного в 5 классе"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -378,11 +382,15 @@
       "date": "2026-09-24",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "povtorenie-suffiksy-imya",
+          "title": "Повторение. Суффиксы -ек-/-ик-, -чик-/-щик-",
+          "section": "Повторение изученного в 5 классе"
+        },
         "math": {
-          "slug": "okruglenie-chisel",
-          "title": "Округление натуральных чисел",
-          "section": "Натуральные числа и делимость"
+          "slug": "zadachi-na-rabotu-stoimost",
+          "title": "Текстовые задачи на работу и стоимость",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": null,
@@ -400,11 +408,7 @@
       "date": "2026-09-25",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-suffiksy-imya",
-          "title": "Повторение. Суффиксы -ек-/-ик-, -чик-/-щик-",
-          "section": "Повторение изученного в 5 классе"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -419,7 +423,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "desyatichnye-drobi-perevod",
+          "title": "Десятичные дроби и перевод между видами дробей",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "harakter-cheloveka",
           "title": "Характер человека",
@@ -440,12 +448,12 @@
       "date": "2026-09-29",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "nod",
-          "title": "Наибольший общий делитель (НОД)",
-          "section": "Натуральные числа и делимость"
+        "russian": {
+          "slug": "povtorenie-suffiksy-glagol",
+          "title": "Повторение. Суффиксы -к-/-ск- и гласные в суффиксах глаголов",
+          "section": "Повторение изученного в 5 классе"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -466,12 +474,12 @@
       "date": "2026-09-30",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-suffiksy-glagol",
-          "title": "Повторение. Суффиксы -к-/-ск- и гласные в суффиксах глаголов",
-          "section": "Повторение изученного в 5 классе"
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-desyatichnyh-drobey",
+          "title": "Сравнение десятичных дробей и дроби на числовой прямой",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -488,7 +496,11 @@
       "date": "2026-10-01",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "povtorenie-ne-s-glagolami",
+          "title": "Повторение. НЕ с глаголами",
+          "section": "Повторение изученного в 5 классе"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -507,11 +519,7 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "nok",
-          "title": "Наименьшее общее кратное (НОК)",
-          "section": "Натуральные числа и делимость"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -524,12 +532,12 @@
       "date": "2026-10-05",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-ne-s-glagolami",
-          "title": "Повторение. НЕ с глаголами",
-          "section": "Повторение изученного в 5 классе"
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-vychitanie-desyatichnyh",
+          "title": "Сложение и вычитание десятичных дробей",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": {
           "slug": "hobbi-uvlecheniya",
           "title": "Хобби и увлечения",
@@ -546,7 +554,11 @@
       "date": "2026-10-06",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "povtorenie-ne-s-sush-prilag",
+          "title": "Повторение. НЕ с существительными и прилагательными",
+          "section": "Повторение изученного в 5 классе"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -570,9 +582,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "priznaki-delimosti",
-          "title": "Признаки делимости",
-          "section": "Натуральные числа и делимость"
+          "slug": "umnozhenie-delenie-desyatichnyh",
+          "title": "Умножение и деление десятичных дробей",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": {
@@ -594,11 +606,7 @@
       "date": "2026-10-08",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "povtorenie-ne-s-sush-prilag",
-          "title": "Повторение. НЕ с существительными и прилагательными",
-          "section": "Повторение изученного в 5 классе"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -612,7 +620,11 @@
       "date": "2026-10-09",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "tekst-tema-plan",
+          "title": "Текст: тема, основная мысль, план",
+          "section": "Текст и речь"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -632,9 +644,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "delenie-s-ostatkom",
-          "title": "Деление с остатком",
-          "section": "Натуральные числа и делимость"
+          "slug": "procenty-osnovy",
+          "title": "Понятие процента и перевод в дробь",
+          "section": "Повторение курса 5 класса"
         },
         "english": {
           "slug": "svobodnoe-vremya-plany",
@@ -652,11 +664,7 @@
       "date": "2026-10-13",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "tekst-tema-plan",
-          "title": "Текст: тема, основная мысль, план",
-          "section": "Текст и речь"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -670,8 +678,16 @@
       "date": "2026-10-14",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
-        "math": null,
+        "russian": {
+          "slug": "tekst-svyaz-predlozheniy",
+          "title": "Способы и средства связи предложений в тексте",
+          "section": "Текст и речь"
+        },
+        "math": {
+          "slug": "procenty-vychisleniya",
+          "title": "Нахождение процента от числа и числа по проценту",
+          "section": "Повторение курса 5 класса"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -693,11 +709,7 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "perpendikulyarnye-pryamye",
-          "title": "Перпендикулярные прямые",
-          "section": "Прямые на плоскости и симметрия"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -714,11 +726,7 @@
       "date": "2026-10-16",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "tekst-svyaz-predlozheniy",
-          "title": "Способы и средства связи предложений в тексте",
-          "section": "Текст и речь"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -736,8 +744,16 @@
       "date": "2026-10-19",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
-        "math": null,
+        "russian": {
+          "slug": "stil-razgovorny-nauchny",
+          "title": "Разговорный и научный стили речи",
+          "section": "Текст и речь"
+        },
+        "math": {
+          "slug": "bukvennye-vyrazheniya",
+          "title": "Буквенные выражения",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "igry-razvlecheniya",
           "title": "Игры и развлечения",
@@ -759,11 +775,7 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "parallelnye-pryamye",
-          "title": "Параллельные прямые",
-          "section": "Прямые на плоскости и симметрия"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -776,12 +788,12 @@
       "date": "2026-10-21",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "stil-razgovorny-nauchny",
-          "title": "Разговорный и научный стили речи",
-          "section": "Текст и речь"
+        "russian": null,
+        "math": {
+          "slug": "formula-puti-stoimosti",
+          "title": "Формулы пути и стоимости",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -802,7 +814,11 @@
       "date": "2026-10-22",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "stil-oficialno-delovoy",
+          "title": "Официально-деловой стиль речи",
+          "section": "Текст и речь"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -821,11 +837,7 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "osevaya-simmetriya",
-          "title": "Осевая симметрия",
-          "section": "Прямые на плоскости и симметрия"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -838,12 +850,12 @@
       "date": "2026-11-05",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "stil-oficialno-delovoy",
-          "title": "Официально-деловой стиль речи",
-          "section": "Текст и речь"
+        "russian": null,
+        "math": {
+          "slug": "formuly-geometricheskie",
+          "title": "Формулы площади, периметра, объёма",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": {
           "slug": "zdorovoe-pitanie",
           "title": "Здоровое питание",
@@ -864,7 +876,11 @@
       "date": "2026-11-06",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "tip-rechi-povestvovanie-opisanie",
+          "title": "Типы речи: повествование и описание",
+          "section": "Текст и речь"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -884,9 +900,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "centralnaya-simmetriya",
-          "title": "Центральная симметрия",
-          "section": "Прямые на плоскости и симметрия"
+          "slug": "perimetr-mnogougolnika",
+          "title": "Периметр многоугольника",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": null,
@@ -909,8 +925,8 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": {
-          "slug": "tip-rechi-povestvovanie-opisanie",
-          "title": "Типы речи: повествование и описание",
+          "slug": "tip-rechi-rassuzhdenie",
+          "title": "Тип речи: рассуждение",
           "section": "Текст и речь"
         },
         "math": null,
@@ -931,7 +947,11 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "ploshad-priblizhenno",
+          "title": "Приближённое измерение площади фигуры",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "rezhim-dnya-privychki",
           "title": "Режим дня и полезные привычки",
@@ -949,11 +969,7 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "obyknovennye-drobi-osnovy",
-          "title": "Обыкновенные дроби: понятие и основное свойство",
-          "section": "Дроби"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -967,9 +983,9 @@
       "weekday": "Friday",
       "subjects": {
         "russian": {
-          "slug": "tip-rechi-rassuzhdenie",
-          "title": "Тип речи: рассуждение",
-          "section": "Текст и речь"
+          "slug": "iskonno-russkie-slova",
+          "title": "Исконно русские слова",
+          "section": "Лексикология и фразеология"
         },
         "math": null,
         "english": null,
@@ -989,7 +1005,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "svoystva-pryamougolnika-kvadrata",
+          "title": "Свойства прямоугольника и квадрата",
+          "section": "Повторение курса 5 класса"
+        },
         "english": null,
         "biology": {
           "slug": "list-stroenie-vidoizmeneniya",
@@ -1015,11 +1035,7 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "desyatichnye-drobi-perevod",
-          "title": "Десятичные дроби и перевод между видами дробей",
-          "section": "Дроби"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1033,11 +1049,15 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": {
-          "slug": "iskonno-russkie-slova",
-          "title": "Исконно русские слова",
+          "slug": "zaimstvovannye-slova",
+          "title": "Заимствованные слова",
           "section": "Лексикология и фразеология"
         },
-        "math": null,
+        "math": {
+          "slug": "ploshad-perimetr-formuly",
+          "title": "Формулы площади и периметра, составные фигуры",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "pokupki-odezhda-obuv",
           "title": "Покупки: одежда и обувь",
@@ -1073,11 +1093,7 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "sravnenie-obyknovennyh-drobey",
-          "title": "Сравнение обыкновенных дробей",
-          "section": "Дроби"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1091,11 +1107,15 @@
       "weekday": "Monday",
       "subjects": {
         "russian": {
-          "slug": "zaimstvovannye-slova",
-          "title": "Заимствованные слова",
+          "slug": "arhaizmy-istorizmy",
+          "title": "Архаизмы и историзмы",
           "section": "Лексикология и фразеология"
         },
-        "math": null,
+        "math": {
+          "slug": "vidy-uglov-izmerenie",
+          "title": "Виды углов и измерение транспортиром",
+          "section": "Повторение курса 5 класса"
+        },
         "english": null,
         "biology": null,
         "geography": {
@@ -1136,9 +1156,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "sravnenie-desyatichnyh-drobey",
-          "title": "Сравнение десятичных дробей и дроби на числовой прямой",
-          "section": "Дроби"
+          "slug": "sravnenie-uglov",
+          "title": "Сравнение углов и сумма углов треугольника",
+          "section": "Повторение курса 5 класса"
         },
         "english": {
           "slug": "pokupki-produkty",
@@ -1165,8 +1185,8 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": {
-          "slug": "arhaizmy-istorizmy",
-          "title": "Архаизмы и историзмы",
+          "slug": "neologizmy",
+          "title": "Неологизмы",
           "section": "Лексикология и фразеология"
         },
         "math": null,
@@ -1198,9 +1218,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "slozhenie-vychitanie-obyknovennyh",
-          "title": "Сложение и вычитание обыкновенных дробей",
-          "section": "Дроби"
+          "slug": "vidy-treugolnikov",
+          "title": "Виды треугольников по сторонам и углам",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": null,
@@ -1215,8 +1235,8 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": {
-          "slug": "neologizmy",
-          "title": "Неологизмы",
+          "slug": "dialektizmy-professionalizmy",
+          "title": "Диалектизмы и профессионализмы",
           "section": "Лексикология и фразеология"
         },
         "math": null,
@@ -1245,7 +1265,11 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "zadachi-treugolniki",
+          "title": "Задачи на углы и периметр треугольника",
+          "section": "Повторение курса 5 класса"
+        },
         "english": {
           "slug": "vidy-sporta",
           "title": "Виды спорта",
@@ -1267,11 +1291,7 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "slozhenie-vychitanie-desyatichnyh",
-          "title": "Сложение и вычитание десятичных дробей",
-          "section": "Дроби"
-        },
+        "math": null,
         "english": null,
         "biology": {
           "slug": "mineralnoe-pitanie",
@@ -1289,8 +1309,8 @@
       "weekday": "Friday",
       "subjects": {
         "russian": {
-          "slug": "dialektizmy-professionalizmy",
-          "title": "Диалектизмы и профессионализмы",
+          "slug": "terminy-zhargonizmy",
+          "title": "Термины и жаргонизмы",
           "section": "Лексикология и фразеология"
         },
         "math": null,
@@ -1307,7 +1327,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "parallelepiped-kub",
+          "title": "Прямоугольный параллелепипед и куб",
+          "section": "Повторение курса 5 класса"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -1320,12 +1344,12 @@
       "date": "2026-12-08",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "umnozhenie-delenie-obyknovennyh",
-          "title": "Умножение и деление обыкновенных дробей",
-          "section": "Дроби"
+        "russian": {
+          "slug": "frazeologizmy",
+          "title": "Фразеологизмы",
+          "section": "Лексикология и фразеология"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -1350,12 +1374,12 @@
       "date": "2026-12-09",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "terminy-zhargonizmy",
-          "title": "Термины и жаргонизмы",
-          "section": "Лексикология и фразеология"
+        "russian": null,
+        "math": {
+          "slug": "prizma-piramida",
+          "title": "Призма и пирамида",
+          "section": "Повторение курса 5 класса"
         },
-        "math": null,
         "english": {
           "slug": "sportivnye-sorevnovaniya",
           "title": "Спортивные соревнования и выдающиеся спортсмены",
@@ -1390,11 +1414,15 @@
       "date": "2026-12-11",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "sredstva-vyrazitelnosti",
+          "title": "Эпитет, метафора, олицетворение",
+          "section": "Лексикология и фразеология"
+        },
         "math": {
-          "slug": "umnozhenie-delenie-desyatichnyh",
-          "title": "Умножение и деление десятичных дробей",
-          "section": "Дроби"
+          "slug": "obyom-edinicy",
+          "title": "Объём и единицы измерения объёма",
+          "section": "Повторение курса 5 класса"
         },
         "english": null,
         "biology": null,
@@ -1408,11 +1436,7 @@
       "date": "2026-12-14",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "frazeologizmy",
-          "title": "Фразеологизмы",
-          "section": "Лексикология и фразеология"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -1452,11 +1476,15 @@
       "date": "2026-12-16",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "sposoby-obrazovaniya-pristavka-suffiks",
+          "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов",
+          "section": "Словообразование"
+        },
         "math": {
-          "slug": "otnosheniya-proporcii",
-          "title": "Отношения и пропорции",
-          "section": "Дроби"
+          "slug": "delitely-i-kratnye",
+          "title": "Делители и кратные",
+          "section": "Делимость натуральных чисел"
         },
         "english": {
           "slug": "shkolnaya-zhizn-predmety",
@@ -1478,11 +1506,7 @@
       "date": "2026-12-17",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "sredstva-vyrazitelnosti",
-          "title": "Эпитет, метафора, олицетворение",
-          "section": "Лексикология и фразеология"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -1501,7 +1525,11 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "priznaki-delimosti",
+          "title": "Признаки делимости на 10, 5, 2, 9 и 3",
+          "section": "Делимость натуральных чисел"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -1514,12 +1542,12 @@
       "date": "2026-12-21",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "masshtab",
-          "title": "Масштаб",
-          "section": "Дроби"
+        "russian": {
+          "slug": "sposoby-obrazovaniya-slozhenie",
+          "title": "Сложение, бессуффиксный способ, переход в другую часть речи",
+          "section": "Словообразование"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1532,11 +1560,7 @@
       "date": "2026-12-22",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "sposoby-obrazovaniya-pristavka-suffiks",
-          "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов",
-          "section": "Словообразование"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -1559,7 +1583,11 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "prostye-sostavnye-chisla",
+          "title": "Простые и составные числа",
+          "section": "Делимость натуральных чисел"
+        },
         "english": {
           "slug": "pravila-povedeniya-shkola",
           "title": "Правила поведения в школе",
@@ -1580,12 +1608,12 @@
       "date": "2026-12-24",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "procenty-osnovy",
-          "title": "Понятие процента и перевод в дробь",
-          "section": "Дроби"
+        "russian": {
+          "slug": "koren-kas-kos",
+          "title": "Правописание корня -кас- / -кос-",
+          "section": "Словообразование"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -1606,12 +1634,12 @@
       "date": "2026-12-25",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "sposoby-obrazovaniya-slozhenie",
-          "title": "Сложение, бессуффиксный способ, переход в другую часть речи",
-          "section": "Словообразование"
+        "russian": null,
+        "math": {
+          "slug": "nod",
+          "title": "Наибольший общий делитель (НОД)",
+          "section": "Делимость натуральных чисел"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1638,12 +1666,12 @@
       "date": "2026-12-29",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "procenty-vychisleniya",
-          "title": "Нахождение процента от числа и числа по проценту",
-          "section": "Дроби"
+        "russian": {
+          "slug": "bukvy-y-i-posle-pristavok",
+          "title": "Буквы ы и и после приставок",
+          "section": "Словообразование"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1664,12 +1692,12 @@
       "date": "2027-01-12",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "koren-kas-kos",
-          "title": "Правописание корня -кас- / -кос-",
-          "section": "Словообразование"
+        "russian": null,
+        "math": {
+          "slug": "nok",
+          "title": "Наименьшее общее кратное (НОК)",
+          "section": "Делимость натуральных чисел"
         },
-        "math": null,
         "english": {
           "slug": "perepiska-sverstniki",
           "title": "Переписка с зарубежными сверстниками",
@@ -1704,11 +1732,15 @@
       "date": "2027-01-14",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "soedinitelnye-o-e-slozhnosokraschennye",
+          "title": "Соединительные о и е в сложных словах. Сложносокращённые слова",
+          "section": "Словообразование"
+        },
         "math": {
-          "slug": "perimetr-mnogougolnika",
-          "title": "Периметр многоугольника",
-          "section": "Фигуры на плоскости"
+          "slug": "obyknovennye-drobi-osnovy",
+          "title": "Основное свойство дроби. Сокращение дробей",
+          "section": "Обыкновенные дроби"
         },
         "english": null,
         "biology": null,
@@ -1730,11 +1762,7 @@
       "date": "2027-01-15",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "suschestvitelnoe-slovoobrazovanie",
-          "title": "Словообразование имён существительных",
-          "section": "Имя существительное"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -1762,11 +1790,15 @@
       "date": "2027-01-19",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "suschestvitelnoe-slovoobrazovanie",
+          "title": "Словообразование имён существительных",
+          "section": "Имя существительное"
+        },
         "math": {
-          "slug": "ploshad-priblizhenno",
-          "title": "Приближённое измерение площади фигуры",
-          "section": "Фигуры на плоскости"
+          "slug": "sravnenie-obyknovennyh-drobey",
+          "title": "Приведение дробей к общему знаменателю. Сравнение дробей",
+          "section": "Обыкновенные дроби"
         },
         "english": {
           "slug": "puteshestviya-otdyh-snaryazhenie",
@@ -1792,11 +1824,7 @@
       "date": "2027-01-20",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "suschestvitelnoe-normy-slovoizmeneniya",
-          "title": "Нормы словоизменения имён существительных",
-          "section": "Имя существительное"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -1810,11 +1838,15 @@
       "date": "2027-01-21",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "suschestvitelnoe-normy-slovoizmeneniya",
+          "title": "Нормы словоизменения имён существительных",
+          "section": "Имя существительное"
+        },
         "math": {
-          "slug": "svoystva-pryamougolnika-kvadrata",
-          "title": "Свойства прямоугольника и квадрата",
-          "section": "Фигуры на плоскости"
+          "slug": "slozhenie-vychitanie-obyknovennyh",
+          "title": "Сложение и вычитание дробей с разными знаменателями",
+          "section": "Обыкновенные дроби"
         },
         "english": null,
         "biology": null,
@@ -1854,12 +1886,12 @@
       "date": "2027-01-25",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "prilagatelnye-kachestvennye",
-          "title": "Качественные имена прилагательные",
-          "section": "Имя прилагательное"
+        "russian": null,
+        "math": {
+          "slug": "nahozhdenie-drobi-ot-chisla",
+          "title": "Нахождение дроби от числа",
+          "section": "Обыкновенные дроби"
         },
-        "math": null,
         "english": {
           "slug": "kanikuly-plany-vpechatleniya",
           "title": "Каникулы: планы и впечатления",
@@ -1876,12 +1908,12 @@
       "date": "2027-01-26",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "ploshad-perimetr-formuly",
-          "title": "Формулы площади и периметра, составные фигуры",
-          "section": "Фигуры на плоскости"
+        "russian": {
+          "slug": "prilagatelnye-kachestvennye",
+          "title": "Качественные имена прилагательные",
+          "section": "Имя прилагательное"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1916,12 +1948,12 @@
       "date": "2027-01-28",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "prilagatelnye-otnositelnye-prityazhatelnye",
-          "title": "Относительные и притяжательные имена прилагательные",
-          "section": "Имя прилагательное"
+        "russian": null,
+        "math": {
+          "slug": "vzaimno-obratnye-chisla",
+          "title": "Взаимно обратные числа",
+          "section": "Обыкновенные дроби"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -1934,12 +1966,12 @@
       "date": "2027-01-29",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "vidy-uglov-izmerenie",
-          "title": "Виды углов и измерение транспортиром",
-          "section": "Фигуры на плоскости"
+        "russian": {
+          "slug": "prilagatelnye-otnositelnye-prityazhatelnye",
+          "title": "Относительные и притяжательные имена прилагательные",
+          "section": "Имя прилагательное"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -1961,7 +1993,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "umnozhenie-delenie-obyknovennyh",
+          "title": "Умножение и деление обыкновенных дробей",
+          "section": "Обыкновенные дроби"
+        },
         "english": {
           "slug": "znamenitye-puteshestvenniki",
           "title": "Знаменитые путешественники и открытия",
@@ -1982,11 +2018,7 @@
       "date": "2027-02-02",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "sravnitelnaya-stepen",
-          "title": "Сравнительная степень имён прилагательных",
-          "section": "Имя прилагательное"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -2008,12 +2040,12 @@
       "date": "2027-02-03",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "sravnenie-uglov",
-          "title": "Сравнение углов и сумма углов треугольника",
-          "section": "Фигуры на плоскости"
+        "russian": {
+          "slug": "sravnitelnaya-stepen",
+          "title": "Сравнительная степень имён прилагательных",
+          "section": "Имя прилагательное"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2027,7 +2059,11 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "nahozhdenie-chisla-po-ego-drobi",
+          "title": "Нахождение числа по значению его дроби",
+          "section": "Обыкновенные дроби"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -2040,11 +2076,7 @@
       "date": "2027-02-05",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "prevoshodnaya-stepen",
-          "title": "Превосходная степень имён прилагательных",
-          "section": "Имя прилагательное"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -2062,11 +2094,15 @@
       "date": "2027-02-08",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "prevoshodnaya-stepen",
+          "title": "Превосходная степень имён прилагательных",
+          "section": "Имя прилагательное"
+        },
         "math": {
-          "slug": "vidy-treugolnikov",
-          "title": "Виды треугольников по сторонам и углам",
-          "section": "Фигуры на плоскости"
+          "slug": "otnosheniya-proporcii",
+          "title": "Отношения. Пропорции",
+          "section": "Отношения и пропорции"
         },
         "english": {
           "slug": "professii-plany-na-buduschee",
@@ -2110,11 +2146,7 @@
       "date": "2027-02-10",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "n-nn-prilagatelnyh",
-          "title": "Н и НН в именах прилагательных",
-          "section": "Имя прилагательное"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -2132,11 +2164,15 @@
       "date": "2027-02-11",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "n-nn-prilagatelnyh",
+          "title": "Н и НН в именах прилагательных",
+          "section": "Имя прилагательное"
+        },
         "math": {
-          "slug": "zadachi-treugolniki",
-          "title": "Задачи на углы и периметр треугольника",
-          "section": "Фигуры на плоскости"
+          "slug": "masshtab",
+          "title": "Масштаб",
+          "section": "Отношения и пропорции"
         },
         "english": null,
         "biology": null,
@@ -2168,12 +2204,12 @@
       "date": "2027-02-15",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "k-sk-slozhnye-prilagatelnye",
-          "title": "Суффиксы -к-/-ск- и сложные имена прилагательные",
-          "section": "Имя прилагательное"
+        "russian": null,
+        "math": {
+          "slug": "pryamaya-obratnaya-proporcionalnost",
+          "title": "Прямая и обратная пропорциональные зависимости",
+          "section": "Отношения и пропорции"
         },
-        "math": null,
         "english": {
           "slug": "rabota-kariera",
           "title": "Работа и карьера",
@@ -2190,12 +2226,12 @@
       "date": "2027-02-16",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "bukvennye-vyrazheniya",
-          "title": "Буквенные выражения",
-          "section": "Буквенные выражения и уравнения"
+        "russian": {
+          "slug": "k-sk-slozhnye-prilagatelnye",
+          "title": "Суффиксы -к-/-ск- и сложные имена прилагательные",
+          "section": "Имя прилагательное"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -2221,7 +2257,11 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "okruzhnost-i-krug",
+          "title": "Окружность и круг",
+          "section": "Отношения и пропорции"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -2235,9 +2275,9 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": {
-          "slug": "chislitelnye-kolichestvennye",
-          "title": "Количественные числительные",
-          "section": "Имя числительное"
+          "slug": "o-e-posle-shipyaschih-prilagatelnyh",
+          "title": "Буквы о и е после шипящих и ц в суффиксах прилагательных",
+          "section": "Имя прилагательное"
         },
         "math": null,
         "english": null,
@@ -2253,11 +2293,7 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "uravneniya",
-          "title": "Уравнения и нахождение неизвестного",
-          "section": "Буквенные выражения и уравнения"
-        },
+        "math": null,
         "english": null,
         "biology": {
           "slug": "golosemennye",
@@ -2275,7 +2311,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "dlina-okruzhnosti-ploshad-kruga",
+          "title": "Длина окружности. Площадь круга",
+          "section": "Отношения и пропорции"
+        },
         "english": {
           "slug": "priroda-zhivotnye",
           "title": "Природа: дикие и домашние животные",
@@ -2297,8 +2337,8 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": {
-          "slug": "chislitelnye-poryadkovye-stroenie",
-          "title": "Порядковые числительные и строение числительных",
+          "slug": "chislitelnye-kolichestvennye",
+          "title": "Количественные числительные",
           "section": "Имя числительное"
         },
         "math": null,
@@ -2328,9 +2368,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "formula-puti-stoimosti",
-          "title": "Формулы пути и стоимости",
-          "section": "Буквенные выражения и уравнения"
+          "slug": "tela-vrasheniya",
+          "title": "Цилиндр, конус, шар",
+          "section": "Отношения и пропорции"
         },
         "english": null,
         "biology": null,
@@ -2359,8 +2399,8 @@
       "weekday": "Friday",
       "subjects": {
         "russian": {
-          "slug": "sklonenie-kolichestvennyh",
-          "title": "Склонение количественных числительных",
+          "slug": "chislitelnye-poryadkovye-stroenie",
+          "title": "Порядковые числительные и строение числительных",
           "section": "Имя числительное"
         },
         "math": null,
@@ -2378,9 +2418,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "formuly-geometricheskie",
-          "title": "Формулы площади, периметра, объёма",
-          "section": "Буквенные выражения и уравнения"
+          "slug": "stolbchatye-diagrammy",
+          "title": "Столбчатые диаграммы",
+          "section": "Отношения и пропорции"
         },
         "english": {
           "slug": "pogoda-klimat",
@@ -2421,11 +2461,15 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": {
-          "slug": "sklonenie-poryadkovyh-sobiratelnyh",
-          "title": "Склонение порядковых и собирательных числительных",
+          "slug": "sklonenie-kolichestvennyh",
+          "title": "Склонение количественных числительных",
           "section": "Имя числительное"
         },
-        "math": null,
+        "math": {
+          "slug": "krugovye-diagrammy",
+          "title": "Круговые диаграммы",
+          "section": "Отношения и пропорции"
+        },
         "english": null,
         "biology": null,
         "geography": {
@@ -2451,11 +2495,7 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "celye-chisla",
-          "title": "Целые числа",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2483,11 +2523,15 @@
       "weekday": "Monday",
       "subjects": {
         "russian": {
-          "slug": "ch-myagkiy-znak",
-          "title": "Ь в именах числительных",
+          "slug": "sklonenie-poryadkovyh-sobiratelnyh",
+          "title": "Склонение порядковых и собирательных числительных",
           "section": "Имя числительное"
         },
-        "math": null,
+        "math": {
+          "slug": "sluchaynye-sobytiya-veroyatnost",
+          "title": "Случайные события. Вероятность случайного события",
+          "section": "Отношения и пропорции"
+        },
         "english": {
           "slug": "gorod-transport-dostoprimechatelnosti",
           "title": "Город: транспорт и достопримечательности",
@@ -2509,11 +2553,7 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "modul-chisla",
-          "title": "Модуль числа",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2527,7 +2567,11 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "celye-chisla",
+          "title": "Положительные и отрицательные числа. Целые числа",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": null,
         "biology": {
           "slug": "pokrytosemennye-odnodolnye",
@@ -2553,8 +2597,8 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": {
-          "slug": "chislitelnye-slitno-razdelno",
-          "title": "Слитное, раздельное, дефисное написание числительных",
+          "slug": "ch-myagkiy-znak",
+          "title": "Ь в именах числительных",
           "section": "Имя числительное"
         },
         "math": null,
@@ -2575,11 +2619,7 @@
       "weekday": "Friday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "sravnenie-polozhitelnyh-otricatelnyh",
-          "title": "Сравнение положительных и отрицательных чисел",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2593,7 +2633,11 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "koordinatnaya-pryamaya",
+          "title": "Координатная прямая",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": {
           "slug": "zhizn-v-derevne",
           "title": "Жизнь в сельской местности",
@@ -2611,9 +2655,9 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": {
-          "slug": "mestoimeniya-lichnye-prityazhatelnye",
-          "title": "Личные, возвратное, притяжательные местоимения",
-          "section": "Местоимение"
+          "slug": "chislitelnye-slitno-razdelno",
+          "title": "Слитное, раздельное, дефисное написание числительных",
+          "section": "Имя числительное"
         },
         "math": null,
         "english": null,
@@ -2634,9 +2678,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "slozhenie-raznye-znaki",
-          "title": "Сложение чисел с одинаковыми и разными знаками",
-          "section": "Положительные и отрицательные числа"
+          "slug": "modul-chisla",
+          "title": "Модуль числа",
+          "section": "Рациональные числа и действия над ними"
         },
         "english": null,
         "biology": null,
@@ -2658,7 +2702,11 @@
       "date": "2027-03-18",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "mestoimeniya-lichnye-prityazhatelnye",
+          "title": "Личные, возвратное, притяжательные местоимения",
+          "section": "Местоимение"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -2676,12 +2724,12 @@
       "date": "2027-03-19",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "mestoimeniya-ukazatelnye-otricatelnye",
-          "title": "Указательные, определительные, вопросительные, неопределённые, отрицательные местоимения",
-          "section": "Местоимение"
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-polozhitelnyh-otricatelnyh",
+          "title": "Сравнение чисел",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": {
           "slug": "moy-gorod-opisanie",
           "title": "Мой город: описание",
@@ -2703,11 +2751,7 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "vychitanie-plus-minus",
-          "title": "Вычитание положительных и отрицательных чисел",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2720,7 +2764,11 @@
       "date": "2027-04-01",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "mestoimeniya-ukazatelnye-otricatelnye",
+          "title": "Указательные, определительные, вопросительные, неопределённые, отрицательные местоимения",
+          "section": "Местоимение"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -2738,12 +2786,12 @@
       "date": "2027-04-02",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "sklonenie-lichnyh-mestoimeniy",
-          "title": "Склонение личных местоимений",
-          "section": "Местоимение"
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-raznye-znaki",
+          "title": "Сложение рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2765,11 +2813,7 @@
       "weekday": "Monday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "umnozhenie-plus-minus",
-          "title": "Умножение чисел со знаками",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2782,8 +2826,16 @@
       "date": "2027-04-06",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
-        "math": null,
+        "russian": {
+          "slug": "sklonenie-lichnyh-mestoimeniy",
+          "title": "Склонение личных местоимений",
+          "section": "Местоимение"
+        },
+        "math": {
+          "slug": "vychitanie-plus-minus",
+          "title": "Вычитание рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": {
           "slug": "smi-kommunikacii",
           "title": "Средства массовой информации",
@@ -2804,11 +2856,7 @@
       "date": "2027-04-07",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "normy-upotrebleniya-mestoimeniy",
-          "title": "Нормы употребления местоимений",
-          "section": "Местоимение"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -2827,11 +2875,7 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "delenie-plus-minus",
-          "title": "Деление чисел со знаками",
-          "section": "Положительные и отрицательные числа"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -2848,8 +2892,16 @@
       "date": "2027-04-09",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
-        "math": null,
+        "russian": {
+          "slug": "normy-upotrebleniya-mestoimeniy",
+          "title": "Нормы употребления местоимений",
+          "section": "Местоимение"
+        },
+        "math": {
+          "slug": "umnozhenie-plus-minus",
+          "title": "Умножение рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -2870,11 +2922,7 @@
       "date": "2027-04-12",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "ne-ni-mestoimeniya",
-          "title": "НЕ и НИ в местоимениях",
-          "section": "Местоимение"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -2890,9 +2938,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "racionalnye-chisla",
-          "title": "Рациональные числа: совместные действия",
-          "section": "Положительные и отрицательные числа"
+          "slug": "koefficient-raspredelitelnoe-svoystvo",
+          "title": "Коэффициент. Распределительное свойство умножения",
+          "section": "Рациональные числа и действия над ними"
         },
         "english": {
           "slug": "velikobritaniya-strany-simvoly",
@@ -2910,7 +2958,11 @@
       "date": "2027-04-14",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "ne-ni-mestoimeniya",
+          "title": "НЕ и НИ в местоимениях",
+          "section": "Местоимение"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -2928,11 +2980,7 @@
       "date": "2027-04-15",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "defis-mestoimeniya",
-          "title": "Дефис в местоимениях: кое-, -то, -либо, -нибудь",
-          "section": "Местоимение"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -2948,9 +2996,9 @@
       "subjects": {
         "russian": null,
         "math": {
-          "slug": "koordinaty-tochki",
-          "title": "Координатная плоскость: оси и координаты точки",
-          "section": "Координаты и диаграммы"
+          "slug": "delenie-plus-minus",
+          "title": "Деление рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
         },
         "english": null,
         "biology": {
@@ -2972,7 +3020,11 @@
       "date": "2027-04-19",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "defis-mestoimeniya",
+          "title": "Дефис в местоимениях: кое-, -то, -либо, -нибудь",
+          "section": "Местоимение"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -2994,12 +3046,12 @@
       "date": "2027-04-20",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "glagol-perehodnost-vozvratnost",
-          "title": "Переходность и возвратность глаголов",
-          "section": "Глагол"
+        "russian": null,
+        "math": {
+          "slug": "racionalnye-chisla",
+          "title": "Рациональные числа: совместные действия",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": {
           "slug": "dostoprimechatelnosti-tradicii",
           "title": "Достопримечательности и традиции",
@@ -3017,11 +3069,7 @@
       "weekday": "Wednesday",
       "subjects": {
         "russian": null,
-        "math": {
-          "slug": "postroenie-po-koordinatam",
-          "title": "Построение точек и фигур по координатам",
-          "section": "Координаты и диаграммы"
-        },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -3034,7 +3082,11 @@
       "date": "2027-04-22",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "glagol-perehodnost-vozvratnost",
+          "title": "Переходность и возвратность глаголов",
+          "section": "Глагол"
+        },
         "math": null,
         "english": null,
         "biology": null,
@@ -3052,12 +3104,12 @@
       "date": "2027-04-23",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "glagol-spryazhenie",
-          "title": "Спряжение глаголов, разноспрягаемые глаголы",
-          "section": "Глагол"
+        "russian": null,
+        "math": {
+          "slug": "uravneniya",
+          "title": "Решение уравнений. Решение задач с помощью уравнений",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -3074,12 +3126,12 @@
       "date": "2027-04-26",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "stolbchatye-diagrammy",
-          "title": "Столбчатые диаграммы",
-          "section": "Координаты и диаграммы"
+        "russian": {
+          "slug": "glagol-spryazhenie",
+          "title": "Спряжение глаголов, разноспрягаемые глаголы",
+          "section": "Глагол"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -3101,7 +3153,11 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "perpendikulyarnye-pryamye",
+          "title": "Перпендикулярные прямые",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": {
           "slug": "rodnaya-strana-geografiya-kultura",
           "title": "Родная страна: география и культура",
@@ -3122,11 +3178,7 @@
       "date": "2027-04-28",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "naklonenie-izyavitelnoe-uslovnoe",
-          "title": "Изъявительное и условное наклонение глагола",
-          "section": "Глагол"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -3140,11 +3192,15 @@
       "date": "2027-04-29",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "naklonenie-izyavitelnoe-uslovnoe",
+          "title": "Изъявительное и условное наклонение глагола",
+          "section": "Глагол"
+        },
         "math": {
-          "slug": "krugovye-diagrammy",
-          "title": "Круговые диаграммы",
-          "section": "Координаты и диаграммы"
+          "slug": "osevaya-simmetriya",
+          "title": "Осевая симметрия",
+          "section": "Рациональные числа и действия над ними"
         },
         "english": null,
         "biology": null,
@@ -3180,11 +3236,7 @@
       "date": "2027-05-03",
       "weekday": "Monday",
       "subjects": {
-        "russian": {
-          "slug": "naklonenie-povelitelnoe",
-          "title": "Повелительное наклонение глагола",
-          "section": "Глагол"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -3206,11 +3258,15 @@
       "date": "2027-05-04",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "naklonenie-povelitelnoe",
+          "title": "Повелительное наклонение глагола",
+          "section": "Глагол"
+        },
         "math": {
-          "slug": "parallelepiped-kub",
-          "title": "Прямоугольный параллелепипед и куб",
-          "section": "Фигуры в пространстве"
+          "slug": "centralnaya-simmetriya",
+          "title": "Центральная симметрия",
+          "section": "Рациональные числа и действия над ними"
         },
         "english": {
           "slug": "vydayuschiesya-lyudi-nauka-iskusstvo",
@@ -3246,12 +3302,12 @@
       "date": "2027-05-06",
       "weekday": "Thursday",
       "subjects": {
-        "russian": {
-          "slug": "bezlichnye-glagoly",
-          "title": "Безличные глаголы",
-          "section": "Глагол"
+        "russian": null,
+        "math": {
+          "slug": "parallelnye-pryamye",
+          "title": "Параллельные прямые",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -3264,12 +3320,12 @@
       "date": "2027-05-07",
       "weekday": "Friday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "prizma-piramida",
-          "title": "Призма и пирамида",
-          "section": "Фигуры в пространстве"
+        "russian": {
+          "slug": "bezlichnye-glagoly",
+          "title": "Безличные глаголы",
+          "section": "Глагол"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -3312,12 +3368,12 @@
       "date": "2027-05-11",
       "weekday": "Tuesday",
       "subjects": {
-        "russian": {
-          "slug": "glagol-tsya-myagkiy-znak",
-          "title": "-ться/-тся и Ь после шипящих в глаголах",
-          "section": "Глагол"
+        "russian": null,
+        "math": {
+          "slug": "koordinaty-tochki",
+          "title": "Координатная плоскость",
+          "section": "Рациональные числа и действия над ними"
         },
-        "math": null,
         "english": {
           "slug": "vydayuschiesya-lyudi-sport-literatura",
           "title": "Выдающиеся люди: спорт и литература",
@@ -3334,12 +3390,12 @@
       "date": "2027-05-12",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "tela-vrasheniya",
-          "title": "Конус, цилиндр, шар и сфера",
-          "section": "Фигуры в пространстве"
+        "russian": {
+          "slug": "glagol-tsya-myagkiy-znak",
+          "title": "-ться/-тся и Ь после шипящих в глаголах",
+          "section": "Глагол"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": null,
@@ -3353,7 +3409,11 @@
       "weekday": "Thursday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "postroenie-po-koordinatam",
+          "title": "Построение точек и фигур по координатам",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": null,
         "biology": null,
         "geography": null,
@@ -3366,11 +3426,7 @@
       "date": "2027-05-14",
       "weekday": "Friday",
       "subjects": {
-        "russian": {
-          "slug": "glagol-okonchaniya-suffiksy",
-          "title": "Личные окончания глаголов и суффиксы -ова-/-ыва-",
-          "section": "Глагол"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": {
@@ -3388,12 +3444,12 @@
       "date": "2027-05-17",
       "weekday": "Monday",
       "subjects": {
-        "russian": null,
-        "math": {
-          "slug": "obyom-edinicy",
-          "title": "Объём и единицы измерения объёма",
-          "section": "Фигуры в пространстве"
+        "russian": {
+          "slug": "glagol-okonchaniya-suffiksy",
+          "title": "Личные окончания глаголов и суффиксы -ова-/-ыва-",
+          "section": "Глагол"
         },
+        "math": null,
         "english": null,
         "biology": null,
         "geography": {
@@ -3423,7 +3479,11 @@
       "weekday": "Tuesday",
       "subjects": {
         "russian": null,
-        "math": null,
+        "math": {
+          "slug": "grafiki",
+          "title": "Графики",
+          "section": "Рациональные числа и действия над ними"
+        },
         "english": {
           "slug": "itogovoe-povtorenie-angliyskiy",
           "title": "Итоговое повторение курса английского языка за 6 класс",
@@ -3440,11 +3500,7 @@
       "date": "2027-05-19",
       "weekday": "Wednesday",
       "subjects": {
-        "russian": {
-          "slug": "itogovoe-povtorenie-russkiy",
-          "title": "Итоговое повторение курса русского языка за 6 класс",
-          "section": "Итоговое повторение"
-        },
+        "russian": null,
         "math": null,
         "english": null,
         "biology": null,
@@ -3458,7 +3514,11 @@
       "date": "2027-05-20",
       "weekday": "Thursday",
       "subjects": {
-        "russian": null,
+        "russian": {
+          "slug": "itogovoe-povtorenie-russkiy",
+          "title": "Итоговое повторение курса русского языка за 6 класс",
+          "section": "Итоговое повторение"
+        },
         "math": {
           "slug": "itogovoe-povtorenie-matematika",
           "title": "Итоговое повторение курса математики за 6 класс",

@@ -49,7 +49,9 @@
       "topics": [
         {"slug": "sposoby-obrazovaniya-pristavka-suffiks", "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов", "order": 1},
         {"slug": "sposoby-obrazovaniya-slozhenie", "title": "Сложение, бессуффиксный способ, переход в другую часть речи", "order": 2},
-        {"slug": "koren-kas-kos", "title": "Правописание корня -кас- / -кос-", "order": 3}
+        {"slug": "koren-kas-kos", "title": "Правописание корня -кас- / -кос-", "order": 3},
+        {"slug": "bukvy-y-i-posle-pristavok", "title": "Буквы ы и и после приставок", "order": 4},
+        {"slug": "soedinitelnye-o-e-slozhnosokraschennye", "title": "Соединительные о и е в сложных словах. Сложносокращённые слова", "order": 5}
       ]
     },
     {
@@ -69,7 +71,8 @@
         {"slug": "sravnitelnaya-stepen", "title": "Сравнительная степень имён прилагательных", "order": 3},
         {"slug": "prevoshodnaya-stepen", "title": "Превосходная степень имён прилагательных", "order": 4},
         {"slug": "n-nn-prilagatelnyh", "title": "Н и НН в именах прилагательных", "order": 5},
-        {"slug": "k-sk-slozhnye-prilagatelnye", "title": "Суффиксы -к-/-ск- и сложные имена прилагательные", "order": 6}
+        {"slug": "k-sk-slozhnye-prilagatelnye", "title": "Суффиксы -к-/-ск- и сложные имена прилагательные", "order": 6},
+        {"slug": "o-e-posle-shipyaschih-prilagatelnyh", "title": "Буквы о и е после шипящих и ц в суффиксах прилагательных", "order": 7}
       ]
     },
     {

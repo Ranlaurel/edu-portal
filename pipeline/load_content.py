@@ -64,8 +64,21 @@ def load_subject(db, subject_dir: Path):
             else:
                 topic.title = topic_data["title"]
                 topic.order = topic_data.get("order", 0)
+                topic.section_id = section.id  # topic may have moved to a different section
 
             load_topic_content(db, subject_dir, topic, topic_data["slug"])
+
+    # Sections whose topics all moved elsewhere (e.g. renamed/regrouped) are now
+    # empty -- remove them so the old section name stops showing up in the UI.
+    db.flush()
+    empty_sections = (
+        db.query(Section)
+        .filter(Section.subject_id == subject.id, ~Section.topics.any())
+        .all()
+    )
+    for s in empty_sections:
+        print(f"    - removing empty section {s.name}")
+        db.delete(s)
 
 
 def load_topic_content(db, subject_dir: Path, topic: Topic, slug: str):

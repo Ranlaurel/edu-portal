@@ -22,45 +22,20 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          envs: DEPLOY_PATH
           script: |
-            echo "Starting deployment..."
+            DEPLOY_PATH="${{ secrets.DEPLOY_PATH }}"
             
-            # Force update to latest code
-            if [ -d "$DEPLOY_PATH" ]; then
-              cd "$DEPLOY_PATH"
-              echo "Updating existing repository..."
-              git fetch origin --force
-              git reset --hard origin/main
-              git clean -fdx -e .venv
-            else
-              echo "Repository not found, cloning..."
-              git clone https://github.com/Ranlaurel/edu-portal.git "$DEPLOY_PATH"
-              cd "$DEPLOY_PATH"
-            fi
-            
+            echo "=== Edu Portal Deployment ==="
             echo "Deploy path: $DEPLOY_PATH"
-            echo "Current directory: $(pwd)"
-            echo "Git remote: $(git remote get-url origin)"
-            echo "Checking if this is edu-portal repository..."
-            if [ -f "app/templates/base.html" ]; then
-              echo "Found base.html, checking content..."
-              head -15 app/templates/base.html | grep "СВОЯ РЭШ" && echo "✓ Correct repository (edu-portal)" || echo "✗ Wrong repository content"
-            else
-              echo "✗ base.html not found - wrong repository!"
-              exit 1
-            fi
             
-            echo "Pulling latest code..."
-            git fetch origin --prune
-            echo "Local HEAD: $(git rev-parse HEAD)"
-            echo "Remote origin/main: $(git rev-parse origin/main)"
-            echo "Branch status: $(git status -sb)"
+            cd "$DEPLOY_PATH" || { echo "Deploy path not found!"; exit 1; }
+            
+            echo "Fetching latest code..."
+            git fetch origin --prune --force
             git reset --hard origin/main
-            git clean -fd -e .venv
+            git clean -fdx -e .venv
             
-            echo "Current version:"
-            git log --oneline -1
+            echo "Current commit: $(git log -1 --oneline)"
             
             echo "Setting up Python environment..."
             if [ ! -d ".venv" ]; then
@@ -68,67 +43,27 @@ jobs:
             fi
             source .venv/bin/activate
             
-            echo "Installing dependencies..."
             pip install -r requirements.txt --quiet
             
-            echo "Initializing database..."
-            python -c "from app.main import app; print('Database ready')"
+            echo "Database initialization..."
+            python -c "from app.main import app; print('OK')"
             
-            echo "Checking content..."
             TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
             if [ "$TOPIC_COUNT" -lt 500 ]; then
-              echo "Loading content ($TOPIC_COUNT topics found)..."
+              echo "Loading content..."
               python pipeline/load_content.py
-            else
-              echo "Content already loaded ($TOPIC_COUNT topics)"
             fi
             
-            echo "Setting permissions..."
             chmod 600 portal.db 2>/dev/null || true
             
-            echo "Checking systemd service configuration..."
-            if ! systemctl is-enabled edu-portal &>/dev/null || ! systemctl is-active edu-portal &>/dev/null; then
-              echo "Service not properly configured, running setup..."
-              chmod +x setup-systemd.sh
-              ./setup-systemd.sh
-            else
-              echo "Service already configured, restarting..."
-              sudo systemctl restart edu-portal
-              sleep 3
-              if systemctl is-active --quiet edu-portal; then
-                echo "✓ Service restarted successfully"
-              else
-                echo "✗ Service failed to start, check logs:"
-                sudo journalctl -u edu-portal -n 20 --no-pager
-                exit 1
-              fi
-            fi
-            
-            echo "Waiting for application to start..."
-            sleep 5
-            
-            echo "Health check..."
-            # Try port 8002 first (systemd service), fallback to 8000
-            if curl -f -s http://localhost:8002/login > /dev/null 2>&1; then
-              PORT=8002
-              echo "✓ Application is responding on port 8002"
-            elif curl -f -s http://localhost:8000/login > /dev/null 2>&1; then
-              PORT=8000
-              echo "✓ Application is responding on port 8000"
-            else
-              echo "✗ Health check failed on both ports"
-              echo "Checking running processes:"
-              ps aux | grep uvicorn | grep edu-portal || echo "No edu-portal process found"
+            echo "Configuring systemd service..."
+            if [ ! -f "setup-systemd.sh" ]; then
+              echo "ERROR: setup-systemd.sh not found!"
+              ls -la | head -20
               exit 1
             fi
             
-            echo ""
-            echo "Deployment completed successfully!"
-            echo "Application: http://127.0.0.1:${PORT}"
-            echo "External access: https://edu.rvnza.ru (requires Caddy configuration)"
-        env:
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-      
-      - name: Notify on failure
-        if: failure()
-        run: echo "Deployment failed! Check the logs above for details."
+            chmod +x setup-systemd.sh
+            ./setup-systemd.sh
+            
+            echo "=== Deployment Complete ==="

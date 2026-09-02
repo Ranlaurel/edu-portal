@@ -17,16 +17,19 @@ jobs:
       
       - name: Deploy to server via SSH
         uses: appleboy/ssh-action@v1.0.3
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
+          envs: DEPLOY_PATH
           script: |
             echo "🚀 Starting deployment..."
             
             # Navigate to project directory
-            cd ${{ secrets.DEPLOY_PATH }}
+            cd "$DEPLOY_PATH"
             
             # Pull latest changes
             echo "📥 Pulling latest code from GitHub..."

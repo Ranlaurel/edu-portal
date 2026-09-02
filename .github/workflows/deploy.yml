@@ -31,8 +31,9 @@ jobs:
             
             echo "Pulling latest code from GitHub..."
             git fetch origin
+            git checkout -- .
             git reset --hard origin/main
-            git clean -fd
+            git clean -fdx
             
             echo "Verifying template version..."
             grep -n "v=" app/templates/base.html || echo "Pattern not found"

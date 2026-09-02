@@ -37,7 +37,7 @@ jobs:
             git fetch origin
             git checkout -- .
             git reset --hard origin/main
-            git clean -fdx
+            git clean -fd -e .venv
             
             echo "Git status after update:"
             git log --oneline -1

@@ -96,6 +96,8 @@ jobs:
             echo "Running health check..."
             if curl -f -s http://localhost:8000/login > /dev/null; then
               echo "Deployment successful! Service is responding."
+              echo "Reloading Caddy configuration..."
+              systemctl reload caddy 2>/dev/null || systemctl restart caddy 2>/dev/null || echo "Caddy not managed by systemd"
             else
               echo "Health check failed! Service may not be running."
               echo "Checking service status..."

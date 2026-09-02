@@ -111,6 +111,8 @@ jobs:
               sudo chown caddy:caddy /var/log/caddy/edu-portal.log
               sudo chmod 644 /var/log/caddy/edu-portal.log
               echo "Reloading Caddy configuration..."
+              echo "Checking Caddyfile for edu.rvnza.ru..."
+              grep -A 5 "edu.rvnza.ru" /etc/caddy/Caddyfile || echo "edu.rvnza.ru not found in Caddyfile!"
               systemctl reload caddy 2>/dev/null || systemctl restart caddy 2>/dev/null || echo "Caddy not managed by systemd"
               echo "Checking Caddy status..."
               systemctl status caddy --no-pager -l || true

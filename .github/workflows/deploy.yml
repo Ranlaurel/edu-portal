@@ -22,14 +22,8 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          script: |
-            echo "DEBUG: Testing new script version v1"
-            echo "DEPLOY_PATH=${{ secrets.DEPLOY_PATH }}"
-            
-            DEPLOY_PATH="${{ secrets.DEPLOY_PATH }}"
-            
-            echo "Listing files in DEPLOY_PATH:"
-            ls -la "$DEPLOY_PATH" | head -20
-            
-            echo "Checking git status:"
-            cd "$DEPLOY_PATH" && git status --short && git log --oneline -1
+          envs: DEPLOY_PATH
+          script_stop: true
+          script: echo "NEW SCRIPT VERSION 2" && echo "Path is $DEPLOY_PATH" && cd "$DEPLOY_PATH" && pwd && git log --oneline -1
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}

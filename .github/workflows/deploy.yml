@@ -74,8 +74,12 @@ jobs:
             
             echo "Restarting application..."
             if command -v systemctl &> /dev/null && systemctl list-units --type=service | grep -q edu-portal; then
+              echo "Found edu-portal service, checking configuration..."
+              systemctl cat edu-portal | grep -E "WorkingDirectory|ExecStart" || echo "Could not read service config"
               sudo systemctl restart edu-portal
               echo "Service restarted via systemd"
+              sleep 2
+              systemctl status edu-portal --no-pager -l | head -20
             else
               pkill -f "uvicorn app.main:app" || true
               nohup .venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &

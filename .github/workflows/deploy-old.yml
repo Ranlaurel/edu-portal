@@ -1,0 +1,147 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to edu.rvnza.ru
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Deploy to server via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          envs: DEPLOY_PATH
+          script: |
+            echo "Starting deployment..."
+            echo "Deploy path: $DEPLOY_PATH"
+            
+            cd "$DEPLOY_PATH" || exit 1
+            
+            echo "Pulling latest code from GitHub..."
+            echo "Current git status before update:"
+            git status --short
+            git log --oneline -1
+            
+            git fetch origin
+            git checkout -- .
+            git reset --hard origin/main
+            git clean -fd -e .venv
+            
+            echo "Git status after update:"
+            git log --oneline -1
+            git status --short
+            
+            echo "Verifying template version..."
+            grep -n "v=" app/templates/base.html || echo "Pattern not found"
+            grep -n "build:" app/templates/base.html || echo "Build marker not found"
+            
+            echo "Clearing Python cache..."
+            find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+            find . -type f -name "*.pyc" -delete 2>/dev/null || true
+            
+            echo "Activating virtual environment..."
+            if [ ! -d ".venv" ]; then
+              echo "Virtual environment not found, creating..."
+              python3 -m venv .venv
+            fi
+            source .venv/bin/activate
+            
+            echo "Installing dependencies..."
+            pip install -r requirements.txt --quiet
+            
+            echo "Running database migrations..."
+            python -c "from app.main import app; print('Database initialized')"
+            
+            echo "Checking content..."
+            TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
+            if [ "$TOPIC_COUNT" -lt 500 ]; then
+              echo "Topic count is $TOPIC_COUNT, loading content..."
+              python pipeline/load_content.py
+            else
+              echo "Content already loaded ($TOPIC_COUNT topics)"
+            fi
+            
+            echo "Setting file permissions..."
+            chmod 600 portal.db 2>/dev/null || echo "portal.db not found yet"
+            chmod 700 .venv
+            
+            echo "Restarting application..."
+            if command -v systemctl &> /dev/null; then
+              sudo systemctl restart edu-portal
+              echo "Service restarted via systemd"
+            elif command -v pm2 &> /dev/null; then
+              pm2 restart edu-portal
+              echo "Service restarted via PM2"
+            else
+              pkill -f "uvicorn app.main:app" || true
+              nohup .venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &
+              echo "Service restarted manually"
+            fi
+            
+            echo "Fixing Caddy log permissions before reload..."
+            sudo rm -f /var/log/caddy/edu-portal.log
+            sudo mkdir -p /var/log/caddy
+            sudo chown -R caddy:caddy /var/log/caddy
+            sudo chmod 755 /var/log/caddy
+            sudo touch /var/log/caddy/edu-portal.log
+            sudo chown caddy:caddy /var/log/caddy/edu-portal.log
+            sudo chmod 644 /var/log/caddy/edu-portal.log
+            
+            echo "Setting up Caddy configuration..."
+            chmod +x setup-caddy.sh
+            ./setup-caddy.sh
+            
+            echo "Waiting for service to start..."
+            sleep 3
+            
+            echo "Running health check..."
+            if curl -f -s http://localhost:8000/login > /dev/null; then
+              echo "Deployment successful! Service is responding."
+              echo "Fixing Caddy log permissions..."
+              sudo mkdir -p /var/log/caddy
+              sudo touch /var/log/caddy/edu-portal.log
+              sudo chown caddy:caddy /var/log/caddy/edu-portal.log
+              sudo chmod 644 /var/log/caddy/edu-portal.log
+              echo "Reloading Caddy configuration..."
+              echo "Checking Caddyfile for edu.rvnza.ru..."
+              grep -A 5 "edu.rvnza.ru" /etc/caddy/Caddyfile || echo "edu.rvnza.ru not found in Caddyfile!"
+              systemctl reload caddy 2>/dev/null || systemctl restart caddy 2>/dev/null || echo "Caddy not managed by systemd"
+              echo "Checking Caddy status..."
+              systemctl status caddy --no-pager -l || true
+              echo "Testing external access..."
+              sleep 2
+              curl -I https://edu.rvnza.ru/login || echo "External access failed"
+            else
+              echo "Health check failed! Service may not be running."
+              echo "Checking service status..."
+              systemctl status edu-portal --no-pager || true
+              echo "Recent service logs:"
+              journalctl -u edu-portal -n 20 --no-pager || true
+              echo "Checking if port 8000 is listening..."
+              netstat -tlnp | grep 8000 || ss -tlnp | grep 8000 || echo "Port 8000 not listening"
+              exit 1
+            fi
+            
+            echo ""
+            echo "Deployment Summary:"
+            python -c "from app.db import SessionLocal; from app.models import Subject, Topic, User; db=SessionLocal(); print('Subjects:', db.query(Subject).count()); print('Topics:', db.query(Topic).count()); print('Users:', db.query(User).count()); db.close()"
+            
+            echo "Deployment completed successfully!"
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+      
+      - name: Notify on failure
+        if: failure()
+        run: echo "Deployment failed! Check the logs above for details."

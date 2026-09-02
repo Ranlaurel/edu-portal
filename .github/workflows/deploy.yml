@@ -23,47 +23,13 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
+            echo "DEBUG: Testing new script version v1"
+            echo "DEPLOY_PATH=${{ secrets.DEPLOY_PATH }}"
+            
             DEPLOY_PATH="${{ secrets.DEPLOY_PATH }}"
             
-            echo "=== Edu Portal Deployment ==="
-            echo "Deploy path: $DEPLOY_PATH"
+            echo "Listing files in DEPLOY_PATH:"
+            ls -la "$DEPLOY_PATH" | head -20
             
-            cd "$DEPLOY_PATH" || { echo "Deploy path not found!"; exit 1; }
-            
-            echo "Fetching latest code..."
-            git fetch origin --prune --force
-            git reset --hard origin/main
-            git clean -fdx -e .venv
-            
-            echo "Current commit: $(git log -1 --oneline)"
-            
-            echo "Setting up Python environment..."
-            if [ ! -d ".venv" ]; then
-              python3 -m venv .venv
-            fi
-            source .venv/bin/activate
-            
-            pip install -r requirements.txt --quiet
-            
-            echo "Database initialization..."
-            python -c "from app.main import app; print('OK')"
-            
-            TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
-            if [ "$TOPIC_COUNT" -lt 500 ]; then
-              echo "Loading content..."
-              python pipeline/load_content.py
-            fi
-            
-            chmod 600 portal.db 2>/dev/null || true
-            
-            echo "Configuring systemd service..."
-            if [ ! -f "setup-systemd.sh" ]; then
-              echo "ERROR: setup-systemd.sh not found!"
-              ls -la | head -20
-              exit 1
-            fi
-            
-            chmod +x setup-systemd.sh
-            ./setup-systemd.sh
-            
-            echo "=== Deployment Complete ==="
+            echo "Checking git status:"
+            cd "$DEPLOY_PATH" && git status --short && git log --oneline -1

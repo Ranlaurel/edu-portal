@@ -98,6 +98,11 @@ jobs:
               echo "Deployment successful! Service is responding."
               echo "Reloading Caddy configuration..."
               systemctl reload caddy 2>/dev/null || systemctl restart caddy 2>/dev/null || echo "Caddy not managed by systemd"
+              echo "Checking Caddy status..."
+              systemctl status caddy --no-pager -l || true
+              echo "Testing external access..."
+              sleep 2
+              curl -I https://edu.rvnza.ru/login || echo "External access failed"
             else
               echo "Health check failed! Service may not be running."
               echo "Checking service status..."

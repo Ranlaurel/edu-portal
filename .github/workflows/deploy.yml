@@ -47,6 +47,10 @@ jobs:
             grep -n "v=" app/templates/base.html || echo "Pattern not found"
             grep -n "build:" app/templates/base.html || echo "Build marker not found"
             
+            echo "Clearing Python cache..."
+            find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+            find . -type f -name "*.pyc" -delete 2>/dev/null || true
+            
             echo "Activating virtual environment..."
             source .venv/bin/activate
             

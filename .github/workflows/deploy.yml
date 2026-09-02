@@ -96,6 +96,11 @@ jobs:
             echo "Running health check..."
             if curl -f -s http://localhost:8000/login > /dev/null; then
               echo "Deployment successful! Service is responding."
+              echo "Fixing Caddy log permissions..."
+              sudo mkdir -p /var/log/caddy
+              sudo touch /var/log/caddy/edu-portal.log
+              sudo chown caddy:caddy /var/log/caddy/edu-portal.log
+              sudo chmod 644 /var/log/caddy/edu-portal.log
               echo "Reloading Caddy configuration..."
               systemctl reload caddy 2>/dev/null || systemctl restart caddy 2>/dev/null || echo "Caddy not managed by systemd"
               echo "Checking Caddy status..."

@@ -31,10 +31,15 @@ jobs:
             echo "Fetching latest code..."
             git fetch origin --prune --force
             git reset --hard origin/main
-            git clean -fdx -e .venv
+            # -e portal.db is critical: without it, -x (clean ignored files too)
+            # wipes the live database -- every student's progress -- on every
+            # single deploy, since portal.db is gitignored.
+            git clean -fdx -e .venv -e portal.db -e app.log
             echo "Current: $(git log -1 --oneline)"
             echo "Python environment..."
-            [ ! -d ".venv" ] && python3 -m venv .venv
+            if [ ! -d ".venv" ]; then
+              python3 -m venv .venv
+            fi
             source .venv/bin/activate
             pip install -r requirements.txt --quiet
             python -c "from app.main import app; print('DB OK')"

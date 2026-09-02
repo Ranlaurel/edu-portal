@@ -41,7 +41,10 @@ jobs:
             fi
             
             echo "Pulling latest code..."
-            git fetch origin
+            git fetch origin --prune
+            echo "Local HEAD: $(git rev-parse HEAD)"
+            echo "Remote origin/main: $(git rev-parse origin/main)"
+            echo "Branch status: $(git status -sb)"
             git reset --hard origin/main
             git clean -fd -e .venv
             

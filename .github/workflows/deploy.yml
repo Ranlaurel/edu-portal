@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Deploy to server via SSH v2
+      - name: Deploy to server via SSH
         uses: appleboy/ssh-action@v1.1.0
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -24,6 +24,31 @@ jobs:
           port: 22
           envs: DEPLOY_PATH
           script_stop: true
-          script: echo "NEW SCRIPT VERSION 2" && echo "Path is $DEPLOY_PATH" && cd "$DEPLOY_PATH" && pwd && git log --oneline -1
+          script: |
+            set -e
+            echo "=== Edu Portal Deployment ==="
+            cd "$DEPLOY_PATH" || exit 1
+            echo "Fetching latest code..."
+            git fetch origin --prune --force
+            git reset --hard origin/main
+            git clean -fdx -e .venv
+            echo "Current: $(git log -1 --oneline)"
+            echo "Python environment..."
+            [ ! -d ".venv" ] && python3 -m venv .venv
+            source .venv/bin/activate
+            pip install -r requirements.txt --quiet
+            python -c "from app.main import app; print('DB OK')"
+            TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
+            [ "$TOPIC_COUNT" -lt 500 ] && python pipeline/load_content.py || echo "Content OK ($TOPIC_COUNT topics)"
+            chmod 600 portal.db 2>/dev/null || true
+            echo "Configuring systemd..."
+            [ ! -f "setup-systemd.sh" ] && echo "ERROR: setup-systemd.sh not found!" && exit 1
+            chmod +x setup-systemd.sh
+            ./setup-systemd.sh
+            echo "=== Deployment Complete ==="
         env:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+      
+      - name: Notify on failure
+        if: failure()
+        run: echo "Deployment failed! Check the logs above for details."

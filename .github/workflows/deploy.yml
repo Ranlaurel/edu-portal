@@ -73,13 +73,15 @@ jobs:
             chmod 600 portal.db 2>/dev/null || true
             
             echo "Restarting application..."
-            if command -v systemctl &> /dev/null && systemctl list-units --type=service | grep -q edu-portal; then
-              echo "Found edu-portal service, checking configuration..."
-              systemctl cat edu-portal | grep -E "WorkingDirectory|ExecStart" || echo "Could not read service config"
+            if systemctl is-active --quiet edu-portal 2>/dev/null || systemctl list-unit-files | grep -q edu-portal; then
+              echo "Found edu-portal systemd service"
+              echo "Service configuration:"
+              systemctl cat edu-portal 2>&1 | grep -E "Working|ExecStart|User=" || echo "Could not read config"
               sudo systemctl restart edu-portal
-              echo "Service restarted via systemd"
-              sleep 2
-              systemctl status edu-portal --no-pager -l | head -20
+              echo "Service restarted"
+              sleep 3
+              echo "Service status:"
+              systemctl status edu-portal --no-pager -n 5 || true
             else
               pkill -f "uvicorn app.main:app" || true
               nohup .venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &

@@ -31,6 +31,14 @@ jobs:
             echo "Deploy path: $DEPLOY_PATH"
             echo "Current directory: $(pwd)"
             echo "Git remote: $(git remote get-url origin)"
+            echo "Checking if this is edu-portal repository..."
+            if [ -f "app/templates/base.html" ]; then
+              echo "Found base.html, checking content..."
+              head -15 app/templates/base.html | grep "СВОЯ РЭШ" && echo "✓ Correct repository (edu-portal)" || echo "✗ Wrong repository content"
+            else
+              echo "✗ base.html not found - wrong repository!"
+              exit 1
+            fi
             
             echo "Pulling latest code..."
             git fetch origin

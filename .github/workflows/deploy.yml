@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -17,8 +17,6 @@ jobs:
       
       - name: Deploy to server via SSH
         uses: appleboy/ssh-action@v1.0.3
-        env:
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
@@ -27,9 +25,10 @@ jobs:
           envs: DEPLOY_PATH
           script: |
             echo "🚀 Starting deployment..."
+            echo "Deploy path: $DEPLOY_PATH"
             
             # Navigate to project directory
-            cd "$DEPLOY_PATH"
+            cd "$DEPLOY_PATH" || exit 1
             
             # Pull latest changes
             echo "📥 Pulling latest code from GitHub..."
@@ -105,6 +104,8 @@ db.close()
             
             echo ""
             echo "✨ Deployment completed successfully!"
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
       
       - name: Notify on failure
         if: failure()

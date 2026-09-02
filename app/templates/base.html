@@ -10,6 +10,7 @@
 <body>
   <header class="topbar">
     <a class="brand" href="/subjects">📚 СВОЯ РЭШ</a>
+    {% if current_user %}
     <nav class="topnav">
       <a href="/dashboard">Дашборд</a>
       <a href="/subjects">Предметы</a>
@@ -19,11 +20,12 @@
         <a href="/select-grade/5" class="{% if request.session.get('grade') == 5 %}grade-active{% endif %}">5 кл.</a>
         <a href="/select-grade/6" class="{% if request.session.get('grade', 6) == 6 %}grade-active{% endif %}">6 кл.</a>
       </span>
-      {% if current_user and current_user.display_name %}
+      {% if current_user.display_name %}
         <span class="user-greeting">{{ current_user.display_name }}</span>
       {% endif %}
       {% if auth_enabled %}<a href="/logout">Выйти</a>{% endif %}
     </nav>
+    {% endif %}
   </header>
   <main class="container {% block container_class %}{% endblock %}">
     {% block content %}{% endblock %}

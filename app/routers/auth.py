@@ -12,6 +12,9 @@ router = APIRouter()
 
 @router.get("/login")
 def login_form(request: Request, db: Session = Depends(get_db)):
+    user = current_user(db, request)
+    if user:
+        return RedirectResponse("/", status_code=303)
     return templates.TemplateResponse("login.html", {"request": request, "error": None, "current_user": None})
 
 

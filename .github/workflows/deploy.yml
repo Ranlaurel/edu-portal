@@ -24,89 +24,69 @@ jobs:
           port: 22
           envs: DEPLOY_PATH
           script: |
-            echo "🚀 Starting deployment..."
+            echo "Starting deployment..."
             echo "Deploy path: $DEPLOY_PATH"
             
-            # Navigate to project directory
             cd "$DEPLOY_PATH" || exit 1
             
-            # Pull latest changes
-            echo "📥 Pulling latest code from GitHub..."
+            echo "Pulling latest code from GitHub..."
             git fetch origin
             git pull origin main
             
-            # Activate virtual environment
-            echo "🔧 Activating virtual environment..."
+            echo "Activating virtual environment..."
             source .venv/bin/activate
             
-            # Install/update dependencies
-            echo "📦 Installing dependencies..."
+            echo "Installing dependencies..."
             pip install -r requirements.txt --quiet
             
-            # Run database migrations
-            echo "🗄️ Running database migrations..."
-            python -c "from app.main import app; print('✓ Database initialized')"
+            echo "Running database migrations..."
+            python -c "from app.main import app; print('Database initialized')"
             
-            # Load content (only if needed)
-            echo "📚 Checking content..."
+            echo "Checking content..."
             TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
             if [ "$TOPIC_COUNT" -lt 500 ]; then
-              echo "⚠️  Topic count is $TOPIC_COUNT, loading content..."
+              echo "Topic count is $TOPIC_COUNT, loading content..."
               python pipeline/load_content.py
             else
-              echo "✓ Content already loaded ($TOPIC_COUNT topics)"
+              echo "Content already loaded ($TOPIC_COUNT topics)"
             fi
             
-            # Set proper permissions
-            echo "🔒 Setting file permissions..."
-            chmod 600 portal.db 2>/dev/null || echo "⚠️  portal.db not found yet"
+            echo "Setting file permissions..."
+            chmod 600 portal.db 2>/dev/null || echo "portal.db not found yet"
             chmod 700 .venv
             
-            # Restart application
-            echo "♻️  Restarting application..."
+            echo "Restarting application..."
             if command -v systemctl &> /dev/null; then
               sudo systemctl restart edu-portal
-              echo "✓ Service restarted via systemd"
+              echo "Service restarted via systemd"
             elif command -v pm2 &> /dev/null; then
               pm2 restart edu-portal
-              echo "✓ Service restarted via PM2"
+              echo "Service restarted via PM2"
             else
               pkill -f "uvicorn app.main:app" || true
               nohup .venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &
-              echo "✓ Service restarted manually"
+              echo "Service restarted manually"
             fi
             
-            # Wait for service to start
-            echo "⏳ Waiting for service to start..."
+            echo "Waiting for service to start..."
             sleep 3
             
-            # Health check
-            echo "🏥 Running health check..."
+            echo "Running health check..."
             if curl -f -s http://localhost:8000/login > /dev/null; then
-              echo "✅ Deployment successful! Service is responding."
+              echo "Deployment successful! Service is responding."
             else
-              echo "❌ Health check failed! Service may not be running."
+              echo "Health check failed! Service may not be running."
               exit 1
             fi
             
-            # Show deployment info
             echo ""
-            echo "📊 Deployment Summary:"
-            python -c "
-from app.db import SessionLocal
-from app.models import Subject, Topic, User
-db = SessionLocal()
-print(f'  • Subjects: {db.query(Subject).count()}')
-print(f'  • Topics: {db.query(Topic).count()}')
-print(f'  • Users: {db.query(User).count()}')
-db.close()
-            "
+            echo "Deployment Summary:"
+            python -c "from app.db import SessionLocal; from app.models import Subject, Topic, User; db=SessionLocal(); print('Subjects:', db.query(Subject).count()); print('Topics:', db.query(Topic).count()); print('Users:', db.query(User).count()); db.close()"
             
-            echo ""
-            echo "✨ Deployment completed successfully!"
+            echo "Deployment completed successfully!"
         env:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
       
       - name: Notify on failure
         if: failure()
-        run: echo "❌ Deployment failed! Check the logs above for details."
+        run: echo "Deployment failed! Check the logs above for details."

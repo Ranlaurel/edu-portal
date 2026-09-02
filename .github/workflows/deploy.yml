@@ -31,7 +31,8 @@ jobs:
             
             echo "Pulling latest code from GitHub..."
             git fetch origin
-            git pull origin main
+            git reset --hard origin/main
+            git clean -fd
             
             echo "Activating virtual environment..."
             source .venv/bin/activate

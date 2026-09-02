@@ -90,6 +90,12 @@ jobs:
               echo "Service restarted manually"
             fi
             
+            echo "Fixing Caddy log permissions before reload..."
+            sudo mkdir -p /var/log/caddy
+            sudo touch /var/log/caddy/edu-portal.log
+            sudo chown caddy:caddy /var/log/caddy/edu-portal.log
+            sudo chmod 644 /var/log/caddy/edu-portal.log
+            
             echo "Waiting for service to start..."
             sleep 3
             

@@ -52,6 +52,10 @@ jobs:
             find . -type f -name "*.pyc" -delete 2>/dev/null || true
             
             echo "Activating virtual environment..."
+            if [ ! -d ".venv" ]; then
+              echo "Virtual environment not found, creating..."
+              python3 -m venv .venv
+            fi
             source .venv/bin/activate
             
             echo "Installing dependencies..."

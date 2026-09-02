@@ -75,40 +75,46 @@ jobs:
             echo "Setting permissions..."
             chmod 600 portal.db 2>/dev/null || true
             
-            echo "Restarting application..."
-            if systemctl is-active --quiet edu-portal 2>/dev/null || systemctl list-unit-files | grep -q edu-portal; then
-              echo "Found edu-portal systemd service"
-              echo "Service configuration:"
-              systemctl cat edu-portal 2>&1 | grep -E "Working|ExecStart|User=" || echo "Could not read config"
-              sudo systemctl restart edu-portal
-              echo "Service restarted"
-              sleep 3
-              echo "Service status:"
-              systemctl status edu-portal --no-pager -n 5 || true
+            echo "Checking systemd service configuration..."
+            if ! systemctl is-enabled edu-portal &>/dev/null || ! systemctl is-active edu-portal &>/dev/null; then
+              echo "Service not properly configured, running setup..."
+              chmod +x setup-systemd.sh
+              ./setup-systemd.sh
             else
-              pkill -f "uvicorn app.main:app" || true
-              nohup .venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &
-              echo "Service started manually"
+              echo "Service already configured, restarting..."
+              sudo systemctl restart edu-portal
+              sleep 3
+              if systemctl is-active --quiet edu-portal; then
+                echo "✓ Service restarted successfully"
+              else
+                echo "✗ Service failed to start, check logs:"
+                sudo journalctl -u edu-portal -n 20 --no-pager
+                exit 1
+              fi
             fi
             
             echo "Waiting for application to start..."
             sleep 5
             
             echo "Health check..."
-            if curl -f -s http://localhost:8000/login > /dev/null; then
+            # Try port 8002 first (systemd service), fallback to 8000
+            if curl -f -s http://localhost:8002/login > /dev/null 2>&1; then
+              PORT=8002
+              echo "✓ Application is responding on port 8002"
+            elif curl -f -s http://localhost:8000/login > /dev/null 2>&1; then
+              PORT=8000
               echo "✓ Application is responding on port 8000"
-              echo "Checking what's actually running:"
-              ps aux | grep uvicorn | grep -v grep || echo "No uvicorn processes found"
-              netstat -tlnp 2>/dev/null | grep :8000 || ss -tlnp 2>/dev/null | grep :8000 || echo "Port 8000 status unknown"
             else
-              echo "✗ Health check failed"
+              echo "✗ Health check failed on both ports"
+              echo "Checking running processes:"
+              ps aux | grep uvicorn | grep edu-portal || echo "No edu-portal process found"
               exit 1
             fi
             
             echo ""
             echo "Deployment completed successfully!"
-            echo "Application: http://185.250.46.211:8000"
-            echo "HTTPS access requires Caddy configuration (see CADDY_SETUP.md)"
+            echo "Application: http://127.0.0.1:${PORT}"
+            echo "External access: https://edu.rvnza.ru (requires Caddy configuration)"
         env:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
       

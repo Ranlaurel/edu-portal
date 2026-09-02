@@ -13,8 +13,6 @@ jobs:
       
       - name: SSH Deploy
         uses: appleboy/ssh-action@v1.1.0
-        env:
-          TARGET: ${{ secrets.DEPLOY_PATH }}
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
@@ -22,3 +20,5 @@ jobs:
           port: 22
           envs: TARGET
           script: cd "$TARGET" && git fetch origin && git reset --hard origin/main && git clean -fdx -e .venv && git log -1 --oneline && echo "Updated to latest"
+        env:
+          TARGET: ${{ secrets.DEPLOY_PATH }}

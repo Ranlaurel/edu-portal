@@ -98,6 +98,12 @@ jobs:
               echo "Deployment successful! Service is responding."
             else
               echo "Health check failed! Service may not be running."
+              echo "Checking service status..."
+              systemctl status edu-portal --no-pager || true
+              echo "Recent service logs:"
+              journalctl -u edu-portal -n 20 --no-pager || true
+              echo "Checking if port 8000 is listening..."
+              netstat -tlnp | grep 8000 || ss -tlnp | grep 8000 || echo "Port 8000 not listening"
               exit 1
             fi
             

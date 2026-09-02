@@ -1,0 +1,21 @@
+edu.rvnza.ru {
+    reverse_proxy localhost:8000
+    encode gzip
+    
+    log {
+        output file /var/log/caddy/edu-portal.log
+        level INFO
+    }
+    
+    header {
+        # Security headers
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "SAMEORIGIN"
+        X-XSS-Protection "1; mode=block"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        
+        # Remove server header
+        -Server
+    }
+}

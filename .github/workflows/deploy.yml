@@ -30,10 +30,18 @@ jobs:
             cd "$DEPLOY_PATH" || exit 1
             
             echo "Pulling latest code from GitHub..."
+            echo "Current git status before update:"
+            git status --short
+            git log --oneline -1
+            
             git fetch origin
             git checkout -- .
             git reset --hard origin/main
             git clean -fdx
+            
+            echo "Git status after update:"
+            git log --oneline -1
+            git status --short
             
             echo "Verifying template version..."
             grep -n "v=" app/templates/base.html || echo "Pattern not found"

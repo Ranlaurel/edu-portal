@@ -34,6 +34,10 @@ jobs:
             git reset --hard origin/main
             git clean -fd
             
+            echo "Verifying template version..."
+            grep -n "v=" app/templates/base.html || echo "Pattern not found"
+            grep -n "build:" app/templates/base.html || echo "Build marker not found"
+            
             echo "Activating virtual environment..."
             source .venv/bin/activate
             

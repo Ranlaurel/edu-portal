@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «at the moment»?",
+      "options": [
+        {"text": "в данный момент", "correct": true},
+        {"text": "каждый день", "correct": false},
+        {"text": "никогда", "correct": false}
+      ],
+      "explanation": "«At the moment» — в данный момент, сейчас."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: He ___ playing football now.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "С he используется is в Present Continuous."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают действия? (выбери все верные варианты)",
+      "options": [
+        {"text": "swim", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "cook", "correct": true},
+        {"text": "run", "correct": true},
+        {"text": "always", "correct": false}
+      ],
+      "explanation": "Swim, cook, run — глаголы действия. Now и always — наречия времени."
+    },
+    {
+      "type": "dropdown",
+      "text": "They ___ watching TV now.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "С they используется are в Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ sleeping now (отрицание).",
+      "options": [
+        {"text": "isn't", "correct": true},
+        {"text": "doesn't", "correct": false},
+        {"text": "aren't", "correct": false}
+      ],
+      "explanation": "Отрицание в Present Continuous с she — isn't sleeping."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши -ing форму глагола write",
+      "answer": "writing",
+      "explanation": "Write оканчивается на -e, убираем её перед -ing: writing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши -ing форму глагола swim",
+      "answer": "swimming",
+      "explanation": "Swim оканчивается на согласную+гласную+согласную, поэтому удваиваем m: swimming."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "listen to music", "right": "слушать музыку"},
+        {"left": "watch TV", "right": "смотреть телевизор"},
+        {"left": "sleep", "right": "спать"},
+        {"left": "cook", "right": "готовить"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Я сейчас читаю книгу»?",
+      "options": [
+        {"text": "I am reading a book now.", "correct": true},
+        {"text": "I read a book now.", "correct": false},
+        {"text": "I is reading a book now.", "correct": false}
+      ],
+      "explanation": "Действие сейчас выражается через Present Continuous: am + глагол-ing."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как будет сравнительная степень слова «fast»?",
+      "options": [
+        {"text": "faster", "correct": true},
+        {"text": "more fast", "correct": false},
+        {"text": "fastest", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное образует сравнительную степень через -er: faster."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «slow»?",
+      "options": [
+        {"text": "медленный", "correct": true},
+        {"text": "быстрый", "correct": false},
+        {"text": "лёгкий", "correct": false}
+      ],
+      "explanation": "«Slow» — медленный."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие прилагательные образуют степени сравнения через more/the most (длинные слова)? (выбери все верные варианты)",
+      "options": [
+        {"text": "difficult", "correct": true},
+        {"text": "tall", "correct": false},
+        {"text": "beautiful", "correct": true},
+        {"text": "fast", "correct": false}
+      ],
+      "explanation": "Difficult и beautiful — длинные прилагательные (2+ слога), они используют more/the most. Tall и fast — короткие, используют -er/-est."
+    },
+    {
+      "type": "dropdown",
+      "text": "Tom is the ___ (tall) in the class.",
+      "options": [
+        {"text": "tallest", "correct": true},
+        {"text": "taller", "correct": false},
+        {"text": "more tall", "correct": false}
+      ],
+      "explanation": "Превосходная степень короткого прилагательного образуется через the + -est: the tallest."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как будет превосходная степень слова «good» (исключение)?",
+      "options": [
+        {"text": "the best", "correct": true},
+        {"text": "the goodest", "correct": false},
+        {"text": "the more good", "correct": false}
+      ],
+      "explanation": "Good — слово-исключение: good → better → the best."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень слова easy.",
+      "answer": "easier",
+      "explanation": "У прилагательных на -y буква y меняется на i перед -er: easier."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень слова big.",
+      "answer": "bigger",
+      "explanation": "Короткое прилагательное на одну согласную после одной гласной удваивает согласную: bigger."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное с переводом",
+      "pairs": [
+        {"left": "small", "right": "маленький"},
+        {"left": "short", "right": "низкий"},
+        {"left": "bad", "right": "плохой"},
+        {"left": "difficult", "right": "трудный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как будет сравнительная степень слова «bad» (исключение)?",
+      "options": [
+        {"text": "worse", "correct": true},
+        {"text": "badder", "correct": false},
+        {"text": "more bad", "correct": false}
+      ],
+      "explanation": "Bad — слово-исключение: bad → worse → the worst."
+    }
+  ]
+}

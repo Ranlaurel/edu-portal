@@ -15,7 +15,7 @@ count, so the schedule still reflects real annual lesson totals. Empty for now -
 subject in this app has real content.
 
 Usage: python pipeline/build_schedule.py
-Writes: content/schedule.json
+Writes: content/schedule-5.json and content/schedule-6.json
 """
 import json
 from datetime import date, timedelta
@@ -30,10 +30,16 @@ TERMS = [
     (date(2027, 4, 1), date(2027, 5, 24)),
 ]
 
-SUBJECTS = [
-    "russian", "math", "english",
-    "biology", "geography", "vseobschaya-istoriya", "istoriya-rossii", "literature",
-]
+GRADE_SUBJECTS = {
+    6: [
+        "russian", "math", "english",
+        "biology", "geography", "vseobschaya-istoriya", "istoriya-rossii", "literature",
+    ],
+    5: [
+        "russian-5", "math-5", "english-5",
+        "biology-5", "geography-5", "istoriya-drevnego-mira-5", "literature-5",
+    ],
+}
 
 # weekday() -> 0=Mon .. 4=Fri. Which "hours only" (no real content yet) subjects meet
 # on which weekday.
@@ -71,10 +77,9 @@ def assign(topics, days):
     return schedule
 
 
-def main():
-    days = school_days()
+def build_for_grade(grade: int, subject_dirs: list, days: list):
     subjects = {}
-    for subj_dir in SUBJECTS:
+    for subj_dir in subject_dirs:
         manifest_path = CONTENT_DIR / subj_dir / "topics.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         subjects[subj_dir] = {
@@ -111,10 +116,16 @@ def main():
         }
         result["days"].append(entry)
 
-    out_path = CONTENT_DIR / "schedule.json"
+    out_path = CONTENT_DIR / f"schedule-{grade}.json"
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in SUBJECTS}
+    n_topics = {s: len(flatten_topics(json.loads((CONTENT_DIR / s / "topics.json").read_text(encoding="utf-8")))) for s in subject_dirs}
     print(f"Wrote {out_path}: {len(days)} school days, {n_topics} topics per subject, hour-only totals: {hour_only_totals}.")
+
+
+def main():
+    days = school_days()
+    for grade, subject_dirs in GRADE_SUBJECTS.items():
+        build_for_grade(grade, subject_dirs, days)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,53 @@
+{
+  "subject": {"name": "Биология", "slug": "biology-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Живой организм: строение и изучение",
+      "order": 1,
+      "topics": [
+        {"slug": "nauka-o-zhivoy-prirode-5", "title": "Наука о живой природе", "order": 1},
+        {"slug": "svoystva-zhivogo-5", "title": "Свойства живого", "order": 2},
+        {"slug": "metody-izucheniya-prirody-5", "title": "Методы изучения природы", "order": 3},
+        {"slug": "uvelichitelnye-pribory-5", "title": "Увеличительные приборы", "order": 4},
+        {"slug": "stroenie-kletki-tkani-5", "title": "Строение клетки. Ткани", "order": 5}
+      ]
+    },
+    {
+      "name": "Многообразие живых организмов",
+      "order": 2,
+      "topics": [
+        {"slug": "tsarstva-zhivoy-prirody-5", "title": "Царства живой природы", "order": 1},
+        {"slug": "bakterii-stroenie-zhiznedeyatelnost-5", "title": "Бактерии: строение и жизнедеятельность", "order": 2},
+        {"slug": "znachenie-bakteriy-5", "title": "Значение бактерий в природе и жизни человека", "order": 3},
+        {"slug": "tsarstvo-rasteniya-5", "title": "Царство Растения", "order": 4},
+        {"slug": "tsarstvo-zhivotnye-5", "title": "Царство Животные", "order": 5},
+        {"slug": "griby-stroenie-zhiznedeyatelnost-5", "title": "Грибы: строение и жизнедеятельность", "order": 6},
+        {"slug": "mnogoobrazie-znachenie-gribov-5", "title": "Многообразие и значение грибов", "order": 7},
+        {"slug": "lishayniki-5", "title": "Лишайники", "order": 8}
+      ]
+    },
+    {
+      "name": "Жизнь организмов на планете Земля",
+      "order": 3,
+      "topics": [
+        {"slug": "sredy-zhizni-5", "title": "Среды жизни", "order": 1},
+        {"slug": "ekologicheskie-faktory-5", "title": "Экологические факторы среды", "order": 2},
+        {"slug": "vzaimosvyazi-zhivyh-organizmov-5", "title": "Взаимосвязи живых организмов", "order": 3},
+        {"slug": "prirodnye-soobschestva-5", "title": "Природные сообщества", "order": 4},
+        {"slug": "prirodnye-zony-rossii-5", "title": "Природные зоны России", "order": 5},
+        {"slug": "zhizn-na-raznyh-materikah-5", "title": "Жизнь организмов на разных материках", "order": 6},
+        {"slug": "zhizn-v-moryah-i-okeanah-5", "title": "Жизнь организмов в морях и океанах", "order": 7}
+      ]
+    },
+    {
+      "name": "Человек на планете Земля",
+      "order": 4,
+      "topics": [
+        {"slug": "poyavlenie-cheloveka-na-zemle-5", "title": "Как появился человек на Земле", "order": 1},
+        {"slug": "chelovek-izmenyal-prirodu-5", "title": "Как человек изменял природу", "order": 2},
+        {"slug": "ohrana-zhivogo-mira-5", "title": "Важность охраны живого мира планеты", "order": 3},
+        {"slug": "sohranim-bogatstvo-zhivogo-mira-5", "title": "Сохраним богатство живого мира", "order": 4}
+      ]
+    }
+  ]
+}

@@ -4,9 +4,10 @@ from fastapi import APIRouter, Depends, Request
 from sqlalchemy import or_
 from sqlalchemy.orm import Session
 
+from app.auth import current_user_id, current_user
 from app.db import get_db
-from app.models import Attempt, Subject, Topic, UserProgress
-from app.progress_utils import DEFAULT_USER_ID, progress_map, subject_percent
+from app.models import Attempt, Section, Subject, Topic, UserProgress
+from app.progress_utils import progress_map, subject_percent
 from app.templating import templates
 
 router = APIRouter()
@@ -50,13 +51,16 @@ def build_heatmap(activity_by_day: dict) -> list:
     return weeks
 
 
-def topics_this_week(db: Session):
+def topics_this_week(db: Session, user_id: int, grade: int):
     week_ago = date.today() - timedelta(days=6)
     rows = (
         db.query(Attempt, Topic)
         .join(Topic, Topic.id == Attempt.topic_id)
+        .join(Section, Section.id == Topic.section_id)
+        .join(Subject, Subject.id == Section.subject_id)
         .filter(
-            Attempt.user_id == DEFAULT_USER_ID,
+            Attempt.user_id == user_id,
+            Subject.grade == grade,
             Attempt.passed == True,  # noqa: E712
             Attempt.created_at >= week_ago,
         )
@@ -73,12 +77,15 @@ def topics_this_week(db: Session):
     return result
 
 
-def weak_topics(db: Session):
+def weak_topics(db: Session, user_id: int, grade: int):
     rows = (
         db.query(UserProgress, Topic)
         .join(Topic, Topic.id == UserProgress.topic_id)
+        .join(Section, Section.id == Topic.section_id)
+        .join(Subject, Subject.id == Section.subject_id)
         .filter(
-            UserProgress.user_id == DEFAULT_USER_ID,
+            UserProgress.user_id == user_id,
+            Subject.grade == grade,
             or_(
                 UserProgress.status == "needs_review",
                 UserProgress.best_score < WEAK_SCORE_THRESHOLD,
@@ -91,11 +98,13 @@ def weak_topics(db: Session):
     return [{"progress": p, "topic": t} for p, t in rows]
 
 
-def recent_activity(db: Session):
+def recent_activity(db: Session, user_id: int, grade: int):
     rows = (
         db.query(Attempt, Topic)
         .join(Topic, Topic.id == Attempt.topic_id)
-        .filter(Attempt.user_id == DEFAULT_USER_ID)
+        .join(Section, Section.id == Topic.section_id)
+        .join(Subject, Subject.id == Section.subject_id)
+        .filter(Attempt.user_id == user_id, Subject.grade == grade)
         .order_by(Attempt.created_at.desc())
         .limit(RECENT_ACTIVITY_LIMIT)
         .all()
@@ -105,8 +114,10 @@ def recent_activity(db: Session):
 
 @router.get("/dashboard")
 def dashboard(request: Request, db: Session = Depends(get_db)):
-    subjects = db.query(Subject).order_by(Subject.id).all()
-    prog = progress_map(db)
+    grade = request.session.get("grade", 6)
+    user_id = current_user_id(request)
+    subjects = db.query(Subject).filter_by(grade=grade).order_by(Subject.id).all()
+    prog = progress_map(db, user_id)
 
     subject_cards = []
     total_topics = 0
@@ -121,7 +132,7 @@ def dashboard(request: Request, db: Session = Depends(get_db)):
         subject_cards.append(
             {
                 "subject": s,
-                "percent": subject_percent(db, all_topics),
+                "percent": subject_percent(db, all_topics, user_id),
                 "passed": passed,
                 "needs_review": needs_review,
                 "not_started": not_started,
@@ -131,7 +142,14 @@ def dashboard(request: Request, db: Session = Depends(get_db)):
 
     overall_percent = round(total_passed / total_topics * 100) if total_topics else 0
 
-    all_attempts = db.query(Attempt.created_at, Attempt.score).filter(Attempt.user_id == DEFAULT_USER_ID).all()
+    all_attempts = (
+        db.query(Attempt.created_at, Attempt.score)
+        .join(Topic, Topic.id == Attempt.topic_id)
+        .join(Section, Section.id == Topic.section_id)
+        .join(Subject, Subject.id == Section.subject_id)
+        .filter(Attempt.user_id == user_id, Subject.grade == grade)
+        .all()
+    )
     activity_by_day: dict = {}
     for created_at, _score in all_attempts:
         if created_at:
@@ -153,8 +171,9 @@ def dashboard(request: Request, db: Session = Depends(get_db)):
             "total_attempts": total_attempts,
             "avg_score": avg_score,
             "heatmap": build_heatmap(activity_by_day),
-            "week_items": topics_this_week(db),
-            "weak_items": weak_topics(db),
-            "recent_items": recent_activity(db),
+            "week_items": topics_this_week(db, user_id, grade),
+            "weak_items": weak_topics(db, user_id, grade),
+            "recent_items": recent_activity(db, user_id, grade),
+            "current_user": current_user(db, request),
         },
     )

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «usually»?",
+      "options": [
+        {"text": "обычно", "correct": true},
+        {"text": "всегда", "correct": false},
+        {"text": "никогда", "correct": false}
+      ],
+      "explanation": "«Usually» — обычно."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: He ___ to school by bus.",
+      "options": [
+        {"text": "goes", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "going", "correct": false}
+      ],
+      "explanation": "В Present Simple для he/she/it к глаголу добавляется -s/-es: go → goes."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие выражения относятся к распорядку дня? (выбери все верные варианты)",
+      "options": [
+        {"text": "get up", "correct": true},
+        {"text": "elephant", "correct": false},
+        {"text": "have breakfast", "correct": true},
+        {"text": "go to bed", "correct": true},
+        {"text": "umbrella", "correct": false}
+      ],
+      "explanation": "Get up, have breakfast, go to bed — действия из распорядка дня. Elephant и umbrella — не относятся к теме."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ have lunch at school (отрицание).",
+      "options": [
+        {"text": "don't", "correct": true},
+        {"text": "doesn't", "correct": false},
+        {"text": "isn't", "correct": false}
+      ],
+      "explanation": "С I используется отрицание don't + глагол без -s."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ she go to bed early?",
+      "options": [
+        {"text": "Does", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Is", "correct": false}
+      ],
+      "explanation": "Вопрос с she строится через Does."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: никогда",
+      "answer": "never",
+      "explanation": "«Никогда» переводится как never."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: My brother ___ (get up) at seven.",
+      "answer": "gets up",
+      "explanation": "Для he в Present Simple добавляем -s: gets up."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово/выражение с переводом",
+      "pairs": [
+        {"left": "do homework", "right": "делать домашнее задание"},
+        {"left": "have dinner", "right": "ужинать"},
+        {"left": "always", "right": "всегда"},
+        {"left": "every day", "right": "каждый день"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Он не делает домашку по утрам»?",
+      "options": [
+        {"text": "He doesn't do his homework in the morning.", "correct": true},
+        {"text": "He don't does his homework in the morning.", "correct": false},
+        {"text": "He not does his homework in the morning.", "correct": false}
+      ],
+      "explanation": "Отрицание для he в Present Simple: doesn't + глагол без -s."
+    }
+  ]
+}

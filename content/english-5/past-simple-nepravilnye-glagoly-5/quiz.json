@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая форма прошедшего времени у глагола «buy»?",
+      "options": [
+        {"text": "bought", "correct": true},
+        {"text": "buyed", "correct": false},
+        {"text": "buys", "correct": false}
+      ],
+      "explanation": "Buy — неправильный глагол, его форма прошедшего времени bought (не по правилу -ed)."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вопрос: «Ты видел этот фильм?»",
+      "options": [
+        {"text": "Did you see that film?", "correct": true},
+        {"text": "Did you saw that film?", "correct": false},
+        {"text": "Do you saw that film?", "correct": false}
+      ],
+      "explanation": "После did глагол стоит в начальной форме: did you see, а не did you saw."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие пары «начальная форма — прошедшее время» указаны верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "go — went", "correct": true},
+        {"text": "eat — eated", "correct": false},
+        {"text": "have — had", "correct": true},
+        {"text": "come — comed", "correct": false},
+        {"text": "take — took", "correct": true}
+      ],
+      "explanation": "Go-went, have-had, take-took — верные неправильные формы. Eat-ate (не eated), come-came (не comed)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Yesterday we ___ to the park.",
+      "options": [
+        {"text": "went", "correct": true},
+        {"text": "goed", "correct": false},
+        {"text": "go", "correct": false}
+      ],
+      "explanation": "Go — неправильный глагол, прошедшая форма went, одинаковая для всех лиц."
+    },
+    {
+      "type": "dropdown",
+      "text": "I didn't ___ that film.",
+      "options": [
+        {"text": "see", "correct": true},
+        {"text": "saw", "correct": false},
+        {"text": "seen", "correct": false}
+      ],
+      "explanation": "После didn't глагол возвращается в начальную форму: didn't see, а не didn't saw."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши прошедшую форму глагола write",
+      "answer": "wrote",
+      "explanation": "Write — неправильный глагол, прошедшая форма wrote."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши прошедшую форму глагола read (пишется так же, но читается иначе)",
+      "answer": "read",
+      "explanation": "Read — особый неправильный глагол: форма прошедшего времени пишется так же, read, но произносится [red]."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини глагол с его формой прошедшего времени",
+      "pairs": [
+        {"left": "give", "right": "gave"},
+        {"left": "get", "right": "got"},
+        {"left": "do", "right": "did"},
+        {"left": "come", "right": "came"}
+      ],
+      "explanation": "Проверь по таблице неправильных глаголов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Найди ошибку и выбери верный вариант: «Did she went home?»",
+      "options": [
+        {"text": "Did she go home?", "correct": true},
+        {"text": "Did she goes home?", "correct": false},
+        {"text": "Did she going home?", "correct": false}
+      ],
+      "explanation": "После did глагол ставится в начальную форму без изменений: did she go, а не went."
+    }
+  ]
+}

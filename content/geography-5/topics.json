@@ -1,0 +1,54 @@
+{
+  "subject": {"name": "География", "slug": "geography-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Развитие географических знаний о Земле",
+      "order": 1,
+      "topics": [
+        {"slug": "predstavleniya-o-mire-5", "title": "Развитие представлений человека о мире", "order": 1},
+        {"slug": "geografiya-v-drevnosti-5", "title": "География в древности", "order": 2},
+        {"slug": "geografiya-v-srednie-veka-5", "title": "География в Средние века", "order": 3},
+        {"slug": "velikie-geograficheskie-otkrytiya-5", "title": "Великие географические открытия", "order": 4},
+        {"slug": "otkrytie-avstralii-i-antarktidy-5", "title": "Открытие Австралии и Антарктиды", "order": 5},
+        {"slug": "sovremennye-geo-issledovaniya-5", "title": "Современные географические исследования", "order": 6}
+      ]
+    },
+    {
+      "name": "Земля во Вселенной",
+      "order": 2,
+      "topics": [
+        {"slug": "drevnie-predstavleniya-o-vselennoy-5", "title": "Как древние люди представляли Вселенную", "order": 1},
+        {"slug": "izuchenie-vselennoy-kopernik-5", "title": "Изучение Вселенной: от Коперника до наших дней", "order": 2},
+        {"slug": "planety-zemnoy-gruppy-5", "title": "Планеты земной группы", "order": 3},
+        {"slug": "planety-giganty-i-pluton-5", "title": "Планеты-гиганты и маленький Плутон", "order": 4},
+        {"slug": "asteroidy-komety-meteory-5", "title": "Астероиды, кометы, метеоры и метеориты", "order": 5},
+        {"slug": "mir-zvezd-5", "title": "Мир звёзд", "order": 6},
+        {"slug": "unikalnaya-planeta-zemlya-5", "title": "Уникальная планета Земля", "order": 7}
+      ]
+    },
+    {
+      "name": "Географические модели Земли",
+      "order": 3,
+      "topics": [
+        {"slug": "orientirovanie-na-mestnosti-5", "title": "Ориентирование на местности. Стороны горизонта", "order": 1},
+        {"slug": "plan-mestnosti-5", "title": "План местности", "order": 2},
+        {"slug": "masshtab-5-klass", "title": "Масштаб", "order": 3},
+        {"slug": "geograficheskaya-karta-5", "title": "Географическая карта", "order": 4},
+        {"slug": "globus-gradusnaya-set-5", "title": "Глобус и градусная сеть", "order": 5},
+        {"slug": "geograficheskie-koordinaty-5", "title": "Географические координаты: широта и долгота", "order": 6}
+      ]
+    },
+    {
+      "name": "Земная кора",
+      "order": 4,
+      "topics": [
+        {"slug": "vnutrennee-stroenie-zemli-5", "title": "Внутреннее строение Земли", "order": 1},
+        {"slug": "gornye-porody-i-mineraly-5", "title": "Горные породы и минералы", "order": 2},
+        {"slug": "dvizheniya-zemnoy-kory-5", "title": "Движения земной коры", "order": 3},
+        {"slug": "zemletryaseniya-i-vulkany-5", "title": "Землетрясения и вулканы", "order": 4},
+        {"slug": "relef-zemli-ravniny-5", "title": "Рельеф Земли. Равнины", "order": 5},
+        {"slug": "relef-zemli-gory-5", "title": "Рельеф Земли. Горы", "order": 6}
+      ]
+    }
+  ]
+}

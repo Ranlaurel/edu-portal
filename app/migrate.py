@@ -20,4 +20,15 @@ def run(engine):
             conn.execute(text("ALTER TABLE user_progress ADD COLUMN next_review_at DATE"))
         if "wrong_question_ids" not in cols:
             conn.execute(text("ALTER TABLE user_progress ADD COLUMN wrong_question_ids VARCHAR"))
+
+        if "subjects" in tables:
+            subj_cols = [row[1] for row in conn.execute(text("PRAGMA table_info(subjects)"))]
+            if "grade" not in subj_cols:
+                conn.execute(text("ALTER TABLE subjects ADD COLUMN grade INTEGER DEFAULT 6 NOT NULL"))
+
+        if "users" in tables:
+            user_cols = [row[1] for row in conn.execute(text("PRAGMA table_info(users)"))]
+            if "display_name" not in user_cols:
+                conn.execute(text("ALTER TABLE users ADD COLUMN display_name VARCHAR"))
+
         conn.commit()

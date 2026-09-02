@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как перевести «сумка Энн»?",
+      "options": [
+        {"text": "Ann's bag", "correct": true},
+        {"text": "Ann bag", "correct": false},
+        {"text": "the bag Ann", "correct": false}
+      ],
+      "explanation": "Притяжательный падеж образуется через 's: Ann's bag."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «friend»?",
+      "options": [
+        {"text": "друг", "correct": true},
+        {"text": "учитель", "correct": false},
+        {"text": "собака", "correct": false}
+      ],
+      "explanation": "«Friend» — друг."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают предметы (не людей и не животных)? (выбери все верные варианты)",
+      "options": [
+        {"text": "book", "correct": true},
+        {"text": "cat", "correct": false},
+        {"text": "bag", "correct": true},
+        {"text": "toy", "correct": true},
+        {"text": "teacher", "correct": false}
+      ],
+      "explanation": "Book, bag, toy — предметы. Cat — животное, teacher — человек."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is my friend___ dog (собака моего друга, ед. число).",
+      "options": [
+        {"text": "'s", "correct": true},
+        {"text": "s'", "correct": false},
+        {"text": "s", "correct": false}
+      ],
+      "explanation": "У существительного в единственном числе притяжательный падеж образуется через 's."
+    },
+    {
+      "type": "dropdown",
+      "text": "The children___ toys are on the floor (игрушки детей).",
+      "options": [
+        {"text": "'s", "correct": true},
+        {"text": "s'", "correct": false},
+        {"text": "es", "correct": false}
+      ],
+      "explanation": "Children — множественное число, не оканчивающееся на -s, поэтому добавляем 's как обычно."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: имя",
+      "answer": "name",
+      "explanation": "«Имя» переводится как name."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: my friend___ room (комната моих друзей, мн. число, оканчивается на -s).",
+      "answer": "s'",
+      "explanation": "Если существительное во множественном числе уже оканчивается на -s, добавляем только апостроф."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "book", "right": "книга"},
+        {"left": "room", "right": "комната"},
+        {"left": "bike", "right": "велосипед"},
+        {"left": "toy", "right": "игрушка"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «книга учителя»?",
+      "options": [
+        {"text": "the teacher's book", "correct": true},
+        {"text": "the teacher book", "correct": false},
+        {"text": "the teachers book", "correct": false}
+      ],
+      "explanation": "Притяжательный падеж: the teacher's book."
+    }
+  ]
+}

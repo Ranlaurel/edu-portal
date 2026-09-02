@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «at the moment»?",
+      "options": [
+        {"text": "в данный момент", "correct": true},
+        {"text": "каждый день", "correct": false},
+        {"text": "иногда", "correct": false}
+      ],
+      "explanation": "«At the moment» — в данный момент, слово-подсказка для Present Continuous."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: «Смотри! Он играет в футбол»",
+      "options": [
+        {"text": "Look! He is playing football.", "correct": true},
+        {"text": "Look! He plays football.", "correct": false},
+        {"text": "Look! He play football.", "correct": false}
+      ],
+      "explanation": "Слово look указывает на действие прямо сейчас — нужен Present Continuous: is playing."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова-подсказки указывают на Present Simple? (выбери все верные варианты)",
+      "options": [
+        {"text": "usually", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "every day", "correct": true},
+        {"text": "at the moment", "correct": false},
+        {"text": "always", "correct": true}
+      ],
+      "explanation": "Usually, every day, always — подсказки для Present Simple (привычки). Now и at the moment — для Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "My father ___ coffee every morning.",
+      "options": [
+        {"text": "drinks", "correct": true},
+        {"text": "is drinking", "correct": false},
+        {"text": "drink", "correct": false}
+      ],
+      "explanation": "Every morning — регулярное действие, нужен Present Simple с окончанием -s (he)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Listen! The birds ___ .",
+      "options": [
+        {"text": "are singing", "correct": true},
+        {"text": "sing", "correct": false},
+        {"text": "sings", "correct": false}
+      ],
+      "explanation": "Listen! указывает на действие прямо сейчас — нужен Present Continuous: are singing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: никогда",
+      "answer": "never",
+      "explanation": "«Никогда» переводится как never."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: We ___ (not/watch) TV at the moment.",
+      "answer": "aren't watching",
+      "accepted": ["aren't watching", "are not watching"],
+      "explanation": "At the moment — Present Continuous, отрицание: are not / aren't + глагол-ing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "usually", "right": "обычно"},
+        {"left": "sometimes", "right": "иногда"},
+        {"left": "right now", "right": "прямо сейчас"},
+        {"left": "this week", "right": "на этой неделе"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: «Она обычно не готовит, но сегодня готовит ужин»",
+      "options": [
+        {"text": "She doesn't usually cook, but she is cooking dinner today.", "correct": true},
+        {"text": "She isn't usually cooking, but she cooks dinner today.", "correct": false},
+        {"text": "She doesn't usually cook, but she cooks dinner today.", "correct": false}
+      ],
+      "explanation": "Привычка (обычно не готовит) — Present Simple с doesn't, а действие сегодня — Present Continuous: is cooking."
+    }
+  ]
+}

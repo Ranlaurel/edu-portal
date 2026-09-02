@@ -1,0 +1,77 @@
+{
+  "subject": {"name": "Английский язык", "slug": "english-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Введение",
+      "order": 1,
+      "topics": [
+        {"slug": "shkola-i-shkolnye-predmety-5", "title": "Школа и школьные предметы. Глагол to be", "order": 1},
+        {"slug": "semya-i-vneshnost-5", "title": "Семья и внешность. Have got", "order": 2},
+        {"slug": "chislitelnye-i-vremya-5", "title": "Числительные и время", "order": 3},
+        {"slug": "dni-nedeli-mesyatsy-sezony-5", "title": "Дни недели, месяцы, времена года", "order": 4},
+        {"slug": "pogoda-5", "title": "Погода", "order": 5}
+      ]
+    },
+    {
+      "name": "Дом и повседневная жизнь",
+      "order": 2,
+      "topics": [
+        {"slug": "dom-i-komnata-there-is-are-5", "title": "Дом и комната. There is/there are", "order": 1},
+        {"slug": "mebel-i-predmety-v-dome-5", "title": "Мебель и предметы в доме", "order": 2},
+        {"slug": "eda-i-napitki-some-any-5", "title": "Еда и напитки. Some/any", "order": 3},
+        {"slug": "odezhda-5", "title": "Одежда", "order": 4},
+        {"slug": "zhivotnye-domashnie-dikie-5", "title": "Животные: домашние и дикие", "order": 5},
+        {"slug": "chasti-tela-i-zdorove-5", "title": "Части тела и здоровье", "order": 6}
+      ]
+    },
+    {
+      "name": "Настоящее время",
+      "order": 3,
+      "topics": [
+        {"slug": "present-simple-rasporyadok-dnya-5", "title": "Present Simple: распорядок дня", "order": 1},
+        {"slug": "present-continuous-5", "title": "Present Continuous: что происходит сейчас", "order": 2},
+        {"slug": "present-simple-vs-continuous-5", "title": "Present Simple или Present Continuous", "order": 3},
+        {"slug": "modalnyy-glagol-can-5", "title": "Модальный глагол can/can't", "order": 4}
+      ]
+    },
+    {
+      "name": "Грамматика",
+      "order": 4,
+      "topics": [
+        {"slug": "pritjazhatelnyy-padezh-5", "title": "Притяжательный падеж ('s)", "order": 1},
+        {"slug": "mnozhestvennoe-chislo-sushestvitelnyh-5", "title": "Множественное число существительных", "order": 2},
+        {"slug": "artikli-a-an-the-5", "title": "Артикли a/an/the", "order": 3},
+        {"slug": "ukazatelnye-mestoimeniya-5", "title": "Указательные местоимения this/that/these/those", "order": 4},
+        {"slug": "stepeni-sravneniya-prilagatelnyh-5", "title": "Степени сравнения прилагательных", "order": 5},
+        {"slug": "professii-5", "title": "Профессии", "order": 6},
+        {"slug": "gorod-mesta-i-napravleniya-5", "title": "Город: места и направления", "order": 7}
+      ]
+    },
+    {
+      "name": "Хобби и мир вокруг",
+      "order": 5,
+      "topics": [
+        {"slug": "sport-i-hobbi-5", "title": "Спорт и хобби", "order": 1},
+        {"slug": "transport-5", "title": "Транспорт", "order": 2},
+        {"slug": "magaziny-i-pokupki-5", "title": "Магазины и покупки", "order": 3},
+        {"slug": "prazdniki-i-traditsii-5", "title": "Праздники и традиции", "order": 4}
+      ]
+    },
+    {
+      "name": "Прошедшее время",
+      "order": 6,
+      "topics": [
+        {"slug": "past-simple-pravilnye-glagoly-5", "title": "Past Simple: правильные глаголы", "order": 1},
+        {"slug": "past-simple-nepravilnye-glagoly-5", "title": "Past Simple: неправильные глаголы", "order": 2},
+        {"slug": "kanikuly-i-puteshestviya-5", "title": "Каникулы и путешествия", "order": 3}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 7,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-english-5", "title": "Итоговое повторение курса 5 класса", "order": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "subject": {"name": "Математика", "slug": "math-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Натуральные числа",
+      "order": 1,
+      "topics": [
+        {"slug": "naturalnye-chisla-desyatichnaya-zapis", "title": "Ряд натуральных чисел. Десятичная запись натуральных чисел", "order": 1},
+        {"slug": "otrezok-dlina-otrezka", "title": "Отрезок. Длина отрезка", "order": 2},
+        {"slug": "ploskost-pryamaya-luch", "title": "Плоскость. Прямая. Луч", "order": 3},
+        {"slug": "shkala-koordinatnyy-luch", "title": "Шкала. Координатный луч", "order": 4},
+        {"slug": "sravnenie-naturalnyh-chisel-5", "title": "Сравнение натуральных чисел", "order": 5}
+      ]
+    },
+    {
+      "name": "Сложение и вычитание натуральных чисел",
+      "order": 2,
+      "topics": [
+        {"slug": "slozhenie-naturalnyh-chisel-svoystva-5", "title": "Сложение натуральных чисел. Свойства сложения", "order": 1},
+        {"slug": "vychitanie-naturalnyh-chisel-5", "title": "Вычитание натуральных чисел", "order": 2},
+        {"slug": "chislovye-bukvennye-vyrazheniya-formuly-5", "title": "Числовые и буквенные выражения. Формулы", "order": 3},
+        {"slug": "uravnenie-5", "title": "Уравнение", "order": 4},
+        {"slug": "ugol-oboznachenie-uglov-5", "title": "Угол. Обозначение углов", "order": 5},
+        {"slug": "vidy-uglov-izmerenie-5", "title": "Виды углов. Измерение углов", "order": 6},
+        {"slug": "mnogougolniki-ravnye-figury-5", "title": "Многоугольники. Равные фигуры", "order": 7},
+        {"slug": "treugolnik-i-ego-vidy-5", "title": "Треугольник и его виды", "order": 8},
+        {"slug": "pryamougolnik-os-simmetrii-5", "title": "Прямоугольник. Ось симметрии фигуры", "order": 9}
+      ]
+    },
+    {
+      "name": "Умножение и деление натуральных чисел",
+      "order": 3,
+      "topics": [
+        {"slug": "umnozhenie-svoystva-5", "title": "Умножение натуральных чисел. Переместительное и сочетательное свойства", "order": 1},
+        {"slug": "raspredelitelnoe-svoystvo-umnozheniya-5", "title": "Распределительное свойство умножения", "order": 2},
+        {"slug": "delenie-naturalnyh-chisel-5", "title": "Деление натуральных чисел", "order": 3},
+        {"slug": "delenie-s-ostatkom-5", "title": "Деление с остатком", "order": 4},
+        {"slug": "stepen-chisla-5", "title": "Степень числа", "order": 5},
+        {"slug": "ploschad-pryamougolnika-5", "title": "Площадь. Площадь прямоугольника", "order": 6},
+        {"slug": "pryamougolnyy-parallelepiped-obyom-5", "title": "Прямоугольный параллелепипед. Объём прямоугольного параллелепипеда", "order": 7},
+        {"slug": "kombinatornye-zadachi-5", "title": "Комбинаторные задачи", "order": 8}
+      ]
+    },
+    {
+      "name": "Обыкновенные дроби",
+      "order": 4,
+      "topics": [
+        {"slug": "ponyatie-obyknovennoy-drobi-5", "title": "Понятие обыкновенной дроби", "order": 1},
+        {"slug": "pravilnye-nepravilnye-drobi-sravnenie-5", "title": "Правильные и неправильные дроби. Сравнение дробей", "order": 2},
+        {"slug": "slozhenie-vychitanie-drobey-odinakovyy-znamenatel-5", "title": "Сложение и вычитание дробей с одинаковыми знаменателями", "order": 3},
+        {"slug": "drobi-i-delenie-naturalnyh-chisel-5", "title": "Дроби и деление натуральных чисел", "order": 4},
+        {"slug": "smeshannye-chisla-5", "title": "Смешанные числа", "order": 5},
+        {"slug": "slozhenie-vychitanie-smeshannyh-chisel-5", "title": "Сложение и вычитание смешанных чисел", "order": 6}
+      ]
+    },
+    {
+      "name": "Десятичные дроби",
+      "order": 5,
+      "topics": [
+        {"slug": "predstavlenie-o-desyatichnyh-drobyah-5", "title": "Представление о десятичных дробях", "order": 1},
+        {"slug": "sravnenie-desyatichnyh-drobey-5", "title": "Сравнение десятичных дробей", "order": 2},
+        {"slug": "okruglenie-chisel-prikidka-5", "title": "Округление чисел. Прикидка", "order": 3},
+        {"slug": "slozhenie-vychitanie-desyatichnyh-drobey-5", "title": "Сложение и вычитание десятичных дробей", "order": 4},
+        {"slug": "umnozhenie-desyatichnyh-drobey-5", "title": "Умножение десятичных дробей", "order": 5},
+        {"slug": "delenie-desyatichnyh-drobey-5", "title": "Деление десятичных дробей", "order": 6},
+        {"slug": "srednee-arifmeticheskoe-chisel-5", "title": "Среднее арифметическое чисел", "order": 7},
+        {"slug": "protsenty-nahozhdenie-ot-chisla-5", "title": "Проценты. Нахождение процентов от числа", "order": 8},
+        {"slug": "nahozhdenie-chisla-po-ego-protsentam-5", "title": "Нахождение числа по его процентам", "order": 9}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 6,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-matematika-5", "title": "Итоговое повторение курса 5 класса", "order": 1}
+      ]
+    }
+  ]
+}

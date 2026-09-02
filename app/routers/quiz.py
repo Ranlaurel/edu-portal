@@ -7,8 +7,8 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 from app.db import get_db
+from app.auth import current_user_id, current_user
 from app.models import Attempt, Question, Topic, UserProgress
-from app.progress_utils import DEFAULT_USER_ID
 from app.spaced_repetition import on_fail, on_pass
 from app.templating import templates
 
@@ -62,8 +62,8 @@ def grade_question(q: Question, user_answer) -> bool:
     return False
 
 
-def get_progress(db: Session, topic_id: int) -> UserProgress | None:
-    return db.query(UserProgress).filter_by(user_id=DEFAULT_USER_ID, topic_id=topic_id).first()
+def get_progress(db: Session, topic_id: int, user_id: int) -> UserProgress | None:
+    return db.query(UserProgress).filter_by(user_id=user_id, topic_id=topic_id).first()
 
 
 def wrong_ids_set(prog: UserProgress | None) -> set[int]:
@@ -75,11 +75,11 @@ def wrong_ids_set(prog: UserProgress | None) -> set[int]:
 @router.get("/topics/{topic_id}/quiz")
 def quiz_page(topic_id: int, request: Request, mistakes: bool = False, db: Session = Depends(get_db)):
     topic = db.query(Topic).get(topic_id)
-    if not topic:
+    if not topic or topic.section.subject.grade != request.session.get("grade", 6):
         return RedirectResponse("/subjects")
 
     if mistakes:
-        prog = get_progress(db, topic_id)
+        prog = get_progress(db, topic_id, current_user_id(request))
         wids = wrong_ids_set(prog)
         topic_questions = [q for q in topic.questions if q.id in wids]
         if not topic_questions:
@@ -96,6 +96,7 @@ def quiz_page(topic_id: int, request: Request, mistakes: bool = False, db: Sessi
             "topic": topic,
             "questions_json": json.dumps(questions, ensure_ascii=False),
             "practice_mode": mistakes,
+            "current_user": current_user(db, request),
         },
     )
 
@@ -106,12 +107,13 @@ class SubmitPayload(BaseModel):
 
 
 @router.post("/topics/{topic_id}/quiz/submit")
-def submit_quiz(topic_id: int, payload: SubmitPayload, db: Session = Depends(get_db)):
+def submit_quiz(topic_id: int, payload: SubmitPayload, request: Request, db: Session = Depends(get_db)):
     topic = db.query(Topic).get(topic_id)
-    if not topic:
+    if not topic or topic.section.subject.grade != request.session.get("grade", 6):
         return {"error": "topic not found"}
 
-    prog = get_progress(db, topic_id)
+    user_id = current_user_id(request)
+    prog = get_progress(db, topic_id, user_id)
 
     if payload.practice:
         wids = wrong_ids_set(prog)
@@ -150,7 +152,7 @@ def submit_quiz(topic_id: int, payload: SubmitPayload, db: Session = Depends(get
     score = round(correct_count / total * 100) if total else 0
     passed = score >= PASS_THRESHOLD
 
-    db.add(Attempt(user_id=DEFAULT_USER_ID, topic_id=topic_id, score=score, passed=passed))
+    db.add(Attempt(user_id=user_id, topic_id=topic_id, score=score, passed=passed))
 
     if payload.practice:
         # Practice-by-mistakes: give feedback, don't touch status/best_score/schedule.
@@ -166,7 +168,7 @@ def submit_quiz(topic_id: int, payload: SubmitPayload, db: Session = Depends(get
         }
 
     if not prog:
-        prog = UserProgress(user_id=DEFAULT_USER_ID, topic_id=topic_id, attempts=0, best_score=0)
+        prog = UserProgress(user_id=user_id, topic_id=topic_id, attempts=0, best_score=0)
         db.add(prog)
 
     prog.attempts += 1

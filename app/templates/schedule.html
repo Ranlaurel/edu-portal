@@ -13,8 +13,13 @@
       {% for day in w.days %}
       <div class="day-cell {% if day.is_today %}day-today{% endif %}">
         <div class="day-head">{{ day.weekday }} <span class="day-date">{{ day.date[5:] }}</span></div>
-        {% set tag_labels = {"russian": "Рус", "math": "Мат", "english": "Англ", "literature": "Лит", "vseobschaya-istoriya": "ВИ", "istoriya-rossii": "ИР", "biology": "Био", "geography": "Гео"} %}
-        {% set core_subjects = ["russian", "math", "english", "biology", "geography", "vseobschaya-istoriya", "istoriya-rossii", "literature"] %}
+        {% set tag_labels = {
+          "russian": "Рус", "math": "Мат", "english": "Англ", "literature": "Лит",
+          "vseobschaya-istoriya": "ВИ", "istoriya-rossii": "ИР", "biology": "Био", "geography": "Гео",
+          "russian-5": "Рус", "math-5": "Мат", "english-5": "Англ", "literature-5": "Лит",
+          "istoriya-drevnego-mira-5": "ИДМ", "biology-5": "Био", "geography-5": "Гео"
+        } %}
+        {% set core_subjects = day.subjects.keys() | list %}
         {% for subj_slug, topic in day.subjects.items() %}
         {% if topic or subj_slug in core_subjects %}
         <div class="day-subject">

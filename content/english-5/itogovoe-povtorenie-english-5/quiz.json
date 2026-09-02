@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «favourite»?",
+      "options": [
+        {"text": "любимый", "correct": true},
+        {"text": "счастливый", "correct": false},
+        {"text": "интересный", "correct": false}
+      ],
+      "explanation": "«Favourite» — любимый."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: «У моей сестры есть новый велосипед»",
+      "options": [
+        {"text": "My sister has got a new bike.", "correct": true},
+        {"text": "My sister have got a new bike.", "correct": false},
+        {"text": "My sister is got a new bike.", "correct": false}
+      ],
+      "explanation": "Для he/she/it форма have got меняется на has got."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения в Past Simple составлены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "We played football yesterday.", "correct": true},
+        {"text": "We goed to the sea.", "correct": false},
+        {"text": "I saw a great film.", "correct": true},
+        {"text": "Did you went there?", "correct": false},
+        {"text": "I didn't see it.", "correct": true}
+      ],
+      "explanation": "Played (правильный глагол + -ed), saw (неправильная форма see), didn't see (после didn't глагол в начальной форме) — верно. Goed (не по правилу) и did you went (после did нужна начальная форма go) — ошибки."
+    },
+    {
+      "type": "dropdown",
+      "text": "Look! She ___ tennis now.",
+      "options": [
+        {"text": "is playing", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "played", "correct": false}
+      ],
+      "explanation": "Слово look указывает на действие прямо сейчас — Present Continuous: is playing."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ two chairs in the room.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "Chairs — множественное число, поэтому используется there are, а не there is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши множественное число слова box",
+      "answer": "boxes",
+      "explanation": "После -x добавляется -es: box — boxes."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень прилагательного big",
+      "answer": "bigger",
+      "explanation": "Короткое прилагательное big образует сравнительную степень через -er (с удвоением g): bigger."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "furniture", "right": "мебель"},
+        {"left": "clothes", "right": "одежда"},
+        {"left": "weather", "right": "погода"},
+        {"left": "hobby", "right": "хобби"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верный вариант: «Он умеет плавать, но не умеет петь»",
+      "options": [
+        {"text": "He can swim, but he can't sing.", "correct": true},
+        {"text": "He cans swim, but he don't can sing.", "correct": false},
+        {"text": "He can swims, but he can't sings.", "correct": false}
+      ],
+      "explanation": "После can/can't глагол стоит без -s и без to: can swim, can't sing."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верный артикль: «I have got ___ book on the table.»",
+      "options": [
+        {"text": "a", "correct": true},
+        {"text": "the", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "Book — впервые упомянутый предмет, один из многих, значит нужен неопределённый артикль a (перед согласным звуком, не an)."
+    }
+  ]
+}

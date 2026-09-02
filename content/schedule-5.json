@@ -1,0 +1,3174 @@
+{
+  "days": [
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "chasti-slova-orfogrammy-v-kornyah",
+          "title": "Части слова. Орфограммы в корнях слов",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": {
+          "slug": "naturalnye-chisla-desyatichnaya-zapis",
+          "title": "Ряд натуральных чисел. Десятичная запись натуральных чисел",
+          "section": "Натуральные числа"
+        },
+        "english-5": {
+          "slug": "shkola-i-shkolnye-predmety-5",
+          "title": "Школа и школьные предметы. Глагол to be",
+          "section": "Введение"
+        },
+        "biology-5": {
+          "slug": "nauka-o-zhivoy-prirode-5",
+          "title": "Наука о живой природе",
+          "section": "Живой организм: строение и изучение"
+        },
+        "geography-5": {
+          "slug": "predstavleniya-o-mire-5",
+          "title": "Развитие представлений человека о мире",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": {
+          "slug": "drevneishie-lyudi-5",
+          "title": "Древнейшие люди",
+          "section": "Жизнь первобытных людей"
+        },
+        "literature-5": {
+          "slug": "folklor-5",
+          "title": "Фольклор — коллективное устное народное творчество",
+          "section": "Устное народное творчество"
+        }
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "orfogrammy-v-okonchaniyah",
+          "title": "Орфограммы в приставках и в окончаниях слов",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "otrezok-dlina-otrezka",
+          "title": "Отрезок. Длина отрезка",
+          "section": "Натуральные числа"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "rodovye-obschiny-i-vozniknovenie-iskusstva-5",
+          "title": "Родовые общины. Возникновение искусства и религиозных верований",
+          "section": "Жизнь первобытных людей"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "chasti-rechi",
+          "title": "Части речи",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "semya-i-vneshnost-5",
+          "title": "Семья и внешность. Have got",
+          "section": "Введение"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "tsarevna-lyagushka-5",
+          "title": "Русская народная сказка «Царевна-лягушка»",
+          "section": "Устное народное творчество"
+        }
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "svoystva-zhivogo-5",
+          "title": "Свойства живого",
+          "section": "Живой организм: строение и изучение"
+        },
+        "geography-5": {
+          "slug": "geografiya-v-drevnosti-5",
+          "title": "География в древности",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glagol-tsya-tsya-ne-s-glagolom",
+          "title": "Глагол: -тся и -ться, НЕ с глаголом",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "ploskost-pryamaya-luch",
+          "title": "Плоскость. Прямая. Луч",
+          "section": "Натуральные числа"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zemledelie-i-skotovodstvo-5",
+          "title": "Возникновение земледелия и скотоводства",
+          "section": "Жизнь первобытных людей"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "imya-sushestvitelnoe-imya-prilagatelnoe-povtorenie",
+          "title": "Имя существительное и имя прилагательное: повторение",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "skazki-o-zhivotnyh-bytovye-5",
+          "title": "Сказки о животных и бытовые сказки",
+          "section": "Устное народное творчество"
+        }
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "chislitelnye-i-vremya-5",
+          "title": "Числительные и время",
+          "section": "Введение"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "mestoimenie-povtorenie",
+          "title": "Местоимение: повторение",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "neravenstvo-i-znat-5",
+          "title": "Появление неравенства и знати",
+          "section": "Жизнь первобытных людей"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "shkala-koordinatnyy-luch",
+          "title": "Шкала. Координатный луч",
+          "section": "Натуральные числа"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "metody-izucheniya-prirody-5",
+          "title": "Методы изучения природы",
+          "section": "Живой организм: строение и изучение"
+        },
+        "geography-5": {
+          "slug": "geografiya-v-srednie-veka-5",
+          "title": "География в Средние века",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "tekst-osnovnaya-mysl",
+          "title": "Текст и его основная мысль",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "dni-nedeli-mesyatsy-sezony-5",
+          "title": "Дни недели, месяцы, времена года",
+          "section": "Введение"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "gosudarstvo-na-beregah-nila-5",
+          "title": "Государство на берегах Нила",
+          "section": "Древний Египет"
+        },
+        "literature-5": {
+          "slug": "povest-vremennyh-let-5",
+          "title": "«Повесть временных лет». Подвиг отрока-киевлянина",
+          "section": "Древнерусская литература и XVIII век"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "sravnenie-naturalnyh-chisel-5",
+          "title": "Сравнение натуральных чисел",
+          "section": "Натуральные числа"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "tipy-rechi-nachalnoe-predstavlenie",
+          "title": "Типы речи: повествование, описание, рассуждение",
+          "section": "Повторение изученного в начальной школе"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "velikie-geograficheskie-otkrytiya-5",
+          "title": "Великие географические открытия",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "slovosochetanie",
+          "title": "Словосочетание. Разбор словосочетания",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "uvelichitelnye-pribory-5",
+          "title": "Увеличительные приборы",
+          "section": "Живой организм: строение и изучение"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zemledeltsy-i-remeslenniki-egipta-5",
+          "title": "Как жили земледельцы и ремесленники в Египте",
+          "section": "Древний Египет"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "slozhenie-naturalnyh-chisel-svoystva-5",
+          "title": "Сложение натуральных чисел. Свойства сложения",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "lomonosov-5",
+          "title": "М. В. Ломоносов — учёный и поэт",
+          "section": "Древнерусская литература и XVIII век"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "pogoda-5",
+          "title": "Погода",
+          "section": "Введение"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "predlozhenie-vidy-po-tseli-vyskazyvaniya",
+          "title": "Предложение. Виды предложений по цели высказывания",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zhizn-egipetskogo-velmozhi-5",
+          "title": "Жизнь египетского вельможи",
+          "section": "Древний Египет"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "vosklitsatelnye-predlozheniya",
+          "title": "Восклицательные предложения",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "vychitanie-naturalnyh-chisel-5",
+          "title": "Вычитание натуральных чисел",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "otkrytie-avstralii-i-antarktidy-5",
+          "title": "Открытие Австралии и Антарктиды",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "krylov-basni-5",
+          "title": "И. А. Крылов. Басни",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "dom-i-komnata-there-is-are-5",
+          "title": "Дом и комната. There is/there are",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": {
+          "slug": "stroenie-kletki-tkani-5",
+          "title": "Строение клетки. Ткани",
+          "section": "Живой организм: строение и изучение"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glavnye-chleny-podlezhaschee-skazuemoe",
+          "title": "Главные члены предложения: подлежащее и сказуемое",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "voennye-pohody-faraonov-5",
+          "title": "Военные походы фараонов",
+          "section": "Древний Египет"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "chislovye-bukvennye-vyrazheniya-formuly-5",
+          "title": "Числовые и буквенные выражения. Формулы",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "tire-mezhdu-podlezhaschim-i-skazuemym",
+          "title": "Тире между подлежащим и сказуемым",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "religiya-drevnih-egiptyan-5",
+          "title": "Религия древних египтян",
+          "section": "Древний Египет"
+        },
+        "literature-5": {
+          "slug": "zhukovskiy-spyaschaya-tsarevna-5",
+          "title": "В. А. Жуковский. «Спящая царевна»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "rasprostranennye-nerasprostranennye-vtorostepennye",
+          "title": "Распространённые и нераспространённые предложения. Второстепенные члены",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "mebel-i-predmety-v-dome-5",
+          "title": "Мебель и предметы в доме",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": null,
+        "geography-5": {
+          "slug": "sovremennye-geo-issledovaniya-5",
+          "title": "Современные географические исследования",
+          "section": "Развитие географических знаний о Земле"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "uravnenie-5",
+          "title": "Уравнение",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "tsarstva-zhivoy-prirody-5",
+          "title": "Царства живой природы",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "dopolnenie",
+          "title": "Дополнение",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "iskusstvo-i-pismennost-egipta-5",
+          "title": "Искусство и письменность древних египтян",
+          "section": "Древний Египет"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "pushkin-biografiya-nyane-5",
+          "title": "А. С. Пушкин. «Няне», «У лукоморья дуб зелёный»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "opredelenie",
+          "title": "Определение",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "eda-i-napitki-some-any-5",
+          "title": "Еда и напитки. Some/any",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "ugol-oboznachenie-uglov-5",
+          "title": "Угол. Обозначение углов",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "drevnie-predstavleniya-o-vselennoy-5",
+          "title": "Как древние люди представляли Вселенную",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "drevnee-dvurechye-5",
+          "title": "Древнее Двуречье",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "obstoyatelstvo",
+          "title": "Обстоятельство",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "bakterii-stroenie-zhiznedeyatelnost-5",
+          "title": "Бактерии: строение и жизнедеятельность",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "pushkin-skazka-o-mertvoy-tsarevne-5",
+          "title": "А. С. Пушкин. «Сказка о мёртвой царевне и о семи богатырях»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "vidy-uglov-izmerenie-5",
+          "title": "Виды углов. Измерение углов",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "odnorodnye-chleny-predlozheniya",
+          "title": "Предложения с однородными членами. Знаки препинания при них",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "odezhda-5",
+          "title": "Одежда",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zakony-hammurapi-5",
+          "title": "Вавилонский царь Хаммурапи и его законы",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "obraschenie",
+          "title": "Обращение. Знаки препинания при обращении",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "izuchenie-vselennoy-kopernik-5",
+          "title": "Изучение Вселенной: от Коперника до наших дней",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "mnogougolniki-ravnye-figury-5",
+          "title": "Многоугольники. Равные фигуры",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "znachenie-bakteriy-5",
+          "title": "Значение бактерий в природе и жизни человека",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "finikiyskie-moreplavateli-5",
+          "title": "Финикийские мореплаватели",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": {
+          "slug": "pogorelskiy-chernaya-kuritsa-5",
+          "title": "А. Погорельский. «Чёрная курица, или Подземные жители»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "sintaksicheskiy-razbor-prostogo-predlozheniya",
+          "title": "Синтаксический разбор простого предложения",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "zhivotnye-domashnie-dikie-5",
+          "title": "Животные: домашние и дикие",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "slozhnoe-predlozhenie-zapyataya",
+          "title": "Сложное предложение. Запятая в сложном предложении",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "treugolnik-i-ego-vidy-5",
+          "title": "Треугольник и его виды",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "bibleyskie-skazaniya-i-evreyskoe-tsarstvo-5",
+          "title": "Библейские сказания. Древнееврейское царство",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "planety-zemnoy-gruppy-5",
+          "title": "Планеты земной группы",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "lermontov-borodino-5",
+          "title": "М. Ю. Лермонтов. «Бородино»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "pryamaya-rech-dialog",
+          "title": "Прямая речь. Диалог",
+          "section": "Синтаксис и пунктуация"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "chasti-tela-i-zdorove-5",
+          "title": "Части тела и здоровье",
+          "section": "Дом и повседневная жизнь"
+        },
+        "biology-5": {
+          "slug": "tsarstvo-rasteniya-5",
+          "title": "Царство Растения",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "pryamougolnik-os-simmetrii-5",
+          "title": "Прямоугольник. Ось симметрии фигуры",
+          "section": "Сложение и вычитание натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "assiriyskaya-derzhava-5",
+          "title": "Ассирийская держава",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "fonetika-glasnye-zvuki",
+          "title": "Фонетика как раздел науки о языке. Гласные звуки",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "gogol-zakoldovannoe-mesto-5",
+          "title": "Н. В. Гоголь. «Заколдованное место»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "soglasnye-zvuki",
+          "title": "Согласные звуки. Изменение звуков в потоке речи",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "planety-giganty-i-pluton-5",
+          "title": "Планеты-гиганты и маленький Плутон",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "present-simple-rasporyadok-dnya-5",
+          "title": "Present Simple: распорядок дня",
+          "section": "Настоящее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "persidskaya-derzhava-5",
+          "title": "Персидская держава «царя царей»",
+          "section": "Западная Азия в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "umnozhenie-svoystva-5",
+          "title": "Умножение натуральных чисел. Переместительное и сочетательное свойства",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "tverdye-myagkie-soglasnye",
+          "title": "Твёрдые и мягкие согласные",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "tsarstvo-zhivotnye-5",
+          "title": "Царство Животные",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "zvonkie-gluhie-soglasnye",
+          "title": "Звонкие и глухие согласные",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "priroda-i-kasty-drevney-indii-5",
+          "title": "Природа, люди и касты Древней Индии",
+          "section": "Индия и Китай в древности"
+        },
+        "literature-5": {
+          "slug": "nekrasov-krestyanskie-deti-5",
+          "title": "Н. А. Некрасов. «Крестьянские дети»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "raspredelitelnoe-svoystvo-umnozheniya-5",
+          "title": "Распределительное свойство умножения",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "present-continuous-5",
+          "title": "Present Continuous: что происходит сейчас",
+          "section": "Настоящее время"
+        },
+        "biology-5": null,
+        "geography-5": {
+          "slug": "asteroidy-komety-meteory-5",
+          "title": "Астероиды, кометы, метеоры и метеориты",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "grafika-alfavit",
+          "title": "Графика. Алфавит",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "konfutsiy-5",
+          "title": "Чему учил китайский мудрец Конфуций",
+          "section": "Индия и Китай в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "delenie-naturalnyh-chisel-5",
+          "title": "Деление натуральных чисел",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "griby-stroenie-zhiznedeyatelnost-5",
+          "title": "Грибы: строение и жизнедеятельность",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "turgenev-mumu-5",
+          "title": "И. С. Тургенев. «Муму»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "oboznachenie-myagkosti-e-e-yu-ya",
+          "title": "Обозначение мягкости согласных на письме. Двойная роль букв Е, Ё, Ю, Я",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "present-simple-vs-continuous-5",
+          "title": "Present Simple или Present Continuous",
+          "section": "Настоящее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "orfoepiya-foneticheskiy-razbor",
+          "title": "Орфоэпия. Фонетический разбор слова",
+          "section": "Фонетика. Орфоэпия. Графика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "pervyy-vlastelin-edinogo-kitaya-5",
+          "title": "Первый властелин единого Китая",
+          "section": "Индия и Китай в древности"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "mir-zvezd-5",
+          "title": "Мир звёзд",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "delenie-s-ostatkom-5",
+          "title": "Деление с остатком",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "tolstoy-kavkazskiy-plennik-5",
+          "title": "Л. Н. Толстой. «Кавказский пленник»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "leksicheskoe-znachenie-slova",
+          "title": "Слово и его лексическое значение",
+          "section": "Лексика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "mnogoobrazie-znachenie-gribov-5",
+          "title": "Многообразие и значение грибов",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "greki-i-kritiane-5",
+          "title": "Греки и критяне",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2026-12-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "odnoznachnye-mnogoznachnye-slova",
+          "title": "Однозначные и многозначные слова. Прямое и переносное значение",
+          "section": "Лексика"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "modalnyy-glagol-can-5",
+          "title": "Модальный глагол can/can't",
+          "section": "Настоящее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-12",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "stepen-chisla-5",
+          "title": "Степень числа",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-13",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "unikalnaya-planeta-zemlya-5",
+          "title": "Уникальная планета Земля",
+          "section": "Земля во Вселенной"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-14",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "omonimy",
+          "title": "Омонимы",
+          "section": "Лексика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "mikeny-i-troya-5",
+          "title": "Микены и Троя",
+          "section": "Древняя Греция"
+        },
+        "literature-5": {
+          "slug": "chehov-hirurgiya-5",
+          "title": "А. П. Чехов. «Хирургия»",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2027-01-15",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-18",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-19",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "sinonimy",
+          "title": "Синонимы",
+          "section": "Лексика"
+        },
+        "math-5": {
+          "slug": "ploschad-pryamougolnika-5",
+          "title": "Площадь. Площадь прямоугольника",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": {
+          "slug": "pritjazhatelnyy-padezh-5",
+          "title": "Притяжательный падеж ('s)",
+          "section": "Грамматика"
+        },
+        "biology-5": {
+          "slug": "lishayniki-5",
+          "title": "Лишайники",
+          "section": "Многообразие живых организмов"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-20",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-21",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "antonimy",
+          "title": "Антонимы",
+          "section": "Лексика"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "poemy-gomera-5",
+          "title": "Поэмы Гомера «Илиада» и «Одиссея»",
+          "section": "Древняя Греция"
+        },
+        "literature-5": {
+          "slug": "poety-19-veka-o-prirode-5",
+          "title": "Поэты XIX века о родине и родной природе",
+          "section": "Русская литература XIX века"
+        }
+      }
+    },
+    {
+      "date": "2027-01-22",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "orientirovanie-na-mestnosti-5",
+          "title": "Ориентирование на местности. Стороны горизонта",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-25",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "pryamougolnyy-parallelepiped-obyom-5",
+          "title": "Прямоугольный параллелепипед. Объём прямоугольного параллелепипеда",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-26",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "morfema-okonchanie-osnova",
+          "title": "Морфема. Окончание и основа слова",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "mnozhestvennoe-chislo-sushestvitelnyh-5",
+          "title": "Множественное число существительных",
+          "section": "Грамматика"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-27",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "sredy-zhizni-5",
+          "title": "Среды жизни",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "religiya-drevnih-grekov-5",
+          "title": "Религия древних греков",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-28",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "koren-slova",
+          "title": "Корень слова. Однокоренные слова",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-01-29",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "kombinatornye-zadachi-5",
+          "title": "Комбинаторные задачи",
+          "section": "Умножение и деление натуральных чисел"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "bunin-koscy-5",
+          "title": "И. А. Бунин. «Косцы»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "plan-mestnosti-5",
+          "title": "План местности",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "suffiks-pristavka",
+          "title": "Суффикс. Приставка",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zemledeltsy-attiki-teryayut-zemlyu-5",
+          "title": "Земледельцы Аттики теряют землю и свободу",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "artikli-a-an-the-5",
+          "title": "Артикли a/an/the",
+          "section": "Грамматика"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "cheredovanie-zvukov-begl-glasnye",
+          "title": "Чередование звуков. Беглые гласные",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "ponyatie-obyknovennoy-drobi-5",
+          "title": "Понятие обыкновенной дроби",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "ekologicheskie-faktory-5",
+          "title": "Экологические факторы среды",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "korolenko-v-durnom-obschestve-5",
+          "title": "В. Г. Короленко. «В дурном обществе»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zarozhdenie-demokratii-v-afinah-5",
+          "title": "Зарождение демократии в Афинах",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "morfemnyy-razbor-slova",
+          "title": "Морфемный разбор слова",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "ukazatelnye-mestoimeniya-5",
+          "title": "Указательные местоимения this/that/these/those",
+          "section": "Грамматика"
+        },
+        "biology-5": null,
+        "geography-5": {
+          "slug": "masshtab-5-klass",
+          "title": "Масштаб",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "pravilnye-nepravilnye-drobi-sravnenie-5",
+          "title": "Правильные и неправильные дроби. Сравнение дробей",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glasnye-soglasnye-v-pristavkah-z-s",
+          "title": "Правописание гласных и согласных в приставках. Буквы З и С на конце приставок",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "drevnyaya-sparta-5",
+          "title": "Древняя Спарта",
+          "section": "Древняя Греция"
+        },
+        "literature-5": {
+          "slug": "esenin-stihi-o-rodine-5",
+          "title": "С. А. Есенин. Стихи о родине",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bukvy-a-o-koren-lag-lozh",
+          "title": "Буквы а-о в корне -лаг-/-лож-",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "vzaimosvyazi-zhivyh-organizmov-5",
+          "title": "Взаимосвязи живых организмов",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "slozhenie-vychitanie-drobey-odinakovyy-znamenatel-5",
+          "title": "Сложение и вычитание дробей с одинаковыми знаменателями",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "stepeni-sravneniya-prilagatelnyh-5",
+          "title": "Степени сравнения прилагательных",
+          "section": "Грамматика"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "grecheskie-kolonii-i-olimpiyskie-igry-5",
+          "title": "Греческие колонии и Олимпийские игры",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bukvy-a-o-koren-rast-ros",
+          "title": "Буквы а-о в корне -раст-/-рос-",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "geograficheskaya-karta-5",
+          "title": "Географическая карта",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "bazhov-mednoy-gory-hozyayka-5",
+          "title": "П. П. Бажов. «Медной горы Хозяйка»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-23",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bukvy-yo-o-posle-shipyaschih-v-korne",
+          "title": "Буквы ё-о после шипящих в корне",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-24",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "drobi-i-delenie-naturalnyh-chisel-5",
+          "title": "Дроби и деление натуральных чисел",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "marafonskaya-bitva-i-nashestvie-na-elladu-5",
+          "title": "Марафонская битва. Нашествие персидских войск на Элладу",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-25",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "professii-5",
+          "title": "Профессии",
+          "section": "Грамматика"
+        },
+        "biology-5": {
+          "slug": "prirodnye-soobschestva-5",
+          "title": "Природные сообщества",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-02-26",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bukvy-i-y-posle-ts",
+          "title": "Буквы и-ы после ц",
+          "section": "Морфемика. Орфография"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "globus-gradusnaya-set-5",
+          "title": "Глобус и градусная сеть",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "paustovskiy-teplyy-hleb-5",
+          "title": "К. Г. Паустовский. «Тёплый хлеб»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-03-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "smeshannye-chisla-5",
+          "title": "Смешанные числа",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "v-afinskih-shkolah-i-teatre-5",
+          "title": "В афинских школах и театре",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "sushestvitelnoe-kak-chast-rechi",
+          "title": "Имя существительное как часть речи",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "odushevlennye-neodushevlennye-sobstvennye-naritsatelnye",
+          "title": "Одушевлённые/неодушевлённые, собственные/нарицательные существительные",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "gorod-mesta-i-napravleniya-5",
+          "title": "Город: места и направления",
+          "section": "Грамматика"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "slozhenie-vychitanie-smeshannyh-chisel-5",
+          "title": "Сложение и вычитание смешанных чисел",
+          "section": "Обыкновенные дроби"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "prirodnye-zony-rossii-5",
+          "title": "Природные зоны России",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "afinskaya-demokratiya-pri-perikle-5",
+          "title": "Афинская демократия при Перикле",
+          "section": "Древняя Греция"
+        },
+        "literature-5": {
+          "slug": "marshak-dvenadtsat-mesyatsev-5",
+          "title": "С. Я. Маршак. «Двенадцать месяцев»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-03-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "rod-sushestvitelnyh",
+          "title": "Род имён существительных",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "geograficheskie-koordinaty-5",
+          "title": "Географические координаты: широта и долгота",
+          "section": "Географические модели Земли"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "chislo-sushestvitelnyh",
+          "title": "Существительные, имеющие форму только мн. или только ед. числа",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "sport-i-hobbi-5",
+          "title": "Спорт и хобби",
+          "section": "Хобби и мир вокруг"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "makedoniya-i-pohod-aleksandra-5",
+          "title": "Города Эллады подчиняются Македонии. Поход Александра Македонского",
+          "section": "Древняя Греция"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "predstavlenie-o-desyatichnyh-drobyah-5",
+          "title": "Представление о десятичных дробях",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "platonov-nikita-5",
+          "title": "А. П. Платонов. «Никита»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-03-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "tri-skloneniya-padezh",
+          "title": "Три склонения имён существительных. Падеж",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "zhizn-na-raznyh-materikah-5",
+          "title": "Жизнь организмов на разных материках",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "drevneyshiy-rim-5",
+          "title": "Древнейший Рим",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "sravnenie-desyatichnyh-drobey-5",
+          "title": "Сравнение десятичных дробей",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "vnutrennee-stroenie-zemli-5",
+          "title": "Внутреннее строение Земли",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-03-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glasnye-v-padezhnyh-okonchaniyah-sush",
+          "title": "Правописание гласных в падежных окончаниях существительных",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "transport-5",
+          "title": "Транспорт",
+          "section": "Хобби и мир вокруг"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "astafyev-vasyutkino-ozero-5",
+          "title": "В. П. Астафьев. «Васюткино озеро»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-04-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "o-e-posle-shipyaschih-sush-morf-razbor",
+          "title": "О-Е после шипящих и Ц в окончаниях. Морфологический разбор существительного",
+          "section": "Имя существительное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zavoevanie-rimom-italii-5",
+          "title": "Завоевание Римом Италии. Устройство Римской республики",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "okruglenie-chisel-prikidka-5",
+          "title": "Округление чисел. Прикидка",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "zhizn-v-moryah-i-okeanah-5",
+          "title": "Жизнь организмов в морях и океанах",
+          "section": "Жизнь организмов на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "prilagatelnoe-kak-chast-rechi",
+          "title": "Имя прилагательное как часть речи",
+          "section": "Имя прилагательное"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "magaziny-i-pokupki-5",
+          "title": "Магазины и покупки",
+          "section": "Хобби и мир вокруг"
+        },
+        "biology-5": null,
+        "geography-5": {
+          "slug": "gornye-porody-i-mineraly-5",
+          "title": "Горные породы и минералы",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "voyny-rima-s-karfagenom-5",
+          "title": "Войны Рима с Карфагеном. Господство Рима в Средиземноморье",
+          "section": "Древний Рим"
+        },
+        "literature-5": {
+          "slug": "poety-o-vov-5",
+          "title": "Поэты о Великой Отечественной войне",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-04-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glasnye-v-padezhnyh-okonchaniyah-prilag",
+          "title": "Правописание гласных в падежных окончаниях прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "slozhenie-vychitanie-desyatichnyh-drobey-5",
+          "title": "Сложение и вычитание десятичных дробей",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "polnye-kratkie-prilagatelnye-razbor",
+          "title": "Полные и краткие прилагательные. Морфологический разбор",
+          "section": "Имя прилагательное"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "rabstvo-v-drevnem-rime-5",
+          "title": "Рабство в Древнем Риме",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "prazdniki-i-traditsii-5",
+          "title": "Праздники и традиции",
+          "section": "Хобби и мир вокруг"
+        },
+        "biology-5": {
+          "slug": "poyavlenie-cheloveka-na-zemle-5",
+          "title": "Как появился человек на Земле",
+          "section": "Человек на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "umnozhenie-desyatichnyh-drobey-5",
+          "title": "Умножение десятичных дробей",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "dvizheniya-zemnoy-kory-5",
+          "title": "Движения земной коры",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "pisateli-ulybayutsya-sasha-cherny-5",
+          "title": "Писатели улыбаются: Саша Чёрный",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-04-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "glagol-kak-chast-rechi",
+          "title": "Глагол как часть речи",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "zemelnyy-zakon-grakhov-i-vosstanie-spartaka-5",
+          "title": "Земельный закон братьев Гракхов. Восстание Спартака",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "neopredelennaya-forma-glagola",
+          "title": "Неопределённая форма глагола",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "past-simple-pravilnye-glagoly-5",
+          "title": "Past Simple: правильные глаголы",
+          "section": "Прошедшее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "delenie-desyatichnyh-drobey-5",
+          "title": "Деление десятичных дробей",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "defo-robinzon-kruzo-5",
+          "title": "Д. Дефо. «Робинзон Крузо»",
+          "section": "Зарубежная литература"
+        }
+      }
+    },
+    {
+      "date": "2027-04-26",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "vidy-glagola",
+          "title": "Виды глагола: совершенный и несовершенный",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "chelovek-izmenyal-prirodu-5",
+          "title": "Как человек изменял природу",
+          "section": "Человек на планете Земля"
+        },
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "edinovlastie-tsezarya-i-ustanovlenie-imperii-5",
+          "title": "Единовластие Цезаря. Установление империи",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-27",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": {
+          "slug": "zemletryaseniya-i-vulkany-5",
+          "title": "Землетрясения и вулканы",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-28",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bukvy-e-i-v-kornyah-s-cheredovaniem",
+          "title": "Буквы е-и в корнях с чередованием",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-29",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "srednee-arifmeticheskoe-chisel-5",
+          "title": "Среднее арифметическое чисел",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-04-30",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "past-simple-nepravilnye-glagoly-5",
+          "title": "Past Simple: неправильные глаголы",
+          "section": "Прошедшее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "rim-pri-nerone-i-pervye-hristiane-5",
+          "title": "Рим при императоре Нероне. Первые христиане и их учение",
+          "section": "Древний Рим"
+        },
+        "literature-5": {
+          "slug": "andersen-skazki-5",
+          "title": "Х. К. Андерсен. Сказки",
+          "section": "Зарубежная литература"
+        }
+      }
+    },
+    {
+      "date": "2027-05-03",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "vremya-glagola",
+          "title": "Время глагола: прошедшее, настоящее, будущее",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-04",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-05",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "protsenty-nahozhdenie-ot-chisla-5",
+          "title": "Проценты. Нахождение процентов от числа",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": {
+          "slug": "ohrana-zhivogo-mira-5",
+          "title": "Важность охраны живого мира планеты",
+          "section": "Человек на планете Земля"
+        },
+        "geography-5": {
+          "slug": "relef-zemli-ravniny-5",
+          "title": "Рельеф Земли. Равнины",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-06",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "spryazhenie-glagolov",
+          "title": "Спряжение глаголов",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "rastsvet-imperii-vechnyy-gorod-5",
+          "title": "Расцвет Римской империи. «Вечный город» и его жители",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-07",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": {
+          "slug": "kanikuly-i-puteshestviya-5",
+          "title": "Каникулы и путешествия",
+          "section": "Прошедшее время"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-10",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "bezudarnye-lichnye-okonchaniya-glagolov",
+          "title": "Правописание безударных личных окончаний глаголов",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "tven-priklyucheniya-toma-soyera-5",
+          "title": "М. Твен. «Приключения Тома Сойера»",
+          "section": "Зарубежная литература"
+        }
+      }
+    },
+    {
+      "date": "2027-05-11",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-12",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "nahozhdenie-chisla-po-ego-protsentam-5",
+          "title": "Нахождение числа по его процентам",
+          "section": "Десятичные дроби"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "padenie-rimskoy-imperii-5",
+          "title": "Римская империя при Константине. Взятие Рима варварами",
+          "section": "Древний Рим"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-13",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "myagkiy-znak-posle-shipyaschih-vo-2-litse",
+          "title": "Мягкий знак после шипящих в глаголах 2-го лица ед. числа",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-14",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": {
+          "slug": "sohranim-bogatstvo-zhivogo-mira-5",
+          "title": "Сохраним богатство живого мира",
+          "section": "Человек на планете Земля"
+        },
+        "geography-5": {
+          "slug": "relef-zemli-gory-5",
+          "title": "Рельеф Земли. Горы",
+          "section": "Земная кора"
+        },
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-17",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": {
+          "slug": "morfologicheskiy-razbor-glagola",
+          "title": "Морфологический разбор глагола",
+          "section": "Глагол"
+        },
+        "math-5": null,
+        "english-5": {
+          "slug": "itogovoe-povtorenie-english-5",
+          "title": "Итоговое повторение курса 5 класса",
+          "section": "Итоговое повторение"
+        },
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": {
+          "slug": "london-skazanie-o-kishe-5",
+          "title": "Дж. Лондон. «Сказание о Кише»",
+          "section": "Зарубежная литература"
+        }
+      }
+    },
+    {
+      "date": "2027-05-18",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": {
+          "slug": "itogovoe-povtorenie-matematika-5",
+          "title": "Итоговое повторение курса 5 класса",
+          "section": "Итоговое повторение"
+        },
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": {
+          "slug": "itogovoe-povtorenie-istoriya-5",
+          "title": "Итоговое повторение курса истории Древнего мира",
+          "section": "Итоговое повторение"
+        },
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-19",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-20",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian-5": {
+          "slug": "itogovoe-povtorenie-russkiy-5",
+          "title": "Итоговое повторение курса 5 класса",
+          "section": "Итоговое повторение"
+        },
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-21",
+      "weekday": "Friday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    },
+    {
+      "date": "2027-05-24",
+      "weekday": "Monday",
+      "subjects": {
+        "russian-5": null,
+        "math-5": null,
+        "english-5": null,
+        "biology-5": null,
+        "geography-5": null,
+        "istoriya-drevnego-mira-5": null,
+        "literature-5": null
+      }
+    }
+  ]
+}

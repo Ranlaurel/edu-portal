@@ -1,0 +1,3564 @@
+{
+  "days": [
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-tverdyi-znak",
+          "title": "Повторение. Разделительный Ъ",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": {
+          "slug": "svoystva-deystviy",
+          "title": "Свойства сложения и умножения натуральных чисел",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "semya-chleny-prazdniki",
+          "title": "Семья: члены семьи и семейные праздники",
+          "section": "Семья и дом"
+        },
+        "biology": {
+          "slug": "obschie-priznaki-rasteniy",
+          "title": "Общие признаки, разнообразие и значение растений",
+          "section": "Клеточное строение растений"
+        },
+        "geography": {
+          "slug": "zemlya-vo-vselennoy",
+          "title": "Земля во Вселенной. Форма и размеры Земли",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-varvarskih-korolevstv",
+          "title": "Образование варварских королевств. Государство франков",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "drevnie-lyudi-na-territorii-rossii",
+          "title": "Древние люди и их стоянки на территории современной России",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "obryadovy-folklor-poslovicy",
+          "title": "Обрядовый фольклор. Пословицы и поговорки",
+          "section": "Устное народное творчество и древнерусская литература"
+        }
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-myagkiy-znak",
+          "title": "Повторение. Ь: разделительный, мягкость, после шипящих",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": {
+          "slug": "poryadok-deystviy-skobki",
+          "title": "Порядок действий и скобки в числовых выражениях",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "stepen-chisla",
+          "title": "Степень числа и разрядные слагаемые",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "dom-vidy-zhilya",
+          "title": "Дом: виды жилья и обустройство",
+          "section": "Семья и дом"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-korni-proveryaemye",
+          "title": "Повторение. Проверяемые и непроверяемые гласные в корне",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "dvizheniya-zemli",
+          "title": "Движения Земли: вращение вокруг оси и вокруг Солнца",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "hristianskaya-cerkov-rannee-srednevekove",
+          "title": "Христианская церковь в раннее Средневековье",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "neoliticheskaya-revolyuciya",
+          "title": "Неолитическая революция. Первые скотоводы, земледельцы, ремесленники",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "povest-vremennyh-let",
+          "title": "Древнерусская литература: «Повесть временных лет»",
+          "section": "Устное народное творчество и древнерусская литература"
+        }
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "stroenie-rastitelnoy-kletki",
+          "title": "Строение растительной клетки",
+          "section": "Клеточное строение растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "okruglenie-chisel",
+          "title": "Округление натуральных чисел",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-korni-cheredovanie",
+          "title": "Повторение. Чередующиеся гласные в корне",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "delenie-s-ostatkom",
+          "title": "Деление с остатком",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "domashnie-obyazannosti-pravila",
+          "title": "Домашние обязанности и правила поведения",
+          "section": "Семья и дом"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "imperiya-karla-velikogo",
+          "title": "Возникновение и распад империи Карла Великого",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "obrazovanie-pervyh-gosudarstv",
+          "title": "Образование первых государств на территории нашей страны",
+          "section": "Народы и государства на территории нашей страны в древности"
+        },
+        "literature": {
+          "slug": "dmitriev-basni-krylova",
+          "title": "И. И. Дмитриев и басни И. А. Крылова",
+          "section": "Русская литература XVIII-XIX веков: начало"
+        }
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-pristavki-z-s",
+          "title": "Повторение. Неизменяемые приставки и приставки на з-/с-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "solnechny-svet-na-zemle",
+          "title": "Распределение солнечного света и тепла на Земле",
+          "section": "Земля как планета"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "ocenka-prikidka-zadachi",
+          "title": "Оценка, прикидка результата и текстовые задачи на 4 действия",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "zhiznedeyatelnost-kletki",
+          "title": "Жизнедеятельность клетки: деление и рост",
+          "section": "Клеточное строение растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-pristavki-pre-pri",
+          "title": "Повторение. Приставки ПРЕ- и ПРИ-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": {
+          "slug": "zadachi-na-dvizhenie",
+          "title": "Текстовые задачи на движение",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "vneshnost-cheloveka",
+          "title": "Внешность человека",
+          "section": "Внешность и характер"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "feodalnaya-razdroblennost",
+          "title": "Феодальная раздробленность Западной Европы",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "vostochnye-slavyane-i-sosedi",
+          "title": "Восточные славяне и их соседи",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "pushkin-litsey-stihi",
+          "title": "А. С. Пушкин: лицейские годы, «Узник», «Зимнее утро»",
+          "section": "Русская литература XVIII-XIX веков: начало"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-suffiksy-imya",
+          "title": "Повторение. Суффиксы -ек-/-ик-, -чик-/-щик-",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": {
+          "slug": "zadachi-na-rabotu-stoimost",
+          "title": "Текстовые задачи на работу и стоимость",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "orientirovanie-na-mestnosti",
+          "title": "Ориентирование на местности. Азимут",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "desyatichnye-drobi-perevod",
+          "title": "Десятичные дроби и перевод между видами дробей",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "harakter-cheloveka",
+          "title": "Характер человека",
+          "section": "Внешность и характер"
+        },
+        "biology": {
+          "slug": "rastitelnye-tkani",
+          "title": "Растительные ткани и органы растения",
+          "section": "Клеточное строение растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-suffiksy-glagol",
+          "title": "Повторение. Суффиксы -к-/-ск- и гласные в суффиксах глаголов",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "angliya-v-rannee-srednevekove",
+          "title": "Англия в раннее Средневековье",
+          "section": "Становление средневековой Европы (VI-XI века)"
+        },
+        "istoriya-rossii": {
+          "slug": "pervye-izvestiya-o-rusi",
+          "title": "Первые известия о Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-desyatichnyh-drobey",
+          "title": "Сравнение десятичных дробей и дроби на числовой прямой",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "dubrovsky-nachalo",
+          "title": "А. С. Пушкин «Дубровский»: сюжет и главные герои",
+          "section": "Русская литература XVIII-XIX веков: начало"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-ne-s-glagolami",
+          "title": "Повторение. НЕ с глаголами",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "topograficheskiy-plan",
+          "title": "Топографический план и условные знаки",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-vychitanie-desyatichnyh",
+          "title": "Сложение и вычитание десятичных дробей",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "hobbi-uvlecheniya",
+          "title": "Хобби и увлечения",
+          "section": "Досуг и увлечения"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "povtorenie-ne-s-sush-prilag",
+          "title": "Повторение. НЕ с существительными и прилагательными",
+          "section": "Повторение изученного в 5 классе"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "vizantiya-pri-yustiniane",
+          "title": "Византия при Юстиниане. Борьба с внешними врагами",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "stanovlenie-drevnerusskogo-gosudarstva",
+          "title": "Становление Древнерусского государства",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "umnozhenie-delenie-desyatichnyh",
+          "title": "Умножение и деление десятичных дробей",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": {
+          "slug": "stroenie-semyan",
+          "title": "Строение семян",
+          "section": "Строение и разнообразие цветковых растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "dubrovsky-konflikt",
+          "title": "А. С. Пушкин «Дубровский»: конфликт и судьба героев",
+          "section": "Русская литература XVIII-XIX веков: начало"
+        }
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "tekst-tema-plan",
+          "title": "Текст: тема, основная мысль, план",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "izobrazhenie-relyefa",
+          "title": "Изображение рельефа на плане: горизонтали",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "procenty-osnovy",
+          "title": "Понятие процента и перевод в дробь",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "svobodnoe-vremya-plany",
+          "title": "Свободное время: планы на выходные",
+          "section": "Досуг и увлечения"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "tekst-svyaz-predlozheniy",
+          "title": "Способы и средства связи предложений в тексте",
+          "section": "Текст и речь"
+        },
+        "math": {
+          "slug": "procenty-vychisleniya",
+          "title": "Нахождение процента от числа и числа по проценту",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-vizantii",
+          "title": "Культура Византии",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "knyaz-vladimir-kreschenie-rusi",
+          "title": "Правление князя Владимира. Крещение Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "baratynsky-stihi",
+          "title": "Е. А. Баратынский: стихотворения",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "korni-i-kornevye-sistemy",
+          "title": "Виды корней, типы корневых систем, видоизменения корней",
+          "section": "Строение и разнообразие цветковых растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "stil-razgovorny-nauchny",
+          "title": "Разговорный и научный стили речи",
+          "section": "Текст и речь"
+        },
+        "math": {
+          "slug": "bukvennye-vyrazheniya",
+          "title": "Буквенные выражения",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "igry-razvlecheniya",
+          "title": "Игры и развлечения",
+          "section": "Досуг и увлечения"
+        },
+        "biology": null,
+        "geography": {
+          "slug": "geograficheskaya-karta",
+          "title": "Географическая карта и её виды",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "formula-puti-stoimosti",
+          "title": "Формулы пути и стоимости",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-slavyanskih-gosudarstv",
+          "title": "Образование славянских государств",
+          "section": "Византийская империя и славяне"
+        },
+        "istoriya-rossii": {
+          "slug": "yaroslav-mudry",
+          "title": "Русское государство при Ярославе Мудром",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "stil-oficialno-delovoy",
+          "title": "Официально-деловой стиль речи",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "lermontov-stihi",
+          "title": "М. Ю. Лермонтов: «Тучи», «Утёс», «На севере диком...», «Три пальмы»",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "formuly-geometricheskie",
+          "title": "Формулы площади, периметра, объёма",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "zdorovoe-pitanie",
+          "title": "Здоровое питание",
+          "section": "Здоровый образ жизни"
+        },
+        "biology": {
+          "slug": "pobeg-stebel",
+          "title": "Побег и строение стебля",
+          "section": "Строение и разнообразие цветковых растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "tip-rechi-povestvovanie-opisanie",
+          "title": "Типы речи: повествование и описание",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "gradusnaya-set-koordinaty",
+          "title": "Градусная сеть и географические координаты",
+          "section": "План и карта"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "perimetr-mnogougolnika",
+          "title": "Периметр многоугольника",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "vozniknovenie-islama-halifat",
+          "title": "Возникновение ислама. Арабский халифат и его распад",
+          "section": "Арабы в VI-XI веках"
+        },
+        "istoriya-rossii": {
+          "slug": "vladimir-monomah",
+          "title": "Русь при наследниках Ярослава Мудрого. Владимир Мономах",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "tip-rechi-rassuzhdenie",
+          "title": "Тип речи: рассуждение",
+          "section": "Текст и речь"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "turgenev-bezhin-lug",
+          "title": "И. С. Тургенев «Бежин луг»",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "ploshad-priblizhenno",
+          "title": "Приближённое измерение площади фигуры",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "rezhim-dnya-privychki",
+          "title": "Режим дня и полезные привычки",
+          "section": "Здоровый образ жизни"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "iskonno-russkie-slova",
+          "title": "Исконно русские слова",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "zemnaya-kora-gornye-porody",
+          "title": "Земная кора и горные породы",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "svoystva-pryamougolnika-kvadrata",
+          "title": "Свойства прямоугольника и квадрата",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": {
+          "slug": "list-stroenie-vidoizmeneniya",
+          "title": "Строение листа и видоизменения побегов",
+          "section": "Строение и разнообразие цветковых растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-stran-halifata",
+          "title": "Культура стран халифата",
+          "section": "Арабы в VI-XI веках"
+        },
+        "istoriya-rossii": {
+          "slug": "obschestvenny-stroy-cerkov",
+          "title": "Общественный строй и церковная организация на Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "zaimstvovannye-slova",
+          "title": "Заимствованные слова",
+          "section": "Лексикология и фразеология"
+        },
+        "math": {
+          "slug": "ploshad-perimetr-formuly",
+          "title": "Формулы площади и периметра, составные фигуры",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "pokupki-odezhda-obuv",
+          "title": "Покупки: одежда и обувь",
+          "section": "Покупки"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "tyutchev-fet-stihi",
+          "title": "Ф. И. Тютчев и А. А. Фет: пейзажная лирика",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "arhaizmy-istorizmy",
+          "title": "Архаизмы и историзмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": {
+          "slug": "vidy-uglov-izmerenie",
+          "title": "Виды углов и измерение транспортиром",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "dvizheniya-zemnoy-kory",
+          "title": "Движения земной коры: землетрясения и вулканы",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-derevnya",
+          "title": "Средневековая деревня и её обитатели",
+          "section": "Феодалы и крестьяне"
+        },
+        "istoriya-rossii": {
+          "slug": "kultura-drevney-rusi",
+          "title": "Культурное пространство Европы и культура Древней Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-uglov",
+          "title": "Сравнение углов и сумма углов треугольника",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "pokupki-produkty",
+          "title": "Покупки: продукты питания",
+          "section": "Покупки"
+        },
+        "biology": {
+          "slug": "cvetok-socvetiya-plody",
+          "title": "Цветок, соцветия, плоды",
+          "section": "Строение и разнообразие цветковых растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "nekrasov-zheleznaya-doroga",
+          "title": "Н. А. Некрасов «Железная дорога»",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "neologizmy",
+          "title": "Неологизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "vidy-treugolnikov",
+          "title": "Виды треугольников по сторонам и углам",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "dialektizmy-professionalizmy",
+          "title": "Диалектизмы и профессионализмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "relyef-sushi-gory",
+          "title": "Рельеф суши: горы",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "v-rycarskom-zamke",
+          "title": "В рыцарском замке",
+          "section": "Феодалы и крестьяне"
+        },
+        "istoriya-rossii": {
+          "slug": "povsednevnaya-zhizn-naseleniya",
+          "title": "Повседневная жизнь населения Древней Руси",
+          "section": "Русь в IX — первой половине XII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "zadachi-treugolniki",
+          "title": "Задачи на углы и периметр треугольника",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "vidy-sporta",
+          "title": "Виды спорта",
+          "section": "Спорт"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "leskov-levsha",
+          "title": "Н. С. Лесков «Левша»",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "mineralnoe-pitanie",
+          "title": "Обмен веществ и минеральное питание растений",
+          "section": "Жизнедеятельность растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "terminy-zhargonizmy",
+          "title": "Термины и жаргонизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-07",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "parallelepiped-kub",
+          "title": "Прямоугольный параллелепипед и куб",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "frazeologizmy",
+          "title": "Фразеологизмы",
+          "section": "Лексикология и фразеология"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "relyef-sushi-ravniny",
+          "title": "Рельеф суши: равнины",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "formirovanie-srednevekovyh-gorodov",
+          "title": "Формирование средневековых городов. Городское ремесло",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "politicheskaya-razdroblennost",
+          "title": "Политическая раздробленность на Руси",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "prizma-piramida",
+          "title": "Призма и пирамида",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": {
+          "slug": "sportivnye-sorevnovaniya",
+          "title": "Спортивные соревнования и выдающиеся спортсмены",
+          "section": "Спорт"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "chehov-tolstyy-tonkiy",
+          "title": "А. П. Чехов «Толстый и тонкий»",
+          "section": "Поэзия и проза середины XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-11",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "sredstva-vyrazitelnosti",
+          "title": "Эпитет, метафора, олицетворение",
+          "section": "Лексикология и фразеология"
+        },
+        "math": {
+          "slug": "obyom-edinicy",
+          "title": "Объём и единицы измерения объёма",
+          "section": "Повторение курса 5 класса"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-14",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "fotosintez-dyhanie",
+          "title": "Фотосинтез и дыхание растений",
+          "section": "Жизнедеятельность растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-15",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "torgovlya-v-srednie-veka",
+          "title": "Торговля в Средние века",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "vladimiro-suzdalskoe-knyazhestvo",
+          "title": "Владимиро-Суздальское княжество",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-16",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "sposoby-obrazovaniya-pristavka-suffiks",
+          "title": "Приставочный, суффиксальный, приставочно-суффиксальный способы образования слов",
+          "section": "Словообразование"
+        },
+        "math": {
+          "slug": "delitely-i-kratnye",
+          "title": "Делители и кратные",
+          "section": "Делимость натуральных чисел"
+        },
+        "english": {
+          "slug": "shkolnaya-zhizn-predmety",
+          "title": "Школьная жизнь и школьные предметы",
+          "section": "Школа"
+        },
+        "biology": null,
+        "geography": {
+          "slug": "relyef-dna-okeanov",
+          "title": "Рельеф дна океанов",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-17",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "priroda-v-poezii-xix",
+          "title": "Родная природа в стихотворениях поэтов XIX века",
+          "section": "Родная природа в поэзии XIX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-18",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "priznaki-delimosti",
+          "title": "Признаки делимости на 10, 5, 2, 9 и 3",
+          "section": "Делимость натуральных чисел"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "sposoby-obrazovaniya-slozhenie",
+          "title": "Сложение, бессуффиксный способ, переход в другую часть речи",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-22",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "gorozhane-i-obraz-zhizni",
+          "title": "Горожане и их образ жизни",
+          "section": "Средневековый город"
+        },
+        "istoriya-rossii": {
+          "slug": "novgorodskaya-respublika",
+          "title": "Новгородская республика",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "prostye-sostavnye-chisla",
+          "title": "Простые и составные числа",
+          "section": "Делимость натуральных чисел"
+        },
+        "english": {
+          "slug": "pravila-povedeniya-shkola",
+          "title": "Правила поведения в школе",
+          "section": "Школа"
+        },
+        "biology": {
+          "slug": "peredvizhenie-vydelenie",
+          "title": "Передвижение веществ и выделение у растений",
+          "section": "Жизнедеятельность растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-24",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "koren-kas-kos",
+          "title": "Правописание корня -кас- / -кос-",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "litosfera-i-chelovek",
+          "title": "Литосфера и человек",
+          "section": "Литосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "kuprin-chudesny-doktor",
+          "title": "А. И. Куприн «Чудесный доктор»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nod",
+          "title": "Наибольший общий делитель (НОД)",
+          "section": "Делимость натуральных чисел"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-28",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2026-12-29",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "bukvy-y-i-posle-pristavok",
+          "title": "Буквы ы и и после приставок",
+          "section": "Словообразование"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "mogushestvo-papskoy-vlasti",
+          "title": "Могущество папской власти. Церковь и еретики",
+          "section": "Католическая церковь. Крестовые походы"
+        },
+        "istoriya-rossii": {
+          "slug": "yuzhnye-yugo-zapadnye-knyazhestva",
+          "title": "Южные и юго-западные русские княжества",
+          "section": "Русь в середине XII — начале XIII века"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-12",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nok",
+          "title": "Наименьшее общее кратное (НОК)",
+          "section": "Делимость натуральных чисел"
+        },
+        "english": {
+          "slug": "perepiska-sverstniki",
+          "title": "Переписка с зарубежными сверстниками",
+          "section": "Школа"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-13",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "prorastanie-rost-razvitie",
+          "title": "Прорастание семян, рост и развитие растений",
+          "section": "Жизнедеятельность растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-14",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "soedinitelnye-o-e-slozhnosokraschennye",
+          "title": "Соединительные о и е в сложных словах. Сложносокращённые слова",
+          "section": "Словообразование"
+        },
+        "math": {
+          "slug": "obyknovennye-drobi-osnovy",
+          "title": "Основное свойство дроби. Сокращение дробей",
+          "section": "Обыкновенные дроби"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "atmosfera-stroenie",
+          "title": "Атмосфера: строение, значение, изучение",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "platonov-neizvestny-cvetok",
+          "title": "А. П. Платонов «Неизвестный цветок»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-01-15",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-18",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-19",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "suschestvitelnoe-slovoobrazovanie",
+          "title": "Словообразование имён существительных",
+          "section": "Имя существительное"
+        },
+        "math": {
+          "slug": "sravnenie-obyknovennyh-drobey",
+          "title": "Приведение дробей к общему знаменателю. Сравнение дробей",
+          "section": "Обыкновенные дроби"
+        },
+        "english": {
+          "slug": "puteshestviya-otdyh-snaryazhenie",
+          "title": "Путешествия: виды отдыха и снаряжение",
+          "section": "Путешествия и каникулы"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "krestovye-pohody",
+          "title": "Крестовые походы",
+          "section": "Католическая церковь. Крестовые походы"
+        },
+        "istoriya-rossii": {
+          "slug": "mongolskaya-imperiya",
+          "title": "Монгольская империя и изменение политической карты мира",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-20",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-21",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "suschestvitelnoe-normy-slovoizmeneniya",
+          "title": "Нормы словоизменения имён существительных",
+          "section": "Имя существительное"
+        },
+        "math": {
+          "slug": "slozhenie-vychitanie-obyknovennyh",
+          "title": "Сложение и вычитание дробей с разными знаменателями",
+          "section": "Обыкновенные дроби"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "temperatura-vozduha",
+          "title": "Температура воздуха",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "proizvedeniya-o-vov",
+          "title": "Произведения о Великой Отечественной войне",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-01-22",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "razmnozhenie-rasteniy",
+          "title": "Размножение растений: половое и вегетативное",
+          "section": "Жизнедеятельность растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-25",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nahozhdenie-drobi-ot-chisla",
+          "title": "Нахождение дроби от числа",
+          "section": "Обыкновенные дроби"
+        },
+        "english": {
+          "slug": "kanikuly-plany-vpechatleniya",
+          "title": "Каникулы: планы и впечатления",
+          "section": "Путешествия и каникулы"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-26",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "prilagatelnye-kachestvennye",
+          "title": "Качественные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obedinenie-francii",
+          "title": "Как происходило объединение Франции",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "batyevo-nashestvie",
+          "title": "Батыево нашествие на Русь",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-27",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-28",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "vzaimno-obratnye-chisla",
+          "title": "Взаимно обратные числа",
+          "section": "Обыкновенные дроби"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-01-29",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "prilagatelnye-otnositelnye-prityazhatelnye",
+          "title": "Относительные и притяжательные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "atmosfernoe-davlenie-veter",
+          "title": "Атмосферное давление и ветер",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "astafyev-kon-s-rozovoy-grivoy",
+          "title": "В. П. Астафьев «Конь с розовой гривой»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "umnozhenie-delenie-obyknovennyh",
+          "title": "Умножение и деление обыкновенных дробей",
+          "section": "Обыкновенные дроби"
+        },
+        "english": {
+          "slug": "znamenitye-puteshestvenniki",
+          "title": "Знаменитые путешественники и открытия",
+          "section": "Путешествия и каникулы"
+        },
+        "biology": {
+          "slug": "sistematika-vodorosli",
+          "title": "Систематика растений и водоросли",
+          "section": "Многообразие растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "nachalo-svobod-anglii",
+          "title": "Что англичане считают началом своих свобод",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "aleksandr-nevsky",
+          "title": "Северо-Западная Русь между Востоком и Западом. Александр Невский",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "sravnitelnaya-stepen",
+          "title": "Сравнительная степень имён прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "nahozhdenie-chisla-po-ego-drobi",
+          "title": "Нахождение числа по значению его дроби",
+          "section": "Обыкновенные дроби"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "rasputin-uroki-francuzskogo",
+          "title": "В. Г. Распутин «Уроки французского»",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "prevoshodnaya-stepen",
+          "title": "Превосходная степень имён прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": {
+          "slug": "otnosheniya-proporcii",
+          "title": "Отношения. Пропорции",
+          "section": "Отношения и пропорции"
+        },
+        "english": {
+          "slug": "professii-plany-na-buduschee",
+          "title": "Профессии и планы на будущее",
+          "section": "Мир профессий"
+        },
+        "biology": null,
+        "geography": {
+          "slug": "vlazhnost-oblaka-osadki",
+          "title": "Влажность воздуха, облака, атмосферные осадки",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "stoletnyaya-voyna",
+          "title": "Столетняя война",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "zolotaya-orda",
+          "title": "Золотая Орда: государственный строй, население, культура",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "mhi-plauny-hvoschi-paporotniki",
+          "title": "Мхи, плауны, хвощи и папоротники",
+          "section": "Многообразие растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "n-nn-prilagatelnyh",
+          "title": "Н и НН в именах прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": {
+          "slug": "masshtab",
+          "title": "Масштаб",
+          "section": "Отношения и пропорции"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "rubcov-stihi",
+          "title": "Н. М. Рубцов: стихотворения",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "pryamaya-obratnaya-proporcionalnost",
+          "title": "Прямая и обратная пропорциональные зависимости",
+          "section": "Отношения и пропорции"
+        },
+        "english": {
+          "slug": "rabota-kariera",
+          "title": "Работа и карьера",
+          "section": "Мир профессий"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "k-sk-slozhnye-prilagatelnye",
+          "title": "Суффиксы -к-/-ск- и сложные имена прилагательные",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "pogoda-i-klimat",
+          "title": "Погода и климат",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "usilenie-korolevskoy-vlasti",
+          "title": "Усиление королевской власти во Франции и в Англии",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "litovskoe-gosudarstvo-i-rus",
+          "title": "Литовское государство и Русь",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "okruzhnost-i-krug",
+          "title": "Окружность и круг",
+          "section": "Отношения и пропорции"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "o-e-posle-shipyaschih-prilagatelnyh",
+          "title": "Буквы о и е после шипящих и ц в суффиксах прилагательных",
+          "section": "Имя прилагательное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "golosemennye",
+          "title": "Отдел Голосеменные",
+          "section": "Многообразие растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "dlina-okruzhnosti-ploshad-kruga",
+          "title": "Длина окружности. Площадь круга",
+          "section": "Отношения и пропорции"
+        },
+        "english": {
+          "slug": "priroda-zhivotnye",
+          "title": "Природа: дикие и домашние животные",
+          "section": "Природа и погода"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "pisateli-ulybayutsya",
+          "title": "Писатели улыбаются: В. М. Шукшин «Критики», Ф. Искандер",
+          "section": "Русская литература XX века"
+        }
+      }
+    },
+    {
+      "date": "2027-02-23",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-kolichestvennye",
+          "title": "Количественные числительные",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "atmosfera-i-chelovek",
+          "title": "Атмосфера и человек",
+          "section": "Атмосфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "rekonkista",
+          "title": "Реконкиста и централизованные государства на Пиренеях",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "usilenie-moskovskogo-knyazhestva",
+          "title": "Усиление Московского княжества",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-24",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "tela-vrasheniya",
+          "title": "Цилиндр, конус, шар",
+          "section": "Отношения и пропорции"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-25",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-02-26",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-poryadkovye-stroenie",
+          "title": "Порядковые числительные и строение числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-01",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "stolbchatye-diagrammy",
+          "title": "Столбчатые диаграммы",
+          "section": "Отношения и пропорции"
+        },
+        "english": {
+          "slug": "pogoda-klimat",
+          "title": "Погода и климат",
+          "section": "Природа и погода"
+        },
+        "biology": {
+          "slug": "pokrytosemennye-dvudolnye",
+          "title": "Покрытосеменные: класс Двудольные",
+          "section": "Многообразие растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "priroda-v-poezii-xx",
+          "title": "Родная природа в стихотворениях поэтов XX века",
+          "section": "Родная природа в поэзии XX века и литература народов России"
+        }
+      }
+    },
+    {
+      "date": "2027-03-02",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-03",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-kolichestvennyh",
+          "title": "Склонение количественных числительных",
+          "section": "Имя числительное"
+        },
+        "math": {
+          "slug": "krugovye-diagrammy",
+          "title": "Круговые диаграммы",
+          "section": "Отношения и пропорции"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "sostav-gidrosfery-mirovoy-okean",
+          "title": "Состав гидросферы. Мировой океан",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "germaniya-i-italiya",
+          "title": "Раздробленные государства: Германия и Италия",
+          "section": "Образование централизованных государств"
+        },
+        "istoriya-rossii": {
+          "slug": "kulikovskaya-bitva",
+          "title": "Объединение русских земель вокруг Москвы. Куликовская битва",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-04",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-05",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-08",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-poryadkovyh-sobiratelnyh",
+          "title": "Склонение порядковых и собирательных числительных",
+          "section": "Имя числительное"
+        },
+        "math": {
+          "slug": "sluchaynye-sobytiya-veroyatnost",
+          "title": "Случайные события. Вероятность случайного события",
+          "section": "Отношения и пропорции"
+        },
+        "english": {
+          "slug": "gorod-transport-dostoprimechatelnosti",
+          "title": "Город: транспорт и достопримечательности",
+          "section": "Жизнь в городе и селе"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "literatura-narodov-rossii",
+          "title": "Из литературы народов России: Г. Тукай, К. Кулиев",
+          "section": "Родная природа в поэзии XX века и литература народов России"
+        }
+      }
+    },
+    {
+      "date": "2027-03-09",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-10",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "celye-chisla",
+          "title": "Положительные и отрицательные числа. Целые числа",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": {
+          "slug": "pokrytosemennye-odnodolnye",
+          "title": "Покрытосеменные: класс Однодольные",
+          "section": "Многообразие растений"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "gusitskoe-dvizhenie",
+          "title": "Гуситское движение в Чехии",
+          "section": "Славянские государства и Византия"
+        },
+        "istoriya-rossii": {
+          "slug": "kultura-rusi-xiii-xiv",
+          "title": "Развитие культуры в русских землях в XIII-XIV веках",
+          "section": "Русские земли в середине XIII — XIV веке"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-11",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "ch-myagkiy-znak",
+          "title": "Ь в именах числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "vody-okeana",
+          "title": "Воды океана: течения, волны, приливы",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-12",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-15",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "koordinatnaya-pryamaya",
+          "title": "Координатная прямая",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "zhizn-v-derevne",
+          "title": "Жизнь в сельской местности",
+          "section": "Жизнь в городе и селе"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-16",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "chislitelnye-slitno-razdelno",
+          "title": "Слитное, раздельное, дефисное написание числительных",
+          "section": "Имя числительное"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "mify-drevney-grecii",
+          "title": "Мифы Древней Греции: подвиги Геракла",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-03-17",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "modul-chisla",
+          "title": "Модуль числа",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "zavoevanie-turkami-balkan",
+          "title": "Завоевание турками-османами Балканского полуострова",
+          "section": "Славянские государства и Византия"
+        },
+        "istoriya-rossii": {
+          "slug": "russkie-zemli-nachalo-xv",
+          "title": "Русские земли на карте Европы и мира в начале XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-18",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "mestoimeniya-lichnye-prityazhatelnye",
+          "title": "Личные, возвратное, притяжательные местоимения",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "reki",
+          "title": "Реки: части, питание, режим",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-19",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "sravnenie-polozhitelnyh-otricatelnyh",
+          "title": "Сравнение чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "moy-gorod-opisanie",
+          "title": "Мой город: описание",
+          "section": "Жизнь в городе и селе"
+        },
+        "biology": {
+          "slug": "etapy-razvitiya-rasteniy",
+          "title": "Основные этапы развития растительного мира",
+          "section": "Развитие растительного мира"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-03-22",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-01",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "mestoimeniya-ukazatelnye-otricatelnye",
+          "title": "Указательные, определительные, вопросительные, неопределённые, отрицательные местоимения",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "gerodot-legenda-ob-arione",
+          "title": "Геродот. «Легенда об Арионе»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-04-02",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "slozhenie-raznye-znaki",
+          "title": "Сложение рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "obrazovanie-i-filosofiya",
+          "title": "Образование и философия в Средние века",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "moskovskoe-knyazhestvo-pervaya-polovina-xv",
+          "title": "Московское княжество в первой половине XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-05",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-06",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "sklonenie-lichnyh-mestoimeniy",
+          "title": "Склонение личных местоимений",
+          "section": "Местоимение"
+        },
+        "math": {
+          "slug": "vychitanie-plus-minus",
+          "title": "Вычитание рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "smi-kommunikacii",
+          "title": "Средства массовой информации",
+          "section": "СМИ и коммуникации"
+        },
+        "biology": null,
+        "geography": {
+          "slug": "ozera-podzemnye-vody-ledniki",
+          "title": "Озёра, подземные воды, ледники и многолетняя мерзлота",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-07",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "kulturnye-rasteniya",
+          "title": "Происхождение культурных растений",
+          "section": "Развитие растительного мира"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-08",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "gomer-iliada-odisseya",
+          "title": "Гомер «Илиада» и «Одиссея»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-04-09",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "normy-upotrebleniya-mestoimeniy",
+          "title": "Нормы употребления местоимений",
+          "section": "Местоимение"
+        },
+        "math": {
+          "slug": "umnozhenie-plus-minus",
+          "title": "Умножение рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-literatura-iskusstvo",
+          "title": "Средневековая литература и искусство",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "raspad-zolotoy-ordy",
+          "title": "Распад Золотой Орды и его последствия",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-12",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-13",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "koefficient-raspredelitelnoe-svoystvo",
+          "title": "Коэффициент. Распределительное свойство умножения",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "velikobritaniya-strany-simvoly",
+          "title": "Великобритания: страны и символы",
+          "section": "Родная страна и страна изучаемого языка"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-14",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "ne-ni-mestoimeniya",
+          "title": "НЕ и НИ в местоимениях",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "gidrosfera-i-chelovek",
+          "title": "Гидросфера и человек",
+          "section": "Гидросфера"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-15",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-16",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "delenie-plus-minus",
+          "title": "Деление рациональных чисел",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": {
+          "slug": "ponyatie-o-soobschestve",
+          "title": "Понятие о природном сообществе, совместная жизнь организмов",
+          "section": "Природные сообщества"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "servantes-don-kihot",
+          "title": "М. де Сервантес «Дон Кихот»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-04-19",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "defis-mestoimeniya",
+          "title": "Дефис в местоимениях: кое-, -то, -либо, -нибудь",
+          "section": "Местоимение"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "kultura-rannego-vozrozhdeniya",
+          "title": "Культура раннего Возрождения в Италии",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "moskovskoe-gosudarstvo-i-sosedi",
+          "title": "Московское государство и его соседи во второй половине XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-20",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "racionalnye-chisla",
+          "title": "Рациональные числа: совместные действия",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "dostoprimechatelnosti-tradicii",
+          "title": "Достопримечательности и традиции",
+          "section": "Родная страна и страна изучаемого языка"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-21",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-22",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-perehodnost-vozvratnost",
+          "title": "Переходность и возвратность глаголов",
+          "section": "Глагол"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "biosfera-zemnaya-obolochka",
+          "title": "Биосфера — оболочка жизни",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-23",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "uravneniya",
+          "title": "Решение уравнений. Решение задач с помощью уравнений",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "shiller-perchatka",
+          "title": "Ф. Шиллер «Перчатка»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-04-26",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-spryazhenie",
+          "title": "Спряжение глаголов, разноспрягаемые глаголы",
+          "section": "Глагол"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "nauchnye-otkrytiya-izobreteniya",
+          "title": "Научные открытия и изобретения",
+          "section": "Культура Западной Европы в Средние века"
+        },
+        "istoriya-rossii": {
+          "slug": "russkaya-pravoslavnaya-cerkov-xv",
+          "title": "Русская православная церковь в XV — начале XVI века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-27",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "perpendikulyarnye-pryamye",
+          "title": "Перпендикулярные прямые",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "rodnaya-strana-geografiya-kultura",
+          "title": "Родная страна: география и культура",
+          "section": "Родная страна и страна изучаемого языка"
+        },
+        "biology": {
+          "slug": "smena-mnogoobrazie-soobschestv",
+          "title": "Смена и многообразие природных сообществ",
+          "section": "Природные сообщества"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-28",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-29",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "naklonenie-izyavitelnoe-uslovnoe",
+          "title": "Изъявительное и условное наклонение глагола",
+          "section": "Глагол"
+        },
+        "math": {
+          "slug": "osevaya-simmetriya",
+          "title": "Осевая симметрия",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "pochva",
+          "title": "Почва и её плодородие",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-04-30",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": {
+          "slug": "merime-matteo-falkone",
+          "title": "П. Мериме «Маттео Фальконе»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-05-03",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "srednevekovaya-aziya",
+          "title": "Средневековая Азия: Китай, Индия, Япония",
+          "section": "Народы Азии, Америки и Африки"
+        },
+        "istoriya-rossii": {
+          "slug": "chelovek-v-rossiyskom-gosudarstve",
+          "title": "Человек в Российском государстве второй половины XV века",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-04",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": {
+          "slug": "naklonenie-povelitelnoe",
+          "title": "Повелительное наклонение глагола",
+          "section": "Глагол"
+        },
+        "math": {
+          "slug": "centralnaya-simmetriya",
+          "title": "Центральная симметрия",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo",
+          "title": "Выдающиеся люди: наука и искусство",
+          "section": "Выдающиеся люди"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-05",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "chelovek-i-soobschestva",
+          "title": "Влияние человека на природные сообщества и их охрана",
+          "section": "Природные сообщества"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-06",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "parallelnye-pryamye",
+          "title": "Параллельные прямые",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-07",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": {
+          "slug": "bezlichnye-glagoly",
+          "title": "Безличные глаголы",
+          "section": "Глагол"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "prirodny-kompleks",
+          "title": "Природный комплекс и географическая оболочка",
+          "section": "Биосфера и географическая оболочка"
+        },
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-10",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": {
+          "slug": "afrika-i-dokolumbova-amerika",
+          "title": "Государства и народы Африки и доколумбовой Америки",
+          "section": "Народы Азии, Америки и Африки"
+        },
+        "istoriya-rossii": {
+          "slug": "kultura-edinogo-gosudarstva",
+          "title": "Формирование культурного пространства единого государства",
+          "section": "Формирование единого Русского государства"
+        },
+        "literature": {
+          "slug": "sent-ekzyuperi-malenky-princ",
+          "title": "А. де Сент-Экзюпери «Маленький принц»",
+          "section": "Из зарубежной литературы"
+        }
+      }
+    },
+    {
+      "date": "2027-05-11",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "koordinaty-tochki",
+          "title": "Координатная плоскость",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "vydayuschiesya-lyudi-sport-literatura",
+          "title": "Выдающиеся люди: спорт и литература",
+          "section": "Выдающиеся люди"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-12",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-tsya-myagkiy-znak",
+          "title": "-ться/-тся и Ь после шипящих в глаголах",
+          "section": "Глагол"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-13",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "postroenie-po-koordinatam",
+          "title": "Построение точек и фигур по координатам",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-14",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": {
+          "slug": "itogovoe-povtorenie-biologiya",
+          "title": "Итоговое повторение курса биологии за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-17",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": {
+          "slug": "glagol-okonchaniya-suffiksy",
+          "title": "Личные окончания глаголов и суффиксы -ова-/-ыва-",
+          "section": "Глагол"
+        },
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": {
+          "slug": "itogovoe-povtorenie-geografiya",
+          "title": "Итоговое повторение курса географии за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "vseobschaya-istoriya": {
+          "slug": "itogovoe-povtorenie-vseobschaya",
+          "title": "Итоговое повторение курса истории Средних веков",
+          "section": "Итоговое повторение"
+        },
+        "istoriya-rossii": {
+          "slug": "itogovoe-povtorenie-istoriya-rossii",
+          "title": "Итоговое повторение курса истории России за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "literature": {
+          "slug": "itogovoe-povtorenie-literatura",
+          "title": "Итоговое повторение курса литературы за 6 класс",
+          "section": "Итоговое повторение"
+        }
+      }
+    },
+    {
+      "date": "2027-05-18",
+      "weekday": "Tuesday",
+      "subjects": {
+        "russian": null,
+        "math": {
+          "slug": "grafiki",
+          "title": "Графики",
+          "section": "Рациональные числа и действия над ними"
+        },
+        "english": {
+          "slug": "itogovoe-povtorenie-angliyskiy",
+          "title": "Итоговое повторение курса английского языка за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-19",
+      "weekday": "Wednesday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-20",
+      "weekday": "Thursday",
+      "subjects": {
+        "russian": {
+          "slug": "itogovoe-povtorenie-russkiy",
+          "title": "Итоговое повторение курса русского языка за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "math": {
+          "slug": "itogovoe-povtorenie-matematika",
+          "title": "Итоговое повторение курса математики за 6 класс",
+          "section": "Итоговое повторение"
+        },
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-21",
+      "weekday": "Friday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    },
+    {
+      "date": "2027-05-24",
+      "weekday": "Monday",
+      "subjects": {
+        "russian": null,
+        "math": null,
+        "english": null,
+        "biology": null,
+        "geography": null,
+        "vseobschaya-istoriya": null,
+        "istoriya-rossii": null,
+        "literature": null
+      }
+    }
+  ]
+}

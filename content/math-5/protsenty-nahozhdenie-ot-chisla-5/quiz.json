@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Переведи 40% в десятичную дробь.",
+      "options": [
+        {"text": "0,4", "correct": true},
+        {"text": "4", "correct": false},
+        {"text": "0,04", "correct": false},
+        {"text": "40", "correct": false}
+      ],
+      "explanation": "Чтобы перевести проценты в дробь, число делят на 100: 40 ÷ 100 = 0,4."
+    },
+    {
+      "type": "single",
+      "text": "Найди 25% от 60.",
+      "options": [
+        {"text": "15", "correct": true},
+        {"text": "25", "correct": false},
+        {"text": "20", "correct": false},
+        {"text": "35", "correct": false}
+      ],
+      "explanation": "25% = 0,25. Умножаем: 0,25 × 60 = 15."
+    },
+    {
+      "type": "single",
+      "text": "Найди 50% от 90.",
+      "options": [
+        {"text": "45", "correct": true},
+        {"text": "50", "correct": false},
+        {"text": "40", "correct": false},
+        {"text": "90", "correct": false}
+      ],
+      "explanation": "50% — это половина числа, значит 90 ÷ 2 = 45."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих вычислений процентов от числа выполнены верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "10% от 50 равно 5", "correct": true},
+        {"text": "20% от 35 равно 7", "correct": true},
+        {"text": "25% от 80 равно 20", "correct": true},
+        {"text": "10% от 300 равно 300", "correct": false},
+        {"text": "50% от 46 равно 23", "correct": true}
+      ],
+      "explanation": "10%×50=5; 20%×35=7; 25%×80=20; 50%×46=23 — все верны. А 10% от 300 равно 30 (0,1×300=30), а не 300."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения о процентах верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "1% равен 0,01", "correct": true},
+        {"text": "100% — это всё число целиком", "correct": true},
+        {"text": "25% — это четверть числа", "correct": true},
+        {"text": "50% больше самого числа", "correct": false},
+        {"text": "10% равно 0,1", "correct": true}
+      ],
+      "explanation": "1%=0,01, 100% — целое число, 25% — четверть, 10%=0,1. А 50% — это половина числа, она всегда меньше самого числа, а не больше."
+    },
+    {
+      "type": "dropdown",
+      "text": "В классе 20 учеников, 10% из них отличники. Число отличников: ___",
+      "options": [
+        {"text": "2", "correct": true},
+        {"text": "10", "correct": false},
+        {"text": "20", "correct": false}
+      ],
+      "explanation": "10% от 20 равно 0,1 × 20 = 2."
+    },
+    {
+      "type": "dropdown",
+      "text": "Скидка 10% на товар за 200 рублей составляет: ___",
+      "options": [
+        {"text": "20 рублей", "correct": true},
+        {"text": "10 рублей", "correct": false},
+        {"text": "100 рублей", "correct": false}
+      ],
+      "explanation": "10% от 200 равно 0,1 × 200 = 20 рублей."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: найди 20% от 45.",
+      "answer": "9",
+      "explanation": "20% = 0,2. Умножаем: 0,2 × 45 = 9."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: найди 10% от 50.",
+      "answer": "5",
+      "explanation": "10% = 0,1. Умножаем: 0,1 × 50 = 5."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини проценты от числа с результатом:",
+      "pairs": [
+        {"left": "25% от 80", "right": "20"},
+        {"left": "10% от 300", "right": "30"},
+        {"left": "50% от 46", "right": "23"},
+        {"left": "20% от 45", "right": "9"}
+      ],
+      "explanation": "В каждом случае проценты переводят в десятичную дробь (деля на 100) и умножают на число."
+    }
+  ]
+}

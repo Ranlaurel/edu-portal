@@ -1,0 +1,88 @@
+{
+  "subject": {"name": "Всеобщая история. История Древнего мира", "slug": "istoriya-drevnego-mira-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Жизнь первобытных людей",
+      "order": 1,
+      "topics": [
+        {"slug": "drevneishie-lyudi-5", "title": "Древнейшие люди", "order": 1},
+        {"slug": "rodovye-obschiny-i-vozniknovenie-iskusstva-5", "title": "Родовые общины. Возникновение искусства и религиозных верований", "order": 2},
+        {"slug": "zemledelie-i-skotovodstvo-5", "title": "Возникновение земледелия и скотоводства", "order": 3},
+        {"slug": "neravenstvo-i-znat-5", "title": "Появление неравенства и знати", "order": 4}
+      ]
+    },
+    {
+      "name": "Древний Египет",
+      "order": 2,
+      "topics": [
+        {"slug": "gosudarstvo-na-beregah-nila-5", "title": "Государство на берегах Нила", "order": 1},
+        {"slug": "zemledeltsy-i-remeslenniki-egipta-5", "title": "Как жили земледельцы и ремесленники в Египте", "order": 2},
+        {"slug": "zhizn-egipetskogo-velmozhi-5", "title": "Жизнь египетского вельможи", "order": 3},
+        {"slug": "voennye-pohody-faraonov-5", "title": "Военные походы фараонов", "order": 4},
+        {"slug": "religiya-drevnih-egiptyan-5", "title": "Религия древних египтян", "order": 5},
+        {"slug": "iskusstvo-i-pismennost-egipta-5", "title": "Искусство и письменность древних египтян", "order": 6}
+      ]
+    },
+    {
+      "name": "Западная Азия в древности",
+      "order": 3,
+      "topics": [
+        {"slug": "drevnee-dvurechye-5", "title": "Древнее Двуречье", "order": 1},
+        {"slug": "zakony-hammurapi-5", "title": "Вавилонский царь Хаммурапи и его законы", "order": 2},
+        {"slug": "finikiyskie-moreplavateli-5", "title": "Финикийские мореплаватели", "order": 3},
+        {"slug": "bibleyskie-skazaniya-i-evreyskoe-tsarstvo-5", "title": "Библейские сказания. Древнееврейское царство", "order": 4},
+        {"slug": "assiriyskaya-derzhava-5", "title": "Ассирийская держава", "order": 5},
+        {"slug": "persidskaya-derzhava-5", "title": "Персидская держава «царя царей»", "order": 6}
+      ]
+    },
+    {
+      "name": "Индия и Китай в древности",
+      "order": 4,
+      "topics": [
+        {"slug": "priroda-i-kasty-drevney-indii-5", "title": "Природа, люди и касты Древней Индии", "order": 1},
+        {"slug": "konfutsiy-5", "title": "Чему учил китайский мудрец Конфуций", "order": 2},
+        {"slug": "pervyy-vlastelin-edinogo-kitaya-5", "title": "Первый властелин единого Китая", "order": 3}
+      ]
+    },
+    {
+      "name": "Древняя Греция",
+      "order": 5,
+      "topics": [
+        {"slug": "greki-i-kritiane-5", "title": "Греки и критяне", "order": 1},
+        {"slug": "mikeny-i-troya-5", "title": "Микены и Троя", "order": 2},
+        {"slug": "poemy-gomera-5", "title": "Поэмы Гомера «Илиада» и «Одиссея»", "order": 3},
+        {"slug": "religiya-drevnih-grekov-5", "title": "Религия древних греков", "order": 4},
+        {"slug": "zemledeltsy-attiki-teryayut-zemlyu-5", "title": "Земледельцы Аттики теряют землю и свободу", "order": 5},
+        {"slug": "zarozhdenie-demokratii-v-afinah-5", "title": "Зарождение демократии в Афинах", "order": 6},
+        {"slug": "drevnyaya-sparta-5", "title": "Древняя Спарта", "order": 7},
+        {"slug": "grecheskie-kolonii-i-olimpiyskie-igry-5", "title": "Греческие колонии и Олимпийские игры", "order": 8},
+        {"slug": "marafonskaya-bitva-i-nashestvie-na-elladu-5", "title": "Марафонская битва. Нашествие персидских войск на Элладу", "order": 9},
+        {"slug": "v-afinskih-shkolah-i-teatre-5", "title": "В афинских школах и театре", "order": 10},
+        {"slug": "afinskaya-demokratiya-pri-perikle-5", "title": "Афинская демократия при Перикле", "order": 11},
+        {"slug": "makedoniya-i-pohod-aleksandra-5", "title": "Города Эллады подчиняются Македонии. Поход Александра Македонского", "order": 12}
+      ]
+    },
+    {
+      "name": "Древний Рим",
+      "order": 6,
+      "topics": [
+        {"slug": "drevneyshiy-rim-5", "title": "Древнейший Рим", "order": 1},
+        {"slug": "zavoevanie-rimom-italii-5", "title": "Завоевание Римом Италии. Устройство Римской республики", "order": 2},
+        {"slug": "voyny-rima-s-karfagenom-5", "title": "Войны Рима с Карфагеном. Господство Рима в Средиземноморье", "order": 3},
+        {"slug": "rabstvo-v-drevnem-rime-5", "title": "Рабство в Древнем Риме", "order": 4},
+        {"slug": "zemelnyy-zakon-grakhov-i-vosstanie-spartaka-5", "title": "Земельный закон братьев Гракхов. Восстание Спартака", "order": 5},
+        {"slug": "edinovlastie-tsezarya-i-ustanovlenie-imperii-5", "title": "Единовластие Цезаря. Установление империи", "order": 6},
+        {"slug": "rim-pri-nerone-i-pervye-hristiane-5", "title": "Рим при императоре Нероне. Первые христиане и их учение", "order": 7},
+        {"slug": "rastsvet-imperii-vechnyy-gorod-5", "title": "Расцвет Римской империи. «Вечный город» и его жители", "order": 8},
+        {"slug": "padenie-rimskoy-imperii-5", "title": "Римская империя при Константине. Взятие Рима варварами", "order": 9}
+      ]
+    },
+    {
+      "name": "Итоговое повторение",
+      "order": 7,
+      "topics": [
+        {"slug": "itogovoe-povtorenie-istoriya-5", "title": "Итоговое повторение курса истории Древнего мира", "order": 1}
+      ]
+    }
+  ]
+}

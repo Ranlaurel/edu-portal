@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «cloudy»?",
+      "options": [
+        {"text": "облачно", "correct": true},
+        {"text": "солнечно", "correct": false},
+        {"text": "ветрено", "correct": false}
+      ],
+      "explanation": "«Cloudy» — облачно (от слова cloud — облако)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Сегодня жарко»?",
+      "options": [
+        {"text": "It's hot today.", "correct": true},
+        {"text": "It hot today.", "correct": false},
+        {"text": "Is hot today.", "correct": false}
+      ],
+      "explanation": "Про погоду говорим через безличное It's + прилагательное."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают погоду? (выбери все верные варианты)",
+      "options": [
+        {"text": "sunny", "correct": true},
+        {"text": "umbrella", "correct": false},
+        {"text": "rainy", "correct": true},
+        {"text": "windy", "correct": true},
+        {"text": "weather", "correct": false}
+      ],
+      "explanation": "Sunny, rainy, windy — описания погоды. Umbrella (зонт) и weather (погода-существительное) — не прилагательные погоды."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's ___ now, take an umbrella!",
+      "options": [
+        {"text": "raining", "correct": true},
+        {"text": "rain", "correct": false},
+        {"text": "rains", "correct": false}
+      ],
+      "explanation": "Действие прямо сейчас выражается через It's raining."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's ___ in summer (жарко).",
+      "options": [
+        {"text": "hot", "correct": true},
+        {"text": "cold", "correct": false},
+        {"text": "snowy", "correct": false}
+      ],
+      "explanation": "Летом обычно жарко — hot."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: погода",
+      "answer": "weather",
+      "explanation": "«Погода» переводится как weather."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: It's ___ outside (идёт снег).",
+      "answer": "snowing",
+      "explanation": "«Идёт снег» — It's snowing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "warm", "right": "тепло"},
+        {"left": "cold", "right": "холодно"},
+        {"left": "snowy", "right": "снежно"},
+        {"left": "umbrella", "right": "зонт"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «It's windy»?",
+      "options": [
+        {"text": "Ветрено.", "correct": true},
+        {"text": "Идёт дождь.", "correct": false},
+        {"text": "Тепло.", "correct": false}
+      ],
+      "explanation": "«Windy» — ветрено."
+    }
+  ]
+}

@@ -15,12 +15,23 @@ from sqlalchemy.orm import relationship
 from app.db import Base
 
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True)
+    username = Column(String, unique=True, nullable=False)
+    password_hash = Column(String, nullable=False)
+    display_name = Column(String, nullable=True)
+    is_active = Column(Boolean, default=True, nullable=False)
+
+
 class Subject(Base):
     __tablename__ = "subjects"
 
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
     slug = Column(String, unique=True, nullable=False)
+    grade = Column(Integer, default=6, nullable=False)
 
     sections = relationship("Section", back_populates="subject", order_by="Section.order")
 
@@ -108,7 +119,7 @@ class UserProgress(Base):
     __table_args__ = (UniqueConstraint("user_id", "topic_id", name="uq_user_topic"),)
 
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, default=1, nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id"), default=1, nullable=False)
     topic_id = Column(Integer, ForeignKey("topics.id"), nullable=False)
     status = Column(String, default="not_started")  # not_started | passed | needs_review
     best_score = Column(Integer, default=0)  # percent
@@ -124,7 +135,7 @@ class Attempt(Base):
     __tablename__ = "attempts"
 
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, default=1, nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id"), default=1, nullable=False)
     topic_id = Column(Integer, ForeignKey("topics.id"), nullable=False)
     score = Column(Integer, nullable=False)
     passed = Column(Boolean, default=False)

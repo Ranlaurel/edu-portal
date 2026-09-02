@@ -26,12 +26,15 @@ def load_subject(db, subject_dir: Path):
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     subject_data = manifest["subject"]
+    grade = subject_data.get("grade", 6)
     subject = db.query(Subject).filter_by(slug=subject_data["slug"]).first()
     if not subject:
-        subject = Subject(name=subject_data["name"], slug=subject_data["slug"])
+        subject = Subject(name=subject_data["name"], slug=subject_data["slug"], grade=grade)
         db.add(subject)
         db.flush()
-        print(f"  + subject {subject.name}")
+        print(f"  + subject {subject.name} (grade {grade})")
+    else:
+        subject.grade = grade
 
     for section_data in manifest["sections"]:
         section = (

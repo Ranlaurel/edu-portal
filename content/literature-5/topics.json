@@ -1,0 +1,66 @@
+{
+  "subject": {"name": "Литература", "slug": "literature-5", "grade": 5},
+  "sections": [
+    {
+      "name": "Устное народное творчество",
+      "order": 1,
+      "topics": [
+        {"slug": "folklor-5", "title": "Фольклор — коллективное устное народное творчество", "order": 1},
+        {"slug": "tsarevna-lyagushka-5", "title": "Русская народная сказка «Царевна-лягушка»", "order": 2},
+        {"slug": "skazki-o-zhivotnyh-bytovye-5", "title": "Сказки о животных и бытовые сказки", "order": 3}
+      ]
+    },
+    {
+      "name": "Древнерусская литература и XVIII век",
+      "order": 2,
+      "topics": [
+        {"slug": "povest-vremennyh-let-5", "title": "«Повесть временных лет». Подвиг отрока-киевлянина", "order": 1},
+        {"slug": "lomonosov-5", "title": "М. В. Ломоносов — учёный и поэт", "order": 2}
+      ]
+    },
+    {
+      "name": "Русская литература XIX века",
+      "order": 3,
+      "topics": [
+        {"slug": "krylov-basni-5", "title": "И. А. Крылов. Басни", "order": 1},
+        {"slug": "zhukovskiy-spyaschaya-tsarevna-5", "title": "В. А. Жуковский. «Спящая царевна»", "order": 2},
+        {"slug": "pushkin-biografiya-nyane-5", "title": "А. С. Пушкин. «Няне», «У лукоморья дуб зелёный»", "order": 3},
+        {"slug": "pushkin-skazka-o-mertvoy-tsarevne-5", "title": "А. С. Пушкин. «Сказка о мёртвой царевне и о семи богатырях»", "order": 4},
+        {"slug": "pogorelskiy-chernaya-kuritsa-5", "title": "А. Погорельский. «Чёрная курица, или Подземные жители»", "order": 5},
+        {"slug": "lermontov-borodino-5", "title": "М. Ю. Лермонтов. «Бородино»", "order": 6},
+        {"slug": "gogol-zakoldovannoe-mesto-5", "title": "Н. В. Гоголь. «Заколдованное место»", "order": 7},
+        {"slug": "nekrasov-krestyanskie-deti-5", "title": "Н. А. Некрасов. «Крестьянские дети»", "order": 8},
+        {"slug": "turgenev-mumu-5", "title": "И. С. Тургенев. «Муму»", "order": 9},
+        {"slug": "tolstoy-kavkazskiy-plennik-5", "title": "Л. Н. Толстой. «Кавказский пленник»", "order": 10},
+        {"slug": "chehov-hirurgiya-5", "title": "А. П. Чехов. «Хирургия»", "order": 11},
+        {"slug": "poety-19-veka-o-prirode-5", "title": "Поэты XIX века о родине и родной природе", "order": 12}
+      ]
+    },
+    {
+      "name": "Русская литература XX века",
+      "order": 4,
+      "topics": [
+        {"slug": "bunin-koscy-5", "title": "И. А. Бунин. «Косцы»", "order": 1},
+        {"slug": "korolenko-v-durnom-obschestve-5", "title": "В. Г. Короленко. «В дурном обществе»", "order": 2},
+        {"slug": "esenin-stihi-o-rodine-5", "title": "С. А. Есенин. Стихи о родине", "order": 3},
+        {"slug": "bazhov-mednoy-gory-hozyayka-5", "title": "П. П. Бажов. «Медной горы Хозяйка»", "order": 4},
+        {"slug": "paustovskiy-teplyy-hleb-5", "title": "К. Г. Паустовский. «Тёплый хлеб»", "order": 5},
+        {"slug": "marshak-dvenadtsat-mesyatsev-5", "title": "С. Я. Маршак. «Двенадцать месяцев»", "order": 6},
+        {"slug": "platonov-nikita-5", "title": "А. П. Платонов. «Никита»", "order": 7},
+        {"slug": "astafyev-vasyutkino-ozero-5", "title": "В. П. Астафьев. «Васюткино озеро»", "order": 8},
+        {"slug": "poety-o-vov-5", "title": "Поэты о Великой Отечественной войне", "order": 9},
+        {"slug": "pisateli-ulybayutsya-sasha-cherny-5", "title": "Писатели улыбаются: Саша Чёрный", "order": 10}
+      ]
+    },
+    {
+      "name": "Зарубежная литература",
+      "order": 5,
+      "topics": [
+        {"slug": "defo-robinzon-kruzo-5", "title": "Д. Дефо. «Робинзон Крузо»", "order": 1},
+        {"slug": "andersen-skazki-5", "title": "Х. К. Андерсен. Сказки", "order": 2},
+        {"slug": "tven-priklyucheniya-toma-soyera-5", "title": "М. Твен. «Приключения Тома Сойера»", "order": 3},
+        {"slug": "london-skazanie-o-kishe-5", "title": "Дж. Лондон. «Сказание о Кише»", "order": 4}
+      ]
+    }
+  ]
+}

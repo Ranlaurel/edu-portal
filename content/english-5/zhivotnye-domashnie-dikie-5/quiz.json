@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «pet»?",
+      "options": [
+        {"text": "домашнее животное", "correct": true},
+        {"text": "дикое животное", "correct": false},
+        {"text": "зоопарк", "correct": false}
+      ],
+      "explanation": "«Pet» — домашнее животное (питомец)."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: A monkey ___ climb trees.",
+      "options": [
+        {"text": "can", "correct": true},
+        {"text": "cans", "correct": false},
+        {"text": "is can", "correct": false}
+      ],
+      "explanation": "После модального глагола can к глаголу не добавляется -s."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие животные обычно считаются дикими? (выбери все верные варианты)",
+      "options": [
+        {"text": "lion", "correct": true},
+        {"text": "cat", "correct": false},
+        {"text": "tiger", "correct": true},
+        {"text": "bear", "correct": true},
+        {"text": "dog", "correct": false}
+      ],
+      "explanation": "Lion, tiger, bear — дикие животные. Cat и dog — домашние питомцы."
+    },
+    {
+      "type": "dropdown",
+      "text": "Fish ___ live without water.",
+      "options": [
+        {"text": "can't", "correct": true},
+        {"text": "isn't", "correct": false},
+        {"text": "don't can", "correct": false}
+      ],
+      "explanation": "Отрицание модального глагола can — can't (cannot)."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ a bear swim?",
+      "options": [
+        {"text": "Can", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Does", "correct": false}
+      ],
+      "explanation": "Вопрос с модальным can строится через вынос can на первое место."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: обезьяна",
+      "answer": "monkey",
+      "explanation": "«Обезьяна» переводится как monkey."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: A tiger ___ (run) fast.",
+      "answer": "can run",
+      "explanation": "Способность выражается через can + глагол: can run."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "elephant", "right": "слон"},
+        {"left": "rabbit", "right": "кролик"},
+        {"left": "zoo", "right": "зоопарк"},
+        {"left": "animal", "right": "животное"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Собака не умеет летать»?",
+      "options": [
+        {"text": "A dog can't fly.", "correct": true},
+        {"text": "A dog isn't fly.", "correct": false},
+        {"text": "A dog cans not fly.", "correct": false}
+      ],
+      "explanation": "Отрицание способности выражается через can't + глагол без -s."
+    }
+  ]
+}

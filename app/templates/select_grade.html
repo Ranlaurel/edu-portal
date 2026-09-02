@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Выбор класса{% endblock %}
+{% block content %}
+<h1>Выберите класс</h1>
+<p class="quiz-hint">Программа и расписание будут показаны для выбранного класса. Переключиться можно в любой момент в верхнем меню.</p>
+
+<div class="grade-grid">
+  <a class="grade-card" href="/select-grade/5">
+    <div class="grade-num">5</div>
+    <div class="grade-label">5 класс</div>
+  </a>
+  <a class="grade-card" href="/select-grade/6">
+    <div class="grade-num">6</div>
+    <div class="grade-label">6 класс</div>
+  </a>
+</div>
+{% endblock %}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «half past»?",
+      "options": [
+        {"text": "половина", "correct": true},
+        {"text": "четверть", "correct": false},
+        {"text": "минута", "correct": false}
+      ],
+      "explanation": "«Half past» используется для обозначения половины часа."
+    },
+    {
+      "type": "single",
+      "text": "Как будет число 30?",
+      "options": [
+        {"text": "thirty", "correct": true},
+        {"text": "thirteen", "correct": false},
+        {"text": "three", "correct": false}
+      ],
+      "explanation": "30 — thirty, thirteen — это 13, three — это 3."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к обозначению времени? (выбери все верные варианты)",
+      "options": [
+        {"text": "o'clock", "correct": true},
+        {"text": "hundred", "correct": false},
+        {"text": "quarter", "correct": true},
+        {"text": "minute", "correct": true},
+        {"text": "forty", "correct": false}
+      ],
+      "explanation": "O'clock, quarter, minute относятся ко времени. Hundred и forty — числа."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's a quarter ___ seven (без четверти семь).",
+      "options": [
+        {"text": "to", "correct": true},
+        {"text": "past", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "«Без четверти» переводится как a quarter to."
+    },
+    {
+      "type": "dropdown",
+      "text": "There are ___ pupils in our class (пятьдесят).",
+      "options": [
+        {"text": "fifty", "correct": true},
+        {"text": "fifteen", "correct": false},
+        {"text": "five", "correct": false}
+      ],
+      "explanation": "50 — fifty."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши число словом: 100",
+      "answer": "hundred",
+      "explanation": "100 переводится как hundred (a hundred/one hundred)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопрос: ___ time is it? (Который час?)",
+      "answer": "What",
+      "explanation": "«Который час?» по-английски What time is it?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "hour", "right": "час (промежуток)"},
+        {"left": "minute", "right": "минута"},
+        {"left": "quarter", "right": "четверть"},
+        {"left": "forty", "right": "сорок"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Сейчас пять часов»?",
+      "options": [
+        {"text": "It's five o'clock.", "correct": true},
+        {"text": "It's five hour.", "correct": false},
+        {"text": "It's o'clock five.", "correct": false}
+      ],
+      "explanation": "Ровное время выражается через «It's + число + o'clock»."
+    }
+  ]
+}

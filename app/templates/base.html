@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}СВОЯ РЭШ{% endblock %}</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%93%9A</text></svg>">
-  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/style.css?v=2">
 </head>
 <body>
   <header class="topbar">
@@ -15,6 +15,13 @@
       <a href="/subjects">Предметы</a>
       <a href="/schedule">Расписание</a>
       <a href="/review">Повторение</a>
+      <span class="grade-switch">
+        <a href="/select-grade/5" class="{% if request.session.get('grade') == 5 %}grade-active{% endif %}">5 кл.</a>
+        <a href="/select-grade/6" class="{% if request.session.get('grade', 6) == 6 %}grade-active{% endif %}">6 кл.</a>
+      </span>
+      {% if current_user and current_user.display_name %}
+        <span class="user-greeting">{{ current_user.display_name }}</span>
+      {% endif %}
       {% if auth_enabled %}<a href="/logout">Выйти</a>{% endif %}
     </nav>
   </header>

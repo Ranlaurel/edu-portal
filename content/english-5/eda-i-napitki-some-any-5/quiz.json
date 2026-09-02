@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «sugar»?",
+      "options": [
+        {"text": "сахар", "correct": true},
+        {"text": "сыр", "correct": false},
+        {"text": "рис", "correct": false}
+      ],
+      "explanation": "«Sugar» — сахар."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верное слово: There is ___ milk in the fridge.",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В утвердительном предложении используется some."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают напитки или продукты для питья/еды? (выбери все верные варианты)",
+      "options": [
+        {"text": "juice", "correct": true},
+        {"text": "chair", "correct": false},
+        {"text": "milk", "correct": true},
+        {"text": "water", "correct": true},
+        {"text": "wardrobe", "correct": false}
+      ],
+      "explanation": "Juice, milk, water — напитки. Chair и wardrobe — мебель."
+    },
+    {
+      "type": "dropdown",
+      "text": "Is there ___ juice in the fridge?",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В вопросе используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "There isn't ___ bread on the table.",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "В отрицании используется any."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: яйцо",
+      "answer": "egg",
+      "explanation": "«Яйцо» переводится как egg."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I've got ___ apples (некоторые/несколько яблок).",
+      "answer": "some",
+      "explanation": "В утверждении с исчисляемыми существительными во множественном числе используется some."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "bread", "right": "хлеб"},
+        {"left": "cheese", "right": "сыр"},
+        {"left": "rice", "right": "рис"},
+        {"left": "sweets", "right": "сладости"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Хлеба нет»?",
+      "options": [
+        {"text": "There isn't any bread.", "correct": true},
+        {"text": "There isn't some bread.", "correct": false},
+        {"text": "There is any bread.", "correct": false}
+      ],
+      "explanation": "В отрицании используется any, а не some."
+    }
+  ]
+}

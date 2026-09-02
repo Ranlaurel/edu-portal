@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 portal.db
 .claude/
+.gstack/
+artifacts/
+scripts/__pycache__/

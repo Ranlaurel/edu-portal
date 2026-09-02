@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «climb»?",
+      "options": [
+        {"text": "лазать", "correct": true},
+        {"text": "прыгать", "correct": false},
+        {"text": "бегать", "correct": false}
+      ],
+      "explanation": "«Climb» — лазать (например, по дереву)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «Ты умеешь плавать?»",
+      "options": [
+        {"text": "Can you swim?", "correct": true},
+        {"text": "Do you can swim?", "correct": false},
+        {"text": "Can you to swim?", "correct": false}
+      ],
+      "explanation": "Вопрос с can строится перестановкой: Can + подлежащее + глагол (без to)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения составлены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I can dance.", "correct": true},
+        {"text": "She can sings.", "correct": false},
+        {"text": "He can't cook.", "correct": true},
+        {"text": "They can to draw.", "correct": false},
+        {"text": "We can play chess.", "correct": true}
+      ],
+      "explanation": "После can/can't глагол всегда стоит без -s и без to: can dance, can't cook, can play — верно; can sings и can to draw — ошибки."
+    },
+    {
+      "type": "dropdown",
+      "text": "My dog ___ jump very high.",
+      "options": [
+        {"text": "can", "correct": true},
+        {"text": "cans", "correct": false},
+        {"text": "canning", "correct": false}
+      ],
+      "explanation": "Can не меняется по лицам — окончание -s не добавляется даже для he/she/it (dog)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Can he ___ English?",
+      "options": [
+        {"text": "speak", "correct": true},
+        {"text": "speaks", "correct": false},
+        {"text": "to speak", "correct": false}
+      ],
+      "explanation": "После can глагол стоит в начальной форме, без -s и без to."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: кататься на коньках",
+      "answer": "skate",
+      "explanation": "«Кататься на коньках» — skate."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши краткий отрицательный ответ на вопрос «Can cats swim?» (два слова местоимение + can't)",
+      "answer": "they can't",
+      "accepted": ["they can't", "they cannot"],
+      "explanation": "Краткий отрицательный ответ: No, they can't (умение отсутствует)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "sing", "right": "петь"},
+        {"left": "ride a bike", "right": "кататься на велосипеде"},
+        {"left": "cook", "right": "готовить"},
+        {"left": "jump", "right": "прыгать"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: «Она не умеет петь»",
+      "options": [
+        {"text": "She can't sing.", "correct": true},
+        {"text": "She doesn't can sing.", "correct": false},
+        {"text": "She not can sing.", "correct": false}
+      ],
+      "explanation": "Отрицание с can образуется добавлением частицы not: can't (cannot), а не через doesn't."
+    }
+  ]
+}

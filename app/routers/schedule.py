@@ -7,11 +7,13 @@ from sqlalchemy.orm import Session
 
 from app.db import get_db
 from app.models import Topic
+from app.routers.topics import current_grade
+from app.auth import current_user
 from app.templating import templates
 
 router = APIRouter()
 
-SCHEDULE_PATH = Path(__file__).resolve().parent.parent.parent / "content" / "schedule.json"
+CONTENT_DIR = Path(__file__).resolve().parent.parent.parent / "content"
 
 WEEKDAY_RU = {
     "Monday": "Пн", "Tuesday": "Вт", "Wednesday": "Ср",
@@ -21,7 +23,9 @@ WEEKDAY_RU = {
 
 @router.get("/schedule")
 def schedule_page(request: Request, db: Session = Depends(get_db)):
-    data = json.loads(SCHEDULE_PATH.read_text(encoding="utf-8"))
+    grade = current_grade(request)
+    schedule_path = CONTENT_DIR / f"schedule-{grade}.json"
+    data = json.loads(schedule_path.read_text(encoding="utf-8"))
     topics_by_slug = {t.slug: t for t in db.query(Topic).all()}
 
     today = date.today().isoformat()
@@ -69,4 +73,4 @@ def schedule_page(request: Request, db: Session = Depends(get_db)):
         w["end_date"] = w["days"][-1]["date"]
         w["is_current"] = w["start_date"] <= today <= w["end_date"]
 
-    return templates.TemplateResponse("schedule.html", {"request": request, "weeks": week_list})
+    return templates.TemplateResponse("schedule.html", {"request": request, "weeks": week_list, "current_user": current_user(db, request)})

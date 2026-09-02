@@ -40,11 +40,13 @@ jobs:
             python -c "from app.main import app; print('DB OK')"
             TOPIC_COUNT=$(python -c "from app.db import SessionLocal; from app.models import Topic; db=SessionLocal(); print(db.query(Topic).count()); db.close()")
             [ "$TOPIC_COUNT" -lt 500 ] && python pipeline/load_content.py || echo "Content OK ($TOPIC_COUNT topics)"
-            chmod 600 portal.db 2>/dev/null || true
-            echo "Configuring systemd..."
-            [ ! -f "setup-systemd.sh" ] && echo "ERROR: setup-systemd.sh not found!" && exit 1
-            chmod +x setup-systemd.sh
-            ./setup-systemd.sh
+            # Deploy runs as root over SSH; the service runs as www-data, so hand
+            # the whole tree back to it (this is what caused the portal.db
+            # "unable to open database file" crash loop -- root-owned files the
+            # service user couldn't read).
+            chown -R www-data:www-data "$DEPLOY_PATH"
+            echo "Restarting service..."
+            systemctl restart edu-portal
             echo "=== Deployment Complete ==="
         env:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}

@@ -47,17 +47,22 @@ def verify_password(password: str, encoded: str) -> bool:
         return False
 
 
-def current_user_id(request: Request) -> int:
+def current_user_id(request: Request) -> int | None:
     user_id = request.session.get("user_id")
-    if AUTH_ENABLED and not user_id:
-        # In production mode, missing session should redirect to login
-        # Fallback to 1 only for local development
-        return 1
-    return int(user_id or 1)
+    if isinstance(user_id, int):
+        return user_id
+    if AUTH_ENABLED:
+        # No session yet -- caller must treat this as "not logged in", not fall
+        # back to some default account (that caused GET /login to always think
+        # a user was already signed in, redirecting back to "/" in a loop).
+        return None
+    return 1
 
 
 def current_user(db: Session, request: Request) -> User | None:
     user_id = current_user_id(request)
+    if user_id is None:
+        return None
     return db.query(User).get(user_id)
 
 

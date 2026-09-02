@@ -67,6 +67,11 @@ def current_user(db: Session, request: Request) -> User | None:
 
 
 def ensure_bootstrap_user(db: Session) -> None:
+    """Create the primary account (EDU_PORTAL_LOGIN/EDU_PORTAL_PASSWORD) if the
+    users table is still empty. This is the single source of truth for that
+    account's password -- it's never overwritten here on later startups, so
+    changing it means updating the DB directly, not just the env var.
+    """
     if not AUTH_ENABLED:
         return
     if db.query(User).count() > 0:
@@ -75,25 +80,33 @@ def ensure_bootstrap_user(db: Session) -> None:
     db.commit()
 
 
-def ensure_hardcoded_users(db: Session) -> None:
-    """Create hardcoded users for Ranlaurel4 and Shvedko1 if they don't exist.
-    
-    TODO: Move passwords to environment variables in production:
-      - EDU_RANLAUREL4_PASSWORD
-      - EDU_SHVEDKO1_PASSWORD
+def ensure_extra_users(db: Session) -> None:
+    """Create any additional family accounts defined via env vars, if they
+    don't exist yet. Real passwords must never be hardcoded here (this repo
+    is public) -- add one env var per extra account:
+      EDU_EXTRA_USER_<N>=<username>:<display name>
+      EDU_EXTRA_PASSWORD_<N>=<password>
     """
-    users = [
-        {"username": "Ranlaurel4", "password": "елисей2018", "display_name": "Елисей С."},
-        {"username": "Shvedko1", "password": "анжелика2017", "display_name": "Анжелика Ш."},
-    ]
-    for user_data in users:
-        existing = db.query(User).filter_by(username=user_data["username"]).first()
+    i = 1
+    while True:
+        spec = os.environ.get(f"EDU_EXTRA_USER_{i}")
+        password = os.environ.get(f"EDU_EXTRA_PASSWORD_{i}")
+        if not spec:
+            break
+        i += 1
+        if not password:
+            continue
+        username, _, display_name = spec.partition(":")
+        username = username.strip()
+        if not username:
+            continue
+        existing = db.query(User).filter_by(username=username).first()
         if not existing:
             db.add(
                 User(
-                    username=user_data["username"],
-                    password_hash=hash_password(user_data["password"]),
-                    display_name=user_data["display_name"],
+                    username=username,
+                    password_hash=hash_password(password),
+                    display_name=display_name.strip() or None,
                 )
             )
     db.commit()

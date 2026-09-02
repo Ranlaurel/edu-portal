@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from starlette.middleware.sessions import SessionMiddleware
 
 from app import migrate
-from app.auth import AUTH_ENABLED, SECRET_KEY, ensure_bootstrap_user, ensure_hardcoded_users, is_authenticated, is_public_path
+from app.auth import AUTH_ENABLED, SECRET_KEY, ensure_bootstrap_user, ensure_extra_users, is_authenticated, is_public_path
 from app.db import Base, SessionLocal, engine
 from app.routers import auth, dashboard, progress, quiz, review, schedule, topics
 
@@ -14,7 +14,7 @@ Base.metadata.create_all(bind=engine)
 migrate.run(engine)
 with SessionLocal() as db:
     ensure_bootstrap_user(db)
-    ensure_hardcoded_users(db)
+    ensure_extra_users(db)
 
 app = FastAPI(title="СВОЯ РЭШ")
 

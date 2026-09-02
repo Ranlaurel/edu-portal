@@ -97,6 +97,9 @@ jobs:
             echo "Health check..."
             if curl -f -s http://localhost:8000/login > /dev/null; then
               echo "✓ Application is responding on port 8000"
+              echo "Checking what's actually running:"
+              ps aux | grep uvicorn | grep -v grep || echo "No uvicorn processes found"
+              netstat -tlnp 2>/dev/null | grep :8000 || ss -tlnp 2>/dev/null | grep :8000 || echo "Port 8000 status unknown"
             else
               echo "✗ Health check failed"
               exit 1

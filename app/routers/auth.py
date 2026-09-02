@@ -12,7 +12,7 @@ router = APIRouter()
 
 @router.get("/login")
 def login_form(request: Request, db: Session = Depends(get_db)):
-    return templates.TemplateResponse("login.html", {"request": request, "error": None, "current_user": current_user(db, request)})
+    return templates.TemplateResponse("login.html", {"request": request, "error": None, "current_user": None})
 
 
 @router.post("/login")

@@ -26,7 +26,18 @@ jobs:
           script: |
             echo "Starting deployment..."
             
-            cd "$DEPLOY_PATH" || exit 1
+            # Force update to latest code
+            if [ -d "$DEPLOY_PATH" ]; then
+              cd "$DEPLOY_PATH"
+              echo "Updating existing repository..."
+              git fetch origin --force
+              git reset --hard origin/main
+              git clean -fdx -e .venv
+            else
+              echo "Repository not found, cloning..."
+              git clone https://github.com/Ranlaurel/edu-portal.git "$DEPLOY_PATH"
+              cd "$DEPLOY_PATH"
+            fi
             
             echo "Deploy path: $DEPLOY_PATH"
             echo "Current directory: $(pwd)"

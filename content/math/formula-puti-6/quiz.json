@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Автомобиль ехал со скоростью 80 км/ч в течение 3 часов. Какой путь он проехал?",
+      "options": [
+        {"text": "240 км", "correct": true},
+        {"text": "83 км", "correct": false},
+        {"text": "27 км", "correct": false},
+        {"text": "160 км", "correct": false}
+      ],
+      "explanation": "Путь находится по формуле s = v × t: 80 × 3 = 240 км."
+    },
+    {
+      "type": "single",
+      "text": "Поезд прошёл 360 км за 4 часа. Какова его скорость?",
+      "options": [
+        {"text": "90 км/ч", "correct": true},
+        {"text": "364 км/ч", "correct": false},
+        {"text": "1440 км/ч", "correct": false},
+        {"text": "45 км/ч", "correct": false}
+      ],
+      "explanation": "Скорость находится по формуле v = s ÷ t: 360 ÷ 4 = 90 км/ч."
+    },
+    {
+      "type": "single",
+      "text": "Велосипедист проехал 45 км со скоростью 15 км/ч. Сколько времени он был в пути?",
+      "options": [
+        {"text": "3 ч", "correct": true},
+        {"text": "60 ч", "correct": false},
+        {"text": "30 ч", "correct": false},
+        {"text": "675 ч", "correct": false}
+      ],
+      "explanation": "Время находится по формуле t = s ÷ v: 45 ÷ 15 = 3 ч."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих равенств верно связывают путь, скорость и время? (выбери все верные варианты)",
+      "options": [
+        {"text": "s = v × t", "correct": true},
+        {"text": "v = s ÷ t", "correct": true},
+        {"text": "t = s ÷ v", "correct": true},
+        {"text": "s = v ÷ t", "correct": false},
+        {"text": "v = s × t", "correct": false}
+      ],
+      "explanation": "Из основной формулы s = v × t можно выразить v = s ÷ t и t = s ÷ v делением."
+    },
+    {
+      "type": "multiple",
+      "text": "Катер шёл со скоростью 24 км/ч. Выбери верные значения пути (выбери все верные варианты).",
+      "options": [
+        {"text": "за 5 часов прошёл 120 км", "correct": true},
+        {"text": "за 2 часа прошёл 48 км", "correct": true},
+        {"text": "за 10 часов прошёл 240 км", "correct": true},
+        {"text": "за 5 часов прошёл 29 км", "correct": false},
+        {"text": "за 3 часа прошёл 100 км", "correct": false}
+      ],
+      "explanation": "24×5=120, 24×2=48, 24×10=240. Значения 29 и 100 не получаются умножением 24 на целое число часов из условия."
+    },
+    {
+      "type": "dropdown",
+      "text": "Автобус прошёл 150 км со скоростью 50 км/ч. Время в пути равно: ___",
+      "options": [
+        {"text": "3 ч", "correct": true},
+        {"text": "100 ч", "correct": false},
+        {"text": "7500 ч", "correct": false}
+      ],
+      "explanation": "t = s ÷ v = 150 ÷ 50 = 3 ч."
+    },
+    {
+      "type": "dropdown",
+      "text": "Турист прошёл 18 км за 3 часа. Его скорость равна: ___",
+      "options": [
+        {"text": "6 км/ч", "correct": true},
+        {"text": "15 км/ч", "correct": false},
+        {"text": "54 км/ч", "correct": false}
+      ],
+      "explanation": "v = s ÷ t = 18 ÷ 3 = 6 км/ч."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: самолёт летит со скоростью 800 км/ч 2 часа. Путь равен ___ км.",
+      "answer": "1600",
+      "explanation": "s = v × t = 800 × 2 = 1600 км."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: лыжник шёл 4 часа и прошёл 20 км. Его скорость равна ___ км/ч.",
+      "answer": "5",
+      "explanation": "v = s ÷ t = 20 ÷ 4 = 5 км/ч."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини величину с формулой для её вычисления:",
+      "pairs": [
+        {"left": "путь s", "right": "v × t"},
+        {"left": "скорость v", "right": "s ÷ t"},
+        {"left": "время t", "right": "s ÷ v"},
+        {"left": "путь при v=90 км/ч, t=4 ч", "right": "360 км"}
+      ],
+      "explanation": "Основная формула s = v × t, из неё выражаются v = s ÷ t и t = s ÷ v; при v=90 и t=4 путь равен 90×4=360 км."
+    }
+  ]
+}

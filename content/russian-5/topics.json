@@ -1,122 +1,522 @@
 {
-  "subject": {"name": "Русский язык", "slug": "russian-5", "grade": 5},
+  "subject": {
+    "name": "Русский язык",
+    "slug": "russian-5",
+    "grade": 5
+  },
   "sections": [
     {
       "name": "Повторение изученного в начальной школе",
       "order": 1,
       "topics": [
-        {"slug": "chasti-slova-orfogrammy-v-kornyah", "title": "Части слова. Орфограммы в корнях слов", "order": 1},
-        {"slug": "orfogrammy-v-okonchaniyah", "title": "Орфограммы в приставках и в окончаниях слов", "order": 2},
-        {"slug": "chasti-rechi", "title": "Части речи", "order": 3},
-        {"slug": "glagol-tsya-tsya-ne-s-glagolom", "title": "Глагол: -тся и -ться, НЕ с глаголом", "order": 4},
-        {"slug": "imya-sushestvitelnoe-imya-prilagatelnoe-povtorenie", "title": "Имя существительное и имя прилагательное: повторение", "order": 5},
-        {"slug": "mestoimenie-povtorenie", "title": "Местоимение: повторение", "order": 6},
-        {"slug": "tekst-osnovnaya-mysl", "title": "Текст и его основная мысль", "order": 7},
-        {"slug": "tipy-rechi-nachalnoe-predstavlenie", "title": "Типы речи: повествование, описание, рассуждение", "order": 8}
+        {
+          "slug": "chasti-slova-5b",
+          "title": "Части слова: приставка, корень, суффикс, окончание",
+          "order": 1
+        },
+        {
+          "slug": "orfogrammy-v-korne-glasnye-5b",
+          "title": "Орфограммы в корне слова: гласные и согласные",
+          "order": 2
+        },
+        {
+          "slug": "pristavki-orfogrammy-5b",
+          "title": "Правописание приставок",
+          "order": 3
+        },
+        {
+          "slug": "glasnye-v-okonchaniyah-slov-5b",
+          "title": "Правописание гласных в окончаниях слов",
+          "order": 4
+        },
+        {
+          "slug": "chasti-rechi",
+          "title": "Части речи",
+          "order": 5
+        },
+        {
+          "slug": "tsya-tsya-glagol-5b",
+          "title": "-тся и -ться в глаголах",
+          "order": 6
+        },
+        {
+          "slug": "ne-s-glagolom-5b",
+          "title": "НЕ с глаголом",
+          "order": 7
+        },
+        {
+          "slug": "sushestvitelnoe-povtorenie-5b",
+          "title": "Имя существительное: повторение",
+          "order": 8
+        },
+        {
+          "slug": "prilagatelnoe-povtorenie-5b",
+          "title": "Имя прилагательное: повторение",
+          "order": 9
+        },
+        {
+          "slug": "mestoimenie-povtorenie",
+          "title": "Местоимение: повторение",
+          "order": 10
+        },
+        {
+          "slug": "tekst-osnovnaya-mysl",
+          "title": "Текст и его основная мысль",
+          "order": 11
+        },
+        {
+          "slug": "povestvovanie-tip-rechi-5b",
+          "title": "Тип речи: повествование",
+          "order": 12
+        },
+        {
+          "slug": "opisanie-tip-rechi-5b",
+          "title": "Тип речи: описание",
+          "order": 13
+        },
+        {
+          "slug": "rassuzhdenie-tip-rechi-5b",
+          "title": "Тип речи: рассуждение",
+          "order": 14
+        }
       ]
     },
     {
       "name": "Синтаксис и пунктуация",
       "order": 2,
       "topics": [
-        {"slug": "slovosochetanie", "title": "Словосочетание. Разбор словосочетания", "order": 1},
-        {"slug": "predlozhenie-vidy-po-tseli-vyskazyvaniya", "title": "Предложение. Виды предложений по цели высказывания", "order": 2},
-        {"slug": "vosklitsatelnye-predlozheniya", "title": "Восклицательные предложения", "order": 3},
-        {"slug": "glavnye-chleny-podlezhaschee-skazuemoe", "title": "Главные члены предложения: подлежащее и сказуемое", "order": 4},
-        {"slug": "tire-mezhdu-podlezhaschim-i-skazuemym", "title": "Тире между подлежащим и сказуемым", "order": 5},
-        {"slug": "rasprostranennye-nerasprostranennye-vtorostepennye", "title": "Распространённые и нераспространённые предложения. Второстепенные члены", "order": 6},
-        {"slug": "dopolnenie", "title": "Дополнение", "order": 7},
-        {"slug": "opredelenie", "title": "Определение", "order": 8},
-        {"slug": "obstoyatelstvo", "title": "Обстоятельство", "order": 9},
-        {"slug": "odnorodnye-chleny-predlozheniya", "title": "Предложения с однородными членами. Знаки препинания при них", "order": 10},
-        {"slug": "obraschenie", "title": "Обращение. Знаки препинания при обращении", "order": 11},
-        {"slug": "sintaksicheskiy-razbor-prostogo-predlozheniya", "title": "Синтаксический разбор простого предложения", "order": 12},
-        {"slug": "slozhnoe-predlozhenie-zapyataya", "title": "Сложное предложение. Запятая в сложном предложении", "order": 13},
-        {"slug": "pryamaya-rech-dialog", "title": "Прямая речь. Диалог", "order": 14}
+        {
+          "slug": "slovosochetanie",
+          "title": "Словосочетание. Разбор словосочетания",
+          "order": 1
+        },
+        {
+          "slug": "predlozhenie-povestvovatelnoe-5b",
+          "title": "Повествовательные предложения",
+          "order": 2
+        },
+        {
+          "slug": "predlozhenie-voprositelnoe-5b",
+          "title": "Вопросительные предложения",
+          "order": 3
+        },
+        {
+          "slug": "predlozhenie-pobuditelnoe-5b",
+          "title": "Побудительные предложения",
+          "order": 4
+        },
+        {
+          "slug": "vosklitsatelnye-predlozheniya",
+          "title": "Восклицательные предложения",
+          "order": 5
+        },
+        {
+          "slug": "podlezhaschee-5b",
+          "title": "Подлежащее",
+          "order": 6
+        },
+        {
+          "slug": "skazuemoe-5b",
+          "title": "Сказуемое",
+          "order": 7
+        },
+        {
+          "slug": "tire-mezhdu-podlezhaschim-i-skazuemym",
+          "title": "Тире между подлежащим и сказуемым",
+          "order": 8
+        },
+        {
+          "slug": "rasprostranennye-predlozheniya-5b",
+          "title": "Распространённые предложения",
+          "order": 9
+        },
+        {
+          "slug": "vtorostepennye-chleny-obzor-5b",
+          "title": "Второстепенные члены предложения (обзор)",
+          "order": 10
+        },
+        {
+          "slug": "dopolnenie",
+          "title": "Дополнение",
+          "order": 11
+        },
+        {
+          "slug": "opredelenie",
+          "title": "Определение",
+          "order": 12
+        },
+        {
+          "slug": "obstoyatelstvo",
+          "title": "Обстоятельство",
+          "order": 13
+        },
+        {
+          "slug": "odnorodnye-chleny-predlozheniya",
+          "title": "Предложения с однородными членами. Знаки препинания при них",
+          "order": 14
+        },
+        {
+          "slug": "obraschenie",
+          "title": "Обращение. Знаки препинания при обращении",
+          "order": 15
+        },
+        {
+          "slug": "sintaksicheskiy-razbor-prostogo-predlozheniya",
+          "title": "Синтаксический разбор простого предложения",
+          "order": 16
+        },
+        {
+          "slug": "slozhnoe-predlozhenie-zapyataya",
+          "title": "Сложное предложение. Запятая в сложном предложении",
+          "order": 17
+        },
+        {
+          "slug": "pryamaya-rech-5b",
+          "title": "Прямая речь",
+          "order": 18
+        },
+        {
+          "slug": "dialog-5b",
+          "title": "Диалог",
+          "order": 19
+        }
       ]
     },
     {
       "name": "Фонетика. Орфоэпия. Графика",
       "order": 3,
       "topics": [
-        {"slug": "fonetika-glasnye-zvuki", "title": "Фонетика как раздел науки о языке. Гласные звуки", "order": 1},
-        {"slug": "soglasnye-zvuki", "title": "Согласные звуки. Изменение звуков в потоке речи", "order": 2},
-        {"slug": "tverdye-myagkie-soglasnye", "title": "Твёрдые и мягкие согласные", "order": 3},
-        {"slug": "zvonkie-gluhie-soglasnye", "title": "Звонкие и глухие согласные", "order": 4},
-        {"slug": "grafika-alfavit", "title": "Графика. Алфавит", "order": 5},
-        {"slug": "oboznachenie-myagkosti-e-e-yu-ya", "title": "Обозначение мягкости согласных на письме. Двойная роль букв Е, Ё, Ю, Я", "order": 6},
-        {"slug": "orfoepiya-foneticheskiy-razbor", "title": "Орфоэпия. Фонетический разбор слова", "order": 7}
+        {
+          "slug": "fonetika-zvuki-bukvy-5b",
+          "title": "Фонетика: звуки и буквы",
+          "order": 1
+        },
+        {
+          "slug": "glasnye-zvuki-udarenie-5b",
+          "title": "Гласные звуки и ударение",
+          "order": 2
+        },
+        {
+          "slug": "soglasnyy-zvuk-5b",
+          "title": "Согласные звуки",
+          "order": 3
+        },
+        {
+          "slug": "izmenenie-zvukov-v-potoke-rechi-5b",
+          "title": "Изменение звуков в потоке речи",
+          "order": 4
+        },
+        {
+          "slug": "tverdye-myagkie-soglasnye",
+          "title": "Твёрдые и мягкие согласные",
+          "order": 5
+        },
+        {
+          "slug": "tverdyy-myagkiy-znak-bez-zvuka-5b",
+          "title": "Твёрдые и мягкие согласные",
+          "order": 6
+        },
+        {
+          "slug": "zvonkie-gluhie-soglasnye",
+          "title": "Звонкие и глухие согласные",
+          "order": 7
+        },
+        {
+          "slug": "grafika-alfavit",
+          "title": "Графика. Алфавит",
+          "order": 8
+        },
+        {
+          "slug": "grafika-alfavit-5b",
+          "title": "Графика. Алфавит",
+          "order": 9
+        },
+        {
+          "slug": "oboznachenie-myagkosti-5b",
+          "title": "Обозначение мягкости согласных на письме",
+          "order": 10
+        },
+        {
+          "slug": "dvoynaya-rol-e-e-yu-ya-5b",
+          "title": "Двойная роль букв Е, Ё, Ю, Я",
+          "order": 11
+        },
+        {
+          "slug": "orfoepiya-5b",
+          "title": "Орфоэпия",
+          "order": 12
+        },
+        {
+          "slug": "foneticheskiy-razbor-slova-5b",
+          "title": "Фонетический разбор слова",
+          "order": 13
+        }
       ]
     },
     {
       "name": "Лексика",
       "order": 4,
       "topics": [
-        {"slug": "leksicheskoe-znachenie-slova", "title": "Слово и его лексическое значение", "order": 1},
-        {"slug": "odnoznachnye-mnogoznachnye-slova", "title": "Однозначные и многозначные слова. Прямое и переносное значение", "order": 2},
-        {"slug": "omonimy", "title": "Омонимы", "order": 3},
-        {"slug": "sinonimy", "title": "Синонимы", "order": 4},
-        {"slug": "antonimy", "title": "Антонимы", "order": 5}
+        {
+          "slug": "leksicheskoe-znachenie-slova",
+          "title": "Слово и его лексическое значение",
+          "order": 1
+        },
+        {
+          "slug": "odnoznachnye-mnogoznachnye-5b",
+          "title": "Однозначные и многозначные слова",
+          "order": 2
+        },
+        {
+          "slug": "pryamoe-perenosnoe-znachenie-5b",
+          "title": "Прямое и переносное значение слова",
+          "order": 3
+        },
+        {
+          "slug": "omonimy",
+          "title": "Омонимы",
+          "order": 4
+        },
+        {
+          "slug": "sinonimy",
+          "title": "Синонимы",
+          "order": 5
+        },
+        {
+          "slug": "antonimy",
+          "title": "Антонимы",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Морфемика. Орфография",
       "order": 5,
       "topics": [
-        {"slug": "morfema-okonchanie-osnova", "title": "Морфема. Окончание и основа слова", "order": 1},
-        {"slug": "koren-slova", "title": "Корень слова. Однокоренные слова", "order": 2},
-        {"slug": "suffiks-pristavka", "title": "Суффикс. Приставка", "order": 3},
-        {"slug": "cheredovanie-zvukov-begl-glasnye", "title": "Чередование звуков. Беглые гласные", "order": 4},
-        {"slug": "morfemnyy-razbor-slova", "title": "Морфемный разбор слова", "order": 5},
-        {"slug": "glasnye-soglasnye-v-pristavkah-z-s", "title": "Правописание гласных и согласных в приставках. Буквы З и С на конце приставок", "order": 6},
-        {"slug": "bukvy-a-o-koren-lag-lozh", "title": "Буквы а-о в корне -лаг-/-лож-", "order": 7},
-        {"slug": "bukvy-a-o-koren-rast-ros", "title": "Буквы а-о в корне -раст-/-рос-", "order": 8},
-        {"slug": "bukvy-yo-o-posle-shipyaschih-v-korne", "title": "Буквы ё-о после шипящих в корне", "order": 9},
-        {"slug": "bukvy-i-y-posle-ts", "title": "Буквы и-ы после ц", "order": 10}
+        {
+          "slug": "morfema-okonchanie-5b",
+          "title": "Морфема. Окончание",
+          "order": 1
+        },
+        {
+          "slug": "osnova-slova-5b",
+          "title": "Основа слова",
+          "order": 2
+        },
+        {
+          "slug": "koren-slova-5b",
+          "title": "Корень слова",
+          "order": 3
+        },
+        {
+          "slug": "odnokorennye-slova-5b",
+          "title": "Однокоренные слова",
+          "order": 4
+        },
+        {
+          "slug": "suffiks-morfema-5b",
+          "title": "Суффикс",
+          "order": 5
+        },
+        {
+          "slug": "pristavka-morfema-5b",
+          "title": "Приставка",
+          "order": 6
+        },
+        {
+          "slug": "cheredovanie-zvukov-5b",
+          "title": "Чередование звуков",
+          "order": 7
+        },
+        {
+          "slug": "beglye-glasnye-5b",
+          "title": "Беглые гласные",
+          "order": 8
+        },
+        {
+          "slug": "morfemnyy-razbor-slova",
+          "title": "Морфемный разбор слова",
+          "order": 9
+        },
+        {
+          "slug": "glasnye-soglasnye-v-pristavkah-z-s",
+          "title": "Правописание гласных и согласных в приставках. Буквы З и С на конце приставок",
+          "order": 10
+        },
+        {
+          "slug": "bukvy-a-o-koren-lag-lozh",
+          "title": "Буквы а-о в корне -лаг-/-лож-",
+          "order": 11
+        },
+        {
+          "slug": "bukvy-a-o-koren-rast-ros",
+          "title": "Буквы а-о в корне -раст-/-рос-",
+          "order": 12
+        },
+        {
+          "slug": "bukvy-yo-o-posle-shipyaschih-v-korne",
+          "title": "Буквы ё-о после шипящих в корне",
+          "order": 13
+        },
+        {
+          "slug": "bukvy-i-y-posle-ts",
+          "title": "Буквы и-ы после ц",
+          "order": 14
+        }
       ]
     },
     {
       "name": "Имя существительное",
       "order": 6,
       "topics": [
-        {"slug": "sushestvitelnoe-kak-chast-rechi", "title": "Имя существительное как часть речи", "order": 1},
-        {"slug": "odushevlennye-neodushevlennye-sobstvennye-naritsatelnye", "title": "Одушевлённые/неодушевлённые, собственные/нарицательные существительные", "order": 2},
-        {"slug": "rod-sushestvitelnyh", "title": "Род имён существительных", "order": 3},
-        {"slug": "chislo-sushestvitelnyh", "title": "Существительные, имеющие форму только мн. или только ед. числа", "order": 4},
-        {"slug": "tri-skloneniya-padezh", "title": "Три склонения имён существительных. Падеж", "order": 5},
-        {"slug": "glasnye-v-padezhnyh-okonchaniyah-sush", "title": "Правописание гласных в падежных окончаниях существительных", "order": 6},
-        {"slug": "o-e-posle-shipyaschih-sush-morf-razbor", "title": "О-Е после шипящих и Ц в окончаниях. Морфологический разбор существительного", "order": 7}
+        {
+          "slug": "sushestvitelnoe-kak-chast-rechi",
+          "title": "Имя существительное как часть речи",
+          "order": 1
+        },
+        {
+          "slug": "odushevlennye-neodushevlennye-5b",
+          "title": "Одушевлённые и неодушевлённые существительные",
+          "order": 2
+        },
+        {
+          "slug": "sobstvennye-naritsatelnye-5b",
+          "title": "Собственные и нарицательные существительные",
+          "order": 3
+        },
+        {
+          "slug": "rod-sushestvitelnyh",
+          "title": "Род имён существительных",
+          "order": 4
+        },
+        {
+          "slug": "chislo-sushestvitelnyh",
+          "title": "Существительные, имеющие форму только мн. или только ед. числа",
+          "order": 5
+        },
+        {
+          "slug": "tri-skloneniya-5b",
+          "title": "Три склонения существительных",
+          "order": 6
+        },
+        {
+          "slug": "padezh-sushestvitelnyh-5b",
+          "title": "Падеж имён существительных",
+          "order": 7
+        },
+        {
+          "slug": "glasnye-v-padezhnyh-okonchaniyah-sush",
+          "title": "Правописание гласных в падежных окончаниях существительных",
+          "order": 8
+        },
+        {
+          "slug": "o-e-posle-shipyaschih-sush-5b",
+          "title": "О-Е после шипящих в существительных",
+          "order": 9
+        },
+        {
+          "slug": "morf-razbor-sushestvitelnogo-5b",
+          "title": "Морфологический разбор существительного",
+          "order": 10
+        }
       ]
     },
     {
       "name": "Имя прилагательное",
       "order": 7,
       "topics": [
-        {"slug": "prilagatelnoe-kak-chast-rechi", "title": "Имя прилагательное как часть речи", "order": 1},
-        {"slug": "glasnye-v-padezhnyh-okonchaniyah-prilag", "title": "Правописание гласных в падежных окончаниях прилагательных", "order": 2},
-        {"slug": "polnye-kratkie-prilagatelnye-razbor", "title": "Полные и краткие прилагательные. Морфологический разбор", "order": 3}
+        {
+          "slug": "prilagatelnoe-kak-chast-rechi",
+          "title": "Имя прилагательное как часть речи",
+          "order": 1
+        },
+        {
+          "slug": "glasnye-v-padezhnyh-okonchaniyah-prilag",
+          "title": "Правописание гласных в падежных окончаниях прилагательных",
+          "order": 2
+        },
+        {
+          "slug": "polnye-kratkie-prilagatelnye-5b",
+          "title": "Полные и краткие прилагательные",
+          "order": 3
+        },
+        {
+          "slug": "morf-razbor-prilagatelnogo-5b",
+          "title": "Морфологический разбор прилагательного",
+          "order": 4
+        }
       ]
     },
     {
       "name": "Глагол",
       "order": 8,
       "topics": [
-        {"slug": "glagol-kak-chast-rechi", "title": "Глагол как часть речи", "order": 1},
-        {"slug": "neopredelennaya-forma-glagola", "title": "Неопределённая форма глагола", "order": 2},
-        {"slug": "vidy-glagola", "title": "Виды глагола: совершенный и несовершенный", "order": 3},
-        {"slug": "bukvy-e-i-v-kornyah-s-cheredovaniem", "title": "Буквы е-и в корнях с чередованием", "order": 4},
-        {"slug": "vremya-glagola", "title": "Время глагола: прошедшее, настоящее, будущее", "order": 5},
-        {"slug": "spryazhenie-glagolov", "title": "Спряжение глаголов", "order": 6},
-        {"slug": "bezudarnye-lichnye-okonchaniya-glagolov", "title": "Правописание безударных личных окончаний глаголов", "order": 7},
-        {"slug": "myagkiy-znak-posle-shipyaschih-vo-2-litse", "title": "Мягкий знак после шипящих в глаголах 2-го лица ед. числа", "order": 8},
-        {"slug": "morfologicheskiy-razbor-glagola", "title": "Морфологический разбор глагола", "order": 9}
+        {
+          "slug": "glagol-kak-chast-rechi",
+          "title": "Глагол как часть речи",
+          "order": 1
+        },
+        {
+          "slug": "neopredelennaya-forma-glagola",
+          "title": "Неопределённая форма глагола",
+          "order": 2
+        },
+        {
+          "slug": "vidy-glagola",
+          "title": "Виды глагола: совершенный и несовершенный",
+          "order": 3
+        },
+        {
+          "slug": "bukvy-e-i-v-kornyah-s-cheredovaniem",
+          "title": "Буквы е-и в корнях с чередованием",
+          "order": 4
+        },
+        {
+          "slug": "proshedshee-vremya-glagola-5b",
+          "title": "Прошедшее время глагола",
+          "order": 5
+        },
+        {
+          "slug": "nastoyaschee-vremya-glagola-5b",
+          "title": "Настоящее время глагола",
+          "order": 6
+        },
+        {
+          "slug": "buduschee-vremya-glagola-5b",
+          "title": "Будущее время глагола",
+          "order": 7
+        },
+        {
+          "slug": "spryazhenie-glagolov",
+          "title": "Спряжение глаголов",
+          "order": 8
+        },
+        {
+          "slug": "bezudarnye-lichnye-okonchaniya-glagolov",
+          "title": "Правописание безударных личных окончаний глаголов",
+          "order": 9
+        },
+        {
+          "slug": "myagkiy-znak-posle-shipyaschih-vo-2-litse",
+          "title": "Мягкий знак после шипящих в глаголах 2-го лица единственного числа",
+          "order": 10
+        },
+        {
+          "slug": "morfologicheskiy-razbor-glagola",
+          "title": "Морфологический разбор глагола",
+          "order": 11
+        }
       ]
     },
     {
       "name": "Итоговое повторение",
       "order": 9,
       "topics": [
-        {"slug": "itogovoe-povtorenie-russkiy-5", "title": "Итоговое повторение курса 5 класса", "order": 1}
+        {
+          "slug": "itogovoe-povtorenie-russkiy-5",
+          "title": "Итоговое повторение курса 5 класса",
+          "order": 1
+        }
       ]
     }
   ]

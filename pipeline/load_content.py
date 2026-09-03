@@ -12,7 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from app.db import Base, SessionLocal, engine
-from app.models import Lesson, MatchPair, Option, Question, Section, Subject, Topic
+from app.models import Attempt, Lesson, MatchPair, Option, Question, Section, Subject, Topic, UserProgress
 
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 
@@ -70,6 +70,27 @@ def load_subject(db, subject_dir: Path):
                 topic.section_id = section.id  # topic may have moved to a different section
 
             load_topic_content(db, subject_dir, topic, topic_data["slug"])
+
+    # Topics that used to exist for this subject but were removed from the
+    # manifest (e.g. split into finer sub-topics) -- delete them so the old,
+    # now-superseded lesson doesn't keep showing up alongside its replacements.
+    manifest_slugs = {t["slug"] for sec in manifest["sections"] for t in sec["topics"]}
+    stale_topics = (
+        db.query(Topic)
+        .join(Section, Topic.section_id == Section.id)
+        .filter(Section.subject_id == subject.id, ~Topic.slug.in_(manifest_slugs))
+        .all()
+    )
+    for t in stale_topics:
+        print(f"    - removing stale topic {t.slug}")
+        db.query(Option).filter(Option.question_id.in_(db.query(Question.id).filter_by(topic_id=t.id))).delete(synchronize_session=False)
+        db.query(MatchPair).filter(MatchPair.question_id.in_(db.query(Question.id).filter_by(topic_id=t.id))).delete(synchronize_session=False)
+        db.query(Question).filter_by(topic_id=t.id).delete(synchronize_session=False)
+        if t.lesson:
+            db.delete(t.lesson)
+        db.query(UserProgress).filter_by(topic_id=t.id).delete(synchronize_session=False)
+        db.query(Attempt).filter_by(topic_id=t.id).delete(synchronize_session=False)
+        db.delete(t)
 
     # Sections whose topics all moved elsewhere (e.g. renamed/regrouped) are now
     # empty -- remove them so the old section name stops showing up in the UI.

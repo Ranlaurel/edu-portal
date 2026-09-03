@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Вычисли: (20 − 7) × 3.",
+      "options": [
+        {"text": "39", "correct": true},
+        {"text": "60", "correct": false},
+        {"text": "21", "correct": false},
+        {"text": "13", "correct": false}
+      ],
+      "explanation": "20 − 7 = 13, затем 13 × 3 = 39. Или по правилу: 20 × 3 − 7 × 3 = 60 − 21 = 39."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли по правилу: (15 − 6) × 4.",
+      "options": [
+        {"text": "36", "correct": true},
+        {"text": "45", "correct": false},
+        {"text": "24", "correct": false},
+        {"text": "60", "correct": false}
+      ],
+      "explanation": "15 × 4 − 6 × 4 = 60 − 24 = 36."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли по правилу: (50 − 8) × 5.",
+      "options": [
+        {"text": "210", "correct": true},
+        {"text": "250", "correct": false},
+        {"text": "42", "correct": false},
+        {"text": "190", "correct": false}
+      ],
+      "explanation": "50 × 5 − 8 × 5 = 250 − 40 = 210."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих равенств верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "(20 − 7) × 3 = 39", "correct": true},
+        {"text": "(15 − 6) × 4 = 45", "correct": false},
+        {"text": "30 × 2 − 12 × 2 = 36", "correct": true},
+        {"text": "(50 − 8) × 5 = 42", "correct": false},
+        {"text": "(100 − 25) × 3 = 225", "correct": true}
+      ],
+      "explanation": "(15 − 6) × 4 = 9 × 4 = 36 (не 45); (50 − 8) × 5 = 42 × 5 = 210 (не 42). Остальные равенства посчитаны верно."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения о правиле умножения разности на число верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "(a − b) × c = a × c − b × c", "correct": true},
+        {"text": "Уменьшаемое и вычитаемое можно умножить на число отдельно, а потом вычесть результаты", "correct": true},
+        {"text": "Результат по правилу совпадает с результатом обычного вычисления разности", "correct": true},
+        {"text": "(a − b) × c = a × c + b × c", "correct": false},
+        {"text": "Правило работает только для чисел меньше 10", "correct": false}
+      ],
+      "explanation": "Правило (a − b) × c = a × c − b × c работает для любых чисел, а не только для чисел меньше 10; знак между произведениями «минус», а не «плюс»."
+    },
+    {
+      "type": "dropdown",
+      "text": "(30 − 12) × 2 = ___",
+      "options": [
+        {"text": "36", "correct": true},
+        {"text": "42", "correct": false},
+        {"text": "18", "correct": false}
+      ],
+      "explanation": "30 × 2 − 12 × 2 = 60 − 24 = 36."
+    },
+    {
+      "type": "dropdown",
+      "text": "100 × 3 − 25 × 3 = ___",
+      "options": [
+        {"text": "225", "correct": true},
+        {"text": "300", "correct": false},
+        {"text": "75", "correct": false}
+      ],
+      "explanation": "100 × 3 = 300, 25 × 3 = 75, 300 − 75 = 225."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: (15 − 6) × 4 = ___.",
+      "answer": "36",
+      "explanation": "15 × 4 − 6 × 4 = 60 − 24 = 36."
+    },
+    {
+      "type": "fill_blank",
+      "text": "В классе было 40 учебников, 9 отдали в другую школу. В каждом учебнике 6 страниц. Впиши только число: во всех оставшихся учебниках ___ страниц.",
+      "answer": "186",
+      "explanation": "(40 − 9) × 6 = 40 × 6 − 9 × 6 = 240 − 54 = 186."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с его значением:",
+      "pairs": [
+        {"left": "(20 − 7) × 3", "right": "39"},
+        {"left": "(50 − 8) × 5", "right": "210"},
+        {"left": "(100 − 25) × 3", "right": "225"},
+        {"left": "30 × 2 − 12 × 2", "right": "36"}
+      ],
+      "explanation": "Каждое выражение вычислено по правилу (a − b) × c = a × c − b × c."
+    }
+  ]
+}

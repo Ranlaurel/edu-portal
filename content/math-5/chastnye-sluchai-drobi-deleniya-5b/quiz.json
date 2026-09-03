@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чему равно значение дроби 9/9?",
+      "options": [
+        {"text": "1", "correct": true},
+        {"text": "9", "correct": false},
+        {"text": "0", "correct": false},
+        {"text": "81", "correct": false}
+      ],
+      "explanation": "Если числитель равен знаменателю, значение дроби равно 1: 9 ÷ 9 = 1."
+    },
+    {
+      "type": "single",
+      "text": "Чему равно значение дроби 18/6?",
+      "options": [
+        {"text": "3", "correct": true},
+        {"text": "12", "correct": false},
+        {"text": "6", "correct": false},
+        {"text": "24", "correct": false}
+      ],
+      "explanation": "18 делится на 6 нацело: 18 ÷ 6 = 3."
+    },
+    {
+      "type": "single",
+      "text": "Чему равно значение дроби 0/9?",
+      "options": [
+        {"text": "0", "correct": true},
+        {"text": "9", "correct": false},
+        {"text": "1", "correct": false},
+        {"text": "нельзя вычислить", "correct": false}
+      ],
+      "explanation": "Если числитель равен нулю (а знаменатель не ноль), значение дроби равно нулю."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих дробей равны 1? (выбери все верные варианты)",
+      "options": [
+        {"text": "5/5", "correct": true},
+        {"text": "12/12", "correct": true},
+        {"text": "8/4", "correct": false},
+        {"text": "1/1", "correct": true},
+        {"text": "0/6", "correct": false}
+      ],
+      "explanation": "Дробь равна 1, только когда числитель равен знаменателю: 5/5, 12/12, 1/1."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "15/3 = 5", "correct": true},
+        {"text": "20/5 = 4", "correct": true},
+        {"text": "знаменатель дроби может быть равен нулю", "correct": false},
+        {"text": "0/100 = 0", "correct": true},
+        {"text": "24/4 = 5", "correct": false}
+      ],
+      "explanation": "15÷3=5, 20÷5=4, 0÷100=0 верны. Знаменатель не может быть нулём. 24÷4=6, а не 5."
+    },
+    {
+      "type": "dropdown",
+      "text": "Дробь 24/4 равна: ___",
+      "options": [
+        {"text": "6", "correct": true},
+        {"text": "4", "correct": false},
+        {"text": "20", "correct": false}
+      ],
+      "explanation": "24 делится на 4 нацело: 24 ÷ 4 = 6."
+    },
+    {
+      "type": "dropdown",
+      "text": "Можно ли составить дробь 5/0?",
+      "options": [
+        {"text": "нельзя, знаменатель не может быть нулём", "correct": true},
+        {"text": "можно, получится 0", "correct": false},
+        {"text": "можно, получится 5", "correct": false}
+      ],
+      "explanation": "Знаменатель дроби никогда не может быть равен нулю — как и деление на 0, это не имеет смысла."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: значение дроби 100/100 равно ___.",
+      "answer": "1",
+      "explanation": "Числитель равен знаменателю, значит значение дроби равно 1."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: значение дроби 20/5 равно ___.",
+      "answer": "4",
+      "explanation": "20 делится на 5 нацело: 20 ÷ 5 = 4."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини дробь с её значением:",
+      "pairs": [
+        {"left": "7/7", "right": "1"},
+        {"left": "15/3", "right": "5"},
+        {"left": "0/9", "right": "0"},
+        {"left": "8/4", "right": "2"}
+      ],
+      "explanation": "7/7 — числитель равен знаменателю (1); 15/3=5 и 8/4=2 — числитель делится на знаменатель нацело; 0/9=0, так как числитель равен нулю."
+    }
+  ]
+}

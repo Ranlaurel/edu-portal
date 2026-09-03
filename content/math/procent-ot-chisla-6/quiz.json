@@ -1,0 +1,92 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Найди 10% от 90.",
+      "options": [
+        {"text": "9", "correct": true},
+        {"text": "90", "correct": false},
+        {"text": "0,9", "correct": false},
+        {"text": "19", "correct": false}
+      ],
+      "explanation": "10% = 0,1. Умножаем: 90 × 0,1 = 9."
+    },
+    {
+      "type": "single",
+      "text": "Найди 25% от 200.",
+      "options": [
+        {"text": "25", "correct": false},
+        {"text": "50", "correct": true},
+        {"text": "75", "correct": false},
+        {"text": "100", "correct": false}
+      ],
+      "explanation": "25% = 0,25. Умножаем: 200 × 0,25 = 50."
+    },
+    {
+      "type": "single",
+      "text": "Найди 120% от 50.",
+      "options": [
+        {"text": "50", "correct": false},
+        {"text": "12", "correct": false},
+        {"text": "60", "correct": true},
+        {"text": "72", "correct": false}
+      ],
+      "explanation": "120% = 1,2. Умножаем: 50 × 1,2 = 60. Результат больше самого числа, потому что процентов больше 100."
+    },
+    {
+      "type": "multiple",
+      "text": "Выбери все верные утверждения о нахождении процента от числа",
+      "options": [
+        {"text": "Проценты переводят в десятичную дробь и умножают на число", "correct": true},
+        {"text": "Если процентов больше 100, результат окажется больше самого числа", "correct": true},
+        {"text": "Проценты можно перевести в обыкновенную дробь и умножить на число", "correct": true},
+        {"text": "Чтобы найти процент от числа, число делят на проценты", "correct": false},
+        {"text": "Результат всегда меньше исходного числа", "correct": false}
+      ],
+      "explanation": "Процент от числа находят умножением (не делением) числа на проценты, выраженные дробью; при процентах больше 100 результат больше исходного числа."
+    },
+    {
+      "type": "dropdown",
+      "text": "40% от 65 равно ___",
+      "options": [
+        {"text": "20", "correct": false},
+        {"text": "26", "correct": true},
+        {"text": "30", "correct": false}
+      ],
+      "explanation": "40% = 0,4. Умножаем: 65 × 0,4 = 26."
+    },
+    {
+      "type": "dropdown",
+      "text": "50% от 84 равно ___",
+      "options": [
+        {"text": "40", "correct": false},
+        {"text": "44", "correct": false},
+        {"text": "42", "correct": true}
+      ],
+      "explanation": "50% = 0,5. Умножаем: 84 × 0,5 = 42."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найди 5% от 240. Впиши только число.",
+      "answer": "12",
+      "explanation": "5% = 0,05. Умножаем: 240 × 0,05 = 12."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найди 8% от 300. Впиши только число.",
+      "answer": "24",
+      "explanation": "8% = 0,08. Умножаем: 300 × 0,08 = 24."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с его значением",
+      "pairs": [
+        {"left": "10% от 90", "right": "9"},
+        {"left": "15% от 80", "right": "12"},
+        {"left": "75% от 40", "right": "30"},
+        {"left": "120% от 50", "right": "60"}
+      ],
+      "explanation": "90 × 0,1 = 9; 80 × 0,15 = 12; 40 × 3/4 = 30; 50 × 1,2 = 60."
+    }
+  ]
+}

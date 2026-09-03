@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чему равно 4 × (5 + 3) по распределительному свойству?",
+      "options": [
+        {"text": "32", "correct": true},
+        {"text": "20", "correct": false},
+        {"text": "12", "correct": false},
+        {"text": "35", "correct": false}
+      ],
+      "explanation": "4 × (5 + 3) = 4 × 5 + 4 × 3 = 20 + 12 = 32."
+    },
+    {
+      "type": "single",
+      "text": "Чему равно −2 × (6 + 4)?",
+      "options": [
+        {"text": "−20", "correct": true},
+        {"text": "20", "correct": false},
+        {"text": "−8", "correct": false},
+        {"text": "−12", "correct": false}
+      ],
+      "explanation": "−2 × (6 + 4) = −2 × 6 + (−2) × 4 = −12 + (−8) = −20."
+    },
+    {
+      "type": "single",
+      "text": "Раскрой скобки: 3 × (2x + 5)",
+      "options": [
+        {"text": "6x + 15", "correct": true},
+        {"text": "5x + 8", "correct": false},
+        {"text": "6x + 5", "correct": false},
+        {"text": "2x + 15", "correct": false}
+      ],
+      "explanation": "3 × (2x + 5) = 3 × 2x + 3 × 5 = 6x + 15."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие равенства верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "5 × (3 + x) = 15 + 5x", "correct": true},
+        {"text": "−3 × (4a − 2) = −12a − 6", "correct": false},
+        {"text": "2 × (3x − 4) = 6x − 8", "correct": true},
+        {"text": "−5 × (2a − 3) = −10a + 15", "correct": true},
+        {"text": "0,5 × (4 + 6) = 10", "correct": false}
+      ],
+      "explanation": "−3×(4a−2) = −12a+6 (не −6), а 0,5×(4+6) = 0,5×10 = 5 (не 10); остальные равенства верны."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения о распределительном свойстве верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "a × (b + c) = a × b + a × c", "correct": true},
+        {"text": "свойство работает только для положительных чисел", "correct": false},
+        {"text": "при раскрытии скобок минус на минус даёт плюс", "correct": true},
+        {"text": "0,5 × (4 + 6) = 0,5 × 4 + 0,5 × 6", "correct": true},
+        {"text": "раскрытие скобок меняет значение выражения", "correct": false}
+      ],
+      "explanation": "Распределительное свойство работает для любых рациональных чисел, а раскрытие скобок не меняет значение выражения, только его форму."
+    },
+    {
+      "type": "dropdown",
+      "text": "6 × (7 + 2) = ___",
+      "options": [
+        {"text": "54", "correct": true},
+        {"text": "56", "correct": false},
+        {"text": "63", "correct": false}
+      ],
+      "explanation": "6 × (7 + 2) = 6 × 7 + 6 × 2 = 42 + 12 = 54."
+    },
+    {
+      "type": "dropdown",
+      "text": "−4 × (5 − 3) = ___",
+      "options": [
+        {"text": "−8", "correct": true},
+        {"text": "8", "correct": false},
+        {"text": "−20", "correct": false}
+      ],
+      "explanation": "−4 × (5 − 3) = −4 × 5 − (−4) × 3 = −20 + 12 = −8."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: −0,5 × (8 + 2) равно ___.",
+      "answer": "-5",
+      "accepted": ["-5", "−5"],
+      "explanation": "−0,5 × (8 + 2) = −0,5 × 8 + (−0,5) × 2 = −4 + (−1) = −5."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: значение выражения 2 × (3 + 4) равно ___.",
+      "answer": "14",
+      "explanation": "2 × (3 + 4) = 2 × 3 + 2 × 4 = 6 + 8 = 14."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с результатом раскрытия скобок:",
+      "pairs": [
+        {"left": "5 × (3 + x)", "right": "15 + 5x"},
+        {"left": "−3 × (4a − 2)", "right": "−12a + 6"},
+        {"left": "3 × (2x + 5)", "right": "6x + 15"},
+        {"left": "2 × (3x − 4)", "right": "6x − 8"}
+      ],
+      "explanation": "Каждое слагаемое в скобках умножается на множитель отдельно, с учётом знаков."
+    }
+  ]
+}

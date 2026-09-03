@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Вычисли: 600 ÷ 30.",
+      "options": [
+        {"text": "20", "correct": true},
+        {"text": "2", "correct": false},
+        {"text": "200", "correct": false},
+        {"text": "18", "correct": false}
+      ],
+      "explanation": "Убираем по одному нулю у делимого и делителя: 60 ÷ 3 = 20."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли: 4000 ÷ 200.",
+      "options": [
+        {"text": "20", "correct": true},
+        {"text": "2", "correct": false},
+        {"text": "200", "correct": false},
+        {"text": "40", "correct": false}
+      ],
+      "explanation": "Убираем по два нуля у делимого и делителя: 40 ÷ 2 = 20."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли: 240 ÷ 8.",
+      "options": [
+        {"text": "30", "correct": true},
+        {"text": "3", "correct": false},
+        {"text": "40", "correct": false},
+        {"text": "24", "correct": false}
+      ],
+      "explanation": "240 = 24 × 10, значит (24 ÷ 8) × 10 = 3 × 10 = 30."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих равенств верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "90 ÷ 30 = 3", "correct": true},
+        {"text": "800 ÷ 40 = 20", "correct": true},
+        {"text": "6000 ÷ 300 = 200", "correct": false},
+        {"text": "3600 ÷ 6 = 600", "correct": true},
+        {"text": "900 ÷ 3 = 30", "correct": false}
+      ],
+      "explanation": "90÷30=3, 800÷40=20, 3600÷6=600 верны. 6000÷300=20 (а не 200), 900÷3=300 (а не 30)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие способы помогают делить круглые числа? (выбери все верные варианты)",
+      "options": [
+        {"text": "убрать одинаковое число нулей у делимого и делителя", "correct": true},
+        {"text": "разложить число на удобные множители, один из которых — круглый", "correct": true},
+        {"text": "проверить результат умножением частного на делитель", "correct": true},
+        {"text": "всегда прибавлять ноль к результату", "correct": false},
+        {"text": "убирать нули только у делителя, если у делимого их меньше", "correct": false}
+      ],
+      "explanation": "Нули убирают поровну у обоих чисел или раскладывают число на множители, а результат проверяют умножением."
+    },
+    {
+      "type": "dropdown",
+      "text": "900 ÷ 3 = ___",
+      "options": [
+        {"text": "300", "correct": true},
+        {"text": "30", "correct": false},
+        {"text": "3000", "correct": false}
+      ],
+      "explanation": "9 сотен ÷ 3 = 3 сотни, то есть 300."
+    },
+    {
+      "type": "dropdown",
+      "text": "5000 ÷ 5 = ___",
+      "options": [
+        {"text": "1000", "correct": true},
+        {"text": "100", "correct": false},
+        {"text": "10000", "correct": false}
+      ],
+      "explanation": "5 тысяч, разделённые на 5, дают 1 тысячу."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: 6000 ÷ 300 = ___.",
+      "answer": "20",
+      "explanation": "Убираем по два нуля: 60 ÷ 3 = 20."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: 3600 ÷ 6 = ___.",
+      "answer": "600",
+      "explanation": "36 сотен ÷ 6 = 6 сотен, то есть 600."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с его значением:",
+      "pairs": [
+        {"left": "90 ÷ 30", "right": "3"},
+        {"left": "800 ÷ 40", "right": "20"},
+        {"left": "900 ÷ 3", "right": "300"},
+        {"left": "5000 ÷ 5", "right": "1000"}
+      ],
+      "explanation": "Каждое значение получено убиранием одинакового числа нулей или делением по разрядам."
+    }
+  ]
+}

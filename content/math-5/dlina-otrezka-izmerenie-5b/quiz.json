@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Точка C лежит между A и B, AC = 5 см, CB = 8 см. Чему равна AB?",
+      "options": [
+        {"text": "13 см", "correct": true},
+        {"text": "3 см", "correct": false},
+        {"text": "40 см", "correct": false},
+        {"text": "8 см", "correct": false}
+      ],
+      "explanation": "Длина всего отрезка равна сумме длин его частей: AB = AC + CB = 5 + 8 = 13 см."
+    },
+    {
+      "type": "single",
+      "text": "AB = 12 см, точка C лежит между A и B, AC = 7 см. Чему равна CB?",
+      "options": [
+        {"text": "5 см", "correct": true},
+        {"text": "19 см", "correct": false},
+        {"text": "7 см", "correct": false},
+        {"text": "12 см", "correct": false}
+      ],
+      "explanation": "CB = AB − AC = 12 − 7 = 5 см."
+    },
+    {
+      "type": "single",
+      "text": "Сколько сантиметров в 3 дециметрах?",
+      "options": [
+        {"text": "30 см", "correct": true},
+        {"text": "3 см", "correct": false},
+        {"text": "300 см", "correct": false},
+        {"text": "13 см", "correct": false}
+      ],
+      "explanation": "1 дм = 10 см, поэтому 3 дм = 3 × 10 = 30 см."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие равенства между единицами длины верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "1 см = 10 мм", "correct": true},
+        {"text": "1 м = 100 см", "correct": true},
+        {"text": "1 км = 1000 м", "correct": true},
+        {"text": "1 дм = 100 см", "correct": false},
+        {"text": "1 м = 10 см", "correct": false}
+      ],
+      "explanation": "Верные соотношения: 1 см = 10 мм, 1 м = 100 см, 1 км = 1000 м; 1 дм = 10 см, а не 100, и 1 м = 10 дм, а не 10 см."
+    },
+    {
+      "type": "multiple",
+      "text": "AB = 20 см, точка C делит отрезок так, что AC = 5 см, CB = 15 см. Что из этого верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "AC + CB = AB", "correct": true},
+        {"text": "CB в 3 раза больше AC", "correct": true},
+        {"text": "AC = CB", "correct": false},
+        {"text": "5 + 15 = 20", "correct": true},
+        {"text": "CB меньше AC", "correct": false}
+      ],
+      "explanation": "5 + 15 = 20 = AB, и 15 = 3 × 5, значит CB больше AC в 3 раза."
+    },
+    {
+      "type": "dropdown",
+      "text": "Если точка C лежит между точками A и B, то длина отрезка AB равна: ___",
+      "options": [
+        {"text": "AC + CB", "correct": true},
+        {"text": "AC − CB", "correct": false},
+        {"text": "AC × CB", "correct": false}
+      ],
+      "explanation": "Длина всего отрезка равна сумме длин его частей: AB = AC + CB."
+    },
+    {
+      "type": "dropdown",
+      "text": "Отрезки MN и PQ имеют одинаковую длину. Такие отрезки называют: ___",
+      "options": [
+        {"text": "равными", "correct": true},
+        {"text": "пересекающимися", "correct": false},
+        {"text": "дополнительными", "correct": false}
+      ],
+      "explanation": "Отрезки одинаковой длины называются равными."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: сколько миллиметров в 6 сантиметрах?",
+      "answer": "60",
+      "explanation": "1 см = 10 мм, поэтому 6 см = 6 × 10 = 60 мм."
+    },
+    {
+      "type": "fill_blank",
+      "text": "AC = 4 см, CB = 3 см, точка C между A и B. Впиши только число: чему равна AB (в см)?",
+      "answer": "7",
+      "explanation": "AB = AC + CB = 4 + 3 = 7 см."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини величину с равным ей значением:",
+      "pairs": [
+        {"left": "1 см", "right": "10 мм"},
+        {"left": "1 дм", "right": "10 см"},
+        {"left": "1 м", "right": "100 см"},
+        {"left": "1 км", "right": "1000 м"}
+      ],
+      "explanation": "Каждая следующая единица длины в 10 (для км — в 1000) раз больше предыдущей."
+    }
+  ]
+}

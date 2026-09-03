@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Найди объём куба с ребром 4 см.",
+      "options": [
+        {"text": "64 см³", "correct": true},
+        {"text": "16 см³", "correct": false},
+        {"text": "96 см³", "correct": false},
+        {"text": "12 см³", "correct": false}
+      ],
+      "explanation": "Объём куба V = a³ = 4 × 4 × 4 = 64 см³."
+    },
+    {
+      "type": "single",
+      "text": "Найди площадь поверхности куба с ребром 4 см.",
+      "options": [
+        {"text": "96 см²", "correct": true},
+        {"text": "64 см²", "correct": false},
+        {"text": "16 см²", "correct": false},
+        {"text": "48 см²", "correct": false}
+      ],
+      "explanation": "S = 6 × a² = 6 × 16 = 96 см²."
+    },
+    {
+      "type": "single",
+      "text": "Объём куба равен 8 см³. Найди длину ребра.",
+      "options": [
+        {"text": "2 см", "correct": true},
+        {"text": "4 см", "correct": false},
+        {"text": "8 см", "correct": false},
+        {"text": "3 см", "correct": false}
+      ],
+      "explanation": "Так как 2³ = 2×2×2 = 8, ребро куба равно 2 см."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно для куба? (выбери все верные варианты)",
+      "options": [
+        {"text": "все рёбра равны между собой", "correct": true},
+        {"text": "все грани — квадраты", "correct": true},
+        {"text": "у него 8 вершин", "correct": true},
+        {"text": "у него 10 рёбер", "correct": false},
+        {"text": "грани могут быть разного размера", "correct": false}
+      ],
+      "explanation": "Куб — параллелепипед с равными рёбрами: 12 рёбер, 8 вершин, 6 одинаковых граней-квадратов."
+    },
+    {
+      "type": "multiple",
+      "text": "Куб с ребром 5 см. Какие вычисления верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "объём равен 125 см³", "correct": true},
+        {"text": "площадь поверхности равна 150 см²", "correct": true},
+        {"text": "площадь одной грани равна 25 см²", "correct": true},
+        {"text": "объём равен 25 см³", "correct": false},
+        {"text": "площадь поверхности равна 25 см²", "correct": false}
+      ],
+      "explanation": "V=5³=125 см³, площадь одной грани 5²=25 см², площадь поверхности 6×25=150 см²."
+    },
+    {
+      "type": "dropdown",
+      "text": "Ребро куба 6 см. Объём куба равен: ___",
+      "options": [
+        {"text": "216 см³", "correct": true},
+        {"text": "36 см³", "correct": false},
+        {"text": "108 см³", "correct": false}
+      ],
+      "explanation": "V = 6³ = 6×6×6 = 216 см³."
+    },
+    {
+      "type": "dropdown",
+      "text": "Ребро куба 2 см. Площадь поверхности равна: ___",
+      "options": [
+        {"text": "24 см²", "correct": true},
+        {"text": "8 см²", "correct": false},
+        {"text": "16 см²", "correct": false}
+      ],
+      "explanation": "S = 6 × 2² = 6 × 4 = 24 см²."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: ребро куба 3 см. Объём равен ___ см³.",
+      "answer": "27",
+      "explanation": "V = 3³ = 3×3×3 = 27 см³."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: ребро куба 3 см. Площадь поверхности равна ___ см².",
+      "answer": "54",
+      "explanation": "S = 6 × 3² = 6 × 9 = 54 см²."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини ребро куба с его объёмом:",
+      "pairs": [
+        {"left": "ребро 2 см", "right": "8 см³"},
+        {"left": "ребро 3 см", "right": "27 см³"},
+        {"left": "ребро 4 см", "right": "64 см³"},
+        {"left": "ребро 5 см", "right": "125 см³"}
+      ],
+      "explanation": "Объём куба равен кубу длины ребра: 2³=8, 3³=27, 4³=64, 5³=125."
+    }
+  ]
+}

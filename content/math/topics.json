@@ -1,108 +1,579 @@
 {
-  "subject": {"name": "Математика", "slug": "math"},
+  "subject": {
+    "name": "Математика",
+    "slug": "math",
+    "grade": 6
+  },
   "sections": [
     {
       "name": "Повторение курса 5 класса",
       "order": 1,
       "topics": [
-        {"slug": "svoystva-deystviy", "title": "Свойства сложения и умножения натуральных чисел", "order": 1},
-        {"slug": "poryadok-deystviy-skobki", "title": "Порядок действий и скобки в числовых выражениях", "order": 2},
-        {"slug": "stepen-chisla", "title": "Степень числа и разрядные слагаемые", "order": 3},
-        {"slug": "okruglenie-chisel", "title": "Округление натуральных чисел", "order": 4},
-        {"slug": "delenie-s-ostatkom", "title": "Деление с остатком", "order": 5},
-        {"slug": "ocenka-prikidka-zadachi", "title": "Оценка, прикидка результата и текстовые задачи на 4 действия", "order": 6},
-        {"slug": "zadachi-na-dvizhenie", "title": "Текстовые задачи на движение", "order": 7},
-        {"slug": "zadachi-na-rabotu-stoimost", "title": "Текстовые задачи на работу и стоимость", "order": 8},
-        {"slug": "desyatichnye-drobi-perevod", "title": "Десятичные дроби и перевод между видами дробей", "order": 9},
-        {"slug": "sravnenie-desyatichnyh-drobey", "title": "Сравнение десятичных дробей и дроби на числовой прямой", "order": 10},
-        {"slug": "slozhenie-vychitanie-desyatichnyh", "title": "Сложение и вычитание десятичных дробей", "order": 11},
-        {"slug": "umnozhenie-delenie-desyatichnyh", "title": "Умножение и деление десятичных дробей", "order": 12},
-        {"slug": "procenty-osnovy", "title": "Понятие процента и перевод в дробь", "order": 13},
-        {"slug": "procenty-vychisleniya", "title": "Нахождение процента от числа и числа по проценту", "order": 14},
-        {"slug": "bukvennye-vyrazheniya", "title": "Буквенные выражения", "order": 15},
-        {"slug": "formula-puti-stoimosti", "title": "Формулы пути и стоимости", "order": 16},
-        {"slug": "formuly-geometricheskie", "title": "Формулы площади, периметра, объёма", "order": 17},
-        {"slug": "perimetr-mnogougolnika", "title": "Периметр многоугольника", "order": 18},
-        {"slug": "ploshad-priblizhenno", "title": "Приближённое измерение площади фигуры", "order": 19},
-        {"slug": "svoystva-pryamougolnika-kvadrata", "title": "Свойства прямоугольника и квадрата", "order": 20},
-        {"slug": "ploshad-perimetr-formuly", "title": "Формулы площади и периметра, составные фигуры", "order": 21},
-        {"slug": "vidy-uglov-izmerenie", "title": "Виды углов и измерение транспортиром", "order": 22},
-        {"slug": "sravnenie-uglov", "title": "Сравнение углов и сумма углов треугольника", "order": 23},
-        {"slug": "vidy-treugolnikov", "title": "Виды треугольников по сторонам и углам", "order": 24},
-        {"slug": "zadachi-treugolniki", "title": "Задачи на углы и периметр треугольника", "order": 25},
-        {"slug": "parallelepiped-kub", "title": "Прямоугольный параллелепипед и куб", "order": 26},
-        {"slug": "prizma-piramida", "title": "Призма и пирамида", "order": 27},
-        {"slug": "obyom-edinicy", "title": "Объём и единицы измерения объёма", "order": 28}
+        {
+          "slug": "poryadok-slagaemyh-mnozhiteley-6",
+          "title": "Переместительное и сочетательное свойства",
+          "order": 1
+        },
+        {
+          "slug": "raspredelitelnoe-svoystvo-umnozheniya-6",
+          "title": "Распределительное свойство умножения",
+          "order": 2
+        },
+        {
+          "slug": "poryadok-deystviy-skobki",
+          "title": "Порядок действий и скобки в числовых выражениях",
+          "order": 3
+        },
+        {
+          "slug": "stepen-chisla-6",
+          "title": "Степень числа",
+          "order": 4
+        },
+        {
+          "slug": "razryadnye-slagaemye-6",
+          "title": "Разрядные слагаемые через степени десяти",
+          "order": 5
+        },
+        {
+          "slug": "okruglenie-chisel",
+          "title": "Округление натуральных чисел",
+          "order": 6
+        },
+        {
+          "slug": "delenie-s-ostatkom",
+          "title": "Деление с остатком",
+          "order": 7
+        },
+        {
+          "slug": "prikidka-rezultata-6",
+          "title": "Прикидка результата вычислений",
+          "order": 8
+        },
+        {
+          "slug": "zadachi-na-4-deystviya-6",
+          "title": "Задачи в несколько действий",
+          "order": 9
+        },
+        {
+          "slug": "zadachi-na-dvizhenie",
+          "title": "Текстовые задачи на движение",
+          "order": 10
+        },
+        {
+          "slug": "zadachi-na-sovmestnuyu-rabotu-6",
+          "title": "Задачи на совместную работу",
+          "order": 11
+        },
+        {
+          "slug": "zadachi-na-stoimost-6",
+          "title": "Задачи на стоимость",
+          "order": 12
+        },
+        {
+          "slug": "ponyatie-desyatichnoy-drobi-6",
+          "title": "Понятие десятичной дроби",
+          "order": 13
+        },
+        {
+          "slug": "perevod-drobey-6",
+          "title": "Перевод обыкновенной дроби в десятичную",
+          "order": 14
+        },
+        {
+          "slug": "sravnenie-desyatichnyh-drobey-6",
+          "title": "Сравнение десятичных дробей",
+          "order": 15
+        },
+        {
+          "slug": "desyatichnye-drobi-na-pryamoy-6",
+          "title": "Десятичные дроби на координатной прямой",
+          "order": 16
+        },
+        {
+          "slug": "slozhenie-desyatichnyh-drobey-6",
+          "title": "Сложение десятичных дробей",
+          "order": 17
+        },
+        {
+          "slug": "vychitanie-desyatichnyh-drobey-6",
+          "title": "Вычитание десятичных дробей",
+          "order": 18
+        },
+        {
+          "slug": "umnozhenie-desyatichnyh-drobey-6",
+          "title": "Умножение десятичных дробей",
+          "order": 19
+        },
+        {
+          "slug": "delenie-desyatichnyh-drobey-6",
+          "title": "Деление десятичных дробей",
+          "order": 20
+        },
+        {
+          "slug": "ponyatie-procenta-6",
+          "title": "Понятие процента",
+          "order": 21
+        },
+        {
+          "slug": "perevod-procentov-v-drob-6",
+          "title": "Перевод процентов в дробь",
+          "order": 22
+        },
+        {
+          "slug": "procent-ot-chisla-6",
+          "title": "Нахождение процента от числа",
+          "order": 23
+        },
+        {
+          "slug": "chislo-po-procentu-6",
+          "title": "Нахождение числа по его проценту",
+          "order": 24
+        },
+        {
+          "slug": "bukvennye-vyrazheniya",
+          "title": "Буквенные выражения",
+          "order": 25
+        },
+        {
+          "slug": "formula-puti-6",
+          "title": "Формула пути",
+          "order": 26
+        },
+        {
+          "slug": "formula-stoimosti-6",
+          "title": "Формула стоимости",
+          "order": 27
+        },
+        {
+          "slug": "formula-perimetra-6",
+          "title": "Формула периметра",
+          "order": 28
+        },
+        {
+          "slug": "formula-ploshadi-6",
+          "title": "Формула площади",
+          "order": 29
+        },
+        {
+          "slug": "formula-obyoma-6",
+          "title": "Формула объёма прямоугольного параллелепипеда",
+          "order": 30
+        },
+        {
+          "slug": "perimetr-mnogougolnika",
+          "title": "Периметр многоугольника",
+          "order": 31
+        },
+        {
+          "slug": "ploshad-priblizhenno",
+          "title": "Приближённое измерение площади фигуры",
+          "order": 32
+        },
+        {
+          "slug": "svoystva-pryamougolnika-6",
+          "title": "Свойства прямоугольника",
+          "order": 33
+        },
+        {
+          "slug": "svoystva-kvadrata-6",
+          "title": "Свойства квадрата",
+          "order": 34
+        },
+        {
+          "slug": "ploshad-perimetr-figur-6",
+          "title": "Площадь и периметр составных фигур",
+          "order": 35
+        },
+        {
+          "slug": "sostavnye-figury-6",
+          "title": "Составные фигуры",
+          "order": 36
+        },
+        {
+          "slug": "vidy-uglov-6",
+          "title": "Виды углов",
+          "order": 37
+        },
+        {
+          "slug": "izmerenie-transportirom-6",
+          "title": "Измерение углов транспортиром",
+          "order": 38
+        },
+        {
+          "slug": "sravnenie-uglov-6",
+          "title": "Сравнение углов",
+          "order": 39
+        },
+        {
+          "slug": "summa-uglov-treugolnika-6",
+          "title": "Сумма углов треугольника",
+          "order": 40
+        },
+        {
+          "slug": "vidy-treugolnikov-po-storonam-6",
+          "title": "Виды треугольников по сторонам",
+          "order": 41
+        },
+        {
+          "slug": "vidy-treugolnikov-po-uglam-6",
+          "title": "Виды треугольников по углам",
+          "order": 42
+        },
+        {
+          "slug": "zadachi-na-perimetr-treugolnika-6",
+          "title": "Задачи на периметр треугольника",
+          "order": 43
+        },
+        {
+          "slug": "zadachi-na-ugly-treugolnika-6",
+          "title": "Задачи на углы треугольника",
+          "order": 44
+        },
+        {
+          "slug": "pryamougolnyy-parallelepiped-6",
+          "title": "Прямоугольный параллелепипед",
+          "order": 45
+        },
+        {
+          "slug": "kub-6",
+          "title": "Куб",
+          "order": 46
+        },
+        {
+          "slug": "prizma-6",
+          "title": "Призма",
+          "order": 47
+        },
+        {
+          "slug": "piramida-6",
+          "title": "Пирамида",
+          "order": 48
+        },
+        {
+          "slug": "edinicy-obyoma-6",
+          "title": "Единицы измерения объёма",
+          "order": 49
+        },
+        {
+          "slug": "obyom-figur-6",
+          "title": "Объём геометрических фигур",
+          "order": 50
+        }
       ]
     },
     {
       "name": "Делимость натуральных чисел",
       "order": 2,
       "topics": [
-        {"slug": "delitely-i-kratnye", "title": "Делители и кратные", "order": 1},
-        {"slug": "priznaki-delimosti", "title": "Признаки делимости на 10, 5, 2, 9 и 3", "order": 2},
-        {"slug": "prostye-sostavnye-chisla", "title": "Простые и составные числа", "order": 3},
-        {"slug": "nod", "title": "Наибольший общий делитель (НОД)", "order": 4},
-        {"slug": "nok", "title": "Наименьшее общее кратное (НОК)", "order": 5}
+        {
+          "slug": "deliteli-chisla-6",
+          "title": "Делитель числа",
+          "order": 1
+        },
+        {
+          "slug": "kratnye-chisla-6",
+          "title": "Кратное числа",
+          "order": 2
+        },
+        {
+          "slug": "priznaki-delimosti-na-2-5-10-6",
+          "title": "Признаки делимости на 2, 5 и 10",
+          "order": 3
+        },
+        {
+          "slug": "priznaki-delimosti-na-3-9-6",
+          "title": "Признаки делимости на 3 и 9",
+          "order": 4
+        },
+        {
+          "slug": "prostye-chisla-6",
+          "title": "Простые числа",
+          "order": 5
+        },
+        {
+          "slug": "sostavnye-chisla-6",
+          "title": "Составные числа",
+          "order": 6
+        },
+        {
+          "slug": "nod",
+          "title": "Наибольший общий делитель (НОД)",
+          "order": 7
+        },
+        {
+          "slug": "nok",
+          "title": "Наименьшее общее кратное (НОК)",
+          "order": 8
+        }
       ]
     },
     {
       "name": "Обыкновенные дроби",
       "order": 3,
       "topics": [
-        {"slug": "obyknovennye-drobi-osnovy", "title": "Основное свойство дроби. Сокращение дробей", "order": 1},
-        {"slug": "sravnenie-obyknovennyh-drobey", "title": "Приведение дробей к общему знаменателю. Сравнение дробей", "order": 2},
-        {"slug": "slozhenie-vychitanie-obyknovennyh", "title": "Сложение и вычитание дробей с разными знаменателями", "order": 3},
-        {"slug": "nahozhdenie-drobi-ot-chisla", "title": "Нахождение дроби от числа", "order": 4},
-        {"slug": "vzaimno-obratnye-chisla", "title": "Взаимно обратные числа", "order": 5},
-        {"slug": "umnozhenie-delenie-obyknovennyh", "title": "Умножение и деление обыкновенных дробей", "order": 6},
-        {"slug": "nahozhdenie-chisla-po-ego-drobi", "title": "Нахождение числа по значению его дроби", "order": 7}
+        {
+          "slug": "osnovnoe-svoystvo-drobi-6",
+          "title": "Основное свойство дроби",
+          "order": 1
+        },
+        {
+          "slug": "sokrashenie-drobey-6",
+          "title": "Сокращение дробей",
+          "order": 2
+        },
+        {
+          "slug": "obshiy-znamenatel-6",
+          "title": "Общий знаменатель дробей",
+          "order": 3
+        },
+        {
+          "slug": "sravnenie-obyknovennyh-drobey-6",
+          "title": "Сравнение обыкновенных дробей",
+          "order": 4
+        },
+        {
+          "slug": "slozhenie-drobey-raznye-znamenateli-6",
+          "title": "Сложение дробей с разными знаменателями",
+          "order": 5
+        },
+        {
+          "slug": "vychitanie-drobey-raznye-znamenateli-6",
+          "title": "Вычитание дробей с разными знаменателями",
+          "order": 6
+        },
+        {
+          "slug": "nahozhdenie-drobi-ot-chisla",
+          "title": "Нахождение дроби от числа",
+          "order": 7
+        },
+        {
+          "slug": "vzaimno-obratnye-chisla",
+          "title": "Взаимно обратные числа",
+          "order": 8
+        },
+        {
+          "slug": "umnozhenie-obyknovennyh-drobey-6",
+          "title": "Умножение обыкновенных дробей",
+          "order": 9
+        },
+        {
+          "slug": "delenie-obyknovennyh-drobey-6",
+          "title": "Деление обыкновенных дробей",
+          "order": 10
+        },
+        {
+          "slug": "nahozhdenie-chisla-po-ego-drobi",
+          "title": "Нахождение числа по значению его дроби",
+          "order": 11
+        }
       ]
     },
     {
       "name": "Отношения и пропорции",
       "order": 4,
       "topics": [
-        {"slug": "otnosheniya-proporcii", "title": "Отношения. Пропорции", "order": 1},
-        {"slug": "masshtab", "title": "Масштаб", "order": 2},
-        {"slug": "pryamaya-obratnaya-proporcionalnost", "title": "Прямая и обратная пропорциональные зависимости", "order": 3},
-        {"slug": "okruzhnost-i-krug", "title": "Окружность и круг", "order": 4},
-        {"slug": "dlina-okruzhnosti-ploshad-kruga", "title": "Длина окружности. Площадь круга", "order": 5},
-        {"slug": "tela-vrasheniya", "title": "Цилиндр, конус, шар", "order": 6},
-        {"slug": "stolbchatye-diagrammy", "title": "Столбчатые диаграммы", "order": 7},
-        {"slug": "krugovye-diagrammy", "title": "Круговые диаграммы", "order": 8},
-        {"slug": "sluchaynye-sobytiya-veroyatnost", "title": "Случайные события. Вероятность случайного события", "order": 9}
+        {
+          "slug": "otnosheniya-6",
+          "title": "Отношение двух чисел",
+          "order": 1
+        },
+        {
+          "slug": "proporcii-6",
+          "title": "Пропорция и её основное свойство",
+          "order": 2
+        },
+        {
+          "slug": "masshtab",
+          "title": "Масштаб",
+          "order": 3
+        },
+        {
+          "slug": "pryamaya-proporcionalnost-6",
+          "title": "Прямая пропорциональная зависимость",
+          "order": 4
+        },
+        {
+          "slug": "obratnaya-proporcionalnost-6",
+          "title": "Обратная пропорциональная зависимость",
+          "order": 5
+        },
+        {
+          "slug": "okruzhnost-6",
+          "title": "Окружность: центр, радиус, диаметр, хорда",
+          "order": 6
+        },
+        {
+          "slug": "krug-6",
+          "title": "Круг как часть плоскости",
+          "order": 7
+        },
+        {
+          "slug": "dlina-okruzhnosti-6",
+          "title": "Длина окружности",
+          "order": 8
+        },
+        {
+          "slug": "ploshad-kruga-6",
+          "title": "Площадь круга",
+          "order": 9
+        },
+        {
+          "slug": "cilindr-6",
+          "title": "Цилиндр",
+          "order": 10
+        },
+        {
+          "slug": "konus-6",
+          "title": "Конус",
+          "order": 11
+        },
+        {
+          "slug": "shar-6",
+          "title": "Шар",
+          "order": 12
+        },
+        {
+          "slug": "stolbchatye-diagrammy",
+          "title": "Столбчатые диаграммы",
+          "order": 13
+        },
+        {
+          "slug": "krugovye-diagrammy",
+          "title": "Круговые диаграммы",
+          "order": 14
+        },
+        {
+          "slug": "sluchaynye-sobytiya-6",
+          "title": "Виды случайных событий",
+          "order": 15
+        },
+        {
+          "slug": "veroyatnost-sobytiya-6",
+          "title": "Вероятность случайного события",
+          "order": 16
+        }
       ]
     },
     {
       "name": "Рациональные числа и действия над ними",
       "order": 5,
       "topics": [
-        {"slug": "celye-chisla", "title": "Положительные и отрицательные числа. Целые числа", "order": 1},
-        {"slug": "koordinatnaya-pryamaya", "title": "Координатная прямая", "order": 2},
-        {"slug": "modul-chisla", "title": "Модуль числа", "order": 3},
-        {"slug": "sravnenie-polozhitelnyh-otricatelnyh", "title": "Сравнение чисел", "order": 4},
-        {"slug": "slozhenie-raznye-znaki", "title": "Сложение рациональных чисел", "order": 5},
-        {"slug": "vychitanie-plus-minus", "title": "Вычитание рациональных чисел", "order": 6},
-        {"slug": "umnozhenie-plus-minus", "title": "Умножение рациональных чисел", "order": 7},
-        {"slug": "koefficient-raspredelitelnoe-svoystvo", "title": "Коэффициент. Распределительное свойство умножения", "order": 8},
-        {"slug": "delenie-plus-minus", "title": "Деление рациональных чисел", "order": 9},
-        {"slug": "racionalnye-chisla", "title": "Рациональные числа: совместные действия", "order": 10},
-        {"slug": "uravneniya", "title": "Решение уравнений. Решение задач с помощью уравнений", "order": 11},
-        {"slug": "perpendikulyarnye-pryamye", "title": "Перпендикулярные прямые", "order": 12},
-        {"slug": "osevaya-simmetriya", "title": "Осевая симметрия", "order": 13},
-        {"slug": "centralnaya-simmetriya", "title": "Центральная симметрия", "order": 14},
-        {"slug": "parallelnye-pryamye", "title": "Параллельные прямые", "order": 15},
-        {"slug": "koordinaty-tochki", "title": "Координатная плоскость", "order": 16},
-        {"slug": "postroenie-po-koordinatam", "title": "Построение точек и фигур по координатам", "order": 17},
-        {"slug": "grafiki", "title": "Графики", "order": 18}
+        {
+          "slug": "polozhitelnye-otricatelnye-chisla-6",
+          "title": "Положительные и отрицательные числа",
+          "order": 1
+        },
+        {
+          "slug": "celye-chisla-6",
+          "title": "Целые числа",
+          "order": 2
+        },
+        {
+          "slug": "koordinatnaya-pryamaya",
+          "title": "Координатная прямая",
+          "order": 3
+        },
+        {
+          "slug": "modul-chisla",
+          "title": "Модуль числа",
+          "order": 4
+        },
+        {
+          "slug": "sravnenie-polozhitelnyh-otricatelnyh",
+          "title": "Сравнение положительных и отрицательных чисел",
+          "order": 5
+        },
+        {
+          "slug": "slozhenie-raznye-znaki",
+          "title": "Сложение чисел с одинаковыми и разными знаками",
+          "order": 6
+        },
+        {
+          "slug": "vychitanie-plus-minus",
+          "title": "Вычитание положительных и отрицательных чисел",
+          "order": 7
+        },
+        {
+          "slug": "umnozhenie-plus-minus",
+          "title": "Умножение чисел со знаками",
+          "order": 8
+        },
+        {
+          "slug": "koefficient-6",
+          "title": "Коэффициент буквенного выражения",
+          "order": 9
+        },
+        {
+          "slug": "raspredelitelnoe-svoystvo-racionalnye-6",
+          "title": "Распределительное свойство умножения",
+          "order": 10
+        },
+        {
+          "slug": "delenie-plus-minus",
+          "title": "Деление чисел со знаками",
+          "order": 11
+        },
+        {
+          "slug": "racionalnye-chisla",
+          "title": "Рациональные числа: совместные действия",
+          "order": 12
+        },
+        {
+          "slug": "reshenie-uravneniy-6",
+          "title": "Решение уравнений",
+          "order": 13
+        },
+        {
+          "slug": "zadachi-s-uravneniyami-6",
+          "title": "Задачи на составление уравнений",
+          "order": 14
+        },
+        {
+          "slug": "perpendikulyarnye-pryamye",
+          "title": "Перпендикулярные прямые",
+          "order": 15
+        },
+        {
+          "slug": "osevaya-simmetriya",
+          "title": "Осевая симметрия",
+          "order": 16
+        },
+        {
+          "slug": "centralnaya-simmetriya",
+          "title": "Центральная симметрия",
+          "order": 17
+        },
+        {
+          "slug": "parallelnye-pryamye",
+          "title": "Параллельные прямые",
+          "order": 18
+        },
+        {
+          "slug": "koordinaty-tochki",
+          "title": "Координатная плоскость: оси и координаты точки",
+          "order": 19
+        },
+        {
+          "slug": "postroenie-po-koordinatam",
+          "title": "Построение точек и фигур по координатам",
+          "order": 20
+        },
+        {
+          "slug": "grafiki",
+          "title": "Графики",
+          "order": 21
+        }
       ]
     },
     {
       "name": "Итоговое повторение",
       "order": 6,
       "topics": [
-        {"slug": "itogovoe-povtorenie-matematika", "title": "Итоговое повторение курса математики за 6 класс", "order": 1}
+        {
+          "slug": "itogovoe-povtorenie-matematika",
+          "title": "Итоговое повторение курса математики за 6 класс",
+          "order": 1
+        }
       ]
     }
   ]

@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как называется результат деления?",
+      "options": [
+        {"text": "частное", "correct": true},
+        {"text": "делимое", "correct": false},
+        {"text": "делитель", "correct": false},
+        {"text": "произведение", "correct": false}
+      ],
+      "explanation": "Результат деления называется частное, число, которое делят, — делимое, а число, на которое делят, — делитель."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли: 56 ÷ 8.",
+      "options": [
+        {"text": "7", "correct": true},
+        {"text": "8", "correct": false},
+        {"text": "6", "correct": false},
+        {"text": "9", "correct": false}
+      ],
+      "explanation": "56 ÷ 8 = 7, так как 8 × 7 = 56."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли: 0 ÷ 14.",
+      "options": [
+        {"text": "0", "correct": true},
+        {"text": "14", "correct": false},
+        {"text": "1", "correct": false},
+        {"text": "нельзя делить", "correct": false}
+      ],
+      "explanation": "Ноль, делённый на любое число (кроме нуля), всегда равен нулю."
+    },
+    {
+      "type": "multiple",
+      "text": "Из равенства 7 × 5 = 35 следуют равенства деления. Выбери верные (выбери все верные варианты).",
+      "options": [
+        {"text": "35 ÷ 5 = 7", "correct": true},
+        {"text": "35 ÷ 7 = 5", "correct": true},
+        {"text": "35 ÷ 35 = 5", "correct": false},
+        {"text": "5 ÷ 35 = 7", "correct": false}
+      ],
+      "explanation": "Из произведения 7 × 5 = 35 следуют два деления: 35 ÷ 5 = 7 и 35 ÷ 7 = 5."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения о делении верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "любое число, делённое на 1, равно самому себе", "correct": true},
+        {"text": "деление можно проверить умножением частного на делитель", "correct": true},
+        {"text": "на ноль делить нельзя", "correct": true},
+        {"text": "0, делённый на 9, не существует", "correct": false}
+      ],
+      "explanation": "Первые три утверждения верны. 0 ÷ 9 существует и равно 0 — делить нельзя именно на ноль, а не на ноль."
+    },
+    {
+      "type": "dropdown",
+      "text": "81 ÷ 9 = ___",
+      "options": [
+        {"text": "9", "correct": true},
+        {"text": "8", "correct": false},
+        {"text": "72", "correct": false}
+      ],
+      "explanation": "81 ÷ 9 = 9, так как 9 × 9 = 81."
+    },
+    {
+      "type": "dropdown",
+      "text": "45 ÷ 1 = ___",
+      "options": [
+        {"text": "45", "correct": true},
+        {"text": "1", "correct": false},
+        {"text": "0", "correct": false}
+      ],
+      "explanation": "Деление на 1 не меняет число, поэтому 45 ÷ 1 = 45."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши только число: 63 ÷ 7 = ___.",
+      "answer": "9",
+      "explanation": "63 ÷ 7 = 9, так как 9 × 7 = 63."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Из равенства 6 × 12 = 72 впиши только число: 72 ÷ 6 = ___.",
+      "answer": "12",
+      "explanation": "Деление обратно умножению: если 6 × 12 = 72, то 72 ÷ 6 = 12."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини выражение с его значением:",
+      "pairs": [
+        {"left": "24 ÷ 6", "right": "4"},
+        {"left": "72 ÷ 8", "right": "9"},
+        {"left": "72 ÷ 9", "right": "8"},
+        {"left": "0 ÷ 9", "right": "0"}
+      ],
+      "explanation": "Значения найдены из связи деления с умножением: 6×4=24, 8×9=72, 9×8=72, а ноль делённый на любое число равен нулю."
+    }
+  ]
+}

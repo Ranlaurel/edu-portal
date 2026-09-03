@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чему равно 7³?",
+      "options": [
+        {"text": "343", "correct": true},
+        {"text": "21", "correct": false},
+        {"text": "49", "correct": false},
+        {"text": "147", "correct": false}
+      ],
+      "explanation": "7³ = 7 × 7 × 7 = 49 × 7 = 343."
+    },
+    {
+      "type": "single",
+      "text": "Чему равно 2⁵?",
+      "options": [
+        {"text": "32", "correct": true},
+        {"text": "10", "correct": false},
+        {"text": "25", "correct": false},
+        {"text": "16", "correct": false}
+      ],
+      "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие равенства верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "5² = 25", "correct": true},
+        {"text": "10⁰ = 1", "correct": true},
+        {"text": "3³ = 9", "correct": false},
+        {"text": "9¹ = 9", "correct": true}
+      ],
+      "explanation": "5² = 25, 10⁰ = 1 (любое число, кроме 0, в нулевой степени равно 1), 9¹ = 9. А 3³ = 3×3×3 = 27, а не 9."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие из этих значений равны 16? (выбери все верные варианты)",
+      "options": [
+        {"text": "2⁴", "correct": true},
+        {"text": "4²", "correct": true},
+        {"text": "16¹", "correct": true},
+        {"text": "8²", "correct": false}
+      ],
+      "explanation": "2⁴ = 16, 4² = 16, 16¹ = 16. А 8² = 64, это не 16."
+    },
+    {
+      "type": "dropdown",
+      "text": "Любое число (кроме 0) в нулевой степени равно ___",
+      "options": [
+        {"text": "1", "correct": true},
+        {"text": "0", "correct": false},
+        {"text": "самому себе", "correct": false}
+      ],
+      "explanation": "По определению a⁰ = 1 для любого a, не равного нулю."
+    },
+    {
+      "type": "dropdown",
+      "text": "В записи 5⁴ число 5 — это основание, а 4 — это ___",
+      "options": [
+        {"text": "показатель степени", "correct": true},
+        {"text": "результат", "correct": false},
+        {"text": "множитель", "correct": false}
+      ],
+      "explanation": "4 показывает, сколько раз основание 5 берётся множителем: 5⁴ = 5×5×5×5."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Вычисли 6². Впиши только число.",
+      "answer": "36",
+      "explanation": "6² = 6 × 6 = 36."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Вычисли 3⁴. Впиши только число.",
+      "answer": "81",
+      "explanation": "3⁴ = 3 × 3 × 3 × 3 = 81."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини степень с её значением",
+      "pairs": [
+        {"left": "4³", "right": "64"},
+        {"left": "10⁰", "right": "1"},
+        {"left": "2⁵", "right": "32"},
+        {"left": "9¹", "right": "9"}
+      ],
+      "explanation": "4³=4×4×4=64, 10⁰=1 по определению, 2⁵=2×2×2×2×2=32, 9¹=9."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как спросить «Какая сегодня погода?»",
+      "options": [
+        {"text": "What's the weather like today?", "correct": true},
+        {"text": "How is the weather like today?", "correct": false},
+        {"text": "What weather today?", "correct": false}
+      ],
+      "explanation": "Стандартный вопрос о погоде: What's the weather like today?"
+    },
+    {
+      "type": "single",
+      "text": "Как ответить на «Is it raining?», если дождя нет?",
+      "options": [
+        {"text": "No, it isn't.", "correct": true},
+        {"text": "No, it doesn't.", "correct": false},
+        {"text": "Yes, it is.", "correct": false}
+      ],
+      "explanation": "Отвечаем тем же глаголом: No, it isn't."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы верно описывают погоду и советы? (выбери все верные варианты)",
+      "options": [
+        {"text": "Take an umbrella, it's raining.", "correct": true},
+        {"text": "It's cloudy and cold today.", "correct": true},
+        {"text": "Take a jacket, it's windy.", "correct": true},
+        {"text": "Weather is raining.", "correct": false},
+        {"text": "It hot in summer.", "correct": false}
+      ],
+      "explanation": "«Weather is raining» и «It hot» построены неверно: нужно It's raining и It's hot."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ it windy today? (вопрос)",
+      "options": [
+        {"text": "Is", "correct": true},
+        {"text": "Does", "correct": false},
+        {"text": "Are", "correct": false}
+      ],
+      "explanation": "Вопрос о погоде строится через Is it...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "It's hot and ___ in summer here.",
+      "options": [
+        {"text": "sunny", "correct": true},
+        {"text": "snowy", "correct": false},
+        {"text": "cold", "correct": false}
+      ],
+      "explanation": "Летом обычно жарко и солнечно, а не снежно или холодно."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: возьми куртку, ветрено — Take a jacket, it's ___.",
+      "answer": "windy",
+      "explanation": "«Ветрено» переводится как windy."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Составь отрицание: We need an umbrella. → We ___ need an umbrella. (зонт не нужен)",
+      "answer": "don't",
+      "explanation": "Отрицание в Present Simple для we — don't."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с правильным ответом",
+      "pairs": [
+        {"left": "What's the weather like today?", "right": "It's cloudy and windy."},
+        {"left": "Is it raining?", "right": "No, it isn't."},
+        {"left": "What's the weather like in summer here?", "right": "It's hot and sunny."},
+        {"left": "Is it cold today?", "right": "Yes, it is."}
+      ],
+      "explanation": "Проверь по диалогу из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Сегодня облачно и холодно»?",
+      "options": [
+        {"text": "It's cloudy and cold today.", "correct": true},
+        {"text": "Today cloudy and cold.", "correct": false},
+        {"text": "It's cloudy and cold is today.", "correct": false}
+      ],
+      "explanation": "Правильный порядок: It's + прилагательные + today."
+    }
+  ]
+}

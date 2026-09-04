@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верный предлог: The cat is ___ the bed.",
+      "options": [
+        {"text": "under", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "next to", "correct": false}
+      ],
+      "explanation": "«Под» переводится как under."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «На столе есть лампа»?",
+      "options": [
+        {"text": "There is a lamp on the table.", "correct": true},
+        {"text": "There is a lamp in the table.", "correct": false},
+        {"text": "There is a lamp under the table.", "correct": false}
+      ],
+      "explanation": "Лампа стоит сверху стола, поэтому on."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях предлог места использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "The clothes are in the wardrobe.", "correct": true},
+        {"text": "The chair is next to the table.", "correct": true},
+        {"text": "There is a mirror on the wall.", "correct": true},
+        {"text": "The cat is on the bed under.", "correct": false},
+        {"text": "The lamp is next the table.", "correct": false}
+      ],
+      "explanation": "«Next the table» неверно — нужно next to the table; «on the bed under» — порядок слов неверен."
+    },
+    {
+      "type": "dropdown",
+      "text": "The clothes are ___ the wardrobe.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "under", "correct": false}
+      ],
+      "explanation": "Одежда внутри шкафа, поэтому in."
+    },
+    {
+      "type": "dropdown",
+      "text": "The chair is ___ the table.",
+      "options": [
+        {"text": "next to", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "on", "correct": false}
+      ],
+      "explanation": "«Рядом с» переводится как next to."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: There is a clock ___ the wall.",
+      "answer": "on",
+      "explanation": "Часы висят на стене — предлог on."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: The cat is ___ the bed.",
+      "answer": "under",
+      "explanation": "«Под» переводится как under."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предлог с переводом",
+      "pairs": [
+        {"left": "in", "right": "в (внутри)"},
+        {"left": "on", "right": "на (сверху)"},
+        {"left": "under", "right": "под"},
+        {"left": "next to", "right": "рядом с"}
+      ],
+      "explanation": "Проверь по правилу из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Стул рядом с кроватью»?",
+      "options": [
+        {"text": "The chair is next to the bed.", "correct": true},
+        {"text": "The chair is under the bed.", "correct": false},
+        {"text": "The chair is on the bed.", "correct": false}
+      ],
+      "explanation": "«Рядом с» переводится как next to."
+    }
+  ]
+}

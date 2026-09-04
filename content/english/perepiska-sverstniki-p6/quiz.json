@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "I usually ___ volleyball after school, but right now I am doing my homework.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "am playing", "correct": false},
+        {"text": "played", "correct": false}
+      ],
+      "explanation": "Usually указывает на привычку — Present Simple: play."
+    },
+    {
+      "type": "single",
+      "text": "Right now I ___ my homework.",
+      "options": [
+        {"text": "am doing", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "did", "correct": false}
+      ],
+      "explanation": "Right now указывает на действие в момент речи — Present Continuous."
+    },
+    {
+      "type": "multiple",
+      "text": "Что обычно пишут в письме другу по переписке? (выбери все верные варианты)",
+      "options": [
+        {"text": "Dear...", "correct": true},
+        {"text": "How are you?", "correct": true},
+        {"text": "the fastest", "correct": false},
+        {"text": "Best wishes", "correct": true},
+        {"text": "must not", "correct": false}
+      ],
+      "explanation": "Dear, How are you? и Best wishes — типичные части письма другу по переписке."
+    },
+    {
+      "type": "dropdown",
+      "text": "My favourite hobby ___ drawing.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "am", "correct": false},
+        {"text": "are", "correct": false}
+      ],
+      "explanation": "Hobby — единственное число (it), используется is."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ Anna, I'm writing to tell you about my life at the moment.",
+      "options": [
+        {"text": "Dear", "correct": true},
+        {"text": "Love", "correct": false},
+        {"text": "Best", "correct": false}
+      ],
+      "explanation": "Dear — обращение в начале письма."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: I usually ___ (play) chess after school.",
+      "answer": "play",
+      "explanation": "Usually указывает на привычку — Present Simple, I без -s."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: как ты? (два слова допустимы вместе)",
+      "answer": "How are you",
+      "explanation": "«Как ты?» переводится как How are you?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини часть письма с её назначением",
+      "pairs": [
+        {"left": "Dear Anna,", "right": "обращение в начале"},
+        {"left": "How are you?", "right": "вопрос другу"},
+        {"left": "Write back soon!", "right": "просьба ответить"},
+        {"left": "Best wishes,", "right": "окончание письма"}
+      ],
+      "explanation": "Части письма соответствуют по назначению структуре письма другу по переписке."
+    },
+    {
+      "type": "single",
+      "text": "My pen friend ___ in another country.",
+      "options": [
+        {"text": "lives", "correct": true},
+        {"text": "is living", "correct": false},
+        {"text": "live", "correct": false}
+      ],
+      "explanation": "Факт о месте жительства — Present Simple, для he/she/it (pen friend) +s: lives."
+    }
+  ]
+}

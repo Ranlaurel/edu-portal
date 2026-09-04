@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «collection»?",
+      "options": [
+        {"text": "коллекция", "correct": true},
+        {"text": "навык", "correct": false},
+        {"text": "марка", "correct": false}
+      ],
+      "explanation": "«Collection» — коллекция."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «skill»?",
+      "options": [
+        {"text": "навык", "correct": true},
+        {"text": "хобби", "correct": false},
+        {"text": "коллекция", "correct": false}
+      ],
+      "explanation": "«Skill» — навык."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают творческие занятия? (выбери все верные варианты)",
+      "options": [
+        {"text": "paint", "correct": true},
+        {"text": "draw", "correct": true},
+        {"text": "collection", "correct": false},
+        {"text": "sing", "correct": true},
+        {"text": "skill", "correct": false}
+      ],
+      "explanation": "Paint, draw, sing — занятия. Collection и skill — не глаголы занятий."
+    },
+    {
+      "type": "dropdown",
+      "text": "Рисовать красками — это ___.",
+      "options": [
+        {"text": "paint", "correct": true},
+        {"text": "draw", "correct": false},
+        {"text": "knit", "correct": false}
+      ],
+      "explanation": "Paint — рисовать красками, draw — рисовать карандашом."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «вязать»?",
+      "options": [
+        {"text": "knit", "correct": true},
+        {"text": "sing", "correct": false},
+        {"text": "collect", "correct": false}
+      ],
+      "explanation": "Knit — вязать."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: коллекционировать",
+      "answer": "collect",
+      "explanation": "«Коллекционировать» — collect."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: марка",
+      "answer": "stamp",
+      "explanation": "«Марка» — stamp."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "play chess", "right": "играть в шахматы"},
+        {"left": "ride a bike", "right": "кататься на велосипеде"},
+        {"left": "take photos", "right": "фотографировать"},
+        {"left": "interesting", "right": "интересный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «hobby»?",
+      "options": [
+        {"text": "хобби", "correct": true},
+        {"text": "навык", "correct": false},
+        {"text": "коллекция", "correct": false}
+      ],
+      "explanation": "«Hobby» — хобби."
+    }
+  ]
+}

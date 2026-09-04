@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как будет сравнительная степень слова «easy»?",
+      "options": [
+        {"text": "easier", "correct": true},
+        {"text": "easyer", "correct": false},
+        {"text": "more easy", "correct": false}
+      ],
+      "explanation": "Easy оканчивается на -y, буква y меняется на i: easier."
+    },
+    {
+      "type": "single",
+      "text": "Как будет сравнительная степень слова «good»?",
+      "options": [
+        {"text": "better", "correct": true},
+        {"text": "gooder", "correct": false},
+        {"text": "more good", "correct": false}
+      ],
+      "explanation": "Good — слово-исключение: good → better → the best."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие степени сравнения образованы правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "more difficult", "correct": true},
+        {"text": "worse", "correct": true},
+        {"text": "gooder", "correct": false},
+        {"text": "easier", "correct": true},
+        {"text": "difficulter", "correct": false}
+      ],
+      "explanation": "Difficult (длинное) — more difficult, bad (исключение) — worse, easy (y→i) — easier. Gooder и difficulter — ошибки."
+    },
+    {
+      "type": "dropdown",
+      "text": "This book is ___ (difficult) than that one.",
+      "options": [
+        {"text": "more difficult", "correct": true},
+        {"text": "difficulter", "correct": false},
+        {"text": "the most difficult", "correct": false}
+      ],
+      "explanation": "Difficult — длинное прилагательное, сравнительная степень образуется через more."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is the ___ (bad) day of my life.",
+      "options": [
+        {"text": "worst", "correct": true},
+        {"text": "baddest", "correct": false},
+        {"text": "most bad", "correct": false}
+      ],
+      "explanation": "Bad — исключение: bad → worse → the worst."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень слова good: the ___.",
+      "answer": "best",
+      "explanation": "Good — исключение: good → better → the best."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень слова difficult: the ___ difficult.",
+      "answer": "most",
+      "explanation": "Difficult — длинное прилагательное: the most difficult."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное со сравнительной степенью",
+      "pairs": [
+        {"left": "easy", "right": "easier"},
+        {"left": "difficult", "right": "more difficult"},
+        {"left": "good", "right": "better"},
+        {"left": "bad", "right": "worse"}
+      ],
+      "explanation": "Проверь по правилам из урока: y→ier, more для длинных слов, исключения good/bad."
+    }
+  ]
+}

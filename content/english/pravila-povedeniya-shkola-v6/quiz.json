@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «permission»?",
+      "options": [
+        {"text": "разрешение", "correct": true},
+        {"text": "правило", "correct": false},
+        {"text": "уважение", "correct": false}
+      ],
+      "explanation": "Permission — разрешение."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «директор школы» на английском?",
+      "options": [
+        {"text": "headteacher", "correct": true},
+        {"text": "student", "correct": false},
+        {"text": "teacher", "correct": false}
+      ],
+      "explanation": "Headteacher — директор школы."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают плохое поведение в школе? (выбери все верные варианты)",
+      "options": [
+        {"text": "shout", "correct": true},
+        {"text": "respect", "correct": false},
+        {"text": "run", "correct": true},
+        {"text": "be late", "correct": true},
+        {"text": "listen to", "correct": false}
+      ],
+      "explanation": "Shout, run, be late — примеры плохого поведения. Respect и listen to — хорошее поведение."
+    },
+    {
+      "type": "dropdown",
+      "text": "Students must wear school ___.",
+      "options": [
+        {"text": "uniform", "correct": true},
+        {"text": "corridor", "correct": false},
+        {"text": "permission", "correct": false}
+      ],
+      "explanation": "Uniform — школьная форма, её носят ученики."
+    },
+    {
+      "type": "dropdown",
+      "text": "Don't run in the ___.",
+      "options": [
+        {"text": "corridor", "correct": true},
+        {"text": "uniform", "correct": false},
+        {"text": "rule", "correct": false}
+      ],
+      "explanation": "Corridor — коридор, место, где нельзя бегать."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: уважать",
+      "answer": "respect",
+      "explanation": "«Уважать» переводится как respect."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: правило",
+      "answer": "rule",
+      "explanation": "«Правило» переводится как rule."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "be quiet", "right": "вести себя тихо"},
+        {"left": "mobile phone", "right": "мобильный телефон"},
+        {"left": "tidy", "right": "аккуратный"},
+        {"left": "behave", "right": "вести себя"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Ask for ___ before you leave the classroom.",
+      "options": [
+        {"text": "permission", "correct": true},
+        {"text": "uniform", "correct": false},
+        {"text": "corridor", "correct": false}
+      ],
+      "explanation": "Permission (разрешение) — то, что нужно спросить перед выходом из класса."
+    }
+  ]
+}

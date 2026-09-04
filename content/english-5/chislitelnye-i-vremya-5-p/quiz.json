@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как ответить на «What time is it?», если сейчас 4:15?",
+      "options": [
+        {"text": "It's a quarter past four.", "correct": true},
+        {"text": "It's a quarter to four.", "correct": false},
+        {"text": "It's four o'clock.", "correct": false}
+      ],
+      "explanation": "4:15 — это четверть после четырёх: a quarter past four."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «В нашей школе сто учеников»?",
+      "options": [
+        {"text": "There are a hundred pupils in our school.", "correct": true},
+        {"text": "There is a hundred pupils in our school.", "correct": false},
+        {"text": "There are hundred pupil in our school.", "correct": false}
+      ],
+      "explanation": "Pupils — множественное число, нужно there are; hundred требует артикль a."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы верно называют возраст и время? (выбери все верные варианты)",
+      "options": [
+        {"text": "I am eleven.", "correct": true},
+        {"text": "The lesson starts at nine o'clock.", "correct": true},
+        {"text": "He is sixty-five.", "correct": true},
+        {"text": "It's o'clock nine.", "correct": false},
+        {"text": "I am eleven years", "correct": false}
+      ],
+      "explanation": "Порядок слов «o'clock nine» неверен (нужно nine o'clock); возраст называем просто числом: I am eleven."
+    },
+    {
+      "type": "dropdown",
+      "text": "The lesson starts at nine ___.",
+      "options": [
+        {"text": "o'clock", "correct": true},
+        {"text": "hour", "correct": false},
+        {"text": "past", "correct": false}
+      ],
+      "explanation": "Для ровного часа используется o'clock: nine o'clock."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's twenty ___ three. (без двадцати три)",
+      "options": [
+        {"text": "to", "correct": true},
+        {"text": "past", "correct": false},
+        {"text": "half", "correct": false}
+      ],
+      "explanation": "To используется перед следующим часом: без двадцати до трёх."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Напиши число 43 словом (через дефис)",
+      "answer": "forty-three",
+      "explanation": "Десятки и единицы соединяются дефисом: forty-three."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Напиши время 6:30 словами (half ___ six)",
+      "answer": "past",
+      "explanation": "Половина после часа выражается словом past: half past six."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с правильным ответом",
+      "pairs": [
+        {"left": "What time is it? (4:15)", "right": "It's a quarter past four."},
+        {"left": "How old are you? (11)", "right": "I am eleven."},
+        {"left": "How many pupils are there? (30)", "right": "There are thirty pupils."},
+        {"left": "How old is your grandfather? (65)", "right": "He is sixty-five."}
+      ],
+      "explanation": "Время называем через It's, возраст — просто числом с глаголом to be."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Сейчас без двадцати три»?",
+      "options": [
+        {"text": "It's twenty to three.", "correct": true},
+        {"text": "It's twenty past three.", "correct": false},
+        {"text": "It's three to twenty.", "correct": false}
+      ],
+      "explanation": "«Без двадцати» переводится как twenty to."
+    }
+  ]
+}

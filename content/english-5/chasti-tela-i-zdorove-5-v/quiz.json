@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «stomach»?",
+      "options": [
+        {"text": "живот", "correct": true},
+        {"text": "спина", "correct": false},
+        {"text": "нога", "correct": false}
+      ],
+      "explanation": "«Stomach» — живот."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «зуб»?",
+      "options": [
+        {"text": "tooth", "correct": true},
+        {"text": "foot", "correct": false},
+        {"text": "head", "correct": false}
+      ],
+      "explanation": "«Зуб» — tooth."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова означают части тела? (выбери все верные варианты)",
+      "options": [
+        {"text": "leg", "correct": true},
+        {"text": "doctor", "correct": false},
+        {"text": "back", "correct": true},
+        {"text": "a cold", "correct": false},
+        {"text": "hand", "correct": true}
+      ],
+      "explanation": "Leg, back, hand — части тела. Doctor (врач) и a cold (простуда) — не части тела."
+    },
+    {
+      "type": "dropdown",
+      "text": "«Ступня» по-английски — это ___.",
+      "options": [
+        {"text": "foot", "correct": true},
+        {"text": "leg", "correct": false},
+        {"text": "hand", "correct": false}
+      ],
+      "explanation": "«Foot» — ступня, «leg» — нога целиком."
+    },
+    {
+      "type": "dropdown",
+      "text": "«Простуда» по-английски — это ___.",
+      "options": [
+        {"text": "a cold", "correct": true},
+        {"text": "ill", "correct": false},
+        {"text": "hurt", "correct": false}
+      ],
+      "explanation": "«Простуда» — a cold. Ill — это прилагательное «больной»."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: врач",
+      "answer": "doctor",
+      "explanation": "«Врач» переводится как doctor."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: голова",
+      "answer": "head",
+      "explanation": "«Голова» переводится как head."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "arm", "right": "рука (от плеча)"},
+        {"left": "back", "right": "спина"},
+        {"left": "tooth", "right": "зуб"},
+        {"left": "ill", "right": "больной"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «hand»?",
+      "options": [
+        {"text": "кисть руки", "correct": true},
+        {"text": "ступня", "correct": false},
+        {"text": "живот", "correct": false}
+      ],
+      "explanation": "«Hand» — кисть руки, а «arm» — рука от плеча."
+    }
+  ]
+}

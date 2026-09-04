@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «luggage»?",
+      "options": [
+        {"text": "багаж", "correct": true},
+        {"text": "билет", "correct": false},
+        {"text": "сувенир", "correct": false}
+      ],
+      "explanation": "Luggage (baggage) — багаж."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «за границей» на английском?",
+      "options": [
+        {"text": "abroad", "correct": true},
+        {"text": "journey", "correct": false},
+        {"text": "sightseeing", "correct": false}
+      ],
+      "explanation": "Abroad — за границей."
+    },
+    {
+      "type": "multiple",
+      "text": "Что относится к снаряжению для путешествия? (выбери все верные варианты)",
+      "options": [
+        {"text": "suitcase", "correct": true},
+        {"text": "tourist", "correct": false},
+        {"text": "backpack", "correct": true},
+        {"text": "tent", "correct": true},
+        {"text": "journey", "correct": false}
+      ],
+      "explanation": "Suitcase, backpack, tent — снаряжение. Tourist (турист) и journey (путешествие) — не снаряжение."
+    },
+    {
+      "type": "dropdown",
+      "text": "Don't forget your passport and ___.",
+      "options": [
+        {"text": "ticket", "correct": true},
+        {"text": "tent", "correct": false},
+        {"text": "souvenir", "correct": false}
+      ],
+      "explanation": "Ticket — билет, нужен вместе с паспортом для поездки."
+    },
+    {
+      "type": "dropdown",
+      "text": "We bought a nice ___ after sightseeing.",
+      "options": [
+        {"text": "souvenir", "correct": true},
+        {"text": "passport", "correct": false},
+        {"text": "luggage", "correct": false}
+      ],
+      "explanation": "Souvenir — сувенир, покупают после осмотра достопримечательностей."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: чемодан",
+      "answer": "suitcase",
+      "explanation": "«Чемодан» переводится как suitcase."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: турист",
+      "answer": "tourist",
+      "explanation": "«Турист» переводится как tourist."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "journey", "right": "путешествие (обычно долгое)"},
+        {"left": "beach holiday", "right": "пляжный отдых"},
+        {"left": "camping", "right": "отдых с палатками"},
+        {"left": "passport", "right": "паспорт"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I packed my suitcase and ___ for the trip.",
+      "options": [
+        {"text": "backpack", "correct": true},
+        {"text": "souvenir", "correct": false},
+        {"text": "sightseeing", "correct": false}
+      ],
+      "explanation": "Backpack (рюкзак) — вещь, которую можно упаковать вместе с чемоданом."
+    }
+  ]
+}

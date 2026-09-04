@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «autumn»?",
+      "options": [
+        {"text": "осень", "correct": true},
+        {"text": "весна", "correct": false},
+        {"text": "зима", "correct": false}
+      ],
+      "explanation": "«Autumn» — осень."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «пятница»?",
+      "options": [
+        {"text": "Friday", "correct": true},
+        {"text": "Monday", "correct": false},
+        {"text": "Sunday", "correct": false}
+      ],
+      "explanation": "«Пятница» переводится как Friday."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают месяцы? (выбери все верные варианты)",
+      "options": [
+        {"text": "January", "correct": true},
+        {"text": "Monday", "correct": false},
+        {"text": "May", "correct": true},
+        {"text": "September", "correct": true},
+        {"text": "spring", "correct": false}
+      ],
+      "explanation": "January, May, September — месяцы. Monday — день недели, spring — время года."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «зима»:",
+      "options": [
+        {"text": "winter", "correct": true},
+        {"text": "summer", "correct": false},
+        {"text": "spring", "correct": false}
+      ],
+      "explanation": "«Winter» — зима."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери месяц «декабрь»:",
+      "options": [
+        {"text": "December", "correct": true},
+        {"text": "January", "correct": false},
+        {"text": "September", "correct": false}
+      ],
+      "explanation": "«December» — декабрь."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: месяц",
+      "answer": "month",
+      "explanation": "«Месяц» переводится как month."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: лето",
+      "answer": "summer",
+      "explanation": "«Лето» переводится как summer."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "Monday", "right": "понедельник"},
+        {"left": "Sunday", "right": "воскресенье"},
+        {"left": "May", "right": "май"},
+        {"left": "spring", "right": "весна"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «September»?",
+      "options": [
+        {"text": "сентябрь", "correct": true},
+        {"text": "январь", "correct": false},
+        {"text": "декабрь", "correct": false}
+      ],
+      "explanation": "«September» — сентябрь."
+    }
+  ]
+}

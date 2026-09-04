@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «curly»?",
+      "options": [
+        {"text": "кудрявый", "correct": true},
+        {"text": "прямой", "correct": false},
+        {"text": "красивый", "correct": false}
+      ],
+      "explanation": "«Curly» — кудрявый (о волосах)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «tall»?",
+      "options": [
+        {"text": "высокий", "correct": true},
+        {"text": "низкий", "correct": false},
+        {"text": "молодой", "correct": false}
+      ],
+      "explanation": "«Tall» — высокий."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают внешность? (выбери все верные варианты)",
+      "options": [
+        {"text": "tall", "correct": true},
+        {"text": "family", "correct": false},
+        {"text": "curly", "correct": true},
+        {"text": "brother", "correct": false},
+        {"text": "beautiful", "correct": true}
+      ],
+      "explanation": "Tall, curly, beautiful описывают внешность. Family и brother — члены семьи, не внешность."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «прямой (о волосах)»:",
+      "options": [
+        {"text": "straight", "correct": true},
+        {"text": "curly", "correct": false},
+        {"text": "short", "correct": false}
+      ],
+      "explanation": "«Straight» — прямой (о волосах)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «старый»:",
+      "options": [
+        {"text": "old", "correct": true},
+        {"text": "young", "correct": false},
+        {"text": "tall", "correct": false}
+      ],
+      "explanation": "«Old» — старый, противоположность young (молодой)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: глаза",
+      "answer": "eyes",
+      "explanation": "«Глаза» переводится как eyes."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: волосы",
+      "answer": "hair",
+      "explanation": "«Волосы» переводится как hair."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "short", "right": "низкий (невысокий)"},
+        {"left": "young", "right": "молодой"},
+        {"left": "beautiful", "right": "красивый"},
+        {"left": "family", "right": "семья"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «family»?",
+      "options": [
+        {"text": "семья", "correct": true},
+        {"text": "брат", "correct": false},
+        {"text": "сестра", "correct": false}
+      ],
+      "explanation": "«Family» — семья."
+    }
+  ]
+}

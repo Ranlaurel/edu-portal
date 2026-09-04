@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «exciting»?",
+      "options": [
+        {"text": "увлекательный", "correct": true},
+        {"text": "скучный", "correct": false},
+        {"text": "ужасный", "correct": false}
+      ],
+      "explanation": "Exciting — увлекательный."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «впечатление» на английском?",
+      "options": [
+        {"text": "impression", "correct": true},
+        {"text": "memory", "correct": false},
+        {"text": "holiday", "correct": false}
+      ],
+      "explanation": "Impression — впечатление."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают положительные эмоции от отдыха? (выбери все верные варианты)",
+      "options": [
+        {"text": "amazing", "correct": true},
+        {"text": "boring", "correct": false},
+        {"text": "exciting", "correct": true},
+        {"text": "terrible", "correct": false},
+        {"text": "enjoy", "correct": true}
+      ],
+      "explanation": "Amazing, exciting, enjoy — положительные слова. Boring и terrible — отрицательные."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ at a small hotel near the beach.",
+      "options": [
+        {"text": "stayed", "correct": true},
+        {"text": "swam", "correct": false},
+        {"text": "took", "correct": false}
+      ],
+      "explanation": "Stay (at/in) — останавливаться где-то, подходит к слову hotel."
+    },
+    {
+      "type": "dropdown",
+      "text": "I love taking ___ on holiday.",
+      "options": [
+        {"text": "photos", "correct": true},
+        {"text": "memories", "correct": false},
+        {"text": "impressions", "correct": false}
+      ],
+      "explanation": "Take photos — устойчивое выражение «фотографировать»."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: скучный",
+      "answer": "boring",
+      "explanation": "«Скучный» переводится как boring."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: воспоминание",
+      "answer": "memory",
+      "explanation": "«Воспоминание» переводится как memory."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "relax", "right": "отдыхать, расслабляться"},
+        {"left": "terrible", "right": "ужасный"},
+        {"left": "have fun", "right": "веселиться"},
+        {"left": "visit", "right": "посещать"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "We had an ___ holiday by the sea.",
+      "options": [
+        {"text": "amazing", "correct": true},
+        {"text": "boring", "correct": false},
+        {"text": "terrible", "correct": false}
+      ],
+      "explanation": "Amazing (потрясающий) — положительное впечатление, подходит по смыслу."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «go straight»?",
+      "options": [
+        {"text": "идти прямо", "correct": true},
+        {"text": "повернуть направо", "correct": false},
+        {"text": "повернуть налево", "correct": false}
+      ],
+      "explanation": "«Go straight» — идти прямо."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «как мне добраться до музея?»",
+      "options": [
+        {"text": "How can I get to the museum?", "correct": true},
+        {"text": "How I can get museum?", "correct": false},
+        {"text": "How get to museum I can?", "correct": false}
+      ],
+      "explanation": "Правильный порядок слов в вопросе: How can I get to + место?"
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы используются, чтобы объяснить дорогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "turn left", "correct": true},
+        {"text": "shop assistant", "correct": false},
+        {"text": "go straight", "correct": true},
+        {"text": "favourite", "correct": false},
+        {"text": "turn right", "correct": true}
+      ],
+      "explanation": "Turn left, go straight, turn right — фразы для объяснения дороги."
+    },
+    {
+      "type": "dropdown",
+      "text": "Go straight and ___ at the bank (налево).",
+      "options": [
+        {"text": "turn left", "correct": true},
+        {"text": "turn right", "correct": false},
+        {"text": "go straight", "correct": false}
+      ],
+      "explanation": "«Налево» — turn left."
+    },
+    {
+      "type": "dropdown",
+      "text": "The station is next to the park, ___ (направо).",
+      "options": [
+        {"text": "turn right", "correct": true},
+        {"text": "turn left", "correct": false},
+        {"text": "go straight", "correct": false}
+      ],
+      "explanation": "«Направо» — turn right."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: извините",
+      "answer": "excuse me",
+      "accepted": ["excuse me"],
+      "explanation": "«Извините» — excuse me."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши фразу: How can I get ___ the library? (предлог)",
+      "answer": "to",
+      "explanation": "Формула вопроса: How can I get to + место."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "turn left", "right": "повернуть налево"},
+        {"left": "turn right", "right": "повернуть направо"},
+        {"left": "go straight", "right": "идти прямо"},
+        {"left": "excuse me", "right": "извините"}
+      ],
+      "explanation": "Проверь по таблице фраз из урока."
+    }
+  ]
+}

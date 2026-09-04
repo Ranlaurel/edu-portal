@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Из скольких наций состоит the UK по диалогу?",
+      "options": [
+        {"text": "четыре", "correct": true},
+        {"text": "три", "correct": false},
+        {"text": "две", "correct": false}
+      ],
+      "explanation": "Ученик называет четыре нации: England, Scotland, Wales, Northern Ireland."
+    },
+    {
+      "type": "single",
+      "text": "Что является флагом Великобритании по диалогу?",
+      "options": [
+        {"text": "the Union Jack", "correct": true},
+        {"text": "Big Ben", "correct": false},
+        {"text": "a castle", "correct": false}
+      ],
+      "explanation": "Ученик говорит: The Union Jack is the flag."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Big Ben — символ Лондона.", "correct": true},
+        {"text": "London — столица the UK.", "correct": true},
+        {"text": "Перед England нужен артикль the.", "correct": false},
+        {"text": "Перед the United Kingdom нужен артикль the.", "correct": true}
+      ],
+      "explanation": "По диалогу: Big Ben символ Лондона, Лондон — столица, England без артикля, а United Kingdom — с the."
+    },
+    {
+      "type": "dropdown",
+      "text": "We say \"___\" England, not \"the England\".",
+      "options": [
+        {"text": "(без артикля)", "correct": true},
+        {"text": "the", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "Обычные названия стран, включая England, пишутся без артикля."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ United Kingdom consists of four nations.",
+      "options": [
+        {"text": "The", "correct": true},
+        {"text": "A", "correct": false},
+        {"text": "(без артикля)", "correct": false}
+      ],
+      "explanation": "Перед United Kingdom нужен the из-за слова Kingdom."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: столица",
+      "answer": "capital",
+      "explanation": "«Столица» — capital, упоминается в диалоге про Лондон."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши название башни-символа Лондона из диалога.",
+      "answer": "Big Ben",
+      "explanation": "В диалоге Big Ben назван famous symbol of London."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "nation", "right": "нация, народ"},
+        {"left": "symbol", "right": "символ"},
+        {"left": "flag", "right": "флаг"},
+        {"left": "capital", "right": "столица"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

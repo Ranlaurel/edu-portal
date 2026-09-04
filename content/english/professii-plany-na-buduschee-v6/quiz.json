@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «engineer»?",
+      "options": [
+        {"text": "инженер", "correct": true},
+        {"text": "учёный", "correct": false},
+        {"text": "художник", "correct": false}
+      ],
+      "explanation": "«Engineer» — инженер, специалист технической профессии."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «vet»?",
+      "options": [
+        {"text": "ветеринар", "correct": true},
+        {"text": "юрист", "correct": false},
+        {"text": "пилот", "correct": false}
+      ],
+      "explanation": "«Vet» — ветеринар."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают профессии? (выбери все верные варианты)",
+      "options": [
+        {"text": "vet", "correct": true},
+        {"text": "pilot", "correct": true},
+        {"text": "profession", "correct": false},
+        {"text": "chef", "correct": true},
+        {"text": "job", "correct": false}
+      ],
+      "explanation": "Vet, pilot, chef — конкретные профессии. Profession и job — общие слова для обозначения профессии."
+    },
+    {
+      "type": "dropdown",
+      "text": "Программист — это ___.",
+      "options": [
+        {"text": "programmer", "correct": true},
+        {"text": "engineer", "correct": false},
+        {"text": "artist", "correct": false}
+      ],
+      "explanation": "Programmer — программист."
+    },
+    {
+      "type": "dropdown",
+      "text": "Певец — это ___.",
+      "options": [
+        {"text": "singer", "correct": true},
+        {"text": "artist", "correct": false},
+        {"text": "chef", "correct": false}
+      ],
+      "explanation": "Singer — певец."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: программист",
+      "answer": "programmer",
+      "explanation": "«Программист» переводится как programmer."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: пожарный",
+      "answer": "firefighter",
+      "explanation": "«Пожарный» переводится как firefighter."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "lawyer", "right": "юрист"},
+        {"left": "police officer", "right": "полицейский"},
+        {"left": "singer", "right": "певец"},
+        {"left": "businessman", "right": "бизнесмен"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «chef»?",
+      "options": [
+        {"text": "повар", "correct": true},
+        {"text": "врач", "correct": false},
+        {"text": "учитель", "correct": false}
+      ],
+      "explanation": "«Chef» — повар (шеф-повар)."
+    }
+  ]
+}

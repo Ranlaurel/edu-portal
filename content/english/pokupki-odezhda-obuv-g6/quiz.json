@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: ___ boots over there are too big (те ботинки вдалеке).",
+      "options": [
+        {"text": "Those", "correct": true},
+        {"text": "This", "correct": false},
+        {"text": "These", "correct": false}
+      ],
+      "explanation": "Boots — множественное число, предмет далеко, значит нужно those."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Эта куртка очень красивая» (куртка рядом)?",
+      "options": [
+        {"text": "This jacket is very nice.", "correct": true},
+        {"text": "That jacket is very nice.", "correct": false},
+        {"text": "These jacket is very nice.", "correct": false}
+      ],
+      "explanation": "This — единственное число, предмет рядом с говорящим."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения используют форму вежливой просьбы would like? (выбери все верные варианты)",
+      "options": [
+        {"text": "I'd like these trainers, please.", "correct": true},
+        {"text": "Would you like to try on this dress?", "correct": true},
+        {"text": "I want this dress now.", "correct": false},
+        {"text": "I'd like to try on this jacket.", "correct": true}
+      ],
+      "explanation": "I'd like и Would you like — вежливые формы. I want — прямое, менее вежливое желание."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ like this T-shirt in blue, please.",
+      "options": [
+        {"text": "'d", "correct": true},
+        {"text": "am", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "«I'd like» — сокращение от «I would like», вежливая просьба."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ jeans here (near me) are very cheap.",
+      "options": [
+        {"text": "These", "correct": true},
+        {"text": "This", "correct": false},
+        {"text": "That", "correct": false}
+      ],
+      "explanation": "Jeans — множественное число, предмет рядом (here), значит these."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: Would you ___ to try on this dress?",
+      "answer": "like",
+      "explanation": "Устойчивая фраза «Would you like to...?» — «Вы хотели бы...?»."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши указательное местоимение: ___ trainers in size 38, please (эти, рядом, множ. число).",
+      "answer": "These",
+      "explanation": "These — эти, множественное число, предмет рядом."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини указательное местоимение с его значением",
+      "pairs": [
+        {"left": "this", "right": "этот (рядом, ед. число)"},
+        {"left": "that", "right": "тот (далеко, ед. число)"},
+        {"left": "these", "right": "эти (рядом, мн. число)"},
+        {"left": "those", "right": "те (далеко, мн. число)"}
+      ],
+      "explanation": "Проверь по правилу this/that/these/those из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как вежливо спросить, хочет ли собеседник примерить платье?",
+      "options": [
+        {"text": "Would you like to try on this dress?", "correct": true},
+        {"text": "Do you want try on this dress?", "correct": false},
+        {"text": "You would like try on this dress?", "correct": false}
+      ],
+      "explanation": "Вежливый вопрос строится так: Would you like + to + глагол."
+    }
+  ]
+}

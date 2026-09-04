@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «territory»?",
+      "options": [
+        {"text": "территория", "correct": true},
+        {"text": "население", "correct": false},
+        {"text": "континент", "correct": false}
+      ],
+      "explanation": "«Territory» — территория."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «nationality»?",
+      "options": [
+        {"text": "национальность", "correct": true},
+        {"text": "культура", "correct": false},
+        {"text": "язык", "correct": false}
+      ],
+      "explanation": "«Nationality» — национальность."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к географии? (выбери все верные варианты)",
+      "options": [
+        {"text": "river", "correct": true},
+        {"text": "mountain", "correct": true},
+        {"text": "culture", "correct": false},
+        {"text": "lake", "correct": true},
+        {"text": "language", "correct": false}
+      ],
+      "explanation": "River, mountain, lake — географические объекты. Culture и language относятся к культуре, а не географии."
+    },
+    {
+      "type": "dropdown",
+      "text": "Большая часть суши, включающая несколько стран — это ___.",
+      "options": [
+        {"text": "continent", "correct": true},
+        {"text": "territory", "correct": false},
+        {"text": "country", "correct": false}
+      ],
+      "explanation": "«Continent» — континент."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как сказать «глубокий» по-английски? ___",
+      "options": [
+        {"text": "deep", "correct": true},
+        {"text": "long", "correct": false},
+        {"text": "large", "correct": false}
+      ],
+      "explanation": "«Deep» — глубокий."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: население",
+      "answer": "population",
+      "explanation": "«Население» переводится как population."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: культура",
+      "answer": "culture",
+      "explanation": "«Культура» переводится как culture."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "forest", "right": "лес"},
+        {"left": "mountain", "right": "гора"},
+        {"left": "language", "right": "язык"},
+        {"left": "large", "right": "большой"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится фраза «famous for»?",
+      "options": [
+        {"text": "знаменитый чем-то", "correct": true},
+        {"text": "далеко от", "correct": false},
+        {"text": "похожий на", "correct": false}
+      ],
+      "explanation": "«Famous for» — знаменитый чем-то."
+    }
+  ]
+}

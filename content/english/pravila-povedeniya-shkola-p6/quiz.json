@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Students must wear school uniform and must ___ the headteacher.",
+      "options": [
+        {"text": "respect", "correct": true},
+        {"text": "shout", "correct": false},
+        {"text": "run", "correct": false}
+      ],
+      "explanation": "Respect (уважать) — обязанность по отношению к директору школы."
+    },
+    {
+      "type": "single",
+      "text": "You mustn't shout or run in the corridor — ___, please!",
+      "options": [
+        {"text": "be quiet", "correct": true},
+        {"text": "be late", "correct": false},
+        {"text": "put up your hand", "correct": false}
+      ],
+      "explanation": "Be quiet (вести себя тихо) — просьба, логично следующая из запрета кричать и бегать."
+    },
+    {
+      "type": "multiple",
+      "text": "Что запрещено правилами школы? (выбери все верные варианты)",
+      "options": [
+        {"text": "using mobile phone without permission", "correct": true},
+        {"text": "running in the corridor", "correct": true},
+        {"text": "listening to the teacher", "correct": false},
+        {"text": "shouting in class", "correct": true},
+        {"text": "wearing uniform", "correct": false}
+      ],
+      "explanation": "Использование телефона без разрешения, бег в коридоре и крик в классе — запрещённые действия."
+    },
+    {
+      "type": "dropdown",
+      "text": "You mustn't use your mobile phone in class without ___.",
+      "options": [
+        {"text": "permission", "correct": true},
+        {"text": "uniform", "correct": false},
+        {"text": "corridor", "correct": false}
+      ],
+      "explanation": "Permission — разрешение, без которого нельзя пользоваться телефоном."
+    },
+    {
+      "type": "dropdown",
+      "text": "Always listen to the teacher and ___ before you speak.",
+      "options": [
+        {"text": "put up your hand", "correct": true},
+        {"text": "be late", "correct": false},
+        {"text": "shout", "correct": false}
+      ],
+      "explanation": "Put up your hand (поднять руку) — правильное действие перед тем, как говорить на уроке."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: Students ___ be late.",
+      "answer": "mustn't",
+      "explanation": "Запрет опаздывать выражается через mustn't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: We ___ respect each other.",
+      "answer": "must",
+      "explanation": "Обязанность уважать друг друга выражается через must."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини начало правила с его завершением",
+      "pairs": [
+        {"left": "You mustn't run", "right": "in the corridor."},
+        {"left": "Students must wear", "right": "school uniform."},
+        {"left": "Ask for permission", "right": "if you want to leave."},
+        {"left": "Keep your desk", "right": "tidy."}
+      ],
+      "explanation": "Части предложений соответствуют по смыслу школьным правилам из урока."
+    },
+    {
+      "type": "single",
+      "text": "You ___ run in the corridor.",
+      "options": [
+        {"text": "mustn't", "correct": true},
+        {"text": "must", "correct": false},
+        {"text": "musts", "correct": false}
+      ],
+      "explanation": "Бегать в коридоре запрещено, используем mustn't."
+    }
+  ]
+}

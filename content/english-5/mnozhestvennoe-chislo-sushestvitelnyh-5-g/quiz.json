@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как будет множественное число слова «box»?",
+      "options": [
+        {"text": "boxes", "correct": true},
+        {"text": "boxs", "correct": false},
+        {"text": "boxies", "correct": false}
+      ],
+      "explanation": "Box оканчивается на -x, поэтому добавляется -es: boxes."
+    },
+    {
+      "type": "single",
+      "text": "Как будет множественное число слова «city»?",
+      "options": [
+        {"text": "cities", "correct": true},
+        {"text": "citys", "correct": false},
+        {"text": "cityes", "correct": false}
+      ],
+      "explanation": "City оканчивается на согласную + y, поэтому y меняется на i и добавляется -es."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие формы множественного числа верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "pens", "correct": true},
+        {"text": "babies", "correct": true},
+        {"text": "boxs", "correct": false},
+        {"text": "citys", "correct": false},
+        {"text": "apples", "correct": true}
+      ],
+      "explanation": "Pen и apple просто +s. Baby (согласная+y) → babies. Box неправильно (нужно boxes), city неправильно (нужно cities)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Множественное число слова «baby» — это ___.",
+      "options": [
+        {"text": "babies", "correct": true},
+        {"text": "babys", "correct": false},
+        {"text": "babyes", "correct": false}
+      ],
+      "explanation": "Baby оканчивается на согласную + y, значит y → i + es: babies."
+    },
+    {
+      "type": "dropdown",
+      "text": "Множественное число слова «pen» — это ___.",
+      "options": [
+        {"text": "pens", "correct": true},
+        {"text": "penes", "correct": false},
+        {"text": "pen", "correct": false}
+      ],
+      "explanation": "Pen — обычное слово, просто добавляем -s: pens."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши множественное число слова apple.",
+      "answer": "apples",
+      "explanation": "Apple — просто добавляем -s: apples."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши множественное число слова box.",
+      "answer": "boxes",
+      "explanation": "Box оканчивается на -x, поэтому +es: boxes."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово в единственном числе с формой множественного числа",
+      "pairs": [
+        {"left": "pen", "right": "pens"},
+        {"left": "box", "right": "boxes"},
+        {"left": "city", "right": "cities"},
+        {"left": "baby", "right": "babies"}
+      ],
+      "explanation": "Проверь по правилам из урока: -s, -es после шипящих, y→ies после согласной."
+    },
+    {
+      "type": "single",
+      "text": "Переведи слово «apple».",
+      "options": [
+        {"text": "яблоко", "correct": true},
+        {"text": "коробка", "correct": false},
+        {"text": "город", "correct": false}
+      ],
+      "explanation": "«Apple» — яблоко."
+    }
+  ]
+}

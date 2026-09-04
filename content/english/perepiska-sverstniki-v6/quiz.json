@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «Write back soon»?",
+      "options": [
+        {"text": "Напиши в ответ скорее", "correct": true},
+        {"text": "Как ты?", "correct": false},
+        {"text": "С наилучшими пожеланиями", "correct": false}
+      ],
+      "explanation": "Write back soon — Напиши в ответ скорее."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «друг по переписке» на английском?",
+      "options": [
+        {"text": "pen friend", "correct": true},
+        {"text": "classmate", "correct": false},
+        {"text": "neighbour", "correct": false}
+      ],
+      "explanation": "Pen friend / pen pal — друг по переписке."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы используются в конце письма? (выбери все верные варианты)",
+      "options": [
+        {"text": "Best wishes", "correct": true},
+        {"text": "Dear...", "correct": false},
+        {"text": "Love", "correct": true},
+        {"text": "How are you?", "correct": false},
+        {"text": "Write back soon", "correct": true}
+      ],
+      "explanation": "Best wishes, Love и Write back soon обычно пишут в конце письма. Dear и How are you? — в начале."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ Tom, I'm writing to tell you about my hobby.",
+      "options": [
+        {"text": "Dear", "correct": true},
+        {"text": "Love", "correct": false},
+        {"text": "Best", "correct": false}
+      ],
+      "explanation": "Dear — обращение в начале письма."
+    },
+    {
+      "type": "dropdown",
+      "text": "I live in another ___.",
+      "options": [
+        {"text": "country", "correct": true},
+        {"text": "address", "correct": false},
+        {"text": "hobby", "correct": false}
+      ],
+      "explanation": "Country — страна, где можно жить."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сейчас (в данный момент)",
+      "answer": "moment",
+      "accepted": ["moment", "at the moment"],
+      "explanation": "«В данный момент» переводится как at the moment."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: отвечать (на письмо)",
+      "answer": "reply",
+      "explanation": "«Отвечать» переводится как reply."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "letter", "right": "письмо"},
+        {"left": "hobby", "right": "хобби"},
+        {"left": "address", "right": "адрес"},
+        {"left": "favourite", "right": "любимый"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I got a ___ from my pen friend yesterday.",
+      "options": [
+        {"text": "letter", "correct": true},
+        {"text": "address", "correct": false},
+        {"text": "country", "correct": false}
+      ],
+      "explanation": "Letter (письмо) — то, что получают от друга по переписке."
+    }
+  ]
+}

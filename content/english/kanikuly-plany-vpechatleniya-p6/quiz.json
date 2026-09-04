@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Last summer we ___ the seaside and stayed at a small hotel.",
+      "options": [
+        {"text": "visited", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "visiting", "correct": false}
+      ],
+      "explanation": "Last summer — маркер прошедшего времени, правильный глагол visit: visited."
+    },
+    {
+      "type": "single",
+      "text": "We ___ in the sea and had fun every day — it was amazing!",
+      "options": [
+        {"text": "swam", "correct": true},
+        {"text": "swim", "correct": false},
+        {"text": "swimmed", "correct": false}
+      ],
+      "explanation": "Swim — неправильный глагол, форма прошедшего времени: swam."
+    },
+    {
+      "type": "multiple",
+      "text": "Что можно делать на каникулах? (выбери все верные варианты)",
+      "options": [
+        {"text": "take photos", "correct": true},
+        {"text": "swim in the sea", "correct": true},
+        {"text": "have fun", "correct": true},
+        {"text": "wear uniform", "correct": false},
+        {"text": "do homework every day", "correct": false}
+      ],
+      "explanation": "Take photos, swim in the sea, have fun — типичные занятия на каникулах."
+    },
+    {
+      "type": "dropdown",
+      "text": "I took a lot of ___, and now I have great memories.",
+      "options": [
+        {"text": "photos", "correct": true},
+        {"text": "tickets", "correct": false},
+        {"text": "medals", "correct": false}
+      ],
+      "explanation": "Take photos — фотографировать, отсюда фотографии остаются на память."
+    },
+    {
+      "type": "dropdown",
+      "text": "The weather ___ good on the last day, so it was a bit boring.",
+      "options": [
+        {"text": "wasn't", "correct": true},
+        {"text": "didn't", "correct": false},
+        {"text": "isn't", "correct": false}
+      ],
+      "explanation": "Отрицание с be в прошедшем времени: wasn't (was not)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: I ___ (take) a lot of photos.",
+      "answer": "took",
+      "explanation": "Take — неправильный глагол, форма прошедшего времени: took."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму: The holiday ___ (be) amazing.",
+      "answer": "was",
+      "explanation": "Be в прошедшем времени для единственного числа: was."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини начало предложения с его завершением",
+      "pairs": [
+        {"left": "We visited", "right": "the seaside last summer."},
+        {"left": "We swam", "right": "in the sea every day."},
+        {"left": "I took a lot of", "right": "photos."},
+        {"left": "The weather wasn't good, so it was a bit", "right": "boring."}
+      ],
+      "explanation": "Части предложений соответствуют по смыслу рассказу о каникулах из урока."
+    },
+    {
+      "type": "single",
+      "text": "___ he enjoy his holiday?",
+      "options": [
+        {"text": "Did", "correct": true},
+        {"text": "Was", "correct": false},
+        {"text": "Does", "correct": false}
+      ],
+      "explanation": "Вопрос в Past Simple с обычным глаголом enjoy строится с did."
+    }
+  ]
+}

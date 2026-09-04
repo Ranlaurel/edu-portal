@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «эти туфли» (предметы рядом)?",
+      "options": [
+        {"text": "these shoes", "correct": true},
+        {"text": "this shoes", "correct": false},
+        {"text": "those shoes", "correct": false}
+      ],
+      "explanation": "These используется для предметов во множественном числе, находящихся рядом."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «те цветы» (предметы далеко)?",
+      "options": [
+        {"text": "those flowers", "correct": true},
+        {"text": "these flowers", "correct": false},
+        {"text": "that flowers", "correct": false}
+      ],
+      "explanation": "Those используется для предметов во множественном числе, находящихся далеко."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие местоимения используются для множественного числа? (выбери все верные варианты)",
+      "options": [
+        {"text": "these", "correct": true},
+        {"text": "those", "correct": true},
+        {"text": "this", "correct": false},
+        {"text": "that", "correct": false}
+      ],
+      "explanation": "These и those — множественное число, this и that — единственное."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ shoes are new (туфли рядом).",
+      "options": [
+        {"text": "These", "correct": true},
+        {"text": "This", "correct": false},
+        {"text": "Those", "correct": false}
+      ],
+      "explanation": "Множественное число, предметы рядом — these."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ flowers are beautiful (цветы далеко).",
+      "options": [
+        {"text": "Those", "correct": true},
+        {"text": "These", "correct": false},
+        {"text": "That", "correct": false}
+      ],
+      "explanation": "Множественное число, предметы далеко — those."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: окно",
+      "answer": "window",
+      "explanation": "«Окно» переводится как window."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: картинка",
+      "answer": "picture",
+      "explanation": "«Картинка» переводится как picture."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "window", "right": "окно"},
+        {"left": "picture", "right": "картинка"},
+        {"left": "shoes", "right": "туфли"},
+        {"left": "flowers", "right": "цветы"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

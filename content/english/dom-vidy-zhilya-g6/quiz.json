@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно: «В гостиной есть диван»?",
+      "options": [
+        {"text": "There is a sofa in the living room.", "correct": true},
+        {"text": "There are a sofa in the living room.", "correct": false},
+        {"text": "There a sofa in the living room.", "correct": false}
+      ],
+      "explanation": "Sofa — единственное число, значит there is."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «В нашей квартире две спальни»?",
+      "options": [
+        {"text": "There are two bedrooms in our flat.", "correct": true},
+        {"text": "There is two bedrooms in our flat.", "correct": false},
+        {"text": "There bedrooms two in our flat.", "correct": false}
+      ],
+      "explanation": "Two bedrooms — множественное число, значит there are."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях there is / there are употреблены верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "There is a lamp on the table.", "correct": true},
+        {"text": "There are three rooms in the flat.", "correct": true},
+        {"text": "There is two sofas in the room.", "correct": false},
+        {"text": "There isn't a garage here.", "correct": true}
+      ],
+      "explanation": "Two sofas — множественное число, нужно there are, а не there is."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ there any lamps in the bedroom?",
+      "options": [
+        {"text": "Are", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Do", "correct": false}
+      ],
+      "explanation": "Lamps — множественное число, вопрос: Are there...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a garage near our house (гаража нет).",
+      "options": [
+        {"text": "isn't", "correct": true},
+        {"text": "aren't", "correct": false},
+        {"text": "don't", "correct": false}
+      ],
+      "explanation": "Garage — единственное число, отрицание: there isn't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: ___ is a table in the kitchen. (В кухне есть стол.)",
+      "answer": "There",
+      "explanation": "Утверждение о существовании начинается с There is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши краткий положительный ответ на вопрос «Is there a sofa in the room?»: Yes, there ___.",
+      "answer": "is",
+      "explanation": "Краткий ответ для единственного числа: Yes, there is."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "There is a sofa in the room.", "right": "В комнате есть диван."},
+        {"left": "There are two bedrooms.", "right": "Есть две спальни."},
+        {"left": "There isn't a garage.", "right": "Гаража нет."},
+        {"left": "Are there any shelves?", "right": "Есть ли полки?"}
+      ],
+      "explanation": "Проверь по правилу there is / there are из урока."
+    },
+    {
+      "type": "single",
+      "text": "There are three rooms in our flat. Что значит это предложение?",
+      "options": [
+        {"text": "В нашей квартире три комнаты.", "correct": true},
+        {"text": "В нашей квартире есть комната.", "correct": false},
+        {"text": "У нас нет комнат.", "correct": false}
+      ],
+      "explanation": "Three rooms — множественное число, there are + количество."
+    }
+  ]
+}

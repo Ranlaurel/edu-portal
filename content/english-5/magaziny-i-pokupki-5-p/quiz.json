@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «how much is it?»",
+      "options": [
+        {"text": "сколько это стоит?", "correct": true},
+        {"text": "что это?", "correct": false},
+        {"text": "где это?", "correct": false}
+      ],
+      "explanation": "«How much is it?» — сколько это стоит?"
+    },
+    {
+      "type": "single",
+      "text": "Как правильно ответить продавцу, подавая товар?",
+      "options": [
+        {"text": "Here you are", "correct": true},
+        {"text": "There you go here", "correct": false},
+        {"text": "Take here", "correct": false}
+      ],
+      "explanation": "«Here you are» — вежливая фраза, когда что-то подают."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы уместны в разговоре с продавцом? (выбери все верные варианты)",
+      "options": [
+        {"text": "How much is it?", "correct": true},
+        {"text": "Turn left", "correct": false},
+        {"text": "Here you are", "correct": true},
+        {"text": "Go straight", "correct": false},
+        {"text": "Do you have any apples?", "correct": true}
+      ],
+      "explanation": "How much is it?, Here you are, Do you have any apples? — фразы для магазина."
+    },
+    {
+      "type": "dropdown",
+      "text": "Do you have ___ apples?",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "no", "correct": false}
+      ],
+      "explanation": "В вопросе покупателя используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "The shop assistant is our ___ (продавец).",
+      "options": [
+        {"text": "shop assistant", "correct": true},
+        {"text": "customer", "correct": false},
+        {"text": "receipt", "correct": false}
+      ],
+      "explanation": "«Продавец» — shop assistant."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: чек",
+      "answer": "receipt",
+      "explanation": "«Чек» — receipt."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: The customer asks: How much ___ it? (глагол)",
+      "answer": "is",
+      "explanation": "Формула вопроса: How much is it?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "how much is it?", "right": "сколько это стоит?"},
+        {"left": "here you are", "right": "вот, пожалуйста"},
+        {"left": "receipt", "right": "чек"},
+        {"left": "shop assistant", "right": "продавец"}
+      ],
+      "explanation": "Проверь по таблице фраз из урока."
+    }
+  ]
+}

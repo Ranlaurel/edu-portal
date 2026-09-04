@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «unhealthy»?",
+      "options": [
+        {"text": "вредный", "correct": true},
+        {"text": "полезный", "correct": false},
+        {"text": "сладкий", "correct": false}
+      ],
+      "explanation": "«Unhealthy» — вредный (для здоровья)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «diet»?",
+      "options": [
+        {"text": "питание, диета", "correct": true},
+        {"text": "перекус", "correct": false},
+        {"text": "еда (в общем)", "correct": false}
+      ],
+      "explanation": "«Diet» — питание, диета."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают продукты питания? (выбери все верные варианты)",
+      "options": [
+        {"text": "meat", "correct": true},
+        {"text": "healthy", "correct": false},
+        {"text": "fish", "correct": true},
+        {"text": "bread", "correct": true},
+        {"text": "diet", "correct": false}
+      ],
+      "explanation": "Meat, fish, bread — продукты. Healthy и diet — не продукты, а слова о питании в целом."
+    },
+    {
+      "type": "dropdown",
+      "text": "Перекус — это ___.",
+      "options": [
+        {"text": "snack", "correct": true},
+        {"text": "diet", "correct": false},
+        {"text": "meat", "correct": false}
+      ],
+      "explanation": "Snack — перекус."
+    },
+    {
+      "type": "dropdown",
+      "text": "Сладости — это ___.",
+      "options": [
+        {"text": "sweets", "correct": true},
+        {"text": "sugar", "correct": false},
+        {"text": "fruit", "correct": false}
+      ],
+      "explanation": "Sweets — сладости."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: питание, диета",
+      "answer": "diet",
+      "explanation": "«Питание, диета» переводится как diet."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: овощ",
+      "answer": "vegetable",
+      "explanation": "«Овощ» переводится как vegetable."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "fish", "right": "рыба"},
+        {"left": "bread", "right": "хлеб"},
+        {"left": "snack", "right": "перекус"},
+        {"left": "sweets", "right": "сладости"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «healthy»?",
+      "options": [
+        {"text": "полезный (для здоровья)", "correct": true},
+        {"text": "вредный", "correct": false},
+        {"text": "сладкий", "correct": false}
+      ],
+      "explanation": "«Healthy» — полезный для здоровья."
+    }
+  ]
+}

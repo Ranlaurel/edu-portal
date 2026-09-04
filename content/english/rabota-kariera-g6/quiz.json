@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Она умеет говорить на трёх языках»?",
+      "options": [
+        {"text": "She can speak three languages.", "correct": true},
+        {"text": "She cans speak three languages.", "correct": false},
+        {"text": "She can to speak three languages.", "correct": false}
+      ],
+      "explanation": "После модального глагола can не ставится -s или частица to: can speak."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «Когда я был младше, я умел печатать очень быстро»?",
+      "options": [
+        {"text": "When I was younger, I could type very fast.", "correct": true},
+        {"text": "When I was younger, I can type very fast.", "correct": false},
+        {"text": "When I was younger, I could typed very fast.", "correct": false}
+      ],
+      "explanation": "Для способности в прошлом используется could + глагол в базовой форме."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения используют can/could грамматически верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I can't work on Sundays.", "correct": true},
+        {"text": "Can you use a computer well?", "correct": true},
+        {"text": "She can to speak languages.", "correct": false},
+        {"text": "I could type very fast.", "correct": true}
+      ],
+      "explanation": "После can/could глагол ставится в базовой форме без частицы to."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ (not work) on Sundays.",
+      "options": [
+        {"text": "can't work", "correct": true},
+        {"text": "can't works", "correct": false},
+        {"text": "not can work", "correct": false}
+      ],
+      "explanation": "Отрицание с can: can't (cannot) + глагол в базовой форме без -s."
+    },
+    {
+      "type": "dropdown",
+      "text": "When I was younger, I ___ (type) very fast.",
+      "options": [
+        {"text": "could type", "correct": true},
+        {"text": "can type", "correct": false},
+        {"text": "could typed", "correct": false}
+      ],
+      "explanation": "Для способности в прошлом используется could + глагол в базовой форме."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: ___ you use a computer well? (спроси об умении)",
+      "answer": "Can",
+      "explanation": "Вопрос о способности начинается с модального глагола Can."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: She ___ (speak) three languages.",
+      "answer": "can speak",
+      "explanation": "Can + глагол в базовой форме — can speak."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини форму can/could с её значением",
+      "pairs": [
+        {"left": "can speak", "right": "умею говорить (сейчас)"},
+        {"left": "can't work", "right": "не могу работать (сейчас)"},
+        {"left": "could type", "right": "умел печатать (в прошлом)"},
+        {"left": "can you use", "right": "умеешь ли ты пользоваться (вопрос)"}
+      ],
+      "explanation": "Проверь по правилу can/could из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какая частица НЕ используется после can/could?",
+      "options": [
+        {"text": "to", "correct": true},
+        {"text": "not", "correct": false},
+        {"text": "you", "correct": false}
+      ],
+      "explanation": "После модальных глаголов can/could частица to не используется: can speak, а не can to speak."
+    }
+  ]
+}

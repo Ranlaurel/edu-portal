@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «skirt»?",
+      "options": [
+        {"text": "юбка", "correct": true},
+        {"text": "платье", "correct": false},
+        {"text": "куртка", "correct": false}
+      ],
+      "explanation": "«Skirt» — юбка."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «пальто»?",
+      "options": [
+        {"text": "coat", "correct": true},
+        {"text": "hat", "correct": false},
+        {"text": "jacket", "correct": false}
+      ],
+      "explanation": "«Пальто» — coat."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают обувь или то, что носят на ногах? (выбери все верные варианты)",
+      "options": [
+        {"text": "shoes", "correct": true},
+        {"text": "socks", "correct": true},
+        {"text": "trousers", "correct": true},
+        {"text": "hat", "correct": false},
+        {"text": "T-shirt", "correct": false}
+      ],
+      "explanation": "Shoes, socks, trousers надевают на ноги. Hat и T-shirt — нет."
+    },
+    {
+      "type": "dropdown",
+      "text": "I like this ___ (платье).",
+      "options": [
+        {"text": "dress", "correct": true},
+        {"text": "skirt", "correct": false},
+        {"text": "coat", "correct": false}
+      ],
+      "explanation": "«Платье» — dress."
+    },
+    {
+      "type": "dropdown",
+      "text": "Put on your ___ (шапку), it's cold.",
+      "options": [
+        {"text": "hat", "correct": true},
+        {"text": "jeans", "correct": false},
+        {"text": "socks", "correct": false}
+      ],
+      "explanation": "«Шапка» — hat."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: куртка",
+      "answer": "jacket",
+      "explanation": "«Куртка» переводится как jacket."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: джинсы",
+      "answer": "jeans",
+      "explanation": "«Джинсы» переводятся как jeans."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "T-shirt", "right": "футболка"},
+        {"left": "trousers", "right": "брюки"},
+        {"left": "socks", "right": "носки"},
+        {"left": "clothes", "right": "одежда"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

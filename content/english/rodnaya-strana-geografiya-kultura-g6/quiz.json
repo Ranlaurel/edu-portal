@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «Россия — самая большая страна в мире»?",
+      "options": [
+        {"text": "Russia is the largest country in the world.", "correct": true},
+        {"text": "Russia is the more large country in the world.", "correct": false},
+        {"text": "Russia is largest country in the world.", "correct": false}
+      ],
+      "explanation": "Превосходная степень требует артикль the: the largest."
+    },
+    {
+      "type": "single",
+      "text": "Какая превосходная степень у длинного прилагательного popular?",
+      "options": [
+        {"text": "the most popular", "correct": true},
+        {"text": "the popularest", "correct": false},
+        {"text": "popularer", "correct": false}
+      ],
+      "explanation": "Длинные прилагательные (3+ слога) образуют превосходную степень через the most."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "Lake Baikal is the deepest lake in the world.", "correct": true},
+        {"text": "The Volga is the longest river in Europe.", "correct": true},
+        {"text": "Moscow is the most popular city.", "correct": true},
+        {"text": "Moscow is the popularest city.", "correct": false},
+        {"text": "Russia is largest country.", "correct": false}
+      ],
+      "explanation": "Popular — длинное прилагательное, превосходная степень the most popular, не popularest. Артикль the обязателен."
+    },
+    {
+      "type": "dropdown",
+      "text": "Baikal is the ___ (deep) lake in the world.",
+      "options": [
+        {"text": "deepest", "correct": true},
+        {"text": "more deep", "correct": false},
+        {"text": "deeper", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное deep образует превосходную степень через the + -est: deepest."
+    },
+    {
+      "type": "dropdown",
+      "text": "Moscow is the ___ (popular) city for tourists.",
+      "options": [
+        {"text": "most popular", "correct": true},
+        {"text": "popularest", "correct": false},
+        {"text": "more popular", "correct": false}
+      ],
+      "explanation": "Длинное прилагательное popular: превосходная степень через the most."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: big → the ___",
+      "answer": "biggest",
+      "explanation": "Big — короткое прилагательное с удвоением согласной: biggest."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: long → the ___",
+      "answer": "longest",
+      "explanation": "Long — короткое прилагательное: the longest."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное с превосходной степенью",
+      "pairs": [
+        {"left": "large", "right": "the largest"},
+        {"left": "deep", "right": "the deepest"},
+        {"left": "long", "right": "the longest"},
+        {"left": "popular", "right": "the most popular"}
+      ],
+      "explanation": "Короткие прилагательные +est, длинные — the most."
+    }
+  ]
+}

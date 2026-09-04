@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «она высокая»?",
+      "options": [
+        {"text": "She is tall.", "correct": true},
+        {"text": "She has tall.", "correct": false},
+        {"text": "She got tall.", "correct": false}
+      ],
+      "explanation": "Для общих черт (рост) используем to be + adjective."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «у моего друга кудрявые волосы»?",
+      "options": [
+        {"text": "My friend has got curly hair.", "correct": true},
+        {"text": "My friend is curly hair.", "correct": false},
+        {"text": "My friend has curly.", "correct": false}
+      ],
+      "explanation": "Для того, что есть у человека (волосы), используем has got."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях грамматика употреблена верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "He is well-built.", "correct": true},
+        {"text": "She has got blue eyes.", "correct": true},
+        {"text": "He has well-built.", "correct": false},
+        {"text": "She is got blue eyes.", "correct": false}
+      ],
+      "explanation": "Well-built описывает телосложение через to be, blue eyes — через has got."
+    },
+    {
+      "type": "dropdown",
+      "text": "My brother ___ got short fair hair.",
+      "options": [
+        {"text": "has", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "does", "correct": false}
+      ],
+      "explanation": "Has got — есть (волосы описываются через has got)."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ he got a moustache?",
+      "options": [
+        {"text": "Has", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Does", "correct": false}
+      ],
+      "explanation": "Вопрос с has got: Has he got...?"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: He ___n't got a beard. (у него нет бороды)",
+      "answer": "has",
+      "explanation": "Отрицание has got: hasn't got."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: She ___ tall and slim. (она высокая и стройная)",
+      "answer": "is",
+      "explanation": "To be + adjective: she is tall."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "She is tall and slim.", "right": "Она высокая и стройная."},
+        {"left": "He has got curly hair.", "right": "У него кудрявые волосы."},
+        {"left": "He hasn't got a beard.", "right": "У него нет бороды."},
+        {"left": "Has she got blue eyes?", "right": "У неё голубые глаза?"}
+      ],
+      "explanation": "Проверь по правилу to be + adjective и has got из урока."
+    },
+    {
+      "type": "single",
+      "text": "Краткий положительный ответ на «Has he got a moustache?»",
+      "options": [
+        {"text": "Yes, he has.", "correct": true},
+        {"text": "Yes, he is.", "correct": false},
+        {"text": "Yes, he does.", "correct": false}
+      ],
+      "explanation": "Краткий ответ на вопрос с has got: Yes, he has."
+    }
+  ]
+}

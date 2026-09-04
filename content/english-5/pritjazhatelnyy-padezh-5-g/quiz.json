@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «собака Энн»?",
+      "options": [
+        {"text": "Ann's dog", "correct": true},
+        {"text": "Ann dog", "correct": false},
+        {"text": "the dog Ann", "correct": false}
+      ],
+      "explanation": "Притяжательный падеж: имя + 's + существительное."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «книга учителя»?",
+      "options": [
+        {"text": "the teacher's book", "correct": true},
+        {"text": "the teacher book", "correct": false},
+        {"text": "the book's teacher", "correct": false}
+      ],
+      "explanation": "Существительное в единственном числе + 's: teacher's book."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких словосочетаниях 's использован правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "my friend's dog", "correct": true},
+        {"text": "Tom's bike", "correct": true},
+        {"text": "cat's Ann", "correct": false},
+        {"text": "the teacher's name", "correct": true}
+      ],
+      "explanation": "'s ставится после владельца (имени/сущ. в ед.ч.), перед предметом владения."
+    },
+    {
+      "type": "dropdown",
+      "text": "My friend___ dog is small.",
+      "options": [
+        {"text": "'s", "correct": true},
+        {"text": "s'", "correct": false},
+        {"text": "s", "correct": false}
+      ],
+      "explanation": "Friend — единственное число, добавляем 's."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is ___ (Tom) bike.",
+      "options": [
+        {"text": "Tom's", "correct": true},
+        {"text": "Toms", "correct": false},
+        {"text": "Tom", "correct": false}
+      ],
+      "explanation": "Имя владельца + 's: Tom's."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово с апострофом: имя учителя — the ___ name.",
+      "answer": "teacher's",
+      "explanation": "Teacher в единственном числе + 's."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: друг",
+      "answer": "friend",
+      "explanation": "«Друг» переводится как friend."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "dog", "right": "собака"},
+        {"left": "cat", "right": "кошка"},
+        {"left": "name", "right": "имя"},
+        {"left": "book", "right": "книга"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «friend»?",
+      "options": [
+        {"text": "друг", "correct": true},
+        {"text": "учитель", "correct": false},
+        {"text": "собака", "correct": false}
+      ],
+      "explanation": "«Friend» — друг."
+    }
+  ]
+}

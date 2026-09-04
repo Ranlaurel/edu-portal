@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно закончить: «У меня есть немного яблок»?",
+      "options": [
+        {"text": "I have some apples", "correct": true},
+        {"text": "I have any apples", "correct": false},
+        {"text": "I have some apple", "correct": false}
+      ],
+      "explanation": "В утвердительном предложении используется some, apples — множественное число (исчисляемое)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «В холодильнике есть молоко?»",
+      "options": [
+        {"text": "Is there any milk in the fridge?", "correct": true},
+        {"text": "Is there some milk in the fridge?", "correct": false},
+        {"text": "Is there a milk in the fridge?", "correct": false}
+      ],
+      "explanation": "В вопросах обычно используется any, а не some."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к неисчисляемым продуктам? (выбери все верные варианты)",
+      "options": [
+        {"text": "rice", "correct": true},
+        {"text": "apple", "correct": false},
+        {"text": "water", "correct": true},
+        {"text": "sugar", "correct": true},
+        {"text": "vegetable", "correct": false}
+      ],
+      "explanation": "Rice, water, sugar — неисчисляемые (нельзя посчитать штуками). Apple и vegetable — исчисляемые (an apple — apples)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Is there ___ milk in the fridge?",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В вопросах обычно используется any, а не some."
+    },
+    {
+      "type": "dropdown",
+      "text": "I don't eat ___ sweets before bed.",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a lot", "correct": false}
+      ],
+      "explanation": "В отрицательных предложениях используется any, а не some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: We need ___ rice for dinner.",
+      "answer": "some",
+      "explanation": "Утвердительное предложение — используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: I don't eat ___ sweets before bed.",
+      "answer": "any",
+      "explanation": "Отрицательное предложение — используется any."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини тип предложения с нужным словом",
+      "pairs": [
+        {"left": "утверждение", "right": "some"},
+        {"left": "вопрос", "right": "any"},
+        {"left": "отрицание", "right": "any"},
+        {"left": "неисчисляемое существительное", "right": "rice, water"}
+      ],
+      "explanation": "Проверь по правилу some/any из урока."
+    },
+    {
+      "type": "single",
+      "text": "We need some vegetables and fruit for a healthy diet. Что означает это предложение?",
+      "options": [
+        {"text": "Нам нужны овощи и фрукты для здорового питания", "correct": true},
+        {"text": "Нам не нужны овощи и фрукты", "correct": false},
+        {"text": "У нас есть овощи и фрукты для здорового питания", "correct": false}
+      ],
+      "explanation": "Need переводится как «нужно, необходимо», предложение говорит о потребности в овощах и фруктах."
+    }
+  ]
+}

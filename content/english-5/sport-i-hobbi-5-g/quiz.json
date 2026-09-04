@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой глагол используется с видами спорта с мячом (football, chess)?",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "С видами спорта, где играют с мячом или настольные игры, используется play."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «моя сестра плавает два раза в неделю»?",
+      "options": [
+        {"text": "My sister goes swimming twice a week", "correct": true},
+        {"text": "My sister plays swimming twice a week", "correct": false},
+        {"text": "My sister do swimming twice a week", "correct": false}
+      ],
+      "explanation": "С хобби на -ing (swimming) используется go, а she требует -es: goes swimming."
+    },
+    {
+      "type": "multiple",
+      "text": "С какими словами используется глагол go? (выбери все верные варианты)",
+      "options": [
+        {"text": "swimming", "correct": true},
+        {"text": "chess", "correct": false},
+        {"text": "running", "correct": true},
+        {"text": "football", "correct": false},
+        {"text": "dancing", "correct": true}
+      ],
+      "explanation": "Swimming, running, dancing оканчиваются на -ing и используются с go. Chess и football используются с play."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ basketball on Fridays.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "Basketball — игра с мячом, используется play."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ sport every day.",
+      "options": [
+        {"text": "does", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "doing", "correct": false}
+      ],
+      "explanation": "Для he в Present Simple глагол do становится does."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: My brother ___ (go) swimming every summer.",
+      "answer": "goes",
+      "explanation": "Для he/she/it к глаголу go добавляется -es: goes."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: I ___ (play) chess with my friend.",
+      "answer": "play",
+      "explanation": "Для I глагол используется без окончания: play."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини хобби с правильным глаголом",
+      "pairs": [
+        {"left": "football", "right": "play"},
+        {"left": "swimming", "right": "go"},
+        {"left": "chess", "right": "play"},
+        {"left": "dancing", "right": "go"}
+      ],
+      "explanation": "Игры с мячом и настольные игры — play, хобби на -ing (кроме игр) — go."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Обезьяна умеет лазить по деревьям»?",
+      "options": [
+        {"text": "A monkey can climb trees.", "correct": true},
+        {"text": "A monkey cans climb trees.", "correct": false},
+        {"text": "A monkey can climbs trees.", "correct": false}
+      ],
+      "explanation": "После can глагол используется без -s и без to: can climb."
+    },
+    {
+      "type": "single",
+      "text": "Какая форма верна для вопроса про способность?",
+      "options": [
+        {"text": "Can a bear swim?", "correct": true},
+        {"text": "Does a bear can swim?", "correct": false},
+        {"text": "A bear can swim?", "correct": false}
+      ],
+      "explanation": "В вопросе can выходит на первое место перед подлежащим."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие глаголы обозначают действия, которые умеют делать животные? (выбери все верные варианты)",
+      "options": [
+        {"text": "swim", "correct": true},
+        {"text": "climb", "correct": true},
+        {"text": "run", "correct": true},
+        {"text": "table", "correct": false},
+        {"text": "hat", "correct": false}
+      ],
+      "explanation": "Swim, climb, run — глаголы действия. Table и hat — существительные, не глаголы."
+    },
+    {
+      "type": "dropdown",
+      "text": "Fish ___ (can't/can) live without water.",
+      "options": [
+        {"text": "can't", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "cans", "correct": false}
+      ],
+      "explanation": "Рыбы не могут жить без воды — используется отрицание can't."
+    },
+    {
+      "type": "dropdown",
+      "text": "A tiger can ___ (бегать) fast.",
+      "options": [
+        {"text": "run", "correct": true},
+        {"text": "runs", "correct": false},
+        {"text": "running", "correct": false}
+      ],
+      "explanation": "После can глагол run используется без окончаний."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицательную форму: A dog ___ (can/fly) fly.",
+      "answer": "can't",
+      "explanation": "Собака не умеет летать — отрицание can't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: A bear can ___ (плавать).",
+      "answer": "swim",
+      "explanation": "«Плавать» — swim."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини животное с его способностью",
+      "pairs": [
+        {"left": "monkey", "right": "can climb trees"},
+        {"left": "tiger", "right": "can run fast"},
+        {"left": "bear", "right": "can swim"},
+        {"left": "dog", "right": "can't fly"}
+      ],
+      "explanation": "Проверь по примерам из урока про способности животных."
+    }
+  ]
+}

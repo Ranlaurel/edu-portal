@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что находится в городе Эммы по диалогу?",
+      "options": [
+        {"text": "an old castle", "correct": true},
+        {"text": "a modern museum", "correct": false},
+        {"text": "a big bridge", "correct": false}
+      ],
+      "explanation": "Эмма говорит: There is an old castle in our town."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «landmark»?",
+      "options": [
+        {"text": "достопримечательность", "correct": true},
+        {"text": "фестиваль", "correct": false},
+        {"text": "площадь", "correct": false}
+      ],
+      "explanation": "«Landmark» — достопримечательность, замок в диалоге называют famous landmark."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Каждый день замок посещает много туристов.", "correct": true},
+        {"text": "Летом проходит фестиваль у башни.", "correct": true},
+        {"text": "Дети носят особые костюмы.", "correct": true},
+        {"text": "Площадь украшают книгами.", "correct": false}
+      ],
+      "explanation": "По диалогу: много туристов, летний фестиваль у башни, дети wear special costumes, а площадь decorate with flowers (не книгами)."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ many tourists every day.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "Tourists — множественное число, значит there are."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ (decorate) the square with flowers.",
+      "options": [
+        {"text": "decorate", "correct": true},
+        {"text": "decorates", "correct": false},
+        {"text": "decorating", "correct": false}
+      ],
+      "explanation": "We — множественное число, окончание -s не добавляется."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: обычай",
+      "answer": "custom",
+      "explanation": "«Обычай» — custom, упоминается в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово из диалога: children ___ special costumes (носят).",
+      "answer": "wear",
+      "explanation": "«Носить» — wear."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "castle", "right": "замок"},
+        {"left": "festival", "right": "фестиваль"},
+        {"left": "square", "right": "площадь"},
+        {"left": "decorate", "right": "украшать"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как спросить «Сколько яблок?»",
+      "options": [
+        {"text": "How many apples?", "correct": true},
+        {"text": "How much apples?", "correct": false},
+        {"text": "How many apple?", "correct": false}
+      ],
+      "explanation": "Apples — исчисляемое существительное во множественном числе, используется how many."
+    },
+    {
+      "type": "single",
+      "text": "Как спросить «Сколько молока?»",
+      "options": [
+        {"text": "How much milk?", "correct": true},
+        {"text": "How many milk?", "correct": false},
+        {"text": "How much milks?", "correct": false}
+      ],
+      "explanation": "Milk — неисчисляемое существительное, используется how much в единственном числе."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие существительные неисчисляемые? (выбери все верные варианты)",
+      "options": [
+        {"text": "water", "correct": true},
+        {"text": "eggs", "correct": false},
+        {"text": "sugar", "correct": true},
+        {"text": "apples", "correct": false},
+        {"text": "rice", "correct": true}
+      ],
+      "explanation": "Water, sugar, rice нельзя посчитать по штукам — они неисчисляемые. Eggs и apples считаются штуками."
+    },
+    {
+      "type": "dropdown",
+      "text": "How ___ sugar do you need?",
+      "options": [
+        {"text": "much", "correct": true},
+        {"text": "many", "correct": false},
+        {"text": "a lot", "correct": false}
+      ],
+      "explanation": "Sugar — неисчисляемое существительное, значит how much."
+    },
+    {
+      "type": "dropdown",
+      "text": "How ___ eggs are there in the fridge?",
+      "options": [
+        {"text": "many", "correct": true},
+        {"text": "much", "correct": false},
+        {"text": "few", "correct": false}
+      ],
+      "explanation": "Eggs — исчисляемое существительное во множественном числе, значит how many."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: How ___ water is there in the bottle?",
+      "answer": "much",
+      "explanation": "Water — неисчисляемое, поэтому how much."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: How ___ apples did you buy?",
+      "answer": "many",
+      "explanation": "Apples — исчисляемое во множественном числе, поэтому how many."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово-контейнер с продуктом, к которому оно относится по смыслу",
+      "pairs": [
+        {"left": "a bottle of", "right": "water"},
+        {"left": "a bag of", "right": "rice"},
+        {"left": "a loaf of", "right": "bread"},
+        {"left": "how many", "right": "eggs"}
+      ],
+      "explanation": "Слова-контейнеры и how many используются с продуктами по правилам исчисляемости из урока."
+    },
+    {
+      "type": "single",
+      "text": "We need six ___.",
+      "options": [
+        {"text": "eggs", "correct": true},
+        {"text": "milk", "correct": false},
+        {"text": "sugar", "correct": false}
+      ],
+      "explanation": "Только исчисляемые существительные можно посчитать числом (six eggs)."
+    }
+  ]
+}

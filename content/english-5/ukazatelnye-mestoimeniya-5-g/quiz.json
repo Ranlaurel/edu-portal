@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «этот карандаш» (предмет рядом)?",
+      "options": [
+        {"text": "this pencil", "correct": true},
+        {"text": "that pencil", "correct": false},
+        {"text": "these pencil", "correct": false}
+      ],
+      "explanation": "This используется для предмета в единственном числе, находящегося рядом."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «тот стул» (предмет далеко)?",
+      "options": [
+        {"text": "that chair", "correct": true},
+        {"text": "this chair", "correct": false},
+        {"text": "those chair", "correct": false}
+      ],
+      "explanation": "That используется для предмета в единственном числе, находящегося далеко."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с «this» (рядом)? (выбери все верные варианты)",
+      "options": [
+        {"text": "here", "correct": true},
+        {"text": "near", "correct": true},
+        {"text": "far", "correct": false},
+        {"text": "there", "correct": false}
+      ],
+      "explanation": "This используется, когда предмет here (здесь) и near (близко)."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ chair is broken (стул далеко).",
+      "options": [
+        {"text": "That", "correct": true},
+        {"text": "This", "correct": false},
+        {"text": "These", "correct": false}
+      ],
+      "explanation": "Предмет далеко и в единственном числе — that."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ pencil is mine (карандаш рядом).",
+      "options": [
+        {"text": "This", "correct": true},
+        {"text": "That", "correct": false},
+        {"text": "Those", "correct": false}
+      ],
+      "explanation": "Предмет рядом и в единственном числе — this."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: далеко",
+      "answer": "far",
+      "explanation": "«Далеко» переводится как far."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: здесь",
+      "answer": "here",
+      "explanation": "«Здесь» переводится как here."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "pencil", "right": "карандаш"},
+        {"left": "chair", "right": "стул"},
+        {"left": "near", "right": "близко"},
+        {"left": "there", "right": "там"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Переведи слово «there».",
+      "options": [
+        {"text": "там", "correct": true},
+        {"text": "здесь", "correct": false},
+        {"text": "близко", "correct": false}
+      ],
+      "explanation": "«There» — там."
+    }
+  ]
+}

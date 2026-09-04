@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «timetable»?",
+      "options": [
+        {"text": "расписание", "correct": true},
+        {"text": "учитель", "correct": false},
+        {"text": "класс", "correct": false}
+      ],
+      "explanation": "«Timetable» — расписание уроков."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «pupil»?",
+      "options": [
+        {"text": "ученик", "correct": true},
+        {"text": "учитель", "correct": false},
+        {"text": "урок", "correct": false}
+      ],
+      "explanation": "«Pupil» — ученик (то же, что и student)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают школьные предметы? (выбери все верные варианты)",
+      "options": [
+        {"text": "Maths", "correct": true},
+        {"text": "teacher", "correct": false},
+        {"text": "Music", "correct": true},
+        {"text": "PE", "correct": true},
+        {"text": "classroom", "correct": false}
+      ],
+      "explanation": "Maths, Music, PE — школьные предметы. Teacher (учитель) и classroom (класс-комната) — не предметы."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово, которое переводится как «класс (комната)»:",
+      "options": [
+        {"text": "classroom", "correct": true},
+        {"text": "lesson", "correct": false},
+        {"text": "school", "correct": false}
+      ],
+      "explanation": "«Classroom» — комната, где проходят уроки."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово, которое переводится как «физкультура»:",
+      "options": [
+        {"text": "PE", "correct": true},
+        {"text": "Art", "correct": false},
+        {"text": "English", "correct": false}
+      ],
+      "explanation": "«PE» (Physical Education) — физкультура."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: ученик",
+      "answer": "pupil",
+      "accepted": ["pupil", "student"],
+      "explanation": "«Ученик» переводится как pupil или student."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: урок",
+      "answer": "lesson",
+      "explanation": "«Урок» переводится как lesson."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "lesson", "right": "урок"},
+        {"left": "classroom", "right": "класс (комната)"},
+        {"left": "Russian", "right": "русский язык"},
+        {"left": "teacher", "right": "учитель"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «Maths»?",
+      "options": [
+        {"text": "математика", "correct": true},
+        {"text": "музыка", "correct": false},
+        {"text": "рисование", "correct": false}
+      ],
+      "explanation": "«Maths» — математика."
+    }
+  ]
+}

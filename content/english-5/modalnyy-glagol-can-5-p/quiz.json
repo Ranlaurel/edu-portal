@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно составить вопрос «Ты умеешь готовить?»",
+      "options": [
+        {"text": "Can you cook?", "correct": true},
+        {"text": "You can cook?", "correct": false},
+        {"text": "Do you can cook?", "correct": false}
+      ],
+      "explanation": "Вопрос строится через перестановку: Can + подлежащее + глагол."
+    },
+    {
+      "type": "single",
+      "text": "Как ответить «Нет» на вопрос «Can he speak English?»",
+      "options": [
+        {"text": "No, he can't.", "correct": true},
+        {"text": "No, he not can.", "correct": false},
+        {"text": "No, he doesn't.", "correct": false}
+      ],
+      "explanation": "Краткий отрицательный ответ: No, he can't."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие вопросы построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "Can you ride a bike?", "correct": true},
+        {"text": "Can she plays chess?", "correct": false},
+        {"text": "Can he skate?", "correct": true},
+        {"text": "Does he can dance?", "correct": false}
+      ],
+      "explanation": "Вопрос: Can + подлежащее + глагол без -s и без to."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you ride a bike? — Yes, I can.",
+      "options": [
+        {"text": "Can", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Are", "correct": false}
+      ],
+      "explanation": "Вопрос про умение строится через Can."
+    },
+    {
+      "type": "dropdown",
+      "text": "Can she ___ (play) chess?",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "to play", "correct": false}
+      ],
+      "explanation": "После can глагол без -s и без to: play."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: лазать",
+      "answer": "climb",
+      "explanation": "«Лазать» переводится как climb."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод: говорить по-английски",
+      "answer": "speak English",
+      "explanation": "«Говорить по-английски» переводится как speak English."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "dance", "right": "танцевать"},
+        {"left": "ride a bike", "right": "кататься на велосипеде"},
+        {"left": "skate", "right": "кататься на коньках"},
+        {"left": "climb", "right": "лазать"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

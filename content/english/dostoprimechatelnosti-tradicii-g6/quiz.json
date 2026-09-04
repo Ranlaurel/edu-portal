@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «В центре города есть старый замок»?",
+      "options": [
+        {"text": "There is an old castle in the city centre.", "correct": true},
+        {"text": "There are an old castle in the city centre.", "correct": false},
+        {"text": "It has an old castle in the city centre.", "correct": false}
+      ],
+      "explanation": "A castle — единственное число, значит there is."
+    },
+    {
+      "type": "single",
+      "text": "Какое время используется для описания традиций (регулярных действий)?",
+      "options": [
+        {"text": "Present Simple", "correct": true},
+        {"text": "Present Continuous", "correct": false},
+        {"text": "Past Simple", "correct": false}
+      ],
+      "explanation": "Регулярные действия/традиции описываются в Present Simple."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "There are many tourists near the tower.", "correct": true},
+        {"text": "People celebrate this festival every summer.", "correct": true},
+        {"text": "There is many landmarks in London.", "correct": false},
+        {"text": "Children wear special costumes.", "correct": true},
+        {"text": "There aren't any bridge over this river.", "correct": false}
+      ],
+      "explanation": "С landmarks (множественное число) нужно there are. С bridges во множественном числе — bridges, не bridge."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ many landmarks in London. (there is / there are)",
+      "options": [
+        {"text": "There are", "correct": true},
+        {"text": "There is", "correct": false},
+        {"text": "Is there", "correct": false}
+      ],
+      "explanation": "Landmarks — множественное число, значит there are."
+    },
+    {
+      "type": "dropdown",
+      "text": "People ___ (celebrate) this tradition every year.",
+      "options": [
+        {"text": "celebrate", "correct": true},
+        {"text": "celebrates", "correct": false},
+        {"text": "celebrating", "correct": false}
+      ],
+      "explanation": "People — множественное число, окончание -s к глаголу не добавляется."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Составь вопрос: ___ there a museum in your town? (Is/Are)",
+      "answer": "Is",
+      "explanation": "A museum — единственное число, вопрос строится как Is there...?"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: Children ___ (wear) special costumes on this day.",
+      "answer": "wear",
+      "explanation": "Children — множественное число, окончание -s не добавляется: wear."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини правило с примером",
+      "pairs": [
+        {"left": "there is", "right": "an old castle"},
+        {"left": "there are", "right": "many tourists"},
+        {"left": "Present Simple (they)", "right": "celebrate"},
+        {"left": "Present Simple (he/she/it)", "right": "celebrates"}
+      ],
+      "explanation": "There is/are зависят от числа существительного, глагол в Present Simple меняется по лицам."
+    }
+  ]
+}

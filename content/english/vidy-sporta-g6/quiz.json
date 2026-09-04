@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно: заниматься теннисом?",
+      "options": [
+        {"text": "play tennis", "correct": true},
+        {"text": "do tennis", "correct": false},
+        {"text": "go tennis", "correct": false}
+      ],
+      "explanation": "Tennis — игра с мячом, используется глагол play."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: кататься на лыжах?",
+      "options": [
+        {"text": "go skiing", "correct": true},
+        {"text": "play skiing", "correct": false},
+        {"text": "do skiing", "correct": false}
+      ],
+      "explanation": "Skiing оканчивается на -ing, используется глагол go."
+    },
+    {
+      "type": "multiple",
+      "text": "С какими видами спорта используется глагол play? (выбери все верные варианты)",
+      "options": [
+        {"text": "football", "correct": true},
+        {"text": "chess", "correct": true},
+        {"text": "swimming", "correct": false},
+        {"text": "basketball", "correct": true},
+        {"text": "gymnastics", "correct": false}
+      ],
+      "explanation": "Football, chess, basketball — игры с мячом или соревновательные игры, требуют play. Swimming и gymnastics используют другие глаголы."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ gymnastics twice a week.",
+      "options": [
+        {"text": "does", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "goes", "correct": false}
+      ],
+      "explanation": "Gymnastics — вид спорта без мяча и команды, используется do."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ swimming in summer.",
+      "options": [
+        {"text": "go", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "Swimming оканчивается на -ing, используется go."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильный глагол: My brother ___ (play) football every weekend.",
+      "answer": "plays",
+      "explanation": "Football — игра с мячом, глагол play, для he добавляем -s: plays."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильный глагол: They ___ (go) running every morning.",
+      "answer": "go",
+      "explanation": "Running оканчивается на -ing, используется go, they — без -s."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вид спорта с правильным глаголом",
+      "pairs": [
+        {"left": "football", "right": "play"},
+        {"left": "gymnastics", "right": "do"},
+        {"left": "swimming", "right": "go"},
+        {"left": "chess", "right": "play"}
+      ],
+      "explanation": "Play — для игр с мячом/соревновательных игр, do — для спорта без мяча и команды, go — для видов на -ing."
+    },
+    {
+      "type": "single",
+      "text": "I ___ karate on Tuesdays.",
+      "options": [
+        {"text": "do", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "go", "correct": false}
+      ],
+      "explanation": "Karate — единоборство без мяча и команды, используется do."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «yesterday»?",
+      "options": [
+        {"text": "вчера", "correct": true},
+        {"text": "завтра", "correct": false},
+        {"text": "сегодня", "correct": false}
+      ],
+      "explanation": "«Yesterday» — вчера."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «ago»?",
+      "options": [
+        {"text": "назад", "correct": true},
+        {"text": "снова", "correct": false},
+        {"text": "потом", "correct": false}
+      ],
+      "explanation": "«Ago» — назад (используется после срока: two days ago)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова показывают прошедшее время? (выбери все верные варианты)",
+      "options": [
+        {"text": "yesterday", "correct": true},
+        {"text": "every day", "correct": false},
+        {"text": "last week", "correct": true},
+        {"text": "tomorrow", "correct": false},
+        {"text": "ago", "correct": true}
+      ],
+      "explanation": "Yesterday, last week, ago — маркеры прошедшего времени."
+    },
+    {
+      "type": "dropdown",
+      "text": "We visited grandmother ___ (на прошлой неделе).",
+      "options": [
+        {"text": "last week", "correct": true},
+        {"text": "every week", "correct": false},
+        {"text": "next week", "correct": false}
+      ],
+      "explanation": "«На прошлой неделе» — last week."
+    },
+    {
+      "type": "dropdown",
+      "text": "She watched a film two days ___ (назад).",
+      "options": [
+        {"text": "ago", "correct": true},
+        {"text": "before", "correct": false},
+        {"text": "last", "correct": false}
+      ],
+      "explanation": "«Назад» после срока — ago."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: убирать",
+      "answer": "clean",
+      "explanation": "«Убирать» переводится как clean."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: посещать",
+      "answer": "visit",
+      "explanation": "«Посещать» переводится как visit."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "yesterday", "right": "вчера"},
+        {"left": "walk", "right": "гулять"},
+        {"left": "watch", "right": "смотреть"},
+        {"left": "play", "right": "играть"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

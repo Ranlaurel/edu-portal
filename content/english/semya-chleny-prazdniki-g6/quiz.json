@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «день рождения моей сестры»?",
+      "options": [
+        {"text": "my sister's birthday", "correct": true},
+        {"text": "my sister birthday", "correct": false},
+        {"text": "the birthday my sister", "correct": false}
+      ],
+      "explanation": "Притяжательный падеж образуется через 's: sister's birthday."
+    },
+    {
+      "type": "single",
+      "text": "We ___ my birthday every year in July.",
+      "options": [
+        {"text": "celebrate", "correct": true},
+        {"text": "celebrates", "correct": false},
+        {"text": "celebrating", "correct": false}
+      ],
+      "explanation": "We — множественное число, окончание -s к глаголу не добавляется: we celebrate."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях глагол стоит в правильной форме Present Simple? (выбери все верные варианты)",
+      "options": [
+        {"text": "My grandmother cooks dinner.", "correct": true},
+        {"text": "My brother don't like parties.", "correct": false},
+        {"text": "My brother doesn't like parties.", "correct": true},
+        {"text": "We celebrates birthdays.", "correct": false}
+      ],
+      "explanation": "Для he/she/it добавляется -s (cooks, doesn't), для we — без -s (celebrate)."
+    },
+    {
+      "type": "dropdown",
+      "text": "My grandmother ___ (cook) a big dinner every holiday.",
+      "options": [
+        {"text": "cooks", "correct": true},
+        {"text": "cook", "correct": false},
+        {"text": "cooking", "correct": false}
+      ],
+      "explanation": "В Present Simple для he/she/it к глаголу добавляется -s: cooks."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is my parent___ flat (квартира моих родителей, множественное число).",
+      "options": [
+        {"text": "s'", "correct": true},
+        {"text": "'s", "correct": false},
+        {"text": "s", "correct": false}
+      ],
+      "explanation": "Если существительное во множественном числе уже оканчивается на -s, добавляем только апостроф: parents'."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: My brother ___ (not like) big parties.",
+      "answer": "doesn't like",
+      "accepted": ["doesn't like", "does not like"],
+      "explanation": "Отрицание в Present Simple для he/she: does not / doesn't + глагол без -s."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши окончание существительного: This is my grandfather___ house. (дом дедушки)",
+      "answer": "'s",
+      "explanation": "Притяжательный падеж единственного числа: grandfather's."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение на английском с переводом",
+      "pairs": [
+        {"left": "my sister's birthday", "right": "день рождения моей сестры"},
+        {"left": "my parents' flat", "right": "квартира моих родителей"},
+        {"left": "she cooks dinner", "right": "она готовит ужин"},
+        {"left": "we celebrate birthdays", "right": "мы празднуем дни рождения"}
+      ],
+      "explanation": "Проверь по правилам притяжательного падежа и Present Simple из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «дом моего дедушки»?",
+      "options": [
+        {"text": "my grandfather's house", "correct": true},
+        {"text": "my grandfather house", "correct": false},
+        {"text": "my grandfathers' house", "correct": false}
+      ],
+      "explanation": "Единственное число + 's: grandfather's house."
+    }
+  ]
+}

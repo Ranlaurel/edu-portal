@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «shopping list»?",
+      "options": [
+        {"text": "список покупок", "correct": true},
+        {"text": "цена товара", "correct": false},
+        {"text": "магазин продуктов", "correct": false}
+      ],
+      "explanation": "Shopping list — список покупок."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «покупать» на английском?",
+      "options": [
+        {"text": "buy", "correct": true},
+        {"text": "sell", "correct": false},
+        {"text": "pay", "correct": false}
+      ],
+      "explanation": "Buy — покупать."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают продукты питания? (выбери все верные варианты)",
+      "options": [
+        {"text": "bread", "correct": true},
+        {"text": "price", "correct": false},
+        {"text": "cheese", "correct": true},
+        {"text": "shop", "correct": false},
+        {"text": "rice", "correct": true}
+      ],
+      "explanation": "Bread, cheese, rice — продукты питания. Price (цена) и shop (магазин) — не продукты."
+    },
+    {
+      "type": "dropdown",
+      "text": "We need to buy a ___ of bread.",
+      "options": [
+        {"text": "loaf", "correct": true},
+        {"text": "bottle", "correct": false},
+        {"text": "bag", "correct": false}
+      ],
+      "explanation": "«Буханка хлеба» — a loaf of bread, это устойчивое выражение."
+    },
+    {
+      "type": "dropdown",
+      "text": "She bought a ___ of water.",
+      "options": [
+        {"text": "bottle", "correct": true},
+        {"text": "loaf", "correct": false},
+        {"text": "piece", "correct": false}
+      ],
+      "explanation": "Вода — неисчисляемое, для количества используется слово-контейнер a bottle of (бутылка)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: цена",
+      "answer": "price",
+      "explanation": "«Цена» переводится как price."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: яйца",
+      "answer": "eggs",
+      "explanation": "«Яйца» переводится как eggs."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "sugar", "right": "сахар"},
+        {"left": "milk", "right": "молоко"},
+        {"left": "apples", "right": "яблоки"},
+        {"left": "shop", "right": "магазин"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I need to buy some cheese and ___.",
+      "options": [
+        {"text": "rice", "correct": true},
+        {"text": "price", "correct": false},
+        {"text": "buy", "correct": false}
+      ],
+      "explanation": "Rice (рис) — продукт питания, подходит по смыслу в списке покупок."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Прошлым вечером я написал письмо другу»?",
+      "options": [
+        {"text": "Last night I wrote a letter to my friend.", "correct": true},
+        {"text": "Last night I write a letter to my friend.", "correct": false},
+        {"text": "Last night I writed a letter to my friend.", "correct": false}
+      ],
+      "explanation": "Write — неправильный глагол, его форма прошедшего времени — wrote."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «breakfast»?",
+      "options": [
+        {"text": "завтрак", "correct": true},
+        {"text": "ужин", "correct": false},
+        {"text": "обед", "correct": false}
+      ],
+      "explanation": "«Breakfast» — завтрак."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие маркеры времени используются с Past Simple? (выбери все верные варианты)",
+      "options": [
+        {"text": "yesterday", "correct": true},
+        {"text": "last night", "correct": true},
+        {"text": "last week", "correct": true},
+        {"text": "every day", "correct": false},
+        {"text": "tomorrow", "correct": false}
+      ],
+      "explanation": "Yesterday, last night, last week указывают на прошедшее время. Every day и tomorrow — нет."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ (have) breakfast at 8 and then went to school.",
+      "options": [
+        {"text": "had", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "haved", "correct": false}
+      ],
+      "explanation": "Прошедшая форма have — had."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you buy a present for her?",
+      "options": [
+        {"text": "Did", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Have", "correct": false}
+      ],
+      "explanation": "Вопрос в Past Simple образуется через Did."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: подарок",
+      "answer": "present",
+      "explanation": "«Подарок» — present."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: She ___ (take) a book last week.",
+      "answer": "took",
+      "explanation": "Прошедшая форма take — took."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I wrote a letter.", "right": "Я написал письмо."},
+        {"left": "We had breakfast.", "right": "Мы позавтракали."},
+        {"left": "Did you buy a present?", "right": "Ты купил подарок?"},
+        {"left": "I didn't see that film.", "right": "Я не видел этот фильм."}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    }
+  ]
+}

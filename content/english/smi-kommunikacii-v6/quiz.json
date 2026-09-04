@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «journalist»?",
+      "options": [
+        {"text": "журналист", "correct": true},
+        {"text": "читатель", "correct": false},
+        {"text": "редактор", "correct": false}
+      ],
+      "explanation": "«Journalist» — журналист."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «headline»?",
+      "options": [
+        {"text": "заголовок", "correct": true},
+        {"text": "статья", "correct": false},
+        {"text": "реклама", "correct": false}
+      ],
+      "explanation": "«Headline» — заголовок."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к СМИ? (выбери все верные варианты)",
+      "options": [
+        {"text": "newspaper", "correct": true},
+        {"text": "channel", "correct": true},
+        {"text": "interview", "correct": false},
+        {"text": "magazine", "correct": true},
+        {"text": "advertisement", "correct": false}
+      ],
+      "explanation": "Newspaper, channel, magazine — виды СМИ. Interview и advertisement — не сами СМИ, а форматы/контент внутри них."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как назвать общение через интернет-платформы вроде Instagram? ___",
+      "options": [
+        {"text": "social media", "correct": true},
+        {"text": "newspaper", "correct": false},
+        {"text": "radio", "correct": false}
+      ],
+      "explanation": "«Social media» — социальные сети."
+    },
+    {
+      "type": "dropdown",
+      "text": "Слово, обозначающее «реклама» — ___.",
+      "options": [
+        {"text": "advertisement", "correct": true},
+        {"text": "information", "correct": false},
+        {"text": "broadcast", "correct": false}
+      ],
+      "explanation": "«Advertisement» — реклама."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: трансляция",
+      "answer": "broadcast",
+      "explanation": "«Трансляция» переводится как broadcast."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сайт",
+      "answer": "website",
+      "explanation": "«Сайт» переводится как website."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "article", "right": "статья"},
+        {"left": "interview", "right": "интервью"},
+        {"left": "information", "right": "информация"},
+        {"left": "media", "right": "СМИ, медиа"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «news»?",
+      "options": [
+        {"text": "новости", "correct": true},
+        {"text": "журнал", "correct": false},
+        {"text": "радио", "correct": false}
+      ],
+      "explanation": "«News» — новости."
+    }
+  ]
+}

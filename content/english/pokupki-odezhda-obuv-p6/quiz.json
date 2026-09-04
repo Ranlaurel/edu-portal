@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что хочет примерить Анна сначала?",
+      "options": [
+        {"text": "this jacket", "correct": true},
+        {"text": "those boots", "correct": false},
+        {"text": "these trainers", "correct": false}
+      ],
+      "explanation": "Анна говорит: I'd like to try on this jacket."
+    },
+    {
+      "type": "single",
+      "text": "Какая цена куртки по диалогу?",
+      "options": [
+        {"text": "£30", "correct": true},
+        {"text": "£38", "correct": false},
+        {"text": "£13", "correct": false}
+      ],
+      "explanation": "Продавец говорит: It's £30."
+    },
+    {
+      "type": "multiple",
+      "text": "Что в итоге покупает Анна? (выбери все верные варианты)",
+      "options": [
+        {"text": "the jacket", "correct": true},
+        {"text": "those boots", "correct": true},
+        {"text": "the trainers", "correct": false},
+        {"text": "a dress", "correct": false}
+      ],
+      "explanation": "Анна говорит: I'll just take the jacket and those boots."
+    },
+    {
+      "type": "dropdown",
+      "text": "I'd like ___ boots in the shop window (те, вдалеке).",
+      "options": [
+        {"text": "those", "correct": true},
+        {"text": "these", "correct": false},
+        {"text": "this", "correct": false}
+      ],
+      "explanation": "Those — те, для предметов подальше (на витрине)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Would you like to ___ these trainers?",
+      "options": [
+        {"text": "try on", "correct": true},
+        {"text": "try", "correct": false},
+        {"text": "trying on", "correct": false}
+      ],
+      "explanation": "Try on — примерять; после like to используется базовая форма глагола."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши размер, который называет Анна.",
+      "answer": "38",
+      "explanation": "Анна говорит: Size 38."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I'd like this jacket. What's the ___? (цена)",
+      "answer": "price",
+      "explanation": "«Цена» — price."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "shop window", "right": "витрина"},
+        {"left": "try on", "right": "примерять"},
+        {"left": "I'd like", "right": "я хотел(а) бы"},
+        {"left": "size", "right": "размер"}
+      ],
+      "explanation": "Проверь по диалогу Анны и продавца."
+    },
+    {
+      "type": "single",
+      "text": "Какого цвета боты хочет Анна?",
+      "options": [
+        {"text": "black", "correct": true},
+        {"text": "blue", "correct": false},
+        {"text": "white", "correct": false}
+      ],
+      "explanation": "Анна говорит: those boots... in black colour."
+    }
+  ]
+}

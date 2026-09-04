@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая форма верна: «She ___ (get up) at eight»?",
+      "options": [
+        {"text": "gets up", "correct": true},
+        {"text": "get up", "correct": false},
+        {"text": "getting up", "correct": false}
+      ],
+      "explanation": "Для she в Present Simple к глаголу добавляется -s: gets up."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно образовать отрицание: «I have breakfast at six»?",
+      "options": [
+        {"text": "I don't have breakfast at six.", "correct": true},
+        {"text": "I doesn't have breakfast at six.", "correct": false},
+        {"text": "I not have breakfast at six.", "correct": false}
+      ],
+      "explanation": "Для I отрицание строится через don't + глагол без -s."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях глагол стоит в правильной форме Present Simple? (выбери все верные варианты)",
+      "options": [
+        {"text": "He goes to school by bus.", "correct": true},
+        {"text": "She get up at eight.", "correct": false},
+        {"text": "I get up at seven every day.", "correct": true},
+        {"text": "He go to school.", "correct": false}
+      ],
+      "explanation": "He/she требуют окончания -s/-es у глагола, а I — глагол без окончания."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ she get up early? — Yes, she does.",
+      "options": [
+        {"text": "Does", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Is", "correct": false}
+      ],
+      "explanation": "Вопрос для she строится через Does + подлежащее + глагол."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ (go) to school by bus.",
+      "options": [
+        {"text": "goes", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "going", "correct": false}
+      ],
+      "explanation": "Go оканчивается на -o, поэтому в 3-м лице добавляется -es: goes."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: My brother ___ (get up) at seven.",
+      "answer": "gets up",
+      "explanation": "Brother — это he, поэтому к глаголу добавляется -s: gets up."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицательную форму: He ___ (not/go) to school on Sunday.",
+      "answer": "doesn't go",
+      "accepted": ["doesn't go", "does not go"],
+      "explanation": "Отрицание для he: doesn't + глагол без -s."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I get up at seven.", "right": "Я встаю в семь."},
+        {"left": "She gets up at eight.", "right": "Она встаёт в восемь."},
+        {"left": "Does she get up early?", "right": "Она встаёт рано?"},
+        {"left": "He doesn't go to school on Sunday.", "right": "Он не ходит в школу в воскресенье."}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как задать вопрос к предложению «She gets up at nine»?",
+      "options": [
+        {"text": "Does she get up at nine?", "correct": true},
+        {"text": "Does she gets up at nine?", "correct": false},
+        {"text": "Is she get up at nine?", "correct": false}
+      ],
+      "explanation": "В вопросе Does забирает окончание -s, глагол остаётся без него: get up."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «timetable»?",
+      "options": [
+        {"text": "расписание", "correct": true},
+        {"text": "оценка", "correct": false},
+        {"text": "перемена", "correct": false}
+      ],
+      "explanation": "Timetable — расписание."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «оценка» на английском?",
+      "options": [
+        {"text": "mark", "correct": true},
+        {"text": "exam", "correct": false},
+        {"text": "subject", "correct": false}
+      ],
+      "explanation": "Mark — оценка."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают школьные предметы? (выбери все верные варианты)",
+      "options": [
+        {"text": "history", "correct": true},
+        {"text": "break", "correct": false},
+        {"text": "geography", "correct": true},
+        {"text": "mark", "correct": false},
+        {"text": "art", "correct": true}
+      ],
+      "explanation": "History, geography, art — школьные предметы. Break (перемена) и mark (оценка) — не предметы."
+    },
+    {
+      "type": "dropdown",
+      "text": "I got a good ___ for my homework.",
+      "options": [
+        {"text": "mark", "correct": true},
+        {"text": "break", "correct": false},
+        {"text": "subject", "correct": false}
+      ],
+      "explanation": "Mark — оценка, её получают за выполненную работу."
+    },
+    {
+      "type": "dropdown",
+      "text": "We have five lessons and two ___ today.",
+      "options": [
+        {"text": "breaks", "correct": true},
+        {"text": "marks", "correct": false},
+        {"text": "exams", "correct": false}
+      ],
+      "explanation": "Break — перемена между уроками."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: домашнее задание",
+      "answer": "homework",
+      "explanation": "«Домашнее задание» переводится как homework."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: физкультура",
+      "answer": "PE",
+      "accepted": ["PE", "physical education"],
+      "explanation": "«Физкультура» переводится как PE (physical education)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "classroom", "right": "класс (кабинет)"},
+        {"left": "exam", "right": "экзамен"},
+        {"left": "schoolbag", "right": "школьный рюкзак"},
+        {"left": "science", "right": "естествознание"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "My favourite ___ is maths.",
+      "options": [
+        {"text": "subject", "correct": true},
+        {"text": "break", "correct": false},
+        {"text": "mark", "correct": false}
+      ],
+      "explanation": "Subject (предмет) — то, что может быть любимым в школе."
+    }
+  ]
+}

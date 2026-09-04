@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «get up»?",
+      "options": [
+        {"text": "вставать", "correct": true},
+        {"text": "ложиться спать", "correct": false},
+        {"text": "просыпаться", "correct": false}
+      ],
+      "explanation": "«Get up» — вставать (с постели), в отличие от «wake up» — просыпаться."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «routine»?",
+      "options": [
+        {"text": "распорядок дня", "correct": true},
+        {"text": "привычка", "correct": false},
+        {"text": "расписание уроков", "correct": false}
+      ],
+      "explanation": "«Routine» — распорядок дня."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с утренним распорядком? (выбери все верные варианты)",
+      "options": [
+        {"text": "wake up", "correct": true},
+        {"text": "go to bed", "correct": false},
+        {"text": "brush teeth", "correct": true},
+        {"text": "have dinner", "correct": false},
+        {"text": "get dressed", "correct": true}
+      ],
+      "explanation": "Wake up, brush teeth, get dressed — обычно утренние действия. Go to bed и have dinner относятся к вечеру."
+    },
+    {
+      "type": "dropdown",
+      "text": "Привычка — это ___.",
+      "options": [
+        {"text": "habit", "correct": true},
+        {"text": "routine", "correct": false},
+        {"text": "homework", "correct": false}
+      ],
+      "explanation": "Habit — привычка."
+    },
+    {
+      "type": "dropdown",
+      "text": "Принимать душ — это ___.",
+      "options": [
+        {"text": "take a shower", "correct": true},
+        {"text": "get dressed", "correct": false},
+        {"text": "brush teeth", "correct": false}
+      ],
+      "explanation": "Take a shower — принимать душ."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: привычка",
+      "answer": "habit",
+      "explanation": "«Привычка» переводится как habit."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: рано",
+      "answer": "early",
+      "explanation": "«Рано» переводится как early."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "wake up", "right": "просыпаться"},
+        {"left": "go to bed", "right": "ложиться спать"},
+        {"left": "get dressed", "right": "одеваться"},
+        {"left": "take a shower", "right": "принимать душ"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится фраза «do homework»?",
+      "options": [
+        {"text": "делать домашнее задание", "correct": true},
+        {"text": "идти в школу", "correct": false},
+        {"text": "завтракать", "correct": false}
+      ],
+      "explanation": "«Do homework» — делать домашнее задание."
+    }
+  ]
+}

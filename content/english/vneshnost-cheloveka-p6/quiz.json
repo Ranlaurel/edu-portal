@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой рост и телосложение у подруги Сэм?",
+      "options": [
+        {"text": "tall and slim", "correct": true},
+        {"text": "short and well-built", "correct": false},
+        {"text": "tall and well-built", "correct": false}
+      ],
+      "explanation": "Сэм говорит: She is tall and slim."
+    },
+    {
+      "type": "single",
+      "text": "Есть ли у подруги Сэм веснушки?",
+      "options": [
+        {"text": "Yes, she has.", "correct": true},
+        {"text": "No, she hasn't.", "correct": false},
+        {"text": "Yes, she is.", "correct": false}
+      ],
+      "explanation": "Сэм отвечает: Yes, she has!"
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно про брата подруги Сэм? (выбери все верные варианты)",
+      "options": [
+        {"text": "He has got a beard.", "correct": true},
+        {"text": "He is well-built.", "correct": true},
+        {"text": "He is tall.", "correct": false},
+        {"text": "He is short.", "correct": true}
+      ],
+      "explanation": "По диалогу: у брата есть борода, он крепкого телосложения и невысокий, а не высокий."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ curly dark hair and blue eyes.",
+      "options": [
+        {"text": "has got", "correct": true},
+        {"text": "is got", "correct": false},
+        {"text": "is", "correct": false}
+      ],
+      "explanation": "Волосы и глаза описываются через has got."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ well-built and short.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "has got", "correct": false},
+        {"text": "has", "correct": false}
+      ],
+      "explanation": "Телосложение и рост описываются через to be."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Has she got ___ (веснушки)?",
+      "answer": "freckles",
+      "explanation": "«Веснушки» — freckles."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Her brother has got a ___ (борода) already.",
+      "answer": "beard",
+      "explanation": "«Борода» — beard."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с ответом по диалогу",
+      "pairs": [
+        {"left": "What does your friend look like?", "right": "She is tall and slim."},
+        {"left": "Has she got freckles?", "right": "Yes, she has."},
+        {"left": "What's his appearance like?", "right": "He is well-built and short."},
+        {"left": "Has her brother got a beard?", "right": "Yes, he has."}
+      ],
+      "explanation": "Проверь по диалогу Кейт и Сэма."
+    },
+    {
+      "type": "single",
+      "text": "Сколько лет брату подруги Сэм, по диалогу?",
+      "options": [
+        {"text": "sixteen", "correct": true},
+        {"text": "twelve", "correct": false},
+        {"text": "eighteen", "correct": false}
+      ],
+      "explanation": "Сэм говорит: even though he's only sixteen."
+    }
+  ]
+}

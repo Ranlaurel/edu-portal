@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «vet»?",
+      "options": [
+        {"text": "ветеринар", "correct": true},
+        {"text": "фермер", "correct": false},
+        {"text": "пилот", "correct": false}
+      ],
+      "explanation": "«Vet» — ветеринар, врач для животных."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «я хочу стать пилотом»?",
+      "options": [
+        {"text": "I want to be a pilot", "correct": true},
+        {"text": "I want be pilot", "correct": false},
+        {"text": "I am want a pilot", "correct": false}
+      ],
+      "explanation": "Формула: want to be + a/an + профессия."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к профессиям? (выбери все верные варианты)",
+      "options": [
+        {"text": "builder", "correct": true},
+        {"text": "museum", "correct": false},
+        {"text": "singer", "correct": true},
+        {"text": "shopping", "correct": false},
+        {"text": "farmer", "correct": true}
+      ],
+      "explanation": "Builder, singer, farmer — профессии. Museum и shopping — не профессии."
+    },
+    {
+      "type": "dropdown",
+      "text": "They ___ as builders.",
+      "options": [
+        {"text": "work", "correct": true},
+        {"text": "works", "correct": false},
+        {"text": "working", "correct": false}
+      ],
+      "explanation": "They — множественное число, окончание -s к глаголу не добавляется: they work."
+    },
+    {
+      "type": "dropdown",
+      "text": "My aunt is ___ vet.",
+      "options": [
+        {"text": "a", "correct": true},
+        {"text": "an", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Vet начинается с согласного звука, поэтому нужен артикль a."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: строитель",
+      "answer": "builder",
+      "explanation": "«Строитель» переводится как builder."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I want to be a ___ (пилот).",
+      "answer": "pilot",
+      "explanation": "«Пилот» — pilot."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "farmer", "right": "фермер"},
+        {"left": "singer", "right": "певец"},
+        {"left": "shop assistant", "right": "продавец"},
+        {"left": "vet", "right": "ветеринар"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Our team was ___ than the opponent's team, and we won.",
+      "options": [
+        {"text": "stronger", "correct": true},
+        {"text": "strongest", "correct": false},
+        {"text": "strong", "correct": false}
+      ],
+      "explanation": "Сравнение двух команд через than требует сравнительной степени: stronger."
+    },
+    {
+      "type": "single",
+      "text": "The champion broke the world record and was ___ runner at the Games.",
+      "options": [
+        {"text": "the fastest", "correct": true},
+        {"text": "faster", "correct": false},
+        {"text": "fast", "correct": false}
+      ],
+      "explanation": "Выделение одного бегуна среди всех — превосходная степень: the fastest."
+    },
+    {
+      "type": "multiple",
+      "text": "Что из этого может произойти на соревновании? (выбери все верные варианты)",
+      "options": [
+        {"text": "win a gold medal", "correct": true},
+        {"text": "break a record", "correct": true},
+        {"text": "lose the competition", "correct": true},
+        {"text": "cook dinner", "correct": false},
+        {"text": "do homework", "correct": false}
+      ],
+      "explanation": "Win a gold medal, break a record, lose the competition относятся к спортивным соревнованиям."
+    },
+    {
+      "type": "dropdown",
+      "text": "She has three gold medals — she is ___ athlete in our country. (famous)",
+      "options": [
+        {"text": "the most famous", "correct": true},
+        {"text": "more famous", "correct": false},
+        {"text": "famousest", "correct": false}
+      ],
+      "explanation": "Famous — длинное прилагательное, превосходная степень: the most famous."
+    },
+    {
+      "type": "dropdown",
+      "text": "Our team lost the competition, but the final ___ was very close.",
+      "options": [
+        {"text": "score", "correct": true},
+        {"text": "medal", "correct": false},
+        {"text": "record", "correct": false}
+      ],
+      "explanation": "Score — счёт в игре, именно он может быть «близким»."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень: The opponent was ___ (strong) than us.",
+      "answer": "stronger",
+      "explanation": "Strong — короткое прилагательное, сравнительная степень: stronger."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: She is ___ (fast) athlete in the team.",
+      "answer": "the fastest",
+      "explanation": "Fast — короткое прилагательное, превосходная степень: the fastest."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини начало предложения с его завершением",
+      "pairs": [
+        {"left": "Our team was stronger than", "right": "the opponent's team."},
+        {"left": "The champion broke", "right": "the world record."},
+        {"left": "She has three", "right": "gold medals."},
+        {"left": "The final score was", "right": "very close."}
+      ],
+      "explanation": "Части предложений соответствуют по смыслу репортажу о соревнованиях из урока."
+    },
+    {
+      "type": "single",
+      "text": "He is ___ player in the team. (good)",
+      "options": [
+        {"text": "the best", "correct": true},
+        {"text": "the goodest", "correct": false},
+        {"text": "better", "correct": false}
+      ],
+      "explanation": "Good — исключение, превосходная степень: the best."
+    }
+  ]
+}

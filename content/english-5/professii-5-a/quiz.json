@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «firefighter»?",
+      "options": [
+        {"text": "пожарный", "correct": true},
+        {"text": "полицейский", "correct": false},
+        {"text": "водитель", "correct": false}
+      ],
+      "explanation": "«Firefighter» — пожарный, человек, который тушит пожары."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «она врач»?",
+      "options": [
+        {"text": "She is a doctor", "correct": true},
+        {"text": "She a doctor", "correct": false},
+        {"text": "She is doctor", "correct": false}
+      ],
+      "explanation": "Формула: подлежащее + is + a/an + профессия. Артикль a обязателен."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к профессиям? (выбери все верные варианты)",
+      "options": [
+        {"text": "teacher", "correct": true},
+        {"text": "street", "correct": false},
+        {"text": "driver", "correct": true},
+        {"text": "holiday", "correct": false},
+        {"text": "cook", "correct": true}
+      ],
+      "explanation": "Teacher, driver, cook — профессии. Street и holiday — не профессии."
+    },
+    {
+      "type": "dropdown",
+      "text": "My father ___ a police officer.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Для He/She/It используется is: father is a police officer."
+    },
+    {
+      "type": "dropdown",
+      "text": "She is ___ cook.",
+      "options": [
+        {"text": "a", "correct": true},
+        {"text": "an", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Cook начинается с согласного звука, поэтому нужен артикль a."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: повар",
+      "answer": "cook",
+      "explanation": "«Повар» переводится как cook."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: My mother is a ___ (учитель).",
+      "answer": "teacher",
+      "explanation": "«Учитель» — teacher."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "doctor", "right": "врач"},
+        {"left": "driver", "right": "водитель"},
+        {"left": "firefighter", "right": "пожарный"},
+        {"left": "police officer", "right": "полицейский"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

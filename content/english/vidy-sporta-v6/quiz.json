@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «athlete»?",
+      "options": [
+        {"text": "спортсмен", "correct": true},
+        {"text": "тренировка", "correct": false},
+        {"text": "команда", "correct": false}
+      ],
+      "explanation": "Athlete — спортсмен."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «упражнение» на английском?",
+      "options": [
+        {"text": "exercise", "correct": true},
+        {"text": "training", "correct": false},
+        {"text": "sport", "correct": false}
+      ],
+      "explanation": "Exercise — упражнение."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают виды спорта? (выбери все верные варианты)",
+      "options": [
+        {"text": "basketball", "correct": true},
+        {"text": "athlete", "correct": false},
+        {"text": "chess", "correct": true},
+        {"text": "team", "correct": false},
+        {"text": "swimming", "correct": true}
+      ],
+      "explanation": "Basketball, chess, swimming — виды спорта. Athlete (спортсмен) и team (команда) — не виды спорта."
+    },
+    {
+      "type": "dropdown",
+      "text": "My favourite ___ is volleyball.",
+      "options": [
+        {"text": "sport", "correct": true},
+        {"text": "team", "correct": false},
+        {"text": "ball", "correct": false}
+      ],
+      "explanation": "Sport — спорт, подходит по смыслу «мой любимый вид спорта»."
+    },
+    {
+      "type": "dropdown",
+      "text": "She trains with her ___ every week.",
+      "options": [
+        {"text": "team", "correct": true},
+        {"text": "ball", "correct": false},
+        {"text": "exercise", "correct": false}
+      ],
+      "explanation": "Team — команда, с которой тренируются."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: бег",
+      "answer": "running",
+      "explanation": "«Бег» переводится как running."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: лыжи",
+      "answer": "skiing",
+      "explanation": "«Лыжи» переводится как skiing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "gymnastics", "right": "гимнастика"},
+        {"left": "training", "right": "тренировка"},
+        {"left": "ball", "right": "мяч"},
+        {"left": "tennis", "right": "теннис"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "I like playing chess and doing ___.",
+      "options": [
+        {"text": "gymnastics", "correct": true},
+        {"text": "ball", "correct": false},
+        {"text": "sport", "correct": false}
+      ],
+      "explanation": "Gymnastics (гимнастика) — вид спорта, подходит по смыслу."
+    }
+  ]
+}

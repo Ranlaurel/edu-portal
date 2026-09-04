@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Кто готовит ужин в диалоге?",
+      "options": [
+        {"text": "grandmother", "correct": true},
+        {"text": "sister", "correct": false},
+        {"text": "Ann", "correct": false}
+      ],
+      "explanation": "В диалоге Том говорит: my grandmother cooks dinner."
+    },
+    {
+      "type": "single",
+      "text": "У кого день рождения в мае, по диалогу?",
+      "options": [
+        {"text": "у сестры Тома", "correct": true},
+        {"text": "у брата Тома", "correct": false},
+        {"text": "у Ann", "correct": false}
+      ],
+      "explanation": "Том говорит: My sister's birthday (в мае)."
+    },
+    {
+      "type": "multiple",
+      "text": "Что делает семья Тома на день рождения? (выбери все верные варианты по диалогу)",
+      "options": [
+        {"text": "celebrate with a cake", "correct": true},
+        {"text": "invite guests", "correct": true},
+        {"text": "go shopping", "correct": false},
+        {"text": "cook dinner", "correct": true}
+      ],
+      "explanation": "По диалогу: празднуют с тортом, готовят ужин и приглашают гостей."
+    },
+    {
+      "type": "dropdown",
+      "text": "My grandmother always ___ (cook) dinner for guests.",
+      "options": [
+        {"text": "cooks", "correct": true},
+        {"text": "cook", "correct": false},
+        {"text": "cooking", "correct": false}
+      ],
+      "explanation": "Present Simple, he/she/it + -s: cooks."
+    },
+    {
+      "type": "dropdown",
+      "text": "Whose birthday is in May? — My ___ birthday.",
+      "options": [
+        {"text": "sister's", "correct": true},
+        {"text": "sister", "correct": false},
+        {"text": "sisters", "correct": false}
+      ],
+      "explanation": "Притяжательный падеж: sister's birthday."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: We always ___ (celebrate) my sister's birthday with a cake.",
+      "answer": "celebrate",
+      "explanation": "We — без -s: we celebrate."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: My family invites a lot of ___ (гости) on holidays.",
+      "answer": "guests",
+      "explanation": "«Гости» — guests."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "my sister's birthday", "right": "день рождения моей сестры"},
+        {"left": "invite guests", "right": "приглашать гостей"},
+        {"left": "celebrate with a cake", "right": "праздновать с тортом"},
+        {"left": "cook dinner", "right": "готовить ужин"}
+      ],
+      "explanation": "Проверь по диалогу и лексике урока."
+    },
+    {
+      "type": "single",
+      "text": "Do your grandparents come too? — Yes, my grandmother ___ dinner.",
+      "options": [
+        {"text": "cooks", "correct": true},
+        {"text": "cook", "correct": false},
+        {"text": "is cook", "correct": false}
+      ],
+      "explanation": "Present Simple для she: cooks."
+    }
+  ]
+}

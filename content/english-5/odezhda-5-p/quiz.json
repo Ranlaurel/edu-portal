@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Она носит синее платье» (сейчас)?",
+      "options": [
+        {"text": "She is wearing a blue dress.", "correct": true},
+        {"text": "She wear a blue dress.", "correct": false},
+        {"text": "She wearing a blue dress.", "correct": false}
+      ],
+      "explanation": "Present Continuous образуется как is + глагол-ing: is wearing."
+    },
+    {
+      "type": "single",
+      "text": "Какая форма глагола нужна после I am?",
+      "options": [
+        {"text": "wearing", "correct": true},
+        {"text": "wear", "correct": false},
+        {"text": "wears", "correct": false}
+      ],
+      "explanation": "После am/is/are глагол принимает форму с окончанием -ing."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова одежды всегда употребляются во множественном числе? (выбери все верные варианты)",
+      "options": [
+        {"text": "trousers", "correct": true},
+        {"text": "jeans", "correct": true},
+        {"text": "shoes", "correct": true},
+        {"text": "dress", "correct": false},
+        {"text": "hat", "correct": false}
+      ],
+      "explanation": "Trousers, jeans, shoes всегда во множественном числе. Dress и hat — единственное число."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ (not wear) a hat today.",
+      "options": [
+        {"text": "isn't wearing", "correct": true},
+        {"text": "doesn't wear", "correct": false},
+        {"text": "not wearing", "correct": false}
+      ],
+      "explanation": "Отрицание в Present Continuous образуется через isn't + глагол-ing."
+    },
+    {
+      "type": "dropdown",
+      "text": "My trousers ___ black.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Trousers — слово во множественном числе, поэтому глагол are."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: They ___ (wear) jackets because it's cold.",
+      "answer": "are wearing",
+      "explanation": "Present Continuous множественного числа: are + wearing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: I ___ (wear) a red T-shirt today.",
+      "answer": "am wearing",
+      "explanation": "С местоимением I используется am wearing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I am wearing blue jeans.", "right": "На мне синие джинсы."},
+        {"left": "He isn't wearing a hat.", "right": "На нём нет шапки."},
+        {"left": "My shoes are new.", "right": "Мои туфли новые."},
+        {"left": "Is she wearing a skirt?", "right": "Она носит юбку?"}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    }
+  ]
+}

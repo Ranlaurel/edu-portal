@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «employer»?",
+      "options": [
+        {"text": "работодатель", "correct": true},
+        {"text": "сотрудник", "correct": false},
+        {"text": "коллега", "correct": false}
+      ],
+      "explanation": "«Employer» — работодатель, тот, кто нанимает сотрудников."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «salary»?",
+      "options": [
+        {"text": "зарплата", "correct": true},
+        {"text": "опыт", "correct": false},
+        {"text": "карьера", "correct": false}
+      ],
+      "explanation": "«Salary» — зарплата."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с работой и карьерой? (выбери все верные варианты)",
+      "options": [
+        {"text": "salary", "correct": true},
+        {"text": "promotion", "correct": true},
+        {"text": "skill", "correct": true},
+        {"text": "island", "correct": false},
+        {"text": "voyage", "correct": false}
+      ],
+      "explanation": "Salary, promotion, skill — слова о работе. Island и voyage относятся к теме путешествий."
+    },
+    {
+      "type": "dropdown",
+      "text": "Опыт — это ___.",
+      "options": [
+        {"text": "experience", "correct": true},
+        {"text": "interview", "correct": false},
+        {"text": "colleague", "correct": false}
+      ],
+      "explanation": "Experience — опыт."
+    },
+    {
+      "type": "dropdown",
+      "text": "Место работы — это ___.",
+      "options": [
+        {"text": "workplace", "correct": true},
+        {"text": "career", "correct": false},
+        {"text": "part-time", "correct": false}
+      ],
+      "explanation": "Workplace — место работы."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: зарабатывать",
+      "answer": "earn",
+      "explanation": "«Зарабатывать» переводится как earn."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: коллега",
+      "answer": "colleague",
+      "explanation": "«Коллега» переводится как colleague."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "colleague", "right": "коллега"},
+        {"left": "experience", "right": "опыт"},
+        {"left": "workplace", "right": "место работы"},
+        {"left": "full-time", "right": "полная занятость"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Что означает выражение «apply for a job»?",
+      "options": [
+        {"text": "подавать заявку на работу", "correct": true},
+        {"text": "получить повышение", "correct": false},
+        {"text": "уволиться с работы", "correct": false}
+      ],
+      "explanation": "«Apply for a job» — подавать заявление/резюме, чтобы получить работу."
+    }
+  ]
+}

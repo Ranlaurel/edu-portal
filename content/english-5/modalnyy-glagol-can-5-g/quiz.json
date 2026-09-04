@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Я умею плавать»?",
+      "options": [
+        {"text": "I can swim.", "correct": true},
+        {"text": "I can to swim.", "correct": false},
+        {"text": "I cans swim.", "correct": false}
+      ],
+      "explanation": "После can глагол ставится без to и без окончания: can swim."
+    },
+    {
+      "type": "single",
+      "text": "Какое предложение правильное?",
+      "options": [
+        {"text": "She can sing well.", "correct": true},
+        {"text": "She can sings well.", "correct": false},
+        {"text": "She cans sing well.", "correct": false}
+      ],
+      "explanation": "Can — модальный глагол, не меняется по лицам, после него глагол без -s."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I can draw.", "correct": true},
+        {"text": "He can jumps high.", "correct": false},
+        {"text": "My dog can jump high.", "correct": true},
+        {"text": "She can to sing.", "correct": false}
+      ],
+      "explanation": "После can глагол всегда без -s и без to."
+    },
+    {
+      "type": "dropdown",
+      "text": "My brother ___ swim, but he ___ sing.",
+      "options": [
+        {"text": "can / can't", "correct": true},
+        {"text": "cans / can't", "correct": false},
+        {"text": "can / not can", "correct": false}
+      ],
+      "explanation": "Can не меняется по лицам, отрицание — can't."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ (can/sing) well.",
+      "options": [
+        {"text": "can sing", "correct": true},
+        {"text": "can sings", "correct": false},
+        {"text": "cans sing", "correct": false}
+      ],
+      "explanation": "После can глагол без окончания -s: can sing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: I ___ draw (я умею рисовать).",
+      "answer": "can",
+      "explanation": "«Умею» переводится через can."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицательную форму can: She ___ sing (она не умеет петь).",
+      "answer": "can't",
+      "accepted": ["can't", "cannot"],
+      "explanation": "Отрицание can — can't (cannot)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "swim", "right": "плавать"},
+        {"left": "jump", "right": "прыгать"},
+        {"left": "draw", "right": "рисовать"},
+        {"left": "sing", "right": "петь"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «jump»?",
+      "options": [
+        {"text": "прыгать", "correct": true},
+        {"text": "плавать", "correct": false},
+        {"text": "петь", "correct": false}
+      ],
+      "explanation": "«Jump» — прыгать."
+    }
+  ]
+}

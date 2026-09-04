@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «ты должен убирать комнату каждую неделю» (строгое правило)?",
+      "options": [
+        {"text": "You must clean your room every week.", "correct": true},
+        {"text": "You should clean your room every week.", "correct": false},
+        {"text": "You can clean your room every week.", "correct": false}
+      ],
+      "explanation": "Must используется для строгой обязанности/правила."
+    },
+    {
+      "type": "single",
+      "text": "I ___ walk the dog before school because my parents are at work.",
+      "options": [
+        {"text": "have to", "correct": true},
+        {"text": "should", "correct": false},
+        {"text": "mustn't", "correct": false}
+      ],
+      "explanation": "Have to используется, когда обязанность вызвана обстоятельствами."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения выражают совет (не строгую обязанность)? (выбери все верные варианты)",
+      "options": [
+        {"text": "You should help your parents.", "correct": true},
+        {"text": "You must clean your room.", "correct": false},
+        {"text": "You should water the plants.", "correct": true},
+        {"text": "I have to walk the dog.", "correct": false}
+      ],
+      "explanation": "Should выражает совет; must и have to — обязанность."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ not forget to water the plants (строгий запрет забывать).",
+      "options": [
+        {"text": "must", "correct": true},
+        {"text": "should", "correct": false},
+        {"text": "have to", "correct": false}
+      ],
+      "explanation": "Must not — строгий запрет."
+    },
+    {
+      "type": "dropdown",
+      "text": "You ___ vacuum today, it's not necessary.",
+      "options": [
+        {"text": "don't have to", "correct": true},
+        {"text": "mustn't", "correct": false},
+        {"text": "should", "correct": false}
+      ],
+      "explanation": "Don't have to означает «не обязательно», в отличие от mustn't (запрещено)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: You ___ make the bed every morning. (правило)",
+      "answer": "must",
+      "explanation": "Must — строгое правило."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол (совет): You ___ help your parents with the chores.",
+      "answer": "should",
+      "explanation": "Should — совет/рекомендация."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "You must clean your room.", "right": "Ты должен убирать комнату (правило)."},
+        {"left": "I have to walk the dog.", "right": "Мне приходится выгуливать собаку (обстоятельства)."},
+        {"left": "You should help your parents.", "right": "Тебе стоит помогать родителям (совет)."},
+        {"left": "You mustn't forget.", "right": "Ты не должен забывать (запрет)."}
+      ],
+      "explanation": "Проверь разницу между must, have to и should из урока."
+    },
+    {
+      "type": "single",
+      "text": "Что означает «mustn't»?",
+      "options": [
+        {"text": "запрещено", "correct": true},
+        {"text": "не обязательно", "correct": false},
+        {"text": "рекомендуется", "correct": false}
+      ],
+      "explanation": "Mustn't (must not) выражает запрет, в отличие от don't have to (не обязательно)."
+    }
+  ]
+}

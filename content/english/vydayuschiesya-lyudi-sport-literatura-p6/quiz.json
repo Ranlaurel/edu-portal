@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что написал Толстой, по диалогу?",
+      "options": [
+        {"text": "many famous novels", "correct": true},
+        {"text": "only poems", "correct": false},
+        {"text": "a sports record book", "correct": false}
+      ],
+      "explanation": "Учитель говорит: He wrote many famous novels."
+    },
+    {
+      "type": "single",
+      "text": "В каком возрасте спортсменка стала чемпионкой?",
+      "options": [
+        {"text": "at sixteen", "correct": true},
+        {"text": "at twelve", "correct": false},
+        {"text": "at eighteen", "correct": false}
+      ],
+      "explanation": "Учитель говорит: She became a champion at sixteen."
+    },
+    {
+      "type": "multiple",
+      "text": "Что сделала спортсменка, по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "won many gold medals", "correct": true},
+        {"text": "became a champion at sixteen", "correct": true},
+        {"text": "wrote a bestseller", "correct": false},
+        {"text": "set a new record", "correct": true}
+      ],
+      "explanation": "Спортсменка выиграла медали, стала чемпионкой в 16 лет и установила рекорд; книгу написал Толстой, а не она."
+    },
+    {
+      "type": "dropdown",
+      "text": "The athlete ___ (win) many gold medals.",
+      "options": [
+        {"text": "won", "correct": true},
+        {"text": "winned", "correct": false},
+        {"text": "wins", "correct": false}
+      ],
+      "explanation": "Win — неправильный глагол, Past Simple: won."
+    },
+    {
+      "type": "dropdown",
+      "text": "Tolstoy ___ (write) poems too.",
+      "options": [
+        {"text": "wrote", "correct": true},
+        {"text": "writed", "correct": false},
+        {"text": "writes", "correct": false}
+      ],
+      "explanation": "Write — неправильный глагол, Past Simple: wrote."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: one of his books ___ (стал) a bestseller (become).",
+      "answer": "became",
+      "explanation": "Become — неправильный глагол, Past Simple: became."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: he is famous mostly as the ___ of great novels (автор).",
+      "answer": "author",
+      "explanation": "«Автор» — author."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини факт с человеком по диалогу",
+      "pairs": [
+        {"left": "wrote many novels", "right": "Leo Tolstoy"},
+        {"left": "became a champion at sixteen", "right": "the athlete"},
+        {"left": "set a new record", "right": "the athlete"},
+        {"left": "one book became a bestseller", "right": "Leo Tolstoy"}
+      ],
+      "explanation": "Проверь по диалогу ученика и учителя."
+    },
+    {
+      "type": "single",
+      "text": "Как в основном известен Толстой, по диалогу?",
+      "options": [
+        {"text": "as the author of great novels", "correct": true},
+        {"text": "as a famous athlete", "correct": false},
+        {"text": "as a champion", "correct": false}
+      ],
+      "explanation": "Учитель говорит: he is famous mostly as the author of great novels."
+    }
+  ]
+}

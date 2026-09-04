@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Чем знаменит город гида?",
+      "options": [
+        {"text": "древними зданиями", "correct": true},
+        {"text": "современными парками", "correct": false},
+        {"text": "промышленностью", "correct": false}
+      ],
+      "explanation": "Гид говорит: it is famous for its ancient buildings."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «resident»?",
+      "options": [
+        {"text": "житель", "correct": true},
+        {"text": "гид", "correct": false},
+        {"text": "турист", "correct": false}
+      ],
+      "explanation": "«Resident» — житель."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "В центре много современных зданий.", "correct": true},
+        {"text": "Население города около пятидесяти тысяч.", "correct": true},
+        {"text": "В городе много промышленности.", "correct": false},
+        {"text": "Пригороды более традиционные.", "correct": true}
+      ],
+      "explanation": "По диалогу: в центре много modern buildings, population — about fifty thousand, industry мало (isn't much), пригороды more traditional."
+    },
+    {
+      "type": "dropdown",
+      "text": "In the centre there ___ a lot of modern buildings.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "Buildings — множественное число, значит there are."
+    },
+    {
+      "type": "dropdown",
+      "text": "There isn't ___ industry here. (many/much)",
+      "options": [
+        {"text": "much", "correct": true},
+        {"text": "many", "correct": false},
+        {"text": "a few", "correct": false}
+      ],
+      "explanation": "Industry — неисчисляемое существительное, используем much."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: пригород",
+      "answer": "suburb",
+      "explanation": "«Пригород» — suburb, упоминается в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: население",
+      "answer": "population",
+      "explanation": "«Население» — population, упоминается в диалоге."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "ancient", "right": "древний"},
+        {"left": "resident", "right": "житель"},
+        {"left": "industry", "right": "промышленность"},
+        {"left": "beautiful", "right": "красивый"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

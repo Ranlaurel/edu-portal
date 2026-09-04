@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как будет сравнительная степень слова «fast»?",
+      "options": [
+        {"text": "faster", "correct": true},
+        {"text": "fastest", "correct": false},
+        {"text": "more fast", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное образует сравнительную степень с помощью -er: faster."
+    },
+    {
+      "type": "single",
+      "text": "Как будет превосходная степень слова «big»?",
+      "options": [
+        {"text": "the biggest", "correct": true},
+        {"text": "the bigest", "correct": false},
+        {"text": "the most big", "correct": false}
+      ],
+      "explanation": "Big оканчивается на согласную после гласной, поэтому согласная удваивается: biggest."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие формы сравнительной степени образованы правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "taller", "correct": true},
+        {"text": "smaller", "correct": true},
+        {"text": "bigger", "correct": true},
+        {"text": "fastest er", "correct": false}
+      ],
+      "explanation": "Tall, small, big — короткие прилагательные, добавляем -er (big удваивает согласную)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Tom is ___ (tall) than Ann.",
+      "options": [
+        {"text": "taller", "correct": true},
+        {"text": "tallest", "correct": false},
+        {"text": "more tall", "correct": false}
+      ],
+      "explanation": "Сравнение двух — сравнительная степень: taller."
+    },
+    {
+      "type": "dropdown",
+      "text": "Tom is the ___ (tall) in the class.",
+      "options": [
+        {"text": "tallest", "correct": true},
+        {"text": "taller", "correct": false},
+        {"text": "more tall", "correct": false}
+      ],
+      "explanation": "Сравнение с целой группой — превосходная степень: the tallest."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень слова slow.",
+      "answer": "slower",
+      "explanation": "Slow — короткое прилагательное, +er: slower."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень слова short: the ___.",
+      "answer": "shortest",
+      "explanation": "Short — короткое прилагательное, +est: the shortest."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное со сравнительной степенью",
+      "pairs": [
+        {"left": "tall", "right": "taller"},
+        {"left": "small", "right": "smaller"},
+        {"left": "big", "right": "bigger"},
+        {"left": "slow", "right": "slower"}
+      ],
+      "explanation": "Короткие прилагательные образуют сравнительную степень через -er."
+    },
+    {
+      "type": "single",
+      "text": "Переведи слово «short».",
+      "options": [
+        {"text": "низкий, короткий", "correct": true},
+        {"text": "быстрый", "correct": false},
+        {"text": "большой", "correct": false}
+      ],
+      "explanation": "«Short» — низкий, короткий."
+    }
+  ]
+}

@@ -5,65 +5,112 @@
       "name": "Введение",
       "order": 1,
       "topics": [
-        {"slug": "shkola-i-shkolnye-predmety-5", "title": "Школа и школьные предметы. Глагол to be", "order": 1},
-        {"slug": "semya-i-vneshnost-5", "title": "Семья и внешность. Have got", "order": 2},
-        {"slug": "chislitelnye-i-vremya-5", "title": "Числительные и время", "order": 3},
-        {"slug": "dni-nedeli-mesyatsy-sezony-5", "title": "Дни недели, месяцы, времена года", "order": 4},
-        {"slug": "pogoda-5", "title": "Погода", "order": 5}
+        {"slug": "shkola-i-shkolnye-predmety-5-v", "title": "Школа и школьные предметы: слова", "order": 1},
+        {"slug": "shkola-i-shkolnye-predmety-5-g", "title": "Глагол to be (am/is/are)", "order": 2},
+        {"slug": "shkola-i-shkolnye-predmety-5-p", "title": "Школа: практика (слова + to be)", "order": 3},
+        {"slug": "semya-i-vneshnost-5-v", "title": "Семья и внешность: слова", "order": 4},
+        {"slug": "semya-i-vneshnost-5-g", "title": "Грамматика: have got", "order": 5},
+        {"slug": "semya-i-vneshnost-5-p", "title": "Семья и внешность: практика", "order": 6},
+        {"slug": "chislitelnye-i-vremya-5-v", "title": "Числительные и время: слова", "order": 7},
+        {"slug": "chislitelnye-i-vremya-5-g", "title": "Грамматика: который час", "order": 8},
+        {"slug": "chislitelnye-i-vremya-5-p", "title": "Числа и время: практика", "order": 9},
+        {"slug": "dni-nedeli-mesyatsy-sezony-5-v", "title": "Дни недели, месяцы, времена года: слова", "order": 10},
+        {"slug": "dni-nedeli-mesyatsy-sezony-5-g", "title": "Грамматика: предлоги времени on / in", "order": 11},
+        {"slug": "dni-nedeli-mesyatsy-sezony-5-p", "title": "Дни, месяцы, времена года: практика", "order": 12},
+        {"slug": "pogoda-5-v", "title": "Погода: слова", "order": 13},
+        {"slug": "pogoda-5-g", "title": "Грамматика: конструкция It's + прилагательное", "order": 14},
+        {"slug": "pogoda-5-p", "title": "Погода: практика", "order": 15}
       ]
     },
     {
       "name": "Дом и повседневная жизнь",
       "order": 2,
       "topics": [
-        {"slug": "dom-i-komnata-there-is-are-5", "title": "Дом и комната. There is/there are", "order": 1},
-        {"slug": "mebel-i-predmety-v-dome-5", "title": "Мебель и предметы в доме", "order": 2},
-        {"slug": "eda-i-napitki-some-any-5", "title": "Еда и напитки. Some/any", "order": 3},
-        {"slug": "odezhda-5", "title": "Одежда", "order": 4},
-        {"slug": "zhivotnye-domashnie-dikie-5", "title": "Животные: домашние и дикие", "order": 5},
-        {"slug": "chasti-tela-i-zdorove-5", "title": "Части тела и здоровье", "order": 6}
+        {"slug": "dom-i-komnata-there-is-are-5-v", "title": "Дом и комната: слова", "order": 1},
+        {"slug": "dom-i-komnata-there-is-are-5-g", "title": "Грамматика: there is / there are", "order": 2},
+        {"slug": "dom-i-komnata-there-is-are-5-p", "title": "Дом и комната: практика", "order": 3},
+        {"slug": "mebel-i-predmety-v-dome-5-v", "title": "Мебель и предметы в доме: слова", "order": 4},
+        {"slug": "mebel-i-predmety-v-dome-5-g", "title": "Грамматика: предлоги места (in, on, under, next to)", "order": 5},
+        {"slug": "mebel-i-predmety-v-dome-5-p", "title": "Мебель: практика", "order": 6},
+        {"slug": "eda-i-napitki-some-any-5-v", "title": "Еда и напитки: слова", "order": 7},
+        {"slug": "eda-i-napitki-some-any-5-g", "title": "Еда и напитки: some / any", "order": 8},
+        {"slug": "eda-i-napitki-some-any-5-p", "title": "Еда и напитки: диалог в магазине", "order": 9},
+        {"slug": "odezhda-5-v", "title": "Одежда: слова", "order": 10},
+        {"slug": "odezhda-5-p", "title": "Одежда: что на тебе надето", "order": 11},
+        {"slug": "zhivotnye-domashnie-dikie-5-v", "title": "Животные: слова", "order": 12},
+        {"slug": "zhivotnye-domashnie-dikie-5-p", "title": "Животные: что они умеют делать", "order": 13},
+        {"slug": "chasti-tela-i-zdorove-5-v", "title": "Части тела", "order": 14},
+        {"slug": "chasti-tela-i-zdorove-5-g", "title": "Как сказать, что болит", "order": 15},
+        {"slug": "chasti-tela-i-zdorove-5-p", "title": "Части тела: рассказываем о здоровье", "order": 16}
       ]
     },
     {
       "name": "Настоящее время",
       "order": 3,
       "topics": [
-        {"slug": "present-simple-rasporyadok-dnya-5", "title": "Present Simple: распорядок дня", "order": 1},
-        {"slug": "present-continuous-5", "title": "Present Continuous: что происходит сейчас", "order": 2},
-        {"slug": "present-simple-vs-continuous-5", "title": "Present Simple или Present Continuous", "order": 3},
-        {"slug": "modalnyy-glagol-can-5", "title": "Модальный глагол can/can't", "order": 4}
+        {"slug": "present-simple-rasporyadok-dnya-5-v", "title": "Распорядок дня: слова", "order": 1},
+        {"slug": "present-simple-rasporyadok-dnya-5-g", "title": "Present Simple: как рассказать о привычках", "order": 2},
+        {"slug": "present-simple-rasporyadok-dnya-5-p", "title": "Распорядок дня: рассказываем о привычках", "order": 3},
+        {"slug": "present-continuous-5-v", "title": "Что происходит сейчас: слова", "order": 4},
+        {"slug": "present-continuous-5-g", "title": "Present Continuous: действие прямо сейчас", "order": 5},
+        {"slug": "present-continuous-5-p", "title": "Что происходит сейчас: рассказываем", "order": 6},
+        {"slug": "present-simple-vs-continuous-5-g", "title": "Present Simple или Present Continuous: слова-подсказки", "order": 7},
+        {"slug": "present-simple-vs-continuous-5-p", "title": "Present Simple и Present Continuous: сравниваем в одном предложении", "order": 8},
+        {"slug": "modalnyy-glagol-can-5-g", "title": "Can/can't: умею — не умею", "order": 9},
+        {"slug": "modalnyy-glagol-can-5-p", "title": "Can/can't: задаём вопросы", "order": 10}
       ]
     },
     {
       "name": "Грамматика",
       "order": 4,
       "topics": [
-        {"slug": "pritjazhatelnyy-padezh-5", "title": "Притяжательный падеж ('s)", "order": 1},
-        {"slug": "mnozhestvennoe-chislo-sushestvitelnyh-5", "title": "Множественное число существительных", "order": 2},
-        {"slug": "artikli-a-an-the-5", "title": "Артикли a/an/the", "order": 3},
-        {"slug": "ukazatelnye-mestoimeniya-5", "title": "Указательные местоимения this/that/these/those", "order": 4},
-        {"slug": "stepeni-sravneniya-prilagatelnyh-5", "title": "Степени сравнения прилагательных", "order": 5},
-        {"slug": "professii-5", "title": "Профессии", "order": 6},
-        {"slug": "gorod-mesta-i-napravleniya-5", "title": "Город: места и направления", "order": 7}
+        {"slug": "pritjazhatelnyy-padezh-5-g", "title": "Притяжательный падеж ('s): основное правило", "order": 1},
+        {"slug": "pritjazhatelnyy-padezh-5-p", "title": "Притяжательный падеж ('s): множественное число", "order": 2},
+        {"slug": "mnozhestvennoe-chislo-sushestvitelnyh-5-g", "title": "Множественное число: правило -s/-es", "order": 3},
+        {"slug": "mnozhestvennoe-chislo-sushestvitelnyh-5-p", "title": "Множественное число: слова-исключения", "order": 4},
+        {"slug": "artikli-a-an-the-5-g", "title": "Артикли a/an", "order": 5},
+        {"slug": "artikli-a-an-the-5-p", "title": "Артикль the", "order": 6},
+        {"slug": "ukazatelnye-mestoimeniya-5-g", "title": "This/that: единственное число", "order": 7},
+        {"slug": "ukazatelnye-mestoimeniya-5-p", "title": "These/those: множественное число", "order": 8},
+        {"slug": "stepeni-sravneniya-prilagatelnyh-5-g", "title": "Степени сравнения: короткие прилагательные", "order": 9},
+        {"slug": "stepeni-sravneniya-prilagatelnyh-5-p", "title": "Степени сравнения: длинные прилагательные и исключения", "order": 10},
+        {"slug": "professii-5-a", "title": "Профессии: часть 1", "order": 11},
+        {"slug": "professii-5-b", "title": "Профессии: часть 2", "order": 12},
+        {"slug": "gorod-mesta-i-napravleniya-5-v", "title": "Город: места", "order": 13},
+        {"slug": "gorod-mesta-i-napravleniya-5-g", "title": "Предлоги места в городе", "order": 14},
+        {"slug": "gorod-mesta-i-napravleniya-5-p", "title": "Город: спрашиваем и объясняем дорогу", "order": 15}
       ]
     },
     {
       "name": "Хобби и мир вокруг",
       "order": 5,
       "topics": [
-        {"slug": "sport-i-hobbi-5", "title": "Спорт и хобби", "order": 1},
-        {"slug": "transport-5", "title": "Транспорт", "order": 2},
-        {"slug": "magaziny-i-pokupki-5", "title": "Магазины и покупки", "order": 3},
-        {"slug": "prazdniki-i-traditsii-5", "title": "Праздники и традиции", "order": 4}
+        {"slug": "sport-i-hobbi-5-v", "title": "Спорт и хобби: слова", "order": 1},
+        {"slug": "sport-i-hobbi-5-g", "title": "Спорт и хобби: play / go / do", "order": 2},
+        {"slug": "sport-i-hobbi-5-p", "title": "Спорт и хобби: рассказ о себе", "order": 3},
+        {"slug": "transport-5-v", "title": "Транспорт: слова", "order": 4},
+        {"slug": "transport-5-g", "title": "Транспорт: предлог by", "order": 5},
+        {"slug": "transport-5-p", "title": "Транспорт: как ты добираешься", "order": 6},
+        {"slug": "magaziny-i-pokupki-5-v", "title": "Магазины: слова", "order": 7},
+        {"slug": "magaziny-i-pokupki-5-g", "title": "Магазины: some/any", "order": 8},
+        {"slug": "magaziny-i-pokupki-5-p", "title": "Магазины: разговор с продавцом", "order": 9},
+        {"slug": "prazdniki-i-traditsii-5-v", "title": "Праздники: слова", "order": 10},
+        {"slug": "prazdniki-i-traditsii-5-g", "title": "Праздники: there is / there are", "order": 11},
+        {"slug": "prazdniki-i-traditsii-5-p", "title": "Праздники: рассказ о традициях", "order": 12}
       ]
     },
     {
       "name": "Прошедшее время",
       "order": 6,
       "topics": [
-        {"slug": "past-simple-pravilnye-glagoly-5", "title": "Past Simple: правильные глаголы", "order": 1},
-        {"slug": "past-simple-nepravilnye-glagoly-5", "title": "Past Simple: неправильные глаголы", "order": 2},
-        {"slug": "kanikuly-i-puteshestviya-5", "title": "Каникулы и путешествия", "order": 3}
+        {"slug": "past-simple-pravilnye-glagoly-5-v", "title": "Past Simple: слова-маркеры и глаголы", "order": 1},
+        {"slug": "past-simple-pravilnye-glagoly-5-g", "title": "Past Simple: правильные глаголы (правило)", "order": 2},
+        {"slug": "past-simple-pravilnye-glagoly-5-p", "title": "Past Simple: рассказ о вчерашнем дне", "order": 3},
+        {"slug": "past-simple-nepravilnye-glagoly-5-v", "title": "Past Simple: неправильные глаголы (список)", "order": 4},
+        {"slug": "past-simple-nepravilnye-glagoly-5-g", "title": "Past Simple: правило для неправильных глаголов", "order": 5},
+        {"slug": "past-simple-nepravilnye-glagoly-5-p", "title": "Past Simple: рассказ о вчерашнем дне (неправильные глаголы)", "order": 6},
+        {"slug": "kanikuly-i-puteshestviya-5-v", "title": "Каникулы и путешествия: слова", "order": 7},
+        {"slug": "kanikuly-i-puteshestviya-5-p", "title": "Каникулы и путешествия: рассказ о поездке", "order": 8}
       ]
     },
     {

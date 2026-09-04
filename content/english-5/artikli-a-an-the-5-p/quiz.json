@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой артикль нужен: «___ sun is bright today»?",
+      "options": [
+        {"text": "The", "correct": true},
+        {"text": "A", "correct": false},
+        {"text": "An", "correct": false}
+      ],
+      "explanation": "Sun — единственный в своём роде, поэтому the."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «I see a dog. ___ dog is black»?",
+      "options": [
+        {"text": "The", "correct": true},
+        {"text": "A", "correct": false},
+        {"text": "An", "correct": false}
+      ],
+      "explanation": "Собака уже упомянута — используем the."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких случаях нужен артикль the? (выбери все верные варианты)",
+      "options": [
+        {"text": "предмет уже упомянут раньше", "correct": true},
+        {"text": "предмет единственный в своём роде", "correct": true},
+        {"text": "говорим о предмете впервые", "correct": false},
+        {"text": "говорим о любом предмете из класса", "correct": false}
+      ],
+      "explanation": "The используется для уже известного или единственного в своём роде предмета."
+    },
+    {
+      "type": "dropdown",
+      "text": "Look at ___ sky!",
+      "options": [
+        {"text": "the", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "Sky — единственное в своём роде, поэтому the."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ moon is bright tonight.",
+      "options": [
+        {"text": "The", "correct": true},
+        {"text": "A", "correct": false},
+        {"text": "An", "correct": false}
+      ],
+      "explanation": "Moon — единственная в своём роде, поэтому the."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: животное",
+      "answer": "animal",
+      "explanation": "«Животное» переводится как animal."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши артикль: Look at ___ sky!",
+      "answer": "the",
+      "explanation": "Sky — единственное в своём роде, поэтому the."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "sun", "right": "солнце"},
+        {"left": "moon", "right": "луна"},
+        {"left": "sky", "right": "небо"},
+        {"left": "animal", "right": "животное"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

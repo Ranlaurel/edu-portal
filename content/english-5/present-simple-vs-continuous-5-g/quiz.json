@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое время нужно в предложении «My mum ___ (work) every day»?",
+      "options": [
+        {"text": "works (Present Simple)", "correct": true},
+        {"text": "is working (Present Continuous)", "correct": false},
+        {"text": "work (без окончания)", "correct": false}
+      ],
+      "explanation": "Every day — слово-подсказка Present Simple, к глаголу добавляется -s."
+    },
+    {
+      "type": "single",
+      "text": "Какое время нужно в предложении «I ___ (do) my homework at the moment»?",
+      "options": [
+        {"text": "am doing", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "does", "correct": false}
+      ],
+      "explanation": "At the moment — слово-подсказка Present Continuous."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова — подсказки Present Simple? (выбери все верные варианты)",
+      "options": [
+        {"text": "usually", "correct": true},
+        {"text": "always", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "never", "correct": true},
+        {"text": "at the moment", "correct": false}
+      ],
+      "explanation": "Usually, always, never — подсказки Present Simple. Now и at the moment — подсказки Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ (play) football now.",
+      "options": [
+        {"text": "is playing", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "play", "correct": false}
+      ],
+      "explanation": "Now — слово-подсказка Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "My father ___ (drink) coffee every morning.",
+      "options": [
+        {"text": "drinks", "correct": true},
+        {"text": "is drinking", "correct": false},
+        {"text": "drink", "correct": false}
+      ],
+      "explanation": "Every morning — подсказка Present Simple, добавляем -s для he."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово-подсказку Present Continuous из двух слов: в данный момент.",
+      "answer": "at the moment",
+      "explanation": "«В данный момент» — at the moment, сигнал Present Continuous."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: I ___ (go) to school every day.",
+      "answer": "go",
+      "explanation": "I не требует окончания -s: go."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово-подсказку с временем, к которому оно относится",
+      "pairs": [
+        {"left": "usually", "right": "Present Simple"},
+        {"left": "now", "right": "Present Continuous"},
+        {"left": "every day", "right": "Present Simple"},
+        {"left": "at the moment", "right": "Present Continuous"}
+      ],
+      "explanation": "Present Simple — привычки (usually, every day). Present Continuous — сейчас (now, at the moment)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «always»?",
+      "options": [
+        {"text": "всегда", "correct": true},
+        {"text": "сейчас", "correct": false},
+        {"text": "никогда", "correct": false}
+      ],
+      "explanation": "«Always» — всегда, слово-подсказка Present Simple."
+    }
+  ]
+}

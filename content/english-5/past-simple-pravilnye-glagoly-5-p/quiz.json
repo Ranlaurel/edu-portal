@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «all day»?",
+      "options": [
+        {"text": "весь день", "correct": true},
+        {"text": "каждый день", "correct": false},
+        {"text": "поздно вечером", "correct": false}
+      ],
+      "explanation": "«All day» — весь день."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «ты учился вечером?»",
+      "options": [
+        {"text": "Did you study in the evening?", "correct": true},
+        {"text": "Did you studied in the evening?", "correct": false},
+        {"text": "Do you study in the evening?", "correct": false}
+      ],
+      "explanation": "После did глагол используется в начальной форме: did you study."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают части дня? (выбери все верные варианты)",
+      "options": [
+        {"text": "morning", "correct": true},
+        {"text": "ago", "correct": false},
+        {"text": "evening", "correct": true},
+        {"text": "last week", "correct": false},
+        {"text": "afternoon", "correct": true}
+      ],
+      "explanation": "Morning, evening, afternoon — части дня."
+    },
+    {
+      "type": "dropdown",
+      "text": "We played football ___ (весь день).",
+      "options": [
+        {"text": "all day", "correct": true},
+        {"text": "every day", "correct": false},
+        {"text": "last day", "correct": false}
+      ],
+      "explanation": "«Весь день» — all day."
+    },
+    {
+      "type": "dropdown",
+      "text": "Yesterday morning I ___ (clean) my room.",
+      "options": [
+        {"text": "cleaned", "correct": true},
+        {"text": "clean", "correct": false},
+        {"text": "cleaning", "correct": false}
+      ],
+      "explanation": "В Past Simple правильный глагол clean получает -ed: cleaned."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: утро",
+      "answer": "morning",
+      "explanation": "«Утро» — morning."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: Did you ___ (watch) a film yesterday evening?",
+      "answer": "watch",
+      "explanation": "После did глагол используется без окончания -ed: watch."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово с переводом",
+      "pairs": [
+        {"left": "morning", "right": "утро"},
+        {"left": "afternoon", "right": "день"},
+        {"left": "evening", "right": "вечер"},
+        {"left": "all day", "right": "весь день"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную форму: I ___ this letter right now.",
+      "options": [
+        {"text": "am writing", "correct": true},
+        {"text": "write", "correct": false},
+        {"text": "writes", "correct": false}
+      ],
+      "explanation": "Right now указывает на действие в момент речи — Present Continuous."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: My friend ___ in London.",
+      "options": [
+        {"text": "lives", "correct": true},
+        {"text": "is living", "correct": false},
+        {"text": "live", "correct": false}
+      ],
+      "explanation": "Место жительства — факт, используем Present Simple, для he/she/it +s: lives."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы-маркеры указывают на Present Continuous? (выбери все верные варианты)",
+      "options": [
+        {"text": "right now", "correct": true},
+        {"text": "usually", "correct": false},
+        {"text": "at the moment", "correct": true},
+        {"text": "every day", "correct": false},
+        {"text": "now", "correct": true}
+      ],
+      "explanation": "Right now, at the moment, now указывают на действие в момент речи — Present Continuous. Usually и every day — маркеры Present Simple."
+    },
+    {
+      "type": "dropdown",
+      "text": "It ___ at the moment, so I can't play outside.",
+      "options": [
+        {"text": "is raining", "correct": true},
+        {"text": "rains", "correct": false},
+        {"text": "rained", "correct": false}
+      ],
+      "explanation": "At the moment указывает на действие сейчас — Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "I usually ___ football after school.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "am playing", "correct": false},
+        {"text": "played", "correct": false}
+      ],
+      "explanation": "Usually указывает на привычку — Present Simple."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: Right now I ___ (do) my homework.",
+      "answer": "am doing",
+      "explanation": "Right now — действие в момент речи, Present Continuous: am doing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: My hobby ___ (be) reading.",
+      "answer": "is",
+      "explanation": "Факт о хобби — Present Simple, для it/hobby используется is."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение со временем, которое в нём используется",
+      "pairs": [
+        {"left": "I am writing this letter now.", "right": "Present Continuous"},
+        {"left": "I usually play football.", "right": "Present Simple"},
+        {"left": "It is raining at the moment.", "right": "Present Continuous"},
+        {"left": "My hobby is reading.", "right": "Present Simple"}
+      ],
+      "explanation": "Present Continuous используется для действий сейчас, Present Simple — для привычек и фактов."
+    },
+    {
+      "type": "single",
+      "text": "I live in Moscow and I usually ___ to school by bus.",
+      "options": [
+        {"text": "go", "correct": true},
+        {"text": "am going", "correct": false},
+        {"text": "goes", "correct": false}
+      ],
+      "explanation": "Usually указывает на привычку — Present Simple, I без -s: go."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «chore»?",
+      "options": [
+        {"text": "домашняя обязанность", "correct": true},
+        {"text": "правило", "correct": false},
+        {"text": "разрешение", "correct": false}
+      ],
+      "explanation": "«Chore» — домашняя обязанность (например, уборка)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится фраза «wash up»?",
+      "options": [
+        {"text": "мыть посуду", "correct": true},
+        {"text": "убирать комнату", "correct": false},
+        {"text": "выгуливать собаку", "correct": false}
+      ],
+      "explanation": "«Wash up» — мыть посуду."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы обозначают домашние обязанности? (выбери все верные варианты)",
+      "options": [
+        {"text": "make the bed", "correct": true},
+        {"text": "allowed", "correct": false},
+        {"text": "lay the table", "correct": true},
+        {"text": "walk the dog", "correct": true},
+        {"text": "rule", "correct": false}
+      ],
+      "explanation": "Make the bed, lay the table, walk the dog — обязанности. Allowed и rule — не обязанности."
+    },
+    {
+      "type": "dropdown",
+      "text": "Есть в спальне ___ (запрещено).",
+      "options": [
+        {"text": "forbidden", "correct": true},
+        {"text": "allowed", "correct": false},
+        {"text": "duty", "correct": false}
+      ],
+      "explanation": "Forbidden — запрещено."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «пылесосить»?",
+      "options": [
+        {"text": "vacuum", "correct": true},
+        {"text": "tidy up", "correct": false},
+        {"text": "wash up", "correct": false}
+      ],
+      "explanation": "Vacuum — пылесосить."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: обязанность",
+      "answer": "duty",
+      "explanation": "«Обязанность» — duty."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод: заправлять кровать (два слова)",
+      "answer": "make the bed",
+      "explanation": "«Заправлять кровать» — make the bed."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английскую фразу с переводом",
+      "pairs": [
+        {"left": "take out the rubbish", "right": "выносить мусор"},
+        {"left": "water the plants", "right": "поливать растения"},
+        {"left": "do the shopping", "right": "ходить за покупками"},
+        {"left": "allowed", "right": "разрешено"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «rule»?",
+      "options": [
+        {"text": "правило", "correct": true},
+        {"text": "обязанность", "correct": false},
+        {"text": "запрет", "correct": false}
+      ],
+      "explanation": "«Rule» — правило."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «population»?",
+      "options": [
+        {"text": "население", "correct": true},
+        {"text": "пригород", "correct": false},
+        {"text": "промышленность", "correct": false}
+      ],
+      "explanation": "«Population» — население."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «ancient»?",
+      "options": [
+        {"text": "древний", "correct": true},
+        {"text": "современный", "correct": false},
+        {"text": "красивый", "correct": false}
+      ],
+      "explanation": "«Ancient» — древний."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают город? (выбери все верные варианты)",
+      "options": [
+        {"text": "modern", "correct": true},
+        {"text": "ancient", "correct": true},
+        {"text": "resident", "correct": false},
+        {"text": "large", "correct": true},
+        {"text": "population", "correct": false}
+      ],
+      "explanation": "Modern, ancient, large — описывают сам город. Resident (житель) и population (население) — про людей, а не описание города."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как назвать район вне центра города? ___",
+      "options": [
+        {"text": "suburb", "correct": true},
+        {"text": "capital", "correct": false},
+        {"text": "centre", "correct": false}
+      ],
+      "explanation": "«Suburb» — пригород."
+    },
+    {
+      "type": "dropdown",
+      "text": "Главный город страны — это ___.",
+      "options": [
+        {"text": "capital", "correct": true},
+        {"text": "suburb", "correct": false},
+        {"text": "town", "correct": false}
+      ],
+      "explanation": "«Capital» — столица."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: житель",
+      "answer": "resident",
+      "accepted": ["resident", "habitant"],
+      "explanation": "«Житель» переводится как resident (или habitant)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: промышленность",
+      "answer": "industry",
+      "explanation": "«Промышленность» переводится как industry."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "building", "right": "здание"},
+        {"left": "centre", "right": "центр"},
+        {"left": "large", "right": "большой"},
+        {"left": "small", "right": "маленький"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести фразу «famous for its bridge»?",
+      "options": [
+        {"text": "знаменит своим мостом", "correct": true},
+        {"text": "красив своим мостом", "correct": false},
+        {"text": "древний из-за моста", "correct": false}
+      ],
+      "explanation": "«Famous for» — знаменит чем-то."
+    }
+  ]
+}

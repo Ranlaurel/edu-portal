@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Куда хочет попасть турист в диалоге?",
+      "options": [
+        {"text": "to the museum", "correct": true},
+        {"text": "to the library", "correct": false},
+        {"text": "to the church", "correct": false}
+      ],
+      "explanation": "Турист спрашивает: how can I get to the museum?"
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «underground»?",
+      "options": [
+        {"text": "метро", "correct": true},
+        {"text": "автобус", "correct": false},
+        {"text": "такси", "correct": false}
+      ],
+      "explanation": "«Underground» — метро."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Музей находится рядом с парком.", "correct": true},
+        {"text": "Станция метро напротив библиотеки.", "correct": true},
+        {"text": "Памятник находится на площади.", "correct": true},
+        {"text": "До музея нельзя дойти пешком.", "correct": false}
+      ],
+      "explanation": "По диалогу: museum next to the park, station opposite the library, monument on the square. Пешком дойти можно (just cross the bridge)."
+    },
+    {
+      "type": "dropdown",
+      "text": "The museum is ___ the park (рядом с).",
+      "options": [
+        {"text": "next to", "correct": true},
+        {"text": "opposite", "correct": false},
+        {"text": "between", "correct": false}
+      ],
+      "explanation": "«Next to» — рядом с."
+    },
+    {
+      "type": "dropdown",
+      "text": "The station is ___ the library (напротив).",
+      "options": [
+        {"text": "opposite", "correct": true},
+        {"text": "next to", "correct": false},
+        {"text": "on the corner of", "correct": false}
+      ],
+      "explanation": "«Opposite» — напротив."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: мост",
+      "answer": "bridge",
+      "explanation": "«Мост» — bridge, турист пересекает его в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопрос одним словом: ___ can I get to the museum?",
+      "answer": "How",
+      "explanation": "Вопрос о способе добраться начинается с How."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "monument", "right": "памятник"},
+        {"left": "square", "right": "площадь"},
+        {"left": "bridge", "right": "мост"},
+        {"left": "library", "right": "библиотека"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

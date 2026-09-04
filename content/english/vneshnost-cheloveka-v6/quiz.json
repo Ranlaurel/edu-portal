@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «freckles»?",
+      "options": [
+        {"text": "веснушки", "correct": true},
+        {"text": "волосы", "correct": false},
+        {"text": "борода", "correct": false}
+      ],
+      "explanation": "«Freckles» — веснушки."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «appearance»?",
+      "options": [
+        {"text": "внешность", "correct": true},
+        {"text": "характер", "correct": false},
+        {"text": "рост", "correct": false}
+      ],
+      "explanation": "«Appearance» — внешность."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают волосы? (выбери все верные варианты)",
+      "options": [
+        {"text": "curly", "correct": true},
+        {"text": "straight", "correct": true},
+        {"text": "slim", "correct": false},
+        {"text": "fair hair", "correct": true},
+        {"text": "well-built", "correct": false}
+      ],
+      "explanation": "Curly, straight, fair hair описывают волосы. Slim и well-built — телосложение."
+    },
+    {
+      "type": "dropdown",
+      "text": "Крепкого телосложения — это ___.",
+      "options": [
+        {"text": "well-built", "correct": true},
+        {"text": "slim", "correct": false},
+        {"text": "tall", "correct": false}
+      ],
+      "explanation": "Well-built — крепкого телосложения."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «усы»?",
+      "options": [
+        {"text": "moustache", "correct": true},
+        {"text": "beard", "correct": false},
+        {"text": "freckles", "correct": false}
+      ],
+      "explanation": "Moustache — усы, beard — борода."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: стройный",
+      "answer": "slim",
+      "explanation": "«Стройный» переводится как slim."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: борода",
+      "answer": "beard",
+      "explanation": "«Борода» — beard."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "tall", "right": "высокий"},
+        {"left": "curly", "right": "кудрявые"},
+        {"left": "dark hair", "right": "тёмные волосы"},
+        {"left": "blue-eyed", "right": "голубоглазый"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «short» в контексте роста?",
+      "options": [
+        {"text": "невысокий", "correct": true},
+        {"text": "стройный", "correct": false},
+        {"text": "кудрявый", "correct": false}
+      ],
+      "explanation": "«Short» — невысокий (о росте человека)."
+    }
+  ]
+}

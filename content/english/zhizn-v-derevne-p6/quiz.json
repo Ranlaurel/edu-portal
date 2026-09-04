@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что Ник думает о жизни в деревне?",
+      "options": [
+        {"text": "она тише и спокойнее, чем в городе", "correct": true},
+        {"text": "она более шумная, чем в городе", "correct": false},
+        {"text": "она такая же, как в городе", "correct": false}
+      ],
+      "explanation": "Ник говорит: life here is quieter than in the city, и village life is more peaceful."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «neighbour»?",
+      "options": [
+        {"text": "сосед", "correct": true},
+        {"text": "фермер", "correct": false},
+        {"text": "животное", "correct": false}
+      ],
+      "explanation": "«Neighbour» — сосед."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "У соседа Ника есть ферма с животными.", "correct": true},
+        {"text": "Воздух в деревне чище, чем в городе.", "correct": true},
+        {"text": "Лена думает, что городская жизнь интереснее.", "correct": true},
+        {"text": "Ник живёт в большом городе.", "correct": false}
+      ],
+      "explanation": "По диалогу: сосед Ника имеет ферму, воздух чище, Лена считает город интереснее, а Ник живёт в маленькой деревне."
+    },
+    {
+      "type": "dropdown",
+      "text": "The air here is ___ (clean) than in a crowded city.",
+      "options": [
+        {"text": "cleaner", "correct": true},
+        {"text": "more clean", "correct": false},
+        {"text": "cleanest", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное clean: +er → cleaner."
+    },
+    {
+      "type": "dropdown",
+      "text": "Village life is ___ (peaceful) than noisy city life.",
+      "options": [
+        {"text": "more peaceful", "correct": true},
+        {"text": "peacefuler", "correct": false},
+        {"text": "most peaceful", "correct": false}
+      ],
+      "explanation": "Длинное прилагательное peaceful: more + прилагательное."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: многолюдный",
+      "answer": "crowded",
+      "explanation": "«Многолюдный» — crowded, упоминается в диалоге про город."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную форму: Life on a farm is ___ (good) for animals.",
+      "answer": "better",
+      "explanation": "Good — исключение: better."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "countryside", "right": "сельская местность"},
+        {"left": "farm", "right": "ферма"},
+        {"left": "neighbour", "right": "сосед"},
+        {"left": "noisy", "right": "шумный"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

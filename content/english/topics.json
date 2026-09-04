@@ -1,128 +1,598 @@
 {
-  "subject": {"name": "Английский язык", "slug": "english"},
+  "subject": {
+    "name": "Английский язык",
+    "slug": "english",
+    "grade": 6
+  },
   "sections": [
     {
       "name": "Семья и дом",
       "order": 1,
       "topics": [
-        {"slug": "semya-chleny-prazdniki", "title": "Семья: члены семьи и семейные праздники", "order": 1},
-        {"slug": "dom-vidy-zhilya", "title": "Дом: виды жилья и обустройство", "order": 2},
-        {"slug": "domashnie-obyazannosti-pravila", "title": "Домашние обязанности и правила поведения", "order": 3}
+        {
+          "slug": "semya-chleny-prazdniki-v6",
+          "title": "Семья: слова по теме",
+          "order": 1
+        },
+        {
+          "slug": "semya-chleny-prazdniki-g6",
+          "title": "Семья: притяжательный падеж и Present Simple",
+          "order": 2
+        },
+        {
+          "slug": "semya-chleny-prazdniki-p6",
+          "title": "Семья: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "dom-vidy-zhilya-v6",
+          "title": "Дом: слова по теме",
+          "order": 4
+        },
+        {
+          "slug": "dom-vidy-zhilya-g6",
+          "title": "Дом: there is / there are",
+          "order": 5
+        },
+        {
+          "slug": "dom-vidy-zhilya-p6",
+          "title": "Дом: практика (слова + грамматика)",
+          "order": 6
+        },
+        {
+          "slug": "domashnie-obyazannosti-pravila-v6",
+          "title": "Домашние обязанности: слова по теме",
+          "order": 7
+        },
+        {
+          "slug": "domashnie-obyazannosti-pravila-g6",
+          "title": "Домашние обязанности: must / have to / should",
+          "order": 8
+        },
+        {
+          "slug": "domashnie-obyazannosti-pravila-p6",
+          "title": "Домашние обязанности: практика (слова + грамматика)",
+          "order": 9
+        }
       ]
     },
     {
       "name": "Внешность и характер",
       "order": 2,
       "topics": [
-        {"slug": "vneshnost-cheloveka", "title": "Внешность человека", "order": 1},
-        {"slug": "harakter-cheloveka", "title": "Характер человека", "order": 2}
+        {
+          "slug": "vneshnost-cheloveka-v6",
+          "title": "Внешность: слова по теме",
+          "order": 1
+        },
+        {
+          "slug": "vneshnost-cheloveka-g6",
+          "title": "Внешность: to be + adjective и has got",
+          "order": 2
+        },
+        {
+          "slug": "vneshnost-cheloveka-p6",
+          "title": "Внешность: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "harakter-cheloveka-v6",
+          "title": "Характер: слова по теме",
+          "order": 4
+        },
+        {
+          "slug": "harakter-cheloveka-g6",
+          "title": "Характер: наречия степени very / quite",
+          "order": 5
+        },
+        {
+          "slug": "harakter-cheloveka-p6",
+          "title": "Характер: практика (слова + грамматика)",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Досуг и увлечения",
       "order": 3,
       "topics": [
-        {"slug": "hobbi-uvlecheniya", "title": "Хобби и увлечения", "order": 1},
-        {"slug": "svobodnoe-vremya-plany", "title": "Свободное время: планы на выходные", "order": 2},
-        {"slug": "igry-razvlecheniya", "title": "Игры и развлечения", "order": 3}
+        {
+          "slug": "hobbi-uvlecheniya-v6",
+          "title": "Хобби: слова по теме",
+          "order": 1
+        },
+        {
+          "slug": "hobbi-uvlecheniya-g6",
+          "title": "Хобби: like / love / enjoy / hate + verb-ing",
+          "order": 2
+        },
+        {
+          "slug": "hobbi-uvlecheniya-p6",
+          "title": "Хобби: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "svobodnoe-vremya-plany-v6",
+          "title": "Свободное время: слова по теме",
+          "order": 4
+        },
+        {
+          "slug": "svobodnoe-vremya-plany-g6",
+          "title": "Свободное время: Present Continuous для будущих планов",
+          "order": 5
+        },
+        {
+          "slug": "svobodnoe-vremya-plany-p6",
+          "title": "Свободное время: практика (слова + грамматика)",
+          "order": 6
+        },
+        {
+          "slug": "igry-razvlecheniya-v6",
+          "title": "Игры: слова по теме",
+          "order": 7
+        },
+        {
+          "slug": "igry-razvlecheniya-g6",
+          "title": "Игры: вопросительные слова",
+          "order": 8
+        },
+        {
+          "slug": "igry-razvlecheniya-p6",
+          "title": "Игры: практика (слова + грамматика)",
+          "order": 9
+        }
       ]
     },
     {
       "name": "Здоровый образ жизни",
       "order": 4,
       "topics": [
-        {"slug": "zdorovoe-pitanie", "title": "Здоровое питание", "order": 1},
-        {"slug": "rezhim-dnya-privychki", "title": "Режим дня и полезные привычки", "order": 2}
+        {
+          "slug": "zdorovoe-pitanie-v6",
+          "title": "Здоровое питание (слова)",
+          "order": 1
+        },
+        {
+          "slug": "zdorovoe-pitanie-g6",
+          "title": "Здоровое питание: some / any + исчисляемые/неисчисляемые существительные",
+          "order": 2
+        },
+        {
+          "slug": "zdorovoe-pitanie-p6",
+          "title": "Здоровое питание: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "rezhim-dnya-privychki-v6",
+          "title": "Режим дня и полезные привычки (слова)",
+          "order": 4
+        },
+        {
+          "slug": "rezhim-dnya-privychki-g6",
+          "title": "Режим дня: Present Simple с наречиями частотности",
+          "order": 5
+        },
+        {
+          "slug": "rezhim-dnya-privychki-p6",
+          "title": "Режим дня: практика (слова + грамматика)",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Покупки",
       "order": 5,
       "topics": [
-        {"slug": "pokupki-odezhda-obuv", "title": "Покупки: одежда и обувь", "order": 1},
-        {"slug": "pokupki-produkty", "title": "Покупки: продукты питания", "order": 2}
+        {
+          "slug": "pokupki-odezhda-obuv-v6",
+          "title": "Покупки: одежда и обувь (слова)",
+          "order": 1
+        },
+        {
+          "slug": "pokupki-odezhda-obuv-g6",
+          "title": "Покупки: this/that/these/those + would like",
+          "order": 2
+        },
+        {
+          "slug": "pokupki-odezhda-obuv-p6",
+          "title": "Покупки: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "pokupki-produkty-v6",
+          "title": "Покупки: продукты питания — слова",
+          "order": 4
+        },
+        {
+          "slug": "pokupki-produkty-g6",
+          "title": "Покупки: how much / how many",
+          "order": 5
+        },
+        {
+          "slug": "pokupki-produkty-p6",
+          "title": "Покупки: продукты — практика",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Спорт",
       "order": 6,
       "topics": [
-        {"slug": "vidy-sporta", "title": "Виды спорта", "order": 1},
-        {"slug": "sportivnye-sorevnovaniya", "title": "Спортивные соревнования и выдающиеся спортсмены", "order": 2}
+        {
+          "slug": "vidy-sporta-v6",
+          "title": "Виды спорта — слова",
+          "order": 1
+        },
+        {
+          "slug": "vidy-sporta-g6",
+          "title": "Виды спорта: play / do / go",
+          "order": 2
+        },
+        {
+          "slug": "vidy-sporta-p6",
+          "title": "Виды спорта — практика",
+          "order": 3
+        },
+        {
+          "slug": "sportivnye-sorevnovaniya-v6",
+          "title": "Спортивные соревнования — слова",
+          "order": 4
+        },
+        {
+          "slug": "sportivnye-sorevnovaniya-g6",
+          "title": "Спортивные соревнования: степени сравнения прилагательных",
+          "order": 5
+        },
+        {
+          "slug": "sportivnye-sorevnovaniya-p6",
+          "title": "Спортивные соревнования — практика",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Школа",
       "order": 7,
       "topics": [
-        {"slug": "shkolnaya-zhizn-predmety", "title": "Школьная жизнь и школьные предметы", "order": 1},
-        {"slug": "pravila-povedeniya-shkola", "title": "Правила поведения в школе", "order": 2},
-        {"slug": "perepiska-sverstniki", "title": "Переписка с зарубежными сверстниками", "order": 3}
+        {
+          "slug": "shkolnaya-zhizn-predmety-v6",
+          "title": "Школьная жизнь и предметы — слова",
+          "order": 1
+        },
+        {
+          "slug": "shkolnaya-zhizn-predmety-g6",
+          "title": "Школьная жизнь: Present Simple + предлоги времени at/on/in",
+          "order": 2
+        },
+        {
+          "slug": "shkolnaya-zhizn-predmety-p6",
+          "title": "Школьная жизнь и предметы — практика",
+          "order": 3
+        },
+        {
+          "slug": "pravila-povedeniya-shkola-v6",
+          "title": "Правила поведения в школе — слова",
+          "order": 4
+        },
+        {
+          "slug": "pravila-povedeniya-shkola-g6",
+          "title": "Правила поведения в школе: must / mustn't",
+          "order": 5
+        },
+        {
+          "slug": "pravila-povedeniya-shkola-p6",
+          "title": "Правила поведения в школе — практика",
+          "order": 6
+        },
+        {
+          "slug": "perepiska-sverstniki-v6",
+          "title": "Переписка с зарубежными сверстниками — слова",
+          "order": 7
+        },
+        {
+          "slug": "perepiska-sverstniki-g6",
+          "title": "Переписка со сверстниками: Present Simple и Present Continuous",
+          "order": 8
+        },
+        {
+          "slug": "perepiska-sverstniki-p6",
+          "title": "Переписка со сверстниками — практика",
+          "order": 9
+        }
       ]
     },
     {
       "name": "Путешествия и каникулы",
       "order": 8,
       "topics": [
-        {"slug": "puteshestviya-otdyh-snaryazhenie", "title": "Путешествия: виды отдыха и снаряжение", "order": 1},
-        {"slug": "kanikuly-plany-vpechatleniya", "title": "Каникулы: планы и впечатления", "order": 2},
-        {"slug": "znamenitye-puteshestvenniki", "title": "Знаменитые путешественники и открытия", "order": 3}
+        {
+          "slug": "puteshestviya-otdyh-snaryazhenie-v6",
+          "title": "Путешествия: виды отдыха и снаряжение — слова",
+          "order": 1
+        },
+        {
+          "slug": "puteshestviya-otdyh-snaryazhenie-g6",
+          "title": "Путешествия: going to для планов на будущее",
+          "order": 2
+        },
+        {
+          "slug": "puteshestviya-otdyh-snaryazhenie-p6",
+          "title": "Путешествия: виды отдыха и снаряжение — практика",
+          "order": 3
+        },
+        {
+          "slug": "kanikuly-plany-vpechatleniya-v6",
+          "title": "Каникулы: планы и впечатления — слова",
+          "order": 4
+        },
+        {
+          "slug": "kanikuly-plany-vpechatleniya-g6",
+          "title": "Каникулы: Past Simple",
+          "order": 5
+        },
+        {
+          "slug": "kanikuly-plany-vpechatleniya-p6",
+          "title": "Каникулы: планы и впечатления — практика",
+          "order": 6
+        },
+        {
+          "slug": "znamenitye-puteshestvenniki-v6",
+          "title": "Знаменитые путешественники и открытия — слова",
+          "order": 7
+        },
+        {
+          "slug": "znamenitye-puteshestvenniki-g6",
+          "title": "Знаменитые путешественники: Past Simple для биографии",
+          "order": 8
+        },
+        {
+          "slug": "znamenitye-puteshestvenniki-p6",
+          "title": "Знаменитые путешественники — практика",
+          "order": 9
+        }
       ]
     },
     {
       "name": "Мир профессий",
       "order": 9,
       "topics": [
-        {"slug": "professii-plany-na-buduschee", "title": "Профессии и планы на будущее", "order": 1},
-        {"slug": "rabota-kariera", "title": "Работа и карьера", "order": 2}
+        {
+          "slug": "professii-plany-na-buduschee-v6",
+          "title": "Профессии и планы на будущее (слова)",
+          "order": 1
+        },
+        {
+          "slug": "professii-plany-na-buduschee-g6",
+          "title": "Профессии: will для предсказаний и планов на будущее",
+          "order": 2
+        },
+        {
+          "slug": "professii-plany-na-buduschee-p6",
+          "title": "Профессии: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "rabota-kariera-v6",
+          "title": "Работа и карьера (слова)",
+          "order": 4
+        },
+        {
+          "slug": "rabota-kariera-g6",
+          "title": "Работа: модальный глагол can/could для способности",
+          "order": 5
+        },
+        {
+          "slug": "rabota-kariera-p6",
+          "title": "Работа и карьера: практика (слова + грамматика)",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Природа и погода",
       "order": 10,
       "topics": [
-        {"slug": "priroda-zhivotnye", "title": "Природа: дикие и домашние животные", "order": 1},
-        {"slug": "pogoda-klimat", "title": "Погода и климат", "order": 2}
+        {
+          "slug": "priroda-zhivotnye-v6",
+          "title": "Природа: животные (слова)",
+          "order": 1
+        },
+        {
+          "slug": "priroda-zhivotnye-g6",
+          "title": "Природа: there is/there are и степени сравнения",
+          "order": 2
+        },
+        {
+          "slug": "priroda-zhivotnye-p6",
+          "title": "Природа: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "pogoda-klimat-v6",
+          "title": "Погода и климат (слова)",
+          "order": 4
+        },
+        {
+          "slug": "pogoda-klimat-g6",
+          "title": "Погода: Present Simple vs Present Continuous",
+          "order": 5
+        },
+        {
+          "slug": "pogoda-klimat-p6",
+          "title": "Погода: практика (слова + грамматика)",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Жизнь в городе и селе",
       "order": 11,
       "topics": [
-        {"slug": "gorod-transport-dostoprimechatelnosti", "title": "Город: транспорт и достопримечательности", "order": 1},
-        {"slug": "zhizn-v-derevne", "title": "Жизнь в сельской местности", "order": 2},
-        {"slug": "moy-gorod-opisanie", "title": "Мой город: описание", "order": 3}
+        {
+          "slug": "gorod-transport-dostoprimechatelnosti-v6",
+          "title": "Город: транспорт и достопримечательности (слова)",
+          "order": 1
+        },
+        {
+          "slug": "gorod-transport-dostoprimechatelnosti-g6",
+          "title": "Город: предлоги места и вопрос дороги",
+          "order": 2
+        },
+        {
+          "slug": "gorod-transport-dostoprimechatelnosti-p6",
+          "title": "Город: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "zhizn-v-derevne-v6",
+          "title": "Жизнь в деревне (слова)",
+          "order": 4
+        },
+        {
+          "slug": "zhizn-v-derevne-g6",
+          "title": "Жизнь в деревне: степени сравнения",
+          "order": 5
+        },
+        {
+          "slug": "zhizn-v-derevne-p6",
+          "title": "Жизнь в деревне: практика (слова + грамматика)",
+          "order": 6
+        },
+        {
+          "slug": "moy-gorod-opisanie-v6",
+          "title": "Мой город: описание (слова)",
+          "order": 7
+        },
+        {
+          "slug": "moy-gorod-opisanie-g6",
+          "title": "Мой город: there is/there are + a lot of / many / much",
+          "order": 8
+        },
+        {
+          "slug": "moy-gorod-opisanie-p6",
+          "title": "Мой город: практика (слова + грамматика)",
+          "order": 9
+        }
       ]
     },
     {
       "name": "СМИ и коммуникации",
       "order": 12,
       "topics": [
-        {"slug": "smi-kommunikacii", "title": "Средства массовой информации", "order": 1}
+        {
+          "slug": "smi-kommunikacii-v6",
+          "title": "Средства массовой информации (слова)",
+          "order": 1
+        },
+        {
+          "slug": "smi-kommunikacii-g6",
+          "title": "СМИ: модальные глаголы возможности",
+          "order": 2
+        },
+        {
+          "slug": "smi-kommunikacii-p6",
+          "title": "СМИ: практика (слова + грамматика)",
+          "order": 3
+        }
       ]
     },
     {
       "name": "Родная страна и страна изучаемого языка",
       "order": 13,
       "topics": [
-        {"slug": "velikobritaniya-strany-simvoly", "title": "Великобритания: страны и символы", "order": 1},
-        {"slug": "dostoprimechatelnosti-tradicii", "title": "Достопримечательности и традиции", "order": 2},
-        {"slug": "rodnaya-strana-geografiya-kultura", "title": "Родная страна: география и культура", "order": 3}
+        {
+          "slug": "velikobritaniya-strany-simvoly-v6",
+          "title": "Великобритания: страны и символы (слова)",
+          "order": 1
+        },
+        {
+          "slug": "velikobritaniya-strany-simvoly-g6",
+          "title": "Великобритания: артикль the со странами",
+          "order": 2
+        },
+        {
+          "slug": "velikobritaniya-strany-simvoly-p6",
+          "title": "Великобритания: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "dostoprimechatelnosti-tradicii-v6",
+          "title": "Достопримечательности и традиции (слова)",
+          "order": 4
+        },
+        {
+          "slug": "dostoprimechatelnosti-tradicii-g6",
+          "title": "Достопримечательности: there is/are и Present Simple",
+          "order": 5
+        },
+        {
+          "slug": "dostoprimechatelnosti-tradicii-p6",
+          "title": "Достопримечательности и традиции: практика",
+          "order": 6
+        },
+        {
+          "slug": "rodnaya-strana-geografiya-kultura-v6",
+          "title": "Родная страна: география и культура (слова)",
+          "order": 7
+        },
+        {
+          "slug": "rodnaya-strana-geografiya-kultura-g6",
+          "title": "Родная страна: превосходная степень прилагательных",
+          "order": 8
+        },
+        {
+          "slug": "rodnaya-strana-geografiya-kultura-p6",
+          "title": "Родная страна: практика (слова + грамматика)",
+          "order": 9
+        }
       ]
     },
     {
       "name": "Выдающиеся люди",
       "order": 14,
       "topics": [
-        {"slug": "vydayuschiesya-lyudi-nauka-iskusstvo", "title": "Выдающиеся люди: наука и искусство", "order": 1},
-        {"slug": "vydayuschiesya-lyudi-sport-literatura", "title": "Выдающиеся люди: спорт и литература", "order": 2}
+        {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-v6",
+          "title": "Выдающиеся люди: наука и искусство (слова)",
+          "order": 1
+        },
+        {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-g6",
+          "title": "Выдающиеся люди: Past Simple для биографии",
+          "order": 2
+        },
+        {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-p6",
+          "title": "Выдающиеся люди: практика (слова + грамматика)",
+          "order": 3
+        },
+        {
+          "slug": "vydayuschiesya-lyudi-sport-literatura-v6",
+          "title": "Выдающиеся люди: спорт и литература (слова)",
+          "order": 4
+        },
+        {
+          "slug": "vydayuschiesya-lyudi-sport-literatura-g6",
+          "title": "Выдающиеся люди: неправильные глаголы Past Simple (wrote, won, became)",
+          "order": 5
+        },
+        {
+          "slug": "vydayuschiesya-lyudi-sport-literatura-p6",
+          "title": "Выдающиеся люди: практика (слова + грамматика)",
+          "order": 6
+        }
       ]
     },
     {
       "name": "Итоговое повторение",
       "order": 15,
       "topics": [
-        {"slug": "itogovoe-povtorenie-angliyskiy", "title": "Итоговое повторение курса английского языка за 6 класс", "order": 1}
+        {
+          "slug": "itogovoe-povtorenie-angliyskiy",
+          "title": "Итоговое повторение курса английского языка за 6 класс",
+          "order": 1
+        }
       ]
     }
   ]

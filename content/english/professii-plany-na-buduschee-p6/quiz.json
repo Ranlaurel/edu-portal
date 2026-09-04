@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Кем хочет стать Лили, по диалогу?",
+      "options": [
+        {"text": "a scientist", "correct": true},
+        {"text": "a pilot", "correct": false},
+        {"text": "an engineer", "correct": false}
+      ],
+      "explanation": "Лили говорит: I think I will be a scientist."
+    },
+    {
+      "type": "single",
+      "text": "Кем станет брат Ника?",
+      "options": [
+        {"text": "an engineer", "correct": true},
+        {"text": "a doctor", "correct": false},
+        {"text": "a firefighter", "correct": false}
+      ],
+      "explanation": "Ник говорит: My brother will study to be an engineer."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие профессии упоминаются в диалоге? (выбери все верные варианты)",
+      "options": [
+        {"text": "scientist", "correct": true},
+        {"text": "pilot", "correct": true},
+        {"text": "vet", "correct": false},
+        {"text": "police officer", "correct": true}
+      ],
+      "explanation": "В диалоге упоминаются scientist, pilot, engineer, doctor, firefighter, police officer — но не vet."
+    },
+    {
+      "type": "dropdown",
+      "text": "Nick ___ (become) a pilot.",
+      "options": [
+        {"text": "will become", "correct": true},
+        {"text": "will becomes", "correct": false},
+        {"text": "becomes will", "correct": false}
+      ],
+      "explanation": "После will глагол в базовой форме: will become."
+    },
+    {
+      "type": "dropdown",
+      "text": "His brother ___ (not become) a doctor.",
+      "options": [
+        {"text": "won't become", "correct": true},
+        {"text": "not will become", "correct": false},
+        {"text": "won't becomes", "correct": false}
+      ],
+      "explanation": "Отрицание: won't (will not) + глагол в базовой форме."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Science is my favourite ___ (предмет в школе).",
+      "answer": "subject",
+      "explanation": "«Предмет» (в школе) — subject."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: I think many professions can ___ the world better.",
+      "answer": "make",
+      "explanation": "«Make the world better» — сделать мир лучше."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини имя героя с его планом на будущее",
+      "pairs": [
+        {"left": "Lily", "right": "will be a scientist"},
+        {"left": "Nick", "right": "will become a pilot"},
+        {"left": "Nick's brother", "right": "will study to be an engineer"},
+        {"left": "Nick's mum", "right": "is a doctor"}
+      ],
+      "explanation": "Проверь по диалогу Ника и Лили."
+    },
+    {
+      "type": "single",
+      "text": "Какие профессии, по мнению Лили, тоже помогают людям?",
+      "options": [
+        {"text": "a firefighter or a police officer", "correct": true},
+        {"text": "an artist or a singer", "correct": false},
+        {"text": "a businessman or a lawyer", "correct": false}
+      ],
+      "explanation": "Лили говорит: What about a firefighter or a police officer? Those jobs help people too."
+    }
+  ]
+}

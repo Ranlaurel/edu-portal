@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Кто такой Дмитрий Менделеев по диалогу?",
+      "options": [
+        {"text": "scientist", "correct": true},
+        {"text": "artist", "correct": false},
+        {"text": "composer", "correct": false}
+      ],
+      "explanation": "В диалоге Менделеев назван famous Russian scientist — знаменитый русский учёный."
+    },
+    {
+      "type": "single",
+      "text": "Что открыл Менделеев, согласно диалогу?",
+      "options": [
+        {"text": "periodic table", "correct": true},
+        {"text": "telephone", "correct": false},
+        {"text": "new continent", "correct": false}
+      ],
+      "explanation": "В диалоге сказано: he discovered the periodic table — он открыл периодическую таблицу."
+    },
+    {
+      "type": "single",
+      "text": "Чем discovery отличается от invention, согласно диалогу?",
+      "options": [
+        {"text": "discovery — находка того, что уже существовало; invention — создание нового", "correct": true},
+        {"text": "discovery и invention — синонимы, разницы нет", "correct": false},
+        {"text": "invention — это открытие, а discovery — изобретение", "correct": false}
+      ],
+      "explanation": "Учитель говорит: he didn't invent anything — he made a discovery, not an invention. Discovery — открыть уже существующее, invention — создать новое."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова из диалога описывают Чайковского и его работу? (выбери все верные варианты)",
+      "options": [
+        {"text": "composer", "correct": true},
+        {"text": "achievement", "correct": true},
+        {"text": "genius", "correct": false},
+        {"text": "paintings", "correct": false}
+      ],
+      "explanation": "Tchaikovsky назван composer, а его музыкальный achievement назван huge. Genius в диалоге сказано про Менделеева, paintings — про художников."
+    },
+    {
+      "type": "dropdown",
+      "text": "Mendeleev was a real ___.",
+      "options": [
+        {"text": "genius", "correct": true},
+        {"text": "guest", "correct": false},
+        {"text": "invention", "correct": false}
+      ],
+      "explanation": "В диалоге сказано: he was a real genius — он был настоящим гением."
+    },
+    {
+      "type": "dropdown",
+      "text": "He didn't invent anything — he made a ___, not an invention.",
+      "options": [
+        {"text": "discovery", "correct": true},
+        {"text": "painting", "correct": false},
+        {"text": "achievement", "correct": false}
+      ],
+      "explanation": "По диалогу Менделеев сделал discovery (открытие), а не invention (изобретение)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: Mendeleev ___ (discover) the periodic table.",
+      "answer": "discovered",
+      "explanation": "В диалоге используется форма Past Simple: discovered."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: Tchaikovsky ___ (compose) many operas.",
+      "answer": "composed",
+      "explanation": "В диалоге используется форма Past Simple: composed."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "scientist", "right": "учёный"},
+        {"left": "genius", "right": "гений"},
+        {"left": "achievement", "right": "достижение"},
+        {"left": "discovery", "right": "открытие"}
+      ],
+      "explanation": "Проверь по словам из диалога."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Нужен ли артикль перед словом Scotland?",
+      "options": [
+        {"text": "нет, обычное название страны", "correct": true},
+        {"text": "да, всегда нужен the", "correct": false},
+        {"text": "нужен a", "correct": false}
+      ],
+      "explanation": "Обычные названия стран пишутся без артикля."
+    },
+    {
+      "type": "single",
+      "text": "Почему перед United Kingdom нужен артикль the?",
+      "options": [
+        {"text": "в названии есть слово Kingdom (объединение)", "correct": true},
+        {"text": "все названия стран требуют the", "correct": false},
+        {"text": "потому что это остров", "correct": false}
+      ],
+      "explanation": "Артикль the ставится, когда в названии есть слово, показывающее объединение: Kingdom, States, Republic."
+    },
+    {
+      "type": "multiple",
+      "text": "Перед какими названиями артикль the НЕ нужен? (выбери все верные варианты)",
+      "options": [
+        {"text": "England", "correct": true},
+        {"text": "London", "correct": true},
+        {"text": "Wales", "correct": true},
+        {"text": "the United Kingdom", "correct": false},
+        {"text": "the Thames", "correct": false}
+      ],
+      "explanation": "England, London, Wales — без артикля. United Kingdom и Thames (река) — с артиклем the."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ United Kingdom consists of four nations.",
+      "options": [
+        {"text": "The", "correct": true},
+        {"text": "A", "correct": false},
+        {"text": "(без артикля)", "correct": false}
+      ],
+      "explanation": "United Kingdom требует артикль the, так как в названии есть слово Kingdom."
+    },
+    {
+      "type": "dropdown",
+      "text": "Big Ben is in ___ London.",
+      "options": [
+        {"text": "(без артикля)", "correct": true},
+        {"text": "the", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "Названия городов пишутся без артикля."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши, нужен ли артикль (the / без артикля): ___ Wales has its own flag.",
+      "answer": "without article",
+      "accepted": ["without article", "без артикля", "-", "none"],
+      "explanation": "Wales — обычное название страны, пишется без артикля."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши артикль: Big Ben is in ___ capital of the UK.",
+      "answer": "the",
+      "explanation": "Перед словом capital (нарицательное существительное) в этом контексте ставится the."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини название с правилом артикля",
+      "pairs": [
+        {"left": "England", "right": "без артикля"},
+        {"left": "the United Kingdom", "right": "с the (Kingdom)"},
+        {"left": "London", "right": "без артикля"},
+        {"left": "the Thames", "right": "с the (река)"}
+      ],
+      "explanation": "Страны и города — без артикля, объединения (Kingdom) и реки — с the."
+    }
+  ]
+}

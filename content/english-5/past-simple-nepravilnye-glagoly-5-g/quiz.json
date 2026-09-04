@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как образуется Past Simple неправильных глаголов?",
+      "options": [
+        {"text": "форма меняется, её нужно запоминать", "correct": true},
+        {"text": "глагол + -ed", "correct": false},
+        {"text": "will + глагол", "correct": false}
+      ],
+      "explanation": "Неправильные глаголы не получают -ed, их формы прошедшего времени нужно запоминать."
+    },
+    {
+      "type": "single",
+      "text": "Какое слово помогает образовать вопрос и отрицание в Past Simple?",
+      "options": [
+        {"text": "did", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "does", "correct": false}
+      ],
+      "explanation": "Вопросы и отрицания в Past Simple образуются с помощью did."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения составлены верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "Did you see that film?", "correct": true},
+        {"text": "Did she went home?", "correct": false},
+        {"text": "I didn't go to school.", "correct": true},
+        {"text": "Did you had breakfast?", "correct": false},
+        {"text": "We didn't have dinner.", "correct": true}
+      ],
+      "explanation": "После did/didn't глагол используется в начальной форме, без изменения."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you see that film? (вопрос)",
+      "options": [
+        {"text": "Did", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Does", "correct": false}
+      ],
+      "explanation": "Вопрос в прошедшем времени начинается с Did."
+    },
+    {
+      "type": "dropdown",
+      "text": "Did she ___ (go) home?",
+      "options": [
+        {"text": "go", "correct": true},
+        {"text": "went", "correct": false},
+        {"text": "goes", "correct": false}
+      ],
+      "explanation": "После did глагол используется в начальной форме: go, а не went."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицание: I ___ (not / go) to school on Sunday.",
+      "answer": "didn't go",
+      "accepted": ["didn't go", "did not go"],
+      "explanation": "Отрицание образуется через didn't + начальная форма глагола."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопрос: ___ you have breakfast this morning?",
+      "answer": "Did",
+      "explanation": "Вопрос в Past Simple начинается с Did."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с типом (утверждение/отрицание/вопрос)",
+      "pairs": [
+        {"left": "I went to the cinema.", "right": "утверждение"},
+        {"left": "I didn't go to school.", "right": "отрицание"},
+        {"left": "Did you see that film?", "right": "вопрос"},
+        {"left": "She had a lot of fun.", "right": "утверждение"}
+      ],
+      "explanation": "Проверь по структуре предложения: наличие did/didn't показывает тип."
+    }
+  ]
+}

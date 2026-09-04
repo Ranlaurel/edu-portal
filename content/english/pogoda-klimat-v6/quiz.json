@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «temperature»?",
+      "options": [
+        {"text": "температура", "correct": true},
+        {"text": "прогноз", "correct": false},
+        {"text": "градус", "correct": false}
+      ],
+      "explanation": "«Temperature» — температура."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «foggy»?",
+      "options": [
+        {"text": "туманный", "correct": true},
+        {"text": "облачный", "correct": false},
+        {"text": "ветреный", "correct": false}
+      ],
+      "explanation": "«Foggy» — туманный."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают погоду? (выбери все верные варианты)",
+      "options": [
+        {"text": "sunny", "correct": true},
+        {"text": "windy", "correct": true},
+        {"text": "season", "correct": false},
+        {"text": "rainy", "correct": true},
+        {"text": "degree", "correct": false}
+      ],
+      "explanation": "Sunny, windy, rainy описывают погоду. Season (время года) и degree (градус) — не описание погоды напрямую."
+    },
+    {
+      "type": "dropdown",
+      "text": "Слово, обозначающее «прогноз погоды» — ___.",
+      "options": [
+        {"text": "forecast", "correct": true},
+        {"text": "climate", "correct": false},
+        {"text": "temperature", "correct": false}
+      ],
+      "explanation": "«Forecast» — прогноз."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как сказать «снежный» по-английски? ___",
+      "options": [
+        {"text": "snowy", "correct": true},
+        {"text": "wet", "correct": false},
+        {"text": "cloudy", "correct": false}
+      ],
+      "explanation": "«Snowy» — снежный."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: время года",
+      "answer": "season",
+      "explanation": "«Время года» переводится как season."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: жаркий",
+      "answer": "hot",
+      "explanation": "«Жаркий» переводится как hot."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "climate", "right": "климат"},
+        {"left": "cloudy", "right": "облачный"},
+        {"left": "wet", "right": "влажный, мокрый"},
+        {"left": "cold", "right": "холодный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Чем отличается weather от climate?",
+      "options": [
+        {"text": "weather — погода сейчас, climate — климат за долгое время", "correct": true},
+        {"text": "это два слова с одинаковым значением", "correct": false},
+        {"text": "weather — только зимняя погода", "correct": false}
+      ],
+      "explanation": "Weather — текущая погода, climate — обычная погода местности за долгий период."
+    }
+  ]
+}

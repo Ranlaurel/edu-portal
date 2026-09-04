@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая новая одноклассница по словам Эммы?",
+      "options": [
+        {"text": "very kind and generous", "correct": true},
+        {"text": "very rude and lazy", "correct": false},
+        {"text": "quite shy", "correct": false}
+      ],
+      "explanation": "Эмма говорит: She is very kind and generous."
+    },
+    {
+      "type": "single",
+      "text": "Застенчивая ли одноклассница, по диалогу?",
+      "options": [
+        {"text": "No, she is quite curious, not shy.", "correct": true},
+        {"text": "Yes, she is very shy.", "correct": false},
+        {"text": "Yes, she is quite shy.", "correct": false}
+      ],
+      "explanation": "Эмма отвечает: No, not really. She is quite curious."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие черты характера упомянуты в диалоге? (выбери все верные варианты)",
+      "options": [
+        {"text": "curious", "correct": true},
+        {"text": "stubborn", "correct": true},
+        {"text": "lazy", "correct": false},
+        {"text": "cheerful", "correct": true}
+      ],
+      "explanation": "В диалоге упомянуты curious, stubborn и cheerful, но не lazy."
+    },
+    {
+      "type": "dropdown",
+      "text": "She is a ___, honest girl.",
+      "options": [
+        {"text": "nice", "correct": true},
+        {"text": "shy", "correct": false},
+        {"text": "curious", "correct": false}
+      ],
+      "explanation": "Общее мнение (nice) ставится перед конкретной чертой (honest)."
+    },
+    {
+      "type": "dropdown",
+      "text": "She is ___ curious — she asks a lot of questions.",
+      "options": [
+        {"text": "quite", "correct": true},
+        {"text": "very much", "correct": false},
+        {"text": "so", "correct": false}
+      ],
+      "explanation": "В диалоге используется quite curious."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: She can be a bit ___ (упрямая).",
+      "answer": "stubborn",
+      "explanation": "«Упрямый» — stubborn."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: She is always ___ (весёлая) and polite.",
+      "answer": "cheerful",
+      "explanation": "«Весёлый, жизнерадостный» — cheerful."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "very kind and generous", "right": "очень добрая и щедрая"},
+        {"left": "quite curious", "right": "довольно любопытная"},
+        {"left": "a bit stubborn", "right": "немного упрямая"},
+        {"left": "cheerful and polite", "right": "весёлая и вежливая"}
+      ],
+      "explanation": "Проверь по диалогу Ника и Эммы."
+    },
+    {
+      "type": "single",
+      "text": "Что делает одноклассница, будучи curious, по словам Эммы?",
+      "options": [
+        {"text": "asks a lot of questions", "correct": true},
+        {"text": "collects stamps", "correct": false},
+        {"text": "watches TV", "correct": false}
+      ],
+      "explanation": "Эмма говорит: she asks a lot of questions."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную форму: We ___ my grandmother last summer.",
+      "options": [
+        {"text": "visited", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "visiting", "correct": false}
+      ],
+      "explanation": "Visit — правильный глагол, Past Simple образуется через -ed: visited."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: I ___ in the lake yesterday.",
+      "options": [
+        {"text": "swam", "correct": true},
+        {"text": "swimmed", "correct": false},
+        {"text": "swim", "correct": false}
+      ],
+      "explanation": "Swim — неправильный глагол, 2-я форма: swam."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие глаголы неправильные (не образуют форму через -ed)? (выбери все верные варианты)",
+      "options": [
+        {"text": "swim", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "be", "correct": true},
+        {"text": "enjoy", "correct": false},
+        {"text": "take", "correct": true}
+      ],
+      "explanation": "Swim → swam, be → was/were, take → took — неправильные глаголы. Visit и enjoy — правильные (+ed)."
+    },
+    {
+      "type": "dropdown",
+      "text": "The trip ___ amazing!",
+      "options": [
+        {"text": "was", "correct": true},
+        {"text": "were", "correct": false},
+        {"text": "is", "correct": false}
+      ],
+      "explanation": "Trip — единственное число, be в Past Simple: was."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ like the hotel.",
+      "options": [
+        {"text": "didn't", "correct": true},
+        {"text": "don't", "correct": false},
+        {"text": "wasn't", "correct": false}
+      ],
+      "explanation": "Отрицание в Past Simple: did not (didn't) + глагол без окончания."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: We ___ (visit) my aunt last week.",
+      "answer": "visited",
+      "explanation": "Правильный глагол visit в Past Simple: visited."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопросное слово: ___ you enjoy your holiday?",
+      "answer": "Did",
+      "explanation": "Вопрос в Past Simple строится с did в начале."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини глагол в настоящем времени с его формой Past Simple",
+      "pairs": [
+        {"left": "visit", "right": "visited"},
+        {"left": "swim", "right": "swam"},
+        {"left": "be", "right": "was"},
+        {"left": "enjoy", "right": "enjoyed"}
+      ],
+      "explanation": "Visit и enjoy — правильные глаголы (+ed), swim и be — неправильные."
+    },
+    {
+      "type": "single",
+      "text": "Was the trip exciting? — это...",
+      "options": [
+        {"text": "вопрос в Past Simple", "correct": true},
+        {"text": "утверждение", "correct": false},
+        {"text": "отрицание", "correct": false}
+      ],
+      "explanation": "Порядок слов (was + подлежащее) и вопросительный знак показывают, что это вопрос."
+    }
+  ]
+}

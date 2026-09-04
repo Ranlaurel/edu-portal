@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Мы путешествовали в горы»?",
+      "options": [
+        {"text": "We travelled to the mountains.", "correct": true},
+        {"text": "We travel to the mountains.", "correct": false},
+        {"text": "We are travelling to the mountains.", "correct": false}
+      ],
+      "explanation": "Поездка уже закончилась, поэтому используется Past Simple: travelled."
+    },
+    {
+      "type": "single",
+      "text": "Какое время используем, когда поездка уже спланирована по расписанию?",
+      "options": [
+        {"text": "Present Simple", "correct": true},
+        {"text": "Past Simple", "correct": false},
+        {"text": "Present Continuous", "correct": false}
+      ],
+      "explanation": "Для расписаний (поезда, самолёта) используется Present Simple: leaves, arrives."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие глаголы в Past Simple использованы верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "travelled", "correct": true},
+        {"text": "took", "correct": true},
+        {"text": "bought", "correct": true},
+        {"text": "goed", "correct": false},
+        {"text": "buyed", "correct": false}
+      ],
+      "explanation": "Travelled, took, bought — верные формы Past Simple. Goed и buyed — ошибки."
+    },
+    {
+      "type": "dropdown",
+      "text": "Last year we ___ (go) abroad.",
+      "options": [
+        {"text": "went", "correct": true},
+        {"text": "goed", "correct": false},
+        {"text": "go", "correct": false}
+      ],
+      "explanation": "Прошедшая форма go — went."
+    },
+    {
+      "type": "dropdown",
+      "text": "Our train ___ (leave) at 9 o'clock tomorrow.",
+      "options": [
+        {"text": "leaves", "correct": true},
+        {"text": "left", "correct": false},
+        {"text": "is leaving", "correct": false}
+      ],
+      "explanation": "Расписание передаётся через Present Simple: leaves."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: I ___ (buy) a camera before the trip.",
+      "answer": "bought",
+      "explanation": "Прошедшая форма buy — bought."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: We ___ (arrive) at the beach. (прошедшее время)",
+      "answer": "arrived",
+      "explanation": "Arrive — правильный глагол, форма прошедшего времени — arrived."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "We took a plane.", "right": "Мы летели на самолёте."},
+        {"left": "I bought a lot of souvenirs.", "right": "Я купил много сувениров."},
+        {"left": "The plane arrives at 6 p.m.", "right": "Самолёт прибывает в 18:00."},
+        {"left": "We arrived at the beach.", "right": "Мы прибыли на пляж."}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    }
+  ]
+}

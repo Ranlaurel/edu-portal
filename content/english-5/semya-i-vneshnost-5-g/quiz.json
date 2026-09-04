@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную форму: She ___ got long hair.",
+      "options": [
+        {"text": "has", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "is", "correct": false}
+      ],
+      "explanation": "С she используется форма has got."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «У меня есть брат»?",
+      "options": [
+        {"text": "I have got a brother.", "correct": true},
+        {"text": "I has got a brother.", "correct": false},
+        {"text": "I am got a brother.", "correct": false}
+      ],
+      "explanation": "С I используется форма have got."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях have got использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "He has got blue eyes.", "correct": true},
+        {"text": "They has got a big family.", "correct": false},
+        {"text": "We have got a dog.", "correct": true},
+        {"text": "She have got curly hair.", "correct": false},
+        {"text": "I have got a sister.", "correct": true}
+      ],
+      "explanation": "I/we/they/you — have got; he/she/it — has got."
+    },
+    {
+      "type": "dropdown",
+      "text": "My brother ___ short hair.",
+      "options": [
+        {"text": "has got", "correct": true},
+        {"text": "have got", "correct": false},
+        {"text": "is got", "correct": false}
+      ],
+      "explanation": "Brother = he, используется has got."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ a garden. (отрицание)",
+      "options": [
+        {"text": "haven't got", "correct": true},
+        {"text": "hasn't got", "correct": false},
+        {"text": "don't got", "correct": false}
+      ],
+      "explanation": "С we используется отрицательная форма haven't got."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Задай вопрос: She has got a brother. → ___ she got a brother?",
+      "answer": "Has",
+      "explanation": "В вопросе has/have выходит на первое место: Has she got...?"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: I ___ (have got) a big family.",
+      "answer": "have got",
+      "explanation": "С I используется форма have got."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини местоимение с правильной формой have got",
+      "pairs": [
+        {"left": "I", "right": "have got"},
+        {"left": "she", "right": "has got"},
+        {"left": "we", "right": "have got"},
+        {"left": "he", "right": "has got"}
+      ],
+      "explanation": "I/we/you/they — have got; he/she/it — has got."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верное отрицание: My sister ___ curly hair.",
+      "options": [
+        {"text": "hasn't got", "correct": true},
+        {"text": "haven't got", "correct": false},
+        {"text": "isn't got", "correct": false}
+      ],
+      "explanation": "Sister = she, используется hasn't got."
+    }
+  ]
+}

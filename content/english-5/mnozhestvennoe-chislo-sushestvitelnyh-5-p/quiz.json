@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как будет множественное число слова «child»?",
+      "options": [
+        {"text": "children", "correct": true},
+        {"text": "childs", "correct": false},
+        {"text": "childes", "correct": false}
+      ],
+      "explanation": "Child — слово-исключение, множественное число children."
+    },
+    {
+      "type": "single",
+      "text": "Как будет множественное число слова «foot»?",
+      "options": [
+        {"text": "feet", "correct": true},
+        {"text": "foots", "correct": false},
+        {"text": "footes", "correct": false}
+      ],
+      "explanation": "Foot — слово-исключение, множественное число feet."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие формы множественного числа верны? (выбери все верные варианты)",
+      "options": [
+        {"text": "men", "correct": true},
+        {"text": "womans", "correct": false},
+        {"text": "teeth", "correct": true},
+        {"text": "childs", "correct": false},
+        {"text": "children", "correct": true}
+      ],
+      "explanation": "Man → men, tooth → teeth, child → children — верные исключения. Womans и childs — ошибки (нужно women, children)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Множественное число слова «woman» — это ___.",
+      "options": [
+        {"text": "women", "correct": true},
+        {"text": "womans", "correct": false},
+        {"text": "womens", "correct": false}
+      ],
+      "explanation": "Woman — исключение, множественное число women."
+    },
+    {
+      "type": "dropdown",
+      "text": "Множественное число слова «tooth» — это ___.",
+      "options": [
+        {"text": "teeth", "correct": true},
+        {"text": "tooths", "correct": false},
+        {"text": "toothes", "correct": false}
+      ],
+      "explanation": "Tooth — исключение, множественное число teeth."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши множественное число слова man.",
+      "answer": "men",
+      "explanation": "Man — исключение, множественное число men."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши множественное число слова child.",
+      "answer": "children",
+      "explanation": "Child — исключение, множественное число children."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово в единственном числе с формой множественного числа",
+      "pairs": [
+        {"left": "child", "right": "children"},
+        {"left": "man", "right": "men"},
+        {"left": "woman", "right": "women"},
+        {"left": "foot", "right": "feet"}
+      ],
+      "explanation": "Это слова-исключения с особым множественным числом."
+    }
+  ]
+}

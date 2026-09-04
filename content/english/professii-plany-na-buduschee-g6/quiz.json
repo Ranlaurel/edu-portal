@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Я стану врачом»?",
+      "options": [
+        {"text": "I will be a doctor.", "correct": true},
+        {"text": "I will a doctor.", "correct": false},
+        {"text": "I am will be a doctor.", "correct": false}
+      ],
+      "explanation": "После will всегда идёт глагол в базовой форме: will be."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно построить вопрос «Ты станешь инженером?»",
+      "options": [
+        {"text": "Will you be an engineer?", "correct": true},
+        {"text": "You will be an engineer?", "correct": false},
+        {"text": "Do you will be an engineer?", "correct": false}
+      ],
+      "explanation": "Вопрос с will: Will + подлежащее + глагол."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения грамматически верны с will? (выбери все верные варианты)",
+      "options": [
+        {"text": "She will work as a teacher.", "correct": true},
+        {"text": "They won't become pilots.", "correct": true},
+        {"text": "She wills work as a teacher.", "correct": false},
+        {"text": "Will you be an engineer?", "correct": true}
+      ],
+      "explanation": "Will не изменяется по лицам и не добавляет -s к себе, глагол после него — в базовой форме."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ (work) as a teacher when she finishes university.",
+      "options": [
+        {"text": "will work", "correct": true},
+        {"text": "wills work", "correct": false},
+        {"text": "will works", "correct": false}
+      ],
+      "explanation": "Will не изменяется по лицам, после него глагол всегда в базовой форме без -s: will work."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you be an engineer?",
+      "options": [
+        {"text": "Will", "correct": true},
+        {"text": "Do", "correct": false},
+        {"text": "Are", "correct": false}
+      ],
+      "explanation": "Вопрос с будущим временем will образуется так: Will + подлежащее + глагол."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: They ___ (not become) pilots.",
+      "answer": "won't become",
+      "accepted": ["won't become", "will not become"],
+      "explanation": "Отрицательная форма will: will not / won't + глагол в базовой форме."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: I ___ (be) a vet in the future.",
+      "answer": "will be",
+      "explanation": "Формула будущего времени: will + глагол в базовой форме — will be."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини форму will с её значением",
+      "pairs": [
+        {"left": "will be", "right": "стану/буду (утверждение)"},
+        {"left": "won't become", "right": "не стану (отрицание)"},
+        {"left": "will you be", "right": "станешь ли ты (вопрос)"},
+        {"left": "will do", "right": "будет делать (предсказание)"}
+      ],
+      "explanation": "Проверь по правилу will из урока."
+    },
+    {
+      "type": "single",
+      "text": "I think robots ___ many jobs in the future.",
+      "options": [
+        {"text": "will do", "correct": true},
+        {"text": "do will", "correct": false},
+        {"text": "will did", "correct": false}
+      ],
+      "explanation": "Формула будущего времени: will + глагол в базовой форме — will do."
+    }
+  ]
+}

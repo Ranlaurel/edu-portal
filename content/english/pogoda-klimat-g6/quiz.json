@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое время используется для общих фактов о климате?",
+      "options": [
+        {"text": "Present Simple", "correct": true},
+        {"text": "Present Continuous", "correct": false},
+        {"text": "Past Simple", "correct": false}
+      ],
+      "explanation": "Общие факты о климате выражаются через Present Simple."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильное предложение для «Сейчас идёт дождь».",
+      "options": [
+        {"text": "It is raining right now.", "correct": true},
+        {"text": "It rains right now.", "correct": false},
+        {"text": "It rain right now.", "correct": false}
+      ],
+      "explanation": "Действие, происходящее прямо сейчас, выражается через Present Continuous: is raining."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения выражают общий факт о климате (Present Simple)? (выбери все верные варианты)",
+      "options": [
+        {"text": "It rains a lot in autumn in Russia.", "correct": true},
+        {"text": "The climate in Africa is usually hot.", "correct": true},
+        {"text": "Look! It is raining outside.", "correct": false},
+        {"text": "It doesn't snow in summer.", "correct": true},
+        {"text": "The sun is shining today.", "correct": false}
+      ],
+      "explanation": "Первые три предложения — общие факты (Present Simple). Последние два описывают то, что происходит прямо сейчас (Present Continuous)."
+    },
+    {
+      "type": "dropdown",
+      "text": "It ___ (rain) a lot in autumn.",
+      "options": [
+        {"text": "rains", "correct": true},
+        {"text": "is raining", "correct": false},
+        {"text": "rain", "correct": false}
+      ],
+      "explanation": "Общий факт о климате — Present Simple: it rains."
+    },
+    {
+      "type": "dropdown",
+      "text": "Look! It ___ (rain) outside right now.",
+      "options": [
+        {"text": "is raining", "correct": true},
+        {"text": "rains", "correct": false},
+        {"text": "rain", "correct": false}
+      ],
+      "explanation": "Действие сейчас — Present Continuous: is raining."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: The sun ___ (shine) right now.",
+      "answer": "is shining",
+      "explanation": "Действие происходит сейчас — Present Continuous: is shining."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицательную форму: It ___ (not/snow) in summer.",
+      "answer": "doesn't snow",
+      "accepted": ["doesn't snow", "does not snow"],
+      "explanation": "Отрицание общего факта в Present Simple: doesn't snow."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с временем, в котором оно написано",
+      "pairs": [
+        {"left": "It rains a lot in autumn.", "right": "Present Simple"},
+        {"left": "It is raining right now.", "right": "Present Continuous"},
+        {"left": "The climate is hot.", "right": "Present Simple"},
+        {"left": "The sun is shining today.", "right": "Present Continuous"}
+      ],
+      "explanation": "Present Simple — общие факты, Present Continuous — действие сейчас."
+    }
+  ]
+}

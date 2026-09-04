@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «the Union Jack»?",
+      "options": [
+        {"text": "флаг Великобритании", "correct": true},
+        {"text": "герб Лондона", "correct": false},
+        {"text": "замок королевы", "correct": false}
+      ],
+      "explanation": "«The Union Jack» — флаг Великобритании."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «kingdom»?",
+      "options": [
+        {"text": "королевство", "correct": true},
+        {"text": "нация", "correct": false},
+        {"text": "столица", "correct": false}
+      ],
+      "explanation": "«Kingdom» — королевство."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие нации входят в состав Соединённого Королевства? (выбери все верные варианты)",
+      "options": [
+        {"text": "England", "correct": true},
+        {"text": "Scotland", "correct": true},
+        {"text": "Wales", "correct": true},
+        {"text": "France", "correct": false},
+        {"text": "Northern Ireland", "correct": true}
+      ],
+      "explanation": "The UK состоит из England, Scotland, Wales и Northern Ireland. France не входит в состав."
+    },
+    {
+      "type": "dropdown",
+      "text": "Знаменитая башня с часами в Лондоне — это ___.",
+      "options": [
+        {"text": "Big Ben", "correct": true},
+        {"text": "the Union Jack", "correct": false},
+        {"text": "a castle", "correct": false}
+      ],
+      "explanation": "«Big Ben» — знаменитая башня с часами."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как переводится слово «symbol»? ___",
+      "options": [
+        {"text": "символ", "correct": true},
+        {"text": "нация", "correct": false},
+        {"text": "флаг", "correct": false}
+      ],
+      "explanation": "«Symbol» — символ."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: столица",
+      "answer": "capital",
+      "explanation": "«Столица» переводится как capital."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: нация, народ",
+      "answer": "nation",
+      "explanation": "«Нация» переводится как nation."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "flag", "right": "флаг"},
+        {"left": "castle", "right": "замок"},
+        {"left": "Great Britain", "right": "Великобритания"},
+        {"left": "Scotland", "right": "Шотландия"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Сколько наций входит в Соединённое Королевство?",
+      "options": [
+        {"text": "четыре", "correct": true},
+        {"text": "три", "correct": false},
+        {"text": "пять", "correct": false}
+      ],
+      "explanation": "The UK состоит из четырёх наций: England, Scotland, Wales, Northern Ireland."
+    }
+  ]
+}

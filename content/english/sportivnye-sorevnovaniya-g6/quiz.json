@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную сравнительную степень от strong.",
+      "options": [
+        {"text": "stronger", "correct": true},
+        {"text": "more strong", "correct": false},
+        {"text": "strongest", "correct": false}
+      ],
+      "explanation": "Strong — короткое прилагательное (1 слог), сравнительная степень образуется через -er: stronger."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную превосходную степень от fast.",
+      "options": [
+        {"text": "the fastest", "correct": true},
+        {"text": "the most fast", "correct": false},
+        {"text": "faster", "correct": false}
+      ],
+      "explanation": "Fast — короткое прилагательное, превосходная степень: the + -est → the fastest."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие прилагательные образуют степени сравнения через more/the most? (выбери все верные варианты)",
+      "options": [
+        {"text": "famous", "correct": true},
+        {"text": "fast", "correct": false},
+        {"text": "strong", "correct": false},
+        {"text": "beautiful", "correct": true},
+        {"text": "interesting", "correct": true}
+      ],
+      "explanation": "Famous, beautiful, interesting — длинные прилагательные (2+ слога), используют more/the most. Fast и strong короткие."
+    },
+    {
+      "type": "dropdown",
+      "text": "This runner is ___ than that one.",
+      "options": [
+        {"text": "faster", "correct": true},
+        {"text": "fastest", "correct": false},
+        {"text": "more fast", "correct": false}
+      ],
+      "explanation": "Сравнение двух предметов через than требует сравнительной степени: faster."
+    },
+    {
+      "type": "dropdown",
+      "text": "He is the ___ football player in the team. (good)",
+      "options": [
+        {"text": "best", "correct": true},
+        {"text": "better", "correct": false},
+        {"text": "goodest", "correct": false}
+      ],
+      "explanation": "Good — исключение: good → better → the best."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши превосходную степень: fast → the ___",
+      "answer": "fastest",
+      "explanation": "Короткое прилагательное fast: the + -est = the fastest."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную степень: famous → more ___",
+      "answer": "famous",
+      "explanation": "Famous — длинное прилагательное, more + прилагательное без изменений: more famous."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное с его превосходной степенью",
+      "pairs": [
+        {"left": "fast", "right": "the fastest"},
+        {"left": "strong", "right": "the strongest"},
+        {"left": "good", "right": "the best"},
+        {"left": "famous", "right": "the most famous"}
+      ],
+      "explanation": "Короткие прилагательные — the + -est, длинные — the most + прилагательное, good — исключение the best."
+    },
+    {
+      "type": "single",
+      "text": "She is the ___ athlete in our school. (fast)",
+      "options": [
+        {"text": "fastest", "correct": true},
+        {"text": "faster", "correct": false},
+        {"text": "most fast", "correct": false}
+      ],
+      "explanation": "Выделение одного предмета среди многих требует превосходной степени: the fastest."
+    }
+  ]
+}

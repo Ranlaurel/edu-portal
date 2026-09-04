@@ -15,8 +15,8 @@
           "section": "Натуральные числа"
         },
         "english-5": {
-          "slug": "shkola-i-shkolnye-predmety-5",
-          "title": "Школа и школьные предметы. Глагол to be",
+          "slug": "shkola-i-shkolnye-predmety-5-v",
+          "title": "Школа и школьные предметы: слова",
           "section": "Введение"
         },
         "biology-5": {
@@ -68,7 +68,11 @@
           "title": "Десятичная запись натуральных чисел",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "shkola-i-shkolnye-predmety-5-g",
+          "title": "Глагол to be (am/is/are)",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -102,7 +106,11 @@
           "title": "Отрезок",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "shkola-i-shkolnye-predmety-5-p",
+          "title": "Школа: практика (слова + to be)",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -123,11 +131,7 @@
           "section": "Повторение изученного в начальной школе"
         },
         "math-5": null,
-        "english-5": {
-          "slug": "semya-i-vneshnost-5",
-          "title": "Семья и внешность. Have got",
-          "section": "Введение"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -148,7 +152,11 @@
           "title": "Измерение длины отрезка",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "semya-i-vneshnost-5-v",
+          "title": "Семья и внешность: слова",
+          "section": "Введение"
+        },
         "biology-5": {
           "slug": "svoystva-zhivogo-5",
           "title": "Свойства живого",
@@ -190,7 +198,11 @@
           "title": "Плоскость",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "semya-i-vneshnost-5-g",
+          "title": "Грамматика: have got",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -232,7 +244,11 @@
           "title": "Прямая",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "semya-i-vneshnost-5-p",
+          "title": "Семья и внешность: практика",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -249,11 +265,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "chislitelnye-i-vremya-5",
-          "title": "Числительные и время",
-          "section": "Введение"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -274,7 +286,11 @@
           "title": "Луч",
           "section": "Натуральные числа"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "chislitelnye-i-vremya-5-v",
+          "title": "Числительные и время: слова",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -333,7 +349,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "chislitelnye-i-vremya-5-g",
+          "title": "Грамматика: который час",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -354,11 +374,7 @@
           "title": "Координатный луч",
           "section": "Натуральные числа"
         },
-        "english-5": {
-          "slug": "dni-nedeli-mesyatsy-sezony-5",
-          "title": "Дни недели, месяцы, времена года",
-          "section": "Введение"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -379,7 +395,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "chislitelnye-i-vremya-5-p",
+          "title": "Числа и время: практика",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -417,7 +437,11 @@
           "section": "Повторение изученного в начальной школе"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "dni-nedeli-mesyatsy-sezony-5-v",
+          "title": "Дни недели, месяцы, времена года: слова",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "velikie-geograficheskie-otkrytiya-5",
@@ -463,7 +487,11 @@
           "section": "Повторение изученного в начальной школе"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "dni-nedeli-mesyatsy-sezony-5-g",
+          "title": "Грамматика: предлоги времени on / in",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -484,11 +512,7 @@
           "title": "Сравнение натуральных чисел",
           "section": "Натуральные числа"
         },
-        "english-5": {
-          "slug": "pogoda-5",
-          "title": "Погода",
-          "section": "Введение"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -505,7 +529,11 @@
           "section": "Повторение изученного в начальной школе"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "dni-nedeli-mesyatsy-sezony-5-p",
+          "title": "Дни, месяцы, времена года: практика",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -543,7 +571,11 @@
           "section": "Синтаксис и пунктуация"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "pogoda-5-v",
+          "title": "Погода: слова",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -585,11 +617,7 @@
           "section": "Синтаксис и пунктуация"
         },
         "math-5": null,
-        "english-5": {
-          "slug": "dom-i-komnata-there-is-are-5",
-          "title": "Дом и комната. There is/there are",
-          "section": "Дом и повседневная жизнь"
-        },
+        "english-5": null,
         "biology-5": {
           "slug": "stroenie-kletki-tkani-5",
           "title": "Строение клетки. Ткани",
@@ -614,7 +642,11 @@
           "title": "Вычитание натуральных чисел",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "pogoda-5-g",
+          "title": "Грамматика: конструкция It's + прилагательное",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -652,7 +684,11 @@
           "title": "Свойства вычитания",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "pogoda-5-p",
+          "title": "Погода: практика",
+          "section": "Введение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -686,7 +722,11 @@
           "title": "Числовые выражения",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "dom-i-komnata-there-is-are-5-v",
+          "title": "Дом и комната: слова",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -707,11 +747,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "mebel-i-predmety-v-dome-5",
-          "title": "Мебель и предметы в доме",
-          "section": "Дом и повседневная жизнь"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": {
           "slug": "sovremennye-geo-issledovaniya-5",
@@ -736,7 +772,11 @@
           "title": "Буквенные выражения",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "dom-i-komnata-there-is-are-5-g",
+          "title": "Грамматика: there is / there are",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": {
           "slug": "tsarstva-zhivoy-prirody-5",
           "title": "Царства живой природы",
@@ -774,7 +814,11 @@
           "title": "Формулы",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "dom-i-komnata-there-is-are-5-p",
+          "title": "Дом и комната: практика",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -817,8 +861,8 @@
           "section": "Сложение и вычитание натуральных чисел"
         },
         "english-5": {
-          "slug": "eda-i-napitki-some-any-5",
-          "title": "Еда и напитки. Some/any",
+          "slug": "mebel-i-predmety-v-dome-5-v",
+          "title": "Мебель и предметы в доме: слова",
           "section": "Дом и повседневная жизнь"
         },
         "biology-5": null,
@@ -858,7 +902,11 @@
           "title": "Угол: определение",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "mebel-i-predmety-v-dome-5-g",
+          "title": "Грамматика: предлоги места (in, on, under, next to)",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -921,7 +969,11 @@
           "title": "Обозначение углов",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "mebel-i-predmety-v-dome-5-p",
+          "title": "Мебель: практика",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -934,11 +986,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "odezhda-5",
-          "title": "Одежда",
-          "section": "Дом и повседневная жизнь"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -963,7 +1011,11 @@
           "title": "Виды углов",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "eda-i-napitki-some-any-5-v",
+          "title": "Еда и напитки: слова",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1001,7 +1053,11 @@
           "title": "Измерение углов транспортиром",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "eda-i-napitki-some-any-5-g",
+          "title": "Еда и напитки: some / any",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1048,8 +1104,8 @@
           "section": "Сложение и вычитание натуральных чисел"
         },
         "english-5": {
-          "slug": "zhivotnye-domashnie-dikie-5",
-          "title": "Животные: домашние и дикие",
+          "slug": "eda-i-napitki-some-any-5-p",
+          "title": "Еда и напитки: диалог в магазине",
           "section": "Дом и повседневная жизнь"
         },
         "biology-5": null,
@@ -1085,7 +1141,11 @@
           "title": "Многоугольник: определение",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "odezhda-5-v",
+          "title": "Одежда: слова",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1123,7 +1183,11 @@
           "title": "Равные фигуры",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "odezhda-5-p",
+          "title": "Одежда: что на тебе надето",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "planety-zemnoy-gruppy-5",
@@ -1169,11 +1233,7 @@
           "title": "Периметр многоугольника",
           "section": "Сложение и вычитание натуральных чисел"
         },
-        "english-5": {
-          "slug": "chasti-tela-i-zdorove-5",
-          "title": "Части тела и здоровье",
-          "section": "Дом и повседневная жизнь"
-        },
+        "english-5": null,
         "biology-5": {
           "slug": "tsarstvo-rasteniya-5",
           "title": "Царство Растения",
@@ -1190,7 +1250,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "zhivotnye-domashnie-dikie-5-v",
+          "title": "Животные: слова",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -1228,7 +1292,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "zhivotnye-domashnie-dikie-5-p",
+          "title": "Животные: что они умеют делать",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1271,9 +1339,9 @@
         "russian-5": null,
         "math-5": null,
         "english-5": {
-          "slug": "present-simple-rasporyadok-dnya-5",
-          "title": "Present Simple: распорядок дня",
-          "section": "Настоящее время"
+          "slug": "chasti-tela-i-zdorove-5-v",
+          "title": "Части тела",
+          "section": "Дом и повседневная жизнь"
         },
         "biology-5": null,
         "geography-5": null,
@@ -1312,7 +1380,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "chasti-tela-i-zdorove-5-g",
+          "title": "Как сказать, что болит",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": {
           "slug": "tsarstvo-zhivotnye-5",
           "title": "Царство Животные",
@@ -1354,7 +1426,11 @@
           "section": "Фонетика. Орфоэпия. Графика"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "chasti-tela-i-zdorove-5-p",
+          "title": "Части тела: рассказываем о здоровье",
+          "section": "Дом и повседневная жизнь"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -1397,8 +1473,8 @@
         },
         "math-5": null,
         "english-5": {
-          "slug": "present-continuous-5",
-          "title": "Present Continuous: что происходит сейчас",
+          "slug": "present-simple-rasporyadok-dnya-5-v",
+          "title": "Распорядок дня: слова",
           "section": "Настоящее время"
         },
         "biology-5": null,
@@ -1438,7 +1514,11 @@
           "section": "Фонетика. Орфоэпия. Графика"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "present-simple-rasporyadok-dnya-5-g",
+          "title": "Present Simple: как рассказать о привычках",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -1502,8 +1582,8 @@
           "section": "Умножение и деление натуральных чисел"
         },
         "english-5": {
-          "slug": "present-simple-vs-continuous-5",
-          "title": "Present Simple или Present Continuous",
+          "slug": "present-simple-rasporyadok-dnya-5-p",
+          "title": "Распорядок дня: рассказываем о привычках",
           "section": "Настоящее время"
         },
         "biology-5": null,
@@ -1547,7 +1627,11 @@
           "title": "Умножение разности на число",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "present-continuous-5-v",
+          "title": "Что происходит сейчас: слова",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "mir-zvezd-5",
@@ -1589,7 +1673,11 @@
           "title": "Что такое деление",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "present-continuous-5-g",
+          "title": "Present Continuous: действие прямо сейчас",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1632,8 +1720,8 @@
           "section": "Умножение и деление натуральных чисел"
         },
         "english-5": {
-          "slug": "modalnyy-glagol-can-5",
-          "title": "Модальный глагол can/can't",
+          "slug": "present-continuous-5-p",
+          "title": "Что происходит сейчас: рассказываем",
           "section": "Настоящее время"
         },
         "biology-5": null,
@@ -1669,7 +1757,11 @@
           "title": "Деление натуральных чисел",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "present-simple-vs-continuous-5-g",
+          "title": "Present Simple или Present Continuous: слова-подсказки",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "unikalnaya-planeta-zemlya-5",
@@ -1715,7 +1807,11 @@
           "title": "Особые случаи деления",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "present-simple-vs-continuous-5-p",
+          "title": "Present Simple и Present Continuous: сравниваем в одном предложении",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1745,11 +1841,7 @@
           "section": "Лексика"
         },
         "math-5": null,
-        "english-5": {
-          "slug": "pritjazhatelnyy-padezh-5",
-          "title": "Притяжательный падеж ('s)",
-          "section": "Грамматика"
-        },
+        "english-5": null,
         "biology-5": {
           "slug": "lishayniki-5",
           "title": "Лишайники",
@@ -1774,7 +1866,11 @@
           "title": "Деление с остатком",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "modalnyy-glagol-can-5-g",
+          "title": "Can/can't: умею — не умею",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1816,7 +1912,11 @@
           "title": "Что такое площадь",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "modalnyy-glagol-can-5-p",
+          "title": "Can/can't: задаём вопросы",
+          "section": "Настоящее время"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "orientirovanie-na-mestnosti-5",
@@ -1855,8 +1955,8 @@
           "section": "Умножение и деление натуральных чисел"
         },
         "english-5": {
-          "slug": "mnozhestvennoe-chislo-sushestvitelnyh-5",
-          "title": "Множественное число существительных",
+          "slug": "pritjazhatelnyy-padezh-5-g",
+          "title": "Притяжательный падеж ('s): основное правило",
           "section": "Грамматика"
         },
         "biology-5": null,
@@ -1900,7 +2000,11 @@
           "title": "Прямоугольный параллелепипед",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "pritjazhatelnyy-padezh-5-p",
+          "title": "Притяжательный падеж ('s): множественное число",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -1938,7 +2042,11 @@
           "title": "Объём параллелепипеда и куба",
           "section": "Умножение и деление натуральных чисел"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "mnozhestvennoe-chislo-sushestvitelnyh-5-g",
+          "title": "Множественное число: правило -s/-es",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "plan-mestnosti-5",
@@ -1981,8 +2089,8 @@
           "section": "Умножение и деление натуральных чисел"
         },
         "english-5": {
-          "slug": "artikli-a-an-the-5",
-          "title": "Артикли a/an/the",
+          "slug": "mnozhestvennoe-chislo-sushestvitelnyh-5-p",
+          "title": "Множественное число: слова-исключения",
           "section": "Грамматика"
         },
         "biology-5": null,
@@ -2043,7 +2151,11 @@
           "section": "Морфемика. Орфография"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "artikli-a-an-the-5-g",
+          "title": "Артикли a/an",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2082,8 +2194,8 @@
         },
         "math-5": null,
         "english-5": {
-          "slug": "ukazatelnye-mestoimeniya-5",
-          "title": "Указательные местоимения this/that/these/those",
+          "slug": "artikli-a-an-the-5-p",
+          "title": "Артикль the",
           "section": "Грамматика"
         },
         "biology-5": null,
@@ -2123,7 +2235,11 @@
           "section": "Морфемика. Орфография"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "ukazatelnye-mestoimeniya-5-g",
+          "title": "This/that: единственное число",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2165,7 +2281,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "ukazatelnye-mestoimeniya-5-p",
+          "title": "These/those: множественное число",
+          "section": "Грамматика"
+        },
         "biology-5": {
           "slug": "vzaimosvyazi-zhivyh-organizmov-5",
           "title": "Взаимосвязи живых организмов",
@@ -2204,8 +2324,8 @@
         "russian-5": null,
         "math-5": null,
         "english-5": {
-          "slug": "stepeni-sravneniya-prilagatelnyh-5",
-          "title": "Степени сравнения прилагательных",
+          "slug": "stepeni-sravneniya-prilagatelnyh-5-g",
+          "title": "Степени сравнения: короткие прилагательные",
           "section": "Грамматика"
         },
         "biology-5": null,
@@ -2249,7 +2369,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "stepeni-sravneniya-prilagatelnyh-5-p",
+          "title": "Степени сравнения: длинные прилагательные и исключения",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2287,7 +2411,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "professii-5-a",
+          "title": "Профессии: часть 1",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2312,11 +2440,7 @@
           "title": "Вычитание дробей с одинаковым знаменателем",
           "section": "Обыкновенные дроби"
         },
-        "english-5": {
-          "slug": "professii-5",
-          "title": "Профессии",
-          "section": "Грамматика"
-        },
+        "english-5": null,
         "biology-5": {
           "slug": "prirodnye-soobschestva-5",
           "title": "Природные сообщества",
@@ -2354,7 +2478,11 @@
           "title": "Дробь как результат деления",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "professii-5-b",
+          "title": "Профессии: часть 2",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "globus-gradusnaya-set-5",
@@ -2400,7 +2528,11 @@
           "title": "Частные случаи дроби и деления",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "gorod-mesta-i-napravleniya-5-v",
+          "title": "Город: места",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2435,8 +2567,8 @@
           "section": "Обыкновенные дроби"
         },
         "english-5": {
-          "slug": "gorod-mesta-i-napravleniya-5",
-          "title": "Город: места и направления",
+          "slug": "gorod-mesta-i-napravleniya-5-g",
+          "title": "Предлоги места в городе",
           "section": "Грамматика"
         },
         "biology-5": null,
@@ -2484,7 +2616,11 @@
           "title": "Смешанное число в неправильную дробь",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "gorod-mesta-i-napravleniya-5-p",
+          "title": "Город: спрашиваем и объясняем дорогу",
+          "section": "Грамматика"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2526,7 +2662,11 @@
           "title": "Сложение смешанных чисел",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "sport-i-hobbi-5-v",
+          "title": "Спорт и хобби: слова",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2539,11 +2679,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "sport-i-hobbi-5",
-          "title": "Спорт и хобби",
-          "section": "Хобби и мир вокруг"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2568,7 +2704,11 @@
           "title": "Вычитание смешанных чисел",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "sport-i-hobbi-5-g",
+          "title": "Спорт и хобби: play / go / do",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2623,7 +2763,11 @@
           "title": "Сложение и вычитание смешанных чисел",
           "section": "Обыкновенные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "sport-i-hobbi-5-p",
+          "title": "Спорт и хобби: рассказ о себе",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2666,8 +2810,8 @@
           "section": "Обыкновенные дроби"
         },
         "english-5": {
-          "slug": "transport-5",
-          "title": "Транспорт",
+          "slug": "transport-5-v",
+          "title": "Транспорт: слова",
           "section": "Хобби и мир вокруг"
         },
         "biology-5": null,
@@ -2711,7 +2855,11 @@
           "title": "Что такое десятичная дробь",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "transport-5-g",
+          "title": "Транспорт: предлог by",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2749,7 +2897,11 @@
           "title": "Представление о десятичных дробях",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "transport-5-p",
+          "title": "Транспорт: как ты добираешься",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": {
           "slug": "zhizn-v-moryah-i-okeanah-5",
           "title": "Жизнь организмов в морях и океанах",
@@ -2766,11 +2918,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "magaziny-i-pokupki-5",
-          "title": "Магазины и покупки",
-          "section": "Хобби и мир вокруг"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": {
           "slug": "gornye-porody-i-mineraly-5",
@@ -2795,7 +2943,11 @@
           "title": "Округление чисел",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "magaziny-i-pokupki-5-v",
+          "title": "Магазины: слова",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2837,7 +2989,11 @@
           "title": "Прикидка результата",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "magaziny-i-pokupki-5-g",
+          "title": "Магазины: some/any",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2871,7 +3027,11 @@
           "title": "Сложение десятичных дробей",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "magaziny-i-pokupki-5-p",
+          "title": "Магазины: разговор с продавцом",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -2892,11 +3052,7 @@
           "section": "Имя прилагательное"
         },
         "math-5": null,
-        "english-5": {
-          "slug": "prazdniki-i-traditsii-5",
-          "title": "Праздники и традиции",
-          "section": "Хобби и мир вокруг"
-        },
+        "english-5": null,
         "biology-5": {
           "slug": "poyavlenie-cheloveka-na-zemle-5",
           "title": "Как появился человек на Земле",
@@ -2942,7 +3098,11 @@
           "section": "Имя прилагательное"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "prazdniki-i-traditsii-5-v",
+          "title": "Праздники: слова",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2980,7 +3140,11 @@
           "section": "Имя прилагательное"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "prazdniki-i-traditsii-5-g",
+          "title": "Праздники: there is / there are",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -2997,11 +3161,7 @@
           "title": "Умножение десятичной дроби на натуральное число",
           "section": "Десятичные дроби"
         },
-        "english-5": {
-          "slug": "past-simple-pravilnye-glagoly-5",
-          "title": "Past Simple: правильные глаголы",
-          "section": "Прошедшее время"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3018,7 +3178,11 @@
           "section": "Глагол"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "prazdniki-i-traditsii-5-p",
+          "title": "Праздники: рассказ о традициях",
+          "section": "Хобби и мир вокруг"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3064,7 +3228,11 @@
           "section": "Глагол"
         },
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-pravilnye-glagoly-5-v",
+          "title": "Past Simple: слова-маркеры и глаголы",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": {
           "slug": "zemletryaseniya-i-vulkany-5",
@@ -3102,7 +3270,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-pravilnye-glagoly-5-g",
+          "title": "Past Simple: правильные глаголы (правило)",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3123,11 +3295,7 @@
           "title": "Деление десятичной дроби на натуральное число",
           "section": "Десятичные дроби"
         },
-        "english-5": {
-          "slug": "past-simple-nepravilnye-glagoly-5",
-          "title": "Past Simple: неправильные глаголы",
-          "section": "Прошедшее время"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -3148,7 +3316,11 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-pravilnye-glagoly-5-p",
+          "title": "Past Simple: рассказ о вчерашнем дне",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3211,7 +3383,11 @@
           "title": "Деление десятичных дробей",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-nepravilnye-glagoly-5-v",
+          "title": "Past Simple: неправильные глаголы (список)",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -3228,11 +3404,7 @@
       "subjects": {
         "russian-5": null,
         "math-5": null,
-        "english-5": {
-          "slug": "kanikuly-i-puteshestviya-5",
-          "title": "Каникулы и путешествия",
-          "section": "Прошедшее время"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3253,7 +3425,11 @@
           "title": "Что такое процент",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-nepravilnye-glagoly-5-g",
+          "title": "Past Simple: правило для неправильных глаголов",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3291,7 +3467,11 @@
           "title": "Нахождение процентов от числа",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "past-simple-nepravilnye-glagoly-5-p",
+          "title": "Past Simple: рассказ о вчерашнем дне (неправильные глаголы)",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -3329,7 +3509,11 @@
           "title": "Проценты. Нахождение процентов от числа",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "kanikuly-i-puteshestviya-5-v",
+          "title": "Каникулы и путешествия: слова",
+          "section": "Прошедшее время"
+        },
         "biology-5": {
           "slug": "sohranim-bogatstvo-zhivogo-mira-5",
           "title": "Сохраним богатство живого мира",
@@ -3354,11 +3538,7 @@
           "section": "Глагол"
         },
         "math-5": null,
-        "english-5": {
-          "slug": "itogovoe-povtorenie-english-5",
-          "title": "Итоговое повторение курса 5 класса",
-          "section": "Итоговое повторение"
-        },
+        "english-5": null,
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,
@@ -3379,7 +3559,11 @@
           "title": "Нахождение числа по его процентам",
           "section": "Десятичные дроби"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "kanikuly-i-puteshestviya-5-p",
+          "title": "Каникулы и путешествия: рассказ о поездке",
+          "section": "Прошедшее время"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": {
@@ -3417,7 +3601,11 @@
           "title": "Итоговое повторение курса 5 класса",
           "section": "Итоговое повторение"
         },
-        "english-5": null,
+        "english-5": {
+          "slug": "itogovoe-povtorenie-english-5",
+          "title": "Итоговое повторение курса 5 класса",
+          "section": "Итоговое повторение"
+        },
         "biology-5": null,
         "geography-5": null,
         "istoriya-drevnego-mira-5": null,

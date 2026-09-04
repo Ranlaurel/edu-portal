@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Сегодня солнечно»?",
+      "options": [
+        {"text": "It's sunny today.", "correct": true},
+        {"text": "Is sunny today.", "correct": false},
+        {"text": "Today sunny.", "correct": false}
+      ],
+      "explanation": "Про погоду говорим через безличное It's."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «It's raining»?",
+      "options": [
+        {"text": "Идёт дождь", "correct": true},
+        {"text": "Дождливо (в целом)", "correct": false},
+        {"text": "Будет дождь", "correct": false}
+      ],
+      "explanation": "It's raining — процесс, идёт дождь прямо сейчас (Present Continuous)."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях it's использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "It's cold in winter.", "correct": true},
+        {"text": "It's snowing outside.", "correct": true},
+        {"text": "Sunny today.", "correct": false},
+        {"text": "It's hot in summer.", "correct": true},
+        {"text": "Is raining now.", "correct": false}
+      ],
+      "explanation": "Про погоду всегда нужен It's (или Is it в вопросе); нельзя опускать it."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ it cold today?",
+      "options": [
+        {"text": "Is", "correct": true},
+        {"text": "Does", "correct": false},
+        {"text": "Are", "correct": false}
+      ],
+      "explanation": "Вопрос про погоду строится через Is it...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "It ___ sunny today. (отрицание)",
+      "options": [
+        {"text": "isn't", "correct": true},
+        {"text": "doesn't", "correct": false},
+        {"text": "aren't", "correct": false}
+      ],
+      "explanation": "Отрицание с it — isn't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: сейчас идёт снег — It's ___ now.",
+      "answer": "snowing",
+      "explanation": "«Идёт снег» — It's snowing (Present Continuous)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Задай вопрос: It's cold today. → ___ it cold today?",
+      "answer": "Is",
+      "explanation": "Вопрос строится через Is it...?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "It's sunny today.", "right": "Сегодня солнечно."},
+        {"left": "It's raining.", "right": "Идёт дождь."},
+        {"left": "It's cold in winter.", "right": "Зимой холодно."},
+        {"left": "It's snowing outside.", "right": "На улице идёт снег."}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как составить отрицание «Сегодня не солнечно»?",
+      "options": [
+        {"text": "It isn't sunny today.", "correct": true},
+        {"text": "It don't sunny today.", "correct": false},
+        {"text": "Isn't sunny today.", "correct": false}
+      ],
+      "explanation": "Отрицание строится через it isn't + прилагательное."
+    }
+  ]
+}

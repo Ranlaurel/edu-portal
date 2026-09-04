@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Кого увидели Энн и Том в диалоге?",
+      "options": [
+        {"text": "a fox", "correct": true},
+        {"text": "a bear", "correct": false},
+        {"text": "a tiger", "correct": false}
+      ],
+      "explanation": "В диалоге они видят лису (fox) около деревьев."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится wild animal?",
+      "options": [
+        {"text": "дикое животное", "correct": true},
+        {"text": "домашнее животное", "correct": false},
+        {"text": "опасное животное", "correct": false}
+      ],
+      "explanation": "Wild animal — дикое животное, живёт в природе."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Медведь больше волка.", "correct": true},
+        {"text": "Тигр — самая большая дикая кошка.", "correct": true},
+        {"text": "Дикие животные могут быть опасными.", "correct": true},
+        {"text": "Лиса — домашнее животное.", "correct": false}
+      ],
+      "explanation": "По диалогу: a bear is bigger than a wolf, a tiger is the biggest wild cat, wild animals can be dangerous. Лиса в диалоге — дикое животное."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a fox near the trees.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "A fox — единственное число, значит there is."
+    },
+    {
+      "type": "dropdown",
+      "text": "A bear is ___ (big) a wolf.",
+      "options": [
+        {"text": "bigger than", "correct": true},
+        {"text": "the biggest", "correct": false},
+        {"text": "more big than", "correct": false}
+      ],
+      "explanation": "Сравнение двух животных — сравнительная степень: bigger than."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: хвост",
+      "answer": "tail",
+      "explanation": "«Хвост» — tail, упоминается в диалоге про лису."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово из диалога: A tiger is the ___ wild cat in the world.",
+      "answer": "biggest",
+      "explanation": "Превосходная степень: the biggest."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "fox", "right": "лиса"},
+        {"left": "dangerous", "right": "опасный"},
+        {"left": "forest", "right": "лес"},
+        {"left": "tail", "right": "хвост"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

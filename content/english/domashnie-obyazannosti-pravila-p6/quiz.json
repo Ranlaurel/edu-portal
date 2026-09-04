@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что Бен должен сделать (must) по диалогу?",
+      "options": [
+        {"text": "make the bed and wash up", "correct": true},
+        {"text": "walk the dog", "correct": false},
+        {"text": "do the shopping", "correct": false}
+      ],
+      "explanation": "Бен говорит: I must make the bed and wash up."
+    },
+    {
+      "type": "single",
+      "text": "Должен ли Бен выгуливать собаку сегодня?",
+      "options": [
+        {"text": "No, he doesn't have to.", "correct": true},
+        {"text": "Yes, he must.", "correct": false},
+        {"text": "Yes, he should.", "correct": false}
+      ],
+      "explanation": "Мама говорит: No, you don't have to — папа выгуливает собаку."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие обязанности упомянуты в диалоге? (выбери все верные варианты)",
+      "options": [
+        {"text": "make the bed", "correct": true},
+        {"text": "wash up", "correct": true},
+        {"text": "take out the rubbish", "correct": true},
+        {"text": "vacuum", "correct": false}
+      ],
+      "explanation": "В диалоге упомянуты make the bed, wash up и take out the rubbish, но не vacuum."
+    },
+    {
+      "type": "dropdown",
+      "text": "You ___ water the plants (совет от мамы).",
+      "options": [
+        {"text": "should", "correct": true},
+        {"text": "must", "correct": false},
+        {"text": "mustn't", "correct": false}
+      ],
+      "explanation": "Мама даёт совет: you should also water the plants."
+    },
+    {
+      "type": "dropdown",
+      "text": "You ___ forget to take out the rubbish (строгий запрет забывать).",
+      "options": [
+        {"text": "mustn't", "correct": true},
+        {"text": "don't have to", "correct": false},
+        {"text": "should", "correct": false}
+      ],
+      "explanation": "Mustn't forget — строгий запрет забывать."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I must ___ the bed after breakfast. (заправить)",
+      "answer": "make",
+      "explanation": "«Заправлять кровать» — make the bed."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I must wash ___ after breakfast. (мыть посуду)",
+      "answer": "up",
+      "explanation": "«Мыть посуду» — wash up."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "make the bed", "right": "заправлять кровать"},
+        {"left": "wash up", "right": "мыть посуду"},
+        {"left": "water the plants", "right": "поливать растения"},
+        {"left": "take out the rubbish", "right": "выносить мусор"}
+      ],
+      "explanation": "Проверь по диалогу мамы и Бена."
+    },
+    {
+      "type": "single",
+      "text": "Кто сегодня выгуливает собаку?",
+      "options": [
+        {"text": "Dad", "correct": true},
+        {"text": "Ben", "correct": false},
+        {"text": "Mum", "correct": false}
+      ],
+      "explanation": "Мама говорит: Dad is walking him today."
+    }
+  ]
+}

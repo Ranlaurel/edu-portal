@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «мне нравится коллекционировать марки»?",
+      "options": [
+        {"text": "I like collecting stamps.", "correct": true},
+        {"text": "I like collect stamps.", "correct": false},
+        {"text": "I like to collecting stamps.", "correct": false}
+      ],
+      "explanation": "После like ставим глагол в форме -ing: collecting."
+    },
+    {
+      "type": "single",
+      "text": "She loves ___ pictures.",
+      "options": [
+        {"text": "painting", "correct": true},
+        {"text": "paint", "correct": false},
+        {"text": "paints", "correct": false}
+      ],
+      "explanation": "После love глагол ставится в форме -ing: painting."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях глагол после like/love/enjoy/hate стоит верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "We enjoy playing chess.", "correct": true},
+        {"text": "He hates dancing at parties.", "correct": true},
+        {"text": "I like collect stamps.", "correct": false},
+        {"text": "She loves paint pictures.", "correct": false}
+      ],
+      "explanation": "После like/love/enjoy/hate нужна форма -ing: playing, dancing, а не collect/paint."
+    },
+    {
+      "type": "dropdown",
+      "text": "She enjoys ___ (take) photos of animals.",
+      "options": [
+        {"text": "taking", "correct": true},
+        {"text": "take", "correct": false},
+        {"text": "takes", "correct": false}
+      ],
+      "explanation": "После enjoy нужна форма -ing: taking."
+    },
+    {
+      "type": "dropdown",
+      "text": "My brother hates ___ (ride) a bike in winter.",
+      "options": [
+        {"text": "riding", "correct": true},
+        {"text": "ride", "correct": false},
+        {"text": "rides", "correct": false}
+      ],
+      "explanation": "После hate нужна форма -ing: riding."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму -ing глагола swim (кратко: удваиваем согласную)",
+      "answer": "swimming",
+      "explanation": "При кратком гласном перед конечной согласной удваиваем её: swim → swimming."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму -ing глагола draw",
+      "answer": "drawing",
+      "explanation": "Draw → drawing (просто добавляем -ing)."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I like painting.", "right": "Мне нравится рисовать красками."},
+        {"left": "She loves painting.", "right": "Она обожает рисовать."},
+        {"left": "We enjoy playing chess.", "right": "Нам нравится играть в шахматы."},
+        {"left": "He hates dancing.", "right": "Он терпеть не может танцевать."}
+      ],
+      "explanation": "Проверь по правилу verb + -ing из урока."
+    },
+    {
+      "type": "single",
+      "text": "He loves playing ___ guitar.",
+      "options": [
+        {"text": "the", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "-", "correct": false}
+      ],
+      "explanation": "С музыкальными инструментами используется артикль the: playing the guitar."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «trainers»?",
+      "options": [
+        {"text": "кроссовки", "correct": true},
+        {"text": "ботинки", "correct": false},
+        {"text": "джинсы", "correct": false}
+      ],
+      "explanation": "«Trainers» (британский вариант) — кроссовки, синоним sneakers."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «price»?",
+      "options": [
+        {"text": "цена", "correct": true},
+        {"text": "размер", "correct": false},
+        {"text": "цвет", "correct": false}
+      ],
+      "explanation": "«Price» — цена."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к одежде, а не обуви? (выбери все верные варианты)",
+      "options": [
+        {"text": "jacket", "correct": true},
+        {"text": "boots", "correct": false},
+        {"text": "dress", "correct": true},
+        {"text": "trainers", "correct": false},
+        {"text": "skirt", "correct": true}
+      ],
+      "explanation": "Jacket, dress, skirt — одежда. Boots и trainers — обувь."
+    },
+    {
+      "type": "dropdown",
+      "text": "Продавец — это ___.",
+      "options": [
+        {"text": "shop assistant", "correct": true},
+        {"text": "shop window", "correct": false},
+        {"text": "colour", "correct": false}
+      ],
+      "explanation": "Shop assistant — продавец."
+    },
+    {
+      "type": "dropdown",
+      "text": "Примерять — это ___.",
+      "options": [
+        {"text": "try on", "correct": true},
+        {"text": "shop window", "correct": false},
+        {"text": "size", "correct": false}
+      ],
+      "explanation": "Try on — примерять."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: размер",
+      "answer": "size",
+      "explanation": "«Размер» переводится как size."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: витрина",
+      "answer": "shop window",
+      "explanation": "«Витрина» переводится как shop window."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "shop assistant", "right": "продавец"},
+        {"left": "price", "right": "цена"},
+        {"left": "try on", "right": "примерять"},
+        {"left": "colour", "right": "цвет"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое слово общее и для одежды, и для обуви одновременно означает «одежда»?",
+      "options": [
+        {"text": "clothes", "correct": true},
+        {"text": "shoes", "correct": false},
+        {"text": "size", "correct": false}
+      ],
+      "explanation": "«Clothes» — общее слово «одежда», а «shoes» — обувь."
+    }
+  ]
+}

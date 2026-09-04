@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «custom»?",
+      "options": [
+        {"text": "обычай", "correct": true},
+        {"text": "традиция вообще", "correct": false},
+        {"text": "праздник", "correct": false}
+      ],
+      "explanation": "«Custom» — обычай (конкретное действие/правило)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «landmark»?",
+      "options": [
+        {"text": "достопримечательность", "correct": true},
+        {"text": "статуя", "correct": false},
+        {"text": "площадь", "correct": false}
+      ],
+      "explanation": "«Landmark» — достопримечательность."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с достопримечательностями? (выбери все верные варианты)",
+      "options": [
+        {"text": "castle", "correct": true},
+        {"text": "tower", "correct": true},
+        {"text": "custom", "correct": false},
+        {"text": "statue", "correct": true},
+        {"text": "celebrate", "correct": false}
+      ],
+      "explanation": "Castle, tower, statue — достопримечательности. Custom и celebrate относятся к традициям, а не к местам."
+    },
+    {
+      "type": "dropdown",
+      "text": "Ежегодное праздничное событие с музыкой и представлениями — это ___.",
+      "options": [
+        {"text": "festival", "correct": true},
+        {"text": "square", "correct": false},
+        {"text": "museum", "correct": false}
+      ],
+      "explanation": "«Festival» — фестиваль."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как сказать «украшать» по-английски? ___",
+      "options": [
+        {"text": "decorate", "correct": true},
+        {"text": "wear", "correct": false},
+        {"text": "visit", "correct": false}
+      ],
+      "explanation": "«Decorate» — украшать."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: посещать",
+      "answer": "visit",
+      "explanation": "«Посещать» переводится как visit."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: праздновать",
+      "answer": "celebrate",
+      "explanation": "«Праздновать» переводится как celebrate."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "tower", "right": "башня"},
+        {"left": "statue", "right": "статуя"},
+        {"left": "famous", "right": "знаменитый"},
+        {"left": "wear", "right": "носить (одежду)"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «tradition»?",
+      "options": [
+        {"text": "традиция", "correct": true},
+        {"text": "обычай", "correct": false},
+        {"text": "фестиваль", "correct": false}
+      ],
+      "explanation": "«Tradition» — традиция (в целом)."
+    }
+  ]
+}

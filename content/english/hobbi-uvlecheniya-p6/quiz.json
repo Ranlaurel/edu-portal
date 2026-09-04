@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое хобби у Мии?",
+      "options": [
+        {"text": "collecting stamps", "correct": true},
+        {"text": "playing chess", "correct": false},
+        {"text": "riding a bike", "correct": false}
+      ],
+      "explanation": "Мия говорит: I like collecting stamps."
+    },
+    {
+      "type": "single",
+      "text": "Что Джек терпеть не может делать?",
+      "options": [
+        {"text": "dancing", "correct": true},
+        {"text": "playing chess", "correct": false},
+        {"text": "taking photos", "correct": false}
+      ],
+      "explanation": "Джек говорит: I hate dancing!"
+    },
+    {
+      "type": "multiple",
+      "text": "Что любит делать Джек, по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "playing chess", "correct": true},
+        {"text": "taking photos of animals", "correct": true},
+        {"text": "dancing", "correct": false},
+        {"text": "riding a bike", "correct": true}
+      ],
+      "explanation": "Джек любит шахматы, фотографировать животных и кататься на велосипеде, но не танцевать."
+    },
+    {
+      "type": "dropdown",
+      "text": "Jack loves ___ chess.",
+      "options": [
+        {"text": "playing", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "plays", "correct": false}
+      ],
+      "explanation": "После love — форма -ing: playing."
+    },
+    {
+      "type": "dropdown",
+      "text": "Mia likes ___ stamps.",
+      "options": [
+        {"text": "collecting", "correct": true},
+        {"text": "collect", "correct": false},
+        {"text": "collects", "correct": false}
+      ],
+      "explanation": "После like — форма -ing: collecting."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Jack enjoys ___ (фотографировать, take) photos of animals.",
+      "answer": "taking",
+      "explanation": "После enjoy — форма -ing: taking."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I hate ___ (dance)!",
+      "answer": "dancing",
+      "explanation": "После hate — форма -ing: dancing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "collecting stamps", "right": "коллекционировать марки"},
+        {"left": "playing chess", "right": "играть в шахматы"},
+        {"left": "taking photos", "right": "фотографировать"},
+        {"left": "riding a bike", "right": "кататься на велосипеде"}
+      ],
+      "explanation": "Проверь по диалогу Джека и Мии."
+    },
+    {
+      "type": "single",
+      "text": "Что Джек делает каждый день, по диалогу?",
+      "options": [
+        {"text": "rides a bike", "correct": true},
+        {"text": "dances", "correct": false},
+        {"text": "collects stamps", "correct": false}
+      ],
+      "explanation": "Джек говорит: I like to ride a bike every day."
+    }
+  ]
+}

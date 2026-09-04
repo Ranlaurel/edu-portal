@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «score»?",
+      "options": [
+        {"text": "счёт", "correct": true},
+        {"text": "ход", "correct": false},
+        {"text": "команда", "correct": false}
+      ],
+      "explanation": "«Score» — счёт (в игре)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «puzzle»?",
+      "options": [
+        {"text": "головоломка", "correct": true},
+        {"text": "карточная игра", "correct": false},
+        {"text": "правила", "correct": false}
+      ],
+      "explanation": "«Puzzle» — головоломка."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают виды игр? (выбери все верные варианты)",
+      "options": [
+        {"text": "board game", "correct": true},
+        {"text": "score", "correct": false},
+        {"text": "video game", "correct": true},
+        {"text": "card game", "correct": true},
+        {"text": "turn", "correct": false}
+      ],
+      "explanation": "Board game, video game, card game — виды игр. Score и turn — не виды игр."
+    },
+    {
+      "type": "dropdown",
+      "text": "Проигрывать — это ___.",
+      "options": [
+        {"text": "lose", "correct": true},
+        {"text": "win", "correct": false},
+        {"text": "play", "correct": false}
+      ],
+      "explanation": "Lose — проигрывать, win — выигрывать."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «игрок»?",
+      "options": [
+        {"text": "player", "correct": true},
+        {"text": "team", "correct": false},
+        {"text": "turn", "correct": false}
+      ],
+      "explanation": "Player — игрок."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: правила игры",
+      "answer": "rules",
+      "explanation": "«Правила игры» — rules."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: веселье",
+      "answer": "fun",
+      "explanation": "«Веселье» — fun."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "team", "right": "команда"},
+        {"left": "win", "right": "выигрывать"},
+        {"left": "turn", "right": "ход, очередь"},
+        {"left": "outdoor game", "right": "игра на улице"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «game»?",
+      "options": [
+        {"text": "игра", "correct": true},
+        {"text": "игрок", "correct": false},
+        {"text": "команда", "correct": false}
+      ],
+      "explanation": "«Game» — игра."
+    }
+  ]
+}

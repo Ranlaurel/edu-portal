@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как ответить на «Is there a fridge in the kitchen?», если он есть?",
+      "options": [
+        {"text": "Yes, there is.", "correct": true},
+        {"text": "Yes, it is.", "correct": false},
+        {"text": "Yes, there are.", "correct": false}
+      ],
+      "explanation": "Fridge — единственное число, ответ: Yes, there is."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Ковёр под столом»?",
+      "options": [
+        {"text": "The carpet is under the table.", "correct": true},
+        {"text": "The carpet is on the table.", "correct": false},
+        {"text": "The carpet is next to the table.", "correct": false}
+      ],
+      "explanation": "«Под» переводится как under."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы верно описывают мебель в комнате? (выбери все верные варианты)",
+      "options": [
+        {"text": "There is a bed and a wardrobe in my room.", "correct": true},
+        {"text": "The chair is next to the sofa.", "correct": true},
+        {"text": "The lamp is on the table.", "correct": true},
+        {"text": "There are a shelf.", "correct": false},
+        {"text": "The clock in on the wall.", "correct": false}
+      ],
+      "explanation": "Shelf (одно) требует is, а не are; «in on» — опечатка, нужен только один предлог on."
+    },
+    {
+      "type": "dropdown",
+      "text": "The clock is ___ the wall.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "under", "correct": false}
+      ],
+      "explanation": "Часы висят на стене, предлог on."
+    },
+    {
+      "type": "dropdown",
+      "text": "The chair is ___ the sofa.",
+      "options": [
+        {"text": "next to", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "under", "correct": false}
+      ],
+      "explanation": "«Рядом с» переводится как next to."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: The cat is ___ the bed.",
+      "answer": "under",
+      "explanation": "«Под» переводится как under."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: она на столе — It's ___ the table.",
+      "answer": "on",
+      "explanation": "«На» (сверху) переводится как on."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с правильным ответом",
+      "pairs": [
+        {"left": "What furniture is there in your room?", "right": "There is a bed, a wardrobe and a shelf."},
+        {"left": "Where is your lamp?", "right": "It's on the table."},
+        {"left": "Is there a mirror in your room?", "right": "Yes, there is."},
+        {"left": "Is there a fridge in the kitchen?", "right": "Yes, there is."}
+      ],
+      "explanation": "Проверь по диалогу из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «В моей комнате есть кровать и шкаф»?",
+      "options": [
+        {"text": "There is a bed and a wardrobe in my room.", "correct": true},
+        {"text": "There are a bed and a wardrobe in my room.", "correct": false},
+        {"text": "My room there is a bed and a wardrobe.", "correct": false}
+      ],
+      "explanation": "Разговорная норма — there is + перечисление, начинающееся с единственного числа (a bed)."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верный предлог: My birthday is ___ May.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С месяцами используется предлог in."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верный предлог: We have Art ___ Monday.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С днями недели используется предлог on."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях предлог использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "It's cold in winter.", "correct": true},
+        {"text": "School starts on September.", "correct": false},
+        {"text": "We have PE on Monday.", "correct": true},
+        {"text": "My birthday is in May.", "correct": true},
+        {"text": "I don't go to school in Sunday.", "correct": false}
+      ],
+      "explanation": "С месяцами и временами года — in, с днями недели — on. September и Sunday требуют своих предлогов: in September, on Sunday."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's warm ___ spring.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С временами года используется предлог in."
+    },
+    {
+      "type": "dropdown",
+      "text": "I don't go to school ___ Sunday.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С днями недели используется предлог on."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: School starts ___ September.",
+      "answer": "in",
+      "explanation": "С месяцами используется предлог in."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопрос: ___ day is it today?",
+      "answer": "What",
+      "explanation": "Вопрос о дне недели начинается с What: What day is it today?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово с правильным предлогом",
+      "pairs": [
+        {"left": "Monday", "right": "on"},
+        {"left": "May", "right": "in"},
+        {"left": "winter", "right": "in"},
+        {"left": "Sunday", "right": "on"}
+      ],
+      "explanation": "Дни недели — on; месяцы и времена года — in."
+    },
+    {
+      "type": "single",
+      "text": "Как спросить «Какой сегодня день»?",
+      "options": [
+        {"text": "What day is it today?", "correct": true},
+        {"text": "What day it is today?", "correct": false},
+        {"text": "Is it what day today?", "correct": false}
+      ],
+      "explanation": "Правильный порядок слов в вопросе: What day is it today?"
+    }
+  ]
+}

@@ -15,8 +15,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "semya-chleny-prazdniki",
-          "title": "Семья: члены семьи и семейные праздники",
+          "slug": "semya-chleny-prazdniki-v6",
+          "title": "Семья: слова по теме",
           "section": "Семья и дом"
         },
         "biology": {
@@ -56,7 +56,11 @@
           "title": "Распределительное свойство умножения",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "semya-chleny-prazdniki-g6",
+          "title": "Семья: притяжательный падеж и Present Simple",
+          "section": "Семья и дом"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -92,7 +96,11 @@
           "title": "Порядок действий и скобки в числовых выражениях",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "semya-chleny-prazdniki-p6",
+          "title": "Семья: практика (слова + грамматика)",
+          "section": "Семья и дом"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -115,8 +123,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "dom-vidy-zhilya",
-          "title": "Дом: виды жилья и обустройство",
+          "slug": "dom-vidy-zhilya-v6",
+          "title": "Дом: слова по теме",
           "section": "Семья и дом"
         },
         "biology": null,
@@ -166,7 +174,11 @@
           "title": "Разрядные слагаемые через степени десяти",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "dom-vidy-zhilya-g6",
+          "title": "Дом: there is / there are",
+          "section": "Семья и дом"
+        },
         "biology": {
           "slug": "stroenie-rastitelnoy-kletki",
           "title": "Строение растительной клетки",
@@ -206,7 +218,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "dom-vidy-zhilya-p6",
+          "title": "Дом: практика (слова + грамматика)",
+          "section": "Семья и дом"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -229,8 +245,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "domashnie-obyazannosti-pravila",
-          "title": "Домашние обязанности и правила поведения",
+          "slug": "domashnie-obyazannosti-pravila-v6",
+          "title": "Домашние обязанности: слова по теме",
           "section": "Семья и дом"
         },
         "biology": null,
@@ -276,7 +292,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "domashnie-obyazannosti-pravila-g6",
+          "title": "Домашние обязанности: must / have to / should",
+          "section": "Семья и дом"
+        },
         "biology": null,
         "geography": {
           "slug": "solnechny-svet-na-zemle",
@@ -320,7 +340,11 @@
           "title": "Текстовые задачи на движение",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "domashnie-obyazannosti-pravila-p6",
+          "title": "Домашние обязанности: практика (слова + грамматика)",
+          "section": "Семья и дом"
+        },
         "biology": {
           "slug": "zhiznedeyatelnost-kletki",
           "title": "Жизнедеятельность клетки: деление и рост",
@@ -343,8 +367,8 @@
         },
         "math": null,
         "english": {
-          "slug": "vneshnost-cheloveka",
-          "title": "Внешность человека",
+          "slug": "vneshnost-cheloveka-v6",
+          "title": "Внешность: слова по теме",
           "section": "Внешность и характер"
         },
         "biology": null,
@@ -386,7 +410,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "vneshnost-cheloveka-g6",
+          "title": "Внешность: to be + adjective и has got",
+          "section": "Внешность и характер"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -434,7 +462,11 @@
           "title": "Понятие десятичной дроби",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "vneshnost-cheloveka-p6",
+          "title": "Внешность: практика (слова + грамматика)",
+          "section": "Внешность и характер"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -453,8 +485,8 @@
         },
         "math": null,
         "english": {
-          "slug": "harakter-cheloveka",
-          "title": "Характер человека",
+          "slug": "harakter-cheloveka-v6",
+          "title": "Характер: слова по теме",
           "section": "Внешность и характер"
         },
         "biology": {
@@ -504,7 +536,11 @@
           "title": "Сравнение десятичных дробей",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "harakter-cheloveka-g6",
+          "title": "Характер: наречия степени very / quite",
+          "section": "Внешность и характер"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -548,7 +584,11 @@
           "title": "Десятичные дроби на координатной прямой",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "harakter-cheloveka-p6",
+          "title": "Характер: практика (слова + грамматика)",
+          "section": "Внешность и характер"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -571,8 +611,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "hobbi-uvlecheniya",
-          "title": "Хобби и увлечения",
+          "slug": "hobbi-uvlecheniya-v6",
+          "title": "Хобби: слова по теме",
           "section": "Досуг и увлечения"
         },
         "biology": null,
@@ -614,7 +654,11 @@
           "title": "Вычитание десятичных дробей",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "hobbi-uvlecheniya-g6",
+          "title": "Хобби: like / love / enjoy / hate + verb-ing",
+          "section": "Досуг и увлечения"
+        },
         "biology": {
           "slug": "stroenie-semyan",
           "title": "Строение семян",
@@ -658,7 +702,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "hobbi-uvlecheniya-p6",
+          "title": "Хобби: практика (слова + грамматика)",
+          "section": "Досуг и увлечения"
+        },
         "biology": null,
         "geography": {
           "slug": "izobrazhenie-relyefa",
@@ -685,8 +733,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "svobodnoe-vremya-plany",
-          "title": "Свободное время: планы на выходные",
+          "slug": "svobodnoe-vremya-plany-v6",
+          "title": "Свободное время: слова по теме",
           "section": "Досуг и увлечения"
         },
         "biology": null,
@@ -720,7 +768,11 @@
           "title": "Понятие процента",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "svobodnoe-vremya-plany-g6",
+          "title": "Свободное время: Present Continuous для будущих планов",
+          "section": "Досуг и увлечения"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -768,7 +820,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "svobodnoe-vremya-plany-p6",
+          "title": "Свободное время: практика (слова + грамматика)",
+          "section": "Досуг и увлечения"
+        },
         "biology": {
           "slug": "korni-i-kornevye-sistemy",
           "title": "Виды корней, типы корневых систем, видоизменения корней",
@@ -795,8 +851,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "igry-razvlecheniya",
-          "title": "Игры и развлечения",
+          "slug": "igry-razvlecheniya-v6",
+          "title": "Игры: слова по теме",
           "section": "Досуг и увлечения"
         },
         "biology": null,
@@ -834,7 +890,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "igry-razvlecheniya-g6",
+          "title": "Игры: вопросительные слова",
+          "section": "Досуг и увлечения"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -886,7 +946,11 @@
           "title": "Формула пути",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "igry-razvlecheniya-p6",
+          "title": "Игры: практика (слова + грамматика)",
+          "section": "Досуг и увлечения"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -905,8 +969,8 @@
         },
         "math": null,
         "english": {
-          "slug": "zdorovoe-pitanie",
-          "title": "Здоровое питание",
+          "slug": "zdorovoe-pitanie-v6",
+          "title": "Здоровое питание (слова)",
           "section": "Здоровый образ жизни"
         },
         "biology": {
@@ -952,7 +1016,11 @@
           "title": "Формула периметра",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "zdorovoe-pitanie-g6",
+          "title": "Здоровое питание: some / any + исчисляемые/неисчисляемые существительные",
+          "section": "Здоровый образ жизни"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -1001,8 +1069,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "rezhim-dnya-privychki",
-          "title": "Режим дня и полезные привычки",
+          "slug": "zdorovoe-pitanie-p6",
+          "title": "Здоровое питание: практика (слова + грамматика)",
           "section": "Здоровый образ жизни"
         },
         "biology": null,
@@ -1026,7 +1094,11 @@
           "title": "Формула объёма прямоугольного параллелепипеда",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "rezhim-dnya-privychki-v6",
+          "title": "Режим дня и полезные привычки (слова)",
+          "section": "Здоровый образ жизни"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1062,7 +1134,11 @@
           "title": "Периметр многоугольника",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "rezhim-dnya-privychki-g6",
+          "title": "Режим дня: Present Simple с наречиями частотности",
+          "section": "Здоровый образ жизни"
+        },
         "biology": {
           "slug": "list-stroenie-vidoizmeneniya",
           "title": "Строение листа и видоизменения побегов",
@@ -1111,9 +1187,9 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "pokupki-odezhda-obuv",
-          "title": "Покупки: одежда и обувь",
-          "section": "Покупки"
+          "slug": "rezhim-dnya-privychki-p6",
+          "title": "Режим дня: практика (слова + грамматика)",
+          "section": "Здоровый образ жизни"
         },
         "biology": null,
         "geography": null,
@@ -1140,7 +1216,11 @@
           "title": "Свойства прямоугольника",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "pokupki-odezhda-obuv-v6",
+          "title": "Покупки: одежда и обувь (слова)",
+          "section": "Покупки"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1172,7 +1252,11 @@
           "title": "Свойства квадрата",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "pokupki-odezhda-obuv-g6",
+          "title": "Покупки: this/that/these/those + would like",
+          "section": "Покупки"
+        },
         "biology": null,
         "geography": {
           "slug": "dvizheniya-zemnoy-kory",
@@ -1221,8 +1305,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "pokupki-produkty",
-          "title": "Покупки: продукты питания",
+          "slug": "pokupki-odezhda-obuv-p6",
+          "title": "Покупки: практика (слова + грамматика)",
           "section": "Покупки"
         },
         "biology": {
@@ -1254,7 +1338,11 @@
           "title": "Составные фигуры",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "pokupki-produkty-v6",
+          "title": "Покупки: продукты питания — слова",
+          "section": "Покупки"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1290,7 +1378,11 @@
           "section": "Текст и речь"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "pokupki-produkty-g6",
+          "title": "Покупки: how much / how many",
+          "section": "Покупки"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1339,9 +1431,9 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "vidy-sporta",
-          "title": "Виды спорта",
-          "section": "Спорт"
+          "slug": "pokupki-produkty-p6",
+          "title": "Покупки: продукты — практика",
+          "section": "Покупки"
         },
         "biology": null,
         "geography": null,
@@ -1364,7 +1456,11 @@
           "section": "Текст и речь"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "vidy-sporta-v6",
+          "title": "Виды спорта — слова",
+          "section": "Спорт"
+        },
         "biology": {
           "slug": "mineralnoe-pitanie",
           "title": "Обмен веществ и минеральное питание растений",
@@ -1404,7 +1500,11 @@
           "section": "Лексикология и фразеология"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "vidy-sporta-g6",
+          "title": "Виды спорта: play / do / go",
+          "section": "Спорт"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1453,8 +1553,8 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "sportivnye-sorevnovaniya",
-          "title": "Спортивные соревнования и выдающиеся спортсмены",
+          "slug": "vidy-sporta-p6",
+          "title": "Виды спорта — практика",
           "section": "Спорт"
         },
         "biology": null,
@@ -1474,7 +1574,11 @@
           "section": "Лексикология и фразеология"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "sportivnye-sorevnovaniya-v6",
+          "title": "Спортивные соревнования — слова",
+          "section": "Спорт"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1518,7 +1622,11 @@
           "title": "Задачи на углы треугольника",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "sportivnye-sorevnovaniya-g6",
+          "title": "Спортивные соревнования: степени сравнения прилагательных",
+          "section": "Спорт"
+        },
         "biology": {
           "slug": "fotosintez-dyhanie",
           "title": "Фотосинтез и дыхание растений",
@@ -1563,9 +1671,9 @@
           "section": "Повторение курса 5 класса"
         },
         "english": {
-          "slug": "shkolnaya-zhizn-predmety",
-          "title": "Школьная жизнь и школьные предметы",
-          "section": "Школа"
+          "slug": "sportivnye-sorevnovaniya-p6",
+          "title": "Спортивные соревнования — практика",
+          "section": "Спорт"
         },
         "biology": null,
         "geography": {
@@ -1592,7 +1700,11 @@
           "title": "Куб",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "shkolnaya-zhizn-predmety-v6",
+          "title": "Школьная жизнь и предметы — слова",
+          "section": "Школа"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1632,7 +1744,11 @@
           "title": "Призма",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "shkolnaya-zhizn-predmety-g6",
+          "title": "Школьная жизнь: Present Simple + предлоги времени at/on/in",
+          "section": "Школа"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1673,8 +1789,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "pravila-povedeniya-shkola",
-          "title": "Правила поведения в школе",
+          "slug": "shkolnaya-zhizn-predmety-p6",
+          "title": "Школьная жизнь и предметы — практика",
           "section": "Школа"
         },
         "biology": {
@@ -1702,7 +1818,11 @@
           "title": "Единицы измерения объёма",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "pravila-povedeniya-shkola-v6",
+          "title": "Правила поведения в школе — слова",
+          "section": "Школа"
+        },
         "biology": null,
         "geography": {
           "slug": "litosfera-i-chelovek",
@@ -1746,7 +1866,11 @@
           "title": "Объём геометрических фигур",
           "section": "Повторение курса 5 класса"
         },
-        "english": null,
+        "english": {
+          "slug": "pravila-povedeniya-shkola-g6",
+          "title": "Правила поведения в школе: must / mustn't",
+          "section": "Школа"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1787,8 +1911,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "perepiska-sverstniki",
-          "title": "Переписка с зарубежными сверстниками",
+          "slug": "pravila-povedeniya-shkola-p6",
+          "title": "Правила поведения в школе — практика",
           "section": "Школа"
         },
         "biology": null,
@@ -1812,7 +1936,11 @@
           "title": "Кратное числа",
           "section": "Делимость натуральных чисел"
         },
-        "english": null,
+        "english": {
+          "slug": "perepiska-sverstniki-v6",
+          "title": "Переписка с зарубежными сверстниками — слова",
+          "section": "Школа"
+        },
         "biology": {
           "slug": "prorastanie-rost-razvitie",
           "title": "Прорастание семян, рост и развитие растений",
@@ -1860,7 +1988,11 @@
           "section": "Словообразование"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "perepiska-sverstniki-g6",
+          "title": "Переписка со сверстниками: Present Simple и Present Continuous",
+          "section": "Школа"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1897,9 +2029,9 @@
           "section": "Делимость натуральных чисел"
         },
         "english": {
-          "slug": "puteshestviya-otdyh-snaryazhenie",
-          "title": "Путешествия: виды отдыха и снаряжение",
-          "section": "Путешествия и каникулы"
+          "slug": "perepiska-sverstniki-p6",
+          "title": "Переписка со сверстниками — практика",
+          "section": "Школа"
         },
         "biology": null,
         "geography": null,
@@ -1926,7 +2058,11 @@
           "section": "Словообразование"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "puteshestviya-otdyh-snaryazhenie-v6",
+          "title": "Путешествия: виды отдыха и снаряжение — слова",
+          "section": "Путешествия и каникулы"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -1974,7 +2110,11 @@
           "title": "Наибольший общий делитель (НОД)",
           "section": "Делимость натуральных чисел"
         },
-        "english": null,
+        "english": {
+          "slug": "puteshestviya-otdyh-snaryazhenie-g6",
+          "title": "Путешествия: going to для планов на будущее",
+          "section": "Путешествия и каникулы"
+        },
         "biology": {
           "slug": "razmnozhenie-rasteniy",
           "title": "Размножение растений: половое и вегетативное",
@@ -1993,8 +2133,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "kanikuly-plany-vpechatleniya",
-          "title": "Каникулы: планы и впечатления",
+          "slug": "puteshestviya-otdyh-snaryazhenie-p6",
+          "title": "Путешествия: виды отдыха и снаряжение — практика",
           "section": "Путешествия и каникулы"
         },
         "biology": null,
@@ -2044,7 +2184,11 @@
           "title": "Основное свойство дроби",
           "section": "Обыкновенные дроби"
         },
-        "english": null,
+        "english": {
+          "slug": "kanikuly-plany-vpechatleniya-v6",
+          "title": "Каникулы: планы и впечатления — слова",
+          "section": "Путешествия и каникулы"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2080,7 +2224,11 @@
           "title": "Сокращение дробей",
           "section": "Обыкновенные дроби"
         },
-        "english": null,
+        "english": {
+          "slug": "kanikuly-plany-vpechatleniya-g6",
+          "title": "Каникулы: Past Simple",
+          "section": "Путешествия и каникулы"
+        },
         "biology": null,
         "geography": {
           "slug": "atmosfernoe-davlenie-veter",
@@ -2103,8 +2251,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "znamenitye-puteshestvenniki",
-          "title": "Знаменитые путешественники и открытия",
+          "slug": "kanikuly-plany-vpechatleniya-p6",
+          "title": "Каникулы: планы и впечатления — практика",
           "section": "Путешествия и каникулы"
         },
         "biology": {
@@ -2158,7 +2306,11 @@
           "title": "Сравнение обыкновенных дробей",
           "section": "Обыкновенные дроби"
         },
-        "english": null,
+        "english": {
+          "slug": "znamenitye-puteshestvenniki-v6",
+          "title": "Знаменитые путешественники и открытия — слова",
+          "section": "Путешествия и каникулы"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2194,7 +2346,11 @@
           "title": "Сложение дробей с разными знаменателями",
           "section": "Обыкновенные дроби"
         },
-        "english": null,
+        "english": {
+          "slug": "znamenitye-puteshestvenniki-g6",
+          "title": "Знаменитые путешественники: Past Simple для биографии",
+          "section": "Путешествия и каникулы"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2217,9 +2373,9 @@
           "section": "Обыкновенные дроби"
         },
         "english": {
-          "slug": "professii-plany-na-buduschee",
-          "title": "Профессии и планы на будущее",
-          "section": "Мир профессий"
+          "slug": "znamenitye-puteshestvenniki-p6",
+          "title": "Знаменитые путешественники — практика",
+          "section": "Путешествия и каникулы"
         },
         "biology": null,
         "geography": {
@@ -2268,7 +2424,11 @@
           "title": "Нахождение дроби от числа",
           "section": "Обыкновенные дроби"
         },
-        "english": null,
+        "english": {
+          "slug": "professii-plany-na-buduschee-v6",
+          "title": "Профессии и планы на будущее (слова)",
+          "section": "Мир профессий"
+        },
         "biology": {
           "slug": "mhi-plauny-hvoschi-paporotniki",
           "title": "Мхи, плауны, хвощи и папоротники",
@@ -2308,7 +2468,11 @@
           "section": "Имя прилагательное"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "professii-plany-na-buduschee-g6",
+          "title": "Профессии: will для предсказаний и планов на будущее",
+          "section": "Мир профессий"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2331,8 +2495,8 @@
           "section": "Обыкновенные дроби"
         },
         "english": {
-          "slug": "rabota-kariera",
-          "title": "Работа и карьера",
+          "slug": "professii-plany-na-buduschee-p6",
+          "title": "Профессии: практика (слова + грамматика)",
           "section": "Мир профессий"
         },
         "biology": null,
@@ -2382,7 +2546,11 @@
           "section": "Имя прилагательное"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "rabota-kariera-v6",
+          "title": "Работа и карьера (слова)",
+          "section": "Мир профессий"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2418,7 +2586,11 @@
           "section": "Имя прилагательное"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "rabota-kariera-g6",
+          "title": "Работа: модальный глагол can/could для способности",
+          "section": "Мир профессий"
+        },
         "biology": {
           "slug": "golosemennye",
           "title": "Отдел Голосеменные",
@@ -2441,9 +2613,9 @@
           "section": "Отношения и пропорции"
         },
         "english": {
-          "slug": "priroda-zhivotnye",
-          "title": "Природа: дикие и домашние животные",
-          "section": "Природа и погода"
+          "slug": "rabota-kariera-p6",
+          "title": "Работа и карьера: практика (слова + грамматика)",
+          "section": "Мир профессий"
         },
         "biology": null,
         "geography": null,
@@ -2496,7 +2668,11 @@
           "section": "Имя прилагательное"
         },
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "priroda-zhivotnye-v6",
+          "title": "Природа: животные (слова)",
+          "section": "Природа и погода"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2536,7 +2712,11 @@
           "title": "Прямая пропорциональная зависимость",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "priroda-zhivotnye-g6",
+          "title": "Природа: there is/there are и степени сравнения",
+          "section": "Природа и погода"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2551,8 +2731,8 @@
         "russian": null,
         "math": null,
         "english": {
-          "slug": "pogoda-klimat",
-          "title": "Погода и климат",
+          "slug": "priroda-zhivotnye-p6",
+          "title": "Природа: практика (слова + грамматика)",
           "section": "Природа и погода"
         },
         "biology": {
@@ -2602,7 +2782,11 @@
           "title": "Окружность: центр, радиус, диаметр, хорда",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "pogoda-klimat-v6",
+          "title": "Погода и климат (слова)",
+          "section": "Природа и погода"
+        },
         "biology": null,
         "geography": {
           "slug": "sostav-gidrosfery-mirovoy-okean",
@@ -2650,7 +2834,11 @@
           "title": "Круг как часть плоскости",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "pogoda-klimat-g6",
+          "title": "Погода: Present Simple vs Present Continuous",
+          "section": "Природа и погода"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2669,9 +2857,9 @@
           "section": "Отношения и пропорции"
         },
         "english": {
-          "slug": "gorod-transport-dostoprimechatelnosti",
-          "title": "Город: транспорт и достопримечательности",
-          "section": "Жизнь в городе и селе"
+          "slug": "pogoda-klimat-p6",
+          "title": "Погода: практика (слова + грамматика)",
+          "section": "Природа и погода"
         },
         "biology": null,
         "geography": null,
@@ -2712,7 +2900,11 @@
           "title": "Площадь круга",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "gorod-transport-dostoprimechatelnosti-v6",
+          "title": "Город: транспорт и достопримечательности (слова)",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": {
           "slug": "pokrytosemennye-odnodolnye",
           "title": "Покрытосеменные: класс Однодольные",
@@ -2764,7 +2956,11 @@
           "title": "Цилиндр",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "gorod-transport-dostoprimechatelnosti-g6",
+          "title": "Город: предлоги места и вопрос дороги",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2783,8 +2979,8 @@
           "section": "Отношения и пропорции"
         },
         "english": {
-          "slug": "zhizn-v-derevne",
-          "title": "Жизнь в сельской местности",
+          "slug": "gorod-transport-dostoprimechatelnosti-p6",
+          "title": "Город: практика (слова + грамматика)",
           "section": "Жизнь в городе и селе"
         },
         "biology": null,
@@ -2826,7 +3022,11 @@
           "title": "Шар",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "zhizn-v-derevne-v6",
+          "title": "Жизнь в деревне (слова)",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -2875,8 +3075,8 @@
         },
         "math": null,
         "english": {
-          "slug": "moy-gorod-opisanie",
-          "title": "Мой город: описание",
+          "slug": "zhizn-v-derevne-g6",
+          "title": "Жизнь в деревне: степени сравнения",
           "section": "Жизнь в городе и селе"
         },
         "biology": {
@@ -2900,7 +3100,11 @@
           "title": "Круговые диаграммы",
           "section": "Отношения и пропорции"
         },
-        "english": null,
+        "english": {
+          "slug": "zhizn-v-derevne-p6",
+          "title": "Жизнь в деревне: практика (слова + грамматика)",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -2940,7 +3144,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "moy-gorod-opisanie-v6",
+          "title": "Мой город: описание (слова)",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -2989,9 +3197,9 @@
           "section": "Рациональные числа и действия над ними"
         },
         "english": {
-          "slug": "smi-kommunikacii",
-          "title": "Средства массовой информации",
-          "section": "СМИ и коммуникации"
+          "slug": "moy-gorod-opisanie-g6",
+          "title": "Мой город: there is/there are + a lot of / many / much",
+          "section": "Жизнь в городе и селе"
         },
         "biology": null,
         "geography": {
@@ -3010,7 +3218,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "moy-gorod-opisanie-p6",
+          "title": "Мой город: практика (слова + грамматика)",
+          "section": "Жизнь в городе и селе"
+        },
         "biology": {
           "slug": "kulturnye-rasteniya",
           "title": "Происхождение культурных растений",
@@ -3058,7 +3270,11 @@
           "title": "Координатная прямая",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "smi-kommunikacii-v6",
+          "title": "Средства массовой информации (слова)",
+          "section": "СМИ и коммуникации"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": {
@@ -3103,9 +3319,9 @@
           "section": "Рациональные числа и действия над ними"
         },
         "english": {
-          "slug": "velikobritaniya-strany-simvoly",
-          "title": "Великобритания: страны и символы",
-          "section": "Родная страна и страна изучаемого языка"
+          "slug": "smi-kommunikacii-g6",
+          "title": "СМИ: модальные глаголы возможности",
+          "section": "СМИ и коммуникации"
         },
         "biology": null,
         "geography": null,
@@ -3120,7 +3336,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "smi-kommunikacii-p6",
+          "title": "СМИ: практика (слова + грамматика)",
+          "section": "СМИ и коммуникации"
+        },
         "biology": null,
         "geography": {
           "slug": "gidrosfera-i-chelovek",
@@ -3164,7 +3384,11 @@
           "title": "Сложение чисел с одинаковыми и разными знаками",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "velikobritaniya-strany-simvoly-v6",
+          "title": "Великобритания: страны и символы (слова)",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": {
           "slug": "ponyatie-o-soobschestve",
           "title": "Понятие о природном сообществе, совместная жизнь организмов",
@@ -3217,8 +3441,8 @@
           "section": "Рациональные числа и действия над ними"
         },
         "english": {
-          "slug": "dostoprimechatelnosti-tradicii",
-          "title": "Достопримечательности и традиции",
+          "slug": "velikobritaniya-strany-simvoly-g6",
+          "title": "Великобритания: артикль the со странами",
           "section": "Родная страна и страна изучаемого языка"
         },
         "biology": null,
@@ -3238,7 +3462,11 @@
           "title": "Умножение чисел со знаками",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "velikobritaniya-strany-simvoly-p6",
+          "title": "Великобритания: практика (слова + грамматика)",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3278,7 +3506,11 @@
           "title": "Коэффициент буквенного выражения",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "dostoprimechatelnosti-tradicii-v6",
+          "title": "Достопримечательности и традиции (слова)",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3327,8 +3559,8 @@
         },
         "math": null,
         "english": {
-          "slug": "rodnaya-strana-geografiya-kultura",
-          "title": "Родная страна: география и культура",
+          "slug": "dostoprimechatelnosti-tradicii-g6",
+          "title": "Достопримечательности: there is/are и Present Simple",
           "section": "Родная страна и страна изучаемого языка"
         },
         "biology": {
@@ -3352,7 +3584,11 @@
           "title": "Деление чисел со знаками",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "dostoprimechatelnosti-tradicii-p6",
+          "title": "Достопримечательности и традиции: практика",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3392,7 +3628,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "rodnaya-strana-geografiya-kultura-v6",
+          "title": "Родная страна: география и культура (слова)",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3441,9 +3681,9 @@
         },
         "math": null,
         "english": {
-          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo",
-          "title": "Выдающиеся люди: наука и искусство",
-          "section": "Выдающиеся люди"
+          "slug": "rodnaya-strana-geografiya-kultura-g6",
+          "title": "Родная страна: превосходная степень прилагательных",
+          "section": "Родная страна и страна изучаемого языка"
         },
         "biology": null,
         "geography": null,
@@ -3462,7 +3702,11 @@
           "title": "Задачи на составление уравнений",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "rodnaya-strana-geografiya-kultura-p6",
+          "title": "Родная страна: практика (слова + грамматика)",
+          "section": "Родная страна и страна изучаемого языка"
+        },
         "biology": {
           "slug": "chelovek-i-soobschestva",
           "title": "Влияние человека на природные сообщества и их охрана",
@@ -3502,7 +3746,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-v6",
+          "title": "Выдающиеся люди: наука и искусство (слова)",
+          "section": "Выдающиеся люди"
+        },
         "biology": null,
         "geography": {
           "slug": "prirodny-kompleks",
@@ -3559,8 +3807,8 @@
           "section": "Рациональные числа и действия над ними"
         },
         "english": {
-          "slug": "vydayuschiesya-lyudi-sport-literatura",
-          "title": "Выдающиеся люди: спорт и литература",
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-g6",
+          "title": "Выдающиеся люди: Past Simple для биографии",
           "section": "Выдающиеся люди"
         },
         "biology": null,
@@ -3576,7 +3824,11 @@
       "subjects": {
         "russian": null,
         "math": null,
-        "english": null,
+        "english": {
+          "slug": "vydayuschiesya-lyudi-nauka-iskusstvo-p6",
+          "title": "Выдающиеся люди: практика (слова + грамматика)",
+          "section": "Выдающиеся люди"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3616,7 +3868,11 @@
           "title": "Координатная плоскость: оси и координаты точки",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "vydayuschiesya-lyudi-sport-literatura-v6",
+          "title": "Выдающиеся люди: спорт и литература (слова)",
+          "section": "Выдающиеся люди"
+        },
         "biology": {
           "slug": "itogovoe-povtorenie-biologiya",
           "title": "Итоговое повторение курса биологии за 6 класс",
@@ -3673,9 +3929,9 @@
           "section": "Рациональные числа и действия над ними"
         },
         "english": {
-          "slug": "itogovoe-povtorenie-angliyskiy",
-          "title": "Итоговое повторение курса английского языка за 6 класс",
-          "section": "Итоговое повторение"
+          "slug": "vydayuschiesya-lyudi-sport-literatura-g6",
+          "title": "Выдающиеся люди: неправильные глаголы Past Simple (wrote, won, became)",
+          "section": "Выдающиеся люди"
         },
         "biology": null,
         "geography": null,
@@ -3694,7 +3950,11 @@
           "title": "Графики",
           "section": "Рациональные числа и действия над ними"
         },
-        "english": null,
+        "english": {
+          "slug": "vydayuschiesya-lyudi-sport-literatura-p6",
+          "title": "Выдающиеся люди: практика (слова + грамматика)",
+          "section": "Выдающиеся люди"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,
@@ -3730,7 +3990,11 @@
           "title": "Итоговое повторение курса математики за 6 класс",
           "section": "Итоговое повторение"
         },
-        "english": null,
+        "english": {
+          "slug": "itogovoe-povtorenie-angliyskiy",
+          "title": "Итоговое повторение курса английского языка за 6 класс",
+          "section": "Итоговое повторение"
+        },
         "biology": null,
         "geography": null,
         "vseobschaya-istoriya": null,

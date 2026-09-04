@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как перевести «У меня болит живот»?",
+      "options": [
+        {"text": "My stomach hurts.", "correct": true},
+        {"text": "My stomach hurt.", "correct": false},
+        {"text": "I have got a stomach.", "correct": false}
+      ],
+      "explanation": "Stomach — единственное число, поэтому hurts."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «У меня болят зубы»?",
+      "options": [
+        {"text": "My teeth hurt.", "correct": true},
+        {"text": "My tooth hurts.", "correct": false},
+        {"text": "My teeth hurts.", "correct": false}
+      ],
+      "explanation": "Teeth — множественное число от tooth, поэтому глагол hurt без -s."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова переводятся как части тела? (выбери все верные варианты)",
+      "options": [
+        {"text": "back", "correct": true},
+        {"text": "sick", "correct": false},
+        {"text": "hand", "correct": true},
+        {"text": "foot", "correct": true},
+        {"text": "doctor", "correct": false}
+      ],
+      "explanation": "Back, hand, foot — части тела. Sick (больной) и doctor (врач) — нет."
+    },
+    {
+      "type": "dropdown",
+      "text": "My hand ___ (hurt) after writing.",
+      "options": [
+        {"text": "hurts", "correct": true},
+        {"text": "hurt", "correct": false},
+        {"text": "hurting", "correct": false}
+      ],
+      "explanation": "Hand — единственное число, поэтому hurts."
+    },
+    {
+      "type": "dropdown",
+      "text": "He has got a cold, so he feels ___.",
+      "options": [
+        {"text": "sick", "correct": true},
+        {"text": "doctor", "correct": false},
+        {"text": "back", "correct": false}
+      ],
+      "explanation": "Sick — больной, плохо себя чувствующий."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: спина",
+      "answer": "back",
+      "explanation": "«Спина» переводится как back."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: My arm ___ (hurt) a lot.",
+      "answer": "hurts",
+      "explanation": "Arm — единственное число, поэтому hurts."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английскую фразу с переводом",
+      "pairs": [
+        {"left": "My back hurts.", "right": "У меня болит спина."},
+        {"left": "My teeth hurt.", "right": "У меня болят зубы."},
+        {"left": "He feels sick.", "right": "Он плохо себя чувствует."},
+        {"left": "My stomach hurts.", "right": "У меня болит живот."}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    },
+    {
+      "type": "single",
+      "text": "Переведи слово «tooth».",
+      "options": [
+        {"text": "зуб", "correct": true},
+        {"text": "нога", "correct": false},
+        {"text": "рука", "correct": false}
+      ],
+      "explanation": "«Tooth» — зуб, множественное число teeth."
+    }
+  ]
+}

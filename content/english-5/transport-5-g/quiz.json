@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой предлог используется с видом транспорта: «by ___»?",
+      "options": [
+        {"text": "by car", "correct": true},
+        {"text": "by a car", "correct": false},
+        {"text": "by the car", "correct": false}
+      ],
+      "explanation": "После by транспорт используется без артикля: by car."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «пешком»?",
+      "options": [
+        {"text": "on foot", "correct": true},
+        {"text": "by foot", "correct": false},
+        {"text": "in foot", "correct": false}
+      ],
+      "explanation": "«Пешком» — исключение, говорим on foot, без предлога by."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях предлог by использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I go to school by bus", "correct": true},
+        {"text": "She travels by a train", "correct": false},
+        {"text": "We go by plane", "correct": true},
+        {"text": "He goes by the car", "correct": false},
+        {"text": "They travel by taxi", "correct": true}
+      ],
+      "explanation": "После by транспорт идёт без артикля: by bus, by plane, by taxi."
+    },
+    {
+      "type": "dropdown",
+      "text": "She travels ___ train.",
+      "options": [
+        {"text": "by", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "Способ передвижения выражается предлогом by."
+    },
+    {
+      "type": "dropdown",
+      "text": "My friend goes to school ___ (пешком).",
+      "options": [
+        {"text": "on foot", "correct": true},
+        {"text": "by foot", "correct": false},
+        {"text": "by walk", "correct": false}
+      ],
+      "explanation": "Пешком — исключение: on foot."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: I go to school ___ bus.",
+      "answer": "by",
+      "explanation": "Способ передвижения выражается предлогом by."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши фразу: My friend goes to school ___ (пешком, 2 слова).",
+      "answer": "on foot",
+      "explanation": "«Пешком» — on foot."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "by car", "right": "на машине"},
+        {"left": "by train", "right": "на поезде"},
+        {"left": "by plane", "right": "на самолёте"},
+        {"left": "on foot", "right": "пешком"}
+      ],
+      "explanation": "Проверь по правилу из урока: by + транспорт, но on foot."
+    }
+  ]
+}

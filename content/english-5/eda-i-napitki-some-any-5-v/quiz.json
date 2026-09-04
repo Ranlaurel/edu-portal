@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «sugar»?",
+      "options": [
+        {"text": "сахар", "correct": true},
+        {"text": "сыр", "correct": false},
+        {"text": "рис", "correct": false}
+      ],
+      "explanation": "«Sugar» — сахар."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «сладости»?",
+      "options": [
+        {"text": "sweets", "correct": true},
+        {"text": "bread", "correct": false},
+        {"text": "milk", "correct": false}
+      ],
+      "explanation": "«Сладости» — sweets."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «juice»?",
+      "options": [
+        {"text": "сок", "correct": true},
+        {"text": "вода", "correct": false},
+        {"text": "молоко", "correct": false}
+      ],
+      "explanation": "«Juice» — сок."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к напиткам? (выбери все верные варианты)",
+      "options": [
+        {"text": "juice", "correct": true},
+        {"text": "milk", "correct": true},
+        {"text": "water", "correct": true},
+        {"text": "bread", "correct": false},
+        {"text": "egg", "correct": false}
+      ],
+      "explanation": "Juice, milk, water — напитки (drinks). Bread (хлеб) и egg (яйцо) — еда, а не напитки."
+    },
+    {
+      "type": "dropdown",
+      "text": "Can I have some ___, please? — я прошу сок.",
+      "options": [
+        {"text": "juice", "correct": true},
+        {"text": "rice", "correct": false},
+        {"text": "cheese", "correct": false}
+      ],
+      "explanation": "«Сок» — juice, поэтому подходит именно это слово."
+    },
+    {
+      "type": "dropdown",
+      "text": "We need ___ and eggs for dinner. — нам нужен рис и яйца.",
+      "options": [
+        {"text": "rice", "correct": true},
+        {"text": "sugar", "correct": false},
+        {"text": "juice", "correct": false}
+      ],
+      "explanation": "«Рис» — rice, это слово подходит по смыслу предложения из урока."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: рис",
+      "answer": "rice",
+      "explanation": "«Рис» переводится как rice."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: яйцо",
+      "answer": "egg",
+      "explanation": "«Яйцо» переводится как egg."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "bread", "right": "хлеб"},
+        {"left": "cheese", "right": "сыр"},
+        {"left": "drink", "right": "напиток"},
+        {"left": "apple", "right": "яблоко"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

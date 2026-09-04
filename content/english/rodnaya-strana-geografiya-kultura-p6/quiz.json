@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что сказано о территории России в диалоге?",
+      "options": [
+        {"text": "Russia is the largest country in the world by territory.", "correct": true},
+        {"text": "Russia is a small country.", "correct": false},
+        {"text": "Russia has the smallest territory in Europe.", "correct": false}
+      ],
+      "explanation": "В диалоге сказано: Russia is the largest country in the world by territory."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «population»?",
+      "options": [
+        {"text": "население", "correct": true},
+        {"text": "территория", "correct": false},
+        {"text": "культура", "correct": false}
+      ],
+      "explanation": "«Population» — население."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "В России много национальностей и языков.", "correct": true},
+        {"text": "Байкал — самое глубокое озеро в мире.", "correct": true},
+        {"text": "Волга — самая длинная река в Европе.", "correct": true},
+        {"text": "Население России около 14 миллионов.", "correct": false}
+      ],
+      "explanation": "По диалогу: много nationalities и languages, Байкал the deepest lake, Волга the longest river, население about 146 million (не 14)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Lake Baikal is the ___ (deep) lake in the world.",
+      "options": [
+        {"text": "deepest", "correct": true},
+        {"text": "deeper", "correct": false},
+        {"text": "more deep", "correct": false}
+      ],
+      "explanation": "Превосходная степень короткого прилагательного deep: the deepest."
+    },
+    {
+      "type": "dropdown",
+      "text": "The Volga is the ___ (long) river in Europe.",
+      "options": [
+        {"text": "longest", "correct": true},
+        {"text": "longer", "correct": false},
+        {"text": "most long", "correct": false}
+      ],
+      "explanation": "Превосходная степень короткого прилагательного long: the longest."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: национальность",
+      "answer": "nationality",
+      "explanation": "«Национальность» — nationality, упоминается в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: культура",
+      "answer": "culture",
+      "explanation": "«Культура» — culture, упоминается в диалоге."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "territory", "right": "территория"},
+        {"left": "lake", "right": "озеро"},
+        {"left": "river", "right": "река"},
+        {"left": "language", "right": "язык"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

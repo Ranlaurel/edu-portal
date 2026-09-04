@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «generous»?",
+      "options": [
+        {"text": "щедрый", "correct": true},
+        {"text": "жадный", "correct": false},
+        {"text": "ленивый", "correct": false}
+      ],
+      "explanation": "«Generous» — щедрый."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «stubborn»?",
+      "options": [
+        {"text": "упрямый", "correct": true},
+        {"text": "терпеливый", "correct": false},
+        {"text": "смелый", "correct": false}
+      ],
+      "explanation": "«Stubborn» — упрямый."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают положительные черты характера? (выбери все верные варианты)",
+      "options": [
+        {"text": "kind", "correct": true},
+        {"text": "rude", "correct": false},
+        {"text": "honest", "correct": true},
+        {"text": "lazy", "correct": false},
+        {"text": "generous", "correct": true}
+      ],
+      "explanation": "Kind, honest, generous — положительные черты. Rude и lazy — отрицательные."
+    },
+    {
+      "type": "dropdown",
+      "text": "Застенчивый — это ___.",
+      "options": [
+        {"text": "shy", "correct": true},
+        {"text": "brave", "correct": false},
+        {"text": "cheerful", "correct": false}
+      ],
+      "explanation": "Shy — застенчивый."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «умный»?",
+      "options": [
+        {"text": "clever", "correct": true},
+        {"text": "curious", "correct": false},
+        {"text": "polite", "correct": false}
+      ],
+      "explanation": "Clever (или smart) — умный."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: вежливый",
+      "answer": "polite",
+      "explanation": "«Вежливый» — polite."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: смелый",
+      "answer": "brave",
+      "explanation": "«Смелый» — brave."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "friendly", "right": "дружелюбный"},
+        {"left": "cheerful", "right": "весёлый"},
+        {"left": "curious", "right": "любопытный"},
+        {"left": "patient", "right": "терпеливый"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «character»?",
+      "options": [
+        {"text": "характер", "correct": true},
+        {"text": "внешность", "correct": false},
+        {"text": "привычка", "correct": false}
+      ],
+      "explanation": "«Character» — характер."
+    }
+  ]
+}

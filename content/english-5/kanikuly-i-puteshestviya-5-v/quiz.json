@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «suitcase»?",
+      "options": [
+        {"text": "чемодан", "correct": true},
+        {"text": "билет", "correct": false},
+        {"text": "сувенир", "correct": false}
+      ],
+      "explanation": "«Suitcase» — чемодан."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «за границей»?",
+      "options": [
+        {"text": "abroad", "correct": true},
+        {"text": "arrive", "correct": false},
+        {"text": "hotel", "correct": false}
+      ],
+      "explanation": "«За границей» — abroad."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают транспорт? (выбери все верные варианты)",
+      "options": [
+        {"text": "plane", "correct": true},
+        {"text": "train", "correct": true},
+        {"text": "beach", "correct": false},
+        {"text": "hotel", "correct": false},
+        {"text": "camera", "correct": false}
+      ],
+      "explanation": "Plane и train — виды транспорта. Beach, hotel, camera — не транспорт."
+    },
+    {
+      "type": "dropdown",
+      "text": "We stayed at a nice ___ (отель) near the beach.",
+      "options": [
+        {"text": "hotel", "correct": true},
+        {"text": "ticket", "correct": false},
+        {"text": "trip", "correct": false}
+      ],
+      "explanation": "«Отель» — hotel."
+    },
+    {
+      "type": "dropdown",
+      "text": "Don't forget your ticket and ___ (фотоаппарат).",
+      "options": [
+        {"text": "camera", "correct": true},
+        {"text": "souvenir", "correct": false},
+        {"text": "suitcase", "correct": false}
+      ],
+      "explanation": "«Фотоаппарат» — camera."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сувенир",
+      "answer": "souvenir",
+      "explanation": "«Сувенир» переводится как souvenir."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: горы",
+      "answer": "mountains",
+      "explanation": "«Горы» переводятся как mountains."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "holidays", "right": "каникулы"},
+        {"left": "trip", "right": "поездка"},
+        {"left": "sea", "right": "море"},
+        {"left": "beach", "right": "пляж"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

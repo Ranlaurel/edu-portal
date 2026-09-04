@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как образуется сравнительная степень короткого прилагательного quiet?",
+      "options": [
+        {"text": "quieter", "correct": true},
+        {"text": "more quiet", "correct": false},
+        {"text": "quietest", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное (1 слог): + -er → quieter."
+    },
+    {
+      "type": "single",
+      "text": "Как образуется сравнительная степень длинного прилагательного peaceful?",
+      "options": [
+        {"text": "more peaceful", "correct": true},
+        {"text": "peacefuler", "correct": false},
+        {"text": "peacefulest", "correct": false}
+      ],
+      "explanation": "Длинное прилагательное (2+ слога): more + прилагательное → more peaceful."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "The countryside is quieter than the city.", "correct": true},
+        {"text": "Village life is more peaceful than city life.", "correct": true},
+        {"text": "Life on a farm is gooder for animals.", "correct": false},
+        {"text": "The air is cleaner than in the city.", "correct": true},
+        {"text": "Life on a farm is more good for animals.", "correct": false}
+      ],
+      "explanation": "Good — исключение: сравнительная степень better, а не gooder или more good."
+    },
+    {
+      "type": "dropdown",
+      "text": "The countryside is ___ (quiet) than the city.",
+      "options": [
+        {"text": "quieter", "correct": true},
+        {"text": "more quiet", "correct": false},
+        {"text": "quiet", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное quiet: + -er → quieter."
+    },
+    {
+      "type": "dropdown",
+      "text": "Life on a farm is ___ (good) for animals than in a crowded city.",
+      "options": [
+        {"text": "better", "correct": true},
+        {"text": "gooder", "correct": false},
+        {"text": "more good", "correct": false}
+      ],
+      "explanation": "Good — исключение, сравнительная степень: better."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную форму: peaceful → more ___",
+      "answer": "peaceful",
+      "explanation": "Длинное прилагательное образует сравнительную степень через more: more peaceful."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную форму: clean → ___",
+      "answer": "cleaner",
+      "explanation": "Короткое прилагательное clean: + -er → cleaner."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини прилагательное с его сравнительной степенью",
+      "pairs": [
+        {"left": "quiet", "right": "quieter"},
+        {"left": "peaceful", "right": "more peaceful"},
+        {"left": "good", "right": "better"},
+        {"left": "bad", "right": "worse"}
+      ],
+      "explanation": "Короткие прилагательные +er, длинные — more, good/bad — исключения."
+    }
+  ]
+}

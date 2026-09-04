@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая форма подходит для единственного числа: «В лесу есть волк»?",
+      "options": [
+        {"text": "There is a wolf in the forest.", "correct": true},
+        {"text": "There are a wolf in the forest.", "correct": false},
+        {"text": "There is wolfs in the forest.", "correct": false}
+      ],
+      "explanation": "С единственным числом используем there is: there is a wolf."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильное сравнение: слон больше кролика.",
+      "options": [
+        {"text": "An elephant is bigger than a rabbit.", "correct": true},
+        {"text": "An elephant is more big than a rabbit.", "correct": false},
+        {"text": "An elephant is the biggest a rabbit.", "correct": false}
+      ],
+      "explanation": "Короткое прилагательное big образует сравнительную степень через -er: bigger than."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "There are many wild animals in the jungle.", "correct": true},
+        {"text": "A tiger is the biggest wild cat.", "correct": true},
+        {"text": "There is many wolves in the forest.", "correct": false},
+        {"text": "Wild animals are more dangerous than pets.", "correct": true},
+        {"text": "A tiger is more biggest wild cat.", "correct": false}
+      ],
+      "explanation": "С many (множественное число) нужно there are, не there is. Превосходная степень biggest не сочетается с more."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a bear in the forest.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "A bear — единственное число, значит there is."
+    },
+    {
+      "type": "dropdown",
+      "text": "A tiger is the ___ (big) wild cat.",
+      "options": [
+        {"text": "biggest", "correct": true},
+        {"text": "bigger", "correct": false},
+        {"text": "more big", "correct": false}
+      ],
+      "explanation": "Превосходная степень короткого прилагательного big: the biggest (с удвоением согласной)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: There ___ many wild animals in the jungle. (there is / there are)",
+      "answer": "are",
+      "explanation": "Many animals — множественное число, поэтому there are."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши сравнительную форму: dangerous → more ___",
+      "answer": "dangerous",
+      "explanation": "Длинное прилагательное dangerous образует сравнительную степень через more + прилагательное: more dangerous."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини правило со степенью сравнения",
+      "pairs": [
+        {"left": "big (короткое)", "right": "bigger, the biggest"},
+        {"left": "dangerous (длинное)", "right": "more dangerous, the most dangerous"},
+        {"left": "there is", "right": "единственное число"},
+        {"left": "there are", "right": "множественное число"}
+      ],
+      "explanation": "Короткие прилагательные меняются через -er/-est, длинные — через more/the most; there is/are зависит от числа существительного."
+    }
+  ]
+}

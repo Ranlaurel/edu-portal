@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «комната моих друзей» (friends — мн. число)?",
+      "options": [
+        {"text": "my friends' room", "correct": true},
+        {"text": "my friend's room", "correct": false},
+        {"text": "my friends's room", "correct": false}
+      ],
+      "explanation": "Если существительное во мн. числе оканчивается на -s, добавляем только апостроф: friends'."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «игрушки детей» (children — исключение)?",
+      "options": [
+        {"text": "the children's toys", "correct": true},
+        {"text": "the childrens' toys", "correct": false},
+        {"text": "the children toys", "correct": false}
+      ],
+      "explanation": "Children не оканчивается на -s, поэтому добавляем 's как обычно."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких словосочетаниях апостроф использован правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "my friends' bags", "correct": true},
+        {"text": "the children's toys", "correct": true},
+        {"text": "my friends's bags", "correct": false},
+        {"text": "the childrens toys", "correct": false}
+      ],
+      "explanation": "Friends (оканчивается на -s) — только апостроф. Children (не на -s) — 's."
+    },
+    {
+      "type": "dropdown",
+      "text": "My friend___ bags are new (friends, мн. число, оканчивается на -s).",
+      "options": [
+        {"text": "s'", "correct": true},
+        {"text": "'s", "correct": false},
+        {"text": "s", "correct": false}
+      ],
+      "explanation": "Множественное число на -s → только апостроф после s: friends'."
+    },
+    {
+      "type": "dropdown",
+      "text": "The ___ (children) room is big.",
+      "options": [
+        {"text": "children's", "correct": true},
+        {"text": "childrens'", "correct": false},
+        {"text": "childrens", "correct": false}
+      ],
+      "explanation": "Children — исключение, не оканчивается на -s, поэтому 's."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: комната",
+      "answer": "room",
+      "explanation": "«Комната» переводится как room."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: велосипед",
+      "answer": "bike",
+      "explanation": "«Велосипед» переводится как bike."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "bag", "right": "сумка"},
+        {"left": "toy", "right": "игрушка"},
+        {"left": "teacher", "right": "учитель"},
+        {"left": "bike", "right": "велосипед"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

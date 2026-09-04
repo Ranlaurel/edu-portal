@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «tradition»?",
+      "options": [
+        {"text": "традиция", "correct": true},
+        {"text": "праздник", "correct": false},
+        {"text": "подарок", "correct": false}
+      ],
+      "explanation": "«Tradition» — традиция."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «Рождество — мой любимый праздник»?",
+      "options": [
+        {"text": "Christmas is my favourite holiday", "correct": true},
+        {"text": "Christmas are my favourite holiday", "correct": false},
+        {"text": "Christmas favourite is my holiday", "correct": false}
+      ],
+      "explanation": "Christmas — единственное число, используем is."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к праздникам? (выбери все верные варианты)",
+      "options": [
+        {"text": "present", "correct": true},
+        {"text": "bridge", "correct": false},
+        {"text": "decorate", "correct": true},
+        {"text": "customer", "correct": false},
+        {"text": "card", "correct": true}
+      ],
+      "explanation": "Present, decorate, card — слова про праздники. Bridge и customer — не относятся к теме."
+    },
+    {
+      "type": "dropdown",
+      "text": "These cards ___ beautiful.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Cards — множественное число, используем are."
+    },
+    {
+      "type": "dropdown",
+      "text": "New Year ___ in January.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "New Year — единственное число, используем is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: украшать",
+      "answer": "decorate",
+      "explanation": "«Украшать» переводится как decorate."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: подарок",
+      "answer": "present",
+      "accepted": ["present", "gift"],
+      "explanation": "«Подарок» переводится как present или gift."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "holiday", "right": "праздник"},
+        {"left": "tree", "right": "дерево, ёлка"},
+        {"left": "card", "right": "открытка"},
+        {"left": "tradition", "right": "традиция"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

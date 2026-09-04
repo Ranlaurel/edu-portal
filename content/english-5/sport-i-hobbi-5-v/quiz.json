@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «chess»?",
+      "options": [
+        {"text": "шахматы", "correct": true},
+        {"text": "бег", "correct": false},
+        {"text": "танцы", "correct": false}
+      ],
+      "explanation": "«Chess» — шахматы."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «мне нравится читать»?",
+      "options": [
+        {"text": "I like reading", "correct": true},
+        {"text": "I like read", "correct": false},
+        {"text": "I liking read", "correct": false}
+      ],
+      "explanation": "После like используется глагол с -ing: like reading."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают виды спорта или хобби? (выбери все верные варианты)",
+      "options": [
+        {"text": "basketball", "correct": true},
+        {"text": "hospital", "correct": false},
+        {"text": "drawing", "correct": true},
+        {"text": "bridge", "correct": false},
+        {"text": "swimming", "correct": true}
+      ],
+      "explanation": "Basketball, drawing, swimming — виды спорта и хобби. Hospital и bridge — не относятся к теме."
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ dancing.",
+      "options": [
+        {"text": "loves", "correct": true},
+        {"text": "love", "correct": false},
+        {"text": "loving", "correct": false}
+      ],
+      "explanation": "Для she в Present Simple добавляем -s: loves."
+    },
+    {
+      "type": "dropdown",
+      "text": "I like ___ (read).",
+      "options": [
+        {"text": "reading", "correct": true},
+        {"text": "read", "correct": false},
+        {"text": "to reading", "correct": false}
+      ],
+      "explanation": "После like ставится глагол с окончанием -ing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: любимый",
+      "answer": "favourite",
+      "explanation": "«Любимый» переводится как favourite."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: команда",
+      "answer": "team",
+      "explanation": "«Команда» переводится как team."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "running", "right": "бег"},
+        {"left": "drawing", "right": "рисование"},
+        {"left": "reading", "right": "чтение"},
+        {"left": "football", "right": "футбол"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

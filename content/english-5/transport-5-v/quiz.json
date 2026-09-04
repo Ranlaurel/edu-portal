@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «ship»?",
+      "options": [
+        {"text": "корабль", "correct": true},
+        {"text": "поезд", "correct": false},
+        {"text": "самолёт", "correct": false}
+      ],
+      "explanation": "«Ship» — корабль."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «это такси»?",
+      "options": [
+        {"text": "This is a taxi", "correct": true},
+        {"text": "This a taxi", "correct": false},
+        {"text": "This are a taxi", "correct": false}
+      ],
+      "explanation": "This — единственное число, используем is: this is a taxi."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают виды транспорта? (выбери все верные варианты)",
+      "options": [
+        {"text": "bike", "correct": true},
+        {"text": "hospital", "correct": false},
+        {"text": "tram", "correct": true},
+        {"text": "singer", "correct": false},
+        {"text": "ship", "correct": true}
+      ],
+      "explanation": "Bike, tram, ship — виды транспорта. Hospital и singer — не относятся к теме."
+    },
+    {
+      "type": "dropdown",
+      "text": "These ___ old trams.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "These — множественное число, используем are."
+    },
+    {
+      "type": "dropdown",
+      "text": "This ___ a bike.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "This — единственное число, используем is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: велосипед",
+      "answer": "bike",
+      "explanation": "«Велосипед» переводится как bike."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: трамвай",
+      "answer": "tram",
+      "explanation": "«Трамвай» переводится как tram."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "car", "right": "машина"},
+        {"left": "train", "right": "поезд"},
+        {"left": "plane", "right": "самолёт"},
+        {"left": "bus", "right": "автобус"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

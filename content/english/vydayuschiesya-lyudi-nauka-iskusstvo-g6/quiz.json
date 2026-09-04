@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое время используется, чтобы рассказать о жизни знаменитого человека в прошлом?",
+      "options": [
+        {"text": "Past Simple", "correct": true},
+        {"text": "Present Simple", "correct": false},
+        {"text": "Present Continuous", "correct": false}
+      ],
+      "explanation": "О завершённых событиях из прошлого (биография) рассказывают в Past Simple."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильную форму: Mendeleev ___ in Tobolsk in 1834.",
+      "options": [
+        {"text": "was born", "correct": true},
+        {"text": "is born", "correct": false},
+        {"text": "born", "correct": false}
+      ],
+      "explanation": "«Родился» — was born (be born в Past Simple)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно образовать вопрос в Past Simple?",
+      "options": [
+        {"text": "did + подлежащее + глагол в начальной форме", "correct": true},
+        {"text": "подлежащее + глагол + did", "correct": false},
+        {"text": "am/is/are + подлежащее + глагол+ed", "correct": false}
+      ],
+      "explanation": "Вопрос в Past Simple строится с did, а смысловой глагол ставится в начальную форму: Did he discover anything important?"
+    },
+    {
+      "type": "multiple",
+      "text": "Какие глаголы правильно образованы в Past Simple (+ -ed)? (выбери все верные варианты)",
+      "options": [
+        {"text": "discovered", "correct": true},
+        {"text": "painted", "correct": true},
+        {"text": "composed", "correct": true},
+        {"text": "wrote", "correct": false},
+        {"text": "invent", "correct": false}
+      ],
+      "explanation": "Discovered, painted, composed — правильные глаголы (+ -ed). Wrote — неправильный глагол (write → wrote), invent — начальная форма, не прошедшее время."
+    },
+    {
+      "type": "dropdown",
+      "text": "Mendeleev ___ (discover) the periodic table.",
+      "options": [
+        {"text": "discovered", "correct": true},
+        {"text": "discover", "correct": false},
+        {"text": "discovering", "correct": false}
+      ],
+      "explanation": "Правильный глагол discover в Past Simple образует форму discovered."
+    },
+    {
+      "type": "dropdown",
+      "text": "The composer ___ (write) beautiful music.",
+      "options": [
+        {"text": "wrote", "correct": true},
+        {"text": "writed", "correct": false},
+        {"text": "write", "correct": false}
+      ],
+      "explanation": "Write — неправильный глагол, его форма прошедшего времени — wrote."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: He didn't ___ the telephone.",
+      "answer": "invent",
+      "explanation": "После didn't глагол ставится в начальной форме: didn't invent."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: What did he ___?",
+      "answer": "invent",
+      "explanation": "В вопросе с did смысловой глагол стоит в начальной форме: What did he invent?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово (начальная форма) с переводом",
+      "pairs": [
+        {"left": "discover", "right": "открывать"},
+        {"left": "invent", "right": "изобретать"},
+        {"left": "compose", "right": "сочинять (музыку)"},
+        {"left": "paint", "right": "рисовать (красками)"}
+      ],
+      "explanation": "Проверь по правилу и примерам из урока."
+    }
+  ]
+}

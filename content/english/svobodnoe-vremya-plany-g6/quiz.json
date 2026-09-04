@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «я встречаюсь с другом в субботу» (уже договорились)?",
+      "options": [
+        {"text": "I'm meeting my friend on Saturday.", "correct": true},
+        {"text": "I meet my friend on Saturday.", "correct": false},
+        {"text": "I meeting my friend on Saturday.", "correct": false}
+      ],
+      "explanation": "Для запланированных действий используем Present Continuous: am/is/are + verb-ing."
+    },
+    {
+      "type": "single",
+      "text": "We ___ a party next week.",
+      "options": [
+        {"text": "are having", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "having", "correct": false}
+      ],
+      "explanation": "Present Continuous: are + having."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях Present Continuous для будущего использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "She's visiting her grandmother tomorrow.", "correct": true},
+        {"text": "Are you going shopping this weekend?", "correct": true},
+        {"text": "She visiting her grandmother tomorrow.", "correct": false},
+        {"text": "You going shopping this weekend?", "correct": false}
+      ],
+      "explanation": "Нужен вспомогательный глагол is/are: she's visiting, are you going."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you going shopping this weekend?",
+      "options": [
+        {"text": "Are", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Do", "correct": false}
+      ],
+      "explanation": "Вопрос в Present Continuous с you: Are you going...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "She ___ visiting her grandmother tomorrow.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "does", "correct": false}
+      ],
+      "explanation": "She — вспомогательный глагол is: she is visiting."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: I'm ___ (meet) my friend on Saturday.",
+      "answer": "meeting",
+      "explanation": "Present Continuous: meeting (глагол + -ing)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: We are ___ (have) a party next week.",
+      "answer": "having",
+      "explanation": "Present Continuous: having."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I'm meeting my friend on Saturday.", "right": "Я встречаюсь с другом в субботу."},
+        {"left": "We're having a party next week.", "right": "Мы устраиваем вечеринку на следующей неделе."},
+        {"left": "She's visiting her grandmother tomorrow.", "right": "Она навещает бабушку завтра."},
+        {"left": "Are you going shopping this weekend?", "right": "Ты идёшь по магазинам в эти выходные?"}
+      ],
+      "explanation": "Проверь по правилу Present Continuous для будущего из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое слово в предложении показывает, что это будущий план, а не действие сейчас: «She's visiting her grandmother tomorrow»?",
+      "options": [
+        {"text": "tomorrow", "correct": true},
+        {"text": "visiting", "correct": false},
+        {"text": "grandmother", "correct": false}
+      ],
+      "explanation": "Слово времени tomorrow указывает на будущее."
+    }
+  ]
+}

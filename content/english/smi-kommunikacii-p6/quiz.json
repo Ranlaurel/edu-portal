@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что прочитал Дэн в газете?",
+      "options": [
+        {"text": "статью про журналистку", "correct": true},
+        {"text": "рекламу", "correct": false},
+        {"text": "прогноз погоды", "correct": false}
+      ],
+      "explanation": "Дэн говорит: I read an interesting article about a famous journalist."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «headline»?",
+      "options": [
+        {"text": "заголовок", "correct": true},
+        {"text": "статья", "correct": false},
+        {"text": "канал", "correct": false}
+      ],
+      "explanation": "«Headline» — заголовок."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Информацию можно найти на сайте.", "correct": true},
+        {"text": "Канал взял интервью у журналистки.", "correct": true},
+        {"text": "Дэн уверен, что новость правдива.", "correct": false},
+        {"text": "Дэн, возможно, посмотрит трансляцию.", "correct": true}
+      ],
+      "explanation": "По диалогу: информация есть на website, был interview на канале, Дэн не уверен в новости (might not be true), и говорит may watch that broadcast."
+    },
+    {
+      "type": "dropdown",
+      "text": "This news ___ not be true.",
+      "options": [
+        {"text": "might", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "must", "correct": false}
+      ],
+      "explanation": "Might выражает неуверенную возможность — Дэн сомневается в новости."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ watch that broadcast tonight (не уверен точно).",
+      "options": [
+        {"text": "may", "correct": true},
+        {"text": "must", "correct": false},
+        {"text": "can't", "correct": false}
+      ],
+      "explanation": "May выражает возможность, здесь используется как в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: интервью",
+      "answer": "interview",
+      "explanation": "«Интервью» — interview, упоминается в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сайт",
+      "answer": "website",
+      "explanation": "«Сайт» — website, упоминается в диалоге."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "article", "right": "статья"},
+        {"left": "journalist", "right": "журналист"},
+        {"left": "broadcast", "right": "трансляция"},
+        {"left": "channel", "right": "канал"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

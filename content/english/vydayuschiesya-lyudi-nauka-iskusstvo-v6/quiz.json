@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «scientist»?",
+      "options": [
+        {"text": "учёный", "correct": true},
+        {"text": "художник", "correct": false},
+        {"text": "гений", "correct": false}
+      ],
+      "explanation": "«Scientist» — учёный."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «genius»?",
+      "options": [
+        {"text": "гений", "correct": true},
+        {"text": "талант", "correct": false},
+        {"text": "художник", "correct": false}
+      ],
+      "explanation": "«Genius» — гений."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «achievement»?",
+      "options": [
+        {"text": "достижение", "correct": true},
+        {"text": "открытие", "correct": false},
+        {"text": "изобретение", "correct": false}
+      ],
+      "explanation": "«Achievement» — достижение. Discovery — открытие, invention — изобретение."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают действия — глаголы? (выбери все верные варианты)",
+      "options": [
+        {"text": "invent", "correct": true},
+        {"text": "discover", "correct": true},
+        {"text": "compose", "correct": true},
+        {"text": "painting", "correct": false},
+        {"text": "achievement", "correct": false}
+      ],
+      "explanation": "Invent (изобретать), discover (открывать), compose (сочинять) — глаголы. Painting (картина) и achievement (достижение) — существительные."
+    },
+    {
+      "type": "dropdown",
+      "text": "The scientist ___ a new law of physics.",
+      "options": [
+        {"text": "discovered", "correct": true},
+        {"text": "painted", "correct": false},
+        {"text": "composed", "correct": false}
+      ],
+      "explanation": "Discover — открывать (делать научное открытие), поэтому подходит discovered."
+    },
+    {
+      "type": "dropdown",
+      "text": "The artist ___ a beautiful picture.",
+      "options": [
+        {"text": "painted", "correct": true},
+        {"text": "invented", "correct": false},
+        {"text": "discovered", "correct": false}
+      ],
+      "explanation": "Paint — рисовать красками, поэтому художник painted картину."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: изобретение",
+      "answer": "invention",
+      "explanation": "«Изобретение» переводится как invention."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: талантливый",
+      "answer": "talented",
+      "explanation": "«Талантливый» переводится как talented."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "scientist", "right": "учёный"},
+        {"left": "painting", "right": "картина"},
+        {"left": "invention", "right": "изобретение"},
+        {"left": "famous", "right": "знаменитый"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

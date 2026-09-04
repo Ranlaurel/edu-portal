@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «windy»?",
+      "options": [
+        {"text": "ветрено", "correct": true},
+        {"text": "снежно", "correct": false},
+        {"text": "облачно", "correct": false}
+      ],
+      "explanation": "«Windy» — ветрено."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «зонт»?",
+      "options": [
+        {"text": "umbrella", "correct": true},
+        {"text": "weather", "correct": false},
+        {"text": "cloud", "correct": false}
+      ],
+      "explanation": "«Зонт» переводится как umbrella."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают погоду? (выбери все верные варианты)",
+      "options": [
+        {"text": "sunny", "correct": true},
+        {"text": "umbrella", "correct": false},
+        {"text": "cloudy", "correct": true},
+        {"text": "windy", "correct": true},
+        {"text": "weather", "correct": false}
+      ],
+      "explanation": "Sunny, cloudy, windy описывают погоду. Umbrella (зонт) и weather (само слово «погода») — не описания."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «жарко»:",
+      "options": [
+        {"text": "hot", "correct": true},
+        {"text": "cold", "correct": false},
+        {"text": "warm", "correct": false}
+      ],
+      "explanation": "«Hot» — жарко."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «холодно»:",
+      "options": [
+        {"text": "cold", "correct": true},
+        {"text": "warm", "correct": false},
+        {"text": "hot", "correct": false}
+      ],
+      "explanation": "«Cold» — холодно."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: тепло",
+      "answer": "warm",
+      "explanation": "«Тепло» переводится как warm."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: облачно",
+      "answer": "cloudy",
+      "explanation": "«Облачно» переводится как cloudy."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "sunny", "right": "солнечно"},
+        {"left": "rainy", "right": "дождливо"},
+        {"left": "snowy", "right": "снежно"},
+        {"left": "weather", "right": "погода"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «It's raining»?",
+      "options": [
+        {"text": "Идёт дождь", "correct": true},
+        {"text": "Идёт снег", "correct": false},
+        {"text": "Дождливо", "correct": false}
+      ],
+      "explanation": "«It's raining» описывает процесс — идёт дождь прямо сейчас."
+    }
+  ]
+}

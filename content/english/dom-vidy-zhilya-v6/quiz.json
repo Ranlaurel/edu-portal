@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «wardrobe»?",
+      "options": [
+        {"text": "шкаф", "correct": true},
+        {"text": "полка", "correct": false},
+        {"text": "диван", "correct": false}
+      ],
+      "explanation": "«Wardrobe» — шкаф для одежды."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «furniture»?",
+      "options": [
+        {"text": "мебель", "correct": true},
+        {"text": "комната", "correct": false},
+        {"text": "лестница", "correct": false}
+      ],
+      "explanation": "«Furniture» — мебель (общее слово)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают комнаты в доме? (выбери все верные варианты)",
+      "options": [
+        {"text": "kitchen", "correct": true},
+        {"text": "sofa", "correct": false},
+        {"text": "bedroom", "correct": true},
+        {"text": "shelf", "correct": false},
+        {"text": "bathroom", "correct": true}
+      ],
+      "explanation": "Kitchen, bedroom, bathroom — комнаты. Sofa и shelf — мебель."
+    },
+    {
+      "type": "dropdown",
+      "text": "Машину держат в ___.",
+      "options": [
+        {"text": "garage", "correct": true},
+        {"text": "garden", "correct": false},
+        {"text": "living room", "correct": false}
+      ],
+      "explanation": "Garage — гараж, где держат машину."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «диван»?",
+      "options": [
+        {"text": "sofa", "correct": true},
+        {"text": "shelf", "correct": false},
+        {"text": "lamp", "correct": false}
+      ],
+      "explanation": "Sofa (или couch) — диван."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: лестница",
+      "answer": "stairs",
+      "explanation": "«Лестница» переводится как stairs."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: квартира",
+      "answer": "flat",
+      "accepted": ["flat", "apartment"],
+      "explanation": "«Квартира» — flat (британский вариант) или apartment."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "shelf", "right": "полка"},
+        {"left": "lamp", "right": "лампа"},
+        {"left": "garden", "right": "сад"},
+        {"left": "living room", "right": "гостиная"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «room»?",
+      "options": [
+        {"text": "комната", "correct": true},
+        {"text": "дом", "correct": false},
+        {"text": "гараж", "correct": false}
+      ],
+      "explanation": "«Room» — комната."
+    }
+  ]
+}

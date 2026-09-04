@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «garden»?",
+      "options": [
+        {"text": "сад", "correct": true},
+        {"text": "гостиная", "correct": false},
+        {"text": "кухня", "correct": false}
+      ],
+      "explanation": "«Garden» — сад."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «спальня»?",
+      "options": [
+        {"text": "bedroom", "correct": true},
+        {"text": "bathroom", "correct": false},
+        {"text": "living room", "correct": false}
+      ],
+      "explanation": "«Спальня» переводится как bedroom."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают комнаты в доме? (выбери все верные варианты)",
+      "options": [
+        {"text": "bedroom", "correct": true},
+        {"text": "window", "correct": false},
+        {"text": "kitchen", "correct": true},
+        {"text": "bathroom", "correct": true},
+        {"text": "wall", "correct": false}
+      ],
+      "explanation": "Bedroom, kitchen, bathroom — комнаты. Window (окно) и wall (стена) — части комнаты, не комнаты."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «квартира»:",
+      "options": [
+        {"text": "flat", "correct": true},
+        {"text": "house", "correct": false},
+        {"text": "room", "correct": false}
+      ],
+      "explanation": "«Flat» — квартира."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «дверь»:",
+      "options": [
+        {"text": "door", "correct": true},
+        {"text": "window", "correct": false},
+        {"text": "wall", "correct": false}
+      ],
+      "explanation": "«Door» — дверь."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: гостиная",
+      "answer": "living room",
+      "explanation": "«Гостиная» переводится как living room."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: стена",
+      "answer": "wall",
+      "explanation": "«Стена» переводится как wall."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "house", "right": "дом"},
+        {"left": "window", "right": "окно"},
+        {"left": "floor", "right": "пол / этаж"},
+        {"left": "room", "right": "комната"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «bathroom»?",
+      "options": [
+        {"text": "ванная", "correct": true},
+        {"text": "спальня", "correct": false},
+        {"text": "кухня", "correct": false}
+      ],
+      "explanation": "«Bathroom» — ванная."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «underground»?",
+      "options": [
+        {"text": "метро", "correct": true},
+        {"text": "трамвай", "correct": false},
+        {"text": "вокзал", "correct": false}
+      ],
+      "explanation": "«Underground» (British English) — метро."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «monument»?",
+      "options": [
+        {"text": "памятник", "correct": true},
+        {"text": "мост", "correct": false},
+        {"text": "площадь", "correct": false}
+      ],
+      "explanation": "«Monument» — памятник."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к транспорту? (выбери все верные варианты)",
+      "options": [
+        {"text": "tram", "correct": true},
+        {"text": "taxi", "correct": true},
+        {"text": "church", "correct": false},
+        {"text": "bus", "correct": true},
+        {"text": "museum", "correct": false}
+      ],
+      "explanation": "Tram, taxi, bus — виды транспорта. Church и museum — здания/достопримечательности."
+    },
+    {
+      "type": "dropdown",
+      "text": "Место, где хранят книги — это ___.",
+      "options": [
+        {"text": "library", "correct": true},
+        {"text": "station", "correct": false},
+        {"text": "church", "correct": false}
+      ],
+      "explanation": "«Library» — библиотека."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как назвать место, где останавливается автобус? ___",
+      "options": [
+        {"text": "bus stop", "correct": true},
+        {"text": "bus station", "correct": false},
+        {"text": "bridge", "correct": false}
+      ],
+      "explanation": "«Bus stop» — автобусная остановка."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: площадь",
+      "answer": "square",
+      "explanation": "«Площадь» переводится как square."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: мост",
+      "answer": "bridge",
+      "explanation": "«Мост» переводится как bridge."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "church", "right": "церковь"},
+        {"left": "street", "right": "улица"},
+        {"left": "station", "right": "станция, вокзал"},
+        {"left": "park", "right": "парк"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «transport»?",
+      "options": [
+        {"text": "транспорт", "correct": true},
+        {"text": "туризм", "correct": false},
+        {"text": "путешествие", "correct": false}
+      ],
+      "explanation": "«Transport» — транспорт."
+    }
+  ]
+}

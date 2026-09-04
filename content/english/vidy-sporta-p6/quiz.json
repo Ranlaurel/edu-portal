@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "What sport do you play? — I play ___ with my team.",
+      "options": [
+        {"text": "basketball", "correct": true},
+        {"text": "swimming", "correct": false},
+        {"text": "running", "correct": false}
+      ],
+      "explanation": "Basketball — игра с мячом в команде, используется play."
+    },
+    {
+      "type": "single",
+      "text": "Do you do any exercise? — Yes, I do ___ twice a week.",
+      "options": [
+        {"text": "gymnastics", "correct": true},
+        {"text": "football", "correct": false},
+        {"text": "tennis", "correct": false}
+      ],
+      "explanation": "Gymnastics — вид спорта без мяча и команды, используется do."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы правильные? (выбери все верные варианты)",
+      "options": [
+        {"text": "go running", "correct": true},
+        {"text": "play chess", "correct": true},
+        {"text": "do football", "correct": false},
+        {"text": "go gymnastics", "correct": false},
+        {"text": "do gymnastics", "correct": true}
+      ],
+      "explanation": "Go running, play chess и do gymnastics — правильные сочетания глагола и вида спорта."
+    },
+    {
+      "type": "dropdown",
+      "text": "Does your sister ___ swimming?",
+      "options": [
+        {"text": "go", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "Swimming оканчивается на -ing, используется go."
+    },
+    {
+      "type": "dropdown",
+      "text": "My favourite athlete ___ volleyball every day at training.",
+      "options": [
+        {"text": "plays", "correct": true},
+        {"text": "does", "correct": false},
+        {"text": "goes", "correct": false}
+      ],
+      "explanation": "Volleyball — игра с мячом, глагол play, athlete — he/she, добавляем -s."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: We ___ (do) exercises every morning.",
+      "answer": "do",
+      "explanation": "Exercises — упражнения без мяча и команды, используется do, we без -s."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: She ___ (play) chess with her friend.",
+      "answer": "plays",
+      "explanation": "Chess — соревновательная игра, глагол play, для she добавляем -s."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с подходящим ответом",
+      "pairs": [
+        {"left": "What sport do you play?", "right": "I play basketball."},
+        {"left": "Do you do any exercise?", "right": "Yes, I do gymnastics."},
+        {"left": "Does she go swimming?", "right": "No, she plays chess."},
+        {"left": "Where does he train?", "right": "He trains with his team."}
+      ],
+      "explanation": "Ответы соответствуют вопросам по смыслу диалога о спорте."
+    },
+    {
+      "type": "single",
+      "text": "They ___ skiing in winter.",
+      "options": [
+        {"text": "go", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "Skiing оканчивается на -ing, используется глагол go."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое слово используется в утвердительных предложениях?",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "no", "correct": false}
+      ],
+      "explanation": "Some используется в утверждениях."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «у тебя есть молоко?»",
+      "options": [
+        {"text": "Do you have any milk?", "correct": true},
+        {"text": "Do you have some milk?", "correct": false},
+        {"text": "Do you have milk any?", "correct": false}
+      ],
+      "explanation": "В обычных вопросах используется any."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях some/any использованы верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I want some apples", "correct": true},
+        {"text": "There isn't any bread", "correct": true},
+        {"text": "Do you have some apples", "correct": false},
+        {"text": "I want any apples", "correct": false},
+        {"text": "Can I have some water, please?", "correct": true}
+      ],
+      "explanation": "Some — в утверждениях и вежливых просьбах, any — в обычных вопросах и отрицаниях."
+    },
+    {
+      "type": "dropdown",
+      "text": "There isn't ___ bread in the shop.",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В отрицаниях используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "Can I have ___ water, please? (вежливая просьба)",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "no", "correct": false}
+      ],
+      "explanation": "В вежливой просьбе, даже в вопросе, используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I have ___ money (утверждение).",
+      "answer": "some",
+      "explanation": "В утвердительных предложениях используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Do you have ___ apples? (вопрос).",
+      "answer": "any",
+      "explanation": "В обычных вопросах используется any."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини тип предложения с нужным словом",
+      "pairs": [
+        {"left": "утверждение", "right": "some"},
+        {"left": "обычный вопрос", "right": "any"},
+        {"left": "отрицание", "right": "any"},
+        {"left": "вежливая просьба", "right": "some"}
+      ],
+      "explanation": "Проверь по правилу: some — утверждение/просьба, any — вопрос/отрицание."
+    }
+  ]
+}

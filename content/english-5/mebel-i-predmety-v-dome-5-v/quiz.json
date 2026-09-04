@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «wardrobe»?",
+      "options": [
+        {"text": "шкаф", "correct": true},
+        {"text": "полка", "correct": false},
+        {"text": "диван", "correct": false}
+      ],
+      "explanation": "«Wardrobe» — шкаф для одежды."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «диван»?",
+      "options": [
+        {"text": "sofa", "correct": true},
+        {"text": "bed", "correct": false},
+        {"text": "chair", "correct": false}
+      ],
+      "explanation": "«Диван» переводится как sofa."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают мебель? (выбери все верные варианты)",
+      "options": [
+        {"text": "table", "correct": true},
+        {"text": "carpet", "correct": false},
+        {"text": "chair", "correct": true},
+        {"text": "wardrobe", "correct": true},
+        {"text": "clock", "correct": false}
+      ],
+      "explanation": "Table, chair, wardrobe — мебель. Carpet (ковёр) и clock (часы) — предметы интерьера, не мебель."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «полка»:",
+      "options": [
+        {"text": "shelf", "correct": true},
+        {"text": "lamp", "correct": false},
+        {"text": "mirror", "correct": false}
+      ],
+      "explanation": "«Shelf» — полка."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «холодильник»:",
+      "options": [
+        {"text": "fridge", "correct": true},
+        {"text": "lamp", "correct": false},
+        {"text": "clock", "correct": false}
+      ],
+      "explanation": "«Fridge» — холодильник."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: зеркало",
+      "answer": "mirror",
+      "explanation": "«Зеркало» переводится как mirror."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: мебель",
+      "answer": "furniture",
+      "explanation": "«Мебель» переводится как furniture."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "bed", "right": "кровать"},
+        {"left": "lamp", "right": "лампа"},
+        {"left": "carpet", "right": "ковёр"},
+        {"left": "clock", "right": "часы"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «table»?",
+      "options": [
+        {"text": "стол", "correct": true},
+        {"text": "стул", "correct": false},
+        {"text": "полка", "correct": false}
+      ],
+      "explanation": "«Table» — стол."
+    }
+  ]
+}

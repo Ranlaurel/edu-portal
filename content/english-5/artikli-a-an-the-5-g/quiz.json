@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой артикль нужен перед словом «apple»?",
+      "options": [
+        {"text": "an", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Apple начинается с гласного звука, поэтому an."
+    },
+    {
+      "type": "single",
+      "text": "Какой артикль нужен перед словом «student»?",
+      "options": [
+        {"text": "a", "correct": true},
+        {"text": "an", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Student начинается с согласного звука, поэтому a."
+    },
+    {
+      "type": "multiple",
+      "text": "Перед какими словами нужен артикль «an»? (выбери все верные варианты)",
+      "options": [
+        {"text": "orange", "correct": true},
+        {"text": "hour", "correct": true},
+        {"text": "student", "correct": false},
+        {"text": "umbrella", "correct": true}
+      ],
+      "explanation": "Orange, hour (h не читается), umbrella начинаются с гласного звука. Student — с согласного."
+    },
+    {
+      "type": "dropdown",
+      "text": "I have got ___ egg.",
+      "options": [
+        {"text": "an", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Egg начинается с гласного звука, поэтому an."
+    },
+    {
+      "type": "dropdown",
+      "text": "This is ___ umbrella.",
+      "options": [
+        {"text": "an", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "the", "correct": false}
+      ],
+      "explanation": "Umbrella начинается с гласного звука, поэтому an."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши артикль: ___ hour (час, буква h не читается).",
+      "answer": "an",
+      "explanation": "Hour начинается с гласного звука (h не читается), поэтому an."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: зонт",
+      "answer": "umbrella",
+      "explanation": "«Зонт» переводится как umbrella."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово с нужным артиклем",
+      "pairs": [
+        {"left": "apple", "right": "an"},
+        {"left": "student", "right": "a"},
+        {"left": "orange", "right": "an"},
+        {"left": "egg", "right": "an"}
+      ],
+      "explanation": "An — перед гласным звуком, a — перед согласным."
+    },
+    {
+      "type": "single",
+      "text": "Переведи слово «hour».",
+      "options": [
+        {"text": "час", "correct": true},
+        {"text": "яйцо", "correct": false},
+        {"text": "ученик", "correct": false}
+      ],
+      "explanation": "«Hour» — час."
+    }
+  ]
+}

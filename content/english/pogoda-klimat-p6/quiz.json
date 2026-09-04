@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая погода прямо сейчас по диалогу?",
+      "options": [
+        {"text": "it is raining", "correct": true},
+        {"text": "it is snowing", "correct": false},
+        {"text": "it is sunny", "correct": false}
+      ],
+      "explanation": "Макс говорит: it is raining right now."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «forecast»?",
+      "options": [
+        {"text": "прогноз", "correct": true},
+        {"text": "температура", "correct": false},
+        {"text": "сезон", "correct": false}
+      ],
+      "explanation": "«Forecast» — прогноз погоды."
+    },
+    {
+      "type": "multiple",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "Сейчас идёт дождь.", "correct": true},
+        {"text": "Обычно осенью здесь влажный климат.", "correct": true},
+        {"text": "Кейт любит дождливые дни.", "correct": false},
+        {"text": "Температура около десяти градусов.", "correct": true}
+      ],
+      "explanation": "По диалогу: сейчас дождь, климат обычно wet осенью, Кейт не любит rainy дни, температура about ten degrees."
+    },
+    {
+      "type": "dropdown",
+      "text": "Right now it ___ (rain).",
+      "options": [
+        {"text": "is raining", "correct": true},
+        {"text": "rains", "correct": false},
+        {"text": "rain", "correct": false}
+      ],
+      "explanation": "Действие происходит сейчас — Present Continuous."
+    },
+    {
+      "type": "dropdown",
+      "text": "The climate here ___ (be) usually wet in autumn.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "is being", "correct": false}
+      ],
+      "explanation": "Общий факт о климате — Present Simple: is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: градус",
+      "answer": "degree",
+      "explanation": "«Градус» — degree, упоминается в диалоге."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово из диалога: I don't like rainy and ___ days. (туманные)",
+      "answer": "foggy",
+      "explanation": "«Туманный» — foggy."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "forecast", "right": "прогноз"},
+        {"left": "wet", "right": "влажный"},
+        {"left": "cold", "right": "холодный"},
+        {"left": "season", "right": "время года"}
+      ],
+      "explanation": "Проверь по диалогу и словам из урока."
+    }
+  ]
+}

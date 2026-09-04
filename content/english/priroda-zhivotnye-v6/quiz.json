@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «fur»?",
+      "options": [
+        {"text": "шерсть", "correct": true},
+        {"text": "хвост", "correct": false},
+        {"text": "лес", "correct": false}
+      ],
+      "explanation": "«Fur» — шерсть животного."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «dangerous»?",
+      "options": [
+        {"text": "опасный", "correct": true},
+        {"text": "дикий", "correct": false},
+        {"text": "домашний", "correct": false}
+      ],
+      "explanation": "«Dangerous» — опасный."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают диких животных? (выбери все верные варианты)",
+      "options": [
+        {"text": "lion", "correct": true},
+        {"text": "hamster", "correct": false},
+        {"text": "wolf", "correct": true},
+        {"text": "tiger", "correct": true},
+        {"text": "pet", "correct": false}
+      ],
+      "explanation": "Lion, wolf, tiger — дикие животные. Hamster обычно pet (домашнее), а pet вообще означает «домашнее животное»."
+    },
+    {
+      "type": "dropdown",
+      "text": "Место, где живёт много диких животных в тропиках — это ___.",
+      "options": [
+        {"text": "jungle", "correct": true},
+        {"text": "tail", "correct": false},
+        {"text": "fur", "correct": false}
+      ],
+      "explanation": "«Jungle» — джунгли."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как называется маленький домашний грызун? ___",
+      "options": [
+        {"text": "hamster", "correct": true},
+        {"text": "wolf", "correct": false},
+        {"text": "elephant", "correct": false}
+      ],
+      "explanation": "«Hamster» — хомяк."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: хвост",
+      "answer": "tail",
+      "explanation": "«Хвост» переводится как tail."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: лес",
+      "answer": "forest",
+      "explanation": "«Лес» переводится как forest."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "elephant", "right": "слон"},
+        {"left": "bear", "right": "медведь"},
+        {"left": "fox", "right": "лиса"},
+        {"left": "rabbit", "right": "кролик"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «pet»?",
+      "options": [
+        {"text": "домашнее животное", "correct": true},
+        {"text": "дикое животное", "correct": false},
+        {"text": "лес", "correct": false}
+      ],
+      "explanation": "«Pet» — домашнее животное."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «arrangement»?",
+      "options": [
+        {"text": "договорённость", "correct": true},
+        {"text": "план", "correct": false},
+        {"text": "выходные", "correct": false}
+      ],
+      "explanation": "«Arrangement» — договорённость."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «relax»?",
+      "options": [
+        {"text": "отдыхать, расслабляться", "correct": true},
+        {"text": "навещать", "correct": false},
+        {"text": "гулять", "correct": false}
+      ],
+      "explanation": "«Relax» — отдыхать, расслабляться."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы обозначают занятия на выходных? (выбери все верные варианты)",
+      "options": [
+        {"text": "go shopping", "correct": true},
+        {"text": "arrangement", "correct": false},
+        {"text": "watch a film", "correct": true},
+        {"text": "have a party", "correct": true},
+        {"text": "tomorrow", "correct": false}
+      ],
+      "explanation": "Go shopping, watch a film, have a party — занятия. Arrangement и tomorrow — не занятия."
+    },
+    {
+      "type": "dropdown",
+      "text": "Оставаться дома — это ___.",
+      "options": [
+        {"text": "stay at home", "correct": true},
+        {"text": "go for a walk", "correct": false},
+        {"text": "visit", "correct": false}
+      ],
+      "explanation": "Stay at home — оставаться дома."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «навещать»?",
+      "options": [
+        {"text": "visit", "correct": true},
+        {"text": "meet", "correct": false},
+        {"text": "relax", "correct": false}
+      ],
+      "explanation": "Visit — навещать."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: план",
+      "answer": "plan",
+      "explanation": "«План» — plan."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: завтра",
+      "answer": "tomorrow",
+      "explanation": "«Завтра» — tomorrow."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английскую фразу с переводом",
+      "pairs": [
+        {"left": "meet friends", "right": "встречаться с друзьями"},
+        {"left": "go for a walk", "right": "гулять"},
+        {"left": "next week", "right": "на следующей неделе"},
+        {"left": "free time", "right": "свободное время"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «on Saturday»?",
+      "options": [
+        {"text": "в субботу", "correct": true},
+        {"text": "на выходных", "correct": false},
+        {"text": "завтра", "correct": false}
+      ],
+      "explanation": "«On Saturday» — в субботу."
+    }
+  ]
+}

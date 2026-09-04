@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что есть в холодильнике у Тома, по диалогу?",
+      "options": [
+        {"text": "some vegetables and some fish", "correct": true},
+        {"text": "some milk and bread", "correct": false},
+        {"text": "some sweets and sugar", "correct": false}
+      ],
+      "explanation": "Том говорит: we have some vegetables and some fish in the fridge."
+    },
+    {
+      "type": "single",
+      "text": "Есть ли молоко в холодильнике?",
+      "options": [
+        {"text": "No, there isn't any milk.", "correct": true},
+        {"text": "Yes, there is some milk.", "correct": false},
+        {"text": "There is a lot of milk.", "correct": false}
+      ],
+      "explanation": "Том говорит: No, there isn't any milk."
+    },
+    {
+      "type": "multiple",
+      "text": "Что решили не есть сегодня мама и Том? (выбери все верные варианты)",
+      "options": [
+        {"text": "sweets", "correct": true},
+        {"text": "too much sugar", "correct": true},
+        {"text": "vegetables", "correct": false},
+        {"text": "fish", "correct": false}
+      ],
+      "explanation": "Мама говорит: Let's not eat any sweets today — too much sugar is unhealthy."
+    },
+    {
+      "type": "dropdown",
+      "text": "Is there ___ milk left?",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В вопросе используется any, а не some."
+    },
+    {
+      "type": "dropdown",
+      "text": "We have ___ bread and rice.",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В утвердительном предложении используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I'll have some fruit as a ___ (перекус).",
+      "answer": "snack",
+      "explanation": "«Перекус» — snack."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: too much ___ is unhealthy (сахар).",
+      "answer": "sugar",
+      "explanation": "«Сахар» — sugar."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "too much sugar", "right": "слишком много сахара"},
+        {"left": "isn't any milk", "right": "нет молока"},
+        {"left": "some fruit as a snack", "right": "немного фруктов на перекус"},
+        {"left": "healthy food", "right": "полезная еда"}
+      ],
+      "explanation": "Проверь по диалогу мамы и Тома."
+    },
+    {
+      "type": "single",
+      "text": "Что Том съест вместо сладостей?",
+      "options": [
+        {"text": "some fruit", "correct": true},
+        {"text": "some rice", "correct": false},
+        {"text": "some bread", "correct": false}
+      ],
+      "explanation": "Том говорит: I'll have some fruit as a snack instead."
+    }
+  ]
+}

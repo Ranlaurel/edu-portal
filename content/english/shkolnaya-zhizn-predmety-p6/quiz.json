@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "We have Maths ___ 9 o'clock ___ Mondays.",
+      "options": [
+        {"text": "at / on", "correct": true},
+        {"text": "on / at", "correct": false},
+        {"text": "in / on", "correct": false}
+      ],
+      "explanation": "Точное время требует at, дни недели требуют on."
+    },
+    {
+      "type": "single",
+      "text": "The lesson starts in the morning and we have a break after ___.",
+      "options": [
+        {"text": "science", "correct": true},
+        {"text": "break", "correct": false},
+        {"text": "timetable", "correct": false}
+      ],
+      "explanation": "Science — школьный предмет, логично подходит по смыслу диалога."
+    },
+    {
+      "type": "multiple",
+      "text": "Что из этого правильно описывает школьное расписание? (выбери все верные варианты)",
+      "options": [
+        {"text": "We have PE on Fridays.", "correct": true},
+        {"text": "School begins in September.", "correct": true},
+        {"text": "The lesson starts on 9 o'clock.", "correct": false},
+        {"text": "We have History on Tuesdays.", "correct": true},
+        {"text": "Break starts in Monday.", "correct": false}
+      ],
+      "explanation": "Правильные предложения используют верные предлоги: on для дней недели, in для месяцев, at для точного времени."
+    },
+    {
+      "type": "dropdown",
+      "text": "I have PE ___ Fridays and I always take my schoolbag.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "at", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "Дни недели требуют предлога on."
+    },
+    {
+      "type": "dropdown",
+      "text": "Our exam starts at 10 o'clock ___ September.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "Месяц требует предлога in."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: The exam is ___ 1st September.",
+      "answer": "on",
+      "explanation": "Даты требуют предлога on."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: We ___ (have) Art at 11 o'clock on Wednesdays.",
+      "answer": "have",
+      "explanation": "We — множественное число, глагол без -s: have."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини начало предложения с его завершением",
+      "pairs": [
+        {"left": "We have Maths", "right": "at 9 o'clock on Mondays."},
+        {"left": "The exam starts", "right": "at 10 o'clock in September."},
+        {"left": "I have PE", "right": "on Fridays."},
+        {"left": "I got a good mark", "right": "in geography."}
+      ],
+      "explanation": "Части предложений соответствуют по смыслу расписанию из урока."
+    },
+    {
+      "type": "single",
+      "text": "When ___ the History lesson start?",
+      "options": [
+        {"text": "does", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "is", "correct": false}
+      ],
+      "explanation": "Вопрос в Present Simple для he/she/it (the lesson) строится с does."
+    }
+  ]
+}

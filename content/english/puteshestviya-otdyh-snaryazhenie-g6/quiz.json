@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную форму: We ___ travel to Spain this summer.",
+      "options": [
+        {"text": "are going to", "correct": true},
+        {"text": "is going to", "correct": false},
+        {"text": "go to", "correct": false}
+      ],
+      "explanation": "We требует формы are going to."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верную форму: My family ___ go camping next weekend.",
+      "options": [
+        {"text": "is going to", "correct": true},
+        {"text": "are going to", "correct": false},
+        {"text": "am going to", "correct": false}
+      ],
+      "explanation": "Family — единственное число (it), требует формы is going to."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения выражают заранее спланированное будущее (going to)? (выбери все верные варианты)",
+      "options": [
+        {"text": "We are going to go to the mountains.", "correct": true},
+        {"text": "She is going to pack a tent.", "correct": true},
+        {"text": "I usually travel by plane.", "correct": false},
+        {"text": "They are going to travel abroad.", "correct": true},
+        {"text": "He works in a hotel.", "correct": false}
+      ],
+      "explanation": "Предложения с going to выражают конкретный план на будущее. Остальные — привычки и факты (Present Simple)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Are you ___ pack a tent?",
+      "options": [
+        {"text": "going to", "correct": true},
+        {"text": "go to", "correct": false},
+        {"text": "will", "correct": false}
+      ],
+      "explanation": "Вопрос о плане строится с going to: Are you going to...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "I am not ___ forget my passport!",
+      "options": [
+        {"text": "going to", "correct": true},
+        {"text": "go to", "correct": false},
+        {"text": "will", "correct": false}
+      ],
+      "explanation": "Отрицание с going to: am not going to."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: We ___ (go) to the mountains next month.",
+      "answer": "are going to go",
+      "explanation": "План на будущее: are going to go."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: She ___ (travel) abroad next year.",
+      "answer": "is going to travel",
+      "explanation": "She требует is going to travel — план на будущее."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини подлежащее с правильной формой going to",
+      "pairs": [
+        {"left": "I", "right": "am going to"},
+        {"left": "We", "right": "are going to"},
+        {"left": "She", "right": "is going to"},
+        {"left": "They", "right": "are going to"}
+      ],
+      "explanation": "Форма be (am/is/are) в going to зависит от подлежащего."
+    },
+    {
+      "type": "single",
+      "text": "I ___ take a backpack for the trip.",
+      "options": [
+        {"text": "am going to", "correct": true},
+        {"text": "is going to", "correct": false},
+        {"text": "are going to", "correct": false}
+      ],
+      "explanation": "I требует формы am going to."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «free time»?",
+      "options": [
+        {"text": "свободное время", "correct": true},
+        {"text": "после школы", "correct": false},
+        {"text": "каждые выходные", "correct": false}
+      ],
+      "explanation": "«Free time» — свободное время."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «мы плаваем два раза в неделю»?",
+      "options": [
+        {"text": "We go swimming twice a week", "correct": true},
+        {"text": "We play swimming twice a week", "correct": false},
+        {"text": "We go swim twice a week", "correct": false}
+      ],
+      "explanation": "Swimming — хобби на -ing, используется с go: go swimming."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы обозначают время/частоту? (выбери все верные варианты)",
+      "options": [
+        {"text": "every weekend", "correct": true},
+        {"text": "shop assistant", "correct": false},
+        {"text": "twice a week", "correct": true},
+        {"text": "turn left", "correct": false},
+        {"text": "after school", "correct": true}
+      ],
+      "explanation": "Every weekend, twice a week, after school — фразы времени/частоты."
+    },
+    {
+      "type": "dropdown",
+      "text": "My sister likes drawing ___ (после школы).",
+      "options": [
+        {"text": "after school", "correct": true},
+        {"text": "every weekend", "correct": false},
+        {"text": "twice a week", "correct": false}
+      ],
+      "explanation": "«После школы» — after school."
+    },
+    {
+      "type": "dropdown",
+      "text": "In my free time I ___ chess.",
+      "options": [
+        {"text": "play", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "Chess — настольная игра, используется play."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: выходные (в фразе every weekend)",
+      "answer": "weekend",
+      "explanation": "«Weekend» — выходные."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши фразу: We play basketball ___ weekend (каждые).",
+      "answer": "every",
+      "explanation": "«Каждые» — every."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом",
+      "pairs": [
+        {"left": "every weekend", "right": "каждые выходные"},
+        {"left": "twice a week", "right": "два раза в неделю"},
+        {"left": "after school", "right": "после школы"},
+        {"left": "free time", "right": "свободное время"}
+      ],
+      "explanation": "Проверь по таблице фраз из урока."
+    }
+  ]
+}

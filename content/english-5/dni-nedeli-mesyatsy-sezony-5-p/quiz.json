@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как ответить на «What day is it today?», если сегодня воскресенье?",
+      "options": [
+        {"text": "It's Sunday.", "correct": true},
+        {"text": "It's on Sunday.", "correct": false},
+        {"text": "It's in Sunday.", "correct": false}
+      ],
+      "explanation": "Отвечаем просто It's + день недели, без лишнего предлога."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Мой день рождения в январе»?",
+      "options": [
+        {"text": "My birthday is in January.", "correct": true},
+        {"text": "My birthday is on January.", "correct": false},
+        {"text": "My birthday in January.", "correct": false}
+      ],
+      "explanation": "С месяцами используется предлог in, и нужен глагол is."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы верно называют дни/месяцы/сезоны? (выбери все верные варианты)",
+      "options": [
+        {"text": "We have Music on Friday.", "correct": true},
+        {"text": "It's cold in autumn.", "correct": true},
+        {"text": "School starts on September.", "correct": false},
+        {"text": "My favourite season is spring.", "correct": true},
+        {"text": "My birthday is on December.", "correct": false}
+      ],
+      "explanation": "С месяцами используется in, а не on: in September, in December."
+    },
+    {
+      "type": "dropdown",
+      "text": "School doesn't start ___ September this year.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С месяцами используется предлог in."
+    },
+    {
+      "type": "dropdown",
+      "text": "We have Music ___ Friday.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "in", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "С днями недели используется предлог on."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: I don't go to school ___ summer.",
+      "answer": "in",
+      "explanation": "С временами года используется предлог in."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: моё любимое время года — My favourite ___ is summer.",
+      "answer": "season",
+      "explanation": "«Время года» переводится как season."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с правильным ответом",
+      "pairs": [
+        {"left": "What day is it today?", "right": "It's Friday."},
+        {"left": "When is your birthday?", "right": "My birthday is in December."},
+        {"left": "What's your favourite season?", "right": "My favourite season is summer."},
+        {"left": "Is it cold in winter?", "right": "Yes, it is."}
+      ],
+      "explanation": "Проверь по диалогу из урока и правилу предлогов on/in."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Осенью холодно»?",
+      "options": [
+        {"text": "It's cold in autumn.", "correct": true},
+        {"text": "It's cold on autumn.", "correct": false},
+        {"text": "It's autumn cold.", "correct": false}
+      ],
+      "explanation": "С временами года используется предлог in: in autumn."
+    }
+  ]
+}

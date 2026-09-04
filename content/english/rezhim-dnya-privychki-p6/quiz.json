@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Во сколько Бен просыпается, по диалогу?",
+      "options": [
+        {"text": "at seven", "correct": true},
+        {"text": "at eight", "correct": false},
+        {"text": "at ten", "correct": false}
+      ],
+      "explanation": "Бен говорит: I always wake up at seven."
+    },
+    {
+      "type": "single",
+      "text": "Когда Бен делает домашнее задание?",
+      "options": [
+        {"text": "after dinner", "correct": true},
+        {"text": "before breakfast", "correct": false},
+        {"text": "at school", "correct": false}
+      ],
+      "explanation": "Бен говорит: I often do homework after dinner."
+    },
+    {
+      "type": "multiple",
+      "text": "Что Бен делает утром, по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "wakes up at seven", "correct": true},
+        {"text": "takes a shower", "correct": true},
+        {"text": "does homework", "correct": false},
+        {"text": "gets dressed", "correct": true}
+      ],
+      "explanation": "Утром Бен просыпается, принимает душ и одевается; домашнее задание он делает вечером."
+    },
+    {
+      "type": "dropdown",
+      "text": "I ___ have breakfast at home (обычно).",
+      "options": [
+        {"text": "usually", "correct": true},
+        {"text": "never", "correct": false},
+        {"text": "sometimes", "correct": false}
+      ],
+      "explanation": "Бен говорит: I usually have breakfast at home."
+    },
+    {
+      "type": "dropdown",
+      "text": "I'm ___ late for bed (никогда).",
+      "options": [
+        {"text": "never", "correct": true},
+        {"text": "always", "correct": false},
+        {"text": "often", "correct": false}
+      ],
+      "explanation": "Бен говорит: I'm never late for bed."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши время: I always go to bed at ___ (десять).",
+      "answer": "ten",
+      "explanation": "Бен говорит: I always go to bed at ten."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I never go to school without ___ (есть, eat).",
+      "answer": "eating",
+      "explanation": "После without используется форма -ing: eating."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини действие Бена с временем по диалогу",
+      "pairs": [
+        {"left": "wake up", "right": "at seven"},
+        {"left": "do homework", "right": "after dinner"},
+        {"left": "go to bed", "right": "at ten"},
+        {"left": "have breakfast", "right": "usually at home"}
+      ],
+      "explanation": "Проверь по диалогу мамы и Бена."
+    },
+    {
+      "type": "single",
+      "text": "Что Бен никогда не делает без завтрака?",
+      "options": [
+        {"text": "go to school", "correct": true},
+        {"text": "do homework", "correct": false},
+        {"text": "take a shower", "correct": false}
+      ],
+      "explanation": "Бен говорит: I never go to school without eating!"
+    }
+  ]
+}

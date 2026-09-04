@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «opponent»?",
+      "options": [
+        {"text": "соперник", "correct": true},
+        {"text": "чемпион", "correct": false},
+        {"text": "команда", "correct": false}
+      ],
+      "explanation": "Opponent — соперник."
+    },
+    {
+      "type": "single",
+      "text": "Как будет «проигрывать» на английском?",
+      "options": [
+        {"text": "lose", "correct": true},
+        {"text": "win", "correct": false},
+        {"text": "score", "correct": false}
+      ],
+      "explanation": "Lose — проигрывать."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с наградами и победой? (выбери все верные варианты)",
+      "options": [
+        {"text": "medal", "correct": true},
+        {"text": "opponent", "correct": false},
+        {"text": "champion", "correct": true},
+        {"text": "win", "correct": true},
+        {"text": "lose", "correct": false}
+      ],
+      "explanation": "Medal, champion, win связаны с победой и наградами. Opponent (соперник) и lose (проигрывать) — нет."
+    },
+    {
+      "type": "dropdown",
+      "text": "She got a gold ___ at the Olympic Games.",
+      "options": [
+        {"text": "medal", "correct": true},
+        {"text": "record", "correct": false},
+        {"text": "score", "correct": false}
+      ],
+      "explanation": "Medal — медаль, за победу вручают медаль."
+    },
+    {
+      "type": "dropdown",
+      "text": "He broke the world ___.",
+      "options": [
+        {"text": "record", "correct": true},
+        {"text": "medal", "correct": false},
+        {"text": "team", "correct": false}
+      ],
+      "explanation": "Record — рекорд, «побить рекорд» = break the record."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: чемпионат",
+      "answer": "championship",
+      "explanation": "«Чемпионат» переводится как championship."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: знаменитый",
+      "answer": "famous",
+      "explanation": "«Знаменитый» переводится как famous."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "score", "right": "счёт (в игре)"},
+        {"left": "strong", "right": "сильный"},
+        {"left": "competition", "right": "соревнование"},
+        {"left": "champion", "right": "чемпион"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Our team won the ___ this year.",
+      "options": [
+        {"text": "championship", "correct": true},
+        {"text": "opponent", "correct": false},
+        {"text": "score", "correct": false}
+      ],
+      "explanation": "Championship (чемпионат) — то, что можно выиграть."
+    }
+  ]
+}

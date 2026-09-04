@@ -1,0 +1,81 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая форма используется для множественного числа?",
+      "options": [
+        {"text": "there are", "correct": true},
+        {"text": "there is", "correct": false},
+        {"text": "there be", "correct": false}
+      ],
+      "explanation": "Для множественного числа используется there are."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «на площади есть ёлка»?",
+      "options": [
+        {"text": "There is a tree in the square", "correct": true},
+        {"text": "There are a tree in the square", "correct": false},
+        {"text": "Is there a tree in the square", "correct": false}
+      ],
+      "explanation": "Tree — единственное число, используем there is."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях there is/are использованы верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "There are many presents under the tree", "correct": true},
+        {"text": "There is a party today", "correct": true},
+        {"text": "There are a firework tonight", "correct": false},
+        {"text": "There isn't any candles", "correct": false},
+        {"text": "Are there any fireworks tonight?", "correct": true}
+      ],
+      "explanation": "Firework в единственном числе требует there is, а candles во множественном требует there aren't."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ any fireworks tonight? (вопрос)",
+      "options": [
+        {"text": "Are there", "correct": true},
+        {"text": "Is there", "correct": false},
+        {"text": "There are", "correct": false}
+      ],
+      "explanation": "Fireworks — множественное число, вопрос: Are there...?"
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a party today (отрицание).",
+      "options": [
+        {"text": "isn't", "correct": true},
+        {"text": "aren't", "correct": false},
+        {"text": "not is", "correct": false}
+      ],
+      "explanation": "Party — единственное число, отрицание: there isn't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: ___ many presents under the tree (мн. число).",
+      "answer": "There are",
+      "accepted": ["there are", "There are"],
+      "explanation": "Presents — множественное число, используем there are."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: ___ a big tree in the square (ед. число).",
+      "answer": "There is",
+      "accepted": ["there is", "There is"],
+      "explanation": "Tree — единственное число, используем there is."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини форму с примером использования",
+      "pairs": [
+        {"left": "there is", "right": "a tree"},
+        {"left": "there are", "right": "many presents"},
+        {"left": "there isn't", "right": "a party today"},
+        {"left": "are there", "right": "any fireworks?"}
+      ],
+      "explanation": "There is/are по правилу единственного и множественного числа."
+    }
+  ]
+}

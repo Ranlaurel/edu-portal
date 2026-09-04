@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «celebrate»?",
+      "options": [
+        {"text": "праздновать", "correct": true},
+        {"text": "украшать", "correct": false},
+        {"text": "дарить", "correct": false}
+      ],
+      "explanation": "«Celebrate» — праздновать."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «на Новый год много салютов»?",
+      "options": [
+        {"text": "There are a lot of fireworks on New Year", "correct": true},
+        {"text": "There is a lot of fireworks on New Year", "correct": false},
+        {"text": "There are lot of firework on New Year", "correct": false}
+      ],
+      "explanation": "Fireworks — множественное число, используем there are."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к рассказу о традициях? (выбери все верные варианты)",
+      "options": [
+        {"text": "celebrate", "correct": true},
+        {"text": "customer", "correct": false},
+        {"text": "family", "correct": true},
+        {"text": "receipt", "correct": false},
+        {"text": "every year", "correct": true}
+      ],
+      "explanation": "Celebrate, family, every year — слова для рассказа о традициях."
+    },
+    {
+      "type": "dropdown",
+      "text": "We celebrate with our ___ (семья).",
+      "options": [
+        {"text": "family", "correct": true},
+        {"text": "customer", "correct": false},
+        {"text": "team", "correct": false}
+      ],
+      "explanation": "«Семья» — family."
+    },
+    {
+      "type": "dropdown",
+      "text": "Every year there ___ a big party.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "Party — единственное число, используем there is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: особенный",
+      "answer": "special",
+      "explanation": "«Особенный» — special."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши фразу: We celebrate this holiday ___ year (каждый).",
+      "answer": "every",
+      "explanation": "«Каждый» — every."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово с переводом",
+      "pairs": [
+        {"left": "celebrate", "right": "праздновать"},
+        {"left": "family", "right": "семья"},
+        {"left": "every year", "right": "каждый год"},
+        {"left": "special", "right": "особенный"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

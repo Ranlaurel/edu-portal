@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «underground»?",
+      "options": [
+        {"text": "метро", "correct": true},
+        {"text": "трамвай", "correct": false},
+        {"text": "такси", "correct": false}
+      ],
+      "explanation": "«Underground» — метро (британский вариант, также metro)."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно спросить «как ты добираешься до школы?»",
+      "options": [
+        {"text": "How do you get to school?", "correct": true},
+        {"text": "How you get to school?", "correct": false},
+        {"text": "How do get you to school?", "correct": false}
+      ],
+      "explanation": "В вопросе Present Simple: How + do + you + get to + место."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова описывают скорость транспорта? (выбери все верные варианты)",
+      "options": [
+        {"text": "fast", "correct": true},
+        {"text": "cheap", "correct": false},
+        {"text": "slow", "correct": true},
+        {"text": "expensive", "correct": false},
+        {"text": "every day", "correct": false}
+      ],
+      "explanation": "Fast и slow описывают скорость. Cheap/expensive — цену, every day — частоту."
+    },
+    {
+      "type": "dropdown",
+      "text": "I go by bus ___ (каждый день).",
+      "options": [
+        {"text": "every day", "correct": true},
+        {"text": "fast", "correct": false},
+        {"text": "slow", "correct": false}
+      ],
+      "explanation": "«Каждый день» — every day."
+    },
+    {
+      "type": "dropdown",
+      "text": "The metro is ___, but the bus is slow.",
+      "options": [
+        {"text": "fast", "correct": true},
+        {"text": "slowly", "correct": false},
+        {"text": "fastly", "correct": false}
+      ],
+      "explanation": "Fast — прилагательное и наречие одновременно, используется без -ly."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: быстрый",
+      "answer": "fast",
+      "explanation": "«Быстрый» — fast."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним словом: медленный",
+      "answer": "slow",
+      "explanation": "«Медленный» — slow."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини слово с переводом",
+      "pairs": [
+        {"left": "underground", "right": "метро"},
+        {"left": "fast", "right": "быстрый"},
+        {"left": "slow", "right": "медленный"},
+        {"left": "every day", "right": "каждый день"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

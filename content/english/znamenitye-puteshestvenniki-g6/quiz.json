@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое время используется для фактов из биографии знаменитых путешественников?",
+      "options": [
+        {"text": "Past Simple", "correct": true},
+        {"text": "Present Simple", "correct": false},
+        {"text": "Future Simple", "correct": false}
+      ],
+      "explanation": "Завершённые события в прошлом (когда родился, куда путешествовал) описываются в Past Simple."
+    },
+    {
+      "type": "single",
+      "text": "Выбери правильную форму: Christopher Columbus ___ in Italy.",
+      "options": [
+        {"text": "was born", "correct": true},
+        {"text": "is born", "correct": false},
+        {"text": "born", "correct": false}
+      ],
+      "explanation": "«Родился» — was born (be born в Past Simple)."
+    },
+    {
+      "type": "single",
+      "text": "Как образовать вопрос в Past Simple?",
+      "options": [
+        {"text": "did + подлежащее + глагол в начальной форме", "correct": true},
+        {"text": "подлежащее + глагол+ed + did", "correct": false},
+        {"text": "will + подлежащее + глагол", "correct": false}
+      ],
+      "explanation": "Вопрос в Past Simple образуется с помощью did, а смысловой глагол ставится в начальную форму."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие глаголы правильно образуют Past Simple (+ -ed)? (выбери все верные варианты)",
+      "options": [
+        {"text": "sailed", "correct": true},
+        {"text": "travelled", "correct": true},
+        {"text": "discovered", "correct": true},
+        {"text": "know", "correct": false},
+        {"text": "was", "correct": false}
+      ],
+      "explanation": "Sailed, travelled, discovered — правильные глаголы (+ -ed). Know — начальная форма, was — неправильная форма глагола be."
+    },
+    {
+      "type": "dropdown",
+      "text": "Columbus ___ (sail) to America in 1492.",
+      "options": [
+        {"text": "sailed", "correct": true},
+        {"text": "sail", "correct": false},
+        {"text": "sailing", "correct": false}
+      ],
+      "explanation": "Sail — правильный глагол, в Past Simple образует форму sailed."
+    },
+    {
+      "type": "dropdown",
+      "text": "Magellan's ship ___ (travel) around the world.",
+      "options": [
+        {"text": "travelled", "correct": true},
+        {"text": "travel", "correct": false},
+        {"text": "travels", "correct": false}
+      ],
+      "explanation": "Travel — правильный глагол, в Past Simple образует форму travelled."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицание: Columbus ___ (not/know) he had found a new continent.",
+      "answer": "didn't know",
+      "explanation": "Отрицание в Past Simple образуется с didn't + начальная форма глагола: didn't know."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши пропущенное слово: She ___ born in 1980.",
+      "answer": "was",
+      "explanation": "«Родилась» — was born, глагол be в форме прошедшего времени для she — was."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "discover", "right": "открывать"},
+        {"left": "expedition", "right": "экспедиция"},
+        {"left": "sail", "right": "плыть (на корабле)"},
+        {"left": "continent", "right": "континент"}
+      ],
+      "explanation": "Проверь по правилу и примерам из урока."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "В какую игру любит играть Том, по диалогу?",
+      "options": [
+        {"text": "board games", "correct": true},
+        {"text": "video games", "correct": false},
+        {"text": "outdoor games", "correct": false}
+      ],
+      "explanation": "Том говорит: I love board games."
+    },
+    {
+      "type": "single",
+      "text": "Сколько игроков нужно для игры Тома?",
+      "options": [
+        {"text": "four", "correct": true},
+        {"text": "two", "correct": false},
+        {"text": "six", "correct": false}
+      ],
+      "explanation": "Том говорит: We need four players."
+    },
+    {
+      "type": "multiple",
+      "text": "Что делает Том по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "plays board games", "correct": true},
+        {"text": "knows all the rules", "correct": true},
+        {"text": "never loses", "correct": false},
+        {"text": "keeps the score", "correct": true}
+      ],
+      "explanation": "Том играет в настольные игры, знает правила и ведёт счёт, но иногда проигрывает — значит, не «никогда не проигрывает»."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ do you play video games? (где)",
+      "options": [
+        {"text": "Where", "correct": true},
+        {"text": "Who", "correct": false},
+        {"text": "How many", "correct": false}
+      ],
+      "explanation": "Where — вопрос о месте."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ players do you need for this game?",
+      "options": [
+        {"text": "How many", "correct": true},
+        {"text": "How", "correct": false},
+        {"text": "What", "correct": false}
+      ],
+      "explanation": "How many — вопрос о количестве исчисляемых предметов (игроков)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопросительное слово: ___ usually wins? (кто)",
+      "answer": "Who",
+      "explanation": "Who — вопрос о человеке."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: it's my ___ now (очередь).",
+      "answer": "turn",
+      "explanation": "«Очередь» — turn."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "keep the score", "right": "вести счёт"},
+        {"left": "board games", "right": "настольные игры"},
+        {"left": "outdoor game", "right": "игра на улице"},
+        {"left": "it's my turn", "right": "это моя очередь"}
+      ],
+      "explanation": "Проверь по диалогу Эммы и Тома."
+    },
+    {
+      "type": "single",
+      "text": "Где Том играет в видеоигры?",
+      "options": [
+        {"text": "at home", "correct": true},
+        {"text": "in the garden", "correct": false},
+        {"text": "at school", "correct": false}
+      ],
+      "explanation": "Том отвечает: At home."
+    }
+  ]
+}

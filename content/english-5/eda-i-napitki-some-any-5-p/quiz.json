@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится «shopping list»?",
+      "options": [
+        {"text": "список покупок", "correct": true},
+        {"text": "меню", "correct": false},
+        {"text": "рецепт", "correct": false}
+      ],
+      "explanation": "«Shopping list» — список покупок."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верный вопрос: «Есть ли дома молоко?»",
+      "options": [
+        {"text": "Is there any milk at home?", "correct": true},
+        {"text": "Is there some milk at home?", "correct": false},
+        {"text": "There is any milk at home?", "correct": false}
+      ],
+      "explanation": "В вопросе используется any, вопросительное слово Is ставится в начало."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких фразах из диалога правильно использовано some? (выбери все верные варианты)",
+      "options": [
+        {"text": "We need some eggs.", "correct": true},
+        {"text": "There is some rice.", "correct": true},
+        {"text": "Is there some cheese?", "correct": false},
+        {"text": "There isn't some sugar.", "correct": false},
+        {"text": "We need some juice.", "correct": true}
+      ],
+      "explanation": "Some используется в утверждениях (We need some, There is some), а не в обычных вопросах и отрицаниях."
+    },
+    {
+      "type": "dropdown",
+      "text": "A: Is there ___ cheese at home? B: No, there isn't.",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В вопросе используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "B: But there is ___ rice.",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "В утверждении используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: достаточно",
+      "answer": "enough",
+      "explanation": "«Достаточно» — enough."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Is there ___ sugar left?",
+      "answer": "any",
+      "explanation": "В вопросе про остаток используется any."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: We need ___ apples and cheese.",
+      "answer": "some",
+      "explanation": "В утверждении о необходимых продуктах используется some."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини реплику из диалога с переводом",
+      "pairs": [
+        {"left": "Is there any cheese?", "right": "Есть сыр?"},
+        {"left": "There is some rice.", "right": "Есть немного риса."},
+        {"left": "We need some eggs.", "right": "Нам нужны яйца."},
+        {"left": "There isn't any sugar.", "right": "Сахара нет."}
+      ],
+      "explanation": "Проверь по диалогу из урока."
+    }
+  ]
+}

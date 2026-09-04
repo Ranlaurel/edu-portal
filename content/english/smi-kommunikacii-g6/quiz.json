@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какой модальный глагол используется для уверенной возможности/разрешения?",
+      "options": [
+        {"text": "can", "correct": true},
+        {"text": "might", "correct": false},
+        {"text": "must", "correct": false}
+      ],
+      "explanation": "Can выражает умение или уверенную возможность/разрешение."
+    },
+    {
+      "type": "single",
+      "text": "Какой модальный глагол выражает наименьшую уверенность?",
+      "options": [
+        {"text": "might", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "may", "correct": false}
+      ],
+      "explanation": "Might выражает наименее уверенную возможность (может быть, а может и нет)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие предложения построены правильно? (выбери все верные варианты)",
+      "options": [
+        {"text": "You can watch the news on this channel.", "correct": true},
+        {"text": "This news might not be true.", "correct": true},
+        {"text": "He might to write an article.", "correct": false},
+        {"text": "This information may be wrong.", "correct": true},
+        {"text": "Children can to read the news.", "correct": false}
+      ],
+      "explanation": "После модальных глаголов can/may/might глагол используется без to."
+    },
+    {
+      "type": "dropdown",
+      "text": "This news ___ not be true (не уверен, возможно).",
+      "options": [
+        {"text": "might", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "must", "correct": false}
+      ],
+      "explanation": "Might выражает неуверенную возможность."
+    },
+    {
+      "type": "dropdown",
+      "text": "You ___ find this magazine interesting (вежливая возможность).",
+      "options": [
+        {"text": "may", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "might", "correct": false}
+      ],
+      "explanation": "May — более формальная, вежливая возможность."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: Children ___ read the news online (умение/разрешение).",
+      "answer": "can",
+      "explanation": "Can выражает умение или уверенную возможность."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол: He ___ write an article about social media (не уверен).",
+      "answer": "might",
+      "explanation": "Might — неуверенная возможность."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини модальный глагол со значением",
+      "pairs": [
+        {"left": "can", "right": "уверенная возможность/умение"},
+        {"left": "may", "right": "вежливая, формальная возможность"},
+        {"left": "might", "right": "неуверенная возможность"},
+        {"left": "глагол после модального", "right": "без to"}
+      ],
+      "explanation": "Can, may, might различаются по степени уверенности, глагол после них всегда без to."
+    }
+  ]
+}

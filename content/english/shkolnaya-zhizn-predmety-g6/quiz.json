@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "We have Maths ___ Mondays.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "at", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "Дни недели требуют предлога on."
+    },
+    {
+      "type": "single",
+      "text": "The lesson starts ___ 9 o'clock.",
+      "options": [
+        {"text": "at", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "Точное время требует предлога at."
+    },
+    {
+      "type": "multiple",
+      "text": "С какими словами используется предлог in? (выбери все верные варианты)",
+      "options": [
+        {"text": "September", "correct": true},
+        {"text": "the morning", "correct": true},
+        {"text": "Monday", "correct": false},
+        {"text": "9 o'clock", "correct": false},
+        {"text": "summer", "correct": true}
+      ],
+      "explanation": "September, the morning, summer — месяцы, части дня и времена года, требуют предлога in."
+    },
+    {
+      "type": "dropdown",
+      "text": "School begins ___ September.",
+      "options": [
+        {"text": "in", "correct": true},
+        {"text": "on", "correct": false},
+        {"text": "at", "correct": false}
+      ],
+      "explanation": "Месяцы требуют предлога in."
+    },
+    {
+      "type": "dropdown",
+      "text": "We have PE ___ Fridays.",
+      "options": [
+        {"text": "on", "correct": true},
+        {"text": "at", "correct": false},
+        {"text": "in", "correct": false}
+      ],
+      "explanation": "Дни недели требуют предлога on."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши форму глагола: The lesson ___ (start) at nine o'clock.",
+      "answer": "starts",
+      "explanation": "В Present Simple для he/she/it (the lesson = it) добавляется -s: starts."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши предлог: Our lessons start at 8:30 ___ the morning.",
+      "answer": "in",
+      "explanation": "Часть дня (утро) требует предлога in."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини тип времени с нужным предлогом",
+      "pairs": [
+        {"left": "9 o'clock", "right": "at"},
+        {"left": "Monday", "right": "on"},
+        {"left": "September", "right": "in"},
+        {"left": "the morning", "right": "in"}
+      ],
+      "explanation": "At — точное время, on — дни недели/даты, in — месяцы/времена года/часть дня."
+    },
+    {
+      "type": "single",
+      "text": "We ___ (have) English on Mondays.",
+      "options": [
+        {"text": "have", "correct": true},
+        {"text": "has", "correct": false},
+        {"text": "having", "correct": false}
+      ],
+      "explanation": "We — множественное число, окончание -s не добавляется: we have."
+    }
+  ]
+}

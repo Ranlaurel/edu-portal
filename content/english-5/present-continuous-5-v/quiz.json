@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «swim»?",
+      "options": [
+        {"text": "плавать", "correct": true},
+        {"text": "бегать", "correct": false},
+        {"text": "спать", "correct": false}
+      ],
+      "explanation": "«Swim» — плавать."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «готовить (еду)»?",
+      "options": [
+        {"text": "cook", "correct": true},
+        {"text": "run", "correct": false},
+        {"text": "write", "correct": false}
+      ],
+      "explanation": "«Готовить (еду)» — cook."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают действия? (выбери все верные варианты)",
+      "options": [
+        {"text": "run", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "sleep", "correct": true},
+        {"text": "at the moment", "correct": false},
+        {"text": "write", "correct": true}
+      ],
+      "explanation": "Run, sleep, write — глаголы действия. Now и at the moment — слова времени."
+    },
+    {
+      "type": "dropdown",
+      "text": "«В данный момент» по-английски — это ___.",
+      "options": [
+        {"text": "at the moment", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "every day", "correct": false}
+      ],
+      "explanation": "«В данный момент» — at the moment."
+    },
+    {
+      "type": "dropdown",
+      "text": "«Слушать музыку» по-английски — это ___.",
+      "options": [
+        {"text": "listen to music", "correct": true},
+        {"text": "watch TV", "correct": false},
+        {"text": "play", "correct": false}
+      ],
+      "explanation": "«Слушать музыку» — listen to music."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: читать",
+      "answer": "read",
+      "explanation": "«Читать» переводится как read."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сейчас",
+      "answer": "now",
+      "explanation": "«Сейчас» переводится как now."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "play", "right": "играть"},
+        {"left": "look", "right": "смотреть, выглядеть"},
+        {"left": "write", "right": "писать"},
+        {"left": "watch TV", "right": "смотреть телевизор"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «look»?",
+      "options": [
+        {"text": "смотреть, выглядеть", "correct": true},
+        {"text": "плавать", "correct": false},
+        {"text": "готовить", "correct": false}
+      ],
+      "explanation": "«Look» — смотреть или выглядеть."
+    }
+  ]
+}

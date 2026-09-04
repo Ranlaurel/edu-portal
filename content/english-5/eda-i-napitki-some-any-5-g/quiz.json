@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какое слово используется в утвердительных предложениях?",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В утвердительных предложениях используется some."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верное слово: There is ___ milk in the fridge.",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "В утвердительном предложении используется some."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях нужно использовать any? (выбери все верные варианты)",
+      "options": [
+        {"text": "Is there ___ juice?", "correct": true},
+        {"text": "There isn't ___ bread.", "correct": true},
+        {"text": "There is ___ milk.", "correct": false},
+        {"text": "I've got ___ apples.", "correct": false},
+        {"text": "We haven't got ___ sugar.", "correct": true}
+      ],
+      "explanation": "Any используется в вопросах и отрицаниях: Is there...?, isn't..., haven't got..."
+    },
+    {
+      "type": "dropdown",
+      "text": "Is there ___ juice in the fridge?",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "В вопросе используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "There isn't ___ bread on the table.",
+      "options": [
+        {"text": "any", "correct": true},
+        {"text": "some", "correct": false},
+        {"text": "an", "correct": false}
+      ],
+      "explanation": "В отрицании используется any."
+    },
+    {
+      "type": "dropdown",
+      "text": "Would you like ___ tea? (предлагаем угощение)",
+      "options": [
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false},
+        {"text": "a", "correct": false}
+      ],
+      "explanation": "При предложении угощения используется some, даже в вопросе."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: I've got ___ apples (некоторые/несколько яблок).",
+      "answer": "some",
+      "explanation": "В утверждении с исчисляемыми существительными во множественном числе используется some."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: We haven't got ___ sugar.",
+      "answer": "any",
+      "explanation": "В отрицании с неисчисляемым существительным используется any."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини тип предложения с нужным словом",
+      "pairs": [
+        {"left": "утверждение", "right": "some"},
+        {"left": "вопрос", "right": "any"},
+        {"left": "отрицание", "right": "any"},
+        {"left": "предложение угощения", "right": "some"}
+      ],
+      "explanation": "Проверь по правилу из урока: some — утверждения и угощения, any — вопросы и отрицания."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно перевести «Хлеба нет»?",
+      "options": [
+        {"text": "There isn't any bread.", "correct": true},
+        {"text": "There isn't some bread.", "correct": false},
+        {"text": "There is any bread.", "correct": false}
+      ],
+      "explanation": "В отрицании используется any, а не some."
+    }
+  ]
+}

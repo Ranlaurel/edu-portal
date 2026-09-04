@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «hour»?",
+      "options": [
+        {"text": "час (промежуток)", "correct": true},
+        {"text": "минута", "correct": false},
+        {"text": "четверть", "correct": false}
+      ],
+      "explanation": "«Hour» — час как промежуток времени (60 минут)."
+    },
+    {
+      "type": "single",
+      "text": "Как написать число 40 словом?",
+      "options": [
+        {"text": "forty", "correct": true},
+        {"text": "fourty", "correct": false},
+        {"text": "fourteen", "correct": false}
+      ],
+      "explanation": "40 пишется forty (без «u» после four)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают числа? (выбери все верные варианты)",
+      "options": [
+        {"text": "thirty", "correct": true},
+        {"text": "hour", "correct": false},
+        {"text": "fifty", "correct": true},
+        {"text": "hundred", "correct": true},
+        {"text": "minute", "correct": false}
+      ],
+      "explanation": "Thirty, fifty, hundred — числа. Hour и minute — единицы времени, не числа."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «половина»:",
+      "options": [
+        {"text": "half past", "correct": true},
+        {"text": "quarter", "correct": false},
+        {"text": "o'clock", "correct": false}
+      ],
+      "explanation": "«Half past» — половина (после часа)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Выбери число 30:",
+      "options": [
+        {"text": "thirty", "correct": true},
+        {"text": "thirteen", "correct": false},
+        {"text": "forty", "correct": false}
+      ],
+      "explanation": "30 — thirty; 13 — thirteen (не путать)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Напиши число 56 словом (через дефис)",
+      "answer": "fifty-six",
+      "explanation": "Десятки и единицы соединяются дефисом: fifty-six."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Как спросить «который час»? Впиши фразу.",
+      "answer": "What time is it?",
+      "explanation": "«Который час?» по-английски — What time is it?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "twenty", "right": "двадцать"},
+        {"left": "quarter", "right": "четверть"},
+        {"left": "minute", "right": "минута"},
+        {"left": "hundred", "right": "сто"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «o'clock»?",
+      "options": [
+        {"text": "час (ровно)", "correct": true},
+        {"text": "четверть", "correct": false},
+        {"text": "минута", "correct": false}
+      ],
+      "explanation": "«O'clock» используется для обозначения ровного часа: five o'clock — пять часов."
+    }
+  ]
+}

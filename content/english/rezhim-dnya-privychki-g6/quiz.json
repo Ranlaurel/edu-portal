@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери правильный вариант: My father ___ breakfast at 8 o'clock.",
+      "options": [
+        {"text": "has", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "having", "correct": false}
+      ],
+      "explanation": "В Present Simple для he/she/it глагол have меняется на has."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «Я всегда встаю в семь часов»?",
+      "options": [
+        {"text": "I always get up at seven o'clock.", "correct": true},
+        {"text": "I get up always at seven o'clock.", "correct": false},
+        {"text": "Always I get up at seven o'clock.", "correct": false}
+      ],
+      "explanation": "Наречие частотности always ставится перед основным глаголом get up."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях наречие частотности стоит на правильном месте? (выбери все верные варианты)",
+      "options": [
+        {"text": "She usually has breakfast at home.", "correct": true},
+        {"text": "He is often late for school.", "correct": true},
+        {"text": "She has usually breakfast at home.", "correct": false},
+        {"text": "We never go to bed late.", "correct": true}
+      ],
+      "explanation": "Наречие частотности ставится перед основным глаголом: usually has, is often, never go — верно. Has usually — неверный порядок слов."
+    },
+    {
+      "type": "dropdown",
+      "text": "He ___ (usually) does his homework in the evening.",
+      "options": [
+        {"text": "usually", "correct": true},
+        {"text": "usual", "correct": false},
+        {"text": "usually is", "correct": false}
+      ],
+      "explanation": "Наречие частотности usually ставится перед основным глаголом does."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ never late for school (мы никогда не опаздываем).",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "do", "correct": false}
+      ],
+      "explanation": "С прилагательным late используется глагол to be: we are never late."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму глагола: She ___ (always/take) a shower in the morning.",
+      "answer": "always takes",
+      "accepted": ["always takes"],
+      "explanation": "Present Simple: для she добавляем -s к глаголу, take → takes, always ставим перед глаголом."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши глагол: My sister ___ (never/watch) TV in the morning.",
+      "answer": "never watches",
+      "explanation": "Present Simple: для she/sister добавляем -s, watch → watches, never ставим перед глаголом."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини наречие частотности с его значением",
+      "pairs": [
+        {"left": "always", "right": "всегда"},
+        {"left": "usually", "right": "обычно"},
+        {"left": "sometimes", "right": "иногда"},
+        {"left": "never", "right": "никогда"}
+      ],
+      "explanation": "Проверь по шкале частотности из урока."
+    },
+    {
+      "type": "single",
+      "text": "Какое наречие означает «иногда»?",
+      "options": [
+        {"text": "sometimes", "correct": true},
+        {"text": "always", "correct": false},
+        {"text": "never", "correct": false}
+      ],
+      "explanation": "Sometimes переводится как «иногда»; always — «всегда», never — «никогда»."
+    }
+  ]
+}

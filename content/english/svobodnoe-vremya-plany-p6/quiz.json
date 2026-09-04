@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Что Дэн делает в субботу?",
+      "options": [
+        {"text": "meeting his friend", "correct": true},
+        {"text": "visiting his grandmother", "correct": false},
+        {"text": "going shopping", "correct": false}
+      ],
+      "explanation": "Дэн говорит: I'm meeting my friend on Saturday."
+    },
+    {
+      "type": "single",
+      "text": "Что Оля делает завтра?",
+      "options": [
+        {"text": "visiting her grandmother", "correct": true},
+        {"text": "watching a film", "correct": false},
+        {"text": "having a party", "correct": false}
+      ],
+      "explanation": "Оля говорит: I'm visiting my grandmother tomorrow."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие планы упомянуты в диалоге? (выбери все верные варианты)",
+      "options": [
+        {"text": "watching a film", "correct": true},
+        {"text": "visiting grandmother", "correct": true},
+        {"text": "having a party", "correct": false},
+        {"text": "going shopping", "correct": true}
+      ],
+      "explanation": "В диалоге упомянуты кино, визит к бабушке и поход по магазинам, но не вечеринка."
+    },
+    {
+      "type": "dropdown",
+      "text": "Dan ___ meeting his friend on Saturday.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "does", "correct": false}
+      ],
+      "explanation": "Dan — he, вспомогательный глагол is."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ you going shopping next week?",
+      "options": [
+        {"text": "Are", "correct": true},
+        {"text": "Is", "correct": false},
+        {"text": "Do", "correct": false}
+      ],
+      "explanation": "С you используется are: Are you going...?"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Olga is ___ (визит) her grandmother tomorrow.",
+      "answer": "visiting",
+      "explanation": "Present Continuous от visit — visiting."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: On Sunday Olga wants to ___ (отдыхать) and stay at home.",
+      "answer": "relax",
+      "explanation": "«Отдыхать» — relax."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу с переводом по диалогу",
+      "pairs": [
+        {"left": "meeting my friend", "right": "встречаюсь с другом"},
+        {"left": "visiting my grandmother", "right": "навещаю бабушку"},
+        {"left": "stay at home", "right": "оставаться дома"},
+        {"left": "an arrangement with my mum", "right": "договорённость с мамой"}
+      ],
+      "explanation": "Проверь по диалогу Оли и Дэна."
+    },
+    {
+      "type": "single",
+      "text": "С кем у Оли договорённость на следующей неделе?",
+      "options": [
+        {"text": "her mum", "correct": true},
+        {"text": "her grandmother", "correct": false},
+        {"text": "Dan", "correct": false}
+      ],
+      "explanation": "Оля говорит: I have an arrangement with my mum."
+    }
+  ]
+}

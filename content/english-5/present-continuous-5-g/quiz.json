@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Какая форма верна: «I ___ (read) a book now»?",
+      "options": [
+        {"text": "am reading", "correct": true},
+        {"text": "is reading", "correct": false},
+        {"text": "reading", "correct": false}
+      ],
+      "explanation": "Для I используется am + глагол-ing: am reading."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно образовать отрицание: «She is sleeping»?",
+      "options": [
+        {"text": "She isn't sleeping.", "correct": true},
+        {"text": "She not is sleeping.", "correct": false},
+        {"text": "She don't sleeping.", "correct": false}
+      ],
+      "explanation": "Отрицание в Present Continuous: isn't/aren't/am not + глагол-ing."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях глагол правильно стоит в Present Continuous? (выбери все верные варианты)",
+      "options": [
+        {"text": "He is playing football.", "correct": true},
+        {"text": "They watching TV.", "correct": false},
+        {"text": "I am reading a book.", "correct": true},
+        {"text": "She reading now.", "correct": false}
+      ],
+      "explanation": "В Present Continuous нужен глагол-связка am/is/are перед глаголом-ing."
+    },
+    {
+      "type": "dropdown",
+      "text": "___ he cooking dinner? — Yes, he is.",
+      "options": [
+        {"text": "Is", "correct": true},
+        {"text": "Are", "correct": false},
+        {"text": "Do", "correct": false}
+      ],
+      "explanation": "Для he в вопросе используется Is."
+    },
+    {
+      "type": "dropdown",
+      "text": "They ___ (watch) TV at the moment.",
+      "options": [
+        {"text": "are watching", "correct": true},
+        {"text": "is watching", "correct": false},
+        {"text": "watch", "correct": false}
+      ],
+      "explanation": "Для they используется are + глагол-ing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: He ___ (play) football at the moment.",
+      "answer": "is playing",
+      "explanation": "He — is + глагол-ing: is playing."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши отрицательную форму: She ___ (not/sleep) now.",
+      "answer": "isn't sleeping",
+      "accepted": ["isn't sleeping", "is not sleeping"],
+      "explanation": "Отрицание для she: isn't + глагол-ing."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини предложение с переводом",
+      "pairs": [
+        {"left": "I am reading a book now.", "right": "Я сейчас читаю книгу."},
+        {"left": "He is playing football.", "right": "Он играет в футбол."},
+        {"left": "She isn't sleeping now.", "right": "Она сейчас не спит."},
+        {"left": "Is he cooking dinner?", "right": "Он готовит ужин?"}
+      ],
+      "explanation": "Проверь по примерам из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как задать вопрос к предложению «They are playing football»?",
+      "options": [
+        {"text": "Are they playing football?", "correct": true},
+        {"text": "Do they playing football?", "correct": false},
+        {"text": "Is they playing football?", "correct": false}
+      ],
+      "explanation": "Для they вопрос строится через Are + подлежащее + глагол-ing."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «achieve»?",
+      "options": [
+        {"text": "достигать", "correct": true},
+        {"text": "побеждать", "correct": false},
+        {"text": "становиться", "correct": false}
+      ],
+      "explanation": "Achieve — достигать (цели, результата)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «bestseller»?",
+      "options": [
+        {"text": "бестселлер", "correct": true},
+        {"text": "рекорд", "correct": false},
+        {"text": "роман", "correct": false}
+      ],
+      "explanation": "«Bestseller» — очень популярная, хорошо продаваемая книга."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к спорту? (выбери все верные варианты)",
+      "options": [
+        {"text": "athlete", "correct": true},
+        {"text": "novel", "correct": false},
+        {"text": "medal", "correct": true},
+        {"text": "competition", "correct": true},
+        {"text": "poem", "correct": false}
+      ],
+      "explanation": "Athlete, medal, competition относятся к спорту. Novel и poem — к литературе."
+    },
+    {
+      "type": "dropdown",
+      "text": "Автор — это ___.",
+      "options": [
+        {"text": "author", "correct": true},
+        {"text": "athlete", "correct": false},
+        {"text": "champion", "correct": false}
+      ],
+      "explanation": "Author — автор."
+    },
+    {
+      "type": "dropdown",
+      "text": "Талант — это ___.",
+      "options": [
+        {"text": "talent", "correct": true},
+        {"text": "record", "correct": false},
+        {"text": "team", "correct": false}
+      ],
+      "explanation": "Talent — талант."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: чемпион",
+      "answer": "champion",
+      "explanation": "«Чемпион» переводится как champion."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: рекорд",
+      "answer": "record",
+      "explanation": "«Рекорд» переводится как record."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "author", "right": "автор"},
+        {"left": "record", "right": "рекорд"},
+        {"left": "team", "right": "команда"},
+        {"left": "bestseller", "right": "бестселлер"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «poem»?",
+      "options": [
+        {"text": "стихотворение", "correct": true},
+        {"text": "роман", "correct": false},
+        {"text": "рассказ", "correct": false}
+      ],
+      "explanation": "«Poem» — стихотворение."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится фраза «get up»?",
+      "options": [
+        {"text": "вставать", "correct": true},
+        {"text": "ложиться спать", "correct": false},
+        {"text": "умываться", "correct": false}
+      ],
+      "explanation": "«Get up» — вставать (с кровати)."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «делать домашнее задание»?",
+      "options": [
+        {"text": "do homework", "correct": true},
+        {"text": "go to school", "correct": false},
+        {"text": "have dinner", "correct": false}
+      ],
+      "explanation": "«Делать домашнее задание» — do homework."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова означают приёмы пищи? (выбери все верные варианты)",
+      "options": [
+        {"text": "have breakfast", "correct": true},
+        {"text": "have lunch", "correct": true},
+        {"text": "go to bed", "correct": false},
+        {"text": "have dinner", "correct": true},
+        {"text": "wash", "correct": false}
+      ],
+      "explanation": "Have breakfast, have lunch, have dinner — приёмы пищи. Go to bed и wash — нет."
+    },
+    {
+      "type": "dropdown",
+      "text": "«Никогда» по-английски — это ___.",
+      "options": [
+        {"text": "never", "correct": true},
+        {"text": "always", "correct": false},
+        {"text": "usually", "correct": false}
+      ],
+      "explanation": "«Никогда» — never."
+    },
+    {
+      "type": "dropdown",
+      "text": "«Каждый день» по-английски — это ___.",
+      "options": [
+        {"text": "every day", "correct": true},
+        {"text": "always", "correct": false},
+        {"text": "go to school", "correct": false}
+      ],
+      "explanation": "«Каждый день» — every day."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним/двумя английскими словами: ложиться спать",
+      "answer": "go to bed",
+      "explanation": "«Ложиться спать» переводится как go to bed."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: всегда",
+      "answer": "always",
+      "explanation": "«Всегда» переводится как always."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английскую фразу с переводом",
+      "pairs": [
+        {"left": "wash", "right": "умываться"},
+        {"left": "have lunch", "right": "обедать"},
+        {"left": "usually", "right": "обычно"},
+        {"left": "go to school", "right": "идти в школу"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «always»?",
+      "options": [
+        {"text": "всегда", "correct": true},
+        {"text": "никогда", "correct": false},
+        {"text": "обычно", "correct": false}
+      ],
+      "explanation": "«Always» — всегда."
+    }
+  ]
+}

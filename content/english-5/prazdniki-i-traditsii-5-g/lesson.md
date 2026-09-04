@@ -1,0 +1,29 @@
+# Праздники: there is / there are
+
+## Слова по теме
+
+| Английский | Перевод |
+|---|---|
+| firework | салют |
+| costume | костюм |
+| party | вечеринка |
+| candle | свеча |
+
+## Грамматика: there is / there are
+
+Используем, чтобы сказать, что где-то что-то есть или находится.
+
+Формула: **there is + сущ. в ед.ч.**, **there are + сущ. во мн.ч.**
+
+- **There is** a big tree in the square. (**Есть** большая ёлка на площади.)
+- **There are** many presents under the tree. (**Есть** много подарков под ёлкой.)
+- **There isn't** a party today. (Сегодня **нет** вечеринки.)
+- **Are there** any fireworks tonight? (Сегодня вечером **будет** салют?)
+
+## Мини-практика
+
+1. Как сказать «на площади есть ёлка»? — **There is a tree in the square**.
+2. Впиши слово: ___ many presents under the tree (мн. число). — **There are**.
+3. Составь предложение: свечей на столе нет (отрицание). — **There aren't any candles on the table**.
+4. Переведи слово firework — **салют**.
+5. Составь вопрос: сегодня будет вечеринка? — **Is there a party today?**

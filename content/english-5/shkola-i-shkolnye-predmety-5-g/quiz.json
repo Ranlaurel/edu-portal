@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Выбери верную форму: We ___ at school now.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "С местоимением we используется форма are."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно: «Она учитель»?",
+      "options": [
+        {"text": "She is a teacher.", "correct": true},
+        {"text": "She are a teacher.", "correct": false},
+        {"text": "She am a teacher.", "correct": false}
+      ],
+      "explanation": "С she используется форма is."
+    },
+    {
+      "type": "multiple",
+      "text": "В каких предложениях глагол to be использован верно? (выбери все верные варианты)",
+      "options": [
+        {"text": "I am a pupil.", "correct": true},
+        {"text": "You is a pupil.", "correct": false},
+        {"text": "They are pupils.", "correct": true},
+        {"text": "He are a teacher.", "correct": false},
+        {"text": "It is difficult.", "correct": true}
+      ],
+      "explanation": "I — am, you/we/they — are, he/she/it — is."
+    },
+    {
+      "type": "dropdown",
+      "text": "My favourite subject ___ Art.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Subject — единственное число, поэтому используется is."
+    },
+    {
+      "type": "dropdown",
+      "text": "Maths ___ difficult for me. (отрицание)",
+      "options": [
+        {"text": "isn't", "correct": true},
+        {"text": "aren't", "correct": false},
+        {"text": "don't", "correct": false}
+      ],
+      "explanation": "Отрицательная форма от is — isn't."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Задай вопрос: He is a teacher. → ___ he a teacher?",
+      "answer": "Is",
+      "explanation": "В вопросе глагол to be выходит на первое место: Is he...?"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши правильную форму: They ___ (be) at home now.",
+      "answer": "are",
+      "explanation": "С they используется форма are."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини местоимение с правильной формой to be",
+      "pairs": [
+        {"left": "I", "right": "am"},
+        {"left": "she", "right": "is"},
+        {"left": "we", "right": "are"},
+        {"left": "it", "right": "is"}
+      ],
+      "explanation": "I — am; he/she/it — is; we/you/they — are."
+    },
+    {
+      "type": "single",
+      "text": "Выбери верное отрицание: They ___ at school today.",
+      "options": [
+        {"text": "aren't", "correct": true},
+        {"text": "isn't", "correct": false},
+        {"text": "am not", "correct": false}
+      ],
+      "explanation": "С they используется отрицательная форма aren't."
+    }
+  ]
+}

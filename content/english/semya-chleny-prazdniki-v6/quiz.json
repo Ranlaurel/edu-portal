@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «relative»?",
+      "options": [
+        {"text": "родственник", "correct": true},
+        {"text": "родитель", "correct": false},
+        {"text": "гость", "correct": false}
+      ],
+      "explanation": "«Relative» — родственник (любой, не только родитель)."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «present»?",
+      "options": [
+        {"text": "подарок", "correct": true},
+        {"text": "праздник", "correct": false},
+        {"text": "гость", "correct": false}
+      ],
+      "explanation": "«Present» (или gift) — подарок."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к членам семьи? (выбери все верные варианты)",
+      "options": [
+        {"text": "grandfather", "correct": true},
+        {"text": "guest", "correct": false},
+        {"text": "daughter", "correct": true},
+        {"text": "present", "correct": false},
+        {"text": "parent", "correct": true}
+      ],
+      "explanation": "Grandfather, daughter, parent — члены семьи. Guest (гость) и present (подарок) — не члены семьи."
+    },
+    {
+      "type": "dropdown",
+      "text": "Мама — это mother или ___.",
+      "options": [
+        {"text": "mum", "correct": true},
+        {"text": "dad", "correct": false},
+        {"text": "granny", "correct": false}
+      ],
+      "explanation": "Mother и mum — оба слова означают «мама»."
+    },
+    {
+      "type": "dropdown",
+      "text": "Как по-английски «день рождения»?",
+      "options": [
+        {"text": "birthday", "correct": true},
+        {"text": "holiday", "correct": false},
+        {"text": "present", "correct": false}
+      ],
+      "explanation": "Birthday — день рождения, holiday — праздник вообще."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: праздновать",
+      "answer": "celebrate",
+      "explanation": "«Праздновать» переводится как celebrate."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: сын",
+      "answer": "son",
+      "explanation": "«Сын» переводится как son."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "grandfather", "right": "дедушка"},
+        {"left": "daughter", "right": "дочь"},
+        {"left": "guest", "right": "гость"},
+        {"left": "present", "right": "подарок"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «holiday»?",
+      "options": [
+        {"text": "праздник", "correct": true},
+        {"text": "родственник", "correct": false},
+        {"text": "гость", "correct": false}
+      ],
+      "explanation": "«Holiday» — праздник (или каникулы)."
+    }
+  ]
+}

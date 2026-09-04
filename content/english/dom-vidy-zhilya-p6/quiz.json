@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Где живёт Люси, по диалогу?",
+      "options": [
+        {"text": "in a flat", "correct": true},
+        {"text": "in a house", "correct": false},
+        {"text": "in a garage", "correct": false}
+      ],
+      "explanation": "Люси говорит: We live in a flat."
+    },
+    {
+      "type": "single",
+      "text": "Есть ли сад у Люси?",
+      "options": [
+        {"text": "No, there isn't.", "correct": true},
+        {"text": "Yes, there is.", "correct": false},
+        {"text": "Yes, there are.", "correct": false}
+      ],
+      "explanation": "Люси отвечает: No, there isn't (сада нет)."
+    },
+    {
+      "type": "multiple",
+      "text": "Что есть в квартире Люси, по диалогу? (выбери все верные варианты)",
+      "options": [
+        {"text": "a kitchen", "correct": true},
+        {"text": "a garden", "correct": false},
+        {"text": "a garage", "correct": true},
+        {"text": "a sofa", "correct": true}
+      ],
+      "explanation": "В диалоге есть кухня, гараж и диван, но нет сада."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ three rooms in the flat.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "Three rooms — множественное число: there are."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a small garage for our car.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "have", "correct": false}
+      ],
+      "explanation": "A garage — единственное число: there is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: There is a big ___ (диван) in the living room.",
+      "answer": "sofa",
+      "explanation": "«Диван» — sofa."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: There is a ___ with books. (полка)",
+      "answer": "shelf",
+      "explanation": "«Полка» — shelf."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини вопрос с ответом из диалога",
+      "pairs": [
+        {"left": "Is there a garden?", "right": "No, there isn't."},
+        {"left": "Do you live in a house or a flat?", "right": "We live in a flat."},
+        {"left": "What furniture do you have?", "right": "A sofa and a shelf."},
+        {"left": "Is there a garage?", "right": "Yes, there is."}
+      ],
+      "explanation": "Проверь по диалогу Макса и Люси."
+    },
+    {
+      "type": "single",
+      "text": "Сколько комнат в квартире Люси?",
+      "options": [
+        {"text": "three", "correct": true},
+        {"text": "two", "correct": false},
+        {"text": "four", "correct": false}
+      ],
+      "explanation": "Люси говорит: There are three rooms."
+    }
+  ]
+}

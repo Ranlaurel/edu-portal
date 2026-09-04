@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «customer»?",
+      "options": [
+        {"text": "покупатель", "correct": true},
+        {"text": "продавец", "correct": false},
+        {"text": "цена", "correct": false}
+      ],
+      "explanation": "«Customer» — покупатель."
+    },
+    {
+      "type": "single",
+      "text": "Как правильно сказать «эти туфли дорогие»?",
+      "options": [
+        {"text": "These shoes are expensive", "correct": true},
+        {"text": "These shoes is expensive", "correct": false},
+        {"text": "This shoes are expensive", "correct": false}
+      ],
+      "explanation": "Shoes — множественное число, используем are: shoes are expensive."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова относятся к теме магазинов? (выбери все верные варианты)",
+      "options": [
+        {"text": "price", "correct": true},
+        {"text": "museum", "correct": false},
+        {"text": "basket", "correct": true},
+        {"text": "singer", "correct": false},
+        {"text": "money", "correct": true}
+      ],
+      "explanation": "Price, basket, money — слова про магазины и покупки. Museum и singer — не относятся к теме."
+    },
+    {
+      "type": "dropdown",
+      "text": "This shop ___ cheap.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Shop — единственное число, используем is."
+    },
+    {
+      "type": "dropdown",
+      "text": "These bags ___ expensive.",
+      "options": [
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "Bags — множественное число, используем are."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: дешёвый",
+      "answer": "cheap",
+      "explanation": "«Дешёвый» переводится как cheap."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: дорогой",
+      "answer": "expensive",
+      "explanation": "«Дорогой» переводится как expensive."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "shop", "right": "магазин"},
+        {"left": "money", "right": "деньги"},
+        {"left": "basket", "right": "корзина"},
+        {"left": "price", "right": "цена"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

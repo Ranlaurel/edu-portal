@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «museum»?",
+      "options": [
+        {"text": "музей", "correct": true},
+        {"text": "библиотека", "correct": false},
+        {"text": "площадь", "correct": false}
+      ],
+      "explanation": "«Museum» — музей."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «hospital»?",
+      "options": [
+        {"text": "больница", "correct": true},
+        {"text": "банк", "correct": false},
+        {"text": "мост", "correct": false}
+      ],
+      "explanation": "«Hospital» — больница."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова обозначают места в городе? (выбери все верные варианты)",
+      "options": [
+        {"text": "bank", "correct": true},
+        {"text": "cook", "correct": false},
+        {"text": "bridge", "correct": true},
+        {"text": "singer", "correct": false},
+        {"text": "station", "correct": true}
+      ],
+      "explanation": "Bank, bridge, station — места в городе. Cook и singer — профессии, не места."
+    },
+    {
+      "type": "dropdown",
+      "text": "There ___ a museum in our city.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "am", "correct": false}
+      ],
+      "explanation": "Museum — существительное в единственном числе, используем is."
+    },
+    {
+      "type": "dropdown",
+      "text": "The park ___ big.",
+      "options": [
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
+        {"text": "be", "correct": false}
+      ],
+      "explanation": "Park — единственное число, поэтому is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: площадь",
+      "answer": "square",
+      "explanation": "«Площадь» переводится как square."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: мост",
+      "answer": "bridge",
+      "explanation": "«Мост» переводится как bridge."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "library", "right": "библиотека"},
+        {"left": "station", "right": "вокзал, станция"},
+        {"left": "street", "right": "улица"},
+        {"left": "bank", "right": "банк"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как сказать «сейчас пять часов»?",
+      "options": [
+        {"text": "It's five o'clock.", "correct": true},
+        {"text": "It's five hour.", "correct": false},
+        {"text": "Is five o'clock.", "correct": false}
+      ],
+      "explanation": "Про время говорим через It's + время: It's five o'clock."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится «It's half past six»?",
+      "options": [
+        {"text": "Сейчас половина седьмого.", "correct": true},
+        {"text": "Сейчас шесть часов.", "correct": false},
+        {"text": "Без четверти семь.", "correct": false}
+      ],
+      "explanation": "Half past six — половина после шести, то есть половина седьмого по-русски."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие фразы правильно называют время? (выбери все верные варианты)",
+      "options": [
+        {"text": "It's a quarter to nine.", "correct": true},
+        {"text": "It's ten past two.", "correct": true},
+        {"text": "It's o'clock five.", "correct": false},
+        {"text": "It's half past four.", "correct": true},
+        {"text": "Is it three o'clock.", "correct": false}
+      ],
+      "explanation": "Время всегда называем через It's + время; порядок o'clock five и вопросительный порядок в утверждении неверны."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's a quarter ___ seven. (четверть восьмого)",
+      "options": [
+        {"text": "past", "correct": true},
+        {"text": "to", "correct": false},
+        {"text": "half", "correct": false}
+      ],
+      "explanation": "Past используется после часа: четверть после семи."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's twenty ___ five. (без двадцати пять)",
+      "options": [
+        {"text": "to", "correct": true},
+        {"text": "past", "correct": false},
+        {"text": "o'clock", "correct": false}
+      ],
+      "explanation": "To используется перед следующим часом: без двадцати до пяти."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: Сейчас три часа. — It's three ___.",
+      "answer": "o'clock",
+      "explanation": "Для ровного часа используется o'clock."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши вопрос: ___ time is it?",
+      "answer": "What",
+      "explanation": "Вопрос о времени начинается с What: What time is it?"
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фразу со временем и её переводом",
+      "pairs": [
+        {"left": "It's half past six.", "right": "Сейчас половина седьмого."},
+        {"left": "It's a quarter to nine.", "right": "Без четверти девять."},
+        {"left": "It's ten past two.", "right": "Десять минут третьего."},
+        {"left": "It's five o'clock.", "right": "Сейчас пять часов."}
+      ],
+      "explanation": "Проверь по правилу past/to и o'clock из урока."
+    },
+    {
+      "type": "single",
+      "text": "Как перевести «Без четверти десять»?",
+      "options": [
+        {"text": "It's a quarter to ten.", "correct": true},
+        {"text": "It's a quarter past ten.", "correct": false},
+        {"text": "It's half past ten.", "correct": false}
+      ],
+      "explanation": "«Без четверти» переводится как a quarter to."
+    }
+  ]
+}

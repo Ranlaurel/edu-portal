@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Как переводится слово «explorer»?",
+      "options": [
+        {"text": "путешественник, исследователь", "correct": true},
+        {"text": "корабль", "correct": false},
+        {"text": "остров", "correct": false}
+      ],
+      "explanation": "«Explorer» — путешественник, исследователь."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «voyage»?",
+      "options": [
+        {"text": "морское путешествие", "correct": true},
+        {"text": "маршрут", "correct": false},
+        {"text": "экспедиция", "correct": false}
+      ],
+      "explanation": "«Voyage» — морское путешествие."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится слово «brave»?",
+      "options": [
+        {"text": "смелый", "correct": true},
+        {"text": "знаменитый", "correct": false},
+        {"text": "смелый и знаменитый", "correct": false}
+      ],
+      "explanation": "«Brave» — смелый. «Famous» — знаменитый, это другое слово."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие слова связаны с морским путешествием? (выбери все верные варианты)",
+      "options": [
+        {"text": "ship", "correct": true},
+        {"text": "sail", "correct": true},
+        {"text": "voyage", "correct": true},
+        {"text": "route", "correct": true},
+        {"text": "continent", "correct": false}
+      ],
+      "explanation": "Ship, sail, voyage, route связаны с морским путешествием. Continent (континент) — это место, а не само путешествие."
+    },
+    {
+      "type": "dropdown",
+      "text": "The explorer started a long ___ across the ocean.",
+      "options": [
+        {"text": "voyage", "correct": true},
+        {"text": "island", "correct": false},
+        {"text": "continent", "correct": false}
+      ],
+      "explanation": "Voyage — морское путешествие, подходит по смыслу к «across the ocean»."
+    },
+    {
+      "type": "dropdown",
+      "text": "They found a new ___ during the expedition.",
+      "options": [
+        {"text": "island", "correct": true},
+        {"text": "route", "correct": false},
+        {"text": "ship", "correct": false}
+      ],
+      "explanation": "Island — остров, его можно «найти» во время экспедиции."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: экспедиция",
+      "answer": "expedition",
+      "explanation": "«Экспедиция» переводится как expedition."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: смелый",
+      "answer": "brave",
+      "explanation": "«Смелый» переводится как brave."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "explorer", "right": "путешественник"},
+        {"left": "discovery", "right": "открытие"},
+        {"left": "continent", "right": "континент"},
+        {"left": "ship", "right": "корабль"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
+    }
+  ]
+}

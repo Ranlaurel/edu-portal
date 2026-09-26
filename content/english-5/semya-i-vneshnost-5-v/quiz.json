@@ -2,35 +2,34 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «curly»?",
+      "text": "Как переводится слово «young»?",
       "options": [
-        {"text": "кудрявый", "correct": true},
-        {"text": "прямой", "correct": false},
-        {"text": "красивый", "correct": false}
+        {"text": "молодой", "correct": true},
+        {"text": "старый", "correct": false},
+        {"text": "высокий", "correct": false}
       ],
-      "explanation": "«Curly» — кудрявый (о волосах)."
+      "explanation": "«Young» — молодой."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «tall»?",
+      "text": "Как переводится слово «short» (о росте)?",
       "options": [
-        {"text": "высокий", "correct": true},
-        {"text": "низкий", "correct": false},
-        {"text": "молодой", "correct": false}
+        {"text": "низкий (невысокий)", "correct": true},
+        {"text": "высокий", "correct": false},
+        {"text": "прямой", "correct": false}
       ],
-      "explanation": "«Tall» — высокий."
+      "explanation": "«Short» — низкий, невысокий."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают внешность? (выбери все верные варианты)",
+      "text": "Какие слова обозначают членов семьи? (выбери все верные варианты)",
       "options": [
-        {"text": "tall", "correct": true},
-        {"text": "family", "correct": false},
-        {"text": "curly", "correct": true},
-        {"text": "brother", "correct": false},
-        {"text": "beautiful", "correct": true}
+        {"text": "father", "correct": true},
+        {"text": "sister", "correct": true},
+        {"text": "friend", "correct": false},
+        {"text": "teacher", "correct": false}
       ],
-      "explanation": "Tall, curly, beautiful описывают внешность. Family и brother — члены семьи, не внешность."
+      "explanation": "Father (папа) и sister (сестра) — члены семьи. Friend — друг, teacher — учитель."
     },
     {
       "type": "dropdown",
@@ -47,31 +46,31 @@
       "text": "Выбери слово с переводом «старый»:",
       "options": [
         {"text": "old", "correct": true},
-        {"text": "young", "correct": false},
-        {"text": "tall", "correct": false}
+        {"text": "small", "correct": false},
+        {"text": "fat", "correct": false}
       ],
-      "explanation": "«Old» — старый, противоположность young (молодой)."
+      "explanation": "«Old» — старый, противоположность young."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: глаза",
       "answer": "eyes",
-      "explanation": "«Глаза» переводится как eyes."
+      "explanation": "«Глаза» — eyes."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: волосы",
       "answer": "hair",
-      "explanation": "«Волосы» переводится как hair."
+      "explanation": "«Волосы» — hair."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "short", "right": "низкий (невысокий)"},
-        {"left": "young", "right": "молодой"},
+        {"left": "curly", "right": "кудрявый"},
+        {"left": "tall", "right": "высокий"},
         {"left": "beautiful", "right": "красивый"},
-        {"left": "family", "right": "семья"}
+        {"left": "mother", "right": "мама"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },

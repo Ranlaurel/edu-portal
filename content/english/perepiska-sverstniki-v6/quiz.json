@@ -2,13 +2,13 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится фраза «Write back soon»?",
+      "text": "Как переводится слово «address»?",
       "options": [
-        {"text": "Напиши в ответ скорее", "correct": true},
-        {"text": "Как ты?", "correct": false},
-        {"text": "С наилучшими пожеланиями", "correct": false}
+        {"text": "адрес", "correct": true},
+        {"text": "конверт", "correct": false},
+        {"text": "открытка", "correct": false}
       ],
-      "explanation": "Write back soon — Напиши в ответ скорее."
+      "explanation": "«Address» — адрес (пишется с двумя d и двумя s)."
     },
     {
       "type": "single",
@@ -18,73 +18,71 @@
         {"text": "classmate", "correct": false},
         {"text": "neighbour", "correct": false}
       ],
-      "explanation": "Pen friend / pen pal — друг по переписке."
+      "explanation": "«Друг по переписке» — pen friend (или pen pal). Classmate — одноклассник, neighbour — сосед."
     },
     {
       "type": "multiple",
-      "text": "Какие фразы используются в конце письма? (выбери все верные варианты)",
+      "text": "Какие фразы подходят для конца письма? (выбери все верные варианты)",
       "options": [
         {"text": "Best wishes", "correct": true},
-        {"text": "Dear...", "correct": false},
         {"text": "Love", "correct": true},
-        {"text": "How are you?", "correct": false},
-        {"text": "Write back soon", "correct": true}
+        {"text": "Dear...", "correct": false},
+        {"text": "I'm writing to tell you", "correct": false}
       ],
-      "explanation": "Best wishes, Love и Write back soon обычно пишут в конце письма. Dear и How are you? — в начале."
+      "explanation": "В конце письма пишут Best wishes или Love. Dear... и I'm writing to tell you — фразы для начала письма."
     },
     {
       "type": "dropdown",
-      "text": "___ Tom, I'm writing to tell you about my hobby.",
+      "text": "Sorry, I can't talk. I'm busy ___.",
       "options": [
-        {"text": "Dear", "correct": true},
-        {"text": "Love", "correct": false},
-        {"text": "Best", "correct": false}
+        {"text": "at the moment", "correct": true},
+        {"text": "favourite", "correct": false},
+        {"text": "address", "correct": false}
       ],
-      "explanation": "Dear — обращение в начале письма."
+      "explanation": "At the moment — сейчас, в данный момент."
     },
     {
       "type": "dropdown",
-      "text": "I live in another ___.",
+      "text": "Canada is a very big ___.",
       "options": [
         {"text": "country", "correct": true},
-        {"text": "address", "correct": false},
+        {"text": "letter", "correct": false},
         {"text": "hobby", "correct": false}
       ],
-      "explanation": "Country — страна, где можно жить."
+      "explanation": "Канада — страна: country."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сейчас (в данный момент)",
-      "answer": "moment",
-      "accepted": ["moment", "at the moment"],
-      "explanation": "«В данный момент» переводится как at the moment."
+      "text": "Впиши английское слово: My ___ is collecting coins. (хобби)",
+      "answer": "hobby",
+      "explanation": "«Хобби» — hobby."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: отвечать (на письмо)",
+      "text": "Впиши английское слово: Please ___ to my message soon. (ответь)",
       "answer": "reply",
-      "explanation": "«Отвечать» переводится как reply."
+      "explanation": "«Отвечать (на письмо, сообщение)» — reply."
     },
     {
       "type": "matching",
-      "text": "Соедини английское слово с переводом",
+      "text": "Соедини английское слово или фразу с переводом",
       "pairs": [
         {"left": "letter", "right": "письмо"},
-        {"left": "hobby", "right": "хобби"},
-        {"left": "address", "right": "адрес"},
-        {"left": "favourite", "right": "любимый"}
+        {"left": "favourite", "right": "любимый"},
+        {"left": "right now", "right": "прямо сейчас"},
+        {"left": "How are you?", "right": "Как ты?"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "I got a ___ from my pen friend yesterday.",
+      "text": "Как начать письмо другу Майку?",
       "options": [
-        {"text": "letter", "correct": true},
-        {"text": "address", "correct": false},
-        {"text": "country", "correct": false}
+        {"text": "Dear Mike,", "correct": true},
+        {"text": "Best wishes, Mike", "correct": false},
+        {"text": "Write back soon, Mike", "correct": false}
       ],
-      "explanation": "Letter (письмо) — то, что получают от друга по переписке."
+      "explanation": "Письмо начинается с обращения Dear... (Дорогой...)."
     }
   ]
 }

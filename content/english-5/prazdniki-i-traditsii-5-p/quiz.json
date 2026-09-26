@@ -2,39 +2,38 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «celebrate»?",
+      "text": "Как переводится «every year»?",
       "options": [
-        {"text": "праздновать", "correct": true},
-        {"text": "украшать", "correct": false},
-        {"text": "дарить", "correct": false}
+        {"text": "каждый год", "correct": true},
+        {"text": "в этом году", "correct": false},
+        {"text": "в прошлом году", "correct": false}
       ],
-      "explanation": "«Celebrate» — праздновать."
+      "explanation": "«Every year» — каждый год."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «на Новый год много салютов»?",
+      "text": "Как правильно сказать «На празднике много гостей»?",
       "options": [
-        {"text": "There are a lot of fireworks on New Year", "correct": true},
-        {"text": "There is a lot of fireworks on New Year", "correct": false},
-        {"text": "There are lot of firework on New Year", "correct": false}
+        {"text": "There are a lot of guests at the party.", "correct": true},
+        {"text": "There is a lot of guests at the party.", "correct": false},
+        {"text": "There are lot of guest at the party.", "correct": false}
       ],
-      "explanation": "Fireworks — множественное число, используем there are."
+      "explanation": "Guests — множественное число, поэтому there are; «много» — a lot of."
     },
     {
       "type": "multiple",
-      "text": "Какие слова относятся к рассказу о традициях? (выбери все верные варианты)",
+      "text": "Какие предложения составлены верно? (выбери все верные варианты)",
       "options": [
-        {"text": "celebrate", "correct": true},
-        {"text": "customer", "correct": false},
-        {"text": "family", "correct": true},
-        {"text": "receipt", "correct": false},
-        {"text": "every year", "correct": true}
+        {"text": "There are many lights in the street.", "correct": true},
+        {"text": "There is a parade in the city.", "correct": true},
+        {"text": "There is many sweets.", "correct": false},
+        {"text": "There are a big cake.", "correct": false}
       ],
-      "explanation": "Celebrate, family, every year — слова для рассказа о традициях."
+      "explanation": "Sweets (много) требуют there are, а cake (один) — there is."
     },
     {
       "type": "dropdown",
-      "text": "We celebrate with our ___ (семья).",
+      "text": "My ___ (семья) always meets at Granny's house on New Year.",
       "options": [
         {"text": "family", "correct": true},
         {"text": "customer", "correct": false},
@@ -44,36 +43,36 @@
     },
     {
       "type": "dropdown",
-      "text": "Every year there ___ a big party.",
+      "text": "Every year there ___ a lot of flowers on 8 March.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
         {"text": "be", "correct": false}
       ],
-      "explanation": "Party — единственное число, используем there is."
+      "explanation": "Flowers — множественное число, поэтому there are."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним словом: особенный",
+      "text": "Впиши слово (особенный): My birthday is a ___ day for me.",
       "answer": "special",
       "explanation": "«Особенный» — special."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши фразу: We celebrate this holiday ___ year (каждый).",
-      "answer": "every",
-      "explanation": "«Каждый» — every."
+      "text": "Впиши слово (праздновать): How do you ___ New Year?",
+      "answer": "celebrate",
+      "explanation": "«Праздновать» — celebrate."
     },
     {
       "type": "matching",
-      "text": "Соедини слово с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "celebrate", "right": "праздновать"},
-        {"left": "family", "right": "семья"},
-        {"left": "every year", "right": "каждый год"},
-        {"left": "special", "right": "особенный"}
+        {"left": "We decorate the tree.", "right": "Мы украшаем ёлку."},
+        {"left": "There is a concert in the park.", "right": "В парке концерт."},
+        {"left": "Children get presents.", "right": "Дети получают подарки."},
+        {"left": "We sing songs.", "right": "Мы поём песни."}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам и примерам урока: there is — ед. ч."
     }
   ]
 }

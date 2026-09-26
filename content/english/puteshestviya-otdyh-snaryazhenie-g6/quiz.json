@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери верную форму: We ___ travel to Spain this summer.",
+      "text": "Выбери верную форму: My parents ___ buy a new tent.",
       "options": [
         {"text": "are going to", "correct": true},
         {"text": "is going to", "correct": false},
-        {"text": "go to", "correct": false}
+        {"text": "am going to", "correct": false}
       ],
-      "explanation": "We требует формы are going to."
+      "explanation": "My parents — они (they), поэтому are going to."
     },
     {
       "type": "single",
-      "text": "Выбери верную форму: My family ___ go camping next weekend.",
+      "text": "Как сказать «Он собирается посетить Париж»?",
       "options": [
-        {"text": "is going to", "correct": true},
-        {"text": "are going to", "correct": false},
-        {"text": "am going to", "correct": false}
+        {"text": "He is going to visit Paris.", "correct": true},
+        {"text": "He are going to visit Paris.", "correct": false},
+        {"text": "He is going visit Paris.", "correct": false}
       ],
-      "explanation": "Family — единственное число (it), требует формы is going to."
+      "explanation": "С he — is going to + глагол. Частицу to пропускать нельзя."
     },
     {
       "type": "multiple",
-      "text": "Какие предложения выражают заранее спланированное будущее (going to)? (выбери все верные варианты)",
+      "text": "Какие предложения говорят о заранее решённых планах (going to)? (выбери все верные варианты)",
       "options": [
-        {"text": "We are going to go to the mountains.", "correct": true},
-        {"text": "She is going to pack a tent.", "correct": true},
-        {"text": "I usually travel by plane.", "correct": false},
-        {"text": "They are going to travel abroad.", "correct": true},
-        {"text": "He works in a hotel.", "correct": false}
+        {"text": "I am going to learn to swim this summer.", "correct": true},
+        {"text": "They are going to fly to Turkey in July.", "correct": true},
+        {"text": "We often go to the seaside.", "correct": false},
+        {"text": "My sister likes travelling.", "correct": false}
       ],
-      "explanation": "Предложения с going to выражают конкретный план на будущее. Остальные — привычки и факты (Present Simple)."
+      "explanation": "Планы выражаются через am/is/are going to + глагол. Often go и likes — привычки, Present Simple."
     },
     {
       "type": "dropdown",
-      "text": "Are you ___ pack a tent?",
+      "text": "___ your brother going to take his camera?",
       "options": [
-        {"text": "going to", "correct": true},
-        {"text": "go to", "correct": false},
-        {"text": "will", "correct": false}
+        {"text": "Is", "correct": true},
+        {"text": "Are", "correct": false},
+        {"text": "Does", "correct": false}
       ],
-      "explanation": "Вопрос о плане строится с going to: Are you going to...?"
+      "explanation": "Your brother — он (he), вопрос: Is he going to...?"
     },
     {
       "type": "dropdown",
-      "text": "I am not ___ forget my passport!",
+      "text": "We ___ going to stay in a hotel — we have got a tent.",
       "options": [
-        {"text": "going to", "correct": true},
-        {"text": "go to", "correct": false},
-        {"text": "will", "correct": false}
+        {"text": "aren't", "correct": true},
+        {"text": "isn't", "correct": false},
+        {"text": "don't", "correct": false}
       ],
-      "explanation": "Отрицание с going to: am not going to."
+      "explanation": "Отрицание с we: aren't (are not) going to."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: We ___ (go) to the mountains next month.",
-      "answer": "are going to go",
-      "explanation": "План на будущее: are going to go."
+      "text": "Впиши форму глагола с going to: I ___ (buy) a map before the trip.",
+      "answer": "am going to buy",
+      "accepted": ["am going to buy", "'m going to buy", "’m going to buy"],
+      "explanation": "С I — am going to + глагол: am going to buy."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: She ___ (travel) abroad next year.",
-      "answer": "is going to travel",
-      "explanation": "She требует is going to travel — план на будущее."
+      "text": "Впиши одно пропущенное слово: Where are you going ___ stay in London?",
+      "answer": "to",
+      "explanation": "Конструкция полностью: am/is/are going to + глагол."
     },
     {
       "type": "matching",
-      "text": "Соедини подлежащее с правильной формой going to",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I", "right": "am going to"},
-        {"left": "We", "right": "are going to"},
-        {"left": "She", "right": "is going to"},
-        {"left": "They", "right": "are going to"}
+        {"left": "I'm going to swim in the lake.", "right": "Я собираюсь поплавать в озере."},
+        {"left": "She isn't going to take her dog.", "right": "Она не собирается брать свою собаку."},
+        {"left": "Are they going to climb the mountain?", "right": "Они собираются подняться на гору?"},
+        {"left": "We are going to cook on a fire.", "right": "Мы собираемся готовить на костре."}
       ],
-      "explanation": "Форма be (am/is/are) в going to зависит от подлежащего."
+      "explanation": "Going to — «собираться что-то сделать»: утверждение, отрицание (isn't) и вопрос (Are...?)."
     },
     {
       "type": "single",
-      "text": "I ___ take a backpack for the trip.",
+      "text": "Our plan for tomorrow: we ___ visit the old castle.",
       "options": [
-        {"text": "am going to", "correct": true},
+        {"text": "are going to", "correct": true},
         {"text": "is going to", "correct": false},
-        {"text": "are going to", "correct": false}
+        {"text": "going to", "correct": false}
       ],
-      "explanation": "I требует формы am going to."
+      "explanation": "С we — are going to; без are конструкция неполная."
     }
   ]
 }

@@ -2,45 +2,44 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «skirt»?",
+      "text": "Как переводится слово «wear»?",
       "options": [
-        {"text": "юбка", "correct": true},
-        {"text": "платье", "correct": false},
-        {"text": "куртка", "correct": false}
+        {"text": "носить (одежду)", "correct": true},
+        {"text": "одежда", "correct": false},
+        {"text": "покупать", "correct": false}
       ],
-      "explanation": "«Skirt» — юбка."
+      "explanation": "«Wear» — носить (одежду): I wear jeans."
     },
     {
       "type": "single",
-      "text": "Как по-английски «пальто»?",
+      "text": "Как по-английски «футболка»?",
       "options": [
-        {"text": "coat", "correct": true},
-        {"text": "hat", "correct": false},
-        {"text": "jacket", "correct": false}
+        {"text": "T-shirt", "correct": true},
+        {"text": "jacket", "correct": false},
+        {"text": "skirt", "correct": false}
       ],
-      "explanation": "«Пальто» — coat."
+      "explanation": "«Футболка» — T-shirt."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают обувь или то, что носят на ногах? (выбери все верные варианты)",
+      "text": "Что носят на ногах? (выбери все верные варианты)",
       "options": [
         {"text": "shoes", "correct": true},
         {"text": "socks", "correct": true},
-        {"text": "trousers", "correct": true},
-        {"text": "hat", "correct": false},
-        {"text": "T-shirt", "correct": false}
+        {"text": "scarf", "correct": false},
+        {"text": "gloves", "correct": false}
       ],
-      "explanation": "Shoes, socks, trousers надевают на ноги. Hat и T-shirt — нет."
+      "explanation": "Shoes (туфли, обувь) и socks (носки) носят на ногах. Scarf — шарф, gloves — перчатки."
     },
     {
       "type": "dropdown",
-      "text": "I like this ___ (платье).",
+      "text": "I like this ___ (юбка).",
       "options": [
-        {"text": "dress", "correct": true},
-        {"text": "skirt", "correct": false},
+        {"text": "skirt", "correct": true},
+        {"text": "dress", "correct": false},
         {"text": "coat", "correct": false}
       ],
-      "explanation": "«Платье» — dress."
+      "explanation": "«Юбка» — skirt."
     },
     {
       "type": "dropdown",
@@ -54,24 +53,24 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: куртка",
-      "answer": "jacket",
-      "explanation": "«Куртка» переводится как jacket."
+      "text": "Впиши перевод одним английским словом: пальто",
+      "answer": "coat",
+      "explanation": "«Пальто» — coat."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: джинсы",
       "answer": "jeans",
-      "explanation": "«Джинсы» переводятся как jeans."
+      "explanation": "«Джинсы» — jeans."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "T-shirt", "right": "футболка"},
+        {"left": "clothes", "right": "одежда"},
         {"left": "trousers", "right": "брюки"},
-        {"left": "socks", "right": "носки"},
-        {"left": "clothes", "right": "одежда"}
+        {"left": "dress", "right": "платье"},
+        {"left": "jacket", "right": "куртка"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     }

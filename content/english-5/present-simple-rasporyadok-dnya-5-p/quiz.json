@@ -2,78 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Где обычно стоит наречие частоты (usually, always, never)?",
+      "text": "В каком предложении наречие always стоит на правильном месте?",
       "options": [
-        {"text": "перед основным глаголом", "correct": true},
-        {"text": "после основного глагола", "correct": false},
-        {"text": "в конце предложения", "correct": false}
+        {"text": "We always walk to school.", "correct": true},
+        {"text": "We walk always to school.", "correct": false},
+        {"text": "We walk to always school.", "correct": false}
       ],
-      "explanation": "Наречия частоты обычно стоят перед основным глаголом: I always do..."
+      "explanation": "Наречия частоты обычно стоят перед основным глаголом: always walk."
     },
     {
       "type": "single",
-      "text": "Как перевести «Он никогда не ужинает поздно»?",
+      "text": "Как перевести «Она никогда не пьёт кофе»?",
       "options": [
-        {"text": "He never has dinner late.", "correct": true},
-        {"text": "He has never dinner late.", "correct": false},
-        {"text": "He don't have dinner late never.", "correct": false}
+        {"text": "She never drinks coffee.", "correct": true},
+        {"text": "She drinks never coffee.", "correct": false},
+        {"text": "She don't drinks coffee never.", "correct": false}
       ],
-      "explanation": "Never ставится перед глаголом: he never has dinner late (has, т.к. he)."
+      "explanation": "Never ставится перед глаголом; she — глагол с -s: never drinks. Второе отрицание (don't) не нужно."
     },
     {
       "type": "multiple",
-      "text": "Какие слова — наречия частоты? (выбери все верные варианты)",
+      "text": "В каких предложениях наречие стоит на правильном месте? (выбери все верные варианты)",
       "options": [
-        {"text": "always", "correct": true},
-        {"text": "usually", "correct": true},
-        {"text": "never", "correct": true},
-        {"text": "wash", "correct": false},
-        {"text": "go to bed", "correct": false}
+        {"text": "Tom usually has lunch at school.", "correct": true},
+        {"text": "My brother never washes the dishes.", "correct": true},
+        {"text": "Mum cooks usually dinner.", "correct": false},
+        {"text": "I go always to bed at ten.", "correct": false}
       ],
-      "explanation": "Always, usually, never — наречия частоты. Wash и go to bed — глагольные фразы."
+      "explanation": "Наречие частоты ставится перед основным глаголом: Mum usually cooks dinner, I always go to bed at ten."
     },
     {
       "type": "dropdown",
-      "text": "She ___ washes her hands before lunch.",
+      "text": "Dad ___ reads the newspaper in the morning (обычно).",
       "options": [
         {"text": "usually", "correct": true},
         {"text": "usual", "correct": false},
         {"text": "using", "correct": false}
       ],
-      "explanation": "Нужно наречие usually («обычно»), стоящее перед глаголом."
+      "explanation": "Нужно наречие usually («обычно»), оно стоит перед глаголом."
     },
     {
       "type": "dropdown",
-      "text": "I always ___ (do) my homework in the evening.",
+      "text": "We always ___ (have) dinner together.",
       "options": [
-        {"text": "do", "correct": true},
-        {"text": "does", "correct": false},
-        {"text": "doing", "correct": false}
+        {"text": "have", "correct": true},
+        {"text": "has", "correct": false},
+        {"text": "having", "correct": false}
       ],
-      "explanation": "I — глагол без окончания -s: do."
+      "explanation": "We — глагол без окончания: have."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши наречие: He ___ (never) has dinner late.",
+      "text": "Впиши наречие (никогда): Cats ___ eat vegetables.",
       "answer": "never",
-      "explanation": "«Никогда» — never, стоит перед глаголом has."
+      "explanation": "«Никогда» — never, стоит перед глаголом eat."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол с окончанием: She usually ___ (wash) her hands before lunch.",
-      "answer": "washes",
-      "explanation": "She — 3-е лицо ед. числа, к глаголу добавляется -es (wash оканчивается на -sh)."
+      "text": "Впиши глагол с окончанием: Anna usually ___ (brush) her teeth after breakfast.",
+      "answer": "brushes",
+      "explanation": "Anna = she; brush оканчивается на -sh, поэтому +es: brushes."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I always do my homework.", "right": "Я всегда делаю домашку."},
-        {"left": "He never has dinner late.", "right": "Он никогда не ужинает поздно."},
-        {"left": "She usually washes her hands.", "right": "Она обычно моет руки."},
-        {"left": "She usually has lunch at one.", "right": "Она обычно обедает в час."}
+        {"left": "I usually go to bed at ten.", "right": "Я обычно ложусь спать в десять."},
+        {"left": "She always does her homework.", "right": "Она всегда делает домашку."},
+        {"left": "He never watches TV.", "right": "Он никогда не смотрит телевизор."},
+        {"left": "We wash in the morning.", "right": "Мы умываемся утром."}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Usually — обычно, always — всегда, never — никогда; наречие стоит перед глаголом."
     }
   ]
 }

@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "— ___ apples do you need? — I need a bag of apples.",
+      "text": "— ___ oranges do you want? — Five, please.",
       "options": [
         {"text": "How many", "correct": true},
         {"text": "How much", "correct": false},
         {"text": "How", "correct": false}
       ],
-      "explanation": "Apples — исчисляемое существительное, вопрос строится с how many."
+      "explanation": "Oranges — исчисляемое существительное во мн. числе: how many."
     },
     {
       "type": "single",
-      "text": "What's the price of this cheese? — это вопрос о...",
+      "text": "Что решают сделать с сыром в магазине?",
       "options": [
-        {"text": "цене товара", "correct": true},
-        {"text": "количестве товара", "correct": false},
-        {"text": "магазине", "correct": false}
+        {"text": "Купить его — он дешёвый.", "correct": true},
+        {"text": "Не покупать — он дорогой.", "correct": false},
+        {"text": "Попробовать его в магазине.", "correct": false}
       ],
-      "explanation": "Price — цена, вопрос спрашивает, сколько стоит сыр."
+      "explanation": "В тексте: It's cheap. Let's buy it. — Он дешёвый. Давай купим его."
     },
     {
       "type": "multiple",
-      "text": "Что можно положить в список покупок (shopping list)? (выбери все верные варианты)",
+      "text": "Что записано в списке покупок (shopping list)? (выбери все верные варианты)",
       "options": [
         {"text": "bread", "correct": true},
-        {"text": "eggs", "correct": true},
-        {"text": "price", "correct": false},
-        {"text": "sugar", "correct": true},
-        {"text": "buy", "correct": false}
+        {"text": "rice", "correct": true},
+        {"text": "cheese", "correct": false},
+        {"text": "apples", "correct": false}
       ],
-      "explanation": "Bread, eggs, sugar — продукты, которые можно купить. Price и buy — не продукты, а цена и действие."
+      "explanation": "В списке: bread, eggs, rice and sugar. Сыра и яблок в нём нет."
     },
     {
       "type": "dropdown",
-      "text": "— ___ milk is there? — There is a bottle of milk.",
+      "text": "— ___ water is there in the bottle? — Not much.",
       "options": [
         {"text": "How much", "correct": true},
         {"text": "How many", "correct": false},
         {"text": "How long", "correct": false}
       ],
-      "explanation": "Milk — неисчисляемое существительное, вопрос строится с how much."
+      "explanation": "Water — неисчисляемое существительное: how much."
     },
     {
       "type": "dropdown",
-      "text": "I made a shopping ___ before going to the shop.",
+      "text": "Can you buy a ___ of sugar, please?",
       "options": [
-        {"text": "list", "correct": true},
-        {"text": "price", "correct": false},
-        {"text": "bag", "correct": false}
+        {"text": "bag", "correct": true},
+        {"text": "loaf", "correct": false},
+        {"text": "bottle", "correct": false}
       ],
-      "explanation": "Устойчивое выражение — shopping list (список покупок)."
+      "explanation": "Сахар продают в пакетах: a bag of sugar. Loaf — только для хлеба, bottle — для жидкостей."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши пропущенное слово: We bought a ___ of bread. (буханка)",
-      "answer": "loaf",
-      "explanation": "«Буханка хлеба» — a loaf of bread."
+      "text": "Впиши слово: Please buy a ___ of orange juice. (бутылка)",
+      "answer": "bottle",
+      "explanation": "«Бутылка (чего-то)» — a bottle of."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопросное слово: ___ many eggs do we need?",
-      "answer": "How",
-      "explanation": "Вопрос о количестве исчисляемых предметов начинается с How many."
+      "text": "Впиши пропущенное слово: How ___ bananas are there in the bag?",
+      "answer": "many",
+      "explanation": "Bananas — исчисляемое, мн. число: how many."
     },
     {
       "type": "matching",
-      "text": "Соедини вопрос с подходящим ответом",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "How many eggs do you need?", "right": "I need six eggs."},
-        {"left": "How much milk is there?", "right": "There is a bottle of milk."},
-        {"left": "What's the price of the cheese?", "right": "It's cheap."},
-        {"left": "What do we need to buy?", "right": "Bread, rice and sugar."}
+        {"left": "eggs", "right": "яйца"},
+        {"left": "milk", "right": "молоко"},
+        {"left": "sugar", "right": "сахар"},
+        {"left": "shop", "right": "магазин"}
       ],
-      "explanation": "Вопросы о количестве и цене продуктов соответствуют логичным ответам из диалога."
+      "explanation": "Это слова по теме «Покупки: продукты»."
     },
     {
       "type": "single",
-      "text": "Let's buy this cheese, it's cheap. Слово «cheap» означает:",
+      "text": "What's the ___ of these pears? — Two pounds.",
       "options": [
-        {"text": "дешёвый", "correct": true},
-        {"text": "вкусный", "correct": false},
-        {"text": "свежий", "correct": false}
+        {"text": "price", "correct": true},
+        {"text": "list", "correct": false},
+        {"text": "bag", "correct": false}
       ],
-      "explanation": "Cheap — дешёвый (низкая цена)."
+      "explanation": "Ответ — сумма денег, значит спрашивают цену: price."
     }
   ]
 }

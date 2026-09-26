@@ -2,86 +2,86 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «explorer»?",
+      "text": "Как переводится слово «route»?",
       "options": [
-        {"text": "путешественник, исследователь", "correct": true},
-        {"text": "корабль", "correct": false},
-        {"text": "остров", "correct": false}
+        {"text": "маршрут", "correct": true},
+        {"text": "остров", "correct": false},
+        {"text": "берег", "correct": false}
       ],
-      "explanation": "«Explorer» — путешественник, исследователь."
+      "explanation": "«Route» — маршрут."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «voyage»?",
+      "text": "Как по-английски «исследовать»?",
       "options": [
-        {"text": "морское путешествие", "correct": true},
-        {"text": "маршрут", "correct": false},
-        {"text": "экспедиция", "correct": false}
+        {"text": "explore", "correct": true},
+        {"text": "explain", "correct": false},
+        {"text": "expect", "correct": false}
       ],
-      "explanation": "«Voyage» — морское путешествие."
+      "explanation": "«Исследовать» — explore. Explain — объяснять, expect — ожидать."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «brave»?",
+      "text": "Как переводится слово «adventure»?",
       "options": [
-        {"text": "смелый", "correct": true},
-        {"text": "знаменитый", "correct": false},
-        {"text": "смелый и знаменитый", "correct": false}
+        {"text": "приключение", "correct": true},
+        {"text": "отпуск", "correct": false},
+        {"text": "подарок", "correct": false}
       ],
-      "explanation": "«Brave» — смелый. «Famous» — знаменитый, это другое слово."
+      "explanation": "«Adventure» — приключение."
     },
     {
       "type": "multiple",
-      "text": "Какие слова связаны с морским путешествием? (выбери все верные варианты)",
+      "text": "Какие слова связаны с морем и кораблями? (выбери все верные варианты)",
       "options": [
-        {"text": "ship", "correct": true},
         {"text": "sail", "correct": true},
         {"text": "voyage", "correct": true},
-        {"text": "route", "correct": true},
-        {"text": "continent", "correct": false}
+        {"text": "ship", "correct": true},
+        {"text": "brave", "correct": false},
+        {"text": "famous", "correct": false}
       ],
-      "explanation": "Ship, sail, voyage, route связаны с морским путешествием. Continent (континент) — это место, а не само путешествие."
+      "explanation": "Sail — плыть, voyage — морское путешествие, ship — корабль. Brave и famous — качества человека."
     },
     {
       "type": "dropdown",
-      "text": "The explorer started a long ___ across the ocean.",
+      "text": "Australia is the smallest ___ in the world.",
       "options": [
-        {"text": "voyage", "correct": true},
-        {"text": "island", "correct": false},
-        {"text": "continent", "correct": false}
+        {"text": "continent", "correct": true},
+        {"text": "ship", "correct": false},
+        {"text": "route", "correct": false}
       ],
-      "explanation": "Voyage — морское путешествие, подходит по смыслу к «across the ocean»."
+      "explanation": "Австралия — самый маленький континент: continent."
     },
     {
       "type": "dropdown",
-      "text": "They found a new ___ during the expedition.",
+      "text": "After a long voyage the sailors finally saw ___.",
       "options": [
-        {"text": "island", "correct": true},
-        {"text": "route", "correct": false},
-        {"text": "ship", "correct": false}
+        {"text": "land", "correct": true},
+        {"text": "brave", "correct": false},
+        {"text": "famous", "correct": false}
       ],
-      "explanation": "Island — остров, его можно «найти» во время экспедиции."
+      "explanation": "После долгого плавания увидели сушу — land."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: экспедиция",
+      "text": "Впиши английское слово: Robinson Crusoe lived on an ___. (остров)",
+      "answer": "island",
+      "explanation": "«Остров» — island (буква s не читается)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: The ___ went to the North Pole. (экспедиция)",
       "answer": "expedition",
-      "explanation": "«Экспедиция» переводится как expedition."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: смелый",
-      "answer": "brave",
-      "explanation": "«Смелый» переводится как brave."
+      "explanation": "«Экспедиция» — expedition."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "explorer", "right": "путешественник"},
+        {"left": "explorer", "right": "путешественник, исследователь"},
         {"left": "discovery", "right": "открытие"},
-        {"left": "continent", "right": "континент"},
-        {"left": "ship", "right": "корабль"}
+        {"left": "brave", "right": "смелый"},
+        {"left": "famous", "right": "знаменитый"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     }

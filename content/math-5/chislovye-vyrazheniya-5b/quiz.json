@@ -2,36 +2,36 @@
   "questions": [
     {
       "type": "single",
-      "text": "Вычисли: 12 + 8 × 3.",
+      "text": "Вычисли: 15 + 6 × 4.",
       "options": [
-        {"text": "36", "correct": true},
-        {"text": "60", "correct": false},
-        {"text": "44", "correct": false},
-        {"text": "20", "correct": false}
+        {"text": "39", "correct": true},
+        {"text": "84", "correct": false},
+        {"text": "25", "correct": false},
+        {"text": "90", "correct": false}
       ],
-      "explanation": "Сначала умножение: 8 × 3 = 24, затем сложение: 12 + 24 = 36."
+      "explanation": "Сначала умножение: 6 × 4 = 24, затем сложение: 15 + 24 = 39. Ответ 84 получится, если по ошибке сначала сложить: (15 + 6) × 4."
     },
     {
       "type": "single",
-      "text": "Вычисли: (18 − 6) ÷ 3 + 7.",
+      "text": "Вычисли: (24 − 8) ÷ 4 + 5.",
       "options": [
-        {"text": "11", "correct": true},
-        {"text": "13", "correct": false},
+        {"text": "9", "correct": true},
+        {"text": "27", "correct": false},
         {"text": "4", "correct": false},
-        {"text": "25", "correct": false}
+        {"text": "21", "correct": false}
       ],
-      "explanation": "Сначала скобки: 18 − 6 = 12, затем деление: 12 ÷ 3 = 4, затем сложение: 4 + 7 = 11."
+      "explanation": "Сначала скобки: 24 − 8 = 16, затем деление: 16 ÷ 4 = 4, затем сложение: 4 + 5 = 9."
     },
     {
       "type": "single",
-      "text": "Вычисли: 100 − (4 + 3) × 9.",
+      "text": "Вычисли: 80 − (5 + 2) × 6.",
       "options": [
-        {"text": "37", "correct": true},
-        {"text": "63", "correct": false},
-        {"text": "51", "correct": false},
-        {"text": "27", "correct": false}
+        {"text": "38", "correct": true},
+        {"text": "42", "correct": false},
+        {"text": "87", "correct": false},
+        {"text": "28", "correct": false}
       ],
-      "explanation": "Скобки: 4 + 3 = 7. Умножение: 7 × 9 = 63. Вычитание: 100 − 63 = 37."
+      "explanation": "Скобки: 5 + 2 = 7. Умножение: 7 × 6 = 42. Вычитание: 80 − 42 = 38."
     },
     {
       "type": "multiple",
@@ -48,55 +48,55 @@
       "type": "multiple",
       "text": "Выбери верные равенства (выбери все верные варианты).",
       "options": [
-        {"text": "25 + 5 × 4 = 45", "correct": true},
-        {"text": "60 ÷ 2 + 7 × 3 = 51", "correct": true},
-        {"text": "14 × 2 − 5 × 3 = 13", "correct": true},
-        {"text": "(45 + 15) ÷ 12 = 60", "correct": false}
+        {"text": "30 + 4 × 5 = 50", "correct": true},
+        {"text": "48 ÷ 6 + 3 × 2 = 14", "correct": true},
+        {"text": "50 − 3 × 8 = 26", "correct": true},
+        {"text": "(36 + 12) ÷ 8 = 36", "correct": false}
       ],
-      "explanation": "Первые три верны. Последнее неверно: (45 + 15) ÷ 12 = 60 ÷ 12 = 5, а не 60."
+      "explanation": "30 + 20 = 50; 8 + 6 = 14; 50 − 24 = 26 — верно. Последнее неверно: (36 + 12) ÷ 8 = 48 ÷ 8 = 6, а не 36."
     },
     {
       "type": "dropdown",
-      "text": "(30 − 12) ÷ 6 = ___",
+      "text": "(40 − 16) ÷ 8 = ___",
       "options": [
         {"text": "3", "correct": true},
-        {"text": "18", "correct": false},
-        {"text": "12", "correct": false}
+        {"text": "24", "correct": false},
+        {"text": "38", "correct": false}
       ],
-      "explanation": "Сначала скобки: 30 − 12 = 18, затем деление: 18 ÷ 6 = 3."
+      "explanation": "Сначала скобки: 40 − 16 = 24, затем деление: 24 ÷ 8 = 3. Ответ 38 получится, если забыть про скобки."
     },
     {
       "type": "dropdown",
-      "text": "90 − (8 + 2) × 6 = ___",
+      "text": "70 − (6 + 3) × 5 = ___",
       "options": [
-        {"text": "30", "correct": true},
-        {"text": "60", "correct": false},
-        {"text": "70", "correct": false}
+        {"text": "25", "correct": true},
+        {"text": "45", "correct": false},
+        {"text": "305", "correct": false}
       ],
-      "explanation": "Скобки: 8 + 2 = 10. Умножение: 10 × 6 = 60. Вычитание: 90 − 60 = 30."
+      "explanation": "Скобки: 6 + 3 = 9. Умножение: 9 × 5 = 45. Вычитание: 70 − 45 = 25."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 60 ÷ 2 + 7 × 3 = ___.",
-      "answer": "51",
-      "explanation": "60 ÷ 2 = 30, 7 × 3 = 21, затем 30 + 21 = 51."
+      "text": "Впиши только число: 72 ÷ 8 + 6 × 3 = ___.",
+      "answer": "27",
+      "explanation": "72 ÷ 8 = 9, 6 × 3 = 18, затем 9 + 18 = 27."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 14 × 2 − 5 × 3 = ___.",
-      "answer": "13",
-      "explanation": "14 × 2 = 28, 5 × 3 = 15, затем 28 − 15 = 13."
+      "text": "Впиши только число: 16 × 3 − 4 × 7 = ___.",
+      "answer": "20",
+      "explanation": "16 × 3 = 48, 4 × 7 = 28, затем 48 − 28 = 20."
     },
     {
       "type": "matching",
       "text": "Соедини выражение с его значением:",
       "pairs": [
-        {"left": "12 + 8 × 3", "right": "36"},
-        {"left": "(15 − 5) × 2", "right": "20"},
-        {"left": "(45 + 15) ÷ 12", "right": "5"},
-        {"left": "20 + 6 × 5 − 8 ÷ 2", "right": "46"}
+        {"left": "18 + 2 × 7", "right": "32"},
+        {"left": "(20 − 8) × 3", "right": "36"},
+        {"left": "(50 + 22) ÷ 9", "right": "8"},
+        {"left": "40 − 12 ÷ 4 + 5", "right": "42"}
       ],
-      "explanation": "Значения найдены по порядку действий: сначала скобки и умножение/деление, потом сложение и вычитание."
+      "explanation": "18 + 14 = 32; 12 × 3 = 36; 72 ÷ 9 = 8; 40 − 3 + 5 = 42 — сначала скобки, потом умножение и деление, потом сложение и вычитание слева направо."
     }
   ]
 }

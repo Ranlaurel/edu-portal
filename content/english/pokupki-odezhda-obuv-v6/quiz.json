@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «trainers»?",
+      "text": "Как переводится слово «skirt»?",
       "options": [
-        {"text": "кроссовки", "correct": true},
-        {"text": "ботинки", "correct": false},
-        {"text": "джинсы", "correct": false}
+        {"text": "юбка", "correct": true},
+        {"text": "рубашка", "correct": false},
+        {"text": "шарф", "correct": false}
       ],
-      "explanation": "«Trainers» (британский вариант) — кроссовки, синоним sneakers."
+      "explanation": "«Skirt» — юбка."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «price»?",
+      "text": "Как по-английски «цвет»?",
       "options": [
-        {"text": "цена", "correct": true},
-        {"text": "размер", "correct": false},
-        {"text": "цвет", "correct": false}
+        {"text": "colour", "correct": true},
+        {"text": "picture", "correct": false},
+        {"text": "paint", "correct": false}
       ],
-      "explanation": "«Price» — цена."
+      "explanation": "«Цвет» — colour (в американском варианте color)."
     },
     {
       "type": "multiple",
-      "text": "Какие слова относятся к одежде, а не обуви? (выбери все верные варианты)",
+      "text": "Какие слова обозначают обувь? (выбери все верные варианты)",
       "options": [
-        {"text": "jacket", "correct": true},
-        {"text": "boots", "correct": false},
-        {"text": "dress", "correct": true},
-        {"text": "trainers", "correct": false},
-        {"text": "skirt", "correct": true}
+        {"text": "boots", "correct": true},
+        {"text": "trainers", "correct": true},
+        {"text": "hat", "correct": false},
+        {"text": "coat", "correct": false}
       ],
-      "explanation": "Jacket, dress, skirt — одежда. Boots и trainers — обувь."
+      "explanation": "Boots (ботинки, сапоги) и trainers (кроссовки) — обувь. Hat — шляпа, coat — пальто."
     },
     {
       "type": "dropdown",
-      "text": "Продавец — это ___.",
+      "text": "Ask the ___ for help — he works in this shop.",
       "options": [
         {"text": "shop assistant", "correct": true},
         {"text": "shop window", "correct": false},
-        {"text": "colour", "correct": false}
+        {"text": "price", "correct": false}
       ],
-      "explanation": "Shop assistant — продавец."
+      "explanation": "Человек, который работает в магазине, — shop assistant (продавец)."
     },
     {
       "type": "dropdown",
-      "text": "Примерять — это ___.",
+      "text": "It's cold outside. Put on your ___.",
       "options": [
-        {"text": "try on", "correct": true},
-        {"text": "shop window", "correct": false},
-        {"text": "size", "correct": false}
+        {"text": "jacket", "correct": true},
+        {"text": "swimsuit", "correct": false},
+        {"text": "sandals", "correct": false}
       ],
-      "explanation": "Try on — примерять."
+      "explanation": "В холод надевают куртку — jacket."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: размер",
+      "text": "Впиши английское слово: What ___ are your shoes? — Thirty-six. (размер)",
       "answer": "size",
-      "explanation": "«Размер» переводится как size."
+      "explanation": "«Размер» — size."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: витрина",
-      "answer": "shop window",
-      "explanation": "«Витрина» переводится как shop window."
+      "text": "Впиши английское слово: At weekends I wear ___ and a sweater. (джинсы)",
+      "answer": "jeans",
+      "explanation": "«Джинсы» — jeans (всегда во мн. числе)."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "shop assistant", "right": "продавец"},
-        {"left": "price", "right": "цена"},
-        {"left": "try on", "right": "примерять"},
-        {"left": "colour", "right": "цвет"}
+        {"left": "clothes", "right": "одежда"},
+        {"left": "shoes", "right": "обувь"},
+        {"left": "dress", "right": "платье"},
+        {"left": "T-shirt", "right": "футболка"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Какое слово общее и для одежды, и для обуви одновременно означает «одежда»?",
+      "text": "The ___ of this cap is only five pounds.",
       "options": [
-        {"text": "clothes", "correct": true},
-        {"text": "shoes", "correct": false},
-        {"text": "size", "correct": false}
+        {"text": "price", "correct": true},
+        {"text": "size", "correct": false},
+        {"text": "colour", "correct": false}
       ],
-      "explanation": "«Clothes» — общее слово «одежда», а «shoes» — обувь."
+      "explanation": "Пять фунтов — это цена: price."
     }
   ]
 }

@@ -2,98 +2,97 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери правильную форму: My friend usually ___ to school by bus.",
+      "text": "Выбери правильную форму: My dad ___ coffee every morning.",
       "options": [
-        {"text": "goes", "correct": true},
-        {"text": "go", "correct": false},
-        {"text": "is going", "correct": false}
+        {"text": "drinks", "correct": true},
+        {"text": "drink", "correct": false},
+        {"text": "drinking", "correct": false}
       ],
-      "explanation": "Regular action (usually) — Present Simple, he/she/it + -s: goes."
+      "explanation": "Every morning — привычка, Present Simple. My dad — он (he), поэтому добавляем -s: drinks."
     },
     {
       "type": "single",
-      "text": "Look! She ___ to the bus stop now.",
+      "text": "Listen! The baby ___.",
       "options": [
-        {"text": "is running", "correct": true},
-        {"text": "runs", "correct": false},
-        {"text": "run", "correct": false}
+        {"text": "is crying", "correct": true},
+        {"text": "cries", "correct": false},
+        {"text": "cry", "correct": false}
       ],
-      "explanation": "Действие происходит прямо сейчас (now) — используется Present Continuous: is running."
+      "explanation": "Listen! — действие происходит прямо сейчас, Present Continuous: is crying."
     },
     {
       "type": "multiple",
-      "text": "Какие из этих глаголов — модальные? (выбери все верные варианты)",
+      "text": "В каких предложениях использовано время Past Simple? (выбери все верные варианты)",
       "options": [
-        {"text": "must", "correct": true},
-        {"text": "should", "correct": true},
-        {"text": "played", "correct": false},
-        {"text": "can", "correct": true},
-        {"text": "going", "correct": false}
+        {"text": "We played football yesterday.", "correct": true},
+        {"text": "She bought a new dress last week.", "correct": true},
+        {"text": "They are watching TV now.", "correct": false},
+        {"text": "He will call you tomorrow.", "correct": false}
       ],
-      "explanation": "Must, should, can — модальные глаголы. Played и going — не модальные глаголы."
+      "explanation": "Played (play + -ed) и bought (buy — неправильный глагол) — Past Simple. Are watching — Present Continuous, will call — будущее."
     },
     {
       "type": "dropdown",
-      "text": "Yesterday we ___ (see) an interesting film.",
+      "text": "Last summer my family ___ to the seaside.",
       "options": [
-        {"text": "saw", "correct": true},
-        {"text": "seen", "correct": false},
-        {"text": "see", "correct": false}
+        {"text": "went", "correct": true},
+        {"text": "goes", "correct": false},
+        {"text": "gone", "correct": false}
       ],
-      "explanation": "See — неправильный глагол, форма Past Simple: saw (yesterday указывает на прошедшее время)."
+      "explanation": "Last summer — прошлое, Past Simple. Go — неправильный глагол: go → went."
     },
     {
       "type": "dropdown",
-      "text": "This is the ___ (interesting) book I have ever read.",
+      "text": "A cheetah is ___ than a horse.",
       "options": [
-        {"text": "most interesting", "correct": true},
-        {"text": "interestingest", "correct": false},
-        {"text": "more interesting", "correct": false}
+        {"text": "faster", "correct": true},
+        {"text": "fastest", "correct": false},
+        {"text": "more fast", "correct": false}
       ],
-      "explanation": "Interesting — длинное прилагательное, превосходная степень образуется через the most: the most interesting."
+      "explanation": "Сравниваем двух животных (than) — сравнительная степень. Короткое слово fast + -er = faster."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши some или any: There isn't ___ milk in the fridge.",
-      "answer": "any",
-      "explanation": "В отрицательных предложениях используется any, а не some."
+      "text": "Впиши some или any: We've got ___ bread for sandwiches.",
+      "answer": "some",
+      "explanation": "Утвердительное предложение — some."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильный модальный глагол (совет): You ___ study hard before the exam.",
-      "answer": "should",
-      "explanation": "Should используется для совета, а не для строгой необходимости (must) или умения (can)."
+      "text": "Впиши модальный глагол (умение): My little brother ___ ride a bike.",
+      "answer": "can",
+      "explanation": "Умение выражается глаголом can."
     },
     {
       "type": "matching",
       "text": "Соедини грамматическое явление с примером",
       "pairs": [
-        {"left": "Present Continuous", "right": "I am reading a book now."},
-        {"left": "Past Simple", "right": "We visited London last summer."},
-        {"left": "going to", "right": "We are going to visit our grandparents."},
-        {"left": "there is / there are", "right": "There is a museum in our city."}
+        {"left": "Present Simple", "right": "He often plays chess."},
+        {"left": "Present Continuous", "right": "They are dancing now."},
+        {"left": "Past Simple", "right": "I wrote a letter yesterday."},
+        {"left": "will", "right": "I will help you with your bags."}
       ],
-      "explanation": "Каждый пример иллюстрирует своё грамматическое время или конструкцию из повторения."
+      "explanation": "Often — привычка (Present Simple), now — сейчас (Present Continuous), yesterday — прошлое (Past Simple), will — решение в момент речи."
     },
     {
       "type": "single",
-      "text": "This is my sister ___ book.",
+      "text": "Как сказать «Это собака Тома»?",
       "options": [
-        {"text": "'s", "correct": true},
-        {"text": "s'", "correct": false},
-        {"text": "s", "correct": false}
+        {"text": "This is Tom's dog.", "correct": true},
+        {"text": "This is Toms dog.", "correct": false},
+        {"text": "This is dog Tom's.", "correct": false}
       ],
-      "explanation": "Sister — единственное число, притяжательный падеж образуется через 's: sister's book."
+      "explanation": "Принадлежность: имя + 's перед предметом — Tom's dog."
     },
     {
       "type": "single",
-      "text": "I think it ___ rain tomorrow.",
+      "text": "We have already bought the tickets. We ___ fly to Sochi in July.",
       "options": [
-        {"text": "will", "correct": true},
+        {"text": "are going to", "correct": true},
         {"text": "is going to", "correct": false},
-        {"text": "must", "correct": false}
+        {"text": "going to", "correct": false}
       ],
-      "explanation": "Предположение о будущем (think) выражается через will, а не через going to (заранее спланированное намерение)."
+      "explanation": "Заранее спланированное намерение (билеты уже куплены) — going to. С we нужен are: we are going to."
     }
   ]
 }

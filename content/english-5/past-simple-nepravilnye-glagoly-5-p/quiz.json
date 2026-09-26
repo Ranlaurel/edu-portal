@@ -2,13 +2,13 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно перевести «Прошлым вечером я написал письмо другу»?",
+      "text": "Как правильно перевести «Вчера я получил письмо»?",
       "options": [
-        {"text": "Last night I wrote a letter to my friend.", "correct": true},
-        {"text": "Last night I write a letter to my friend.", "correct": false},
-        {"text": "Last night I writed a letter to my friend.", "correct": false}
+        {"text": "Yesterday I got a letter.", "correct": true},
+        {"text": "Yesterday I get a letter.", "correct": false},
+        {"text": "Yesterday I getted a letter.", "correct": false}
       ],
-      "explanation": "Write — неправильный глагол, его форма прошедшего времени — wrote."
+      "explanation": "Get — неправильный глагол, его прошедшая форма got."
     },
     {
       "type": "single",
@@ -24,33 +24,33 @@
       "type": "multiple",
       "text": "Какие маркеры времени используются с Past Simple? (выбери все верные варианты)",
       "options": [
-        {"text": "yesterday", "correct": true},
-        {"text": "last night", "correct": true},
-        {"text": "last week", "correct": true},
+        {"text": "two days ago", "correct": true},
+        {"text": "last summer", "correct": true},
+        {"text": "yesterday morning", "correct": true},
         {"text": "every day", "correct": false},
         {"text": "tomorrow", "correct": false}
       ],
-      "explanation": "Yesterday, last night, last week указывают на прошедшее время. Every day и tomorrow — нет."
+      "explanation": "Ago, last..., yesterday указывают на прошедшее время. Every day — привычка (Present Simple), tomorrow — будущее."
     },
     {
       "type": "dropdown",
-      "text": "We ___ (have) breakfast at 8 and then went to school.",
+      "text": "Last Sunday we ___ (go) to the zoo.",
       "options": [
-        {"text": "had", "correct": true},
-        {"text": "have", "correct": false},
-        {"text": "haved", "correct": false}
+        {"text": "went", "correct": true},
+        {"text": "goed", "correct": false},
+        {"text": "go", "correct": false}
       ],
-      "explanation": "Прошедшая форма have — had."
+      "explanation": "Прошедшая форма go — went."
     },
     {
       "type": "dropdown",
-      "text": "___ you buy a present for her?",
+      "text": "___ they come to your party? — Yes, they did.",
       "options": [
         {"text": "Did", "correct": true},
         {"text": "Do", "correct": false},
         {"text": "Have", "correct": false}
       ],
-      "explanation": "Вопрос в Past Simple образуется через Did."
+      "explanation": "Ответ Yes, they did показывает, что вопрос в Past Simple — через Did."
     },
     {
       "type": "fill_blank",
@@ -60,20 +60,20 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: She ___ (take) a book last week.",
-      "answer": "took",
-      "explanation": "Прошедшая форма take — took."
+      "text": "Впиши глагол в Past Simple: She ___ (see) a funny film last night.",
+      "answer": "saw",
+      "explanation": "Прошедшая форма see — saw."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I wrote a letter.", "right": "Я написал письмо."},
-        {"left": "We had breakfast.", "right": "Мы позавтракали."},
-        {"left": "Did you buy a present?", "right": "Ты купил подарок?"},
-        {"left": "I didn't see that film.", "right": "Я не видел этот фильм."}
+        {"left": "I read a book yesterday.", "right": "Вчера я прочитал книгу."},
+        {"left": "We didn't eat soup.", "right": "Мы не ели суп."},
+        {"left": "Did you write to Granny?", "right": "Ты написал бабушке?"},
+        {"left": "He took his dog to the park.", "right": "Он взял собаку в парк."}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Read (прошедшая форма пишется так же), took — Past Simple; didn't eat, did... write — отрицание и вопрос с начальной формой глагола."
     }
   ]
 }

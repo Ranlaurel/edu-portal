@@ -12,29 +12,29 @@
     },
     {
       "type": "single",
-      "text": "Выбери верный вопрос: «Есть ли дома молоко?»",
+      "text": "Выбери верный вопрос: «Есть ли дома хлеб?»",
       "options": [
-        {"text": "Is there any milk at home?", "correct": true},
-        {"text": "Is there some milk at home?", "correct": false},
-        {"text": "There is any milk at home?", "correct": false}
+        {"text": "Is there any bread at home?", "correct": true},
+        {"text": "Is there some bread at home?", "correct": false},
+        {"text": "There is any bread at home?", "correct": false}
       ],
-      "explanation": "В вопросе используется any, вопросительное слово Is ставится в начало."
+      "explanation": "В вопросе используется any, а Is ставится в начало."
     },
     {
       "type": "multiple",
-      "text": "В каких фразах из диалога правильно использовано some? (выбери все верные варианты)",
+      "text": "В каких фразах правильно использовано some? (выбери все верные варианты)",
       "options": [
-        {"text": "We need some eggs.", "correct": true},
-        {"text": "There is some rice.", "correct": true},
-        {"text": "Is there some cheese?", "correct": false},
-        {"text": "There isn't some sugar.", "correct": false},
-        {"text": "We need some juice.", "correct": true}
+        {"text": "We need some bananas.", "correct": true},
+        {"text": "There is some water in the bottle.", "correct": true},
+        {"text": "Is there some tea?", "correct": false},
+        {"text": "There isn't some rice.", "correct": false},
+        {"text": "I want to buy some sweets.", "correct": true}
       ],
-      "explanation": "Some используется в утверждениях (We need some, There is some), а не в обычных вопросах и отрицаниях."
+      "explanation": "Some используется в утверждениях. В обычных вопросах и отрицаниях нужно any: Is there any tea? There isn't any rice."
     },
     {
       "type": "dropdown",
-      "text": "A: Is there ___ cheese at home? B: No, there isn't.",
+      "text": "A: Are there ___ tomatoes? B: No, there aren't.",
       "options": [
         {"text": "any", "correct": true},
         {"text": "some", "correct": false},
@@ -44,7 +44,7 @@
     },
     {
       "type": "dropdown",
-      "text": "B: But there is ___ rice.",
+      "text": "B: But there is ___ cheese in the fridge.",
       "options": [
         {"text": "some", "correct": true},
         {"text": "any", "correct": false},
@@ -54,32 +54,32 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: достаточно",
-      "answer": "enough",
-      "explanation": "«Достаточно» — enough."
+      "text": "Впиши слово (покупать): I want to ___ some milk.",
+      "answer": "buy",
+      "explanation": "«Покупать» — buy."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: Is there ___ sugar left?",
+      "text": "Впиши слово: Is there ___ juice left?",
       "answer": "any",
-      "explanation": "В вопросе про остаток используется any."
+      "explanation": "В вопросе используется any."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: We need ___ apples and cheese.",
+      "text": "Впиши слово: We need ___ potatoes for the soup.",
       "answer": "some",
-      "explanation": "В утверждении о необходимых продуктах используется some."
+      "explanation": "В утверждении о том, что нужно купить, используется some."
     },
     {
       "type": "matching",
-      "text": "Соедини реплику из диалога с переводом",
+      "text": "Соедини фразу с переводом",
       "pairs": [
-        {"left": "Is there any cheese?", "right": "Есть сыр?"},
-        {"left": "There is some rice.", "right": "Есть немного риса."},
-        {"left": "We need some eggs.", "right": "Нам нужны яйца."},
-        {"left": "There isn't any sugar.", "right": "Сахара нет."}
+        {"left": "Have we got enough eggs?", "right": "У нас достаточно яиц?"},
+        {"left": "We need some sugar.", "right": "Нам нужен сахар."},
+        {"left": "There isn't any butter.", "right": "Масла нет."},
+        {"left": "Are there any apples?", "right": "Есть яблоки?"}
       ],
-      "explanation": "Проверь по диалогу из урока."
+      "explanation": "Enough — достаточно, need — нуждаться; some — в утверждении, any — в вопросе и отрицании."
     }
   ]
 }

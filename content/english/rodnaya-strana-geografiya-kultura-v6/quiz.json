@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «territory»?",
+      "text": "Как переводится слово «population»?",
       "options": [
-        {"text": "территория", "correct": true},
-        {"text": "население", "correct": false},
-        {"text": "континент", "correct": false}
+        {"text": "население", "correct": true},
+        {"text": "погода", "correct": false},
+        {"text": "столица", "correct": false}
       ],
-      "explanation": "«Territory» — территория."
+      "explanation": "«Population» — население."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «nationality»?",
+      "text": "Как по-английски «озеро»?",
       "options": [
-        {"text": "национальность", "correct": true},
-        {"text": "культура", "correct": false},
-        {"text": "язык", "correct": false}
+        {"text": "lake", "correct": true},
+        {"text": "sea", "correct": false},
+        {"text": "pond", "correct": false}
       ],
-      "explanation": "«Nationality» — национальность."
+      "explanation": "«Озеро» — lake. Sea — море, pond — пруд."
     },
     {
       "type": "multiple",
-      "text": "Какие слова относятся к географии? (выбери все верные варианты)",
+      "text": "Какие слова обозначают природные объекты? (выбери все верные варианты)",
       "options": [
-        {"text": "river", "correct": true},
         {"text": "mountain", "correct": true},
-        {"text": "culture", "correct": false},
-        {"text": "lake", "correct": true},
-        {"text": "language", "correct": false}
+        {"text": "forest", "correct": true},
+        {"text": "music", "correct": false},
+        {"text": "football", "correct": false}
       ],
-      "explanation": "River, mountain, lake — географические объекты. Culture и language относятся к культуре, а не географии."
+      "explanation": "Mountain — гора, forest — лес. Music и football к природе не относятся."
     },
     {
       "type": "dropdown",
-      "text": "Большая часть суши, включающая несколько стран — это ___.",
+      "text": "Africa and Asia are ___.",
       "options": [
-        {"text": "continent", "correct": true},
-        {"text": "territory", "correct": false},
-        {"text": "country", "correct": false}
+        {"text": "continents", "correct": true},
+        {"text": "languages", "correct": false},
+        {"text": "rivers", "correct": false}
       ],
-      "explanation": "«Continent» — континент."
+      "explanation": "Африка и Азия — континенты (части света): continents."
     },
     {
       "type": "dropdown",
-      "text": "Как сказать «глубокий» по-английски? ___",
+      "text": "This river is 3,500 kilometres ___.",
       "options": [
-        {"text": "deep", "correct": true},
-        {"text": "long", "correct": false},
+        {"text": "long", "correct": true},
+        {"text": "deep", "correct": false},
         {"text": "large", "correct": false}
       ],
-      "explanation": "«Deep» — глубокий."
+      "explanation": "Длину реки описывают словом long (длинный): 3,500 km long."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: население",
-      "answer": "population",
-      "explanation": "«Население» переводится как population."
+      "text": "Впиши английское слово: English is an international ___. (язык)",
+      "answer": "language",
+      "explanation": "«Язык» — language."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: культура",
-      "answer": "culture",
-      "explanation": "«Культура» переводится как culture."
+      "text": "Впиши английское слово: Our ___ has a rich history. (страна)",
+      "answer": "country",
+      "explanation": "«Страна» — country."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "forest", "right": "лес"},
-        {"left": "mountain", "right": "гора"},
-        {"left": "language", "right": "язык"},
-        {"left": "large", "right": "большой"}
+        {"left": "territory", "right": "территория"},
+        {"left": "nationality", "right": "национальность"},
+        {"left": "culture", "right": "культура"},
+        {"left": "deep", "right": "глубокий"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится фраза «famous for»?",
+      "text": "Как перевести: «Italy is famous for its pizza»?",
       "options": [
-        {"text": "знаменитый чем-то", "correct": true},
-        {"text": "далеко от", "correct": false},
-        {"text": "похожий на", "correct": false}
+        {"text": "Италия знаменита своей пиццей.", "correct": true},
+        {"text": "В Италии любят пиццу.", "correct": false},
+        {"text": "Италия — родина пиццы.", "correct": false}
       ],
-      "explanation": "«Famous for» — знаменитый чем-то."
+      "explanation": "Famous for — знаменитый чем-то."
     }
   ]
 }

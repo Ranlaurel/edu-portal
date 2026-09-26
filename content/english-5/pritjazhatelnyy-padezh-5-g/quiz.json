@@ -2,87 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно сказать «собака Энн»?",
+      "text": "Как правильно сказать «телефон Кати»?",
       "options": [
-        {"text": "Ann's dog", "correct": true},
-        {"text": "Ann dog", "correct": false},
-        {"text": "the dog Ann", "correct": false}
+        {"text": "Kate's phone", "correct": true},
+        {"text": "Kate phone", "correct": false},
+        {"text": "the phone Kate", "correct": false}
       ],
-      "explanation": "Притяжательный падеж: имя + 's + существительное."
+      "explanation": "Притяжательный падеж: имя владельца + 's + предмет."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «книга учителя»?",
+      "text": "Как правильно сказать «мяч моего брата»?",
       "options": [
-        {"text": "the teacher's book", "correct": true},
-        {"text": "the teacher book", "correct": false},
-        {"text": "the book's teacher", "correct": false}
+        {"text": "my brother's ball", "correct": true},
+        {"text": "my brother ball", "correct": false},
+        {"text": "my ball's brother", "correct": false}
       ],
-      "explanation": "Существительное в единственном числе + 's: teacher's book."
+      "explanation": "Владелец в ед. ч. + 's, потом предмет: brother's ball."
     },
     {
       "type": "multiple",
       "text": "В каких словосочетаниях 's использован правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "my friend's dog", "correct": true},
-        {"text": "Tom's bike", "correct": true},
-        {"text": "cat's Ann", "correct": false},
-        {"text": "the teacher's name", "correct": true}
+        {"text": "Mum's cup", "correct": true},
+        {"text": "my sister's room", "correct": true},
+        {"text": "room's sister", "correct": false},
+        {"text": "the girl's pencil", "correct": true},
+        {"text": "the boy hat", "correct": false}
       ],
-      "explanation": "'s ставится после владельца (имени/сущ. в ед.ч.), перед предметом владения."
+      "explanation": "'s ставится после владельца, перед предметом: the boy's hat. «Room's sister» — порядок перепутан."
     },
     {
       "type": "dropdown",
-      "text": "My friend___ dog is small.",
+      "text": "Jack___ house is big.",
       "options": [
         {"text": "'s", "correct": true},
         {"text": "s'", "correct": false},
         {"text": "s", "correct": false}
       ],
-      "explanation": "Friend — единственное число, добавляем 's."
+      "explanation": "Jack — один владелец, добавляем 's: Jack's house."
     },
     {
       "type": "dropdown",
-      "text": "This is ___ (Tom) bike.",
+      "text": "This is ___ (Lena) umbrella.",
       "options": [
-        {"text": "Tom's", "correct": true},
-        {"text": "Toms", "correct": false},
-        {"text": "Tom", "correct": false}
+        {"text": "Lena's", "correct": true},
+        {"text": "Lenas", "correct": false},
+        {"text": "Lena", "correct": false}
       ],
-      "explanation": "Имя владельца + 's: Tom's."
+      "explanation": "Имя владельца + 's: Lena's."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово с апострофом: имя учителя — the ___ name.",
-      "answer": "teacher's",
-      "explanation": "Teacher в единственном числе + 's."
+      "text": "Впиши слово с апострофом: шапка бабушки — my ___ hat (granny).",
+      "answer": "granny's",
+      "accepted": ["granny's", "granny’s"],
+      "explanation": "Granny — один владелец, + 's: granny's."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: друг",
-      "answer": "friend",
-      "explanation": "«Друг» переводится как friend."
+      "text": "Впиши перевод одним английским словом: имя",
+      "answer": "name",
+      "explanation": "«Имя» — name."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "dog", "right": "собака"},
-        {"left": "cat", "right": "кошка"},
-        {"left": "name", "right": "имя"},
-        {"left": "book", "right": "книга"}
+        {"left": "book", "right": "книга"},
+        {"left": "friend", "right": "друг"},
+        {"left": "teacher", "right": "учитель"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «friend»?",
+      "text": "Как переводится «the cat's toy»?",
       "options": [
-        {"text": "друг", "correct": true},
-        {"text": "учитель", "correct": false},
-        {"text": "собака", "correct": false}
+        {"text": "игрушка кошки", "correct": true},
+        {"text": "кошка с игрушкой", "correct": false},
+        {"text": "игрушечная кошка", "correct": false}
       ],
-      "explanation": "«Friend» — друг."
+      "explanation": "Cat's — притяжательный падеж: игрушка, которая принадлежит кошке."
     }
   ]
 }

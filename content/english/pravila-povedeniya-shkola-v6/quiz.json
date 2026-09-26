@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «permission»?",
+      "text": "Как переводится слово «behave»?",
       "options": [
-        {"text": "разрешение", "correct": true},
-        {"text": "правило", "correct": false},
-        {"text": "уважение", "correct": false}
+        {"text": "вести себя", "correct": true},
+        {"text": "отвечать", "correct": false},
+        {"text": "помогать", "correct": false}
       ],
-      "explanation": "Permission — разрешение."
+      "explanation": "«Behave» — вести себя."
     },
     {
       "type": "single",
-      "text": "Как будет «директор школы» на английском?",
+      "text": "Как по-английски «кричать»?",
       "options": [
-        {"text": "headteacher", "correct": true},
-        {"text": "student", "correct": false},
-        {"text": "teacher", "correct": false}
+        {"text": "shout", "correct": true},
+        {"text": "sing", "correct": false},
+        {"text": "sleep", "correct": false}
       ],
-      "explanation": "Headteacher — директор школы."
+      "explanation": "«Кричать» — shout."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают плохое поведение в школе? (выбери все верные варианты)",
+      "text": "Какие фразы описывают хорошее поведение на уроке? (выбери все верные варианты)",
       "options": [
-        {"text": "shout", "correct": true},
-        {"text": "respect", "correct": false},
-        {"text": "run", "correct": true},
+        {"text": "listen to the teacher", "correct": true},
+        {"text": "put up your hand", "correct": true},
+        {"text": "fight", "correct": false},
+        {"text": "be rude", "correct": false}
+      ],
+      "explanation": "Слушать учителя и поднимать руку — хорошее поведение. Драться (fight) и грубить (be rude) — плохое."
+    },
+    {
+      "type": "dropdown",
+      "text": "Hurry up, or we will ___ for school!",
+      "options": [
         {"text": "be late", "correct": true},
-        {"text": "listen to", "correct": false}
+        {"text": "be quiet", "correct": false},
+        {"text": "respect", "correct": false}
       ],
-      "explanation": "Shout, run, be late — примеры плохого поведения. Respect и listen to — хорошее поведение."
+      "explanation": "«Поторопись, а то опоздаем» — be late (опаздывать)."
     },
     {
       "type": "dropdown",
-      "text": "Students must wear school ___.",
+      "text": "The ___ of our school is Mrs Brown.",
       "options": [
-        {"text": "uniform", "correct": true},
-        {"text": "corridor", "correct": false},
-        {"text": "permission", "correct": false}
-      ],
-      "explanation": "Uniform — школьная форма, её носят ученики."
-    },
-    {
-      "type": "dropdown",
-      "text": "Don't run in the ___.",
-      "options": [
-        {"text": "corridor", "correct": true},
+        {"text": "headteacher", "correct": true},
         {"text": "uniform", "correct": false},
-        {"text": "rule", "correct": false}
+        {"text": "corridor", "correct": false}
       ],
-      "explanation": "Corridor — коридор, место, где нельзя бегать."
+      "explanation": "Человек, который руководит школой, — headteacher (директор)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: уважать",
-      "answer": "respect",
-      "explanation": "«Уважать» переводится как respect."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: правило",
+      "text": "Впиши английское слово: The first ___ in our class is: don't be rude! (правило)",
       "answer": "rule",
-      "explanation": "«Правило» переводится как rule."
+      "explanation": "«Правило» — rule."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: Switch off your mobile ___ in the cinema. (телефон)",
+      "answer": "phone",
+      "explanation": "«Мобильный телефон» — mobile phone."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "be quiet", "right": "вести себя тихо"},
-        {"left": "mobile phone", "right": "мобильный телефон"},
+        {"left": "permission", "right": "разрешение"},
         {"left": "tidy", "right": "аккуратный"},
-        {"left": "behave", "right": "вести себя"}
+        {"left": "respect", "right": "уважать"},
+        {"left": "uniform", "right": "школьная форма"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Ask for ___ before you leave the classroom.",
+      "text": "Don't ___ in the corridor, you can fall!",
       "options": [
-        {"text": "permission", "correct": true},
-        {"text": "uniform", "correct": false},
-        {"text": "corridor", "correct": false}
+        {"text": "run", "correct": true},
+        {"text": "sit", "correct": false},
+        {"text": "listen", "correct": false}
       ],
-      "explanation": "Permission (разрешение) — то, что нужно спросить перед выходом из класса."
+      "explanation": "Упасть можно, если бегать: run — бегать."
     }
   ]
 }

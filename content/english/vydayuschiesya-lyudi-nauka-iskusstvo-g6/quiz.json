@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какое время используется, чтобы рассказать о жизни знаменитого человека в прошлом?",
+      "text": "Выбери правильную форму: Pushkin ___ many poems.",
       "options": [
-        {"text": "Past Simple", "correct": true},
-        {"text": "Present Simple", "correct": false},
-        {"text": "Present Continuous", "correct": false}
+        {"text": "wrote", "correct": true},
+        {"text": "writed", "correct": false},
+        {"text": "written", "correct": false}
       ],
-      "explanation": "О завершённых событиях из прошлого (биография) рассказывают в Past Simple."
+      "explanation": "Write — неправильный глагол: write → wrote."
     },
     {
       "type": "single",
-      "text": "Выбери правильную форму: Mendeleev ___ in Tobolsk in 1834.",
+      "text": "Выбери правильную форму: Yuri Gagarin ___ in 1934.",
       "options": [
         {"text": "was born", "correct": true},
         {"text": "is born", "correct": false},
         {"text": "born", "correct": false}
       ],
-      "explanation": "«Родился» — was born (be born в Past Simple)."
+      "explanation": "«Родился» в прошлом — was born."
     },
     {
       "type": "single",
-      "text": "Как правильно образовать вопрос в Past Simple?",
+      "text": "Как спросить «Когда она нарисовала эту картину?»",
       "options": [
-        {"text": "did + подлежащее + глагол в начальной форме", "correct": true},
-        {"text": "подлежащее + глагол + did", "correct": false},
-        {"text": "am/is/are + подлежащее + глагол+ed", "correct": false}
+        {"text": "When did she paint this picture?", "correct": true},
+        {"text": "When did she painted this picture?", "correct": false},
+        {"text": "When she painted this picture?", "correct": false}
       ],
-      "explanation": "Вопрос в Past Simple строится с did, а смысловой глагол ставится в начальную форму: Did he discover anything important?"
+      "explanation": "Вопрос: did + подлежащее + глагол в начальной форме (paint, без -ed)."
     },
     {
       "type": "multiple",
-      "text": "Какие глаголы правильно образованы в Past Simple (+ -ed)? (выбери все верные варианты)",
+      "text": "Какие глаголы образовали Past Simple по правилу (+ -ed)? (выбери все верные варианты)",
       "options": [
-        {"text": "discovered", "correct": true},
-        {"text": "painted", "correct": true},
-        {"text": "composed", "correct": true},
-        {"text": "wrote", "correct": false},
-        {"text": "invent", "correct": false}
+        {"text": "invented", "correct": true},
+        {"text": "created", "correct": true},
+        {"text": "studied", "correct": true},
+        {"text": "made", "correct": false},
+        {"text": "became", "correct": false}
       ],
-      "explanation": "Discovered, painted, composed — правильные глаголы (+ -ed). Wrote — неправильный глагол (write → wrote), invent — начальная форма, не прошедшее время."
+      "explanation": "Invent, create, study — правильные глаголы. Made (make) и became (become) — неправильные."
     },
     {
       "type": "dropdown",
-      "text": "Mendeleev ___ (discover) the periodic table.",
+      "text": "Marie Curie ___ (work) very hard all her life.",
       "options": [
-        {"text": "discovered", "correct": true},
-        {"text": "discover", "correct": false},
-        {"text": "discovering", "correct": false}
+        {"text": "worked", "correct": true},
+        {"text": "work", "correct": false},
+        {"text": "working", "correct": false}
       ],
-      "explanation": "Правильный глагол discover в Past Simple образует форму discovered."
+      "explanation": "Биография — Past Simple. Work — правильный глагол: worked."
     },
     {
       "type": "dropdown",
-      "text": "The composer ___ (write) beautiful music.",
+      "text": "Leonardo da Vinci ___ (draw) a lot of pictures.",
       "options": [
-        {"text": "wrote", "correct": true},
-        {"text": "writed", "correct": false},
-        {"text": "write", "correct": false}
+        {"text": "drew", "correct": true},
+        {"text": "drawed", "correct": false},
+        {"text": "draws", "correct": false}
       ],
-      "explanation": "Write — неправильный глагол, его форма прошедшего времени — wrote."
+      "explanation": "Draw — неправильный глагол: draw → drew."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши пропущенное слово: He didn't ___ the telephone.",
-      "answer": "invent",
-      "explanation": "После didn't глагол ставится в начальной форме: didn't invent."
+      "text": "Впиши глагол в нужной форме: Tchaikovsky didn't ___ (live) in London.",
+      "answer": "live",
+      "explanation": "После didn't глагол стоит в начальной форме: didn't live."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши пропущенное слово: What did he ___?",
-      "answer": "invent",
-      "explanation": "В вопросе с did смысловой глагол стоит в начальной форме: What did he invent?"
+      "text": "Впиши вспомогательный глагол: Where ___ Mendeleev study?",
+      "answer": "did",
+      "explanation": "Вопрос в Past Simple образуется с did."
     },
     {
       "type": "matching",
-      "text": "Соедини английское слово (начальная форма) с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "discover", "right": "открывать"},
-        {"left": "invent", "right": "изобретать"},
-        {"left": "compose", "right": "сочинять (музыку)"},
-        {"left": "paint", "right": "рисовать (красками)"}
+        {"left": "She became a famous singer.", "right": "Она стала знаменитой певицей."},
+        {"left": "He built a bridge.", "right": "Он построил мост."},
+        {"left": "They discovered a new star.", "right": "Они открыли новую звезду."},
+        {"left": "The poet died in 1837.", "right": "Поэт умер в 1837 году."}
       ],
-      "explanation": "Проверь по правилу и примерам из урока."
+      "explanation": "Became, built — неправильные глаголы; discovered, died — правильные (+ -ed / + -d)."
     }
   ]
 }

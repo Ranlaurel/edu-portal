@@ -5,20 +5,20 @@
       "text": "Кого увидели Энн и Том в диалоге?",
       "options": [
         {"text": "a fox", "correct": true},
-        {"text": "a bear", "correct": false},
-        {"text": "a tiger", "correct": false}
+        {"text": "a rabbit", "correct": false},
+        {"text": "a squirrel", "correct": false}
       ],
-      "explanation": "В диалоге они видят лису (fox) около деревьев."
+      "explanation": "Энн говорит: There is a fox near the trees."
     },
     {
       "type": "single",
-      "text": "Как переводится wild animal?",
+      "text": "Что Том говорит о хвосте лисы?",
       "options": [
-        {"text": "дикое животное", "correct": true},
-        {"text": "домашнее животное", "correct": false},
-        {"text": "опасное животное", "correct": false}
+        {"text": "It's so long!", "correct": true},
+        {"text": "It's very short.", "correct": false},
+        {"text": "It's white.", "correct": false}
       ],
-      "explanation": "Wild animal — дикое животное, живёт в природе."
+      "explanation": "Том говорит: Look at its tail — it's so long!"
     },
     {
       "type": "multiple",
@@ -26,53 +26,53 @@
       "options": [
         {"text": "Медведь больше волка.", "correct": true},
         {"text": "Тигр — самая большая дикая кошка.", "correct": true},
-        {"text": "Дикие животные могут быть опасными.", "correct": true},
-        {"text": "Лиса — домашнее животное.", "correct": false}
+        {"text": "Энн хочет подойти к лисе поближе.", "correct": false},
+        {"text": "В этом лесу нет волков.", "correct": false}
       ],
-      "explanation": "По диалогу: a bear is bigger than a wolf, a tiger is the biggest wild cat, wild animals can be dangerous. Лиса в диалоге — дикое животное."
+      "explanation": "Том говорит: a bear is bigger than a wolf и a tiger is the biggest wild cat. Энн, наоборот, говорит, что близко подходить не стоит, а волки в лесу есть."
     },
     {
       "type": "dropdown",
-      "text": "There ___ a fox near the trees.",
+      "text": "There ___ two squirrels on that tree.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "A fox — единственное число, значит there is."
+      "explanation": "Two squirrels — множественное число: there are."
     },
     {
       "type": "dropdown",
-      "text": "A bear is ___ (big) a wolf.",
+      "text": "A horse is ___ (fast) a cow.",
       "options": [
-        {"text": "bigger than", "correct": true},
-        {"text": "the biggest", "correct": false},
-        {"text": "more big than", "correct": false}
+        {"text": "faster than", "correct": true},
+        {"text": "the fastest", "correct": false},
+        {"text": "more fast than", "correct": false}
       ],
-      "explanation": "Сравнение двух животных — сравнительная степень: bigger than."
+      "explanation": "Сравниваем двух животных: короткое прилагательное + -er + than."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: хвост",
-      "answer": "tail",
-      "explanation": "«Хвост» — tail, упоминается в диалоге про лису."
+      "text": "Впиши слово: My cat has soft white ___. (шерсть)",
+      "answer": "fur",
+      "explanation": "«Шерсть (мех)» — fur."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово из диалога: A tiger is the ___ wild cat in the world.",
-      "answer": "biggest",
-      "explanation": "Превосходная степень: the biggest."
+      "text": "Впиши превосходную степень: The giraffe is the ___ (tall) animal in the zoo.",
+      "answer": "tallest",
+      "explanation": "Превосходная степень короткого прилагательного: the + tall + -est."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "fox", "right": "лиса"},
-        {"left": "dangerous", "right": "опасный"},
+        {"left": "wild animal", "right": "дикое животное"},
+        {"left": "pet", "right": "домашнее животное"},
         {"left": "forest", "right": "лес"},
-        {"left": "tail", "right": "хвост"}
+        {"left": "dangerous", "right": "опасный"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Эти слова встречаются в диалоге Энн и Тома."
     }
   ]
 }

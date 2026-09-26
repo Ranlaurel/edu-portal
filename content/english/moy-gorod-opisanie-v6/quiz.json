@@ -2,68 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «population»?",
+      "text": "Как переводится слово «modern»?",
       "options": [
-        {"text": "население", "correct": true},
-        {"text": "пригород", "correct": false},
-        {"text": "промышленность", "correct": false}
+        {"text": "современный", "correct": true},
+        {"text": "старый", "correct": false},
+        {"text": "тихий", "correct": false}
       ],
-      "explanation": "«Population» — население."
+      "explanation": "«Modern» — современный."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «ancient»?",
+      "text": "Как по-английски «столица»?",
       "options": [
-        {"text": "древний", "correct": true},
-        {"text": "современный", "correct": false},
-        {"text": "красивый", "correct": false}
+        {"text": "capital", "correct": true},
+        {"text": "country", "correct": false},
+        {"text": "village", "correct": false}
       ],
-      "explanation": "«Ancient» — древний."
+      "explanation": "«Столица» — capital. Country — страна, village — деревня."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают город? (выбери все верные варианты)",
+      "text": "Какие слова описывают размер? (выбери все верные варианты)",
       "options": [
-        {"text": "modern", "correct": true},
-        {"text": "ancient", "correct": true},
-        {"text": "resident", "correct": false},
         {"text": "large", "correct": true},
-        {"text": "population", "correct": false}
+        {"text": "small", "correct": true},
+        {"text": "noisy", "correct": false},
+        {"text": "old", "correct": false}
       ],
-      "explanation": "Modern, ancient, large — описывают сам город. Resident (житель) и population (население) — про людей, а не описание города."
+      "explanation": "Large — большой, small — маленький. Noisy — шумный, old — старый: это не размер."
     },
     {
       "type": "dropdown",
-      "text": "Как назвать район вне центра города? ___",
+      "text": "Novosibirsk is a very large ___ (крупный город).",
       "options": [
-        {"text": "suburb", "correct": true},
-        {"text": "capital", "correct": false},
+        {"text": "city", "correct": true},
+        {"text": "street", "correct": false},
+        {"text": "square", "correct": false}
+      ],
+      "explanation": "Крупный город — city (небольшой город — town)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Many people in our town work at factories, so ___ is very important here.",
+      "options": [
+        {"text": "industry", "correct": true},
+        {"text": "population", "correct": false},
         {"text": "centre", "correct": false}
       ],
-      "explanation": "«Suburb» — пригород."
-    },
-    {
-      "type": "dropdown",
-      "text": "Главный город страны — это ___.",
-      "options": [
-        {"text": "capital", "correct": true},
-        {"text": "suburb", "correct": false},
-        {"text": "town", "correct": false}
-      ],
-      "explanation": "«Capital» — столица."
+      "explanation": "Заводы и фабрики — это промышленность: industry."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: житель",
-      "answer": "resident",
-      "accepted": ["resident", "habitant"],
-      "explanation": "«Житель» переводится как resident (или habitant)."
+      "text": "Впиши английское слово: The ___ of our town is about twenty thousand people. (население)",
+      "answer": "population",
+      "explanation": "«Население» — population."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: промышленность",
-      "answer": "industry",
-      "explanation": "«Промышленность» переводится как industry."
+      "text": "Впиши английское слово: I live in a ___, not in the centre. (пригород)",
+      "answer": "suburb",
+      "explanation": "«Пригород» — suburb."
     },
     {
       "type": "matching",
@@ -71,20 +69,20 @@
       "pairs": [
         {"left": "building", "right": "здание"},
         {"left": "centre", "right": "центр"},
-        {"left": "large", "right": "большой"},
-        {"left": "small", "right": "маленький"}
+        {"left": "resident", "right": "житель"},
+        {"left": "town", "right": "город (небольшой)"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как перевести фразу «famous for its bridge»?",
+      "text": "Как перевести: «Kazan is famous for its Kremlin»?",
       "options": [
-        {"text": "знаменит своим мостом", "correct": true},
-        {"text": "красив своим мостом", "correct": false},
-        {"text": "древний из-за моста", "correct": false}
+        {"text": "Казань знаменита своим Кремлём.", "correct": true},
+        {"text": "Казань — столица Кремля.", "correct": false},
+        {"text": "В Казани строят новый Кремль.", "correct": false}
       ],
-      "explanation": "«Famous for» — знаменит чем-то."
+      "explanation": "Famous for — знаменитый чем-то: famous for its Kremlin — знаменита своим Кремлём."
     }
   ]
 }

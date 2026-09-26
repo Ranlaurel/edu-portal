@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно образовать -ing форму от «run»?",
+      "text": "Как правильно образовать -ing форму от «sit»?",
       "options": [
-        {"text": "running", "correct": true},
-        {"text": "runing", "correct": false},
-        {"text": "runeing", "correct": false}
+        {"text": "sitting", "correct": true},
+        {"text": "siting", "correct": false},
+        {"text": "siteing", "correct": false}
       ],
-      "explanation": "Согласная+гласная+согласная в конце — последняя согласная удваивается: running."
+      "explanation": "Согласная+гласная+согласная в конце — последняя согласная удваивается: sitting."
     },
     {
       "type": "single",
-      "text": "Как перевести «Он сейчас плавает в бассейне»?",
+      "text": "Как перевести «Она сейчас танцует»?",
       "options": [
-        {"text": "He is swimming in the pool now.", "correct": true},
-        {"text": "He swims in the pool now.", "correct": false},
-        {"text": "He is swiming in the pool now.", "correct": false}
+        {"text": "She is dancing now.", "correct": true},
+        {"text": "She dances now.", "correct": false},
+        {"text": "She is danceing now.", "correct": false}
       ],
-      "explanation": "Swim → swimming (удвоение согласной), нужна форма Present Continuous."
+      "explanation": "Действие сейчас — Present Continuous; dance теряет -e: dancing."
     },
     {
       "type": "multiple",
       "text": "Какие -ing формы образованы правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "writing", "correct": true},
-        {"text": "runing", "correct": false},
-        {"text": "swimming", "correct": true},
-        {"text": "writeing", "correct": false},
-        {"text": "listening", "correct": true}
+        {"text": "making", "correct": true},
+        {"text": "getting", "correct": true},
+        {"text": "comeing", "correct": false},
+        {"text": "playing", "correct": true},
+        {"text": "stoping", "correct": false}
       ],
-      "explanation": "Write теряет -e (writing), run удваивает согласную (running), listen просто +ing (listening)."
+      "explanation": "Make теряет -e (making), get удваивает t (getting), play просто +ing. Правильно coming и stopping."
     },
     {
       "type": "dropdown",
-      "text": "They ___ (run) in the park now.",
+      "text": "They ___ (skate) in the park now.",
       "options": [
-        {"text": "are running", "correct": true},
-        {"text": "is running", "correct": false},
-        {"text": "run", "correct": false}
+        {"text": "are skating", "correct": true},
+        {"text": "is skating", "correct": false},
+        {"text": "skate", "correct": false}
       ],
-      "explanation": "They — are + глагол-ing: are running."
+      "explanation": "They — are + глагол-ing; skate теряет -e: skating."
     },
     {
       "type": "dropdown",
-      "text": "I am not cooking, I am ___ (write) a letter.",
+      "text": "Dad isn't sleeping, he is ___ (drive) a car.",
       "options": [
-        {"text": "writing", "correct": true},
-        {"text": "writeing", "correct": false},
-        {"text": "write", "correct": false}
+        {"text": "driving", "correct": true},
+        {"text": "driveing", "correct": false},
+        {"text": "drive", "correct": false}
       ],
-      "explanation": "Write теряет -e перед -ing: writing."
+      "explanation": "Drive теряет -e перед -ing: driving."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши -ing форму от cook.",
-      "answer": "cooking",
-      "explanation": "Cook просто добавляет -ing: cooking."
+      "text": "Впиши -ing форму от put.",
+      "answer": "putting",
+      "explanation": "Put оканчивается на согласную+гласную+согласную — t удваивается: putting."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: He ___ (listen) to music now.",
-      "answer": "is listening",
-      "explanation": "He — is + глагол-ing: is listening."
+      "text": "Впиши правильную форму: Grandpa ___ (look) at the photos now.",
+      "answer": "is looking",
+      "explanation": "Grandpa = he: is + глагол-ing: is looking."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "They are running in the park.", "right": "Они бегают в парке."},
-        {"left": "He is swimming now.", "right": "Он сейчас плавает."},
-        {"left": "I am writing a letter.", "right": "Я пишу письмо."},
-        {"left": "They are watching TV now.", "right": "Они сейчас смотрят телевизор."}
+        {"left": "Kate is washing the dishes.", "right": "Катя моет посуду."},
+        {"left": "The boys are riding bikes.", "right": "Мальчики катаются на велосипедах."},
+        {"left": "I am not running, I am walking.", "right": "Я не бегу, я иду пешком."},
+        {"left": "Are you eating?", "right": "Ты ешь?"}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Present Continuous — действие прямо сейчас: am/is/are + глагол-ing."
     }
   ]
 }

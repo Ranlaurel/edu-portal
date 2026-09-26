@@ -2,89 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как ответить на вопрос «Has your brother got straight hair?», если у него кудрявые волосы?",
+      "text": "Как ответить на вопрос «Has your mum got blue eyes?», если у неё карие глаза?",
       "options": [
-        {"text": "No, he hasn't.", "correct": true},
-        {"text": "No, he doesn't.", "correct": false},
-        {"text": "Yes, he has.", "correct": false}
+        {"text": "No, she hasn't.", "correct": true},
+        {"text": "No, she doesn't.", "correct": false},
+        {"text": "Yes, she has.", "correct": false}
       ],
-      "explanation": "Отвечаем тем же глаголом have got: No, he hasn't (волосы не прямые)."
+      "explanation": "Отвечаем тем же глаголом, что в вопросе: No, she hasn't."
     },
     {
       "type": "single",
-      "text": "Выбери верный перевод: «У меня есть сестра с прямыми волосами».",
+      "text": "Выбери верный перевод: «У моего брата короткие прямые волосы».",
       "options": [
-        {"text": "I have got a sister with straight hair.", "correct": true},
-        {"text": "I has got a sister with straight hair.", "correct": false},
-        {"text": "I have got a sister with curly hair.", "correct": false}
+        {"text": "My brother has got short straight hair.", "correct": true},
+        {"text": "My brother have got short straight hair.", "correct": false},
+        {"text": "My brother has got short curly hair.", "correct": false}
       ],
-      "explanation": "С I используется have got; straight — прямой (о волосах)."
+      "explanation": "Brother = he → has got; straight — прямые (curly — кудрявые)."
     },
     {
       "type": "multiple",
       "text": "Какие фразы верно описывают внешность и семью? (выбери все верные варианты)",
       "options": [
-        {"text": "She has got long curly hair.", "correct": true},
-        {"text": "He is tall and beautiful.", "correct": true},
-        {"text": "My family have big.", "correct": false},
-        {"text": "They have got blue eyes.", "correct": true},
-        {"text": "She have got short hair.", "correct": false}
+        {"text": "My cousin has got red hair.", "correct": true},
+        {"text": "My aunt is young and pretty.", "correct": true},
+        {"text": "My family have small.", "correct": false},
+        {"text": "We have got a lot of cousins.", "correct": true},
+        {"text": "He have got long hair.", "correct": false}
       ],
-      "explanation": "«My family have big» и «She have got» неверны: family/she требуют is/has."
+      "explanation": "«My family have small» и «He have got» неверны: нужно My family is small и He has got."
     },
     {
       "type": "dropdown",
-      "text": "My grandmother ___ beautiful eyes.",
+      "text": "My uncle ___ green eyes.",
       "options": [
         {"text": "has got", "correct": true},
         {"text": "have got", "correct": false},
         {"text": "is got", "correct": false}
       ],
-      "explanation": "Grandmother = she, используется has got."
+      "explanation": "Uncle = he, используется has got."
     },
     {
       "type": "dropdown",
-      "text": "___ your brother tall? (вопрос про внешность)",
+      "text": "___ your grandma old? (вопрос про внешность)",
       "options": [
         {"text": "Is", "correct": true},
         {"text": "Has", "correct": false},
         {"text": "Are", "correct": false}
       ],
-      "explanation": "Tall — прилагательное с глаголом to be, а не have got: Is your brother tall?"
+      "explanation": "Old — прилагательное, с ним нужен to be: Is your grandma old?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: My family ___ big and friendly.",
+      "text": "Впиши глагол: My sister ___ short and pretty.",
       "answer": "is",
-      "explanation": "Family — единственное число, форма is."
+      "explanation": "Sister = she, с прилагательными используем is."
     },
     {
       "type": "fill_blank",
-      "text": "Составь отрицание: My grandfather has got short hair. → My grandfather ___ short hair.",
+      "text": "Составь отрицание: My mum has got a car. → My mum ___ a car.",
       "answer": "hasn't got",
-      "accepted": ["hasn't got", "has not got"],
+      "accepted": ["hasn't got", "hasn’t got", "has not got"],
       "explanation": "Отрицательная форма has got — hasn't got."
     },
     {
       "type": "matching",
       "text": "Соедини вопрос с правильным ответом",
       "pairs": [
-        {"left": "Have you got a big family?", "right": "Yes, I have."},
-        {"left": "Has your brother got straight hair?", "right": "No, he hasn't."},
-        {"left": "Is your sister tall?", "right": "Yes, she is."},
-        {"left": "Has she got blue eyes?", "right": "Yes, she has."}
+        {"left": "Have you got a pet? (да)", "right": "Yes, I have."},
+        {"left": "Has your dad got a beard? (нет)", "right": "No, he hasn't."},
+        {"left": "Is your brother young? (да)", "right": "Yes, he is."},
+        {"left": "Are your parents tall? (нет)", "right": "No, they aren't."}
       ],
-      "explanation": "Ответ на вопрос строится тем же глаголом, что и в вопросе: have got/has got или to be."
+      "explanation": "Ответ строится тем же глаголом, что и в вопросе: have/has got или to be."
     },
     {
       "type": "single",
-      "text": "Как спросить «У тебя есть брат?»",
+      "text": "Как спросить «У них есть собака?»",
       "options": [
-        {"text": "Have you got a brother?", "correct": true},
-        {"text": "You have got a brother?", "correct": false},
-        {"text": "Do you have got a brother?", "correct": false}
+        {"text": "Have they got a dog?", "correct": true},
+        {"text": "They have got a dog?", "correct": false},
+        {"text": "Do they have got a dog?", "correct": false}
       ],
-      "explanation": "В вопросе с have got глагол have выходит на первое место: Have you got...?"
+      "explanation": "В вопросе с have got глагол have выходит на первое место: Have they got...?"
     }
   ]
 }

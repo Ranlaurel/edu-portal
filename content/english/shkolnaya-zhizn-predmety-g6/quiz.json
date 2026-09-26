@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "We have Maths ___ Mondays.",
+      "text": "We have Music ___ Wednesdays.",
       "options": [
         {"text": "on", "correct": true},
         {"text": "at", "correct": false},
         {"text": "in", "correct": false}
       ],
-      "explanation": "Дни недели требуют предлога on."
+      "explanation": "С днями недели используется on: on Wednesdays."
     },
     {
       "type": "single",
-      "text": "The lesson starts ___ 9 o'clock.",
+      "text": "Break starts ___ 10:15.",
       "options": [
         {"text": "at", "correct": true},
         {"text": "on", "correct": false},
         {"text": "in", "correct": false}
       ],
-      "explanation": "Точное время требует предлога at."
+      "explanation": "С точным временем используется at."
     },
     {
       "type": "multiple",
-      "text": "С какими словами используется предлог in? (выбери все верные варианты)",
+      "text": "С какими словами используется предлог on? (выбери все верные варианты)",
       "options": [
-        {"text": "September", "correct": true},
-        {"text": "the morning", "correct": true},
-        {"text": "Monday", "correct": false},
-        {"text": "9 o'clock", "correct": false},
-        {"text": "summer", "correct": true}
+        {"text": "Tuesday", "correct": true},
+        {"text": "5th May", "correct": true},
+        {"text": "winter", "correct": false},
+        {"text": "the evening", "correct": false}
       ],
-      "explanation": "September, the morning, summer — месяцы, части дня и времена года, требуют предлога in."
+      "explanation": "On — с днями недели и датами. Со временем года и частью дня — in (in winter, in the evening)."
     },
     {
       "type": "dropdown",
-      "text": "School begins ___ September.",
+      "text": "The summer holidays start ___ June.",
       "options": [
         {"text": "in", "correct": true},
         {"text": "on", "correct": false},
         {"text": "at", "correct": false}
       ],
-      "explanation": "Месяцы требуют предлога in."
+      "explanation": "С месяцами используется in."
     },
     {
       "type": "dropdown",
-      "text": "We have PE ___ Fridays.",
+      "text": "The school concert is ___ 25th December.",
       "options": [
         {"text": "on", "correct": true},
-        {"text": "at", "correct": false},
-        {"text": "in", "correct": false}
+        {"text": "in", "correct": false},
+        {"text": "at", "correct": false}
       ],
-      "explanation": "Дни недели требуют предлога on."
+      "explanation": "С датами используется on."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: The lesson ___ (start) at nine o'clock.",
-      "answer": "starts",
-      "explanation": "В Present Simple для he/she/it (the lesson = it) добавляется -s: starts."
+      "text": "Впиши форму глагола: My sister ___ (finish) school at two o'clock.",
+      "answer": "finishes",
+      "explanation": "My sister — она (she); после sh добавляем -es: finishes."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши предлог: Our lessons start at 8:30 ___ the morning.",
+      "text": "Впиши предлог: I do my homework ___ the afternoon.",
       "answer": "in",
-      "explanation": "Часть дня (утро) требует предлога in."
+      "explanation": "С частью дня используется in: in the afternoon."
     },
     {
       "type": "matching",
-      "text": "Соедини тип времени с нужным предлогом",
+      "text": "Соедини выражение времени с переводом",
       "pairs": [
-        {"left": "9 o'clock", "right": "at"},
-        {"left": "Monday", "right": "on"},
-        {"left": "September", "right": "in"},
-        {"left": "the morning", "right": "in"}
+        {"left": "at 8 o'clock", "right": "в 8 часов"},
+        {"left": "on Sunday", "right": "в воскресенье"},
+        {"left": "in April", "right": "в апреле"},
+        {"left": "in the evening", "right": "вечером"}
       ],
-      "explanation": "At — точное время, on — дни недели/даты, in — месяцы/времена года/часть дня."
+      "explanation": "At — точное время, on — дни и даты, in — месяцы, времена года, части дня."
     },
     {
       "type": "single",
-      "text": "We ___ (have) English on Mondays.",
+      "text": "My brother ___ (go) to school by bus.",
       "options": [
-        {"text": "have", "correct": true},
-        {"text": "has", "correct": false},
-        {"text": "having", "correct": false}
+        {"text": "goes", "correct": true},
+        {"text": "go", "correct": false},
+        {"text": "going", "correct": false}
       ],
-      "explanation": "We — множественное число, окончание -s не добавляется: we have."
+      "explanation": "My brother — он (he), в Present Simple: goes."
     }
   ]
 }

@@ -2,49 +2,49 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как будет сравнительная степень слова «easy»?",
+      "text": "Как будет сравнительная степень слова «happy»?",
       "options": [
-        {"text": "easier", "correct": true},
-        {"text": "easyer", "correct": false},
-        {"text": "more easy", "correct": false}
+        {"text": "happier", "correct": true},
+        {"text": "happyer", "correct": false},
+        {"text": "more happy", "correct": false}
       ],
-      "explanation": "Easy оканчивается на -y, буква y меняется на i: easier."
+      "explanation": "Happy оканчивается на -y, буква y меняется на i: happier."
     },
     {
       "type": "single",
-      "text": "Как будет сравнительная степень слова «good»?",
+      "text": "Как будет превосходная степень слова «easy»?",
       "options": [
-        {"text": "better", "correct": true},
-        {"text": "gooder", "correct": false},
-        {"text": "more good", "correct": false}
+        {"text": "the easiest", "correct": true},
+        {"text": "the easyest", "correct": false},
+        {"text": "the most easy", "correct": false}
       ],
-      "explanation": "Good — слово-исключение: good → better → the best."
+      "explanation": "Easy оканчивается на -y: y меняется на i + est — the easiest."
     },
     {
       "type": "multiple",
       "text": "Какие степени сравнения образованы правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "more difficult", "correct": true},
-        {"text": "worse", "correct": true},
-        {"text": "gooder", "correct": false},
-        {"text": "easier", "correct": true},
-        {"text": "difficulter", "correct": false}
+        {"text": "more beautiful", "correct": true},
+        {"text": "funnier", "correct": true},
+        {"text": "more expensive", "correct": true},
+        {"text": "interestinger", "correct": false},
+        {"text": "busyer", "correct": false}
       ],
-      "explanation": "Difficult (длинное) — more difficult, bad (исключение) — worse, easy (y→i) — easier. Gooder и difficulter — ошибки."
+      "explanation": "Длинные прилагательные — с more (more beautiful, more expensive, more interesting); на -y — y→i (funnier, busier)."
     },
     {
       "type": "dropdown",
-      "text": "This book is ___ (difficult) than that one.",
+      "text": "A lion is ___ (dangerous) than a cat.",
       "options": [
-        {"text": "more difficult", "correct": true},
-        {"text": "difficulter", "correct": false},
-        {"text": "the most difficult", "correct": false}
+        {"text": "more dangerous", "correct": true},
+        {"text": "dangerouser", "correct": false},
+        {"text": "the most dangerous", "correct": false}
       ],
-      "explanation": "Difficult — длинное прилагательное, сравнительная степень образуется через more."
+      "explanation": "Dangerous — длинное прилагательное, сравнение двух (than) — more dangerous."
     },
     {
       "type": "dropdown",
-      "text": "This is the ___ (bad) day of my life.",
+      "text": "He is the ___ (bad) player in our team.",
       "options": [
         {"text": "worst", "correct": true},
         {"text": "baddest", "correct": false},
@@ -54,26 +54,26 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень слова good: the ___.",
-      "answer": "best",
+      "text": "Впиши сравнительную степень слова good.",
+      "answer": "better",
       "explanation": "Good — исключение: good → better → the best."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень слова difficult: the ___ difficult.",
+      "text": "Впиши слово: This is the ___ important lesson (самый важный).",
       "answer": "most",
-      "explanation": "Difficult — длинное прилагательное: the most difficult."
+      "explanation": "Important — длинное прилагательное: the most important."
     },
     {
       "type": "matching",
       "text": "Соедини прилагательное со сравнительной степенью",
       "pairs": [
-        {"left": "easy", "right": "easier"},
         {"left": "difficult", "right": "more difficult"},
-        {"left": "good", "right": "better"},
-        {"left": "bad", "right": "worse"}
+        {"left": "busy", "right": "busier"},
+        {"left": "lazy", "right": "lazier"},
+        {"left": "popular", "right": "more popular"}
       ],
-      "explanation": "Проверь по правилам из урока: y→ier, more для длинных слов, исключения good/bad."
+      "explanation": "Длинные слова — с more, слова на -y — y→ier."
     }
   ]
 }

@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как образуется сравнительная степень короткого прилагательного quiet?",
+      "text": "Food in the village is ___ than in the city. (cheap)",
       "options": [
-        {"text": "quieter", "correct": true},
-        {"text": "more quiet", "correct": false},
-        {"text": "quietest", "correct": false}
+        {"text": "cheaper", "correct": true},
+        {"text": "more cheap", "correct": false},
+        {"text": "cheapest", "correct": false}
       ],
-      "explanation": "Короткое прилагательное (1 слог): + -er → quieter."
+      "explanation": "Cheap — короткое прилагательное (1 слог): cheap + -er."
     },
     {
       "type": "single",
-      "text": "Как образуется сравнительная степень длинного прилагательного peaceful?",
+      "text": "Life in the city is ___ than in the village. (expensive)",
       "options": [
-        {"text": "more peaceful", "correct": true},
-        {"text": "peacefuler", "correct": false},
-        {"text": "peacefulest", "correct": false}
+        {"text": "more expensive", "correct": true},
+        {"text": "expensiver", "correct": false},
+        {"text": "most expensive", "correct": false}
       ],
-      "explanation": "Длинное прилагательное (2+ слога): more + прилагательное → more peaceful."
+      "explanation": "Expensive — длинное прилагательное: more expensive than."
     },
     {
       "type": "multiple",
       "text": "Какие предложения построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "The countryside is quieter than the city.", "correct": true},
-        {"text": "Village life is more peaceful than city life.", "correct": true},
-        {"text": "Life on a farm is gooder for animals.", "correct": false},
-        {"text": "The air is cleaner than in the city.", "correct": true},
-        {"text": "Life on a farm is more good for animals.", "correct": false}
+        {"text": "A village is smaller than a city.", "correct": true},
+        {"text": "City streets are more crowded than village streets.", "correct": true},
+        {"text": "The weather this year is worse than last year.", "correct": true},
+        {"text": "My grandma's house is more old than ours.", "correct": false},
+        {"text": "The river is more deep than the lake.", "correct": false}
       ],
-      "explanation": "Good — исключение: сравнительная степень better, а не gooder или more good."
+      "explanation": "Old и deep — короткие прилагательные: older, deeper. Crowded — длинное: more crowded. Bad → worse — исключение."
     },
     {
       "type": "dropdown",
-      "text": "The countryside is ___ (quiet) than the city.",
+      "text": "The city is ___ (big) than our village.",
       "options": [
-        {"text": "quieter", "correct": true},
-        {"text": "more quiet", "correct": false},
-        {"text": "quiet", "correct": false}
+        {"text": "bigger", "correct": true},
+        {"text": "more big", "correct": false},
+        {"text": "biggest", "correct": false}
       ],
-      "explanation": "Короткое прилагательное quiet: + -er → quieter."
+      "explanation": "Big — короткое прилагательное, сравниваем два места (than): bigger."
     },
     {
       "type": "dropdown",
-      "text": "Life on a farm is ___ (good) for animals than in a crowded city.",
+      "text": "The traffic in the city is ___ (bad) than in the village.",
       "options": [
-        {"text": "better", "correct": true},
-        {"text": "gooder", "correct": false},
-        {"text": "more good", "correct": false}
+        {"text": "worse", "correct": true},
+        {"text": "badder", "correct": false},
+        {"text": "more bad", "correct": false}
       ],
-      "explanation": "Good — исключение, сравнительная степень: better."
+      "explanation": "Исключение: bad → worse."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную форму: peaceful → more ___",
-      "answer": "peaceful",
-      "explanation": "Длинное прилагательное образует сравнительную степень через more: more peaceful."
+      "text": "Впиши сравнительную степень: The grass in the field is ___ (green) than in the park.",
+      "answer": "greener",
+      "explanation": "Green — короткое прилагательное: green + -er."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную форму: clean → ___",
-      "answer": "cleaner",
-      "explanation": "Короткое прилагательное clean: + -er → cleaner."
+      "text": "Впиши сравнительную степень (два слова): Country life is ___ (beautiful) than city life.",
+      "answer": "more beautiful",
+      "explanation": "Beautiful — длинное прилагательное: more beautiful."
     },
     {
       "type": "matching",
       "text": "Соедини прилагательное с его сравнительной степенью",
       "pairs": [
-        {"left": "quiet", "right": "quieter"},
-        {"left": "peaceful", "right": "more peaceful"},
-        {"left": "good", "right": "better"},
-        {"left": "bad", "right": "worse"}
+        {"left": "fresh", "right": "fresher"},
+        {"left": "warm", "right": "warmer"},
+        {"left": "comfortable", "right": "more comfortable"},
+        {"left": "dangerous", "right": "more dangerous"}
       ],
-      "explanation": "Короткие прилагательные +er, длинные — more, good/bad — исключения."
+      "explanation": "Короткие прилагательные: + -er. Длинные: more + прилагательное."
     }
   ]
 }

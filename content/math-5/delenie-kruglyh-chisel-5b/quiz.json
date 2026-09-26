@@ -2,48 +2,48 @@
   "questions": [
     {
       "type": "single",
-      "text": "Вычисли: 600 ÷ 30.",
+      "text": "Вычисли: 480 ÷ 60.",
       "options": [
-        {"text": "20", "correct": true},
-        {"text": "2", "correct": false},
-        {"text": "200", "correct": false},
-        {"text": "18", "correct": false}
+        {"text": "8", "correct": true},
+        {"text": "80", "correct": false},
+        {"text": "7", "correct": false},
+        {"text": "420", "correct": false}
       ],
-      "explanation": "Убираем по одному нулю у делимого и делителя: 60 ÷ 3 = 20."
+      "explanation": "Убираем по одному нулю у делимого и делителя: 48 ÷ 6 = 8."
     },
     {
       "type": "single",
-      "text": "Вычисли: 4000 ÷ 200.",
-      "options": [
-        {"text": "20", "correct": true},
-        {"text": "2", "correct": false},
-        {"text": "200", "correct": false},
-        {"text": "40", "correct": false}
-      ],
-      "explanation": "Убираем по два нуля у делимого и делителя: 40 ÷ 2 = 20."
-    },
-    {
-      "type": "single",
-      "text": "Вычисли: 240 ÷ 8.",
+      "text": "Вычисли: 9000 ÷ 300.",
       "options": [
         {"text": "30", "correct": true},
         {"text": "3", "correct": false},
-        {"text": "40", "correct": false},
-        {"text": "24", "correct": false}
+        {"text": "300", "correct": false},
+        {"text": "90", "correct": false}
       ],
-      "explanation": "240 = 24 × 10, значит (24 ÷ 8) × 10 = 3 × 10 = 30."
+      "explanation": "Убираем по два нуля у делимого и делителя: 90 ÷ 3 = 30."
+    },
+    {
+      "type": "single",
+      "text": "Вычисли: 350 ÷ 7.",
+      "options": [
+        {"text": "50", "correct": true},
+        {"text": "5", "correct": false},
+        {"text": "500", "correct": false},
+        {"text": "35", "correct": false}
+      ],
+      "explanation": "350 = 35 × 10, значит (35 ÷ 7) × 10 = 5 × 10 = 50."
     },
     {
       "type": "multiple",
       "text": "Какие из этих равенств верны? (выбери все верные варианты)",
       "options": [
-        {"text": "90 ÷ 30 = 3", "correct": true},
-        {"text": "800 ÷ 40 = 20", "correct": true},
-        {"text": "6000 ÷ 300 = 200", "correct": false},
-        {"text": "3600 ÷ 6 = 600", "correct": true},
-        {"text": "900 ÷ 3 = 30", "correct": false}
+        {"text": "60 ÷ 20 = 3", "correct": true},
+        {"text": "900 ÷ 30 = 30", "correct": true},
+        {"text": "1500 ÷ 500 = 30", "correct": false},
+        {"text": "4200 ÷ 7 = 600", "correct": true},
+        {"text": "600 ÷ 2 = 30", "correct": false}
       ],
-      "explanation": "90÷30=3, 800÷40=20, 3600÷6=600 верны. 6000÷300=20 (а не 200), 900÷3=300 (а не 30)."
+      "explanation": "60 ÷ 20 = 6 ÷ 2 = 3; 900 ÷ 30 = 90 ÷ 3 = 30; 4200 ÷ 7 = 42 сотни ÷ 7 = 6 сотен = 600 — верно. 1500 ÷ 500 = 15 ÷ 5 = 3 (а не 30), 600 ÷ 2 = 6 сотен ÷ 2 = 300 (а не 30)."
     },
     {
       "type": "multiple",
@@ -59,46 +59,46 @@
     },
     {
       "type": "dropdown",
-      "text": "900 ÷ 3 = ___",
+      "text": "800 ÷ 4 = ___",
       "options": [
-        {"text": "300", "correct": true},
-        {"text": "30", "correct": false},
-        {"text": "3000", "correct": false}
+        {"text": "200", "correct": true},
+        {"text": "20", "correct": false},
+        {"text": "2000", "correct": false}
       ],
-      "explanation": "9 сотен ÷ 3 = 3 сотни, то есть 300."
+      "explanation": "8 сотен ÷ 4 = 2 сотни, то есть 200."
     },
     {
       "type": "dropdown",
-      "text": "5000 ÷ 5 = ___",
+      "text": "6000 ÷ 2 = ___",
       "options": [
-        {"text": "1000", "correct": true},
-        {"text": "100", "correct": false},
-        {"text": "10000", "correct": false}
+        {"text": "3000", "correct": true},
+        {"text": "300", "correct": false},
+        {"text": "30000", "correct": false}
       ],
-      "explanation": "5 тысяч, разделённые на 5, дают 1 тысячу."
+      "explanation": "6 тысяч, разделённые на 2, дают 3 тысячи."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 6000 ÷ 300 = ___.",
-      "answer": "20",
-      "explanation": "Убираем по два нуля: 60 ÷ 3 = 20."
+      "text": "Впиши только число: 8000 ÷ 200 = ___.",
+      "answer": "40",
+      "explanation": "Убираем по два нуля: 80 ÷ 2 = 40."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 3600 ÷ 6 = ___.",
-      "answer": "600",
-      "explanation": "36 сотен ÷ 6 = 6 сотен, то есть 600."
+      "text": "Впиши только число: 2800 ÷ 4 = ___.",
+      "answer": "700",
+      "explanation": "28 сотен ÷ 4 = 7 сотен, то есть 700."
     },
     {
       "type": "matching",
       "text": "Соедини выражение с его значением:",
       "pairs": [
-        {"left": "90 ÷ 30", "right": "3"},
-        {"left": "800 ÷ 40", "right": "20"},
-        {"left": "700 ÷ 7", "right": "100"},
-        {"left": "8000 ÷ 4", "right": "2000"}
+        {"left": "50 ÷ 10", "right": "5"},
+        {"left": "1200 ÷ 30", "right": "40"},
+        {"left": "560 ÷ 8", "right": "70"},
+        {"left": "4000 ÷ 2", "right": "2000"}
       ],
-      "explanation": "Каждое значение получено убиранием одинакового числа нулей или делением по разрядам."
+      "explanation": "50 ÷ 10 = 5 ÷ 1 = 5; 1200 ÷ 30 = 120 ÷ 3 = 40; 560 ÷ 8 = (56 ÷ 8) × 10 = 70; 4 тысячи ÷ 2 = 2 тысячи."
     }
   ]
 }

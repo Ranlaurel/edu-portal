@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Что находится в городе Эммы по диалогу?",
+      "text": "Как часто в городе Эммы проходит фестиваль?",
       "options": [
-        {"text": "an old castle", "correct": true},
-        {"text": "a modern museum", "correct": false},
-        {"text": "a big bridge", "correct": false}
+        {"text": "every summer", "correct": true},
+        {"text": "every winter", "correct": false},
+        {"text": "every month", "correct": false}
       ],
-      "explanation": "Эмма говорит: There is an old castle in our town."
+      "explanation": "Эмма говорит: every summer we have a festival near the tower."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «landmark»?",
+      "text": "Как переводится слово «tower»?",
       "options": [
-        {"text": "достопримечательность", "correct": true},
-        {"text": "фестиваль", "correct": false},
-        {"text": "площадь", "correct": false}
+        {"text": "башня", "correct": true},
+        {"text": "стена", "correct": false},
+        {"text": "ворота", "correct": false}
       ],
-      "explanation": "«Landmark» — достопримечательность, замок в диалоге называют famous landmark."
+      "explanation": "«Tower» — башня."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "Каждый день замок посещает много туристов.", "correct": true},
-        {"text": "Летом проходит фестиваль у башни.", "correct": true},
-        {"text": "Дети носят особые костюмы.", "correct": true},
-        {"text": "Площадь украшают книгами.", "correct": false}
+        {"text": "Замок — известная достопримечательность.", "correct": true},
+        {"text": "Площадь украшают цветами.", "correct": true},
+        {"text": "Олег живёт рядом с замком.", "correct": false},
+        {"text": "Туристы приходят только по выходным.", "correct": false}
       ],
-      "explanation": "По диалогу: много туристов, летний фестиваль у башни, дети wear special costumes, а площадь decorate with flowers (не книгами)."
+      "explanation": "Эмма говорит: It's a famous landmark и We decorate the square with flowers. Туристов много каждый день, а про дом Олега в диалоге ничего нет."
     },
     {
       "type": "dropdown",
-      "text": "There ___ many tourists every day.",
+      "text": "There ___ a famous statue in the park.",
       "options": [
-        {"text": "are", "correct": true},
-        {"text": "is", "correct": false},
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
         {"text": "be", "correct": false}
       ],
-      "explanation": "Tourists — множественное число, значит there are."
+      "explanation": "A statue — единственное число: there is."
     },
     {
       "type": "dropdown",
-      "text": "We ___ (decorate) the square with flowers.",
+      "text": "Every year my town ___ its birthday in September.",
       "options": [
-        {"text": "decorate", "correct": true},
-        {"text": "decorates", "correct": false},
-        {"text": "decorating", "correct": false}
+        {"text": "celebrates", "correct": true},
+        {"text": "celebrate", "correct": false},
+        {"text": "celebrating", "correct": false}
       ],
-      "explanation": "We — множественное число, окончание -s не добавляется."
+      "explanation": "My town — оно (it), в Present Simple добавляем -s: celebrates."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: обычай",
-      "answer": "custom",
-      "explanation": "«Обычай» — custom, упоминается в диалоге."
+      "text": "Впиши слово: Many tourists ___ (посещают) the museum every day.",
+      "answer": "visit",
+      "explanation": "«Посещать» — visit. Tourists — множественное число, поэтому без -s."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово из диалога: children ___ special costumes (носят).",
-      "answer": "wear",
-      "explanation": "«Носить» — wear."
+      "text": "Впиши слово: This festival is an old ___ (традиция) of our town.",
+      "answer": "tradition",
+      "explanation": "«Традиция» — tradition."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "castle", "right": "замок"},
-        {"left": "festival", "right": "фестиваль"},
-        {"left": "square", "right": "площадь"},
-        {"left": "decorate", "right": "украшать"}
+        {"left": "custom", "right": "обычай"},
+        {"left": "bridge", "right": "мост"},
+        {"left": "famous", "right": "знаменитый"},
+        {"left": "museum", "right": "музей"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Это слова по теме «Достопримечательности и традиции»."
     }
   ]
 }

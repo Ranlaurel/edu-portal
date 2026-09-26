@@ -2,39 +2,39 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какое слово используется в утвердительных предложениях?",
+      "text": "Выбери слово: I need ___ bananas.",
       "options": [
         {"text": "some", "correct": true},
         {"text": "any", "correct": false},
-        {"text": "no", "correct": false}
+        {"text": "a", "correct": false}
       ],
-      "explanation": "Some используется в утверждениях."
+      "explanation": "Это утвердительное предложение, поэтому some."
     },
     {
       "type": "single",
-      "text": "Как правильно спросить «у тебя есть молоко?»",
+      "text": "Как правильно спросить «У вас есть сыр?»",
       "options": [
-        {"text": "Do you have any milk?", "correct": true},
-        {"text": "Do you have some milk?", "correct": false},
-        {"text": "Do you have milk any?", "correct": false}
+        {"text": "Do you have any cheese?", "correct": true},
+        {"text": "Do you have cheese any?", "correct": false},
+        {"text": "Have you any cheese do?", "correct": false}
       ],
-      "explanation": "В обычных вопросах используется any."
+      "explanation": "В обычных вопросах используется any, и оно стоит перед существительным."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях some/any использованы верно? (выбери все верные варианты)",
       "options": [
-        {"text": "I want some apples", "correct": true},
-        {"text": "There isn't any bread", "correct": true},
-        {"text": "Do you have some apples", "correct": false},
-        {"text": "I want any apples", "correct": false},
-        {"text": "Can I have some water, please?", "correct": true}
+        {"text": "We bought some juice.", "correct": true},
+        {"text": "There aren't any eggs in the shop.", "correct": true},
+        {"text": "Do you sell some pens?", "correct": false},
+        {"text": "I want any bread.", "correct": false},
+        {"text": "Can I have some sweets, please?", "correct": true}
       ],
-      "explanation": "Some — в утверждениях и вежливых просьбах, any — в обычных вопросах и отрицаниях."
+      "explanation": "Some — в утверждениях и вежливых просьбах, any — в обычных вопросах и отрицаниях. Поэтому Do you sell any pens? и I want some bread."
     },
     {
       "type": "dropdown",
-      "text": "There isn't ___ bread in the shop.",
+      "text": "There aren't ___ oranges in the basket.",
       "options": [
         {"text": "any", "correct": true},
         {"text": "some", "correct": false},
@@ -44,36 +44,35 @@
     },
     {
       "type": "dropdown",
-      "text": "Can I have ___ water, please? (вежливая просьба)",
+      "text": "Can I have ___ tea, please? (вежливая просьба)",
       "options": [
         {"text": "some", "correct": true},
-        {"text": "any", "correct": false},
-        {"text": "no", "correct": false}
+        {"text": "any", "correct": false}
       ],
       "explanation": "В вежливой просьбе, даже в вопросе, используется some."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I have ___ money (утверждение).",
+      "text": "Впиши слово: Mum wants to buy ___ potatoes (утверждение).",
       "answer": "some",
       "explanation": "В утвердительных предложениях используется some."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: Do you have ___ apples? (вопрос).",
+      "text": "Впиши слово: Do you sell ___ toys? (обычный вопрос)",
       "answer": "any",
       "explanation": "В обычных вопросах используется any."
     },
     {
       "type": "matching",
-      "text": "Соедини тип предложения с нужным словом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "утверждение", "right": "some"},
-        {"left": "обычный вопрос", "right": "any"},
-        {"left": "отрицание", "right": "any"},
-        {"left": "вежливая просьба", "right": "some"}
+        {"left": "Is there any juice?", "right": "Есть сок?"},
+        {"left": "Can I have some ice cream, please?", "right": "Можно мне мороженого, пожалуйста?"},
+        {"left": "There isn't any fish.", "right": "Рыбы нет."},
+        {"left": "She buys some flowers.", "right": "Она покупает цветы."}
       ],
-      "explanation": "Проверь по правилу: some — утверждение/просьба, any — вопрос/отрицание."
+      "explanation": "Some — утверждение и вежливая просьба, any — вопрос и отрицание."
     }
   ]
 }

@@ -2,13 +2,13 @@
   "questions": [
     {
       "type": "single",
-      "text": "Где родился путешественник по тексту?",
+      "text": "Где родился путешественник, по тексту?",
       "options": [
         {"text": "on a small island", "correct": true},
         {"text": "in a big city", "correct": false},
-        {"text": "on a ship", "correct": false}
+        {"text": "in a small village", "correct": false}
       ],
-      "explanation": "В тексте сказано: the explorer was born on a small island."
+      "explanation": "В тексте: The explorer was born on a small island."
     },
     {
       "type": "single",
@@ -16,73 +16,73 @@
       "options": [
         {"text": "adventure", "correct": true},
         {"text": "money", "correct": false},
-        {"text": "a ship", "correct": false}
+        {"text": "a big house", "correct": false}
       ],
-      "explanation": "В тексте сказано: he always dreamed of adventure — он всегда мечтал о приключениях."
+      "explanation": "В тексте: always dreamed of adventure."
     },
     {
       "type": "single",
-      "text": "Чем сегодня знаменит путешественник, согласно тексту?",
+      "text": "На чём путешественник пересёк океан?",
       "options": [
-        {"text": "his great discovery", "correct": true},
-        {"text": "his ship", "correct": false},
-        {"text": "his island", "correct": false}
+        {"text": "on a ship", "correct": true},
+        {"text": "on a plane", "correct": false},
+        {"text": "on a raft", "correct": false}
       ],
-      "explanation": "В тексте сказано: today he is famous for his great discovery."
+      "explanation": "В тексте: He sailed across the ocean on a ship."
     },
     {
       "type": "multiple",
-      "text": "Какие слова из текста описывают путешественника? (выбери все верные варианты)",
+      "text": "Что верно по тексту? (выбери все верные варианты)",
       "options": [
-        {"text": "brave", "correct": true},
-        {"text": "famous", "correct": true},
-        {"text": "explorer", "correct": true},
-        {"text": "talented", "correct": false}
+        {"text": "Он открыл новый континент.", "correct": true},
+        {"text": "Маршрут экспедиции был опасным.", "correct": true},
+        {"text": "Путешественник был трусливым.", "correct": false},
+        {"text": "Сегодня о нём никто не знает.", "correct": false}
       ],
-      "explanation": "В тексте путешественник назван explorer, he was very brave и today he is famous. Talented (талантливый) в тексте не упоминается."
+      "explanation": "В тексте: discovered a new continent; explored a dangerous route. Он был смелым (brave) и сегодня знаменит (famous)."
     },
     {
       "type": "dropdown",
-      "text": "He sailed across the ocean on a ___.",
+      "text": "Captain Cook ___ (visit) many islands.",
       "options": [
-        {"text": "ship", "correct": true},
-        {"text": "island", "correct": false},
-        {"text": "route", "correct": false}
+        {"text": "visited", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "visiting", "correct": false}
       ],
-      "explanation": "В тексте сказано: he sailed across the ocean on a ship."
+      "explanation": "Past Simple правильного глагола: visit + -ed."
     },
     {
       "type": "dropdown",
-      "text": "His expedition explored a dangerous ___.",
+      "text": "The explorers ___ (find) gold in the mountains.",
       "options": [
-        {"text": "route", "correct": true},
-        {"text": "continent", "correct": false},
-        {"text": "adventure", "correct": false}
+        {"text": "found", "correct": true},
+        {"text": "finded", "correct": false},
+        {"text": "finds", "correct": false}
       ],
-      "explanation": "В тексте сказано: his expedition explored a dangerous route."
+      "explanation": "Find — неправильный глагол: find → found."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: The explorer ___ (be born) on an island.",
-      "answer": "was born",
-      "explanation": "«Родился» — was born, форма Past Simple от be born."
+      "text": "Впиши форму глагола в Past Simple: The sailors ___ (land) on a small beach.",
+      "answer": "landed",
+      "explanation": "Land — правильный глагол: landed."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: He ___ (discover) a new continent.",
-      "answer": "discovered",
-      "explanation": "Discover — правильный глагол, в Past Simple образует форму discovered."
+      "text": "Впиши слово: A ___ is a long journey by sea. (морское путешествие)",
+      "answer": "voyage",
+      "explanation": "«Морское путешествие» — voyage."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "explorer", "right": "путешественник"},
-        {"left": "adventure", "right": "приключение"},
-        {"left": "brave", "right": "смелый"},
-        {"left": "discovery", "right": "открытие"}
+        {"left": "expedition", "right": "экспедиция"},
+        {"left": "famous", "right": "знаменитый"},
+        {"left": "brave", "right": "смелый"}
       ],
-      "explanation": "Проверь по словам из текста урока."
+      "explanation": "Эти слова встречаются в биографии путешественника."
     }
   ]
 }

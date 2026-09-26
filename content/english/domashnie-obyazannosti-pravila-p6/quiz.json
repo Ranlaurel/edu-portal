@@ -2,87 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Что Бен должен сделать (must) по диалогу?",
+      "text": "Что мама советует Бену сделать (should)?",
       "options": [
-        {"text": "make the bed and wash up", "correct": true},
+        {"text": "water the plants", "correct": true},
         {"text": "walk the dog", "correct": false},
         {"text": "do the shopping", "correct": false}
       ],
-      "explanation": "Бен говорит: I must make the bed and wash up."
+      "explanation": "Мама говорит: You should also water the plants."
     },
     {
       "type": "single",
-      "text": "Должен ли Бен выгуливать собаку сегодня?",
+      "text": "Почему Бену сегодня не нужно выгуливать собаку?",
       "options": [
-        {"text": "No, he doesn't have to.", "correct": true},
-        {"text": "Yes, he must.", "correct": false},
-        {"text": "Yes, he should.", "correct": false}
+        {"text": "Папа выгуливает её сегодня.", "correct": true},
+        {"text": "Собака заболела.", "correct": false},
+        {"text": "На улице идёт дождь.", "correct": false}
       ],
-      "explanation": "Мама говорит: No, you don't have to — папа выгуливает собаку."
+      "explanation": "Мама отвечает: No, you don't have to — Dad is walking him today."
     },
     {
       "type": "multiple",
-      "text": "Какие обязанности упомянуты в диалоге? (выбери все верные варианты)",
+      "text": "В каких предложениях выражен запрет? (выбери все верные варианты)",
       "options": [
-        {"text": "make the bed", "correct": true},
-        {"text": "wash up", "correct": true},
-        {"text": "take out the rubbish", "correct": true},
-        {"text": "vacuum", "correct": false}
+        {"text": "You mustn't run in the house.", "correct": true},
+        {"text": "You mustn't touch the hot oven.", "correct": true},
+        {"text": "You don't have to cook today.", "correct": false},
+        {"text": "You should tidy up your desk.", "correct": false}
       ],
-      "explanation": "В диалоге упомянуты make the bed, wash up и take out the rubbish, но не vacuum."
+      "explanation": "Запрет — mustn't. Don't have to — «не обязательно», should — совет."
     },
     {
       "type": "dropdown",
-      "text": "You ___ water the plants (совет от мамы).",
+      "text": "It's raining, so you ___ water the garden today.",
       "options": [
-        {"text": "should", "correct": true},
-        {"text": "must", "correct": false},
-        {"text": "mustn't", "correct": false}
+        {"text": "don't have to", "correct": true},
+        {"text": "mustn't", "correct": false},
+        {"text": "must", "correct": false}
       ],
-      "explanation": "Мама даёт совет: you should also water the plants."
+      "explanation": "Идёт дождь — поливать сад не обязательно: don't have to."
     },
     {
       "type": "dropdown",
-      "text": "You ___ forget to take out the rubbish (строгий запрет забывать).",
+      "text": "My brother is ill, so I ___ do his chores this week.",
       "options": [
-        {"text": "mustn't", "correct": true},
-        {"text": "don't have to", "correct": false},
-        {"text": "should", "correct": false}
+        {"text": "have to", "correct": true},
+        {"text": "mustn't", "correct": false},
+        {"text": "don't have to", "correct": false}
       ],
-      "explanation": "Mustn't forget — строгий запрет забывать."
+      "explanation": "Обязанность из-за обстоятельств (брат болеет) — have to."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I must ___ the bed after breakfast. (заправить)",
-      "answer": "make",
-      "explanation": "«Заправлять кровать» — make the bed."
+      "text": "Впиши слово: Before dinner I ___ the table. (накрываю)",
+      "answer": "lay",
+      "explanation": "«Накрывать на стол» — lay the table."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I must wash ___ after breakfast. (мыть посуду)",
-      "answer": "up",
-      "explanation": "«Мыть посуду» — wash up."
+      "text": "Впиши слово: I ___ the carpet every Saturday. (пылесошу)",
+      "answer": "vacuum",
+      "explanation": "«Пылесосить» — vacuum."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом по диалогу",
+      "text": "Соедини фразу с переводом",
       "pairs": [
+        {"left": "chores", "right": "домашние обязанности"},
         {"left": "make the bed", "right": "заправлять кровать"},
-        {"left": "wash up", "right": "мыть посуду"},
-        {"left": "water the plants", "right": "поливать растения"},
-        {"left": "take out the rubbish", "right": "выносить мусор"}
+        {"left": "do the shopping", "right": "ходить за покупками"},
+        {"left": "tidy up", "right": "наводить порядок"}
       ],
-      "explanation": "Проверь по диалогу мамы и Бена."
+      "explanation": "Это слова по теме «Домашние обязанности»."
     },
     {
       "type": "single",
-      "text": "Кто сегодня выгуливает собаку?",
+      "text": "О чём мама просит Бена не забыть (mustn't forget)?",
       "options": [
-        {"text": "Dad", "correct": true},
-        {"text": "Ben", "correct": false},
-        {"text": "Mum", "correct": false}
+        {"text": "take out the rubbish", "correct": true},
+        {"text": "close the window", "correct": false},
+        {"text": "feed the cat", "correct": false}
       ],
-      "explanation": "Мама говорит: Dad is walking him today."
+      "explanation": "Мама говорит: you mustn't forget to take out the rubbish."
     }
   ]
 }

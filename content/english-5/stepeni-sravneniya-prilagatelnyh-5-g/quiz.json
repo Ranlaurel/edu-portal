@@ -2,87 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как будет сравнительная степень слова «fast»?",
+      "text": "Как будет сравнительная степень слова «long»?",
       "options": [
-        {"text": "faster", "correct": true},
-        {"text": "fastest", "correct": false},
-        {"text": "more fast", "correct": false}
+        {"text": "longer", "correct": true},
+        {"text": "longest", "correct": false},
+        {"text": "more long", "correct": false}
       ],
-      "explanation": "Короткое прилагательное образует сравнительную степень с помощью -er: faster."
+      "explanation": "Короткое прилагательное образует сравнительную степень с помощью -er: longer."
     },
     {
       "type": "single",
-      "text": "Как будет превосходная степень слова «big»?",
+      "text": "Как будет превосходная степень слова «hot»?",
       "options": [
-        {"text": "the biggest", "correct": true},
-        {"text": "the bigest", "correct": false},
-        {"text": "the most big", "correct": false}
+        {"text": "the hottest", "correct": true},
+        {"text": "the hotest", "correct": false},
+        {"text": "the most hot", "correct": false}
       ],
-      "explanation": "Big оканчивается на согласную после гласной, поэтому согласная удваивается: biggest."
+      "explanation": "Hot оканчивается на одну согласную после одной гласной, поэтому t удваивается: the hottest."
     },
     {
       "type": "multiple",
       "text": "Какие формы сравнительной степени образованы правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "taller", "correct": true},
+        {"text": "older", "correct": true},
+        {"text": "cheaper", "correct": true},
+        {"text": "thinner", "correct": true},
+        {"text": "more cold", "correct": false},
+        {"text": "warmmer", "correct": false}
+      ],
+      "explanation": "Old, cheap — просто +er; thin — n удваивается (одна гласная + одна согласная). Cold — короткое, поэтому colder, а не more cold; warm оканчивается на две согласные — warmer без удвоения."
+    },
+    {
+      "type": "dropdown",
+      "text": "My dog is ___ (small) than your dog.",
+      "options": [
         {"text": "smaller", "correct": true},
-        {"text": "bigger", "correct": true},
-        {"text": "fastest er", "correct": false}
+        {"text": "smallest", "correct": false},
+        {"text": "more small", "correct": false}
       ],
-      "explanation": "Tall, small, big — короткие прилагательные, добавляем -er (big удваивает согласную)."
+      "explanation": "Сравнение двух (than) — сравнительная степень: smaller."
     },
     {
       "type": "dropdown",
-      "text": "Tom is ___ (tall) than Ann.",
+      "text": "Moscow is the ___ (big) city in Russia.",
       "options": [
-        {"text": "taller", "correct": true},
-        {"text": "tallest", "correct": false},
-        {"text": "more tall", "correct": false}
+        {"text": "biggest", "correct": true},
+        {"text": "bigger", "correct": false},
+        {"text": "most big", "correct": false}
       ],
-      "explanation": "Сравнение двух — сравнительная степень: taller."
-    },
-    {
-      "type": "dropdown",
-      "text": "Tom is the ___ (tall) in the class.",
-      "options": [
-        {"text": "tallest", "correct": true},
-        {"text": "taller", "correct": false},
-        {"text": "more tall", "correct": false}
-      ],
-      "explanation": "Сравнение с целой группой — превосходная степень: the tallest."
+      "explanation": "Сравнение с целой группой — превосходная степень; g удваивается: the biggest."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную степень слова slow.",
-      "answer": "slower",
-      "explanation": "Slow — короткое прилагательное, +er: slower."
+      "text": "Впиши сравнительную степень слова short.",
+      "answer": "shorter",
+      "explanation": "Short — короткое прилагательное, +er: shorter."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень слова short: the ___.",
-      "answer": "shortest",
-      "explanation": "Short — короткое прилагательное, +est: the shortest."
+      "text": "Впиши превосходную степень слова young: the ___.",
+      "answer": "youngest",
+      "explanation": "Young — короткое прилагательное, +est: the youngest."
     },
     {
       "type": "matching",
       "text": "Соедини прилагательное со сравнительной степенью",
       "pairs": [
         {"left": "tall", "right": "taller"},
-        {"left": "small", "right": "smaller"},
-        {"left": "big", "right": "bigger"},
-        {"left": "slow", "right": "slower"}
+        {"left": "slow", "right": "slower"},
+        {"left": "fat", "right": "fatter"},
+        {"left": "new", "right": "newer"}
       ],
-      "explanation": "Короткие прилагательные образуют сравнительную степень через -er."
+      "explanation": "Короткие прилагательные образуют сравнительную степень через -er; fat удваивает t."
     },
     {
       "type": "single",
-      "text": "Переведи слово «short».",
+      "text": "Как перевести «Гепард — самое быстрое животное»?",
       "options": [
-        {"text": "низкий, короткий", "correct": true},
-        {"text": "быстрый", "correct": false},
-        {"text": "большой", "correct": false}
+        {"text": "The cheetah is the fastest animal.", "correct": true},
+        {"text": "The cheetah is the faster animal.", "correct": false},
+        {"text": "The cheetah is fastest animal.", "correct": false}
       ],
-      "explanation": "«Short» — низкий, короткий."
+      "explanation": "«Самый» — превосходная степень с the: the fastest."
     }
   ]
 }

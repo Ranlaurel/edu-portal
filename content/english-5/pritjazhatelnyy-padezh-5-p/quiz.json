@@ -2,66 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «комната моих друзей» (friends — мн. число)?",
+      "text": "Как сказать «дом моих бабушки и дедушки» (grandparents — мн. число)?",
       "options": [
-        {"text": "my friends' room", "correct": true},
-        {"text": "my friend's room", "correct": false},
-        {"text": "my friends's room", "correct": false}
+        {"text": "my grandparents' house", "correct": true},
+        {"text": "my grandparent's house", "correct": false},
+        {"text": "my grandparents's house", "correct": false}
       ],
-      "explanation": "Если существительное во мн. числе оканчивается на -s, добавляем только апостроф: friends'."
+      "explanation": "Grandparents оканчивается на -s, поэтому добавляем только апостроф: grandparents'."
     },
     {
       "type": "single",
-      "text": "Как сказать «игрушки детей» (children — исключение)?",
+      "text": "Как сказать «книги женщин» (women — исключение)?",
       "options": [
-        {"text": "the children's toys", "correct": true},
-        {"text": "the childrens' toys", "correct": false},
-        {"text": "the children toys", "correct": false}
+        {"text": "the women's books", "correct": true},
+        {"text": "the womens' books", "correct": false},
+        {"text": "the women books", "correct": false}
       ],
-      "explanation": "Children не оканчивается на -s, поэтому добавляем 's как обычно."
+      "explanation": "Women не оканчивается на -s, поэтому добавляем 's как обычно."
     },
     {
       "type": "multiple",
       "text": "В каких словосочетаниях апостроф использован правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "my friends' bags", "correct": true},
-        {"text": "the children's toys", "correct": true},
-        {"text": "my friends's bags", "correct": false},
-        {"text": "the childrens toys", "correct": false}
+        {"text": "the boys' coats", "correct": true},
+        {"text": "the men's shoes", "correct": true},
+        {"text": "the boys's coats", "correct": false},
+        {"text": "the mens shoes", "correct": false}
       ],
-      "explanation": "Friends (оканчивается на -s) — только апостроф. Children (не на -s) — 's."
+      "explanation": "Boys (на -s) — только апостроф: boys'. Men (не на -s) — 's: men's."
     },
     {
       "type": "dropdown",
-      "text": "My friend___ bags are new (friends, мн. число, оканчивается на -s).",
+      "text": "The girl___ dresses are pretty (girls, мн. число, оканчивается на -s).",
       "options": [
         {"text": "s'", "correct": true},
         {"text": "'s", "correct": false},
         {"text": "s", "correct": false}
       ],
-      "explanation": "Множественное число на -s → только апостроф после s: friends'."
+      "explanation": "Множественное число на -s → только апостроф после s: girls'."
     },
     {
       "type": "dropdown",
-      "text": "The ___ (children) room is big.",
+      "text": "The ___ (people) houses are new.",
       "options": [
-        {"text": "children's", "correct": true},
-        {"text": "childrens'", "correct": false},
-        {"text": "childrens", "correct": false}
+        {"text": "people's", "correct": true},
+        {"text": "peoples'", "correct": false},
+        {"text": "peoples", "correct": false}
       ],
-      "explanation": "Children — исключение, не оканчивается на -s, поэтому 's."
+      "explanation": "People — множественное число без -s на конце, поэтому 's: people's."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: комната",
       "answer": "room",
-      "explanation": "«Комната» переводится как room."
+      "explanation": "«Комната» — room."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: велосипед",
       "answer": "bike",
-      "explanation": "«Велосипед» переводится как bike."
+      "explanation": "«Велосипед» — bike."
     },
     {
       "type": "matching",
@@ -70,9 +70,9 @@
         {"left": "bag", "right": "сумка"},
         {"left": "toy", "right": "игрушка"},
         {"left": "teacher", "right": "учитель"},
-        {"left": "bike", "right": "велосипед"}
+        {"left": "pupil", "right": "ученик"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

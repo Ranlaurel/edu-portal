@@ -2,67 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «fur»?",
+      "text": "Как переводится слово «wolf»?",
       "options": [
-        {"text": "шерсть", "correct": true},
-        {"text": "хвост", "correct": false},
-        {"text": "лес", "correct": false}
+        {"text": "волк", "correct": true},
+        {"text": "олень", "correct": false},
+        {"text": "заяц", "correct": false}
       ],
-      "explanation": "«Fur» — шерсть животного."
+      "explanation": "«Wolf» — волк (мн. число wolves)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «dangerous»?",
+      "text": "Как по-английски «джунгли»?",
       "options": [
-        {"text": "опасный", "correct": true},
-        {"text": "дикий", "correct": false},
-        {"text": "домашний", "correct": false}
+        {"text": "jungle", "correct": true},
+        {"text": "garden", "correct": false},
+        {"text": "desert", "correct": false}
       ],
-      "explanation": "«Dangerous» — опасный."
+      "explanation": "«Джунгли» — jungle. Garden — сад, desert — пустыня."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают диких животных? (выбери все верные варианты)",
+      "text": "Какие животные могут жить дома как питомцы (pets)? (выбери все верные варианты)",
+      "options": [
+        {"text": "rabbit", "correct": true},
+        {"text": "hamster", "correct": true},
+        {"text": "lion", "correct": false},
+        {"text": "tiger", "correct": false}
+      ],
+      "explanation": "Кролик (rabbit) и хомяк (hamster) живут с людьми. Лев и тигр — дикие животные."
+    },
+    {
+      "type": "dropdown",
+      "text": "The ___ is called the king of animals.",
       "options": [
         {"text": "lion", "correct": true},
-        {"text": "hamster", "correct": false},
-        {"text": "wolf", "correct": true},
+        {"text": "rabbit", "correct": false},
+        {"text": "hamster", "correct": false}
+      ],
+      "explanation": "Царь зверей — лев: lion."
+    },
+    {
+      "type": "dropdown",
+      "text": "A ___ is orange with black stripes.",
+      "options": [
         {"text": "tiger", "correct": true},
-        {"text": "pet", "correct": false}
+        {"text": "elephant", "correct": false},
+        {"text": "bear", "correct": false}
       ],
-      "explanation": "Lion, wolf, tiger — дикие животные. Hamster обычно pet (домашнее), а pet вообще означает «домашнее животное»."
-    },
-    {
-      "type": "dropdown",
-      "text": "Место, где живёт много диких животных в тропиках — это ___.",
-      "options": [
-        {"text": "jungle", "correct": true},
-        {"text": "tail", "correct": false},
-        {"text": "fur", "correct": false}
-      ],
-      "explanation": "«Jungle» — джунгли."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как называется маленький домашний грызун? ___",
-      "options": [
-        {"text": "hamster", "correct": true},
-        {"text": "wolf", "correct": false},
-        {"text": "elephant", "correct": false}
-      ],
-      "explanation": "«Hamster» — хомяк."
+      "explanation": "Оранжевый с чёрными полосками — тигр: tiger."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: хвост",
+      "text": "Впиши английское слово: My dog wags its ___ when it's happy. (хвост)",
       "answer": "tail",
-      "explanation": "«Хвост» переводится как tail."
+      "explanation": "«Хвост» — tail."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: лес",
+      "text": "Впиши английское слово: Many animals live in the ___ near our village. (лес)",
       "answer": "forest",
-      "explanation": "«Лес» переводится как forest."
+      "explanation": "«Лес» — forest."
     },
     {
       "type": "matching",
@@ -71,19 +70,19 @@
         {"left": "elephant", "right": "слон"},
         {"left": "bear", "right": "медведь"},
         {"left": "fox", "right": "лиса"},
-        {"left": "rabbit", "right": "кролик"}
+        {"left": "fur", "right": "шерсть"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «pet»?",
+      "text": "Snakes can be ___, don't touch them!",
       "options": [
-        {"text": "домашнее животное", "correct": true},
-        {"text": "дикое животное", "correct": false},
-        {"text": "лес", "correct": false}
+        {"text": "dangerous", "correct": true},
+        {"text": "tail", "correct": false},
+        {"text": "forest", "correct": false}
       ],
-      "explanation": "«Pet» — домашнее животное."
+      "explanation": "Dangerous — опасный: змеи бывают опасными."
     }
   ]
 }

@@ -2,87 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «она высокая»?",
+      "text": "Как сказать «Мой папа невысокий»?",
       "options": [
-        {"text": "She is tall.", "correct": true},
-        {"text": "She has tall.", "correct": false},
-        {"text": "She got tall.", "correct": false}
+        {"text": "My dad is short.", "correct": true},
+        {"text": "My dad has short.", "correct": false},
+        {"text": "My dad has got short.", "correct": false}
       ],
-      "explanation": "Для общих черт (рост) используем to be + adjective."
+      "explanation": "Рост описываем через to be + прилагательное: is short."
     },
     {
       "type": "single",
-      "text": "Как сказать «у моего друга кудрявые волосы»?",
+      "text": "Как сказать «У моей сестры длинные прямые волосы»?",
       "options": [
-        {"text": "My friend has got curly hair.", "correct": true},
-        {"text": "My friend is curly hair.", "correct": false},
-        {"text": "My friend has curly.", "correct": false}
+        {"text": "My sister has got long straight hair.", "correct": true},
+        {"text": "My sister is long straight hair.", "correct": false},
+        {"text": "My sister have got long straight hair.", "correct": false}
       ],
-      "explanation": "Для того, что есть у человека (волосы), используем has got."
+      "explanation": "То, что у человека есть (волосы), описываем через has got; с she — has, а не have."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях грамматика употреблена верно? (выбери все верные варианты)",
       "options": [
-        {"text": "He is well-built.", "correct": true},
-        {"text": "She has got blue eyes.", "correct": true},
-        {"text": "He has well-built.", "correct": false},
-        {"text": "She is got blue eyes.", "correct": false}
+        {"text": "Tom is slim.", "correct": true},
+        {"text": "They have got green eyes.", "correct": true},
+        {"text": "Grandpa has got a moustache.", "correct": true},
+        {"text": "She is got freckles.", "correct": false},
+        {"text": "My mum has tall.", "correct": false}
       ],
-      "explanation": "Well-built описывает телосложение через to be, blue eyes — через has got."
+      "explanation": "Нужно She has got freckles (что есть) и My mum is tall (какая она)."
     },
     {
       "type": "dropdown",
-      "text": "My brother ___ got short fair hair.",
+      "text": "My cousins ___ got fair hair.",
       "options": [
-        {"text": "has", "correct": true},
-        {"text": "is", "correct": false},
-        {"text": "does", "correct": false}
+        {"text": "have", "correct": true},
+        {"text": "has", "correct": false},
+        {"text": "are", "correct": false}
       ],
-      "explanation": "Has got — есть (волосы описываются через has got)."
+      "explanation": "My cousins — они (they), поэтому have got."
     },
     {
       "type": "dropdown",
-      "text": "___ he got a moustache?",
+      "text": "___ your teacher got glasses?",
       "options": [
         {"text": "Has", "correct": true},
         {"text": "Is", "correct": false},
         {"text": "Does", "correct": false}
       ],
-      "explanation": "Вопрос с has got: Has he got...?"
+      "explanation": "Вопрос с has got: Has + подлежащее + got...?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: He ___n't got a beard. (у него нет бороды)",
-      "answer": "has",
-      "explanation": "Отрицание has got: hasn't got."
+      "text": "Впиши слово: I ___ got brown eyes.",
+      "answer": "have",
+      "explanation": "С I используется have got."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: She ___ tall and slim. (она высокая и стройная)",
-      "answer": "is",
-      "explanation": "To be + adjective: she is tall."
+      "text": "Впиши am, is или are: My parents ___ tall.",
+      "answer": "are",
+      "explanation": "My parents — они (they): are tall."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "She is tall and slim.", "right": "Она высокая и стройная."},
-        {"left": "He has got curly hair.", "right": "У него кудрявые волосы."},
-        {"left": "He hasn't got a beard.", "right": "У него нет бороды."},
-        {"left": "Has she got blue eyes?", "right": "У неё голубые глаза?"}
+        {"left": "Her hair is curly.", "right": "У неё кудрявые волосы."},
+        {"left": "We have got freckles.", "right": "У нас веснушки."},
+        {"left": "She isn't tall.", "right": "Она невысокая."},
+        {"left": "Have you got a beard, Dad?", "right": "Папа, у тебя есть борода?"}
       ],
-      "explanation": "Проверь по правилу to be + adjective и has got из урока."
+      "explanation": "Is/isn't + прилагательное — какой человек; have/has got — что у него есть."
     },
     {
       "type": "single",
-      "text": "Краткий положительный ответ на «Has he got a moustache?»",
+      "text": "Краткий отрицательный ответ на вопрос «Has your brother got curly hair?»",
       "options": [
-        {"text": "Yes, he has.", "correct": true},
-        {"text": "Yes, he is.", "correct": false},
-        {"text": "Yes, he does.", "correct": false}
+        {"text": "No, he hasn't.", "correct": true},
+        {"text": "No, he isn't.", "correct": false},
+        {"text": "No, he doesn't.", "correct": false}
       ],
-      "explanation": "Краткий ответ на вопрос с has got: Yes, he has."
+      "explanation": "Вопрос начинается с Has, поэтому и в ответе has: No, he hasn't."
     }
   ]
 }

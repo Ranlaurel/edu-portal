@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Last summer we ___ the seaside and stayed at a small hotel.",
+      "text": "Где остановилась семья на побережье?",
       "options": [
-        {"text": "visited", "correct": true},
-        {"text": "visit", "correct": false},
-        {"text": "visiting", "correct": false}
+        {"text": "at a small hotel", "correct": true},
+        {"text": "at a campsite", "correct": false},
+        {"text": "with their grandparents", "correct": false}
       ],
-      "explanation": "Last summer — маркер прошедшего времени, правильный глагол visit: visited."
+      "explanation": "В тексте: we visited the seaside and stayed at a small hotel."
     },
     {
       "type": "single",
-      "text": "We ___ in the sea and had fun every day — it was amazing!",
+      "text": "Почему в последний день было немного скучно?",
       "options": [
-        {"text": "swam", "correct": true},
-        {"text": "swim", "correct": false},
-        {"text": "swimmed", "correct": false}
+        {"text": "The weather wasn't good.", "correct": true},
+        {"text": "The hotel was closed.", "correct": false},
+        {"text": "They lost their camera.", "correct": false}
       ],
-      "explanation": "Swim — неправильный глагол, форма прошедшего времени: swam."
+      "explanation": "В тексте: The weather wasn't good on the last day, so it was a bit boring."
     },
     {
       "type": "multiple",
-      "text": "Что можно делать на каникулах? (выбери все верные варианты)",
+      "text": "Что рассказчик делал на каникулах, по тексту? (выбери все верные варианты)",
       "options": [
-        {"text": "take photos", "correct": true},
-        {"text": "swim in the sea", "correct": true},
-        {"text": "have fun", "correct": true},
-        {"text": "wear uniform", "correct": false},
-        {"text": "do homework every day", "correct": false}
+        {"text": "swam in the sea", "correct": true},
+        {"text": "took a lot of photos", "correct": true},
+        {"text": "went to the mountains", "correct": false},
+        {"text": "visited a museum", "correct": false}
       ],
-      "explanation": "Take photos, swim in the sea, have fun — типичные занятия на каникулах."
+      "explanation": "В тексте: We swam in the sea и I took a lot of photos. Про горы и музей ничего не сказано."
     },
     {
       "type": "dropdown",
-      "text": "I took a lot of ___, and now I have great memories.",
+      "text": "Yesterday we ___ a lot of ice cream.",
       "options": [
-        {"text": "photos", "correct": true},
-        {"text": "tickets", "correct": false},
-        {"text": "medals", "correct": false}
+        {"text": "ate", "correct": true},
+        {"text": "eat", "correct": false},
+        {"text": "eated", "correct": false}
       ],
-      "explanation": "Take photos — фотографировать, отсюда фотографии остаются на память."
+      "explanation": "Yesterday — Past Simple. Eat — неправильный глагол: eat → ate."
     },
     {
       "type": "dropdown",
-      "text": "The weather ___ good on the last day, so it was a bit boring.",
+      "text": "Our room ___ very big, but it was clean.",
       "options": [
         {"text": "wasn't", "correct": true},
         {"text": "didn't", "correct": false},
-        {"text": "isn't", "correct": false}
+        {"text": "weren't", "correct": false}
       ],
-      "explanation": "Отрицание с be в прошедшем времени: wasn't (was not)."
+      "explanation": "Our room — единственное число, отрицание с be в прошлом: wasn't."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: I ___ (take) a lot of photos.",
-      "answer": "took",
-      "explanation": "Take — неправильный глагол, форма прошедшего времени: took."
+      "text": "Впиши форму глагола: We ___ (buy) souvenirs for our friends.",
+      "answer": "bought",
+      "explanation": "Buy — неправильный глагол: buy → bought."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму: The holiday ___ (be) amazing.",
-      "answer": "was",
-      "explanation": "Be в прошедшем времени для единственного числа: was."
+      "text": "Впиши форму глагола be: The museums in that town ___ really interesting.",
+      "answer": "were",
+      "explanation": "The museums — множественное число, в прошедшем времени be → were."
     },
     {
       "type": "matching",
-      "text": "Соедини начало предложения с его завершением",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "We visited", "right": "the seaside last summer."},
-        {"left": "We swam", "right": "in the sea every day."},
-        {"left": "I took a lot of", "right": "photos."},
-        {"left": "The weather wasn't good, so it was a bit", "right": "boring."}
+        {"left": "memories", "right": "воспоминания"},
+        {"left": "seaside", "right": "побережье"},
+        {"left": "amazing", "right": "потрясающий"},
+        {"left": "have fun", "right": "веселиться"}
       ],
-      "explanation": "Части предложений соответствуют по смыслу рассказу о каникулах из урока."
+      "explanation": "Эти слова встречаются в рассказе о каникулах."
     },
     {
       "type": "single",
-      "text": "___ he enjoy his holiday?",
+      "text": "___ your parents enjoy the trip last week?",
       "options": [
         {"text": "Did", "correct": true},
-        {"text": "Was", "correct": false},
-        {"text": "Does", "correct": false}
+        {"text": "Were", "correct": false},
+        {"text": "Was", "correct": false}
       ],
-      "explanation": "Вопрос в Past Simple с обычным глаголом enjoy строится с did."
+      "explanation": "Вопрос с обычным глаголом (enjoy) в Past Simple начинается с Did."
     }
   ]
 }

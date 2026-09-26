@@ -2,65 +2,64 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «wardrobe»?",
+      "text": "Как переводится слово «lamp»?",
       "options": [
-        {"text": "шкаф", "correct": true},
-        {"text": "полка", "correct": false},
-        {"text": "диван", "correct": false}
+        {"text": "лампа", "correct": true},
+        {"text": "стол", "correct": false},
+        {"text": "окно", "correct": false}
       ],
-      "explanation": "«Wardrobe» — шкаф для одежды."
+      "explanation": "«Lamp» — лампа."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «furniture»?",
+      "text": "Как по-английски «сад»?",
       "options": [
-        {"text": "мебель", "correct": true},
-        {"text": "комната", "correct": false},
-        {"text": "лестница", "correct": false}
+        {"text": "garden", "correct": true},
+        {"text": "park", "correct": false},
+        {"text": "forest", "correct": false}
       ],
-      "explanation": "«Furniture» — мебель (общее слово)."
+      "explanation": "«Сад» — garden. Park — парк, forest — лес."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают комнаты в доме? (выбери все верные варианты)",
       "options": [
         {"text": "kitchen", "correct": true},
-        {"text": "sofa", "correct": false},
         {"text": "bedroom", "correct": true},
-        {"text": "shelf", "correct": false},
-        {"text": "bathroom", "correct": true}
+        {"text": "window", "correct": false},
+        {"text": "door", "correct": false}
       ],
-      "explanation": "Kitchen, bedroom, bathroom — комнаты. Sofa и shelf — мебель."
+      "explanation": "Kitchen (кухня) и bedroom (спальня) — комнаты. Window — окно, door — дверь."
     },
     {
       "type": "dropdown",
-      "text": "Машину держат в ___.",
+      "text": "I take a shower in the ___.",
+      "options": [
+        {"text": "bathroom", "correct": true},
+        {"text": "balcony", "correct": false},
+        {"text": "hall", "correct": false}
+      ],
+      "explanation": "Душ принимают в ванной — bathroom."
+    },
+    {
+      "type": "dropdown",
+      "text": "Dad parks his car in the ___.",
       "options": [
         {"text": "garage", "correct": true},
-        {"text": "garden", "correct": false},
-        {"text": "living room", "correct": false}
+        {"text": "cupboard", "correct": false},
+        {"text": "balcony", "correct": false}
       ],
-      "explanation": "Garage — гараж, где держат машину."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как по-английски «диван»?",
-      "options": [
-        {"text": "sofa", "correct": true},
-        {"text": "shelf", "correct": false},
-        {"text": "lamp", "correct": false}
-      ],
-      "explanation": "Sofa (или couch) — диван."
+      "explanation": "Машину ставят в гараж — garage."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: лестница",
+      "text": "Впиши английское слово: We go up the ___ to the second floor. (лестница)",
       "answer": "stairs",
-      "explanation": "«Лестница» переводится как stairs."
+      "explanation": "«Лестница» — stairs."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: квартира",
+      "text": "Впиши английское слово: We live in a ___ on the fifth floor. (квартира)",
       "answer": "flat",
       "accepted": ["flat", "apartment"],
       "explanation": "«Квартира» — flat (британский вариант) или apartment."
@@ -69,22 +68,22 @@
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "shelf", "right": "полка"},
-        {"left": "lamp", "right": "лампа"},
-        {"left": "garden", "right": "сад"},
-        {"left": "living room", "right": "гостиная"}
+        {"left": "house", "right": "дом"},
+        {"left": "wardrobe", "right": "шкаф"},
+        {"left": "furniture", "right": "мебель"},
+        {"left": "sofa", "right": "диван"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «room»?",
+      "text": "Как переводится слово «shelf»?",
       "options": [
-        {"text": "комната", "correct": true},
-        {"text": "дом", "correct": false},
-        {"text": "гараж", "correct": false}
+        {"text": "полка", "correct": true},
+        {"text": "стул", "correct": false},
+        {"text": "ковёр", "correct": false}
       ],
-      "explanation": "«Room» — комната."
+      "explanation": "«Shelf» — полка."
     }
   ]
 }

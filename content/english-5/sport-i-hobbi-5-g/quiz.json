@@ -2,78 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какой глагол используется с видами спорта с мячом (football, chess)?",
+      "text": "Какой глагол нужен: «They ___ tennis on Saturdays»?",
       "options": [
         {"text": "play", "correct": true},
         {"text": "go", "correct": false},
         {"text": "do", "correct": false}
       ],
-      "explanation": "С видами спорта, где играют с мячом или настольные игры, используется play."
+      "explanation": "Tennis — игра с мячом, используется play."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «моя сестра плавает два раза в неделю»?",
+      "text": "Как правильно сказать «Мой папа бегает по утрам»?",
       "options": [
-        {"text": "My sister goes swimming twice a week", "correct": true},
-        {"text": "My sister plays swimming twice a week", "correct": false},
-        {"text": "My sister do swimming twice a week", "correct": false}
+        {"text": "My dad goes running in the morning.", "correct": true},
+        {"text": "My dad plays running in the morning.", "correct": false},
+        {"text": "My dad do running in the morning.", "correct": false}
       ],
-      "explanation": "С хобби на -ing (swimming) используется go, а she требует -es: goes swimming."
+      "explanation": "С хобби на -ing (running) используется go; dad = he, поэтому goes."
     },
     {
       "type": "multiple",
       "text": "С какими словами используется глагол go? (выбери все верные варианты)",
       "options": [
-        {"text": "swimming", "correct": true},
-        {"text": "chess", "correct": false},
-        {"text": "running", "correct": true},
-        {"text": "football", "correct": false},
-        {"text": "dancing", "correct": true}
+        {"text": "skating", "correct": true},
+        {"text": "skiing", "correct": true},
+        {"text": "volleyball", "correct": false},
+        {"text": "hockey", "correct": false}
       ],
-      "explanation": "Swimming, running, dancing оканчиваются на -ing и используются с go. Chess и football используются с play."
+      "explanation": "Skating и skiing оканчиваются на -ing — go skating, go skiing. Volleyball и hockey — игры, с ними play."
     },
     {
       "type": "dropdown",
-      "text": "We ___ basketball on Fridays.",
+      "text": "The boys ___ hockey in winter.",
       "options": [
         {"text": "play", "correct": true},
         {"text": "go", "correct": false},
         {"text": "do", "correct": false}
       ],
-      "explanation": "Basketball — игра с мячом, используется play."
+      "explanation": "Hockey — игра, используется play."
     },
     {
       "type": "dropdown",
-      "text": "He ___ sport every day.",
+      "text": "She ___ exercises every morning.",
       "options": [
         {"text": "does", "correct": true},
         {"text": "do", "correct": false},
         {"text": "doing", "correct": false}
       ],
-      "explanation": "Для he в Present Simple глагол do становится does."
+      "explanation": "С exercises используется do; для she в Present Simple — does."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: My brother ___ (go) swimming every summer.",
+      "text": "Впиши глагол: My aunt ___ (go) dancing on Fridays.",
       "answer": "goes",
       "explanation": "Для he/she/it к глаголу go добавляется -es: goes."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: I ___ (play) chess with my friend.",
+      "text": "Впиши глагол (играть): Do you ___ badminton?",
       "answer": "play",
-      "explanation": "Для I глагол используется без окончания: play."
+      "explanation": "Badminton — игра, используется play; после Do — начальная форма."
     },
     {
       "type": "matching",
-      "text": "Соедини хобби с правильным глаголом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "football", "right": "play"},
-        {"left": "swimming", "right": "go"},
-        {"left": "chess", "right": "play"},
-        {"left": "dancing", "right": "go"}
+        {"left": "I play football.", "right": "Я играю в футбол."},
+        {"left": "We go swimming.", "right": "Мы ходим плавать."},
+        {"left": "He does sport.", "right": "Он занимается спортом."},
+        {"left": "She plays chess.", "right": "Она играет в шахматы."}
       ],
-      "explanation": "Игры с мячом и настольные игры — play, хобби на -ing (кроме игр) — go."
+      "explanation": "Игры — play, занятия на -ing — go, sport и exercises — do."
     }
   ]
 }

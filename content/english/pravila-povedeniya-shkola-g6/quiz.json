@@ -2,88 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «Ученики должны носить школьную форму»?",
+      "text": "Как сказать «Ученики должны приходить в школу вовремя»?",
       "options": [
-        {"text": "Students must wear school uniform.", "correct": true},
-        {"text": "Students mustn't wear school uniform.", "correct": false},
-        {"text": "Students wear must school uniform.", "correct": false}
+        {"text": "Students must come to school on time.", "correct": true},
+        {"text": "Students mustn't come to school on time.", "correct": false},
+        {"text": "Students must to come to school on time.", "correct": false}
       ],
-      "explanation": "Must выражает обязанность, формула: must + глагол без to."
+      "explanation": "Обязанность — must + глагол без to."
     },
     {
       "type": "single",
-      "text": "Как сказать «Нельзя бегать в коридоре»?",
+      "text": "Как сказать «Нельзя есть на уроке»?",
       "options": [
-        {"text": "You mustn't run in the corridor.", "correct": true},
-        {"text": "You must run in the corridor.", "correct": false},
-        {"text": "You don't run in the corridor.", "correct": false}
+        {"text": "You mustn't eat in class.", "correct": true},
+        {"text": "You must eat in class.", "correct": false},
+        {"text": "You mustn't to eat in class.", "correct": false}
       ],
-      "explanation": "Mustn't выражает запрет — то, что делать нельзя."
+      "explanation": "Запрет — mustn't + глагол без to."
     },
     {
       "type": "multiple",
-      "text": "Какие предложения выражают запрет (mustn't)? (выбери все верные варианты)",
+      "text": "Какие предложения выражают запрет? (выбери все верные варианты)",
       "options": [
-        {"text": "You mustn't shout in class.", "correct": true},
-        {"text": "You mustn't use your phone.", "correct": true},
-        {"text": "Students must respect teachers.", "correct": false},
-        {"text": "You mustn't be late.", "correct": true},
-        {"text": "We must wear uniform.", "correct": false}
+        {"text": "You mustn't write on the desks.", "correct": true},
+        {"text": "You mustn't fight.", "correct": true},
+        {"text": "You must bring your books.", "correct": false},
+        {"text": "You mustn't chew gum in class.", "correct": true},
+        {"text": "Students must say hello to the teachers.", "correct": false}
       ],
-      "explanation": "Mustn't-предложения выражают запрет. Must-предложения выражают обязанность."
+      "explanation": "Запрет выражает mustn't. Must — обязанность."
     },
     {
       "type": "dropdown",
-      "text": "You ___ be late for lessons.",
+      "text": "You ___ forget your homework — the teacher will be angry.",
       "options": [
         {"text": "mustn't", "correct": true},
         {"text": "must", "correct": false},
-        {"text": "don't", "correct": false}
+        {"text": "musts", "correct": false}
       ],
-      "explanation": "Опаздывать нельзя — используем запрет mustn't."
+      "explanation": "Забывать домашнее задание нельзя — это запрет: mustn't."
     },
     {
       "type": "dropdown",
-      "text": "We ___ respect our teachers.",
+      "text": "Students ___ switch off their phones before the test.",
       "options": [
         {"text": "must", "correct": true},
         {"text": "mustn't", "correct": false},
         {"text": "musts", "correct": false}
       ],
-      "explanation": "Уважать учителей — обязанность, используем must."
+      "explanation": "Выключить телефоны — обязанность: must. Must не меняет форму, musts не бывает."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши модальный глагол: You ___ (запрет) use your mobile phone in class.",
+      "text": "Впиши модальный глагол (запрет): You ___ talk during the test.",
       "answer": "mustn't",
-      "explanation": "Запрет пользоваться телефоном на уроке выражается через mustn't."
+      "accepted": ["mustn't", "must not", "mustn’t"],
+      "explanation": "Разговаривать на контрольной запрещено — mustn't (must not)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши модальный глагол: Students ___ (обязанность) listen to the teacher.",
+      "text": "Впиши модальный глагол (обязанность): We ___ clean the classroom on Fridays.",
       "answer": "must",
-      "explanation": "Обязанность слушать учителя выражается через must."
+      "explanation": "Обязанность — must."
     },
     {
       "type": "matching",
-      "text": "Соедини правило с его смыслом",
+      "text": "Соедини правило с переводом",
       "pairs": [
-        {"left": "You mustn't shout.", "right": "запрет"},
-        {"left": "Students must wear uniform.", "right": "обязанность"},
-        {"left": "You mustn't run.", "right": "запрет"},
-        {"left": "We must respect teachers.", "right": "обязанность"}
+        {"left": "You must do your homework.", "right": "Ты должен делать домашнее задание."},
+        {"left": "You mustn't play ball in the classroom.", "right": "Нельзя играть в мяч в классе."},
+        {"left": "We must help younger pupils.", "right": "Мы должны помогать младшим ученикам."},
+        {"left": "You mustn't draw on the walls.", "right": "Нельзя рисовать на стенах."}
       ],
-      "explanation": "Mustn't — запрет, must — обязанность."
+      "explanation": "Must — должен (обязанность), mustn't — нельзя (запрет)."
     },
     {
       "type": "single",
-      "text": "You ___ put up your hand before you answer.",
+      "text": "You ___ keep the library books clean.",
       "options": [
         {"text": "must", "correct": true},
         {"text": "mustn't", "correct": false},
         {"text": "musts", "correct": false}
       ],
-      "explanation": "Поднимать руку перед ответом — обязанность, используем must."
+      "explanation": "Держать книги чистыми — обязанность: must."
     }
   ]
 }

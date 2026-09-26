@@ -14,7 +14,7 @@
 | centre | центр |
 | suburb | пригород |
 | building | здание |
-| habitant / resident | житель |
+| inhabitant / resident | житель |
 | industry | промышленность |
 | beautiful | красивый |
 | large | большой |

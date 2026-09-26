@@ -2,23 +2,23 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «suitcase»?",
+      "text": "Как переводится слово «ticket»?",
       "options": [
-        {"text": "чемодан", "correct": true},
-        {"text": "билет", "correct": false},
-        {"text": "сувенир", "correct": false}
+        {"text": "билет", "correct": true},
+        {"text": "чемодан", "correct": false},
+        {"text": "поездка", "correct": false}
       ],
-      "explanation": "«Suitcase» — чемодан."
+      "explanation": "«Ticket» — билет."
     },
     {
       "type": "single",
-      "text": "Как по-английски «за границей»?",
+      "text": "Как по-английски «путешествовать»?",
       "options": [
-        {"text": "abroad", "correct": true},
+        {"text": "travel", "correct": true},
         {"text": "arrive", "correct": false},
-        {"text": "hotel", "correct": false}
+        {"text": "ticket", "correct": false}
       ],
-      "explanation": "«За границей» — abroad."
+      "explanation": "«Путешествовать» — travel."
     },
     {
       "type": "multiple",
@@ -26,43 +26,42 @@
       "options": [
         {"text": "plane", "correct": true},
         {"text": "train", "correct": true},
-        {"text": "beach", "correct": false},
         {"text": "hotel", "correct": false},
-        {"text": "camera", "correct": false}
+        {"text": "mountains", "correct": false}
       ],
-      "explanation": "Plane и train — виды транспорта. Beach, hotel, camera — не транспорт."
+      "explanation": "Plane (самолёт) и train (поезд) — транспорт. Hotel (отель) и mountains (горы) — нет."
     },
     {
       "type": "dropdown",
-      "text": "We stayed at a nice ___ (отель) near the beach.",
+      "text": "We had a picnic on the ___ (пляж).",
       "options": [
-        {"text": "hotel", "correct": true},
+        {"text": "beach", "correct": true},
         {"text": "ticket", "correct": false},
-        {"text": "trip", "correct": false}
+        {"text": "suitcase", "correct": false}
       ],
-      "explanation": "«Отель» — hotel."
+      "explanation": "«Пляж» — beach."
     },
     {
       "type": "dropdown",
-      "text": "Don't forget your ticket and ___ (фотоаппарат).",
+      "text": "I took a lot of photos with my new ___ (фотоаппарат).",
       "options": [
         {"text": "camera", "correct": true},
         {"text": "souvenir", "correct": false},
-        {"text": "suitcase", "correct": false}
+        {"text": "hotel", "correct": false}
       ],
       "explanation": "«Фотоаппарат» — camera."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сувенир",
-      "answer": "souvenir",
-      "explanation": "«Сувенир» переводится как souvenir."
+      "text": "Впиши перевод одним английским словом: чемодан",
+      "answer": "suitcase",
+      "explanation": "«Чемодан» — suitcase."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: горы",
-      "answer": "mountains",
-      "explanation": "«Горы» переводятся как mountains."
+      "text": "Впиши перевод одним английским словом: море",
+      "answer": "sea",
+      "explanation": "«Море» — sea."
     },
     {
       "type": "matching",
@@ -70,8 +69,8 @@
       "pairs": [
         {"left": "holidays", "right": "каникулы"},
         {"left": "trip", "right": "поездка"},
-        {"left": "sea", "right": "море"},
-        {"left": "beach", "right": "пляж"}
+        {"left": "abroad", "right": "за границей"},
+        {"left": "souvenir", "right": "сувенир"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     }

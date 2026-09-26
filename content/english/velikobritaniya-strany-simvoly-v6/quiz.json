@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится «the Union Jack»?",
+      "text": "Как переводится «Wales»?",
       "options": [
-        {"text": "флаг Великобритании", "correct": true},
-        {"text": "герб Лондона", "correct": false},
-        {"text": "замок королевы", "correct": false}
+        {"text": "Уэльс", "correct": true},
+        {"text": "Шотландия", "correct": false},
+        {"text": "Ирландия", "correct": false}
       ],
-      "explanation": "«The Union Jack» — флаг Великобритании."
+      "explanation": "«Wales» — Уэльс."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «kingdom»?",
+      "text": "Как по-английски «королевство»?",
       "options": [
-        {"text": "королевство", "correct": true},
-        {"text": "нация", "correct": false},
-        {"text": "столица", "correct": false}
+        {"text": "kingdom", "correct": true},
+        {"text": "king", "correct": false},
+        {"text": "queen", "correct": false}
       ],
-      "explanation": "«Kingdom» — королевство."
+      "explanation": "«Королевство» — kingdom. King — король, queen — королева."
     },
     {
       "type": "multiple",
-      "text": "Какие нации входят в состав Соединённого Королевства? (выбери все верные варианты)",
-      "options": [
-        {"text": "England", "correct": true},
-        {"text": "Scotland", "correct": true},
-        {"text": "Wales", "correct": true},
-        {"text": "France", "correct": false},
-        {"text": "Northern Ireland", "correct": true}
-      ],
-      "explanation": "The UK состоит из England, Scotland, Wales и Northern Ireland. France не входит в состав."
-    },
-    {
-      "type": "dropdown",
-      "text": "Знаменитая башня с часами в Лондоне — это ___.",
+      "text": "Что из этого — известные символы Лондона? (выбери все верные варианты)",
       "options": [
         {"text": "Big Ben", "correct": true},
-        {"text": "the Union Jack", "correct": false},
-        {"text": "a castle", "correct": false}
+        {"text": "red bus", "correct": true},
+        {"text": "the Kremlin", "correct": false},
+        {"text": "the Eiffel Tower", "correct": false}
       ],
-      "explanation": "«Big Ben» — знаменитая башня с часами."
+      "explanation": "Биг-Бен и красный автобус — символы Лондона. Кремль — в Москве, Эйфелева башня — в Париже."
     },
     {
       "type": "dropdown",
-      "text": "Как переводится слово «symbol»? ___",
+      "text": "London is the ___ of the UK.",
       "options": [
-        {"text": "символ", "correct": true},
-        {"text": "нация", "correct": false},
-        {"text": "флаг", "correct": false}
+        {"text": "capital", "correct": true},
+        {"text": "castle", "correct": false},
+        {"text": "nation", "correct": false}
       ],
-      "explanation": "«Symbol» — символ."
+      "explanation": "Лондон — столица: capital."
+    },
+    {
+      "type": "dropdown",
+      "text": "The Union Jack is the ___ of the UK.",
+      "options": [
+        {"text": "flag", "correct": true},
+        {"text": "capital", "correct": false},
+        {"text": "kingdom", "correct": false}
+      ],
+      "explanation": "The Union Jack — флаг (flag) Соединённого Королевства."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: столица",
-      "answer": "capital",
-      "explanation": "«Столица» переводится как capital."
+      "text": "Впиши английское слово: Edinburgh is the capital of ___. (Шотландия)",
+      "answer": "Scotland",
+      "explanation": "«Шотландия» — Scotland."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: нация, народ",
-      "answer": "nation",
-      "explanation": "«Нация» переводится как nation."
+      "text": "Впиши английское слово: The red rose is a ___ of England. (символ)",
+      "answer": "symbol",
+      "explanation": "«Символ» — symbol."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "flag", "right": "флаг"},
         {"left": "castle", "right": "замок"},
+        {"left": "nation", "right": "нация, народ"},
         {"left": "Great Britain", "right": "Великобритания"},
-        {"left": "Scotland", "right": "Шотландия"}
+        {"left": "Northern Ireland", "right": "Северная Ирландия"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Сколько наций входит в Соединённое Королевство?",
+      "text": "Как переводится «the United Kingdom»?",
       "options": [
-        {"text": "четыре", "correct": true},
-        {"text": "три", "correct": false},
-        {"text": "пять", "correct": false}
+        {"text": "Соединённое Королевство", "correct": true},
+        {"text": "Соединённые Штаты", "correct": false},
+        {"text": "Европейский союз", "correct": false}
       ],
-      "explanation": "The UK состоит из четырёх наций: England, Scotland, Wales, Northern Ireland."
+      "explanation": "The United Kingdom (the UK) — Соединённое Королевство."
     }
   ]
 }

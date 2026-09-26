@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какая форма верна: «She ___ (get up) at eight»?",
+      "text": "Какая форма верна: «Tom ___ (have) breakfast at seven»?",
       "options": [
-        {"text": "gets up", "correct": true},
-        {"text": "get up", "correct": false},
-        {"text": "getting up", "correct": false}
+        {"text": "has", "correct": true},
+        {"text": "have", "correct": false},
+        {"text": "having", "correct": false}
       ],
-      "explanation": "Для she в Present Simple к глаголу добавляется -s: gets up."
+      "explanation": "Tom = he, а для he/she/it have превращается в has."
     },
     {
       "type": "single",
-      "text": "Как правильно образовать отрицание: «I have breakfast at six»?",
+      "text": "Как правильно образовать отрицание: «We go to school on Saturday»?",
       "options": [
-        {"text": "I don't have breakfast at six.", "correct": true},
-        {"text": "I doesn't have breakfast at six.", "correct": false},
-        {"text": "I not have breakfast at six.", "correct": false}
+        {"text": "We don't go to school on Saturday.", "correct": true},
+        {"text": "We doesn't go to school on Saturday.", "correct": false},
+        {"text": "We not go to school on Saturday.", "correct": false}
       ],
-      "explanation": "Для I отрицание строится через don't + глагол без -s."
+      "explanation": "Для we отрицание строится через don't + глагол."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях глагол стоит в правильной форме Present Simple? (выбери все верные варианты)",
       "options": [
-        {"text": "He goes to school by bus.", "correct": true},
-        {"text": "She get up at eight.", "correct": false},
-        {"text": "I get up at seven every day.", "correct": true},
-        {"text": "He go to school.", "correct": false}
+        {"text": "My sister watches TV in the evening.", "correct": true},
+        {"text": "She play tennis.", "correct": false},
+        {"text": "They walk to school.", "correct": true},
+        {"text": "He brush his teeth.", "correct": false}
       ],
-      "explanation": "He/she требуют окончания -s/-es у глагола, а I — глагол без окончания."
+      "explanation": "С he/she глагол получает -s/-es (plays, brushes, watches), с they — без окончания."
     },
     {
       "type": "dropdown",
-      "text": "___ she get up early? — Yes, she does.",
+      "text": "___ your dad drive to work? — Yes, he does.",
       "options": [
         {"text": "Does", "correct": true},
         {"text": "Do", "correct": false},
         {"text": "Is", "correct": false}
       ],
-      "explanation": "Вопрос для she строится через Does + подлежащее + глагол."
+      "explanation": "Вопрос для he (your dad) строится через Does + подлежащее + глагол."
     },
     {
       "type": "dropdown",
-      "text": "He ___ (go) to school by bus.",
+      "text": "Kate ___ (do) her homework after dinner.",
       "options": [
-        {"text": "goes", "correct": true},
-        {"text": "go", "correct": false},
-        {"text": "going", "correct": false}
+        {"text": "does", "correct": true},
+        {"text": "do", "correct": false},
+        {"text": "doing", "correct": false}
       ],
-      "explanation": "Go оканчивается на -o, поэтому в 3-м лице добавляется -es: goes."
+      "explanation": "Do оканчивается на -o, поэтому в 3-м лице добавляется -es: does."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: My brother ___ (get up) at seven.",
-      "answer": "gets up",
-      "explanation": "Brother — это he, поэтому к глаголу добавляется -s: gets up."
+      "text": "Впиши правильную форму: My cat ___ (sleep) all day.",
+      "answer": "sleeps",
+      "explanation": "My cat = it, поэтому к глаголу добавляется -s: sleeps."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши отрицательную форму: He ___ (not/go) to school on Sunday.",
-      "answer": "doesn't go",
-      "accepted": ["doesn't go", "does not go"],
-      "explanation": "Отрицание для he: doesn't + глагол без -s."
+      "text": "Впиши отрицательную форму: She ___ (not/drink) coffee.",
+      "answer": "doesn't drink",
+      "accepted": ["doesn't drink", "doesn’t drink", "does not drink"],
+      "explanation": "Отрицание для she: doesn't + глагол без -s."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I get up at seven.", "right": "Я встаю в семь."},
-        {"left": "She gets up at eight.", "right": "Она встаёт в восемь."},
-        {"left": "Does she get up early?", "right": "Она встаёт рано?"},
-        {"left": "He doesn't go to school on Sunday.", "right": "Он не ходит в школу в воскресенье."}
+        {"left": "We have lunch at one.", "right": "Мы обедаем в час."},
+        {"left": "He reads books every evening.", "right": "Он читает книги каждый вечер."},
+        {"left": "Do you like milk?", "right": "Ты любишь молоко?"},
+        {"left": "They don't live in Moscow.", "right": "Они не живут в Москве."}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Present Simple — привычки и факты; вопрос через do/does, отрицание через don't/doesn't."
     },
     {
       "type": "single",
-      "text": "Как задать вопрос к предложению «She gets up at nine»?",
+      "text": "Как задать вопрос к предложению «He plays the guitar»?",
       "options": [
-        {"text": "Does she get up at nine?", "correct": true},
-        {"text": "Does she gets up at nine?", "correct": false},
-        {"text": "Is she get up at nine?", "correct": false}
+        {"text": "Does he play the guitar?", "correct": true},
+        {"text": "Does he plays the guitar?", "correct": false},
+        {"text": "Is he play the guitar?", "correct": false}
       ],
-      "explanation": "В вопросе Does забирает окончание -s, глагол остаётся без него: get up."
+      "explanation": "В вопросе Does забирает окончание -s, глагол остаётся без него: play."
     }
   ]
 }

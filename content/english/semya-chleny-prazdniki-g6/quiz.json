@@ -2,88 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно сказать «день рождения моей сестры»?",
+      "text": "Как правильно сказать «велосипед моего брата»?",
       "options": [
-        {"text": "my sister's birthday", "correct": true},
-        {"text": "my sister birthday", "correct": false},
-        {"text": "the birthday my sister", "correct": false}
+        {"text": "my brother's bike", "correct": true},
+        {"text": "my brother bike", "correct": false},
+        {"text": "the bike my brother", "correct": false}
       ],
-      "explanation": "Притяжательный падеж образуется через 's: sister's birthday."
+      "explanation": "Принадлежность: brother + 's, а потом предмет — my brother's bike."
     },
     {
       "type": "single",
-      "text": "We ___ my birthday every year in July.",
+      "text": "My uncle ___ in Kazan.",
       "options": [
-        {"text": "celebrate", "correct": true},
-        {"text": "celebrates", "correct": false},
-        {"text": "celebrating", "correct": false}
+        {"text": "lives", "correct": true},
+        {"text": "live", "correct": false},
+        {"text": "living", "correct": false}
       ],
-      "explanation": "We — множественное число, окончание -s к глаголу не добавляется: we celebrate."
+      "explanation": "Факт — Present Simple. My uncle — он (he), поэтому lives."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях глагол стоит в правильной форме Present Simple? (выбери все верные варианты)",
       "options": [
-        {"text": "My grandmother cooks dinner.", "correct": true},
-        {"text": "My brother don't like parties.", "correct": false},
-        {"text": "My brother doesn't like parties.", "correct": true},
-        {"text": "We celebrates birthdays.", "correct": false}
+        {"text": "My aunt works in a hospital.", "correct": true},
+        {"text": "My cousins doesn't live here.", "correct": false},
+        {"text": "Our dog doesn't eat fish.", "correct": true},
+        {"text": "Grandpa watch TV every evening.", "correct": false}
       ],
-      "explanation": "Для he/she/it добавляется -s (cooks, doesn't), для we — без -s (celebrate)."
+      "explanation": "С they (my cousins) нужно don't live, с he (Grandpa) — watches."
     },
     {
       "type": "dropdown",
-      "text": "My grandmother ___ (cook) a big dinner every holiday.",
+      "text": "My dad ___ (wash) the car on Sundays.",
       "options": [
-        {"text": "cooks", "correct": true},
-        {"text": "cook", "correct": false},
-        {"text": "cooking", "correct": false}
+        {"text": "washes", "correct": true},
+        {"text": "wash", "correct": false},
+        {"text": "washing", "correct": false}
       ],
-      "explanation": "В Present Simple для he/she/it к глаголу добавляется -s: cooks."
+      "explanation": "My dad — он (he); после sh добавляем -es: washes."
     },
     {
       "type": "dropdown",
-      "text": "This is my parent___ flat (квартира моих родителей, множественное число).",
+      "text": "These are my cousin___ toys (игрушки моего двоюродного брата — брат один).",
       "options": [
-        {"text": "s'", "correct": true},
-        {"text": "'s", "correct": false},
+        {"text": "'s", "correct": true},
+        {"text": "s'", "correct": false},
         {"text": "s", "correct": false}
       ],
-      "explanation": "Если существительное во множественном числе уже оканчивается на -s, добавляем только апостроф: parents'."
+      "explanation": "Cousin — единственное число, поэтому добавляем 's: my cousin's toys."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму глагола: My brother ___ (not like) big parties.",
-      "answer": "doesn't like",
-      "accepted": ["doesn't like", "does not like"],
-      "explanation": "Отрицание в Present Simple для he/she: does not / doesn't + глагол без -s."
+      "text": "Впиши правильную форму глагола: My sister ___ (not eat) meat.",
+      "answer": "doesn't eat",
+      "accepted": ["doesn't eat", "does not eat", "doesn’t eat"],
+      "explanation": "Отрицание с she: doesn't + глагол без -s."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши окончание существительного: This is my grandfather___ house. (дом дедушки)",
+      "text": "Впиши окончание: Where is Kate___ phone? (телефон Кейт)",
       "answer": "'s",
-      "explanation": "Притяжательный падеж единственного числа: grandfather's."
+      "accepted": ["'s", "’s"],
+      "explanation": "Принадлежность одному человеку: Kate's phone."
     },
     {
       "type": "matching",
-      "text": "Соедини предложение на английском с переводом",
+      "text": "Соедини английскую фразу с переводом",
       "pairs": [
-        {"left": "my sister's birthday", "right": "день рождения моей сестры"},
-        {"left": "my parents' flat", "right": "квартира моих родителей"},
-        {"left": "she cooks dinner", "right": "она готовит ужин"},
-        {"left": "we celebrate birthdays", "right": "мы празднуем дни рождения"}
+        {"left": "my aunt's car", "right": "машина моей тёти"},
+        {"left": "the boys' room", "right": "комната мальчиков"},
+        {"left": "Dad makes pancakes.", "right": "Папа печёт блины."},
+        {"left": "We visit Granny on Sundays.", "right": "По воскресеньям мы навещаем бабушку."}
       ],
-      "explanation": "Проверь по правилам притяжательного падежа и Present Simple из урока."
+      "explanation": "'s — принадлежность одному, s' — нескольким (boys). Present Simple — то, что бывает регулярно."
     },
     {
       "type": "single",
-      "text": "Как правильно: «дом моего дедушки»?",
+      "text": "Как правильно сказать «подарки наших гостей» (гостей много)?",
       "options": [
-        {"text": "my grandfather's house", "correct": true},
-        {"text": "my grandfather house", "correct": false},
-        {"text": "my grandfathers' house", "correct": false}
+        {"text": "our guests' presents", "correct": true},
+        {"text": "our guests presents", "correct": false},
+        {"text": "our guest presents", "correct": false}
       ],
-      "explanation": "Единственное число + 's: grandfather's house."
+      "explanation": "Guests — мн. число уже на -s, поэтому добавляем только апостроф: guests'."
     }
   ]
 }

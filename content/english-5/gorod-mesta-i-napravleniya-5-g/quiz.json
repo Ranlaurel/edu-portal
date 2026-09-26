@@ -2,74 +2,74 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какой предлог значит «между»?",
+      "text": "Как сказать «Кафе рядом с вокзалом»?",
       "options": [
-        {"text": "between", "correct": true},
-        {"text": "near", "correct": false},
-        {"text": "opposite", "correct": false}
+        {"text": "The cafe is near the station.", "correct": true},
+        {"text": "The cafe is near of the station.", "correct": false},
+        {"text": "The cafe is between the station.", "correct": false}
       ],
-      "explanation": "«Between» — между."
+      "explanation": "«Рядом» — near, предлог ставится сразу перед местом, без of. Between (между) требует двух объектов."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «парк напротив банка»?",
+      "text": "Как правильно сказать «Школа напротив парка»?",
       "options": [
-        {"text": "The park is opposite the bank", "correct": true},
-        {"text": "The park is between the bank", "correct": false},
-        {"text": "The park is near of the bank", "correct": false}
+        {"text": "The school is opposite the park.", "correct": true},
+        {"text": "The school is opposite of the park.", "correct": false},
+        {"text": "The school is between the park.", "correct": false}
       ],
-      "explanation": "«Напротив» переводится предлогом opposite, который ставится сразу перед объектом."
+      "explanation": "«Напротив» — opposite, ставится сразу перед объектом, без of."
     },
     {
       "type": "multiple",
-      "text": "Какие слова являются предлогами места? (выбери все верные варианты)",
+      "text": "В каких предложениях предлог места использован верно? (выбери все верные варианты)",
       "options": [
-        {"text": "near", "correct": true},
-        {"text": "museum", "correct": false},
-        {"text": "between", "correct": true},
-        {"text": "station", "correct": false},
-        {"text": "opposite", "correct": true}
+        {"text": "The shop is between the bank and the cafe.", "correct": true},
+        {"text": "The cinema is on Park Street.", "correct": true},
+        {"text": "The zoo is between the river.", "correct": false},
+        {"text": "The children are in the park.", "correct": true},
+        {"text": "The bus stop is next the school.", "correct": false}
       ],
-      "explanation": "Near, between, opposite — предлоги места. Museum и station — существительные."
+      "explanation": "Between нужен для двух объектов (между банком и кафе), на улице — on, внутри парка — in. «Между рекой» — ошибка (объект один), а next to пишется с to."
     },
     {
       "type": "dropdown",
-      "text": "The hospital is ___ the school (прямо рядом).",
+      "text": "The hotel is ___ the museum (прямо рядом).",
       "options": [
         {"text": "next to", "correct": true},
         {"text": "between", "correct": false},
-        {"text": "opposite", "correct": false}
+        {"text": "on", "correct": false}
       ],
       "explanation": "«Прямо рядом, около» — next to."
     },
     {
       "type": "dropdown",
-      "text": "The library is ___ the park (внутри).",
+      "text": "There are many trees ___ the park (в парке).",
       "options": [
         {"text": "in", "correct": true},
         {"text": "on", "correct": false},
-        {"text": "next to", "correct": false}
+        {"text": "between", "correct": false}
       ],
-      "explanation": "«Внутри» переводится предлогом in."
+      "explanation": "«Внутри, в» — in: in the park."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши предлог: The bridge is ___ the park and the square (между).",
+      "text": "Впиши предлог: The post office is ___ the bank and the school (между).",
       "answer": "between",
-      "explanation": "«Между» — between."
+      "explanation": "«Между» двумя объектами — between."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши предлог: The bank is ___ Green Street (на улице).",
+      "text": "Впиши предлог: Our school is ___ Sadovaya Street (на улице).",
       "answer": "on",
-      "explanation": "На поверхности/улице используется предлог on."
+      "explanation": "С названием улицы используем on: on Sadovaya Street."
     },
     {
       "type": "matching",
       "text": "Соедини предлог с переводом",
       "pairs": [
         {"left": "in", "right": "в, внутри"},
-        {"left": "near", "right": "рядом"},
+        {"left": "on", "right": "на"},
         {"left": "opposite", "right": "напротив"},
         {"left": "between", "right": "между"}
       ],

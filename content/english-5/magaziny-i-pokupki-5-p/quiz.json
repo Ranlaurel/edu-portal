@@ -12,45 +12,43 @@
     },
     {
       "type": "single",
-      "text": "Как правильно ответить продавцу, подавая товар?",
+      "text": "Что говорит продавец, подавая товар покупателю?",
       "options": [
-        {"text": "Here you are", "correct": true},
-        {"text": "There you go here", "correct": false},
-        {"text": "Take here", "correct": false}
+        {"text": "Here you are.", "correct": true},
+        {"text": "There you go here.", "correct": false},
+        {"text": "Take here.", "correct": false}
       ],
-      "explanation": "«Here you are» — вежливая фраза, когда что-то подают."
+      "explanation": "«Here you are» — вот, пожалуйста: вежливая фраза, когда что-то подают."
     },
     {
       "type": "multiple",
       "text": "Какие фразы уместны в разговоре с продавцом? (выбери все верные варианты)",
       "options": [
-        {"text": "How much is it?", "correct": true},
-        {"text": "Turn left", "correct": false},
-        {"text": "Here you are", "correct": true},
-        {"text": "Go straight", "correct": false},
-        {"text": "Do you have any apples?", "correct": true}
+        {"text": "Do you have any pencils?", "correct": true},
+        {"text": "Turn left.", "correct": false},
+        {"text": "Can I have a bag, please?", "correct": true},
+        {"text": "Go straight.", "correct": false}
       ],
-      "explanation": "How much is it?, Here you are, Do you have any apples? — фразы для магазина."
+      "explanation": "Вопрос о товаре и просьба дать пакет — фразы для магазина. Turn left и go straight — объяснение дороги."
     },
     {
       "type": "dropdown",
-      "text": "Do you have ___ apples?",
+      "text": "Yes, we have ___ fresh bread.",
       "options": [
-        {"text": "any", "correct": true},
-        {"text": "some", "correct": false},
-        {"text": "no", "correct": false}
+        {"text": "some", "correct": true},
+        {"text": "any", "correct": false}
       ],
-      "explanation": "В вопросе покупателя используется any."
+      "explanation": "Это утвердительное предложение, поэтому some."
     },
     {
       "type": "dropdown",
-      "text": "The shop assistant is our ___ (продавец).",
+      "text": "The ___ put the apples in a bag. (продавец)",
       "options": [
         {"text": "shop assistant", "correct": true},
         {"text": "customer", "correct": false},
         {"text": "receipt", "correct": false}
       ],
-      "explanation": "«Продавец» — shop assistant."
+      "explanation": "«Продавец» — shop assistant, а customer — покупатель."
     },
     {
       "type": "fill_blank",
@@ -60,20 +58,20 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: The customer asks: How much ___ it? (глагол)",
-      "answer": "is",
-      "explanation": "Формула вопроса: How much is it?"
+      "text": "Впиши слово: How much ___ these shoes? (спрашиваем цену нескольких вещей)",
+      "answer": "are",
+      "explanation": "Shoes — множественное число, поэтому How much are...? (для одной вещи — How much is it?)."
     },
     {
       "type": "matching",
       "text": "Соедини фразу с переводом",
       "pairs": [
-        {"left": "how much is it?", "right": "сколько это стоит?"},
-        {"left": "here you are", "right": "вот, пожалуйста"},
-        {"left": "receipt", "right": "чек"},
-        {"left": "shop assistant", "right": "продавец"}
+        {"left": "Do you have any lemons?", "right": "У вас есть лимоны?"},
+        {"left": "It's two pounds.", "right": "Это стоит два фунта."},
+        {"left": "Thank you, goodbye!", "right": "Спасибо, до свидания!"},
+        {"left": "It's very cheap.", "right": "Это очень дёшево."}
       ],
-      "explanation": "Проверь по таблице фраз из урока."
+      "explanation": "Any — в вопросе покупателя; цену называем через It's...; cheap — дешёвый."
     }
   ]
 }

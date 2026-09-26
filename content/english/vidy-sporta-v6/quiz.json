@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «athlete»?",
+      "text": "Как переводится слово «training»?",
       "options": [
-        {"text": "спортсмен", "correct": true},
-        {"text": "тренировка", "correct": false},
-        {"text": "команда", "correct": false}
+        {"text": "тренировка", "correct": true},
+        {"text": "соревнование", "correct": false},
+        {"text": "тренер", "correct": false}
       ],
-      "explanation": "Athlete — спортсмен."
+      "explanation": "«Training» — тренировка."
     },
     {
       "type": "single",
-      "text": "Как будет «упражнение» на английском?",
+      "text": "Как по-английски «мяч»?",
       "options": [
-        {"text": "exercise", "correct": true},
-        {"text": "training", "correct": false},
-        {"text": "sport", "correct": false}
+        {"text": "ball", "correct": true},
+        {"text": "bag", "correct": false},
+        {"text": "bell", "correct": false}
       ],
-      "explanation": "Exercise — упражнение."
+      "explanation": "«Мяч» — ball. Bag — сумка, bell — звонок."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают виды спорта? (выбери все верные варианты)",
+      "text": "Какие виды спорта — командные игры с мячом? (выбери все верные варианты)",
       "options": [
-        {"text": "basketball", "correct": true},
-        {"text": "athlete", "correct": false},
-        {"text": "chess", "correct": true},
-        {"text": "team", "correct": false},
-        {"text": "swimming", "correct": true}
+        {"text": "football", "correct": true},
+        {"text": "volleyball", "correct": true},
+        {"text": "chess", "correct": false},
+        {"text": "skiing", "correct": false}
       ],
-      "explanation": "Basketball, chess, swimming — виды спорта. Athlete (спортсмен) и team (команда) — не виды спорта."
+      "explanation": "Футбол и волейбол — командные игры с мячом. В шахматах и на лыжах мяча нет."
     },
     {
       "type": "dropdown",
-      "text": "My favourite ___ is volleyball.",
+      "text": "A good ___ trains every day.",
       "options": [
-        {"text": "sport", "correct": true},
-        {"text": "team", "correct": false},
-        {"text": "ball", "correct": false}
-      ],
-      "explanation": "Sport — спорт, подходит по смыслу «мой любимый вид спорта»."
-    },
-    {
-      "type": "dropdown",
-      "text": "She trains with her ___ every week.",
-      "options": [
-        {"text": "team", "correct": true},
+        {"text": "athlete", "correct": true},
         {"text": "ball", "correct": false},
-        {"text": "exercise", "correct": false}
+        {"text": "chess", "correct": false}
       ],
-      "explanation": "Team — команда, с которой тренируются."
+      "explanation": "Тренируется спортсмен — athlete."
+    },
+    {
+      "type": "dropdown",
+      "text": "You need a racket to play ___.",
+      "options": [
+        {"text": "tennis", "correct": true},
+        {"text": "chess", "correct": false},
+        {"text": "swimming", "correct": false}
+      ],
+      "explanation": "Ракетка нужна для тенниса — tennis."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: бег",
-      "answer": "running",
-      "explanation": "«Бег» переводится как running."
+      "text": "Впиши английское слово: ___ is my favourite sport — I love the water. (плавание)",
+      "answer": "swimming",
+      "explanation": "«Плавание» — swimming."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: лыжи",
-      "answer": "skiing",
-      "explanation": "«Лыжи» переводится как skiing."
+      "text": "Впиши английское слово: We do ten ___ every morning. (упражнений)",
+      "answer": "exercises",
+      "accepted": ["exercises", "exercise"],
+      "explanation": "«Упражнение» — exercise, во мн. числе exercises."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "gymnastics", "right": "гимнастика"},
-        {"left": "training", "right": "тренировка"},
-        {"left": "ball", "right": "мяч"},
-        {"left": "tennis", "right": "теннис"}
+        {"left": "running", "right": "бег"},
+        {"left": "basketball", "right": "баскетбол"},
+        {"left": "team", "right": "команда"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "I like playing chess and doing ___.",
+      "text": "Как перевести: «Chess is a quiet sport»?",
       "options": [
-        {"text": "gymnastics", "correct": true},
-        {"text": "ball", "correct": false},
-        {"text": "sport", "correct": false}
+        {"text": "Шахматы — спокойный вид спорта.", "correct": true},
+        {"text": "Теннис — спокойный вид спорта.", "correct": false},
+        {"text": "Шахматы — моя любимая игра.", "correct": false}
       ],
-      "explanation": "Gymnastics (гимнастика) — вид спорта, подходит по смыслу."
+      "explanation": "Chess — шахматы, sport — спорт, вид спорта."
     }
   ]
 }

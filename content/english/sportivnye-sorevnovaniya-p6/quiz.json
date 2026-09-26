@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Our team was ___ than the opponent's team, and we won.",
+      "text": "Какой была команда рассказчика по сравнению с командой соперника?",
       "options": [
-        {"text": "stronger", "correct": true},
-        {"text": "strongest", "correct": false},
-        {"text": "strong", "correct": false}
+        {"text": "сильнее", "correct": true},
+        {"text": "слабее", "correct": false},
+        {"text": "такой же сильной", "correct": false}
       ],
-      "explanation": "Сравнение двух команд через than требует сравнительной степени: stronger."
+      "explanation": "В репортаже: Our team was stronger than the opponent's team."
     },
     {
       "type": "single",
-      "text": "The champion broke the world record and was ___ runner at the Games.",
+      "text": "Сколько золотых медалей у знаменитой спортсменки?",
       "options": [
-        {"text": "the fastest", "correct": true},
-        {"text": "faster", "correct": false},
-        {"text": "fast", "correct": false}
+        {"text": "three", "correct": true},
+        {"text": "two", "correct": false},
+        {"text": "five", "correct": false}
       ],
-      "explanation": "Выделение одного бегуна среди всех — превосходная степень: the fastest."
+      "explanation": "В репортаже: she has three gold medals."
     },
     {
       "type": "multiple",
-      "text": "Что из этого может произойти на соревновании? (выбери все верные варианты)",
+      "text": "Что верно по репортажу? (выбери все верные варианты)",
       "options": [
-        {"text": "win a gold medal", "correct": true},
-        {"text": "break a record", "correct": true},
-        {"text": "lose the competition", "correct": true},
-        {"text": "cook dinner", "correct": false},
-        {"text": "do homework", "correct": false}
+        {"text": "Чемпион побил мировой рекорд.", "correct": true},
+        {"text": "В проигранном соревновании итоговый счёт был близким.", "correct": true},
+        {"text": "Команда выиграла все соревнования.", "correct": false},
+        {"text": "Чемпион был самым медленным бегуном.", "correct": false}
       ],
-      "explanation": "Win a gold medal, break a record, lose the competition относятся к спортивным соревнованиям."
+      "explanation": "The champion broke the world record; Our team lost the competition, but the final score was very close. Чемпион был самым быстрым (the fastest)."
     },
     {
       "type": "dropdown",
-      "text": "She has three gold medals — she is ___ athlete in our country. (famous)",
+      "text": "For me, basketball is ___ than chess. (interesting)",
       "options": [
-        {"text": "the most famous", "correct": true},
-        {"text": "more famous", "correct": false},
-        {"text": "famousest", "correct": false}
+        {"text": "more interesting", "correct": true},
+        {"text": "interestinger", "correct": false},
+        {"text": "most interesting", "correct": false}
       ],
-      "explanation": "Famous — длинное прилагательное, превосходная степень: the most famous."
+      "explanation": "Interesting — длинное прилагательное, сравниваем два вида спорта: more interesting than."
     },
     {
       "type": "dropdown",
-      "text": "Our team lost the competition, but the final ___ was very close.",
+      "text": "This is the ___ result in my life! (good)",
       "options": [
-        {"text": "score", "correct": true},
-        {"text": "medal", "correct": false},
-        {"text": "record", "correct": false}
+        {"text": "best", "correct": true},
+        {"text": "better", "correct": false},
+        {"text": "goodest", "correct": false}
       ],
-      "explanation": "Score — счёт в игре, именно он может быть «близким»."
+      "explanation": "Исключение: good → better → the best."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную степень: The opponent was ___ (strong) than us.",
-      "answer": "stronger",
-      "explanation": "Strong — короткое прилагательное, сравнительная степень: stronger."
+      "text": "Впиши сравнительную степень: My brother is ___ (young) than me.",
+      "answer": "younger",
+      "explanation": "Young — короткое прилагательное: young + -er."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень: She is ___ (fast) athlete in the team.",
-      "answer": "the fastest",
-      "explanation": "Fast — короткое прилагательное, превосходная степень: the fastest."
+      "text": "Впиши слово: Who is our ___ (соперник) in the final?",
+      "answer": "opponent",
+      "explanation": "«Соперник» — opponent."
     },
     {
       "type": "matching",
-      "text": "Соедини начало предложения с его завершением",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "Our team was stronger than", "right": "the opponent's team."},
-        {"left": "The champion broke", "right": "the world record."},
-        {"left": "She has three", "right": "gold medals."},
-        {"left": "The final score was", "right": "very close."}
+        {"left": "championship", "right": "чемпионат"},
+        {"left": "Olympic Games", "right": "Олимпийские игры"},
+        {"left": "win", "right": "побеждать"},
+        {"left": "lose", "right": "проигрывать"}
       ],
-      "explanation": "Части предложений соответствуют по смыслу репортажу о соревнованиях из урока."
+      "explanation": "Эти слова встречаются в репортаже с соревнований."
     },
     {
       "type": "single",
-      "text": "He is ___ player in the team. (good)",
+      "text": "He is the ___ swimmer in our club. (bad)",
       "options": [
-        {"text": "the best", "correct": true},
-        {"text": "the goodest", "correct": false},
-        {"text": "better", "correct": false}
+        {"text": "worst", "correct": true},
+        {"text": "worse", "correct": false},
+        {"text": "baddest", "correct": false}
       ],
-      "explanation": "Good — исключение, превосходная степень: the best."
+      "explanation": "Исключение: bad → worse → the worst."
     }
   ]
 }

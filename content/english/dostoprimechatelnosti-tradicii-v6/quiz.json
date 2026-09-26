@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «custom»?",
+      "text": "Как переводится слово «bridge»?",
       "options": [
-        {"text": "обычай", "correct": true},
-        {"text": "традиция вообще", "correct": false},
-        {"text": "праздник", "correct": false}
+        {"text": "мост", "correct": true},
+        {"text": "дорога", "correct": false},
+        {"text": "берег", "correct": false}
       ],
-      "explanation": "«Custom» — обычай (конкретное действие/правило)."
+      "explanation": "«Bridge» — мост."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «landmark»?",
+      "text": "Как по-английски «знаменитый»?",
       "options": [
-        {"text": "достопримечательность", "correct": true},
-        {"text": "статуя", "correct": false},
-        {"text": "площадь", "correct": false}
+        {"text": "famous", "correct": true},
+        {"text": "beautiful", "correct": false},
+        {"text": "ancient", "correct": false}
       ],
-      "explanation": "«Landmark» — достопримечательность."
+      "explanation": "«Знаменитый» — famous. Beautiful — красивый, ancient — древний."
     },
     {
       "type": "multiple",
-      "text": "Какие слова связаны с достопримечательностями? (выбери все верные варианты)",
+      "text": "Какие слова обозначают здания и сооружения? (выбери все верные варианты)",
       "options": [
         {"text": "castle", "correct": true},
         {"text": "tower", "correct": true},
-        {"text": "custom", "correct": false},
-        {"text": "statue", "correct": true},
+        {"text": "celebrate", "correct": false},
+        {"text": "wear", "correct": false}
+      ],
+      "explanation": "Castle — замок, tower — башня. Celebrate и wear — глаголы (праздновать, носить)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Many people meet in the main ___ of the city.",
+      "options": [
+        {"text": "square", "correct": true},
+        {"text": "sky", "correct": false},
+        {"text": "river", "correct": false}
+      ],
+      "explanation": "Square — площадь, на главной площади встречается много людей."
+    },
+    {
+      "type": "dropdown",
+      "text": "At the festival children ___ funny costumes.",
+      "options": [
+        {"text": "wear", "correct": true},
+        {"text": "visit", "correct": false},
         {"text": "celebrate", "correct": false}
       ],
-      "explanation": "Castle, tower, statue — достопримечательности. Custom и celebrate относятся к традициям, а не к местам."
-    },
-    {
-      "type": "dropdown",
-      "text": "Ежегодное праздничное событие с музыкой и представлениями — это ___.",
-      "options": [
-        {"text": "festival", "correct": true},
-        {"text": "square", "correct": false},
-        {"text": "museum", "correct": false}
-      ],
-      "explanation": "«Festival» — фестиваль."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как сказать «украшать» по-английски? ___",
-      "options": [
-        {"text": "decorate", "correct": true},
-        {"text": "wear", "correct": false},
-        {"text": "visit", "correct": false}
-      ],
-      "explanation": "«Decorate» — украшать."
+      "explanation": "Wear — носить (одежду, костюмы)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: посещать",
-      "answer": "visit",
-      "explanation": "«Посещать» переводится как visit."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: праздновать",
+      "text": "Впиши английское слово: We ___ New Year with our family. (празднуем)",
       "answer": "celebrate",
-      "explanation": "«Праздновать» переводится как celebrate."
+      "explanation": "«Праздновать» — celebrate."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: There are old paintings in this ___. (музей)",
+      "answer": "museum",
+      "explanation": "«Музей» — museum."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "tower", "right": "башня"},
         {"left": "statue", "right": "статуя"},
-        {"left": "famous", "right": "знаменитый"},
-        {"left": "wear", "right": "носить (одежду)"}
+        {"left": "landmark", "right": "достопримечательность"},
+        {"left": "festival", "right": "фестиваль"},
+        {"left": "decorate", "right": "украшать"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «tradition»?",
+      "text": "Как перевести: «This is an old family custom.»?",
       "options": [
-        {"text": "традиция", "correct": true},
-        {"text": "обычай", "correct": false},
-        {"text": "фестиваль", "correct": false}
+        {"text": "Это старый семейный обычай.", "correct": true},
+        {"text": "Это старый семейный праздник.", "correct": false},
+        {"text": "Это старая семейная фотография.", "correct": false}
       ],
-      "explanation": "«Tradition» — традиция (в целом)."
+      "explanation": "Custom — обычай, family — семейный."
     }
   ]
 }

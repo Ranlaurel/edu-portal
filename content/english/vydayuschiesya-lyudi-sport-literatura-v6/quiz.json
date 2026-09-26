@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «achieve»?",
+      "text": "Как переводится слово «novel»?",
       "options": [
-        {"text": "достигать", "correct": true},
-        {"text": "побеждать", "correct": false},
-        {"text": "становиться", "correct": false}
+        {"text": "роман", "correct": true},
+        {"text": "новость", "correct": false},
+        {"text": "журнал", "correct": false}
       ],
-      "explanation": "Achieve — достигать (цели, результата)."
+      "explanation": "«Novel» — роман (большое художественное произведение)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «bestseller»?",
+      "text": "Как по-английски «становиться»?",
       "options": [
-        {"text": "бестселлер", "correct": true},
-        {"text": "рекорд", "correct": false},
-        {"text": "роман", "correct": false}
+        {"text": "become", "correct": true},
+        {"text": "begin", "correct": false},
+        {"text": "believe", "correct": false}
       ],
-      "explanation": "«Bestseller» — очень популярная, хорошо продаваемая книга."
+      "explanation": "«Становиться» — become. Begin — начинать, believe — верить."
     },
     {
       "type": "multiple",
-      "text": "Какие слова относятся к спорту? (выбери все верные варианты)",
+      "text": "Какие слова связаны с литературой? (выбери все верные варианты)",
       "options": [
-        {"text": "athlete", "correct": true},
-        {"text": "novel", "correct": false},
-        {"text": "medal", "correct": true},
-        {"text": "competition", "correct": true},
-        {"text": "poem", "correct": false}
-      ],
-      "explanation": "Athlete, medal, competition относятся к спорту. Novel и poem — к литературе."
-    },
-    {
-      "type": "dropdown",
-      "text": "Автор — это ___.",
-      "options": [
+        {"text": "poem", "correct": true},
         {"text": "author", "correct": true},
-        {"text": "athlete", "correct": false},
-        {"text": "champion", "correct": false}
-      ],
-      "explanation": "Author — автор."
-    },
-    {
-      "type": "dropdown",
-      "text": "Талант — это ___.",
-      "options": [
-        {"text": "talent", "correct": true},
-        {"text": "record", "correct": false},
+        {"text": "medal", "correct": false},
         {"text": "team", "correct": false}
       ],
-      "explanation": "Talent — талант."
+      "explanation": "Poem — стихотворение, author — автор. Medal и team относятся к спорту."
+    },
+    {
+      "type": "dropdown",
+      "text": "Usain Bolt is a famous ___.",
+      "options": [
+        {"text": "athlete", "correct": true},
+        {"text": "poem", "correct": false},
+        {"text": "novel", "correct": false}
+      ],
+      "explanation": "Усэйн Болт — знаменитый спортсмен: athlete."
+    },
+    {
+      "type": "dropdown",
+      "text": "Everyone wants to buy this book — it's a ___.",
+      "options": [
+        {"text": "bestseller", "correct": true},
+        {"text": "record", "correct": false},
+        {"text": "medal", "correct": false}
+      ],
+      "explanation": "Книга, которую все покупают, — bestseller."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: чемпион",
-      "answer": "champion",
-      "explanation": "«Чемпион» переводится как champion."
+      "text": "Впиши английское слово: She got a gold ___ for first place. (медаль)",
+      "answer": "medal",
+      "explanation": "«Медаль» — medal."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: рекорд",
-      "answer": "record",
-      "explanation": "«Рекорд» переводится как record."
+      "text": "Впиши английское слово: If you work hard, you can ___ a lot. (достигать)",
+      "answer": "achieve",
+      "explanation": "«Достигать» — achieve."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "author", "right": "автор"},
-        {"left": "record", "right": "рекорд"},
-        {"left": "team", "right": "команда"},
-        {"left": "bestseller", "right": "бестселлер"}
+        {"left": "writer", "right": "писатель"},
+        {"left": "champion", "right": "чемпион"},
+        {"left": "competition", "right": "соревнование"},
+        {"left": "talent", "right": "талант"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «poem»?",
+      "text": "Как перевести: «Our team broke the record»?",
       "options": [
-        {"text": "стихотворение", "correct": true},
-        {"text": "роман", "correct": false},
-        {"text": "рассказ", "correct": false}
+        {"text": "Наша команда побила рекорд.", "correct": true},
+        {"text": "Наша команда выиграла медаль.", "correct": false},
+        {"text": "Наша команда проиграла.", "correct": false}
       ],
-      "explanation": "«Poem» — стихотворение."
+      "explanation": "Team — команда, broke the record — побила рекорд."
     }
   ]
 }

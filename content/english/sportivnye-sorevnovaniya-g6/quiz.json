@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери верную сравнительную степень от strong.",
+      "text": "Our goalkeeper is ___ than theirs. (tall)",
       "options": [
-        {"text": "stronger", "correct": true},
-        {"text": "more strong", "correct": false},
-        {"text": "strongest", "correct": false}
+        {"text": "taller", "correct": true},
+        {"text": "more tall", "correct": false},
+        {"text": "tallest", "correct": false}
       ],
-      "explanation": "Strong — короткое прилагательное (1 слог), сравнительная степень образуется через -er: stronger."
+      "explanation": "Сравниваем двоих (than), tall — короткое прилагательное: taller."
     },
     {
       "type": "single",
-      "text": "Выбери верную превосходную степень от fast.",
+      "text": "This is the ___ race of the year. (long)",
       "options": [
-        {"text": "the fastest", "correct": true},
-        {"text": "the most fast", "correct": false},
-        {"text": "faster", "correct": false}
+        {"text": "longest", "correct": true},
+        {"text": "most long", "correct": false},
+        {"text": "longer", "correct": false}
       ],
-      "explanation": "Fast — короткое прилагательное, превосходная степень: the + -est → the fastest."
+      "explanation": "Выделяем одну гонку среди многих — превосходная степень: the longest."
     },
     {
       "type": "multiple",
-      "text": "Какие прилагательные образуют степени сравнения через more/the most? (выбери все верные варианты)",
+      "text": "Какие прилагательные образуют степени сравнения через more / the most? (выбери все верные варианты)",
       "options": [
-        {"text": "famous", "correct": true},
-        {"text": "fast", "correct": false},
-        {"text": "strong", "correct": false},
-        {"text": "beautiful", "correct": true},
-        {"text": "interesting", "correct": true}
+        {"text": "popular", "correct": true},
+        {"text": "quick", "correct": false},
+        {"text": "dangerous", "correct": true},
+        {"text": "young", "correct": false},
+        {"text": "exciting", "correct": true}
       ],
-      "explanation": "Famous, beautiful, interesting — длинные прилагательные (2+ слога), используют more/the most. Fast и strong короткие."
+      "explanation": "Popular, dangerous, exciting — длинные прилагательные (more/the most). Quick и young — короткие (quicker, younger)."
     },
     {
       "type": "dropdown",
-      "text": "This runner is ___ than that one.",
+      "text": "Today's match was ___ than last week's match. (exciting)",
       "options": [
-        {"text": "faster", "correct": true},
-        {"text": "fastest", "correct": false},
-        {"text": "more fast", "correct": false}
+        {"text": "more exciting", "correct": true},
+        {"text": "excitinger", "correct": false},
+        {"text": "most exciting", "correct": false}
       ],
-      "explanation": "Сравнение двух предметов через than требует сравнительной степени: faster."
+      "explanation": "Exciting — длинное прилагательное, сравнительная степень: more exciting."
     },
     {
       "type": "dropdown",
-      "text": "He is the ___ football player in the team. (good)",
+      "text": "Our team played badly. It was the ___ game of the season. (bad)",
       "options": [
-        {"text": "best", "correct": true},
-        {"text": "better", "correct": false},
-        {"text": "goodest", "correct": false}
+        {"text": "worst", "correct": true},
+        {"text": "worse", "correct": false},
+        {"text": "baddest", "correct": false}
       ],
-      "explanation": "Good — исключение: good → better → the best."
+      "explanation": "Исключение: bad → worse → the worst."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень: fast → the ___",
-      "answer": "fastest",
-      "explanation": "Короткое прилагательное fast: the + -est = the fastest."
+      "text": "Впиши сравнительную степень: A car is ___ (quick) than a bike.",
+      "answer": "quicker",
+      "explanation": "Quick — короткое прилагательное: quick + -er."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную степень: famous → more ___",
-      "answer": "famous",
-      "explanation": "Famous — длинное прилагательное, more + прилагательное без изменений: more famous."
+      "text": "Впиши сравнительную степень: Anna is a ___ (good) swimmer than Mary.",
+      "answer": "better",
+      "explanation": "Исключение: good → better → the best."
     },
     {
       "type": "matching",
       "text": "Соедини прилагательное с его превосходной степенью",
       "pairs": [
-        {"left": "fast", "right": "the fastest"},
-        {"left": "strong", "right": "the strongest"},
-        {"left": "good", "right": "the best"},
-        {"left": "famous", "right": "the most famous"}
+        {"left": "short", "right": "the shortest"},
+        {"left": "great", "right": "the greatest"},
+        {"left": "small", "right": "the smallest"},
+        {"left": "important", "right": "the most important"}
       ],
-      "explanation": "Короткие прилагательные — the + -est, длинные — the most + прилагательное, good — исключение the best."
+      "explanation": "Короткие прилагательные: the + -est. Длинные: the most + прилагательное."
     },
     {
       "type": "single",
-      "text": "She is the ___ athlete in our school. (fast)",
+      "text": "Выбери правильное предложение:",
       "options": [
-        {"text": "fastest", "correct": true},
-        {"text": "faster", "correct": false},
-        {"text": "most fast", "correct": false}
+        {"text": "He is the strongest boy in our class.", "correct": true},
+        {"text": "He is the most strong boy in our class.", "correct": false},
+        {"text": "He is strongest boy in our class.", "correct": false}
       ],
-      "explanation": "Выделение одного предмета среди многих требует превосходной степени: the fastest."
+      "explanation": "Strong — короткое прилагательное: the strongest, артикль the обязателен."
     }
   ]
 }

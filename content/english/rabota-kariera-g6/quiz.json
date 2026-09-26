@@ -2,87 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно сказать «Она умеет говорить на трёх языках»?",
+      "text": "Как правильно сказать «Мой папа умеет чинить машины»?",
       "options": [
-        {"text": "She can speak three languages.", "correct": true},
-        {"text": "She cans speak three languages.", "correct": false},
-        {"text": "She can to speak three languages.", "correct": false}
+        {"text": "My dad can repair cars.", "correct": true},
+        {"text": "My dad cans repair cars.", "correct": false},
+        {"text": "My dad can repairs cars.", "correct": false}
       ],
-      "explanation": "После модального глагола can не ставится -s или частица to: can speak."
+      "explanation": "Can не меняется (без -s), и глагол после него в базовой форме: can repair."
     },
     {
       "type": "single",
-      "text": "Как сказать «Когда я был младше, я умел печатать очень быстро»?",
+      "text": "Как сказать «Я умел читать, когда мне было пять»?",
       "options": [
-        {"text": "When I was younger, I could type very fast.", "correct": true},
-        {"text": "When I was younger, I can type very fast.", "correct": false},
-        {"text": "When I was younger, I could typed very fast.", "correct": false}
+        {"text": "I could read when I was five.", "correct": true},
+        {"text": "I can read when I was five.", "correct": false},
+        {"text": "I could to read when I was five.", "correct": false}
       ],
-      "explanation": "Для способности в прошлом используется could + глагол в базовой форме."
+      "explanation": "Умение в прошлом — could + глагол без to."
     },
     {
       "type": "multiple",
-      "text": "Какие предложения используют can/could грамматически верно? (выбери все верные варианты)",
+      "text": "Какие предложения используют can/could верно? (выбери все верные варианты)",
       "options": [
-        {"text": "I can't work on Sundays.", "correct": true},
-        {"text": "Can you use a computer well?", "correct": true},
-        {"text": "She can to speak languages.", "correct": false},
-        {"text": "I could type very fast.", "correct": true}
+        {"text": "Tom can drive a bus.", "correct": true},
+        {"text": "My grandma couldn't use a mobile phone ten years ago.", "correct": true},
+        {"text": "Can she plays the piano?", "correct": false},
+        {"text": "We can to draw very well.", "correct": false},
+        {"text": "Could you swim when you were six?", "correct": true}
       ],
-      "explanation": "После can/could глагол ставится в базовой форме без частицы to."
+      "explanation": "После can/could — базовая форма без to и без -s: can she play, can draw."
     },
     {
       "type": "dropdown",
-      "text": "I ___ (not work) on Sundays.",
+      "text": "Sorry, I ___ (not come) to the meeting today.",
       "options": [
-        {"text": "can't work", "correct": true},
-        {"text": "can't works", "correct": false},
-        {"text": "not can work", "correct": false}
+        {"text": "can't come", "correct": true},
+        {"text": "can't comes", "correct": false},
+        {"text": "not can come", "correct": false}
       ],
-      "explanation": "Отрицание с can: can't (cannot) + глагол в базовой форме без -s."
+      "explanation": "Отрицание: can't (cannot) + базовая форма глагола."
     },
     {
       "type": "dropdown",
-      "text": "When I was younger, I ___ (type) very fast.",
+      "text": "Last year my sister ___ (not ride) a bike, but now she can.",
       "options": [
-        {"text": "could type", "correct": true},
-        {"text": "can type", "correct": false},
-        {"text": "could typed", "correct": false}
+        {"text": "couldn't ride", "correct": true},
+        {"text": "can't ride", "correct": false},
+        {"text": "couldn't rode", "correct": false}
       ],
-      "explanation": "Для способности в прошлом используется could + глагол в базовой форме."
+      "explanation": "Last year — прошлое, поэтому couldn't + базовая форма глагола."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: ___ you use a computer well? (спроси об умении)",
+      "text": "Впиши модальный глагол: ___ your brother cook? (спроси об умении сейчас)",
       "answer": "Can",
-      "explanation": "Вопрос о способности начинается с модального глагола Can."
+      "explanation": "Вопрос об умении сейчас: Can + подлежащее + глагол?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: She ___ (speak) three languages.",
-      "answer": "can speak",
-      "explanation": "Can + глагол в базовой форме — can speak."
+      "text": "Впиши модальный глагол (умение в прошлом): When she was ten, she ___ run very fast.",
+      "answer": "could",
+      "explanation": "Умение в прошлом — could."
     },
     {
       "type": "matching",
-      "text": "Соедини форму can/could с её значением",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "can speak", "right": "умею говорить (сейчас)"},
-        {"left": "can't work", "right": "не могу работать (сейчас)"},
-        {"left": "could type", "right": "умел печатать (в прошлом)"},
-        {"left": "can you use", "right": "умеешь ли ты пользоваться (вопрос)"}
+        {"left": "He can fix computers.", "right": "Он умеет чинить компьютеры."},
+        {"left": "I couldn't swim two years ago.", "right": "Два года назад я не умел плавать."},
+        {"left": "Can you drive a car?", "right": "Ты умеешь водить машину?"},
+        {"left": "She can't sing.", "right": "Она не умеет петь."}
       ],
-      "explanation": "Проверь по правилу can/could из урока."
+      "explanation": "Can — умею сейчас, can't — не умею, couldn't — не умел в прошлом, Can you...? — вопрос."
     },
     {
       "type": "single",
-      "text": "Какая частица НЕ используется после can/could?",
+      "text": "Выбери правильное предложение:",
       "options": [
-        {"text": "to", "correct": true},
-        {"text": "not", "correct": false},
-        {"text": "you", "correct": false}
+        {"text": "My mum can write with both hands.", "correct": true},
+        {"text": "My mum can to write with both hands.", "correct": false},
+        {"text": "My mum can writes with both hands.", "correct": false}
       ],
-      "explanation": "После модальных глаголов can/could частица to не используется: can speak, а не can to speak."
+      "explanation": "После can не ставим to и не добавляем -s: can write."
     }
   ]
 }

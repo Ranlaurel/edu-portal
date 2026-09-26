@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится фраза «get up»?",
+      "text": "Как переводится фраза «wake up»?",
       "options": [
-        {"text": "вставать", "correct": true},
-        {"text": "ложиться спать", "correct": false},
-        {"text": "просыпаться", "correct": false}
+        {"text": "просыпаться", "correct": true},
+        {"text": "умываться", "correct": false},
+        {"text": "засыпать", "correct": false}
       ],
-      "explanation": "«Get up» — вставать (с постели), в отличие от «wake up» — просыпаться."
+      "explanation": "«Wake up» — просыпаться."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «routine»?",
+      "text": "Как по-английски «ужинать»?",
       "options": [
-        {"text": "распорядок дня", "correct": true},
-        {"text": "привычка", "correct": false},
-        {"text": "расписание уроков", "correct": false}
+        {"text": "have dinner", "correct": true},
+        {"text": "have a rest", "correct": false},
+        {"text": "have a bath", "correct": false}
       ],
-      "explanation": "«Routine» — распорядок дня."
+      "explanation": "«Ужинать» — have dinner. Have a rest — отдыхать, have a bath — принимать ванну."
     },
     {
       "type": "multiple",
-      "text": "Какие слова связаны с утренним распорядком? (выбери все верные варианты)",
+      "text": "Что обычно делают утром? (выбери все верные варианты)",
       "options": [
-        {"text": "wake up", "correct": true},
-        {"text": "go to bed", "correct": false},
+        {"text": "have breakfast", "correct": true},
         {"text": "brush teeth", "correct": true},
-        {"text": "have dinner", "correct": false},
-        {"text": "get dressed", "correct": true}
+        {"text": "go to bed", "correct": false},
+        {"text": "watch the stars", "correct": false}
       ],
-      "explanation": "Wake up, brush teeth, get dressed — обычно утренние действия. Go to bed и have dinner относятся к вечеру."
+      "explanation": "Утром завтракают (have breakfast) и чистят зубы (brush teeth). Ложатся спать и смотрят на звёзды вечером."
     },
     {
       "type": "dropdown",
-      "text": "Привычка — это ___.",
+      "text": "I put on my school uniform — I ___.",
       "options": [
-        {"text": "habit", "correct": true},
-        {"text": "routine", "correct": false},
-        {"text": "homework", "correct": false}
+        {"text": "get dressed", "correct": true},
+        {"text": "get up", "correct": false},
+        {"text": "go to bed", "correct": false}
       ],
-      "explanation": "Habit — привычка."
+      "explanation": "Надевать одежду — get dressed (одеваться)."
     },
     {
       "type": "dropdown",
-      "text": "Принимать душ — это ___.",
+      "text": "After football practice I always ___.",
       "options": [
         {"text": "take a shower", "correct": true},
-        {"text": "get dressed", "correct": false},
-        {"text": "brush teeth", "correct": false}
+        {"text": "go to school", "correct": false},
+        {"text": "have breakfast", "correct": false}
       ],
-      "explanation": "Take a shower — принимать душ."
+      "explanation": "После тренировки принимают душ — take a shower."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: привычка",
-      "answer": "habit",
-      "explanation": "«Привычка» переводится как habit."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: рано",
+      "text": "Впиши английское слово: I get up at five. It's very ___! (рано)",
       "answer": "early",
-      "explanation": "«Рано» переводится как early."
+      "explanation": "«Рано» — early."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: Eating vegetables every day is a good ___. (привычка)",
+      "answer": "habit",
+      "explanation": "«Привычка» — habit."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "wake up", "right": "просыпаться"},
-        {"left": "go to bed", "right": "ложиться спать"},
-        {"left": "get dressed", "right": "одеваться"},
-        {"left": "take a shower", "right": "принимать душ"}
+        {"left": "get up", "right": "вставать"},
+        {"left": "have lunch", "right": "обедать"},
+        {"left": "go to school", "right": "идти в школу"},
+        {"left": "routine", "right": "распорядок дня"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится фраза «do homework»?",
+      "text": "Как перевести: «I go to bed late on Saturdays»?",
       "options": [
-        {"text": "делать домашнее задание", "correct": true},
-        {"text": "идти в школу", "correct": false},
-        {"text": "завтракать", "correct": false}
+        {"text": "По субботам я поздно ложусь спать.", "correct": true},
+        {"text": "По субботам я рано встаю.", "correct": false},
+        {"text": "По субботам я не делаю уроки.", "correct": false}
       ],
-      "explanation": "«Do homework» — делать домашнее задание."
+      "explanation": "Go to bed — ложиться спать, late — поздно."
     }
   ]
 }

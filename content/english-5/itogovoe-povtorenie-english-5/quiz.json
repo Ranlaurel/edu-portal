@@ -2,67 +2,67 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «favourite»?",
+      "text": "Как переводится слово «yesterday»?",
       "options": [
-        {"text": "любимый", "correct": true},
-        {"text": "счастливый", "correct": false},
-        {"text": "интересный", "correct": false}
+        {"text": "вчера", "correct": true},
+        {"text": "сегодня", "correct": false},
+        {"text": "завтра", "correct": false}
       ],
-      "explanation": "«Favourite» — любимый."
+      "explanation": "«Yesterday» — вчера."
     },
     {
       "type": "single",
-      "text": "Выбери правильный вариант: «У моей сестры есть новый велосипед»",
+      "text": "Выбери правильный вариант: «У моей бабушки есть кошка»",
       "options": [
-        {"text": "My sister has got a new bike.", "correct": true},
-        {"text": "My sister have got a new bike.", "correct": false},
-        {"text": "My sister is got a new bike.", "correct": false}
+        {"text": "My granny has got a cat.", "correct": true},
+        {"text": "My granny have got a cat.", "correct": false},
+        {"text": "My granny is got a cat.", "correct": false}
       ],
-      "explanation": "Для he/she/it форма have got меняется на has got."
+      "explanation": "Granny = she, а для he/she/it have got меняется на has got."
     },
     {
       "type": "multiple",
       "text": "Какие предложения в Past Simple составлены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "We played football yesterday.", "correct": true},
-        {"text": "We goed to the sea.", "correct": false},
-        {"text": "I saw a great film.", "correct": true},
-        {"text": "Did you went there?", "correct": false},
-        {"text": "I didn't see it.", "correct": true}
+        {"text": "We watched TV last night.", "correct": true},
+        {"text": "She buyed a dress.", "correct": false},
+        {"text": "They went to the park.", "correct": true},
+        {"text": "Did he played chess?", "correct": false},
+        {"text": "I didn't eat soup.", "correct": true}
       ],
-      "explanation": "Played (правильный глагол + -ed), saw (неправильная форма see), didn't see (после didn't глагол в начальной форме) — верно. Goed (не по правилу) и did you went (после did нужна начальная форма go) — ошибки."
+      "explanation": "Watched (правильный глагол + -ed), went (неправильная форма go), didn't eat (после didn't — начальная форма) — верно. Buy — неправильный глагол (bought), а после did нужна начальная форма: Did he play...?"
     },
     {
       "type": "dropdown",
-      "text": "Look! She ___ tennis now.",
+      "text": "Listen! The baby ___ now.",
       "options": [
-        {"text": "is playing", "correct": true},
-        {"text": "plays", "correct": false},
-        {"text": "played", "correct": false}
+        {"text": "is crying", "correct": true},
+        {"text": "cries", "correct": false},
+        {"text": "cried", "correct": false}
       ],
-      "explanation": "Слово look указывает на действие прямо сейчас — Present Continuous: is playing."
+      "explanation": "Listen! и now указывают на действие прямо сейчас — Present Continuous: is crying."
     },
     {
       "type": "dropdown",
-      "text": "There ___ two chairs in the room.",
+      "text": "There ___ a lamp on the desk.",
       "options": [
-        {"text": "are", "correct": true},
-        {"text": "is", "correct": false},
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
         {"text": "have", "correct": false}
       ],
-      "explanation": "Chairs — множественное число, поэтому используется there are, а не there is."
+      "explanation": "Lamp — единственное число, поэтому there is."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши множественное число слова box",
-      "answer": "boxes",
-      "explanation": "После -x добавляется -es: box — boxes."
+      "text": "Впиши множественное число слова dish",
+      "answer": "dishes",
+      "explanation": "После -sh добавляется -es: dish — dishes."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную степень прилагательного big",
-      "answer": "bigger",
-      "explanation": "Короткое прилагательное big образует сравнительную степень через -er (с удвоением g): bigger."
+      "text": "Впиши сравнительную степень прилагательного small",
+      "answer": "smaller",
+      "explanation": "Короткое прилагательное образует сравнительную степень через -er: small — smaller."
     },
     {
       "type": "matching",
@@ -77,23 +77,23 @@
     },
     {
       "type": "single",
-      "text": "Выбери верный вариант: «Он умеет плавать, но не умеет петь»",
+      "text": "Выбери верный вариант: «Моя сестра умеет рисовать, но не умеет кататься на коньках»",
       "options": [
-        {"text": "He can swim, but he can't sing.", "correct": true},
-        {"text": "He cans swim, but he don't can sing.", "correct": false},
-        {"text": "He can swims, but he can't sings.", "correct": false}
+        {"text": "My sister can draw, but she can't skate.", "correct": true},
+        {"text": "My sister cans draw, but she don't can skate.", "correct": false},
+        {"text": "My sister can draws, but she can't skates.", "correct": false}
       ],
-      "explanation": "После can/can't глагол стоит без -s и без to: can swim, can't sing."
+      "explanation": "После can/can't глагол стоит в начальной форме, без -s и без to: can draw, can't skate."
     },
     {
       "type": "single",
-      "text": "Выбери верный артикль: «I have got ___ book on the table.»",
+      "text": "Выбери верный вариант: «У меня есть апельсин»",
       "options": [
-        {"text": "a", "correct": true},
-        {"text": "the", "correct": false},
-        {"text": "an", "correct": false}
+        {"text": "I have got an orange.", "correct": true},
+        {"text": "I have got a orange.", "correct": false},
+        {"text": "I have got orange.", "correct": false}
       ],
-      "explanation": "Book — впервые упомянутый предмет, один из многих, значит нужен неопределённый артикль a (перед согласным звуком, не an)."
+      "explanation": "Orange начинается с гласного звука, поэтому an; без артикля исчисляемое существительное в ед. ч. не употребляется."
     }
   ]
 }

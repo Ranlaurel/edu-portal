@@ -12,13 +12,13 @@
     },
     {
       "type": "single",
-      "text": "Как правильно спросить «ты учился вечером?»",
+      "text": "Как правильно спросить «Ты гулял с собакой вчера?»",
       "options": [
-        {"text": "Did you study in the evening?", "correct": true},
-        {"text": "Did you studied in the evening?", "correct": false},
-        {"text": "Do you study in the evening?", "correct": false}
+        {"text": "Did you walk the dog yesterday?", "correct": true},
+        {"text": "Did you walked the dog yesterday?", "correct": false},
+        {"text": "Do you walk the dog yesterday?", "correct": false}
       ],
-      "explanation": "После did глагол используется в начальной форме: did you study."
+      "explanation": "Вопрос о прошлом — через Did, а после did глагол в начальной форме: walk."
     },
     {
       "type": "multiple",
@@ -26,54 +26,53 @@
       "options": [
         {"text": "morning", "correct": true},
         {"text": "ago", "correct": false},
+        {"text": "afternoon", "correct": true},
+        {"text": "last week", "correct": false}
+      ],
+      "explanation": "Morning (утро) и afternoon (день) — части дня. Ago (назад) и last week (на прошлой неделе) — маркеры прошедшего времени."
+    },
+    {
+      "type": "dropdown",
+      "text": "I cleaned my teeth in the ___ (вечером).",
+      "options": [
         {"text": "evening", "correct": true},
-        {"text": "last week", "correct": false},
-        {"text": "afternoon", "correct": true}
+        {"text": "morning", "correct": false},
+        {"text": "afternoon", "correct": false}
       ],
-      "explanation": "Morning, evening, afternoon — части дня."
+      "explanation": "«Вечер» — evening: in the evening — вечером."
     },
     {
       "type": "dropdown",
-      "text": "We played football ___ (весь день).",
+      "text": "Last Saturday we ___ (paint) pictures.",
       "options": [
-        {"text": "all day", "correct": true},
-        {"text": "every day", "correct": false},
-        {"text": "last day", "correct": false}
+        {"text": "painted", "correct": true},
+        {"text": "paint", "correct": false},
+        {"text": "painting", "correct": false}
       ],
-      "explanation": "«Весь день» — all day."
-    },
-    {
-      "type": "dropdown",
-      "text": "Yesterday morning I ___ (clean) my room.",
-      "options": [
-        {"text": "cleaned", "correct": true},
-        {"text": "clean", "correct": false},
-        {"text": "cleaning", "correct": false}
-      ],
-      "explanation": "В Past Simple правильный глагол clean получает -ed: cleaned."
+      "explanation": "Last Saturday — прошлое, правильный глагол paint получает -ed: painted."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним словом: утро",
-      "answer": "morning",
-      "explanation": "«Утро» — morning."
+      "text": "Впиши форму глагола: My dad ___ (wash) the car yesterday.",
+      "answer": "washed",
+      "explanation": "Wash — правильный глагол, в Past Simple получает -ed: washed."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: Did you ___ (watch) a film yesterday evening?",
-      "answer": "watch",
-      "explanation": "После did глагол используется без окончания -ed: watch."
+      "text": "Впиши глагол: Did you ___ (listen) to music yesterday?",
+      "answer": "listen",
+      "explanation": "После did глагол используется без окончания -ed: listen."
     },
     {
       "type": "matching",
-      "text": "Соедини слово с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "morning", "right": "утро"},
-        {"left": "afternoon", "right": "день"},
-        {"left": "evening", "right": "вечер"},
-        {"left": "all day", "right": "весь день"}
+        {"left": "We watched a cartoon.", "right": "Мы смотрели мультфильм."},
+        {"left": "She didn't cook dinner.", "right": "Она не готовила ужин."},
+        {"left": "Did he call you?", "right": "Он тебе звонил?"},
+        {"left": "They stayed at home.", "right": "Они остались дома."}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Watched, stayed — Past Simple с -ed; в отрицании и вопросе — didn't/did + глагол без -ed."
     }
   ]
 }

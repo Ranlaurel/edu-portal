@@ -123,26 +123,34 @@ def load_topic_content(db, subject_dir: Path, topic: Topic, slug: str):
 
     quiz_data = json.loads(quiz_path.read_text(encoding="utf-8"))
 
-    # wipe existing questions for this topic (cascades via explicit deletes)
-    existing_questions = db.query(Question).filter_by(topic_id=topic.id).all()
-    for q in existing_questions:
+    # Update questions in place by position so their ids survive a reload:
+    # UserProgress.wrong_question_ids stores these ids for "работа над ошибками".
+    existing_questions = (
+        db.query(Question).filter_by(topic_id=topic.id).order_by(Question.order, Question.id).all()
+    )
+    new_questions = quiz_data["questions"]
+    for q in existing_questions[len(new_questions):]:
         db.query(Option).filter_by(question_id=q.id).delete()
         db.query(MatchPair).filter_by(question_id=q.id).delete()
         db.delete(q)
     db.flush()
 
-    for i, q_data in enumerate(quiz_data["questions"]):
-        question = Question(
-            topic_id=topic.id,
-            type=q_data["type"],
-            text=q_data["text"],
-            explanation=q_data.get("explanation"),
-            order=i,
-        )
+    for i, q_data in enumerate(new_questions):
+        if i < len(existing_questions):
+            question = existing_questions[i]
+            db.query(Option).filter_by(question_id=question.id).delete()
+            db.query(MatchPair).filter_by(question_id=question.id).delete()
+        else:
+            question = Question(topic_id=topic.id)
+            db.add(question)
+        question.type = q_data["type"]
+        question.text = q_data["text"]
+        question.explanation = q_data.get("explanation")
+        question.order = i
+        question.answer = None
         if q_data["type"] == "fill_blank":
             accepted = q_data.get("accepted") or [q_data["answer"]]
             question.answer = "|".join(a.strip().lower() for a in accepted)
-        db.add(question)
         db.flush()
 
         if q_data["type"] in ("single", "multiple", "dropdown"):

@@ -2,13 +2,13 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какие навыки есть у Анны, по диалогу?",
+      "text": "Что ещё, кроме языков, умеет Анна, по диалогу?",
       "options": [
-        {"text": "she can speak three languages", "correct": true},
-        {"text": "she can type very fast now", "correct": false},
-        {"text": "she can play chess", "correct": false}
+        {"text": "use computers very well", "correct": true},
+        {"text": "drive a car", "correct": false},
+        {"text": "play the piano", "correct": false}
       ],
-      "explanation": "Анна говорит: I can speak three languages, and I can use computers very well."
+      "explanation": "Анна говорит: I can use computers very well."
     },
     {
       "type": "single",
@@ -18,68 +18,68 @@
         {"text": "part-time", "correct": false},
         {"text": "она не выбирает", "correct": false}
       ],
-      "explanation": "Анна говорит: Full-time, please."
+      "explanation": "Анна отвечает: Full-time, please."
     },
     {
       "type": "multiple",
-      "text": "Что произошло у Анны на последнем месте работы? (выбери все верные варианты)",
+      "text": "Что было у Анны на последнем месте работы? (выбери все верные варианты)",
       "options": [
-        {"text": "she could type very fast", "correct": true},
-        {"text": "she got a promotion", "correct": true},
-        {"text": "she became an employer", "correct": false},
-        {"text": "she worked there one year", "correct": true}
+        {"text": "Она получила повышение.", "correct": true},
+        {"text": "Она очень быстро печатала.", "correct": true},
+        {"text": "Она работала неполный день.", "correct": false},
+        {"text": "Она ушла оттуда через месяц.", "correct": false}
       ],
       "explanation": "Анна говорит: I could type very fast there, and I got a promotion after one year."
     },
     {
       "type": "dropdown",
-      "text": "Anna ___ (type) very fast at her last job.",
+      "text": "My colleague ___ (speak) Chinese — he learned it at university.",
       "options": [
-        {"text": "could type", "correct": true},
-        {"text": "can type", "correct": false},
-        {"text": "could typed", "correct": false}
+        {"text": "can speak", "correct": true},
+        {"text": "can speaks", "correct": false},
+        {"text": "can to speak", "correct": false}
       ],
-      "explanation": "Речь о прошлой способности — could type."
+      "explanation": "Умение сейчас: can + базовая форма глагола."
     },
     {
       "type": "dropdown",
-      "text": "I ___ (use) computers very well.",
+      "text": "Ten years ago I ___ (not use) a computer.",
       "options": [
-        {"text": "can use", "correct": true},
-        {"text": "can uses", "correct": false},
-        {"text": "can to use", "correct": false}
+        {"text": "couldn't use", "correct": true},
+        {"text": "can't use", "correct": false},
+        {"text": "couldn't used", "correct": false}
       ],
-      "explanation": "После can — базовая форма глагола без -s и без to: can use."
+      "explanation": "Ten years ago — прошлое: couldn't + базовая форма."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I want to build a ___ here (карьера).",
-      "answer": "career",
-      "explanation": "«Карьера» — career."
+      "text": "Впиши слово: I want to ___ (зарабатывать) more money.",
+      "answer": "earn",
+      "explanation": "«Зарабатывать» — earn."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: We will call you after the ___ (собеседование).",
-      "answer": "interview",
-      "explanation": "«Собеседование» — interview."
+      "text": "Впиши слово: She has five years of ___ (опыт) in this job.",
+      "answer": "experience",
+      "explanation": "«Опыт» — experience."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "I can speak three languages", "right": "я умею говорить на трёх языках"},
-        {"left": "I got a promotion", "right": "я получила повышение"},
-        {"left": "full-time work", "right": "полная занятость"},
-        {"left": "build a career", "right": "строить карьеру"}
+        {"left": "salary", "right": "зарплата"},
+        {"left": "interview", "right": "собеседование"},
+        {"left": "career", "right": "карьера"},
+        {"left": "employee", "right": "сотрудник"}
       ],
-      "explanation": "Проверь по диалогу менеджера и Анны."
+      "explanation": "Эти слова встречаются в диалоге менеджера и Анны."
     },
     {
       "type": "single",
       "text": "С кем часто работают сотрудники компании, по словам менеджера?",
       "options": [
         {"text": "with foreign colleagues", "correct": true},
-        {"text": "with employers only", "correct": false},
+        {"text": "only with managers", "correct": false},
         {"text": "alone", "correct": false}
       ],
       "explanation": "Менеджер говорит: Our employees often work with foreign colleagues."

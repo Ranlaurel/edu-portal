@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «generous»?",
+      "text": "Как переводится слово «brave»?",
       "options": [
-        {"text": "щедрый", "correct": true},
-        {"text": "жадный", "correct": false},
-        {"text": "ленивый", "correct": false}
+        {"text": "смелый", "correct": true},
+        {"text": "сильный", "correct": false},
+        {"text": "быстрый", "correct": false}
       ],
-      "explanation": "«Generous» — щедрый."
+      "explanation": "«Brave» — смелый."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «stubborn»?",
+      "text": "Как по-английски «застенчивый»?",
       "options": [
-        {"text": "упрямый", "correct": true},
-        {"text": "терпеливый", "correct": false},
-        {"text": "смелый", "correct": false}
+        {"text": "shy", "correct": true},
+        {"text": "sad", "correct": false},
+        {"text": "tired", "correct": false}
       ],
-      "explanation": "«Stubborn» — упрямый."
+      "explanation": "«Застенчивый» — shy. Sad — грустный, tired — уставший."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают положительные черты характера? (выбери все верные варианты)",
+      "text": "Какие слова описывают плохие черты характера? (выбери все верные варианты)",
       "options": [
-        {"text": "kind", "correct": true},
-        {"text": "rude", "correct": false},
+        {"text": "lazy", "correct": true},
+        {"text": "rude", "correct": true},
+        {"text": "helpful", "correct": false},
+        {"text": "happy", "correct": false}
+      ],
+      "explanation": "Lazy — ленивый, rude — грубый. Helpful (готовый помочь) и happy (счастливый) — хорошие качества."
+    },
+    {
+      "type": "dropdown",
+      "text": "He never tells lies. He is ___.",
+      "options": [
         {"text": "honest", "correct": true},
-        {"text": "lazy", "correct": false},
-        {"text": "generous", "correct": true}
+        {"text": "hungry", "correct": false},
+        {"text": "tall", "correct": false}
       ],
-      "explanation": "Kind, honest, generous — положительные черты. Rude и lazy — отрицательные."
+      "explanation": "Тот, кто никогда не врёт, — honest (честный)."
     },
     {
       "type": "dropdown",
-      "text": "Застенчивый — это ___.",
+      "text": "She always says «please» and «thank you». She is ___.",
       "options": [
-        {"text": "shy", "correct": true},
-        {"text": "brave", "correct": false},
-        {"text": "cheerful", "correct": false}
+        {"text": "polite", "correct": true},
+        {"text": "sleepy", "correct": false},
+        {"text": "angry", "correct": false}
       ],
-      "explanation": "Shy — застенчивый."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как по-английски «умный»?",
-      "options": [
-        {"text": "clever", "correct": true},
-        {"text": "curious", "correct": false},
-        {"text": "polite", "correct": false}
-      ],
-      "explanation": "Clever (или smart) — умный."
+      "explanation": "Тот, кто всегда говорит «пожалуйста» и «спасибо», — polite (вежливый)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: вежливый",
-      "answer": "polite",
-      "explanation": "«Вежливый» — polite."
+      "text": "Впиши английское слово: My teacher never gets angry. She is very ___. (терпеливая)",
+      "answer": "patient",
+      "explanation": "«Терпеливый» — patient."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: смелый",
-      "answer": "brave",
-      "explanation": "«Смелый» — brave."
+      "text": "Впиши английское слово: She gets top marks in all subjects. She is very ___. (умная)",
+      "answer": "clever",
+      "accepted": ["clever", "smart"],
+      "explanation": "«Умный» — clever или smart."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "friendly", "right": "дружелюбный"},
-        {"left": "cheerful", "right": "весёлый"},
+        {"left": "kind", "right": "добрый"},
+        {"left": "generous", "right": "щедрый"},
         {"left": "curious", "right": "любопытный"},
-        {"left": "patient", "right": "терпеливый"}
+        {"left": "stubborn", "right": "упрямый"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «character»?",
+      "text": "Как переводится слово «cheerful»?",
       "options": [
-        {"text": "характер", "correct": true},
-        {"text": "внешность", "correct": false},
-        {"text": "привычка", "correct": false}
+        {"text": "весёлый, жизнерадостный", "correct": true},
+        {"text": "серьёзный", "correct": false},
+        {"text": "сердитый", "correct": false}
       ],
-      "explanation": "«Character» — характер."
+      "explanation": "«Cheerful» — весёлый, жизнерадостный."
     }
   ]
 }

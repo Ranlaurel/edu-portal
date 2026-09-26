@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Что сказано о территории России в диалоге?",
+      "text": "Какое население России, по диалогу?",
       "options": [
-        {"text": "Russia is the largest country in the world by territory.", "correct": true},
-        {"text": "Russia is a small country.", "correct": false},
-        {"text": "Russia has the smallest territory in Europe.", "correct": false}
+        {"text": "about 146 million", "correct": true},
+        {"text": "about 14 million", "correct": false},
+        {"text": "about 460 million", "correct": false}
       ],
-      "explanation": "В диалоге сказано: Russia is the largest country in the world by territory."
+      "explanation": "В диалоге: Our population is about 146 million."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «population»?",
+      "text": "Как переводится слово «territory»?",
       "options": [
-        {"text": "население", "correct": true},
-        {"text": "территория", "correct": false},
-        {"text": "культура", "correct": false}
+        {"text": "территория", "correct": true},
+        {"text": "граница", "correct": false},
+        {"text": "столица", "correct": false}
       ],
-      "explanation": "«Population» — население."
+      "explanation": "«Territory» — территория."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "В России много национальностей и языков.", "correct": true},
         {"text": "Байкал — самое глубокое озеро в мире.", "correct": true},
         {"text": "Волга — самая длинная река в Европе.", "correct": true},
-        {"text": "Население России около 14 миллионов.", "correct": false}
+        {"text": "Россия — небольшая страна.", "correct": false},
+        {"text": "В России говорят только на одном языке.", "correct": false}
       ],
-      "explanation": "По диалогу: много nationalities и languages, Байкал the deepest lake, Волга the longest river, население about 146 million (не 14)."
+      "explanation": "В диалоге: Lake Baikal is the deepest lake in the world, the Volga is the longest river in Europe. Россия — самая большая страна, в ней много языков."
     },
     {
       "type": "dropdown",
-      "text": "Lake Baikal is the ___ (deep) lake in the world.",
+      "text": "Elbrus is the ___ (high) mountain in Russia.",
       "options": [
-        {"text": "deepest", "correct": true},
-        {"text": "deeper", "correct": false},
-        {"text": "more deep", "correct": false}
+        {"text": "highest", "correct": true},
+        {"text": "higher", "correct": false},
+        {"text": "most high", "correct": false}
       ],
-      "explanation": "Превосходная степень короткого прилагательного deep: the deepest."
+      "explanation": "«Самая высокая» — превосходная степень: high + -est."
     },
     {
       "type": "dropdown",
-      "text": "The Volga is the ___ (long) river in Europe.",
+      "text": "July is usually the ___ (hot) month of the year.",
       "options": [
-        {"text": "longest", "correct": true},
-        {"text": "longer", "correct": false},
-        {"text": "most long", "correct": false}
+        {"text": "hottest", "correct": true},
+        {"text": "hotter", "correct": false},
+        {"text": "most hot", "correct": false}
       ],
-      "explanation": "Превосходная степень короткого прилагательного long: the longest."
+      "explanation": "Hot — короткое прилагательное, согласная удваивается: the hottest."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: национальность",
+      "text": "Впиши слово: What ___ (национальность) are you? — I'm Russian.",
       "answer": "nationality",
-      "explanation": "«Национальность» — nationality, упоминается в диалоге."
+      "explanation": "«Национальность» — nationality."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: культура",
-      "answer": "culture",
-      "explanation": "«Культура» — culture, упоминается в диалоге."
+      "text": "Впиши слово: Russian is my native ___. (язык)",
+      "answer": "language",
+      "explanation": "«Язык» — language."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "territory", "right": "территория"},
-        {"left": "lake", "right": "озеро"},
-        {"left": "river", "right": "река"},
-        {"left": "language", "right": "язык"}
+        {"left": "culture", "right": "культура"},
+        {"left": "country", "right": "страна"},
+        {"left": "continent", "right": "континент"},
+        {"left": "forest", "right": "лес"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Это слова по теме «Родная страна»."
     }
   ]
 }

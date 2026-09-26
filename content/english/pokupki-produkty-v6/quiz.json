@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «shopping list»?",
+      "text": "Как переводится слово «cheese»?",
       "options": [
-        {"text": "список покупок", "correct": true},
-        {"text": "цена товара", "correct": false},
-        {"text": "магазин продуктов", "correct": false}
+        {"text": "сыр", "correct": true},
+        {"text": "масло", "correct": false},
+        {"text": "колбаса", "correct": false}
       ],
-      "explanation": "Shopping list — список покупок."
+      "explanation": "«Cheese» — сыр."
     },
     {
       "type": "single",
-      "text": "Как будет «покупать» на английском?",
+      "text": "Как по-английски «магазин»?",
       "options": [
-        {"text": "buy", "correct": true},
-        {"text": "sell", "correct": false},
-        {"text": "pay", "correct": false}
+        {"text": "shop", "correct": true},
+        {"text": "stop", "correct": false},
+        {"text": "shelf", "correct": false}
       ],
-      "explanation": "Buy — покупать."
+      "explanation": "«Магазин» — shop. Stop — остановка, shelf — полка."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают продукты питания? (выбери все верные варианты)",
       "options": [
-        {"text": "bread", "correct": true},
-        {"text": "price", "correct": false},
-        {"text": "cheese", "correct": true},
-        {"text": "shop", "correct": false},
-        {"text": "rice", "correct": true}
+        {"text": "milk", "correct": true},
+        {"text": "apples", "correct": true},
+        {"text": "money", "correct": false},
+        {"text": "basket", "correct": false}
       ],
-      "explanation": "Bread, cheese, rice — продукты питания. Price (цена) и shop (магазин) — не продукты."
+      "explanation": "Milk (молоко) и apples (яблоки) — продукты. Money — деньги, basket — корзина."
     },
     {
       "type": "dropdown",
-      "text": "We need to buy a ___ of bread.",
+      "text": "Mum bought a ___ of bread for breakfast.",
       "options": [
         {"text": "loaf", "correct": true},
         {"text": "bottle", "correct": false},
         {"text": "bag", "correct": false}
       ],
-      "explanation": "«Буханка хлеба» — a loaf of bread, это устойчивое выражение."
+      "explanation": "«Буханка хлеба» — a loaf of bread."
     },
     {
       "type": "dropdown",
-      "text": "She bought a ___ of water.",
+      "text": "I'm thirsty. Can I have a ___ of water?",
       "options": [
         {"text": "bottle", "correct": true},
         {"text": "loaf", "correct": false},
-        {"text": "piece", "correct": false}
+        {"text": "bag", "correct": false}
       ],
-      "explanation": "Вода — неисчисляемое, для количества используется слово-контейнер a bottle of (бутылка)."
+      "explanation": "Воду продают в бутылках: a bottle of water."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: цена",
-      "answer": "price",
-      "explanation": "«Цена» переводится как price."
+      "text": "Впиши английское слово: I want to ___ a new cup. (купить)",
+      "answer": "buy",
+      "explanation": "«Покупать» — buy."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: яйца",
-      "answer": "eggs",
-      "explanation": "«Яйца» переводится как eggs."
+      "text": "Впиши английские слова: Don't forget the ___! It says: bread, milk, eggs. (список покупок)",
+      "answer": "shopping list",
+      "explanation": "«Список покупок» — shopping list."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "sugar", "right": "сахар"},
-        {"left": "milk", "right": "молоко"},
-        {"left": "apples", "right": "яблоки"},
-        {"left": "shop", "right": "магазин"}
+        {"left": "rice", "right": "рис"},
+        {"left": "eggs", "right": "яйца"},
+        {"left": "bread", "right": "хлеб"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "I need to buy some cheese and ___.",
+      "text": "The ___ of this chocolate is fifty roubles.",
       "options": [
-        {"text": "rice", "correct": true},
-        {"text": "price", "correct": false},
-        {"text": "buy", "correct": false}
+        {"text": "price", "correct": true},
+        {"text": "shop", "correct": false},
+        {"text": "list", "correct": false}
       ],
-      "explanation": "Rice (рис) — продукт питания, подходит по смыслу в списке покупок."
+      "explanation": "Пятьдесят рублей — это цена: price."
     }
   ]
 }

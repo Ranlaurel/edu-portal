@@ -2,87 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «ты должен убирать комнату каждую неделю» (строгое правило)?",
+      "text": "Как сказать «ты должен выключать свет, когда уходишь» (это правило)?",
       "options": [
-        {"text": "You must clean your room every week.", "correct": true},
-        {"text": "You should clean your room every week.", "correct": false},
-        {"text": "You can clean your room every week.", "correct": false}
+        {"text": "You must turn off the light when you leave.", "correct": true},
+        {"text": "You can turn off the light when you leave.", "correct": false},
+        {"text": "You don't have to turn off the light when you leave.", "correct": false}
       ],
-      "explanation": "Must используется для строгой обязанности/правила."
+      "explanation": "Строгое правило выражается глаголом must. Can — «можешь», don't have to — «не обязательно»."
     },
     {
       "type": "single",
-      "text": "I ___ walk the dog before school because my parents are at work.",
+      "text": "I ___ look after my little brother today because my parents are at work.",
       "options": [
         {"text": "have to", "correct": true},
-        {"text": "should", "correct": false},
-        {"text": "mustn't", "correct": false}
+        {"text": "mustn't", "correct": false},
+        {"text": "don't have to", "correct": false}
       ],
-      "explanation": "Have to используется, когда обязанность вызвана обстоятельствами."
+      "explanation": "Обязанность из-за обстоятельств (родители на работе) — have to."
     },
     {
       "type": "multiple",
       "text": "Какие предложения выражают совет (не строгую обязанность)? (выбери все верные варианты)",
       "options": [
-        {"text": "You should help your parents.", "correct": true},
-        {"text": "You must clean your room.", "correct": false},
-        {"text": "You should water the plants.", "correct": true},
-        {"text": "I have to walk the dog.", "correct": false}
+        {"text": "You should go to bed early.", "correct": true},
+        {"text": "You must wear a uniform at school.", "correct": false},
+        {"text": "You should eat more fruit.", "correct": true},
+        {"text": "I have to feed the cat.", "correct": false}
       ],
-      "explanation": "Should выражает совет; must и have to — обязанность."
+      "explanation": "Совет выражается глаголом should. Must — строгое правило, have to — обязанность из-за обстоятельств."
     },
     {
       "type": "dropdown",
-      "text": "We ___ not forget to water the plants (строгий запрет забывать).",
+      "text": "You ___ play with matches. It's dangerous!",
       "options": [
-        {"text": "must", "correct": true},
-        {"text": "should", "correct": false},
-        {"text": "have to", "correct": false}
+        {"text": "mustn't", "correct": true},
+        {"text": "don't have to", "correct": false},
+        {"text": "should", "correct": false}
       ],
-      "explanation": "Must not — строгий запрет."
+      "explanation": "Это запрет (опасно!), поэтому mustn't. Don't have to значило бы «не обязательно»."
     },
     {
       "type": "dropdown",
-      "text": "You ___ vacuum today, it's not necessary.",
+      "text": "It's Sunday, so we ___ get up early.",
       "options": [
         {"text": "don't have to", "correct": true},
         {"text": "mustn't", "correct": false},
-        {"text": "should", "correct": false}
+        {"text": "must", "correct": false}
       ],
-      "explanation": "Don't have to означает «не обязательно», в отличие от mustn't (запрещено)."
+      "explanation": "В воскресенье рано вставать не обязательно — don't have to. Mustn't означало бы запрет."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши модальный глагол: You ___ make the bed every morning. (правило)",
-      "answer": "must",
-      "explanation": "Must — строгое правило."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши модальный глагол (совет): You ___ help your parents with the chores.",
+      "text": "Впиши модальный глагол (совет): You look tired. You ___ have a rest.",
       "answer": "should",
-      "explanation": "Should — совет/рекомендация."
+      "explanation": "Совет, рекомендация — should."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши одно слово: Tom ___ to wash the car because his dad asked him.",
+      "answer": "has",
+      "explanation": "С he/she/it have to превращается в has to: Tom has to wash the car."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "You must clean your room.", "right": "Ты должен убирать комнату (правило)."},
-        {"left": "I have to walk the dog.", "right": "Мне приходится выгуливать собаку (обстоятельства)."},
-        {"left": "You should help your parents.", "right": "Тебе стоит помогать родителям (совет)."},
-        {"left": "You mustn't forget.", "right": "Ты не должен забывать (запрет)."}
+        {"left": "You must be home by nine.", "right": "Ты должен быть дома к девяти."},
+        {"left": "She has to cook dinner today.", "right": "Ей приходится готовить ужин сегодня."},
+        {"left": "You shouldn't eat so many sweets.", "right": "Тебе не стоит есть столько сладкого."},
+        {"left": "We don't have to wear a uniform.", "right": "Нам не обязательно носить форму."}
       ],
-      "explanation": "Проверь разницу между must, have to и should из урока."
+      "explanation": "Must — должен (правило), has to — приходится, shouldn't — не стоит (совет), don't have to — не обязательно."
     },
     {
       "type": "single",
-      "text": "Что означает «mustn't»?",
+      "text": "Мама говорит: «You mustn't open the door to strangers.» Что это значит?",
       "options": [
-        {"text": "запрещено", "correct": true},
-        {"text": "не обязательно", "correct": false},
-        {"text": "рекомендуется", "correct": false}
+        {"text": "Открывать дверь незнакомцам запрещено.", "correct": true},
+        {"text": "Открывать дверь незнакомцам не обязательно.", "correct": false},
+        {"text": "Открывать дверь незнакомцам стоит.", "correct": false}
       ],
-      "explanation": "Mustn't (must not) выражает запрет, в отличие от don't have to (не обязательно)."
+      "explanation": "Mustn't означает запрет. «Не обязательно» — это don't have to."
     }
   ]
 }

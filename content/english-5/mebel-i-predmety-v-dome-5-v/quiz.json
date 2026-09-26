@@ -2,35 +2,35 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «wardrobe»?",
+      "text": "Как переводится слово «carpet»?",
       "options": [
-        {"text": "шкаф", "correct": true},
+        {"text": "ковёр", "correct": true},
         {"text": "полка", "correct": false},
         {"text": "диван", "correct": false}
       ],
-      "explanation": "«Wardrobe» — шкаф для одежды."
+      "explanation": "«Carpet» — ковёр."
     },
     {
       "type": "single",
-      "text": "Как по-английски «диван»?",
+      "text": "Как по-английски «кровать»?",
       "options": [
-        {"text": "sofa", "correct": true},
-        {"text": "bed", "correct": false},
-        {"text": "chair", "correct": false}
+        {"text": "bed", "correct": true},
+        {"text": "sofa", "correct": false},
+        {"text": "shelf", "correct": false}
       ],
-      "explanation": "«Диван» переводится как sofa."
+      "explanation": "«Кровать» — bed, а sofa — диван."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают мебель? (выбери все верные варианты)",
       "options": [
-        {"text": "table", "correct": true},
-        {"text": "carpet", "correct": false},
         {"text": "chair", "correct": true},
         {"text": "wardrobe", "correct": true},
-        {"text": "clock", "correct": false}
+        {"text": "window", "correct": false},
+        {"text": "door", "correct": false},
+        {"text": "cup", "correct": false}
       ],
-      "explanation": "Table, chair, wardrobe — мебель. Carpet (ковёр) и clock (часы) — предметы интерьера, не мебель."
+      "explanation": "Chair (стул) и wardrobe (шкаф) — мебель. Window (окно), door (дверь), cup (чашка) — не мебель."
     },
     {
       "type": "dropdown",
@@ -47,33 +47,33 @@
       "text": "Выбери слово с переводом «холодильник»:",
       "options": [
         {"text": "fridge", "correct": true},
-        {"text": "lamp", "correct": false},
+        {"text": "furniture", "correct": false},
         {"text": "clock", "correct": false}
       ],
       "explanation": "«Fridge» — холодильник."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: зеркало",
-      "answer": "mirror",
-      "explanation": "«Зеркало» переводится как mirror."
+      "text": "Впиши перевод одним английским словом: лампа",
+      "answer": "lamp",
+      "explanation": "«Лампа» — lamp."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: мебель",
       "answer": "furniture",
-      "explanation": "«Мебель» переводится как furniture."
+      "explanation": "«Мебель» — furniture."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "bed", "right": "кровать"},
-        {"left": "lamp", "right": "лампа"},
-        {"left": "carpet", "right": "ковёр"},
-        {"left": "clock", "right": "часы"}
+        {"left": "sofa", "right": "диван"},
+        {"left": "mirror", "right": "зеркало"},
+        {"left": "clock", "right": "часы"},
+        {"left": "desk", "right": "письменный стол"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     },
     {
       "type": "single",

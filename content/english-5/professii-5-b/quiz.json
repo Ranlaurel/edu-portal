@@ -2,21 +2,21 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «vet»?",
+      "text": "Как переводится слово «builder»?",
       "options": [
-        {"text": "ветеринар", "correct": true},
+        {"text": "строитель", "correct": true},
         {"text": "фермер", "correct": false},
-        {"text": "пилот", "correct": false}
+        {"text": "певец", "correct": false}
       ],
-      "explanation": "«Vet» — ветеринар, врач для животных."
+      "explanation": "«Builder» — строитель."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «я хочу стать пилотом»?",
+      "text": "Как правильно сказать «Я хочу стать врачом»?",
       "options": [
-        {"text": "I want to be a pilot", "correct": true},
-        {"text": "I want be pilot", "correct": false},
-        {"text": "I am want a pilot", "correct": false}
+        {"text": "I want to be a doctor.", "correct": true},
+        {"text": "I want be doctor.", "correct": false},
+        {"text": "I am want a doctor.", "correct": false}
       ],
       "explanation": "Формула: want to be + a/an + профессия."
     },
@@ -24,56 +24,54 @@
       "type": "multiple",
       "text": "Какие слова относятся к профессиям? (выбери все верные варианты)",
       "options": [
-        {"text": "builder", "correct": true},
-        {"text": "museum", "correct": false},
+        {"text": "farmer", "correct": true},
         {"text": "singer", "correct": true},
-        {"text": "shopping", "correct": false},
-        {"text": "farmer", "correct": true}
+        {"text": "museum", "correct": false},
+        {"text": "shopping", "correct": false}
       ],
-      "explanation": "Builder, singer, farmer — профессии. Museum и shopping — не профессии."
+      "explanation": "Farmer (фермер) и singer (певец) — профессии. Museum и shopping — нет."
     },
     {
       "type": "dropdown",
-      "text": "They ___ as builders.",
+      "text": "My uncle ___ as a driver.",
       "options": [
-        {"text": "work", "correct": true},
-        {"text": "works", "correct": false},
+        {"text": "works", "correct": true},
+        {"text": "work", "correct": false},
         {"text": "working", "correct": false}
       ],
-      "explanation": "They — множественное число, окончание -s к глаголу не добавляется: they work."
+      "explanation": "Uncle = he, поэтому к глаголу добавляется -s: works as."
     },
     {
       "type": "dropdown",
-      "text": "My aunt is ___ vet.",
+      "text": "Her brother is ___ artist.",
       "options": [
-        {"text": "a", "correct": true},
-        {"text": "an", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "an", "correct": true},
+        {"text": "a", "correct": false}
       ],
-      "explanation": "Vet начинается с согласного звука, поэтому нужен артикль a."
+      "explanation": "Artist начинается с гласного звука, поэтому an."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: строитель",
-      "answer": "builder",
-      "explanation": "«Строитель» переводится как builder."
+      "text": "Впиши перевод одним английским словом: ветеринар",
+      "answer": "vet",
+      "explanation": "«Ветеринар» — vet."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I want to be a ___ (пилот).",
-      "answer": "pilot",
-      "explanation": "«Пилот» — pilot."
+      "text": "Впиши пропущенный глагол: I want to ___ a teacher.",
+      "answer": "be",
+      "explanation": "«Хочу стать» — want to be: I want to be a teacher."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "farmer", "right": "фермер"},
-        {"left": "singer", "right": "певец"},
+        {"left": "pilot", "right": "пилот"},
         {"left": "shop assistant", "right": "продавец"},
-        {"left": "vet", "right": "ветеринар"}
+        {"left": "actor", "right": "актёр"},
+        {"left": "dancer", "right": "танцор"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

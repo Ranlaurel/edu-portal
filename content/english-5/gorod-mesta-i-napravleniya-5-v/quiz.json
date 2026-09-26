@@ -2,78 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «museum»?",
+      "text": "Как переводится слово «bridge»?",
       "options": [
-        {"text": "музей", "correct": true},
-        {"text": "библиотека", "correct": false},
-        {"text": "площадь", "correct": false}
+        {"text": "мост", "correct": true},
+        {"text": "площадь", "correct": false},
+        {"text": "банк", "correct": false}
       ],
-      "explanation": "«Museum» — музей."
+      "explanation": "«Bridge» — мост."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «hospital»?",
+      "text": "Как по-английски «больница»?",
       "options": [
-        {"text": "больница", "correct": true},
-        {"text": "банк", "correct": false},
-        {"text": "мост", "correct": false}
+        {"text": "hospital", "correct": true},
+        {"text": "library", "correct": false},
+        {"text": "museum", "correct": false}
       ],
-      "explanation": "«Hospital» — больница."
+      "explanation": "«Больница» — hospital."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают места в городе? (выбери все верные варианты)",
       "options": [
-        {"text": "bank", "correct": true},
+        {"text": "park", "correct": true},
         {"text": "cook", "correct": false},
-        {"text": "bridge", "correct": true},
-        {"text": "singer", "correct": false},
-        {"text": "station", "correct": true}
+        {"text": "street", "correct": true},
+        {"text": "singer", "correct": false}
       ],
-      "explanation": "Bank, bridge, station — места в городе. Cook и singer — профессии, не места."
+      "explanation": "Park (парк) и street (улица) — места в городе. Cook и singer — профессии."
     },
     {
       "type": "dropdown",
-      "text": "There ___ a museum in our city.",
+      "text": "There ___ two cinemas in our town.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "Museum — существительное в единственном числе, используем is."
+      "explanation": "Cinemas — множественное число (несколько мест), поэтому are."
     },
     {
       "type": "dropdown",
-      "text": "The park ___ big.",
+      "text": "The zoo ___ big.",
       "options": [
         {"text": "is", "correct": true},
         {"text": "are", "correct": false},
         {"text": "be", "correct": false}
       ],
-      "explanation": "Park — единственное число, поэтому is."
+      "explanation": "Zoo — единственное число (одно место), поэтому is."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: площадь",
-      "answer": "square",
-      "explanation": "«Площадь» переводится как square."
+      "text": "Впиши перевод одним английским словом: библиотека",
+      "answer": "library",
+      "explanation": "«Библиотека» — library."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: мост",
-      "answer": "bridge",
-      "explanation": "«Мост» переводится как bridge."
+      "text": "Впиши перевод одним английским словом: вокзал",
+      "answer": "station",
+      "explanation": "«Вокзал, станция» — station."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "library", "right": "библиотека"},
-        {"left": "station", "right": "вокзал, станция"},
-        {"left": "street", "right": "улица"},
-        {"left": "bank", "right": "банк"}
+        {"left": "museum", "right": "музей"},
+        {"left": "square", "right": "площадь"},
+        {"left": "bank", "right": "банк"},
+        {"left": "city", "right": "город"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

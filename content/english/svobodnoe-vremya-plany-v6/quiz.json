@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «arrangement»?",
+      "text": "Как переводится слово «weekend»?",
       "options": [
-        {"text": "договорённость", "correct": true},
-        {"text": "план", "correct": false},
-        {"text": "выходные", "correct": false}
+        {"text": "выходные", "correct": true},
+        {"text": "праздник", "correct": false},
+        {"text": "отпуск", "correct": false}
       ],
-      "explanation": "«Arrangement» — договорённость."
+      "explanation": "«Weekend» — выходные (суббота и воскресенье)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «relax»?",
+      "text": "Как по-английски «план»?",
       "options": [
-        {"text": "отдыхать, расслабляться", "correct": true},
-        {"text": "навещать", "correct": false},
-        {"text": "гулять", "correct": false}
+        {"text": "plan", "correct": true},
+        {"text": "place", "correct": false},
+        {"text": "plane", "correct": false}
       ],
-      "explanation": "«Relax» — отдыхать, расслабляться."
+      "explanation": "«План» — plan. Place — место, plane — самолёт."
     },
     {
       "type": "multiple",
-      "text": "Какие фразы обозначают занятия на выходных? (выбери все верные варианты)",
+      "text": "Какими занятиями занимаются вне дома? (выбери все верные варианты)",
       "options": [
+        {"text": "go for a walk", "correct": true},
         {"text": "go shopping", "correct": true},
-        {"text": "arrangement", "correct": false},
-        {"text": "watch a film", "correct": true},
+        {"text": "stay at home", "correct": false},
+        {"text": "sleep in bed", "correct": false}
+      ],
+      "explanation": "Гулять (go for a walk) и ходить по магазинам (go shopping) — вне дома. Stay at home — оставаться дома."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's Anna's birthday tomorrow. She wants to ___ with her friends.",
+      "options": [
         {"text": "have a party", "correct": true},
-        {"text": "tomorrow", "correct": false}
+        {"text": "free time", "correct": false},
+        {"text": "next week", "correct": false}
       ],
-      "explanation": "Go shopping, watch a film, have a party — занятия. Arrangement и tomorrow — не занятия."
+      "explanation": "На день рождения устраивают вечеринку — have a party."
     },
     {
       "type": "dropdown",
-      "text": "Оставаться дома — это ___.",
+      "text": "I'm tired. I want to ___ on the sofa.",
       "options": [
-        {"text": "stay at home", "correct": true},
-        {"text": "go for a walk", "correct": false},
-        {"text": "visit", "correct": false}
+        {"text": "relax", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "meet friends", "correct": false}
       ],
-      "explanation": "Stay at home — оставаться дома."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как по-английски «навещать»?",
-      "options": [
-        {"text": "visit", "correct": true},
-        {"text": "meet", "correct": false},
-        {"text": "relax", "correct": false}
-      ],
-      "explanation": "Visit — навещать."
+      "explanation": "Relax — отдыхать, расслабляться."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: план",
-      "answer": "plan",
-      "explanation": "«План» — plan."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: завтра",
+      "text": "Впиши английское слово: I'm going to the dentist ___. (завтра)",
       "answer": "tomorrow",
       "explanation": "«Завтра» — tomorrow."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: We have an ___ to meet at five o'clock. (договорённость)",
+      "answer": "arrangement",
+      "explanation": "«Договорённость» — arrangement."
     },
     {
       "type": "matching",
       "text": "Соедини английскую фразу с переводом",
       "pairs": [
         {"left": "meet friends", "right": "встречаться с друзьями"},
-        {"left": "go for a walk", "right": "гулять"},
-        {"left": "next week", "right": "на следующей неделе"},
-        {"left": "free time", "right": "свободное время"}
+        {"left": "free time", "right": "свободное время"},
+        {"left": "stay at home", "right": "оставаться дома"},
+        {"left": "on Saturday", "right": "в субботу"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится «on Saturday»?",
+      "text": "Как перевести: «Let's watch a film tonight!»?",
       "options": [
-        {"text": "в субботу", "correct": true},
-        {"text": "на выходных", "correct": false},
-        {"text": "завтра", "correct": false}
+        {"text": "Давай посмотрим фильм сегодня вечером!", "correct": true},
+        {"text": "Давай погуляем сегодня вечером!", "correct": false},
+        {"text": "Давай устроим вечеринку сегодня вечером!", "correct": false}
       ],
-      "explanation": "«On Saturday» — в субботу."
+      "explanation": "Watch a film — смотреть фильм."
     }
   ]
 }

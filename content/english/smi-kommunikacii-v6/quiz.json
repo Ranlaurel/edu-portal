@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «journalist»?",
+      "text": "Как переводится слово «channel»?",
       "options": [
-        {"text": "журналист", "correct": true},
-        {"text": "читатель", "correct": false},
-        {"text": "редактор", "correct": false}
+        {"text": "канал", "correct": true},
+        {"text": "кнопка", "correct": false},
+        {"text": "экран", "correct": false}
       ],
-      "explanation": "«Journalist» — журналист."
+      "explanation": "«Channel» — канал (телеканал)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «headline»?",
+      "text": "Как по-английски «журнал»?",
       "options": [
-        {"text": "заголовок", "correct": true},
-        {"text": "статья", "correct": false},
-        {"text": "реклама", "correct": false}
+        {"text": "magazine", "correct": true},
+        {"text": "market", "correct": false},
+        {"text": "message", "correct": false}
       ],
-      "explanation": "«Headline» — заголовок."
+      "explanation": "«Журнал» — magazine. Market — рынок, message — сообщение."
     },
     {
       "type": "multiple",
-      "text": "Какие слова относятся к СМИ? (выбери все верные варианты)",
+      "text": "Что из этого можно читать? (выбери все верные варианты)",
       "options": [
         {"text": "newspaper", "correct": true},
-        {"text": "channel", "correct": true},
-        {"text": "interview", "correct": false},
-        {"text": "magazine", "correct": true},
-        {"text": "advertisement", "correct": false}
+        {"text": "article", "correct": true},
+        {"text": "radio", "correct": false},
+        {"text": "broadcast", "correct": false}
       ],
-      "explanation": "Newspaper, channel, magazine — виды СМИ. Interview и advertisement — не сами СМИ, а форматы/контент внутри них."
+      "explanation": "Читают газету (newspaper) и статью (article). Радио и трансляцию слушают или смотрят."
     },
     {
       "type": "dropdown",
-      "text": "Как назвать общение через интернет-платформы вроде Instagram? ___",
+      "text": "I post photos on ___ every day.",
       "options": [
         {"text": "social media", "correct": true},
         {"text": "newspaper", "correct": false},
         {"text": "radio", "correct": false}
       ],
-      "explanation": "«Social media» — социальные сети."
+      "explanation": "Фото выкладывают в социальных сетях — social media."
     },
     {
       "type": "dropdown",
-      "text": "Слово, обозначающее «реклама» — ___.",
+      "text": "A ___ asks people questions and writes about events.",
       "options": [
-        {"text": "advertisement", "correct": true},
-        {"text": "information", "correct": false},
-        {"text": "broadcast", "correct": false}
+        {"text": "journalist", "correct": true},
+        {"text": "website", "correct": false},
+        {"text": "headline", "correct": false}
       ],
-      "explanation": "«Advertisement» — реклама."
+      "explanation": "Человек, который берёт интервью и пишет о событиях, — journalist."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: трансляция",
-      "answer": "broadcast",
-      "explanation": "«Трансляция» переводится как broadcast."
+      "text": "Впиши английское слово: I watch the ___ on TV every evening. (новости)",
+      "answer": "news",
+      "explanation": "«Новости» — news."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сайт",
-      "answer": "website",
-      "explanation": "«Сайт» переводится как website."
+      "text": "Впиши английское слово: You can find more ___ about the concert online. (информация)",
+      "answer": "information",
+      "explanation": "«Информация» — information."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "article", "right": "статья"},
         {"left": "interview", "right": "интервью"},
-        {"left": "information", "right": "информация"},
+        {"left": "headline", "right": "заголовок"},
+        {"left": "advertisement", "right": "реклама"},
         {"left": "media", "right": "СМИ, медиа"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «news»?",
+      "text": "Как перевести: «Visit our website»?",
       "options": [
-        {"text": "новости", "correct": true},
-        {"text": "журнал", "correct": false},
-        {"text": "радио", "correct": false}
+        {"text": "Зайдите на наш сайт.", "correct": true},
+        {"text": "Посмотрите наш канал.", "correct": false},
+        {"text": "Прочитайте наш журнал.", "correct": false}
       ],
-      "explanation": "«News» — новости."
+      "explanation": "Website — сайт."
     }
   ]
 }

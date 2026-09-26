@@ -2,21 +2,21 @@
   "questions": [
     {
       "type": "single",
-      "text": "Из скольких наций состоит the UK по диалогу?",
+      "text": "Из скольких наций состоит the UK, по диалогу?",
       "options": [
         {"text": "четыре", "correct": true},
         {"text": "три", "correct": false},
         {"text": "две", "correct": false}
       ],
-      "explanation": "Ученик называет четыре нации: England, Scotland, Wales, Northern Ireland."
+      "explanation": "Ученик называет четыре: England, Scotland, Wales и Northern Ireland."
     },
     {
       "type": "single",
-      "text": "Что является флагом Великобритании по диалогу?",
+      "text": "Что является флагом Великобритании, по диалогу?",
       "options": [
         {"text": "the Union Jack", "correct": true},
         {"text": "Big Ben", "correct": false},
-        {"text": "a castle", "correct": false}
+        {"text": "a red bus", "correct": false}
       ],
       "explanation": "Ученик говорит: The Union Jack is the flag."
     },
@@ -25,43 +25,43 @@
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
         {"text": "Big Ben — символ Лондона.", "correct": true},
-        {"text": "London — столица the UK.", "correct": true},
-        {"text": "Перед England нужен артикль the.", "correct": false},
-        {"text": "Перед the United Kingdom нужен артикль the.", "correct": true}
+        {"text": "Лондон — столица.", "correct": true},
+        {"text": "Уэльс не входит в состав the UK.", "correct": false},
+        {"text": "Учитель спрашивает про флаг Франции.", "correct": false}
       ],
-      "explanation": "По диалогу: Big Ben символ Лондона, Лондон — столица, England без артикля, а United Kingdom — с the."
+      "explanation": "Ученик говорит: Big Ben is a famous symbol of London, the capital. Уэльс входит в UK, про Францию речи нет."
     },
     {
       "type": "dropdown",
-      "text": "We say \"___\" England, not \"the England\".",
+      "text": "We visited ___ Edinburgh last year.",
       "options": [
         {"text": "(без артикля)", "correct": true},
         {"text": "the", "correct": false},
         {"text": "a", "correct": false}
       ],
-      "explanation": "Обычные названия стран, включая England, пишутся без артикля."
+      "explanation": "Edinburgh — город, перед названиями городов артикль не нужен."
     },
     {
       "type": "dropdown",
-      "text": "___ United Kingdom consists of four nations.",
+      "text": "My cousin studies in ___ United States.",
       "options": [
-        {"text": "The", "correct": true},
-        {"text": "A", "correct": false},
+        {"text": "the", "correct": true},
+        {"text": "a", "correct": false},
         {"text": "(без артикля)", "correct": false}
       ],
-      "explanation": "Перед United Kingdom нужен the из-за слова Kingdom."
+      "explanation": "В названии есть слово States (объединение штатов), поэтому the."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: столица",
-      "answer": "capital",
-      "explanation": "«Столица» — capital, упоминается в диалоге про Лондон."
+      "text": "Впиши слово: The UK is a ___ — it has a king. (королевство)",
+      "answer": "kingdom",
+      "explanation": "«Королевство» — kingdom."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши название башни-символа Лондона из диалога.",
-      "answer": "Big Ben",
-      "explanation": "В диалоге Big Ben назван famous symbol of London."
+      "text": "Впиши слово: There is an old ___ on the hill in Edinburgh. (замок)",
+      "answer": "castle",
+      "explanation": "«Замок» — castle."
     },
     {
       "type": "matching",
@@ -69,10 +69,10 @@
       "pairs": [
         {"left": "nation", "right": "нация, народ"},
         {"left": "symbol", "right": "символ"},
-        {"left": "flag", "right": "флаг"},
-        {"left": "capital", "right": "столица"}
+        {"left": "red bus", "right": "красный автобус"},
+        {"left": "Great Britain", "right": "Великобритания"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Это слова по теме «Великобритания»."
     }
   ]
 }

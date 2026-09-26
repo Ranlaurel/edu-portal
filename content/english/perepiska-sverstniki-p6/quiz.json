@@ -2,67 +2,67 @@
   "questions": [
     {
       "type": "single",
-      "text": "I usually ___ volleyball after school, but right now I am doing my homework.",
+      "text": "Что Катя обычно делает после школы?",
       "options": [
-        {"text": "play", "correct": true},
-        {"text": "am playing", "correct": false},
-        {"text": "played", "correct": false}
+        {"text": "plays volleyball", "correct": true},
+        {"text": "plays chess", "correct": false},
+        {"text": "goes swimming", "correct": false}
       ],
-      "explanation": "Usually указывает на привычку — Present Simple: play."
+      "explanation": "Катя пишет: I usually play volleyball after school."
     },
     {
       "type": "single",
-      "text": "Right now I ___ my homework.",
+      "text": "Чем Катя занята прямо сейчас, когда пишет письмо?",
       "options": [
-        {"text": "am doing", "correct": true},
-        {"text": "do", "correct": false},
-        {"text": "did", "correct": false}
+        {"text": "She is doing her homework.", "correct": true},
+        {"text": "She is watching TV.", "correct": false},
+        {"text": "She is cooking dinner.", "correct": false}
       ],
-      "explanation": "Right now указывает на действие в момент речи — Present Continuous."
+      "explanation": "Катя пишет: right now I am doing my homework."
     },
     {
       "type": "multiple",
-      "text": "Что обычно пишут в письме другу по переписке? (выбери все верные варианты)",
+      "text": "Какие фразы подходят для конца письма? (выбери все верные варианты)",
       "options": [
-        {"text": "Dear...", "correct": true},
-        {"text": "How are you?", "correct": true},
-        {"text": "the fastest", "correct": false},
-        {"text": "Best wishes", "correct": true},
-        {"text": "must not", "correct": false}
+        {"text": "Best wishes,", "correct": true},
+        {"text": "Love,", "correct": true},
+        {"text": "Dear Anna,", "correct": false},
+        {"text": "Hello, my name is Kate.", "correct": false}
       ],
-      "explanation": "Dear, How are you? и Best wishes — типичные части письма другу по переписке."
+      "explanation": "В конце письма пишут Best wishes или Love. Dear... и знакомство пишут в начале."
     },
     {
       "type": "dropdown",
-      "text": "My favourite hobby ___ drawing.",
+      "text": "Look! My friends ___ football in the yard.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "am", "correct": false},
-        {"text": "are", "correct": false}
+        {"text": "are playing", "correct": true},
+        {"text": "play", "correct": false},
+        {"text": "plays", "correct": false}
       ],
-      "explanation": "Hobby — единственное число (it), используется is."
+      "explanation": "Look! — действие происходит сейчас: Present Continuous, are playing."
     },
     {
       "type": "dropdown",
-      "text": "___ Anna, I'm writing to tell you about my life at the moment.",
+      "text": "My pen friend ___ to me every month.",
       "options": [
-        {"text": "Dear", "correct": true},
-        {"text": "Love", "correct": false},
-        {"text": "Best", "correct": false}
+        {"text": "writes", "correct": true},
+        {"text": "is writing", "correct": false},
+        {"text": "write", "correct": false}
       ],
-      "explanation": "Dear — обращение в начале письма."
+      "explanation": "Every month — регулярное действие, Present Simple. My pen friend — он/она, поэтому writes."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: I usually ___ (play) chess after school.",
-      "answer": "play",
-      "explanation": "Usually указывает на привычку — Present Simple, I без -s."
+      "text": "Впиши форму глагола: My mum ___ (cook) dinner right now.",
+      "answer": "is cooking",
+      "explanation": "Right now — сейчас, Present Continuous: is cooking."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: как ты? (два слова допустимы вместе)",
-      "answer": "How are you",
-      "explanation": "«Как ты?» переводится как How are you?"
+      "text": "Впиши слово: What is your ___ (любимый) subject?",
+      "answer": "favourite",
+      "accepted": ["favourite", "favorite"],
+      "explanation": "«Любимый» — favourite (в американском варианте favorite)."
     },
     {
       "type": "matching",
@@ -71,19 +71,19 @@
         {"left": "Dear Anna,", "right": "обращение в начале"},
         {"left": "How are you?", "right": "вопрос другу"},
         {"left": "Write back soon!", "right": "просьба ответить"},
-        {"left": "Best wishes,", "right": "окончание письма"}
+        {"left": "I'm writing to tell you...", "right": "зачем я пишу письмо"}
       ],
-      "explanation": "Части письма соответствуют по назначению структуре письма другу по переписке."
+      "explanation": "Так устроено письмо Кати: обращение, цель письма, вопрос другу и просьба ответить."
     },
     {
       "type": "single",
-      "text": "My pen friend ___ in another country.",
+      "text": "Какое у Кати любимое хобби?",
       "options": [
-        {"text": "lives", "correct": true},
-        {"text": "is living", "correct": false},
-        {"text": "live", "correct": false}
+        {"text": "drawing", "correct": true},
+        {"text": "reading", "correct": false},
+        {"text": "dancing", "correct": false}
       ],
-      "explanation": "Факт о месте жительства — Present Simple, для he/she/it (pen friend) +s: lives."
+      "explanation": "Катя пишет: My favourite hobby is drawing."
     }
   ]
 }

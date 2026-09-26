@@ -6,83 +6,85 @@
       "options": [
         {"text": "in a flat", "correct": true},
         {"text": "in a house", "correct": false},
-        {"text": "in a garage", "correct": false}
+        {"text": "in a cottage", "correct": false}
       ],
       "explanation": "Люси говорит: We live in a flat."
     },
     {
       "type": "single",
-      "text": "Есть ли сад у Люси?",
+      "text": "Макс спрашивает: «Is there a garden?» Что отвечает Люси?",
       "options": [
         {"text": "No, there isn't.", "correct": true},
         {"text": "Yes, there is.", "correct": false},
         {"text": "Yes, there are.", "correct": false}
       ],
-      "explanation": "Люси отвечает: No, there isn't (сада нет)."
+      "explanation": "Люси отвечает: No, there isn't — сада нет."
     },
     {
       "type": "multiple",
-      "text": "Что есть в квартире Люси, по диалогу? (выбери все верные варианты)",
+      "text": "Какие комнаты Люси называет в своей квартире? (выбери все верные варианты)",
       "options": [
+        {"text": "a living room", "correct": true},
+        {"text": "a bedroom", "correct": true},
         {"text": "a kitchen", "correct": true},
-        {"text": "a garden", "correct": false},
-        {"text": "a garage", "correct": true},
-        {"text": "a sofa", "correct": true}
+        {"text": "a bathroom", "correct": false},
+        {"text": "a dining room", "correct": false}
       ],
-      "explanation": "В диалоге есть кухня, гараж и диван, но нет сада."
+      "explanation": "Люси перечисляет: a living room, a bedroom and a kitchen. Ванную и столовую она не называет."
     },
     {
       "type": "dropdown",
-      "text": "There ___ three rooms in the flat.",
+      "text": "There ___ two windows in my bedroom.",
       "options": [
         {"text": "are", "correct": true},
         {"text": "is", "correct": false},
         {"text": "have", "correct": false}
       ],
-      "explanation": "Three rooms — множественное число: there are."
+      "explanation": "Two windows — множественное число: there are."
     },
     {
       "type": "dropdown",
-      "text": "There ___ a small garage for our car.",
+      "text": "___ there a lamp on your desk?",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
-        {"text": "have", "correct": false}
+        {"text": "Is", "correct": true},
+        {"text": "Are", "correct": false},
+        {"text": "Have", "correct": false}
       ],
-      "explanation": "A garage — единственное число: there is."
+      "explanation": "A lamp — единственное число, вопрос: Is there...?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: There is a big ___ (диван) in the living room.",
-      "answer": "sofa",
-      "explanation": "«Диван» — sofa."
+      "text": "Впиши слово: We need new ___ (мебель) for the kitchen.",
+      "answer": "furniture",
+      "explanation": "«Мебель» — furniture (неисчисляемое слово, без -s)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: There is a ___ with books. (полка)",
-      "answer": "shelf",
-      "explanation": "«Полка» — shelf."
+      "text": "Впиши слово: I put my jacket in the ___ (шкаф для одежды).",
+      "answer": "wardrobe",
+      "accepted": ["wardrobe", "closet"],
+      "explanation": "Шкаф для одежды — wardrobe."
     },
     {
       "type": "matching",
-      "text": "Соедини вопрос с ответом из диалога",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "Is there a garden?", "right": "No, there isn't."},
-        {"left": "Do you live in a house or a flat?", "right": "We live in a flat."},
-        {"left": "What furniture do you have?", "right": "A sofa and a shelf."},
-        {"left": "Is there a garage?", "right": "Yes, there is."}
+        {"left": "sofa", "right": "диван"},
+        {"left": "shelf", "right": "полка"},
+        {"left": "garage", "right": "гараж"},
+        {"left": "house", "right": "дом"}
       ],
-      "explanation": "Проверь по диалогу Макса и Люси."
+      "explanation": "Эти слова встречаются в диалоге Макса и Люси."
     },
     {
       "type": "single",
-      "text": "Сколько комнат в квартире Люси?",
+      "text": "Что стоит на полке в гостиной Люси?",
       "options": [
-        {"text": "three", "correct": true},
-        {"text": "two", "correct": false},
-        {"text": "four", "correct": false}
+        {"text": "books", "correct": true},
+        {"text": "flowers", "correct": false},
+        {"text": "photos", "correct": false}
       ],
-      "explanation": "Люси говорит: There are three rooms."
+      "explanation": "Люси говорит: a shelf with books — полка с книгами."
     }
   ]
 }

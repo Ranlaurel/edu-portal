@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «freckles»?",
+      "text": "Как переводится слово «straight» (о волосах)?",
       "options": [
-        {"text": "веснушки", "correct": true},
-        {"text": "волосы", "correct": false},
-        {"text": "борода", "correct": false}
+        {"text": "прямые", "correct": true},
+        {"text": "длинные", "correct": false},
+        {"text": "тёмные", "correct": false}
       ],
-      "explanation": "«Freckles» — веснушки."
+      "explanation": "«Straight hair» — прямые волосы."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «appearance»?",
+      "text": "Как по-английски «голубоглазый»?",
       "options": [
-        {"text": "внешность", "correct": true},
-        {"text": "характер", "correct": false},
-        {"text": "рост", "correct": false}
+        {"text": "blue-eyed", "correct": true},
+        {"text": "blue-haired", "correct": false},
+        {"text": "dark-eyed", "correct": false}
       ],
-      "explanation": "«Appearance» — внешность."
+      "explanation": "«Голубоглазый» — blue-eyed (blue — голубой, eyes — глаза)."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают волосы? (выбери все верные варианты)",
+      "text": "Какие слова описывают рост и фигуру? (выбери все верные варианты)",
       "options": [
-        {"text": "curly", "correct": true},
-        {"text": "straight", "correct": true},
-        {"text": "slim", "correct": false},
-        {"text": "fair hair", "correct": true},
-        {"text": "well-built", "correct": false}
-      ],
-      "explanation": "Curly, straight, fair hair описывают волосы. Slim и well-built — телосложение."
-    },
-    {
-      "type": "dropdown",
-      "text": "Крепкого телосложения — это ___.",
-      "options": [
+        {"text": "tall", "correct": true},
         {"text": "well-built", "correct": true},
-        {"text": "slim", "correct": false},
-        {"text": "tall", "correct": false}
+        {"text": "hair", "correct": false},
+        {"text": "eyes", "correct": false}
       ],
-      "explanation": "Well-built — крепкого телосложения."
+      "explanation": "Tall — высокий, well-built — крепкого телосложения. Hair и eyes — волосы и глаза."
     },
     {
       "type": "dropdown",
-      "text": "Как по-английски «усы»?",
+      "text": "Father Frost has got a long white ___.",
       "options": [
-        {"text": "moustache", "correct": true},
-        {"text": "beard", "correct": false},
-        {"text": "freckles", "correct": false}
+        {"text": "beard", "correct": true},
+        {"text": "freckles", "correct": false},
+        {"text": "appearance", "correct": false}
       ],
-      "explanation": "Moustache — усы, beard — борода."
+      "explanation": "У Деда Мороза длинная белая борода — beard."
+    },
+    {
+      "type": "dropdown",
+      "text": "She is thin and graceful — she is ___.",
+      "options": [
+        {"text": "slim", "correct": true},
+        {"text": "well-built", "correct": false},
+        {"text": "curly", "correct": false}
+      ],
+      "explanation": "Худенькая и изящная — slim (стройная)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: стройный",
-      "answer": "slim",
-      "explanation": "«Стройный» переводится как slim."
+      "text": "Впиши английское слово: My hair is ___, not straight. (кудрявые)",
+      "answer": "curly",
+      "explanation": "«Кудрявые (волосы)» — curly."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: борода",
-      "answer": "beard",
-      "explanation": "«Борода» — beard."
+      "text": "Впиши английское слово: I have got grey ___. (глаза)",
+      "answer": "eyes",
+      "explanation": "«Глаза» — eyes."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "tall", "right": "высокий"},
-        {"left": "curly", "right": "кудрявые"},
-        {"left": "dark hair", "right": "тёмные волосы"},
-        {"left": "blue-eyed", "right": "голубоглазый"}
+        {"left": "appearance", "right": "внешность"},
+        {"left": "freckles", "right": "веснушки"},
+        {"left": "moustache", "right": "усы"},
+        {"left": "dark hair", "right": "тёмные волосы"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «short» в контексте роста?",
+      "text": "Как переводится «fair hair»?",
       "options": [
-        {"text": "невысокий", "correct": true},
-        {"text": "стройный", "correct": false},
-        {"text": "кудрявый", "correct": false}
+        {"text": "светлые волосы", "correct": true},
+        {"text": "рыжие волосы", "correct": false},
+        {"text": "длинные волосы", "correct": false}
       ],
-      "explanation": "«Short» — невысокий (о росте человека)."
+      "explanation": "«Fair hair» — светлые волосы."
     }
   ]
 }

@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «В моём городе есть парк»?",
+      "text": "Как сказать «В нашем городе есть стадион»?",
       "options": [
-        {"text": "There is a park in my town.", "correct": true},
-        {"text": "There are a park in my town.", "correct": false},
-        {"text": "It has a park in my town.", "correct": false}
+        {"text": "There is a stadium in our town.", "correct": true},
+        {"text": "There are a stadium in our town.", "correct": false},
+        {"text": "It has a stadium in our town.", "correct": false}
       ],
-      "explanation": "A park — единственное число, значит there is."
+      "explanation": "A stadium — единственное число, значит there is."
     },
     {
       "type": "single",
-      "text": "Какое слово используем с неисчисляемым существительным traffic?",
+      "text": "There aren't ___ cafés in our street.",
       "options": [
-        {"text": "much", "correct": true},
-        {"text": "many", "correct": false},
-        {"text": "a few", "correct": false}
+        {"text": "many", "correct": true},
+        {"text": "much", "correct": false},
+        {"text": "a lot", "correct": false}
       ],
-      "explanation": "Traffic — неисчисляемое существительное, поэтому используем much."
+      "explanation": "Cafés — исчисляемое существительное во мн. числе, поэтому many. «A lot» без of перед существительным не употребляется."
     },
     {
       "type": "multiple",
       "text": "Какие предложения построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "There are many ancient buildings in the centre.", "correct": true},
-        {"text": "There isn't much industry in my town.", "correct": true},
-        {"text": "There are much people in the city.", "correct": false},
-        {"text": "There are a lot of people in the city centre.", "correct": true},
-        {"text": "There is many parks in my town.", "correct": false}
+        {"text": "There are a lot of trees in the park.", "correct": true},
+        {"text": "There isn't much noise at night.", "correct": true},
+        {"text": "There is many shops in the centre.", "correct": false},
+        {"text": "There are much cars in the street.", "correct": false},
+        {"text": "There are many bridges in St Petersburg.", "correct": true}
       ],
-      "explanation": "С people (исчисляемое) нужно many, не much. С parks (множественное) нужно there are, не there is."
+      "explanation": "Shops — мн. число: there are many shops. Cars — исчисляемое: many cars, а не much. Noise — неисчисляемое, поэтому much."
     },
     {
       "type": "dropdown",
-      "text": "___ a lot of modern buildings in my city. (there is / there are)",
+      "text": "___ a big shopping centre near my house.",
       "options": [
-        {"text": "There are", "correct": true},
-        {"text": "There is", "correct": false},
+        {"text": "There is", "correct": true},
+        {"text": "There are", "correct": false},
         {"text": "Is there", "correct": false}
       ],
-      "explanation": "Buildings — множественное число, значит there are."
+      "explanation": "A shopping centre — единственное число, и это утверждение: There is."
     },
     {
       "type": "dropdown",
-      "text": "There isn't ___ traffic in the village.",
+      "text": "There isn't ___ snow in our town in winter.",
       "options": [
         {"text": "much", "correct": true},
         {"text": "many", "correct": false},
-        {"text": "a lot", "correct": false}
+        {"text": "a few", "correct": false}
       ],
-      "explanation": "Traffic — неисчисляемое существительное, используем much."
+      "explanation": "Snow (снег) — неисчисляемое существительное, поэтому much."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: There are ___ parks in my city. (many/much)",
+      "text": "Впиши many или much: There are ___ bus stops in our street.",
       "answer": "many",
-      "explanation": "Parks — исчисляемое существительное во множественном числе, используем many."
+      "explanation": "Bus stops — исчисляемое существительное во мн. числе, поэтому many."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: ___ a park in my town. (There is/There are)",
-      "answer": "There is",
-      "explanation": "A park — единственное число, значит There is."
+      "text": "Впиши There is или There are: ___ a lot of flowers in the square.",
+      "answer": "There are",
+      "explanation": "A lot of flowers — множественное число, значит There are."
     },
     {
       "type": "matching",
-      "text": "Соедини слово количества с типом существительного",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "many", "right": "исчисляемые (buildings, people)"},
-        {"left": "much", "right": "неисчисляемые (traffic, industry)"},
-        {"left": "a lot of", "right": "любые существительные"},
-        {"left": "there is", "right": "единственное число"}
+        {"left": "There are many museums in Moscow.", "right": "В Москве много музеев."},
+        {"left": "There isn't much rain here in summer.", "right": "Летом здесь немного дождей."},
+        {"left": "There is a river in our town.", "right": "В нашем городе есть река."},
+        {"left": "There are a lot of tourists in July.", "right": "В июле много туристов."}
       ],
-      "explanation": "Many — с исчисляемыми, much — с неисчисляемыми, a lot of — универсально."
+      "explanation": "Many — с исчисляемыми, much — с неисчисляемыми, a lot of — с любыми существительными."
     }
   ]
 }

@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери верную форму: We ___ at school now.",
+      "text": "Выбери верную форму: You ___ my best friend.",
       "options": [
         {"text": "are", "correct": true},
         {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "С местоимением we используется форма are."
+      "explanation": "С you используется форма are."
     },
     {
       "type": "single",
-      "text": "Как правильно: «Она учитель»?",
+      "text": "Как правильно: «Он ученик»?",
       "options": [
-        {"text": "She is a teacher.", "correct": true},
-        {"text": "She are a teacher.", "correct": false},
-        {"text": "She am a teacher.", "correct": false}
+        {"text": "He is a pupil.", "correct": true},
+        {"text": "He are a pupil.", "correct": false},
+        {"text": "He am a pupil.", "correct": false}
       ],
-      "explanation": "С she используется форма is."
+      "explanation": "С he используется форма is."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях глагол to be использован верно? (выбери все верные варианты)",
       "options": [
-        {"text": "I am a pupil.", "correct": true},
-        {"text": "You is a pupil.", "correct": false},
-        {"text": "They are pupils.", "correct": true},
-        {"text": "He are a teacher.", "correct": false},
-        {"text": "It is difficult.", "correct": true}
+        {"text": "I am in class 5.", "correct": true},
+        {"text": "You is late.", "correct": false},
+        {"text": "The books are new.", "correct": true},
+        {"text": "She are ten.", "correct": false},
+        {"text": "English is interesting.", "correct": true}
       ],
-      "explanation": "I — am, you/we/they — are, he/she/it — is."
+      "explanation": "I — am, you/we/they (и мн. ч.) — are, he/she/it (и ед. ч.) — is."
     },
     {
       "type": "dropdown",
-      "text": "My favourite subject ___ Art.",
+      "text": "My favourite subjects ___ English and PE.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "Subject — единственное число, поэтому используется is."
+      "explanation": "Subjects — множественное число, поэтому are."
     },
     {
       "type": "dropdown",
-      "text": "Maths ___ difficult for me. (отрицание)",
+      "text": "History ___ boring. (отрицание)",
       "options": [
         {"text": "isn't", "correct": true},
         {"text": "aren't", "correct": false},
         {"text": "don't", "correct": false}
       ],
-      "explanation": "Отрицательная форма от is — isn't."
+      "explanation": "History — единственное число, отрицание isn't."
     },
     {
       "type": "fill_blank",
-      "text": "Задай вопрос: He is a teacher. → ___ he a teacher?",
+      "text": "Задай вопрос: Your sister is at school. → ___ your sister at school?",
       "answer": "Is",
-      "explanation": "В вопросе глагол to be выходит на первое место: Is he...?"
+      "explanation": "В вопросе глагол to be выходит на первое место: Is your sister...?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: They ___ (be) at home now.",
-      "answer": "are",
-      "explanation": "С they используется форма are."
+      "text": "Впиши правильную форму: I ___ (be) eleven.",
+      "answer": "am",
+      "explanation": "С I используется форма am."
     },
     {
       "type": "matching",
-      "text": "Соедини местоимение с правильной формой to be",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I", "right": "am"},
-        {"left": "she", "right": "is"},
-        {"left": "we", "right": "are"},
-        {"left": "it", "right": "is"}
+        {"left": "We are in the classroom.", "right": "Мы в классе."},
+        {"left": "Is she your teacher?", "right": "Она твоя учительница?"},
+        {"left": "I am not tired.", "right": "Я не устал."},
+        {"left": "Music is fun.", "right": "Музыка — это весело."}
       ],
-      "explanation": "I — am; he/she/it — is; we/you/they — are."
+      "explanation": "I — am, he/she/it — is, we/you/they — are; в вопросе to be стоит первым."
     },
     {
       "type": "single",
-      "text": "Выбери верное отрицание: They ___ at school today.",
+      "text": "Выбери верное отрицание: The pupils ___ in the gym now.",
       "options": [
         {"text": "aren't", "correct": true},
         {"text": "isn't", "correct": false},
         {"text": "am not", "correct": false}
       ],
-      "explanation": "С they используется отрицательная форма aren't."
+      "explanation": "Pupils = they, отрицание aren't."
     }
   ]
 }

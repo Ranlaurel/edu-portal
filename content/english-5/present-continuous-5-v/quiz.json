@@ -2,45 +2,44 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «swim»?",
+      "text": "Как переводится слово «sleep»?",
       "options": [
-        {"text": "плавать", "correct": true},
-        {"text": "бегать", "correct": false},
-        {"text": "спать", "correct": false}
+        {"text": "спать", "correct": true},
+        {"text": "плавать", "correct": false},
+        {"text": "бегать", "correct": false}
       ],
-      "explanation": "«Swim» — плавать."
+      "explanation": "«Sleep» — спать."
     },
     {
       "type": "single",
-      "text": "Как по-английски «готовить (еду)»?",
+      "text": "Как по-английски «читать»?",
       "options": [
-        {"text": "cook", "correct": true},
-        {"text": "run", "correct": false},
-        {"text": "write", "correct": false}
+        {"text": "read", "correct": true},
+        {"text": "write", "correct": false},
+        {"text": "look", "correct": false}
       ],
-      "explanation": "«Готовить (еду)» — cook."
+      "explanation": "«Читать» — read."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают действия? (выбери все верные варианты)",
+      "text": "Какие слова указывают на время «сейчас», а не на действие? (выбери все верные варианты)",
       "options": [
-        {"text": "run", "correct": true},
-        {"text": "now", "correct": false},
-        {"text": "sleep", "correct": true},
-        {"text": "at the moment", "correct": false},
-        {"text": "write", "correct": true}
+        {"text": "now", "correct": true},
+        {"text": "at the moment", "correct": true},
+        {"text": "dance", "correct": false},
+        {"text": "sing", "correct": false}
       ],
-      "explanation": "Run, sleep, write — глаголы действия. Now и at the moment — слова времени."
+      "explanation": "Now (сейчас) и at the moment (в данный момент) — слова времени. Dance и sing — действия."
     },
     {
       "type": "dropdown",
-      "text": "«В данный момент» по-английски — это ___.",
+      "text": "«Плавать» по-английски — это ___.",
       "options": [
-        {"text": "at the moment", "correct": true},
-        {"text": "now", "correct": false},
-        {"text": "every day", "correct": false}
+        {"text": "swim", "correct": true},
+        {"text": "run", "correct": false},
+        {"text": "sleep", "correct": false}
       ],
-      "explanation": "«В данный момент» — at the moment."
+      "explanation": "«Плавать» — swim."
     },
     {
       "type": "dropdown",
@@ -54,26 +53,26 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: читать",
-      "answer": "read",
-      "explanation": "«Читать» переводится как read."
+      "text": "Впиши перевод одним английским словом: бегать",
+      "answer": "run",
+      "explanation": "«Бегать» — run."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сейчас",
-      "answer": "now",
-      "explanation": "«Сейчас» переводится как now."
+      "text": "Впиши перевод одним английским словом: готовить (еду)",
+      "answer": "cook",
+      "explanation": "«Готовить (еду)» — cook."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "play", "right": "играть"},
-        {"left": "look", "right": "смотреть, выглядеть"},
         {"left": "write", "right": "писать"},
-        {"left": "watch TV", "right": "смотреть телевизор"}
+        {"left": "watch TV", "right": "смотреть телевизор"},
+        {"left": "draw", "right": "рисовать"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     },
     {
       "type": "single",

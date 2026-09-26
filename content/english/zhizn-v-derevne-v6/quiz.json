@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится фраза «fresh air»?",
+      "text": "Как переводится слово «field»?",
       "options": [
-        {"text": "свежий воздух", "correct": true},
-        {"text": "чистая вода", "correct": false},
-        {"text": "тихая деревня", "correct": false}
+        {"text": "поле", "correct": true},
+        {"text": "гора", "correct": false},
+        {"text": "река", "correct": false}
       ],
-      "explanation": "«Fresh air» — свежий воздух."
+      "explanation": "«Field» — поле."
+    },
+    {
+      "type": "single",
+      "text": "Как по-английски «природа»?",
+      "options": [
+        {"text": "nature", "correct": true},
+        {"text": "nation", "correct": false},
+        {"text": "nurse", "correct": false}
+      ],
+      "explanation": "«Природа» — nature. Nation — нация, nurse — медсестра."
+    },
+    {
+      "type": "multiple",
+      "text": "Что обычно можно увидеть в деревне? (выбери все верные варианты)",
+      "options": [
+        {"text": "farm", "correct": true},
+        {"text": "garden", "correct": true},
+        {"text": "skyscraper", "correct": false},
+        {"text": "underground", "correct": false}
+      ],
+      "explanation": "В деревне есть ферма (farm) и огород (garden). Небоскрёбы и метро — в больших городах."
+    },
+    {
+      "type": "dropdown",
+      "text": "There are a lot of tall trees in the ___ near our village.",
+      "options": [
+        {"text": "forest", "correct": true},
+        {"text": "lake", "correct": false},
+        {"text": "neighbour", "correct": false}
+      ],
+      "explanation": "Много деревьев — в лесу: forest."
+    },
+    {
+      "type": "dropdown",
+      "text": "We swim in the ___ in summer.",
+      "options": [
+        {"text": "lake", "correct": true},
+        {"text": "field", "correct": false},
+        {"text": "forest", "correct": false}
+      ],
+      "explanation": "Плавают в озере — lake."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: My grandparents live in a small ___. (деревня)",
+      "answer": "village",
+      "explanation": "«Деревня» — village."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши английское слово: It's very ___ here — no cars, no noise. (тихо)",
+      "answer": "quiet",
+      "explanation": "«Тихий» — quiet."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "fresh air", "right": "свежий воздух"},
+        {"left": "peaceful", "right": "спокойный"},
+        {"left": "animal", "right": "животное"},
+        {"left": "neighbour", "right": "сосед"}
+      ],
+      "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
       "text": "Как переводится слово «crowded»?",
       "options": [
         {"text": "многолюдный", "correct": true},
-        {"text": "тихий", "correct": false},
-        {"text": "спокойный", "correct": false}
+        {"text": "пустой", "correct": false},
+        {"text": "маленький", "correct": false}
       ],
-      "explanation": "«Crowded» — многолюдный."
-    },
-    {
-      "type": "multiple",
-      "text": "Какие слова описывают деревенскую жизнь положительно? (выбери все верные варианты)",
-      "options": [
-        {"text": "quiet", "correct": true},
-        {"text": "peaceful", "correct": true},
-        {"text": "noisy", "correct": false},
-        {"text": "crowded", "correct": false},
-        {"text": "nature", "correct": true}
-      ],
-      "explanation": "Quiet, peaceful, nature — обычно связаны с приятной деревенской жизнью. Noisy и crowded — скорее про город."
-    },
-    {
-      "type": "dropdown",
-      "text": "Место, где выращивают животных и растения — это ___.",
-      "options": [
-        {"text": "farm", "correct": true},
-        {"text": "lake", "correct": false},
-        {"text": "field", "correct": false}
-      ],
-      "explanation": "«Farm» — ферма."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как назвать человека, который живёт рядом? ___",
-      "options": [
-        {"text": "neighbour", "correct": true},
-        {"text": "animal", "correct": false},
-        {"text": "nature", "correct": false}
-      ],
-      "explanation": "«Neighbour» — сосед."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сельская местность",
-      "answer": "countryside",
-      "explanation": "«Сельская местность» переводится как countryside."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: спокойный",
-      "answer": "peaceful",
-      "explanation": "«Спокойный» переводится как peaceful."
-    },
-    {
-      "type": "matching",
-      "text": "Соедини английское слово с переводом",
-      "pairs": [
-        {"left": "field", "right": "поле"},
-        {"left": "lake", "right": "озеро"},
-        {"left": "garden", "right": "сад, огород"},
-        {"left": "nature", "right": "природа"}
-      ],
-      "explanation": "Проверь по таблице слов из урока."
-    },
-    {
-      "type": "single",
-      "text": "Как переводится слово «noisy»?",
-      "options": [
-        {"text": "шумный", "correct": true},
-        {"text": "тихий", "correct": false},
-        {"text": "мирный", "correct": false}
-      ],
-      "explanation": "«Noisy» — шумный."
+      "explanation": "«Crowded» — многолюдный (crowd — толпа)."
     }
   ]
 }

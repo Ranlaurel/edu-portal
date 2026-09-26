@@ -2,87 +2,86 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какой артикль нужен перед словом «apple»?",
+      "text": "Какой артикль нужен перед словом «orange» (апельсин), если говорим о нём впервые?",
       "options": [
         {"text": "an", "correct": true},
         {"text": "a", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "без артикля", "correct": false}
       ],
-      "explanation": "Apple начинается с гласного звука, поэтому an."
+      "explanation": "Orange начинается с гласного звука [о], поэтому ставим an: an orange."
     },
     {
       "type": "single",
-      "text": "Какой артикль нужен перед словом «student»?",
+      "text": "Как правильно сказать «У меня есть кошка»?",
       "options": [
-        {"text": "a", "correct": true},
-        {"text": "an", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "I have got a cat.", "correct": true},
+        {"text": "I have got an cat.", "correct": false},
+        {"text": "I have got cat.", "correct": false}
       ],
-      "explanation": "Student начинается с согласного звука, поэтому a."
+      "explanation": "Cat начинается с согласного звука [к], поэтому a. Без артикля исчисляемое существительное в единственном числе не употребляется."
     },
     {
       "type": "multiple",
       "text": "Перед какими словами нужен артикль «an»? (выбери все верные варианты)",
       "options": [
-        {"text": "orange", "correct": true},
-        {"text": "hour", "correct": true},
-        {"text": "student", "correct": false},
-        {"text": "umbrella", "correct": true}
+        {"text": "umbrella", "correct": true},
+        {"text": "eye", "correct": true},
+        {"text": "house", "correct": false},
+        {"text": "arm", "correct": true},
+        {"text": "dog", "correct": false}
       ],
-      "explanation": "Orange, hour (h не читается), umbrella начинаются с гласного звука. Student — с согласного."
+      "explanation": "Umbrella, eye, arm начинаются с гласного звука — an. House начинается со звука [h] (h здесь читается), dog — с согласного, поэтому a."
     },
     {
       "type": "dropdown",
-      "text": "I have got ___ egg.",
+      "text": "My mum is ___ teacher.",
       "options": [
-        {"text": "an", "correct": true},
-        {"text": "a", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "a", "correct": true},
+        {"text": "an", "correct": false}
       ],
-      "explanation": "Egg начинается с гласного звука, поэтому an."
+      "explanation": "Teacher начинается с согласного звука [т], поэтому a."
     },
     {
       "type": "dropdown",
-      "text": "This is ___ umbrella.",
+      "text": "Can I have ___ ice cream, please?",
       "options": [
         {"text": "an", "correct": true},
-        {"text": "a", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "a", "correct": false}
       ],
-      "explanation": "Umbrella начинается с гласного звука, поэтому an."
+      "explanation": "Ice cream начинается с гласного звука [ай], поэтому an."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши артикль: ___ hour (час, буква h не читается).",
+      "text": "Впиши артикль a или an: She has got ___ uncle in Moscow.",
       "answer": "an",
-      "explanation": "Hour начинается с гласного звука (h не читается), поэтому an."
+      "explanation": "Uncle начинается с гласного звука [а], поэтому an."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: зонт",
-      "answer": "umbrella",
-      "explanation": "«Зонт» переводится как umbrella."
+      "text": "Впиши перевод одним английским словом: яйцо",
+      "answer": "egg",
+      "explanation": "«Яйцо» — egg (с артиклем: an egg, т.к. начинается с гласного звука)."
     },
     {
       "type": "matching",
-      "text": "Соедини слово с нужным артиклем",
+      "text": "Соедини слово с артиклем и перевод",
       "pairs": [
-        {"left": "apple", "right": "an"},
-        {"left": "student", "right": "a"},
-        {"left": "orange", "right": "an"},
-        {"left": "egg", "right": "an"}
+        {"left": "an apple", "right": "яблоко"},
+        {"left": "an hour", "right": "час"},
+        {"left": "a student", "right": "ученик"},
+        {"left": "a book", "right": "книга"}
       ],
-      "explanation": "An — перед гласным звуком, a — перед согласным."
+      "explanation": "Apple и hour (h не читается) начинаются с гласного звука — an; student и book — с согласного — a."
     },
     {
       "type": "single",
-      "text": "Переведи слово «hour».",
+      "text": "В каком варианте артикль стоит верно?",
       "options": [
-        {"text": "час", "correct": true},
-        {"text": "яйцо", "correct": false},
-        {"text": "ученик", "correct": false}
+        {"text": "an elephant", "correct": true},
+        {"text": "a elephant", "correct": false},
+        {"text": "an banana", "correct": false}
       ],
-      "explanation": "«Hour» — час."
+      "explanation": "Elephant начинается с гласного звука — an elephant. Banana начинается с согласного — a banana."
     }
   ]
 }

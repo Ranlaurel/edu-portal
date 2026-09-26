@@ -2,11 +2,11 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какой предлог используется с видом транспорта: «by ___»?",
+      "text": "Как правильно сказать «Мы едем на машине»?",
       "options": [
-        {"text": "by car", "correct": true},
-        {"text": "by a car", "correct": false},
-        {"text": "by the car", "correct": false}
+        {"text": "We go by car.", "correct": true},
+        {"text": "We go by the car.", "correct": false},
+        {"text": "We go by a car.", "correct": false}
       ],
       "explanation": "После by транспорт используется без артикля: by car."
     },
@@ -18,23 +18,22 @@
         {"text": "by foot", "correct": false},
         {"text": "in foot", "correct": false}
       ],
-      "explanation": "«Пешком» — исключение, говорим on foot, без предлога by."
+      "explanation": "«Пешком» — исключение: on foot, без предлога by."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях предлог by использован верно? (выбери все верные варианты)",
       "options": [
-        {"text": "I go to school by bus", "correct": true},
-        {"text": "She travels by a train", "correct": false},
-        {"text": "We go by plane", "correct": true},
-        {"text": "He goes by the car", "correct": false},
-        {"text": "They travel by taxi", "correct": true}
+        {"text": "We go to the village by bus.", "correct": true},
+        {"text": "Kate goes to school by tram.", "correct": true},
+        {"text": "She travels by a boat.", "correct": false},
+        {"text": "He goes to work by the metro.", "correct": false}
       ],
-      "explanation": "После by транспорт идёт без артикля: by bus, by plane, by taxi."
+      "explanation": "После by транспорт идёт без артикля: by boat, by metro."
     },
     {
       "type": "dropdown",
-      "text": "She travels ___ train.",
+      "text": "Tourists often travel ___ plane.",
       "options": [
         {"text": "by", "correct": true},
         {"text": "on", "correct": false},
@@ -44,36 +43,36 @@
     },
     {
       "type": "dropdown",
-      "text": "My friend goes to school ___ (пешком).",
+      "text": "I don't like buses, so I go to school ___ (на велосипеде).",
       "options": [
-        {"text": "on foot", "correct": true},
-        {"text": "by foot", "correct": false},
-        {"text": "by walk", "correct": false}
+        {"text": "by bike", "correct": true},
+        {"text": "by a bike", "correct": false},
+        {"text": "with bike", "correct": false}
       ],
-      "explanation": "Пешком — исключение: on foot."
+      "explanation": "By + транспорт без артикля: by bike."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши предлог: I go to school ___ bus.",
+      "text": "Впиши предлог: My uncle goes to work ___ taxi.",
       "answer": "by",
-      "explanation": "Способ передвижения выражается предлогом by."
+      "explanation": "Способ передвижения выражается предлогом by: by taxi."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши фразу: My friend goes to school ___ (пешком, 2 слова).",
-      "answer": "on foot",
-      "explanation": "«Пешком» — on foot."
+      "text": "Впиши два слова (на поезде): We go to St Petersburg ___.",
+      "answer": "by train",
+      "explanation": "«На поезде» — by train (без артикля)."
     },
     {
       "type": "matching",
       "text": "Соедини фразу с переводом",
       "pairs": [
-        {"left": "by car", "right": "на машине"},
-        {"left": "by train", "right": "на поезде"},
         {"left": "by plane", "right": "на самолёте"},
-        {"left": "on foot", "right": "пешком"}
+        {"left": "by ship", "right": "на корабле"},
+        {"left": "by motorbike", "right": "на мотоцикле"},
+        {"left": "by helicopter", "right": "на вертолёте"}
       ],
-      "explanation": "Проверь по правилу из урока: by + транспорт, но on foot."
+      "explanation": "By + вид транспорта без артикля."
     }
   ]
 }

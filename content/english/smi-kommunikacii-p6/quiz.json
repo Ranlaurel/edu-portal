@@ -8,71 +8,72 @@
         {"text": "рекламу", "correct": false},
         {"text": "прогноз погоды", "correct": false}
       ],
-      "explanation": "Дэн говорит: I read an interesting article about a famous journalist."
+      "explanation": "Дэн говорит: I read an interesting article... about a famous journalist."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «headline»?",
+      "text": "Где ещё можно найти эту информацию, по словам Сары?",
       "options": [
-        {"text": "заголовок", "correct": true},
-        {"text": "статья", "correct": false},
-        {"text": "канал", "correct": false}
+        {"text": "on the website", "correct": true},
+        {"text": "on the radio", "correct": false},
+        {"text": "in a magazine", "correct": false}
       ],
-      "explanation": "«Headline» — заголовок."
+      "explanation": "Сара говорит: You can also find that information on the website."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "Информацию можно найти на сайте.", "correct": true},
-        {"text": "Канал взял интервью у журналистки.", "correct": true},
-        {"text": "Дэн уверен, что новость правдива.", "correct": false},
-        {"text": "Дэн, возможно, посмотрит трансляцию.", "correct": true}
+        {"text": "Канал вчера взял интервью у журналистки.", "correct": true},
+        {"text": "Дэн сомневается, что новость правдива.", "correct": true},
+        {"text": "Сара работает журналисткой.", "correct": false},
+        {"text": "Дэн прочитал статью в журнале.", "correct": false}
       ],
-      "explanation": "По диалогу: информация есть на website, был interview на канале, Дэн не уверен в новости (might not be true), и говорит may watch that broadcast."
+      "explanation": "В диалоге: the channel did a big interview with her yesterday; This news might not be true. Статья была в газете (newspaper), а про работу Сары ничего не сказано."
     },
     {
       "type": "dropdown",
-      "text": "This news ___ not be true.",
+      "text": "You ___ listen to the news on the radio every hour.",
+      "options": [
+        {"text": "can", "correct": true},
+        {"text": "cans", "correct": false},
+        {"text": "can to", "correct": false}
+      ],
+      "explanation": "Can не меняет форму, после него глагол без to."
+    },
+    {
+      "type": "dropdown",
+      "text": "I'm not sure yet. I ___ buy that magazine.",
       "options": [
         {"text": "might", "correct": true},
-        {"text": "can", "correct": false},
-        {"text": "must", "correct": false}
-      ],
-      "explanation": "Might выражает неуверенную возможность — Дэн сомневается в новости."
-    },
-    {
-      "type": "dropdown",
-      "text": "I ___ watch that broadcast tonight (не уверен точно).",
-      "options": [
-        {"text": "may", "correct": true},
         {"text": "must", "correct": false},
         {"text": "can't", "correct": false}
       ],
-      "explanation": "May выражает возможность, здесь используется как в диалоге."
+      "explanation": "Говорящий не уверен — неуверенная возможность: might."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: интервью",
-      "answer": "interview",
-      "explanation": "«Интервью» — interview, упоминается в диалоге."
+      "text": "Впиши слово: There is a funny ___ (реклама) on TV.",
+      "answer": "advertisement",
+      "accepted": ["advertisement", "advert", "ad"],
+      "explanation": "«Реклама» — advertisement (коротко advert, ad)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: сайт",
-      "answer": "website",
-      "explanation": "«Сайт» — website, упоминается в диалоге."
+      "text": "Впиши слово: I listen to music on the ___ in the car. (радио)",
+      "answer": "radio",
+      "explanation": "«Радио» — radio."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "article", "right": "статья"},
-        {"left": "journalist", "right": "журналист"},
+        {"left": "headline", "right": "заголовок"},
+        {"left": "social media", "right": "социальные сети"},
         {"left": "broadcast", "right": "трансляция"},
-        {"left": "channel", "right": "канал"}
+        {"left": "magazine", "right": "журнал"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Это слова по теме «СМИ»."
     }
   ]
 }

@@ -12,29 +12,28 @@
     },
     {
       "type": "single",
-      "text": "Как переводится слово «ago»?",
+      "text": "Как переводится слово «walk»?",
       "options": [
-        {"text": "назад", "correct": true},
-        {"text": "снова", "correct": false},
-        {"text": "потом", "correct": false}
+        {"text": "гулять", "correct": true},
+        {"text": "смотреть", "correct": false},
+        {"text": "убирать", "correct": false}
       ],
-      "explanation": "«Ago» — назад (используется после срока: two days ago)."
+      "explanation": "«Walk» — гулять."
     },
     {
       "type": "multiple",
-      "text": "Какие слова показывают прошедшее время? (выбери все верные варианты)",
+      "text": "Какие выражения показывают прошедшее время? (выбери все верные варианты)",
       "options": [
-        {"text": "yesterday", "correct": true},
+        {"text": "last month", "correct": true},
+        {"text": "last summer", "correct": true},
         {"text": "every day", "correct": false},
-        {"text": "last week", "correct": true},
-        {"text": "tomorrow", "correct": false},
-        {"text": "ago", "correct": true}
+        {"text": "tomorrow", "correct": false}
       ],
-      "explanation": "Yesterday, last week, ago — маркеры прошедшего времени."
+      "explanation": "Last month (в прошлом месяце) и last summer (прошлым летом) — маркеры прошедшего времени. Every day — привычка, tomorrow — завтра."
     },
     {
       "type": "dropdown",
-      "text": "We visited grandmother ___ (на прошлой неделе).",
+      "text": "We cooked pizza ___ (на прошлой неделе).",
       "options": [
         {"text": "last week", "correct": true},
         {"text": "every week", "correct": false},
@@ -44,36 +43,36 @@
     },
     {
       "type": "dropdown",
-      "text": "She watched a film two days ___ (назад).",
+      "text": "Tom phoned me an hour ___ (назад).",
       "options": [
         {"text": "ago", "correct": true},
         {"text": "before", "correct": false},
         {"text": "last", "correct": false}
       ],
-      "explanation": "«Назад» после срока — ago."
+      "explanation": "«Назад» после срока — ago: an hour ago."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: убирать",
       "answer": "clean",
-      "explanation": "«Убирать» переводится как clean."
+      "explanation": "«Убирать» — clean."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: посещать",
       "answer": "visit",
-      "explanation": "«Посещать» переводится как visit."
+      "explanation": "«Посещать» — visit."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "yesterday", "right": "вчера"},
-        {"left": "walk", "right": "гулять"},
+        {"left": "play", "right": "играть"},
         {"left": "watch", "right": "смотреть"},
-        {"left": "play", "right": "играть"}
+        {"left": "help", "right": "помогать"},
+        {"left": "open", "right": "открывать"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Все эти глаголы правильные: в Past Simple получают -ed (played, watched, helped, opened)."
     }
   ]
 }

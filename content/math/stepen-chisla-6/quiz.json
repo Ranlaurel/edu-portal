@@ -2,47 +2,47 @@
   "questions": [
     {
       "type": "single",
-      "text": "Чему равно 7³?",
+      "text": "Чему равно 5³?",
       "options": [
-        {"text": "343", "correct": true},
-        {"text": "21", "correct": false},
-        {"text": "49", "correct": false},
-        {"text": "147", "correct": false}
+        {"text": "125", "correct": true},
+        {"text": "15", "correct": false},
+        {"text": "25", "correct": false},
+        {"text": "75", "correct": false}
       ],
-      "explanation": "7³ = 7 × 7 × 7 = 49 × 7 = 343."
+      "explanation": "5³ = 5 × 5 × 5 = 25 × 5 = 125."
     },
     {
       "type": "single",
-      "text": "Чему равно 2⁵?",
+      "text": "Чему равно 2⁶?",
       "options": [
-        {"text": "32", "correct": true},
-        {"text": "10", "correct": false},
-        {"text": "25", "correct": false},
-        {"text": "16", "correct": false}
+        {"text": "64", "correct": true},
+        {"text": "12", "correct": false},
+        {"text": "36", "correct": false},
+        {"text": "32", "correct": false}
       ],
-      "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
+      "explanation": "2⁶ = 2 × 2 × 2 × 2 × 2 × 2 = 64."
     },
     {
       "type": "multiple",
       "text": "Какие равенства верны? (выбери все верные варианты)",
       "options": [
-        {"text": "5² = 25", "correct": true},
-        {"text": "10⁰ = 1", "correct": true},
-        {"text": "3³ = 9", "correct": false},
-        {"text": "9¹ = 9", "correct": true}
+        {"text": "11² = 121", "correct": true},
+        {"text": "7⁰ = 1", "correct": true},
+        {"text": "2³ = 6", "correct": false},
+        {"text": "14¹ = 14", "correct": true}
       ],
-      "explanation": "5² = 25, 10⁰ = 1 (любое число, кроме 0, в нулевой степени равно 1), 9¹ = 9. А 3³ = 3×3×3 = 27, а не 9."
+      "explanation": "11² = 121, 7⁰ = 1 (любое число, кроме 0, в нулевой степени равно 1), 14¹ = 14. А 2³ = 2×2×2 = 8, а не 6."
     },
     {
       "type": "multiple",
-      "text": "Какие из этих значений равны 16? (выбери все верные варианты)",
+      "text": "Какие из этих значений равны 81? (выбери все верные варианты)",
       "options": [
-        {"text": "2⁴", "correct": true},
-        {"text": "4²", "correct": true},
-        {"text": "16¹", "correct": true},
-        {"text": "8²", "correct": false}
+        {"text": "3⁴", "correct": true},
+        {"text": "9²", "correct": true},
+        {"text": "81¹", "correct": true},
+        {"text": "8¹", "correct": false}
       ],
-      "explanation": "2⁴ = 16, 4² = 16, 16¹ = 16. А 8² = 64, это не 16."
+      "explanation": "3⁴ = 3×3×3×3 = 81, 9² = 81, 81¹ = 81. А 8¹ = 8, это не 81."
     },
     {
       "type": "dropdown",
@@ -66,26 +66,26 @@
     },
     {
       "type": "fill_blank",
-      "text": "Вычисли 6². Впиши только число.",
-      "answer": "36",
-      "explanation": "6² = 6 × 6 = 36."
+      "text": "Вычисли 12². Впиши только число.",
+      "answer": "144",
+      "explanation": "12² = 12 × 12 = 144."
     },
     {
       "type": "fill_blank",
-      "text": "Вычисли 3⁴. Впиши только число.",
-      "answer": "81",
-      "explanation": "3⁴ = 3 × 3 × 3 × 3 = 81."
+      "text": "Вычисли 10³. Впиши только число.",
+      "answer": "1000",
+      "explanation": "10³ = 10 × 10 × 10 = 1000."
     },
     {
       "type": "matching",
       "text": "Соедини степень с её значением",
       "pairs": [
-        {"left": "4³", "right": "64"},
-        {"left": "10⁰", "right": "1"},
-        {"left": "2⁵", "right": "32"},
-        {"left": "9¹", "right": "9"}
+        {"left": "6³", "right": "216"},
+        {"left": "20⁰", "right": "1"},
+        {"left": "2⁷", "right": "128"},
+        {"left": "25¹", "right": "25"}
       ],
-      "explanation": "4³=4×4×4=64, 10⁰=1 по определению, 2⁵=2×2×2×2×2=32, 9¹=9."
+      "explanation": "6³=6×6×6=216, 20⁰=1 по определению, 2⁷=2×2×2×2×2×2×2=128, 25¹=25."
     }
   ]
 }

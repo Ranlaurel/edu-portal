@@ -2,39 +2,38 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «ship»?",
+      "text": "Как переводится слово «plane»?",
       "options": [
-        {"text": "корабль", "correct": true},
+        {"text": "самолёт", "correct": true},
         {"text": "поезд", "correct": false},
-        {"text": "самолёт", "correct": false}
+        {"text": "корабль", "correct": false}
       ],
-      "explanation": "«Ship» — корабль."
+      "explanation": "«Plane» — самолёт."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «это такси»?",
+      "text": "Как правильно сказать «Это автобус»?",
       "options": [
-        {"text": "This is a taxi", "correct": true},
-        {"text": "This a taxi", "correct": false},
-        {"text": "This are a taxi", "correct": false}
+        {"text": "This is a bus.", "correct": true},
+        {"text": "This a bus.", "correct": false},
+        {"text": "This are a bus.", "correct": false}
       ],
-      "explanation": "This — единственное число, используем is: this is a taxi."
+      "explanation": "This — единственное число, используем is: This is a bus."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают виды транспорта? (выбери все верные варианты)",
       "options": [
-        {"text": "bike", "correct": true},
-        {"text": "hospital", "correct": false},
         {"text": "tram", "correct": true},
-        {"text": "singer", "correct": false},
-        {"text": "ship", "correct": true}
+        {"text": "ship", "correct": true},
+        {"text": "hospital", "correct": false},
+        {"text": "singer", "correct": false}
       ],
-      "explanation": "Bike, tram, ship — виды транспорта. Hospital и singer — не относятся к теме."
+      "explanation": "Tram (трамвай) и ship (корабль) — транспорт. Hospital и singer — нет."
     },
     {
       "type": "dropdown",
-      "text": "These ___ old trams.",
+      "text": "These ___ new cars.",
       "options": [
         {"text": "are", "correct": true},
         {"text": "is", "correct": false},
@@ -44,7 +43,7 @@
     },
     {
       "type": "dropdown",
-      "text": "This ___ a bike.",
+      "text": "This ___ a boat.",
       "options": [
         {"text": "is", "correct": true},
         {"text": "are", "correct": false},
@@ -56,24 +55,24 @@
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: велосипед",
       "answer": "bike",
-      "explanation": "«Велосипед» переводится как bike."
+      "explanation": "«Велосипед» — bike."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: трамвай",
-      "answer": "tram",
-      "explanation": "«Трамвай» переводится как tram."
+      "text": "Впиши перевод одним английским словом: такси",
+      "answer": "taxi",
+      "explanation": "«Такси» — taxi."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "car", "right": "машина"},
         {"left": "train", "right": "поезд"},
-        {"left": "plane", "right": "самолёт"},
-        {"left": "bus", "right": "автобус"}
+        {"left": "car", "right": "машина"},
+        {"left": "motorbike", "right": "мотоцикл"},
+        {"left": "helicopter", "right": "вертолёт"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

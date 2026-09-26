@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери верную форму: We ___ my grandmother last summer.",
+      "text": "Выбери верную форму: Last summer we ___ in a tent for three nights.",
       "options": [
-        {"text": "visited", "correct": true},
-        {"text": "visit", "correct": false},
-        {"text": "visiting", "correct": false}
+        {"text": "stayed", "correct": true},
+        {"text": "stay", "correct": false},
+        {"text": "staying", "correct": false}
       ],
-      "explanation": "Visit — правильный глагол, Past Simple образуется через -ed: visited."
+      "explanation": "Last summer — прошлое, Past Simple. Stay — правильный глагол: stay + -ed = stayed."
     },
     {
       "type": "single",
-      "text": "Выбери верную форму: I ___ in the lake yesterday.",
+      "text": "Выбери верную форму: My brother ___ a big fish yesterday.",
       "options": [
-        {"text": "swam", "correct": true},
-        {"text": "swimmed", "correct": false},
-        {"text": "swim", "correct": false}
+        {"text": "caught", "correct": true},
+        {"text": "catched", "correct": false},
+        {"text": "catch", "correct": false}
       ],
-      "explanation": "Swim — неправильный глагол, 2-я форма: swam."
+      "explanation": "Catch — неправильный глагол: catch → caught."
     },
     {
       "type": "multiple",
-      "text": "Какие глаголы неправильные (не образуют форму через -ed)? (выбери все верные варианты)",
+      "text": "Какие формы Past Simple написаны верно? (выбери все верные варианты)",
       "options": [
-        {"text": "swim", "correct": true},
-        {"text": "visit", "correct": false},
-        {"text": "be", "correct": true},
-        {"text": "enjoy", "correct": false},
-        {"text": "take", "correct": true}
+        {"text": "go — went", "correct": true},
+        {"text": "buy — bought", "correct": true},
+        {"text": "think — thinked", "correct": false},
+        {"text": "play — played", "correct": true},
+        {"text": "run — runned", "correct": false}
       ],
-      "explanation": "Swim → swam, be → was/were, take → took — неправильные глаголы. Visit и enjoy — правильные (+ed)."
+      "explanation": "Go, buy — неправильные глаголы (went, bought), play — правильный (played). Think → thought, run → ran — тоже неправильные."
     },
     {
       "type": "dropdown",
-      "text": "The trip ___ amazing!",
+      "text": "Last year the beaches ___ very clean.",
       "options": [
-        {"text": "was", "correct": true},
-        {"text": "were", "correct": false},
-        {"text": "is", "correct": false}
+        {"text": "were", "correct": true},
+        {"text": "was", "correct": false},
+        {"text": "been", "correct": false}
       ],
-      "explanation": "Trip — единственное число, be в Past Simple: was."
+      "explanation": "The beaches — множественное число, в прошедшем времени be → were."
     },
     {
       "type": "dropdown",
-      "text": "I ___ like the hotel.",
+      "text": "We ___ go to the museum on Monday because it was closed.",
       "options": [
         {"text": "didn't", "correct": true},
         {"text": "don't", "correct": false},
         {"text": "wasn't", "correct": false}
       ],
-      "explanation": "Отрицание в Past Simple: did not (didn't) + глагол без окончания."
+      "explanation": "Отрицание в Past Simple: didn't + глагол без окончания (didn't go)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: We ___ (visit) my aunt last week.",
-      "answer": "visited",
-      "explanation": "Правильный глагол visit в Past Simple: visited."
+      "text": "Впиши форму глагола: We ___ (play) volleyball on the beach every evening.",
+      "answer": "played",
+      "explanation": "Play — правильный глагол, в Past Simple: played."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопросное слово: ___ you enjoy your holiday?",
+      "text": "Впиши слово, чтобы получился вопрос: ___ your sister go to the camp last summer?",
       "answer": "Did",
-      "explanation": "Вопрос в Past Simple строится с did в начале."
+      "explanation": "Вопрос в Past Simple: Did + подлежащее + глагол без окончания."
     },
     {
       "type": "matching",
-      "text": "Соедини глагол в настоящем времени с его формой Past Simple",
+      "text": "Соедини глагол с его формой Past Simple",
       "pairs": [
-        {"left": "visit", "right": "visited"},
-        {"left": "swim", "right": "swam"},
-        {"left": "be", "right": "was"},
-        {"left": "enjoy", "right": "enjoyed"}
+        {"left": "see", "right": "saw"},
+        {"left": "eat", "right": "ate"},
+        {"left": "fly", "right": "flew"},
+        {"left": "come", "right": "came"}
       ],
-      "explanation": "Visit и enjoy — правильные глаголы (+ed), swim и be — неправильные."
+      "explanation": "Это неправильные глаголы, их формы нужно запомнить."
     },
     {
       "type": "single",
-      "text": "Was the trip exciting? — это...",
+      "text": "Как спросить «Тебе понравилась экскурсия?»",
       "options": [
-        {"text": "вопрос в Past Simple", "correct": true},
-        {"text": "утверждение", "correct": false},
-        {"text": "отрицание", "correct": false}
+        {"text": "Did you like the excursion?", "correct": true},
+        {"text": "Did you liked the excursion?", "correct": false},
+        {"text": "You did like the excursion?", "correct": false}
       ],
-      "explanation": "Порядок слов (was + подлежащее) и вопросительный знак показывают, что это вопрос."
+      "explanation": "Вопрос: Did + подлежащее + глагол без -ed (did уже показывает прошлое)."
     }
   ]
 }

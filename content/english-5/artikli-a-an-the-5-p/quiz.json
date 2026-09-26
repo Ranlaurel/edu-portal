@@ -2,23 +2,23 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какой артикль нужен: «___ sun is bright today»?",
+      "text": "Какой артикль нужен: «In summer ___ sun is very hot»?",
       "options": [
-        {"text": "The", "correct": true},
-        {"text": "A", "correct": false},
-        {"text": "An", "correct": false}
+        {"text": "the", "correct": true},
+        {"text": "a", "correct": false},
+        {"text": "an", "correct": false}
       ],
-      "explanation": "Sun — единственный в своём роде, поэтому the."
+      "explanation": "Солнце одно-единственное, поэтому the sun."
     },
     {
       "type": "single",
-      "text": "Как правильно: «I see a dog. ___ dog is black»?",
+      "text": "Как правильно: «I have got a cat. ___ cat is white»?",
       "options": [
         {"text": "The", "correct": true},
         {"text": "A", "correct": false},
         {"text": "An", "correct": false}
       ],
-      "explanation": "Собака уже упомянута — используем the."
+      "explanation": "Кошка уже упомянута в первом предложении — теперь она известна, поэтому the."
     },
     {
       "type": "multiple",
@@ -29,50 +29,50 @@
         {"text": "говорим о предмете впервые", "correct": false},
         {"text": "говорим о любом предмете из класса", "correct": false}
       ],
-      "explanation": "The используется для уже известного или единственного в своём роде предмета."
+      "explanation": "The используется для уже известного или единственного в своём роде предмета. Впервые или «любой» — это a/an."
     },
     {
       "type": "dropdown",
-      "text": "Look at ___ sky!",
+      "text": "We can see ___ moon at night.",
       "options": [
         {"text": "the", "correct": true},
         {"text": "a", "correct": false},
         {"text": "an", "correct": false}
       ],
-      "explanation": "Sky — единственное в своём роде, поэтому the."
+      "explanation": "Луна единственная в своём роде, поэтому the moon."
     },
     {
       "type": "dropdown",
-      "text": "___ moon is bright tonight.",
+      "text": "Tom has got a ball. ___ ball is new.",
       "options": [
         {"text": "The", "correct": true},
         {"text": "A", "correct": false},
         {"text": "An", "correct": false}
       ],
-      "explanation": "Moon — единственная в своём роде, поэтому the."
+      "explanation": "Мяч уже упомянут (a ball), во второй раз говорим о том же мяче — the."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: животное",
-      "answer": "animal",
-      "explanation": "«Животное» переводится как animal."
+      "text": "Впиши перевод одним английским словом: небо",
+      "answer": "sky",
+      "explanation": "«Небо» — sky (the sky, т.к. оно единственное)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши артикль: Look at ___ sky!",
+      "text": "Впиши артикль: There is an apple on the plate. ___ apple is green.",
       "answer": "the",
-      "explanation": "Sky — единственное в своём роде, поэтому the."
+      "explanation": "Яблоко уже упомянуто (an apple), дальше говорим о том же яблоке — the."
     },
     {
       "type": "matching",
-      "text": "Соедини английское слово с переводом",
+      "text": "Соедини фразу с переводом",
       "pairs": [
-        {"left": "sun", "right": "солнце"},
-        {"left": "moon", "right": "луна"},
-        {"left": "sky", "right": "небо"},
-        {"left": "animal", "right": "животное"}
+        {"left": "a dog", "right": "какая-то собака"},
+        {"left": "the dog", "right": "эта (уже знакомая) собака"},
+        {"left": "an animal", "right": "какое-то животное"},
+        {"left": "the animal", "right": "это (уже знакомое) животное"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "A/an — предмет упоминается впервые, любой; the — предмет уже известен."
     }
   ]
 }

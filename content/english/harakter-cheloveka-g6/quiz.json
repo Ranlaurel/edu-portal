@@ -2,87 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «он очень смелый»?",
+      "text": "Как сказать «она очень терпеливая»?",
       "options": [
-        {"text": "He is very brave.", "correct": true},
-        {"text": "He is brave very.", "correct": false},
-        {"text": "He very is brave.", "correct": false}
+        {"text": "She is very patient.", "correct": true},
+        {"text": "She is patient very.", "correct": false},
+        {"text": "She very is patient.", "correct": false}
       ],
-      "explanation": "Наречие степени ставится перед прилагательным: very brave."
+      "explanation": "Наречие степени ставится перед прилагательным: very patient."
     },
     {
       "type": "single",
-      "text": "Что означает «quite» в предложении «He is quite shy»?",
+      "text": "Как перевести «He is quite lazy»?",
       "options": [
-        {"text": "довольно (средняя степень)", "correct": true},
-        {"text": "очень (сильная степень)", "correct": false},
-        {"text": "совсем не", "correct": false}
+        {"text": "Он довольно ленивый.", "correct": true},
+        {"text": "Он очень ленивый.", "correct": false},
+        {"text": "Он совсем не ленивый.", "correct": false}
       ],
-      "explanation": "Quite — довольно, средняя степень (слабее, чем very)."
+      "explanation": "Quite — «довольно» (средняя степень), very — «очень»."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях наречие степени стоит правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "She is very generous.", "correct": true},
-        {"text": "They are quite curious.", "correct": true},
-        {"text": "He is shy quite.", "correct": false},
-        {"text": "My friend is kind very.", "correct": false}
+        {"text": "My grandad is very clever.", "correct": true},
+        {"text": "My uncle is quite funny.", "correct": true},
+        {"text": "The boy is noisy very.", "correct": false},
+        {"text": "She quite is shy.", "correct": false}
       ],
-      "explanation": "Наречие степени всегда стоит перед прилагательным: very generous, quite curious."
+      "explanation": "Very и quite ставятся сразу перед прилагательным: very clever, quite funny."
     },
     {
       "type": "dropdown",
-      "text": "My sister is ___ shy with new people (средняя степень).",
+      "text": "Tom is ___ polite, but sometimes he forgets to say «thank you» (довольно).",
       "options": [
         {"text": "quite", "correct": true},
         {"text": "very much", "correct": false},
         {"text": "so much", "correct": false}
       ],
-      "explanation": "Quite — довольно, средняя степень."
+      "explanation": "«Довольно» — quite, ставится перед прилагательным."
     },
     {
       "type": "dropdown",
-      "text": "She is a ___, honest girl (сначала общее мнение).",
+      "text": "He is a ___, brave boy (сначала общее мнение).",
       "options": [
-        {"text": "nice", "correct": true},
+        {"text": "good", "correct": true},
         {"text": "tall", "correct": false},
-        {"text": "old", "correct": false}
+        {"text": "young", "correct": false}
       ],
-      "explanation": "Общее мнение (nice) ставится перед конкретным прилагательным о характере (honest)."
+      "explanation": "Сначала общее мнение (good, nice), потом конкретная черта характера (brave)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши наречие степени: My friend is ___ kind. (очень)",
+      "text": "Впиши наречие степени: Kate is ___ honest — she never tells lies. (очень)",
       "answer": "very",
-      "explanation": "«Очень» — very."
+      "explanation": "«Очень» — very, стоит перед прилагательным."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши наречие степени: They are ___ curious about new things. (довольно)",
+      "text": "Впиши наречие степени: The new boy is ___ rude to other children. (довольно)",
       "answer": "quite",
-      "explanation": "«Довольно» — quite."
+      "explanation": "«Довольно» — quite, средняя степень."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "He is very brave.", "right": "Он очень смелый."},
-        {"left": "She is quite shy.", "right": "Она довольно застенчивая."},
-        {"left": "They are very generous.", "right": "Они очень щедрые."},
-        {"left": "She is quite stubborn.", "right": "Она довольно упрямая."}
+        {"left": "She is very cheerful.", "right": "Она очень весёлая."},
+        {"left": "He is quite friendly.", "right": "Он довольно дружелюбный."},
+        {"left": "My aunt is very generous.", "right": "Моя тётя очень щедрая."},
+        {"left": "My cousins are quite stubborn.", "right": "Мои двоюродные братья довольно упрямые."}
       ],
-      "explanation": "Проверь по правилу very/quite из урока."
+      "explanation": "Very — очень, quite — довольно."
     },
     {
       "type": "single",
-      "text": "Как перевести: «He is a very honest and polite boy»?",
+      "text": "Как перевести: «Our new classmate is quite shy and very kind»?",
       "options": [
-        {"text": "Он очень честный и вежливый мальчик.", "correct": true},
-        {"text": "Он довольно честный мальчик.", "correct": false},
-        {"text": "Он не очень честный мальчик.", "correct": false}
+        {"text": "Наш новый одноклассник довольно застенчивый и очень добрый.", "correct": true},
+        {"text": "Наш новый одноклассник очень застенчивый и довольно добрый.", "correct": false},
+        {"text": "Наш новый одноклассник совсем не застенчивый, но добрый.", "correct": false}
       ],
-      "explanation": "Very — очень (сильная степень), honest and polite — честный и вежливый."
+      "explanation": "Quite shy — довольно застенчивый, very kind — очень добрый."
     }
   ]
 }

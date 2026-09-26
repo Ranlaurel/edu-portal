@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Students must wear school uniform and must ___ the headteacher.",
+      "text": "Кого, по правилам, ученики должны уважать?",
       "options": [
-        {"text": "respect", "correct": true},
-        {"text": "shout", "correct": false},
-        {"text": "run", "correct": false}
+        {"text": "the headteacher", "correct": true},
+        {"text": "the school cook", "correct": false},
+        {"text": "the bus driver", "correct": false}
       ],
-      "explanation": "Respect (уважать) — обязанность по отношению к директору школы."
+      "explanation": "В правилах: Students must respect the headteacher."
     },
     {
       "type": "single",
-      "text": "You mustn't shout or run in the corridor — ___, please!",
+      "text": "Когда, по правилам, можно пользоваться телефоном на уроке?",
       "options": [
-        {"text": "be quiet", "correct": true},
-        {"text": "be late", "correct": false},
-        {"text": "put up your hand", "correct": false}
+        {"text": "только с разрешения", "correct": true},
+        {"text": "в любое время", "correct": false},
+        {"text": "только на перемене в классе", "correct": false}
       ],
-      "explanation": "Be quiet (вести себя тихо) — просьба, логично следующая из запрета кричать и бегать."
+      "explanation": "В правилах: You mustn't use your mobile phone in class without permission — без разрешения нельзя."
     },
     {
       "type": "multiple",
-      "text": "Что запрещено правилами школы? (выбери все верные варианты)",
+      "text": "Что ученики должны делать по правилам? (выбери все верные варианты)",
       "options": [
-        {"text": "using mobile phone without permission", "correct": true},
-        {"text": "running in the corridor", "correct": true},
-        {"text": "listening to the teacher", "correct": false},
-        {"text": "shouting in class", "correct": true},
-        {"text": "wearing uniform", "correct": false}
+        {"text": "wear school uniform", "correct": true},
+        {"text": "put up your hand before you speak", "correct": true},
+        {"text": "shout in the corridor", "correct": false},
+        {"text": "run in the corridor", "correct": false}
       ],
-      "explanation": "Использование телефона без разрешения, бег в коридоре и крик в классе — запрещённые действия."
+      "explanation": "Ученики должны носить форму и поднимать руку. Кричать и бегать в коридоре нельзя."
     },
     {
       "type": "dropdown",
-      "text": "You mustn't use your mobile phone in class without ___.",
-      "options": [
-        {"text": "permission", "correct": true},
-        {"text": "uniform", "correct": false},
-        {"text": "corridor", "correct": false}
-      ],
-      "explanation": "Permission — разрешение, без которого нельзя пользоваться телефоном."
-    },
-    {
-      "type": "dropdown",
-      "text": "Always listen to the teacher and ___ before you speak.",
-      "options": [
-        {"text": "put up your hand", "correct": true},
-        {"text": "be late", "correct": false},
-        {"text": "shout", "correct": false}
-      ],
-      "explanation": "Put up your hand (поднять руку) — правильное действие перед тем, как говорить на уроке."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши модальный глагол: Students ___ be late.",
-      "answer": "mustn't",
-      "explanation": "Запрет опаздывать выражается через mustn't."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши модальный глагол: We ___ respect each other.",
-      "answer": "must",
-      "explanation": "Обязанность уважать друг друга выражается через must."
-    },
-    {
-      "type": "matching",
-      "text": "Соедини начало правила с его завершением",
-      "pairs": [
-        {"left": "You mustn't run", "right": "in the corridor."},
-        {"left": "Students must wear", "right": "school uniform."},
-        {"left": "Ask for permission", "right": "if you want to leave."},
-        {"left": "Keep your desk", "right": "tidy."}
-      ],
-      "explanation": "Части предложений соответствуют по смыслу школьным правилам из урока."
-    },
-    {
-      "type": "single",
-      "text": "You ___ run in the corridor.",
+      "text": "You ___ throw rubbish on the floor.",
       "options": [
         {"text": "mustn't", "correct": true},
         {"text": "must", "correct": false},
         {"text": "musts", "correct": false}
       ],
-      "explanation": "Бегать в коридоре запрещено, используем mustn't."
+      "explanation": "Бросать мусор на пол нельзя — запрет: mustn't."
+    },
+    {
+      "type": "dropdown",
+      "text": "We ___ close the windows after the lesson.",
+      "options": [
+        {"text": "must", "correct": true},
+        {"text": "mustn't", "correct": false},
+        {"text": "musts", "correct": false}
+      ],
+      "explanation": "Закрыть окна — обязанность: must. Форма must не меняется."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши модальный глагол (запрет): Pupils ___ play football in the classroom.",
+      "answer": "mustn't",
+      "accepted": ["mustn't", "must not", "mustn’t"],
+      "explanation": "Играть в футбол в классе запрещено — mustn't (must not)."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши слово: My room is always clean and ___. (аккуратная)",
+      "answer": "tidy",
+      "explanation": "«Аккуратный» — tidy."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини английское слово с переводом",
+      "pairs": [
+        {"left": "corridor", "right": "коридор"},
+        {"left": "be quiet", "right": "вести себя тихо"},
+        {"left": "listen to", "right": "слушать"},
+        {"left": "rule", "right": "правило"}
+      ],
+      "explanation": "Это слова по теме «Правила поведения в школе»."
+    },
+    {
+      "type": "single",
+      "text": "Как сказать «Мы должны говорить тихо в библиотеке»?",
+      "options": [
+        {"text": "We must speak quietly in the library.", "correct": true},
+        {"text": "We mustn't speak quietly in the library.", "correct": false},
+        {"text": "We must speaking quietly in the library.", "correct": false}
+      ],
+      "explanation": "Обязанность — must + глагол в начальной форме (speak)."
     }
   ]
 }

@@ -2,89 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «timetable»?",
+      "text": "Как переводится слово «classroom»?",
       "options": [
-        {"text": "расписание", "correct": true},
-        {"text": "оценка", "correct": false},
-        {"text": "перемена", "correct": false}
+        {"text": "класс (кабинет)", "correct": true},
+        {"text": "спортзал", "correct": false},
+        {"text": "столовая", "correct": false}
       ],
-      "explanation": "Timetable — расписание."
+      "explanation": "«Classroom» — класс, кабинет, где проходят уроки."
     },
     {
       "type": "single",
-      "text": "Как будет «оценка» на английском?",
+      "text": "Как по-английски «экзамен»?",
       "options": [
-        {"text": "mark", "correct": true},
-        {"text": "exam", "correct": false},
-        {"text": "subject", "correct": false}
+        {"text": "exam", "correct": true},
+        {"text": "example", "correct": false},
+        {"text": "answer", "correct": false}
       ],
-      "explanation": "Mark — оценка."
+      "explanation": "«Экзамен» — exam. Example — пример, answer — ответ."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают школьные предметы? (выбери все верные варианты)",
       "options": [
         {"text": "history", "correct": true},
-        {"text": "break", "correct": false},
+        {"text": "pencil", "correct": false},
         {"text": "geography", "correct": true},
-        {"text": "mark", "correct": false},
+        {"text": "desk", "correct": false},
         {"text": "art", "correct": true}
       ],
-      "explanation": "History, geography, art — школьные предметы. Break (перемена) и mark (оценка) — не предметы."
+      "explanation": "History, geography и art — предметы. Pencil — карандаш, desk — парта."
     },
     {
       "type": "dropdown",
-      "text": "I got a good ___ for my homework.",
+      "text": "Look at the ___ — what lessons do we have tomorrow?",
       "options": [
-        {"text": "mark", "correct": true},
-        {"text": "break", "correct": false},
-        {"text": "subject", "correct": false}
+        {"text": "timetable", "correct": true},
+        {"text": "schoolbag", "correct": false},
+        {"text": "break", "correct": false}
       ],
-      "explanation": "Mark — оценка, её получают за выполненную работу."
+      "explanation": "Какие завтра уроки, смотрят в расписании — timetable."
     },
     {
       "type": "dropdown",
-      "text": "We have five lessons and two ___ today.",
+      "text": "We play in the school yard during the ___.",
       "options": [
-        {"text": "breaks", "correct": true},
-        {"text": "marks", "correct": false},
-        {"text": "exams", "correct": false}
+        {"text": "break", "correct": true},
+        {"text": "exam", "correct": false},
+        {"text": "mark", "correct": false}
       ],
-      "explanation": "Break — перемена между уроками."
+      "explanation": "Играют во дворе на перемене — break."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: домашнее задание",
-      "answer": "homework",
-      "explanation": "«Домашнее задание» переводится как homework."
+      "text": "Впиши английское слово: I got a bad ___ in the test. (оценка)",
+      "answer": "mark",
+      "explanation": "«Оценка» — mark."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: физкультура",
+      "text": "Впиши английское слово (сокращение): We run and jump at ___ lessons. (физкультура)",
       "answer": "PE",
-      "accepted": ["PE", "physical education"],
-      "explanation": "«Физкультура» переводится как PE (physical education)."
+      "accepted": ["PE", "physical education", "P.E."],
+      "explanation": "«Физкультура» — PE (physical education)."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "classroom", "right": "класс (кабинет)"},
-        {"left": "exam", "right": "экзамен"},
+        {"left": "homework", "right": "домашнее задание"},
+        {"left": "science", "right": "естествознание"},
         {"left": "schoolbag", "right": "школьный рюкзак"},
-        {"left": "science", "right": "естествознание"}
+        {"left": "lesson", "right": "урок"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "My favourite ___ is maths.",
+      "text": "Which ___ do you like best? — Maths.",
       "options": [
         {"text": "subject", "correct": true},
         {"text": "break", "correct": false},
         {"text": "mark", "correct": false}
       ],
-      "explanation": "Subject (предмет) — то, что может быть любимым в школе."
+      "explanation": "Maths — школьный предмет: subject."
     }
   ]
 }

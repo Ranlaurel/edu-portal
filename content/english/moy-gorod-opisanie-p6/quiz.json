@@ -12,67 +12,67 @@
     },
     {
       "type": "single",
-      "text": "Как переводится слово «resident»?",
+      "text": "Сколько жителей в городе гида?",
       "options": [
-        {"text": "житель", "correct": true},
-        {"text": "гид", "correct": false},
-        {"text": "турист", "correct": false}
+        {"text": "about fifty thousand", "correct": true},
+        {"text": "about five thousand", "correct": false},
+        {"text": "about five hundred thousand", "correct": false}
       ],
-      "explanation": "«Resident» — житель."
+      "explanation": "Гид отвечает: About fifty thousand residents — около пятидесяти тысяч жителей."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
         {"text": "В центре много современных зданий.", "correct": true},
-        {"text": "Население города около пятидесяти тысяч.", "correct": true},
+        {"text": "Город небольшой.", "correct": true},
         {"text": "В городе много промышленности.", "correct": false},
-        {"text": "Пригороды более традиционные.", "correct": true}
+        {"text": "Город очень шумный.", "correct": false}
       ],
-      "explanation": "По диалогу: в центре много modern buildings, population — about fifty thousand, industry мало (isn't much), пригороды more traditional."
+      "explanation": "Гид говорит: My town is small и in the centre there are a lot of modern buildings. Промышленности немного (There isn't much industry), а город тихий (quiet)."
     },
     {
       "type": "dropdown",
-      "text": "In the centre there ___ a lot of modern buildings.",
+      "text": "There ___ an old church in the suburbs.",
       "options": [
-        {"text": "are", "correct": true},
-        {"text": "is", "correct": false},
+        {"text": "is", "correct": true},
+        {"text": "are", "correct": false},
         {"text": "have", "correct": false}
       ],
-      "explanation": "Buildings — множественное число, значит there are."
+      "explanation": "An old church — единственное число: there is."
     },
     {
       "type": "dropdown",
-      "text": "There isn't ___ industry here. (many/much)",
+      "text": "There are ___ cars in the centre in the morning.",
       "options": [
-        {"text": "much", "correct": true},
-        {"text": "many", "correct": false},
-        {"text": "a few", "correct": false}
+        {"text": "many", "correct": true},
+        {"text": "much", "correct": false},
+        {"text": "a lot", "correct": false}
       ],
-      "explanation": "Industry — неисчисляемое существительное, используем much."
+      "explanation": "Cars — исчисляемое существительное, поэтому many. «A lot» без of не ставится перед существительным."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: пригород",
-      "answer": "suburb",
-      "explanation": "«Пригород» — suburb, упоминается в диалоге."
+      "text": "Впиши слово: Moscow is the ___ of Russia. (столица)",
+      "answer": "capital",
+      "explanation": "«Столица» — capital."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: население",
-      "answer": "population",
-      "explanation": "«Население» — population, упоминается в диалоге."
+      "text": "Впиши слово: Our school is a big ___ (здание) with three floors.",
+      "answer": "building",
+      "explanation": "«Здание» — building."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "ancient", "right": "древний"},
+        {"left": "suburb", "right": "пригород"},
         {"left": "resident", "right": "житель"},
-        {"left": "industry", "right": "промышленность"},
+        {"left": "famous for", "right": "знаменитый чем-то"},
         {"left": "beautiful", "right": "красивый"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Эти слова встречаются в диалоге гида и гостя."
     }
   ]
 }

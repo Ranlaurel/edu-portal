@@ -2,87 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «мне нравится коллекционировать марки»?",
+      "text": "Как сказать «Мне нравится печь торты»?",
       "options": [
-        {"text": "I like collecting stamps.", "correct": true},
-        {"text": "I like collect stamps.", "correct": false},
-        {"text": "I like to collecting stamps.", "correct": false}
+        {"text": "I like baking cakes.", "correct": true},
+        {"text": "I like bake cakes.", "correct": false},
+        {"text": "I likes baking cakes.", "correct": false}
       ],
-      "explanation": "После like ставим глагол в форме -ing: collecting."
+      "explanation": "После like ставим глагол с -ing: like baking. С I глагол like без -s."
     },
     {
       "type": "single",
-      "text": "She loves ___ pictures.",
+      "text": "My grandpa enjoys ___ in the garden.",
       "options": [
-        {"text": "painting", "correct": true},
-        {"text": "paint", "correct": false},
-        {"text": "paints", "correct": false}
+        {"text": "working", "correct": true},
+        {"text": "work", "correct": false},
+        {"text": "to work", "correct": false}
       ],
-      "explanation": "После love глагол ставится в форме -ing: painting."
+      "explanation": "После enjoy всегда нужна форма -ing: enjoys working."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях глагол после like/love/enjoy/hate стоит верно? (выбери все верные варианты)",
       "options": [
-        {"text": "We enjoy playing chess.", "correct": true},
-        {"text": "He hates dancing at parties.", "correct": true},
-        {"text": "I like collect stamps.", "correct": false},
-        {"text": "She loves paint pictures.", "correct": false}
+        {"text": "Kate loves reading comics.", "correct": true},
+        {"text": "They enjoy fishing on Sundays.", "correct": true},
+        {"text": "I hate get up early.", "correct": false},
+        {"text": "We enjoy to sing songs.", "correct": false}
       ],
-      "explanation": "После like/love/enjoy/hate нужна форма -ing: playing, dancing, а не collect/paint."
+      "explanation": "Правильно: loves reading, enjoy fishing. Нужно hate getting up и enjoy singing — после этих глаголов ставим -ing."
     },
     {
       "type": "dropdown",
-      "text": "She enjoys ___ (take) photos of animals.",
+      "text": "Do you like ___ (cook)?",
       "options": [
-        {"text": "taking", "correct": true},
-        {"text": "take", "correct": false},
-        {"text": "takes", "correct": false}
+        {"text": "cooking", "correct": true},
+        {"text": "cook", "correct": false},
+        {"text": "cooks", "correct": false}
       ],
-      "explanation": "После enjoy нужна форма -ing: taking."
+      "explanation": "После like — форма -ing: like cooking."
     },
     {
       "type": "dropdown",
-      "text": "My brother hates ___ (ride) a bike in winter.",
+      "text": "My sister hates ___ (run) in the rain.",
       "options": [
-        {"text": "riding", "correct": true},
-        {"text": "ride", "correct": false},
-        {"text": "rides", "correct": false}
+        {"text": "running", "correct": true},
+        {"text": "runing", "correct": false},
+        {"text": "runs", "correct": false}
       ],
-      "explanation": "После hate нужна форма -ing: riding."
+      "explanation": "Run — краткий гласный + согласная, поэтому удваиваем n: running."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму -ing глагола swim (кратко: удваиваем согласную)",
-      "answer": "swimming",
-      "explanation": "При кратком гласном перед конечной согласной удваиваем её: swim → swimming."
+      "text": "Впиши глагол shop в форме -ing: I love ___ with my friends.",
+      "answer": "shopping",
+      "explanation": "Shop — краткий гласный + согласная на конце, удваиваем p: shopping."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму -ing глагола draw",
-      "answer": "drawing",
-      "explanation": "Draw → drawing (просто добавляем -ing)."
+      "text": "Впиши глагол в форме -ing: He enjoys ___ (read) detective stories.",
+      "answer": "reading",
+      "explanation": "После enjoy — форма -ing: read → reading."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I like painting.", "right": "Мне нравится рисовать красками."},
-        {"left": "She loves painting.", "right": "Она обожает рисовать."},
-        {"left": "We enjoy playing chess.", "right": "Нам нравится играть в шахматы."},
-        {"left": "He hates dancing.", "right": "Он терпеть не может танцевать."}
+        {"left": "I like knitting.", "right": "Мне нравится вязать."},
+        {"left": "She loves singing.", "right": "Она обожает петь."},
+        {"left": "We enjoy camping.", "right": "Нам нравится ходить в походы."},
+        {"left": "He hates skating.", "right": "Он терпеть не может кататься на коньках."}
       ],
-      "explanation": "Проверь по правилу verb + -ing из урока."
+      "explanation": "Like — нравится, love — обожать, enjoy — получать удовольствие, hate — терпеть не мочь. После них глагол с -ing."
     },
     {
       "type": "single",
-      "text": "He loves playing ___ guitar.",
+      "text": "Teenagers enjoy ___ online.",
       "options": [
-        {"text": "the", "correct": true},
-        {"text": "a", "correct": false},
-        {"text": "-", "correct": false}
+        {"text": "chatting", "correct": true},
+        {"text": "chating", "correct": false},
+        {"text": "chat", "correct": false}
       ],
-      "explanation": "С музыкальными инструментами используется артикль the: playing the guitar."
+      "explanation": "После enjoy — форма -ing. Chat: краткий гласный + согласная, удваиваем t: chatting."
     }
   ]
 }

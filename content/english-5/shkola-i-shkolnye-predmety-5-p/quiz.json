@@ -2,89 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как ответить на вопрос «Is Maths difficult?», если математика лёгкая?",
+      "text": "Как ответить на вопрос «Is English easy for you?», если английский тебе даётся легко?",
       "options": [
-        {"text": "No, it isn't.", "correct": true},
-        {"text": "No, it doesn't.", "correct": false},
-        {"text": "Yes, it is.", "correct": false}
+        {"text": "Yes, it is.", "correct": true},
+        {"text": "Yes, it does.", "correct": false},
+        {"text": "No, it isn't.", "correct": false}
       ],
-      "explanation": "Отвечаем тем же глаголом to be: No, it isn't (математика не сложная)."
+      "explanation": "Отвечаем тем же глаголом to be: Yes, it is."
     },
     {
       "type": "single",
-      "text": "Выбери верный перевод: «Мой любимый предмет — рисование».",
+      "text": "Выбери верный перевод: «Мой любимый предмет — история».",
       "options": [
-        {"text": "My favourite subject is Art.", "correct": true},
-        {"text": "My favourite subject are Art.", "correct": false},
-        {"text": "I favourite subject is Art.", "correct": false}
+        {"text": "My favourite subject is History.", "correct": true},
+        {"text": "My favourite subject are History.", "correct": false},
+        {"text": "I favourite subject is History.", "correct": false}
       ],
-      "explanation": "Subject — единственное число, поэтому is."
+      "explanation": "Subject — единственное число, поэтому is; «мой» — my."
     },
     {
       "type": "multiple",
-      "text": "В каком классе учится ученик 5 класса? Выбери верные фразы про школу (выбери все верные варианты)",
+      "text": "Выбери верные фразы про школу (выбери все верные варианты)",
       "options": [
-        {"text": "I am in Class 5.", "correct": true},
-        {"text": "Our teacher is kind.", "correct": true},
-        {"text": "The timetable are on the wall.", "correct": false},
-        {"text": "They are pupils.", "correct": true},
-        {"text": "Music are my favourite subject.", "correct": false}
+        {"text": "The lesson is long.", "correct": true},
+        {"text": "Our teachers are nice.", "correct": true},
+        {"text": "The books is on the desk.", "correct": false},
+        {"text": "I am a good pupil.", "correct": true},
+        {"text": "Science are interesting.", "correct": false}
       ],
-      "explanation": "Timetable и Music — единственное число, нужно is, а не are."
+      "explanation": "Books — мн. ч., нужно are; Science — ед. ч., нужно is."
     },
     {
       "type": "dropdown",
-      "text": "Our classroom ___ big and light.",
+      "text": "Our school ___ old and big.",
       "options": [
         {"text": "is", "correct": true},
         {"text": "are", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "Classroom — единственное число, форма is."
+      "explanation": "School — единственное число, форма is."
     },
     {
       "type": "dropdown",
-      "text": "___ Music on Monday? (вопрос о расписании)",
+      "text": "___ PE on Friday? (вопрос о расписании)",
       "options": [
         {"text": "Is", "correct": true},
         {"text": "Are", "correct": false},
         {"text": "Do", "correct": false}
       ],
-      "explanation": "Music — единственное число, вопрос начинается с Is."
+      "explanation": "PE — единственное число, вопрос начинается с Is."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: Our teacher ___ very kind.",
-      "answer": "is",
-      "explanation": "Teacher — единственное число, форма is."
+      "text": "Впиши глагол: The pupils ___ in the library.",
+      "answer": "are",
+      "explanation": "Pupils — множественное число, форма are."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: наш класс не маленький — Our classroom ___ small.",
+      "text": "Впиши слово: наш урок не скучный — Our lesson ___ boring.",
       "answer": "isn't",
-      "accepted": ["isn't", "is not"],
+      "accepted": ["isn't", "isn’t", "is not"],
       "explanation": "Отрицательная форма is — isn't (is not)."
     },
     {
       "type": "matching",
       "text": "Соедини вопрос с правильным ответом",
       "pairs": [
-        {"left": "Is Maths difficult?", "right": "No, it isn't."},
-        {"left": "Are you a pupil?", "right": "Yes, I am."},
-        {"left": "Is PE your favourite subject?", "right": "No, it isn't."},
-        {"left": "Are they at school?", "right": "Yes, they are."}
+        {"left": "Is Art your favourite subject? (да)", "right": "Yes, it is."},
+        {"left": "Are you in Class 6? (нет)", "right": "No, I'm not."},
+        {"left": "Is your teacher strict? (нет)", "right": "No, she isn't."},
+        {"left": "Are your friends at school? (да)", "right": "Yes, they are."}
       ],
       "explanation": "Ответ на вопрос с to be строится тем же глаголом: Yes/No + подлежащее + am/is/are."
     },
     {
       "type": "single",
-      "text": "Как спросить «Ты ученик этой школы?»",
+      "text": "Как спросить «Твой брат в школе?»",
       "options": [
-        {"text": "Are you a pupil at this school?", "correct": true},
-        {"text": "You are a pupil at this school?", "correct": false},
-        {"text": "Do you a pupil at this school?", "correct": false}
+        {"text": "Is your brother at school?", "correct": true},
+        {"text": "Your brother is at school?", "correct": false},
+        {"text": "Does your brother at school?", "correct": false}
       ],
-      "explanation": "В вопросе с to be глагол выходит на первое место: Are you...?"
+      "explanation": "В вопросе с to be глагол выходит на первое место: Is your brother...?"
     }
   ]
 }

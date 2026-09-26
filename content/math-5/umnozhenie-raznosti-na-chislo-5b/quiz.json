@@ -2,48 +2,48 @@
   "questions": [
     {
       "type": "single",
-      "text": "Вычисли: (20 − 7) × 3.",
+      "text": "Вычисли: (30 − 8) × 4.",
       "options": [
-        {"text": "39", "correct": true},
-        {"text": "60", "correct": false},
-        {"text": "21", "correct": false},
-        {"text": "13", "correct": false}
+        {"text": "88", "correct": true},
+        {"text": "120", "correct": false},
+        {"text": "32", "correct": false},
+        {"text": "22", "correct": false}
       ],
-      "explanation": "20 − 7 = 13, затем 13 × 3 = 39. Или по правилу: 20 × 3 − 7 × 3 = 60 − 21 = 39."
+      "explanation": "30 − 8 = 22, затем 22 × 4 = 88. Или по правилу: 30 × 4 − 8 × 4 = 120 − 32 = 88."
     },
     {
       "type": "single",
-      "text": "Вычисли по правилу: (15 − 6) × 4.",
+      "text": "Вычисли по правилу: (18 − 5) × 6.",
       "options": [
-        {"text": "36", "correct": true},
-        {"text": "45", "correct": false},
-        {"text": "24", "correct": false},
-        {"text": "60", "correct": false}
+        {"text": "78", "correct": true},
+        {"text": "103", "correct": false},
+        {"text": "30", "correct": false},
+        {"text": "90", "correct": false}
       ],
-      "explanation": "15 × 4 − 6 × 4 = 60 − 24 = 36."
+      "explanation": "18 × 6 − 5 × 6 = 108 − 30 = 78."
     },
     {
       "type": "single",
-      "text": "Вычисли по правилу: (50 − 8) × 5.",
+      "text": "Вычисли по правилу: (60 − 7) × 5.",
       "options": [
-        {"text": "210", "correct": true},
-        {"text": "250", "correct": false},
-        {"text": "42", "correct": false},
-        {"text": "190", "correct": false}
+        {"text": "265", "correct": true},
+        {"text": "300", "correct": false},
+        {"text": "53", "correct": false},
+        {"text": "235", "correct": false}
       ],
-      "explanation": "50 × 5 − 8 × 5 = 250 − 40 = 210."
+      "explanation": "60 × 5 − 7 × 5 = 300 − 35 = 265."
     },
     {
       "type": "multiple",
       "text": "Какие из этих равенств верны? (выбери все верные варианты)",
       "options": [
-        {"text": "(20 − 7) × 3 = 39", "correct": true},
-        {"text": "(15 − 6) × 4 = 45", "correct": false},
-        {"text": "30 × 2 − 12 × 2 = 36", "correct": true},
-        {"text": "(50 − 8) × 5 = 42", "correct": false},
-        {"text": "(100 − 25) × 3 = 225", "correct": true}
+        {"text": "(25 − 9) × 2 = 32", "correct": true},
+        {"text": "(14 − 4) × 5 = 66", "correct": false},
+        {"text": "40 × 3 − 15 × 3 = 75", "correct": true},
+        {"text": "(70 − 6) × 3 = 64", "correct": false},
+        {"text": "(200 − 50) × 4 = 600", "correct": true}
       ],
-      "explanation": "(15 − 6) × 4 = 9 × 4 = 36 (не 45); (50 − 8) × 5 = 42 × 5 = 210 (не 42). Остальные равенства посчитаны верно."
+      "explanation": "(14 − 4) × 5 = 10 × 5 = 50 (не 66); (70 − 6) × 3 = 64 × 3 = 192 (не 64 — забыли умножить). Остальные равенства посчитаны верно: 16 × 2 = 32, 120 − 45 = 75, 800 − 200 = 600."
     },
     {
       "type": "multiple",
@@ -59,46 +59,46 @@
     },
     {
       "type": "dropdown",
-      "text": "(30 − 12) × 2 = ___",
+      "text": "(45 − 5) × 3 = ___",
       "options": [
-        {"text": "36", "correct": true},
-        {"text": "42", "correct": false},
-        {"text": "18", "correct": false}
+        {"text": "120", "correct": true},
+        {"text": "130", "correct": false},
+        {"text": "40", "correct": false}
       ],
-      "explanation": "30 × 2 − 12 × 2 = 60 − 24 = 36."
+      "explanation": "45 × 3 − 5 × 3 = 135 − 15 = 120 (или 40 × 3 = 120)."
     },
     {
       "type": "dropdown",
-      "text": "100 × 3 − 25 × 3 = ___",
+      "text": "100 × 4 − 30 × 4 = ___",
       "options": [
-        {"text": "225", "correct": true},
-        {"text": "300", "correct": false},
-        {"text": "75", "correct": false}
+        {"text": "280", "correct": true},
+        {"text": "400", "correct": false},
+        {"text": "120", "correct": false}
       ],
-      "explanation": "100 × 3 = 300, 25 × 3 = 75, 300 − 75 = 225."
+      "explanation": "100 × 4 = 400, 30 × 4 = 120, 400 − 120 = 280."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: (15 − 6) × 4 = ___.",
-      "answer": "36",
-      "explanation": "15 × 4 − 6 × 4 = 60 − 24 = 36."
+      "text": "Впиши только число: (16 − 7) × 5 = ___.",
+      "answer": "45",
+      "explanation": "16 × 5 − 7 × 5 = 80 − 35 = 45."
     },
     {
       "type": "fill_blank",
-      "text": "В классе было 40 учебников, 9 отдали в другую школу. В каждом учебнике 6 страниц. Впиши только число: во всех оставшихся учебниках ___ страниц.",
-      "answer": "186",
-      "explanation": "(40 − 9) × 6 = 40 × 6 − 9 × 6 = 240 − 54 = 186."
+      "text": "На складе было 30 пачек бумаги, 6 пачек израсходовали. В каждой пачке 50 листов. Впиши только число: в оставшихся пачках ___ листов.",
+      "answer": "1200",
+      "explanation": "(30 − 6) × 50 = 30 × 50 − 6 × 50 = 1500 − 300 = 1200."
     },
     {
       "type": "matching",
       "text": "Соедини выражение с его значением:",
       "pairs": [
-        {"left": "(20 − 7) × 3", "right": "39"},
-        {"left": "(50 − 8) × 5", "right": "210"},
-        {"left": "(100 − 25) × 3", "right": "225"},
-        {"left": "30 × 2 − 12 × 2", "right": "36"}
+        {"left": "(80 − 5) × 2", "right": "150"},
+        {"left": "(35 − 15) × 7", "right": "140"},
+        {"left": "(100 − 1) × 9", "right": "891"},
+        {"left": "60 × 4 − 20 × 4", "right": "160"}
       ],
-      "explanation": "Каждое выражение вычислено по правилу (a − b) × c = a × c − b × c."
+      "explanation": "По правилу (a − b) × c = a × c − b × c: 160 − 10 = 150; 245 − 105 = 140; 900 − 9 = 891; 240 − 80 = 160."
     }
   ]
 }

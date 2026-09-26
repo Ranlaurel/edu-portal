@@ -2,66 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «этот карандаш» (предмет рядом)?",
+      "text": "Как сказать «эта книга» (книга рядом)?",
       "options": [
-        {"text": "this pencil", "correct": true},
-        {"text": "that pencil", "correct": false},
-        {"text": "these pencil", "correct": false}
+        {"text": "this book", "correct": true},
+        {"text": "that book", "correct": false},
+        {"text": "these book", "correct": false}
       ],
-      "explanation": "This используется для предмета в единственном числе, находящегося рядом."
+      "explanation": "This — для одного предмета, который находится рядом."
     },
     {
       "type": "single",
-      "text": "Как сказать «тот стул» (предмет далеко)?",
+      "text": "Как сказать «тот дом» (дом далеко)?",
       "options": [
-        {"text": "that chair", "correct": true},
-        {"text": "this chair", "correct": false},
-        {"text": "those chair", "correct": false}
+        {"text": "that house", "correct": true},
+        {"text": "this house", "correct": false},
+        {"text": "those house", "correct": false}
       ],
-      "explanation": "That используется для предмета в единственном числе, находящегося далеко."
+      "explanation": "That — для одного предмета, который находится далеко."
     },
     {
       "type": "multiple",
-      "text": "Какие слова связаны с «this» (рядом)? (выбери все верные варианты)",
+      "text": "В каких предложениях местоимение выбрано верно? (выбери все верные варианты)",
       "options": [
-        {"text": "here", "correct": true},
-        {"text": "near", "correct": true},
-        {"text": "far", "correct": false},
-        {"text": "there", "correct": false}
+        {"text": "This cup is hot. (чашка рядом)", "correct": true},
+        {"text": "That bird is big. (птица далеко)", "correct": true},
+        {"text": "This mountain is high. (гора далеко)", "correct": false},
+        {"text": "That apple is red. (яблоко у меня в руке)", "correct": false}
       ],
-      "explanation": "This используется, когда предмет here (здесь) и near (близко)."
+      "explanation": "Рядом — this, далеко — that. Гора далеко — That mountain, яблоко в руке — This apple."
     },
     {
       "type": "dropdown",
-      "text": "___ chair is broken (стул далеко).",
+      "text": "___ car is red (машина далеко).",
       "options": [
         {"text": "That", "correct": true},
         {"text": "This", "correct": false},
         {"text": "These", "correct": false}
       ],
-      "explanation": "Предмет далеко и в единственном числе — that."
+      "explanation": "Один предмет далеко — that."
     },
     {
       "type": "dropdown",
-      "text": "___ pencil is mine (карандаш рядом).",
+      "text": "___ bag is heavy (сумка рядом).",
       "options": [
         {"text": "This", "correct": true},
         {"text": "That", "correct": false},
         {"text": "Those", "correct": false}
       ],
-      "explanation": "Предмет рядом и в единственном числе — this."
+      "explanation": "Один предмет рядом — this."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: далеко",
       "answer": "far",
-      "explanation": "«Далеко» переводится как far."
+      "explanation": "«Далеко» — far."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: здесь",
       "answer": "here",
-      "explanation": "«Здесь» переводится как here."
+      "explanation": "«Здесь» — here."
     },
     {
       "type": "matching",
@@ -70,9 +70,9 @@
         {"left": "pencil", "right": "карандаш"},
         {"left": "chair", "right": "стул"},
         {"left": "near", "right": "близко"},
-        {"left": "there", "right": "там"}
+        {"left": "desk", "right": "парта"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     },
     {
       "type": "single",

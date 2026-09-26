@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как будет множественное число слова «box»?",
+      "text": "Как будет множественное число слова «bus»?",
       "options": [
-        {"text": "boxes", "correct": true},
-        {"text": "boxs", "correct": false},
-        {"text": "boxies", "correct": false}
+        {"text": "buses", "correct": true},
+        {"text": "buss", "correct": false},
+        {"text": "busies", "correct": false}
       ],
-      "explanation": "Box оканчивается на -x, поэтому добавляется -es: boxes."
+      "explanation": "Bus оканчивается на -s, поэтому добавляется -es: buses."
     },
     {
       "type": "single",
-      "text": "Как будет множественное число слова «city»?",
+      "text": "Как будет множественное число слова «story»?",
       "options": [
-        {"text": "cities", "correct": true},
-        {"text": "citys", "correct": false},
-        {"text": "cityes", "correct": false}
+        {"text": "stories", "correct": true},
+        {"text": "storys", "correct": false},
+        {"text": "storyes", "correct": false}
       ],
-      "explanation": "City оканчивается на согласную + y, поэтому y меняется на i и добавляется -es."
+      "explanation": "Story оканчивается на согласную + y, поэтому y меняется на i и добавляется -es: stories."
     },
     {
       "type": "multiple",
       "text": "Какие формы множественного числа верны? (выбери все верные варианты)",
       "options": [
-        {"text": "pens", "correct": true},
-        {"text": "babies", "correct": true},
-        {"text": "boxs", "correct": false},
-        {"text": "citys", "correct": false},
-        {"text": "apples", "correct": true}
+        {"text": "cats", "correct": true},
+        {"text": "toys", "correct": true},
+        {"text": "dresses", "correct": true},
+        {"text": "watchs", "correct": false},
+        {"text": "cherrys", "correct": false}
       ],
-      "explanation": "Pen и apple просто +s. Baby (согласная+y) → babies. Box неправильно (нужно boxes), city неправильно (нужно cities)."
+      "explanation": "Cat — просто +s; toy — перед y гласная, поэтому +s; dress оканчивается на -ss → +es. Правильно watches (после -ch → +es) и cherries (согласная + y → ies)."
     },
     {
       "type": "dropdown",
-      "text": "Множественное число слова «baby» — это ___.",
+      "text": "Множественное число слова «party» — это ___.",
       "options": [
-        {"text": "babies", "correct": true},
-        {"text": "babys", "correct": false},
-        {"text": "babyes", "correct": false}
+        {"text": "parties", "correct": true},
+        {"text": "partys", "correct": false},
+        {"text": "partyes", "correct": false}
       ],
-      "explanation": "Baby оканчивается на согласную + y, значит y → i + es: babies."
+      "explanation": "Party оканчивается на согласную + y, значит y → i + es: parties."
     },
     {
       "type": "dropdown",
-      "text": "Множественное число слова «pen» — это ___.",
+      "text": "Множественное число слова «boy» — это ___.",
       "options": [
-        {"text": "pens", "correct": true},
-        {"text": "penes", "correct": false},
-        {"text": "pen", "correct": false}
+        {"text": "boys", "correct": true},
+        {"text": "boies", "correct": false},
+        {"text": "boyes", "correct": false}
       ],
-      "explanation": "Pen — обычное слово, просто добавляем -s: pens."
+      "explanation": "Перед y стоит гласная o, поэтому просто добавляем -s: boys."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши множественное число слова apple.",
-      "answer": "apples",
-      "explanation": "Apple — просто добавляем -s: apples."
+      "text": "Впиши множественное число слова dish.",
+      "answer": "dishes",
+      "explanation": "Dish оканчивается на -sh, поэтому +es: dishes."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши множественное число слова box.",
-      "answer": "boxes",
-      "explanation": "Box оканчивается на -x, поэтому +es: boxes."
+      "text": "Впиши множественное число слова fox.",
+      "answer": "foxes",
+      "explanation": "Fox оканчивается на -x, поэтому +es: foxes."
     },
     {
       "type": "matching",
       "text": "Соедини слово в единственном числе с формой множественного числа",
       "pairs": [
-        {"left": "pen", "right": "pens"},
-        {"left": "box", "right": "boxes"},
-        {"left": "city", "right": "cities"},
-        {"left": "baby", "right": "babies"}
+        {"left": "book", "right": "books"},
+        {"left": "glass", "right": "glasses"},
+        {"left": "family", "right": "families"},
+        {"left": "key", "right": "keys"}
       ],
-      "explanation": "Проверь по правилам из урока: -s, -es после шипящих, y→ies после согласной."
+      "explanation": "Book — просто +s; glass (-ss) → +es; family (согласная + y) → ies; key (гласная + y) → +s."
     },
     {
       "type": "single",
-      "text": "Переведи слово «apple».",
+      "text": "Как переводится слово «cities»?",
       "options": [
-        {"text": "яблоко", "correct": true},
-        {"text": "коробка", "correct": false},
-        {"text": "город", "correct": false}
+        {"text": "города", "correct": true},
+        {"text": "коробки", "correct": false},
+        {"text": "младенцы", "correct": false}
       ],
-      "explanation": "«Apple» — яблоко."
+      "explanation": "City — город, cities — города (согласная + y → ies)."
     }
   ]
 }

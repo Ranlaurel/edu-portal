@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «Россия — самая большая страна в мире»?",
+      "text": "Как сказать «Эльбрус — самая высокая гора в Европе»?",
       "options": [
-        {"text": "Russia is the largest country in the world.", "correct": true},
-        {"text": "Russia is the more large country in the world.", "correct": false},
-        {"text": "Russia is largest country in the world.", "correct": false}
+        {"text": "Elbrus is the highest mountain in Europe.", "correct": true},
+        {"text": "Elbrus is the most high mountain in Europe.", "correct": false},
+        {"text": "Elbrus is highest mountain in Europe.", "correct": false}
       ],
-      "explanation": "Превосходная степень требует артикль the: the largest."
+      "explanation": "High — короткое прилагательное: the + high + -est. Артикль the обязателен."
     },
     {
       "type": "single",
-      "text": "Какая превосходная степень у длинного прилагательного popular?",
+      "text": "The Hermitage was the ___ (interesting) museum on our trip.",
       "options": [
-        {"text": "the most popular", "correct": true},
-        {"text": "the popularest", "correct": false},
-        {"text": "popularer", "correct": false}
+        {"text": "most interesting", "correct": true},
+        {"text": "interestingest", "correct": false},
+        {"text": "more interesting", "correct": false}
       ],
-      "explanation": "Длинные прилагательные (3+ слога) образуют превосходную степень через the most."
+      "explanation": "Interesting — длинное прилагательное: the most interesting."
     },
     {
       "type": "multiple",
       "text": "Какие предложения построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "Lake Baikal is the deepest lake in the world.", "correct": true},
-        {"text": "The Volga is the longest river in Europe.", "correct": true},
-        {"text": "Moscow is the most popular city.", "correct": true},
-        {"text": "Moscow is the popularest city.", "correct": false},
-        {"text": "Russia is largest country.", "correct": false}
+        {"text": "Winter is the coldest season.", "correct": true},
+        {"text": "This is the most beautiful place in our town.", "correct": true},
+        {"text": "Kazan is the most big city here.", "correct": false},
+        {"text": "Everest is the higher mountain in the world.", "correct": false},
+        {"text": "Moscow is the biggest city in Russia.", "correct": true}
       ],
-      "explanation": "Popular — длинное прилагательное, превосходная степень the most popular, не popularest. Артикль the обязателен."
+      "explanation": "Big — короткое: the biggest, а не the most big. «Самый» — превосходная степень the highest, а не сравнительная higher."
     },
     {
       "type": "dropdown",
-      "text": "Baikal is the ___ (deep) lake in the world.",
+      "text": "Yakutia is the ___ (cold) region of Russia.",
       "options": [
-        {"text": "deepest", "correct": true},
-        {"text": "more deep", "correct": false},
-        {"text": "deeper", "correct": false}
+        {"text": "coldest", "correct": true},
+        {"text": "colder", "correct": false},
+        {"text": "more cold", "correct": false}
       ],
-      "explanation": "Короткое прилагательное deep образует превосходную степень через the + -est: deepest."
+      "explanation": "«Самый» — превосходная степень: cold + -est = coldest."
     },
     {
       "type": "dropdown",
-      "text": "Moscow is the ___ (popular) city for tourists.",
+      "text": "For me, Maths is the ___ (difficult) subject.",
       "options": [
-        {"text": "most popular", "correct": true},
-        {"text": "popularest", "correct": false},
-        {"text": "more popular", "correct": false}
+        {"text": "most difficult", "correct": true},
+        {"text": "difficultest", "correct": false},
+        {"text": "more difficult", "correct": false}
       ],
-      "explanation": "Длинное прилагательное popular: превосходная степень через the most."
+      "explanation": "Difficult — длинное прилагательное: the most difficult."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень: big → the ___",
-      "answer": "biggest",
-      "explanation": "Big — короткое прилагательное с удвоением согласной: biggest."
+      "text": "Впиши превосходную степень: hot → the ___",
+      "answer": "hottest",
+      "explanation": "Hot оканчивается на согласную + гласную + согласную, поэтому удваиваем t: hottest."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши превосходную степень: long → the ___",
-      "answer": "longest",
-      "explanation": "Long — короткое прилагательное: the longest."
+      "text": "Впиши превосходную степень: nice → the ___",
+      "answer": "nicest",
+      "explanation": "Nice оканчивается на -e, поэтому добавляем только -st: nicest."
     },
     {
       "type": "matching",
       "text": "Соедини прилагательное с превосходной степенью",
       "pairs": [
-        {"left": "large", "right": "the largest"},
-        {"left": "deep", "right": "the deepest"},
-        {"left": "long", "right": "the longest"},
-        {"left": "popular", "right": "the most popular"}
+        {"left": "small", "right": "the smallest"},
+        {"left": "wide", "right": "the widest"},
+        {"left": "warm", "right": "the warmest"},
+        {"left": "expensive", "right": "the most expensive"}
       ],
-      "explanation": "Короткие прилагательные +est, длинные — the most."
+      "explanation": "Короткие прилагательные: + -est (wide + -st). Длинные: the most + прилагательное."
     }
   ]
 }

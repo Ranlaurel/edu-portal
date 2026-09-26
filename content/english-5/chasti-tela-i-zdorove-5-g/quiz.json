@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно сказать «У меня болит голова»?",
+      "text": "Как сказать «У него болит голова» (через have got)?",
       "options": [
-        {"text": "I have got a headache.", "correct": true},
-        {"text": "I have a headache leg.", "correct": false},
-        {"text": "I hurts a headache.", "correct": false}
+        {"text": "He has got a headache.", "correct": true},
+        {"text": "He have got a headache.", "correct": false},
+        {"text": "He has got a head.", "correct": false}
       ],
-      "explanation": "Головную боль можно назвать «вещью»: have got a headache."
+      "explanation": "Головная боль — «вещь»: have got a headache. Для he используется has got."
     },
     {
       "type": "single",
-      "text": "Какая форма верна: «My legs ___ (hurt)»?",
+      "text": "Какая форма верна: «My eyes ___»?",
       "options": [
         {"text": "hurt", "correct": true},
         {"text": "hurts", "correct": false},
         {"text": "hurting", "correct": false}
       ],
-      "explanation": "Legs — множественное число, поэтому глагол без -s: hurt."
+      "explanation": "Eyes — множественное число, поэтому глагол без -s: hurt."
     },
     {
       "type": "multiple",
-      "text": "Какие предложения означают «болит»? (выбери все верные варианты)",
+      "text": "Какие предложения составлены верно? (выбери все верные варианты)",
       "options": [
-        {"text": "My head hurts.", "correct": true},
-        {"text": "She has got a headache.", "correct": true},
-        {"text": "I am a doctor.", "correct": false},
-        {"text": "My legs hurt.", "correct": true},
-        {"text": "She is a student.", "correct": false}
+        {"text": "My back hurts.", "correct": true},
+        {"text": "My sister feels ill.", "correct": true},
+        {"text": "My nose hurting.", "correct": false},
+        {"text": "My feet hurt.", "correct": true}
       ],
-      "explanation": "Первые три предложения говорят о боли, последние два — нет."
+      "explanation": "Back — ед. ч. → hurts; feet — мн. ч. → hurt; feels ill — «плохо себя чувствует». В «My nose hurting» нет правильной формы глагола: нужно My nose hurts."
     },
     {
       "type": "dropdown",
-      "text": "My head ___ (hurt) after school.",
+      "text": "My tooth ___ (hurt) today.",
       "options": [
         {"text": "hurts", "correct": true},
-        {"text": "hurt", "correct": false},
-        {"text": "hurting", "correct": false}
+        {"text": "hurting", "correct": false},
+        {"text": "are hurt", "correct": false}
       ],
-      "explanation": "Head — единственное число (he/she/it), поэтому hurts."
+      "explanation": "Tooth — единственное число (как it), поэтому hurts."
     },
     {
       "type": "dropdown",
-      "text": "She ___ got a cold.",
+      "text": "Grandma ___ got a cold.",
       "options": [
         {"text": "has", "correct": true},
         {"text": "have", "correct": false},
         {"text": "is", "correct": false}
       ],
-      "explanation": "Для she используется has got, а не have got."
+      "explanation": "Grandma = she, а для he/she/it используется has got."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: My ___ hurts (голова).",
-      "answer": "head",
-      "explanation": "«Голова» — head, и предложение My head hurts переводится «У меня болит голова»."
+      "text": "Впиши перевод одним английским словом: нога",
+      "answer": "leg",
+      "explanation": "«Нога» — leg (мн. ч. legs)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: You should see a ___ (врач).",
+      "text": "Впиши слово: Mum, I feel ill. Please call a ___ (врач).",
       "answer": "doctor",
-      "explanation": "«Врач» переводится как doctor."
+      "explanation": "«Врач» — doctor."
     },
     {
       "type": "matching",
       "text": "Соедини английскую фразу с переводом",
       "pairs": [
-        {"left": "I have got a cold.", "right": "У меня простуда."},
-        {"left": "My legs hurt.", "right": "У меня болят ноги."},
-        {"left": "She has got a headache.", "right": "У неё болит голова."},
-        {"left": "I feel ill.", "right": "Я плохо себя чувствую."}
+        {"left": "My arm hurts.", "right": "У меня болит рука."},
+        {"left": "My teeth hurt.", "right": "У меня болят зубы."},
+        {"left": "He is sick.", "right": "Он болен."},
+        {"left": "Her ears hurt.", "right": "У неё болят уши."}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Arm — ед. ч. → hurts; teeth, ears — мн. ч. → hurt; sick — больной."
     },
     {
       "type": "single",
-      "text": "Как перевести «I feel ill today»?",
+      "text": "Как перевести «У меня болит живот»?",
       "options": [
-        {"text": "Я плохо себя чувствую сегодня.", "correct": true},
-        {"text": "Я иду к врачу сегодня.", "correct": false},
-        {"text": "У меня болит нога сегодня.", "correct": false}
+        {"text": "My stomach hurts.", "correct": true},
+        {"text": "My stomach hurting.", "correct": false},
+        {"text": "I stomach hurts.", "correct": false}
       ],
-      "explanation": "Ill — больной, плохо себя чувствующий."
+      "explanation": "Stomach — единственное число, поэтому My stomach hurts."
     }
   ]
 }

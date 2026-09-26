@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «музей рядом с парком»?",
+      "text": "Как сказать «Кафе находится напротив кинотеатра»?",
       "options": [
-        {"text": "The museum is next to the park.", "correct": true},
-        {"text": "The museum is between the park.", "correct": false},
-        {"text": "The museum is opposite the park.", "correct": false}
+        {"text": "The café is opposite the cinema.", "correct": true},
+        {"text": "The café is between the cinema.", "correct": false},
+        {"text": "The café is next to the cinema.", "correct": false}
       ],
-      "explanation": "«Next to» — рядом с."
+      "explanation": "«Напротив» — opposite. Next to — «рядом с», а between требует двух предметов."
     },
     {
       "type": "single",
-      "text": "Как правильно спросить дорогу до вокзала?",
+      "text": "Как правильно спросить «Где ближайшая аптека?»",
       "options": [
-        {"text": "How can I get to the station?", "correct": true},
-        {"text": "How I can get the station?", "correct": false},
-        {"text": "How can get to the station I?", "correct": false}
+        {"text": "Where is the nearest pharmacy?", "correct": true},
+        {"text": "Where the nearest pharmacy is?", "correct": false},
+        {"text": "Where is nearest the pharmacy?", "correct": false}
       ],
-      "explanation": "Правильный порядок слов в вопросе: How can I get to..."
+      "explanation": "Вопрос строится так: Where is + the nearest + место?"
     },
     {
       "type": "multiple",
-      "text": "Какие предлоги места используются, чтобы сказать, где что находится? (выбери все верные варианты)",
+      "text": "В каких предложениях предлог места употреблён верно? (выбери все верные варианты)",
       "options": [
-        {"text": "next to", "correct": true},
-        {"text": "opposite", "correct": true},
-        {"text": "between", "correct": true},
-        {"text": "forecast", "correct": false},
-        {"text": "on the corner of", "correct": true}
+        {"text": "The shop is next to the bank.", "correct": true},
+        {"text": "The school is between the park and the river.", "correct": true},
+        {"text": "The hotel is opposite of the station.", "correct": false},
+        {"text": "The café is on the corner of King Street.", "correct": true},
+        {"text": "The zoo is between the park.", "correct": false}
       ],
-      "explanation": "Next to, opposite, between, on the corner of — предлоги места. Forecast (прогноз) — не предлог."
+      "explanation": "После opposite не нужно of. Between употребляется с двумя предметами: between A and B."
     },
     {
       "type": "dropdown",
-      "text": "The bridge is ___ the square and the station (между).",
+      "text": "Our school is ___ the post office and the hospital (между).",
       "options": [
         {"text": "between", "correct": true},
         {"text": "next to", "correct": false},
         {"text": "opposite", "correct": false}
       ],
-      "explanation": "«Between» — между двумя объектами."
+      "explanation": "«Между» — between: between A and B."
     },
     {
       "type": "dropdown",
-      "text": "The bus stop is ___ the library (напротив).",
+      "text": "Wait for me ___ the cinema (рядом с).",
       "options": [
-        {"text": "opposite", "correct": true},
+        {"text": "next to", "correct": true},
         {"text": "between", "correct": false},
         {"text": "on the corner of", "correct": false}
       ],
-      "explanation": "«Opposite» — напротив."
+      "explanation": "«Рядом с» — next to."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши предлог: The church is on the ___ of Green Street.",
-      "answer": "corner",
-      "explanation": "«On the corner of» — на углу."
+      "text": "Впиши предлог одним словом: The hotel is ___ the bank (напротив).",
+      "answer": "opposite",
+      "explanation": "«Напротив» — opposite (без of)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово вопроса: ___ can I get to the museum?",
-      "answer": "How",
-      "explanation": "Вопрос о способе добраться начинается с How: How can I get to...?"
+      "text": "Впиши слово: How can I ___ to the zoo? (добраться)",
+      "answer": "get",
+      "explanation": "Вопрос о дороге: How can I get to...? — Как мне добраться до...?"
     },
     {
       "type": "matching",
-      "text": "Соедини предлог с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "next to", "right": "рядом с"},
-        {"left": "opposite", "right": "напротив"},
-        {"left": "between", "right": "между"},
-        {"left": "on the corner of", "right": "на углу"}
+        {"left": "How can I get to the stadium?", "right": "Как мне добраться до стадиона?"},
+        {"left": "Where is the nearest hotel?", "right": "Где ближайшая гостиница?"},
+        {"left": "The park is between two streets.", "right": "Парк находится между двумя улицами."},
+        {"left": "The shop is on the corner of Oak Street.", "right": "Магазин на углу Оук-стрит."}
       ],
-      "explanation": "Проверь по правилу из урока."
+      "explanation": "How can I get to...? — как добраться, Where is...? — где, between — между, on the corner of — на углу."
     }
   ]
 }

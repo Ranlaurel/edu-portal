@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «temperature»?",
+      "text": "Как переводится слово «windy»?",
       "options": [
-        {"text": "температура", "correct": true},
-        {"text": "прогноз", "correct": false},
-        {"text": "градус", "correct": false}
+        {"text": "ветреный", "correct": true},
+        {"text": "тёплый", "correct": false},
+        {"text": "сухой", "correct": false}
       ],
-      "explanation": "«Temperature» — температура."
+      "explanation": "«Windy» — ветреный (wind — ветер)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «foggy»?",
+      "text": "Как по-английски «погода»?",
       "options": [
-        {"text": "туманный", "correct": true},
-        {"text": "облачный", "correct": false},
-        {"text": "ветреный", "correct": false}
+        {"text": "weather", "correct": true},
+        {"text": "winter", "correct": false},
+        {"text": "water", "correct": false}
       ],
-      "explanation": "«Foggy» — туманный."
+      "explanation": "«Погода» — weather. Winter — зима, water — вода."
     },
     {
       "type": "multiple",
       "text": "Какие слова описывают погоду? (выбери все верные варианты)",
       "options": [
-        {"text": "sunny", "correct": true},
-        {"text": "windy", "correct": true},
-        {"text": "season", "correct": false},
-        {"text": "rainy", "correct": true},
-        {"text": "degree", "correct": false}
-      ],
-      "explanation": "Sunny, windy, rainy описывают погоду. Season (время года) и degree (градус) — не описание погоды напрямую."
-    },
-    {
-      "type": "dropdown",
-      "text": "Слово, обозначающее «прогноз погоды» — ___.",
-      "options": [
-        {"text": "forecast", "correct": true},
-        {"text": "climate", "correct": false},
-        {"text": "temperature", "correct": false}
-      ],
-      "explanation": "«Forecast» — прогноз."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как сказать «снежный» по-английски? ___",
-      "options": [
+        {"text": "cloudy", "correct": true},
         {"text": "snowy", "correct": true},
-        {"text": "wet", "correct": false},
-        {"text": "cloudy", "correct": false}
+        {"text": "summer", "correct": false},
+        {"text": "umbrella", "correct": false}
       ],
-      "explanation": "«Snowy» — снежный."
+      "explanation": "Cloudy — облачный, snowy — снежный. Summer — лето, umbrella — зонт: это не описание погоды."
+    },
+    {
+      "type": "dropdown",
+      "text": "It's 35 degrees today. It's very ___.",
+      "options": [
+        {"text": "hot", "correct": true},
+        {"text": "cold", "correct": false},
+        {"text": "snowy", "correct": false}
+      ],
+      "explanation": "35 градусов — жарко: hot."
+    },
+    {
+      "type": "dropdown",
+      "text": "I can't see the road, it's very ___.",
+      "options": [
+        {"text": "foggy", "correct": true},
+        {"text": "hot", "correct": false},
+        {"text": "sunny", "correct": false}
+      ],
+      "explanation": "Дорогу не видно из-за тумана — foggy (туманный)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: время года",
-      "answer": "season",
-      "explanation": "«Время года» переводится как season."
+      "text": "Впиши английское слово: It's minus five ___ outside. (градусов)",
+      "answer": "degrees",
+      "accepted": ["degrees", "degree"],
+      "explanation": "«Градус» — degree, во мн. числе degrees."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: жаркий",
-      "answer": "hot",
-      "explanation": "«Жаркий» переводится как hot."
+      "text": "Впиши английское слово: What's the ___ outside? (температура)",
+      "answer": "temperature",
+      "explanation": "«Температура» — temperature."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "climate", "right": "климат"},
-        {"left": "cloudy", "right": "облачный"},
+        {"left": "sunny", "right": "солнечный"},
+        {"left": "rainy", "right": "дождливый"},
         {"left": "wet", "right": "влажный, мокрый"},
-        {"left": "cold", "right": "холодный"}
+        {"left": "season", "right": "время года"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Чем отличается weather от climate?",
+      "text": "The ___ in Egypt is hot and dry all year round.",
       "options": [
-        {"text": "weather — погода сейчас, climate — климат за долгое время", "correct": true},
-        {"text": "это два слова с одинаковым значением", "correct": false},
-        {"text": "weather — только зимняя погода", "correct": false}
+        {"text": "climate", "correct": true},
+        {"text": "forecast", "correct": false},
+        {"text": "season", "correct": false}
       ],
-      "explanation": "Weather — текущая погода, climate — обычная погода местности за долгий период."
+      "explanation": "Обычная погода в местности за долгое время — climate (климат)."
     }
   ]
 }

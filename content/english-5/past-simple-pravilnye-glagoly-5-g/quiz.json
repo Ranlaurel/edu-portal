@@ -2,79 +2,79 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как образуется Past Simple правильных глаголов?",
+      "text": "Как перевести «Вчера мы помогали маме»?",
       "options": [
-        {"text": "глагол + -ed", "correct": true},
-        {"text": "глагол + -ing", "correct": false},
-        {"text": "will + глагол", "correct": false}
+        {"text": "Yesterday we helped Mum.", "correct": true},
+        {"text": "Yesterday we helpt Mum.", "correct": false},
+        {"text": "Yesterday we help Mum.", "correct": false}
       ],
-      "explanation": "Правильные глаголы в Past Simple получают окончание -ed."
+      "explanation": "Действие закончилось в прошлом (yesterday), поэтому Past Simple: help + -ed = helped."
     },
     {
       "type": "single",
-      "text": "Как правильно образовать прошедшее время от study?",
+      "text": "Как правильно образовать прошедшее время от carry (нести)?",
       "options": [
-        {"text": "studied", "correct": true},
-        {"text": "studyed", "correct": false},
-        {"text": "studied", "correct": false}
+        {"text": "carried", "correct": true},
+        {"text": "carryed", "correct": false},
+        {"text": "carryd", "correct": false}
       ],
-      "explanation": "Глагол на согласную + y меняет y на i и добавляет -ed: studied."
+      "explanation": "Глагол на согласную + y меняет y на i и добавляет -ed: carried."
     },
     {
       "type": "multiple",
       "text": "Какие формы прошедшего времени образованы верно? (выбери все верные варианты)",
       "options": [
-        {"text": "liked", "correct": true},
-        {"text": "studyed", "correct": false},
-        {"text": "cleaned", "correct": true},
-        {"text": "playd", "correct": false},
-        {"text": "walked", "correct": true}
+        {"text": "danced", "correct": true},
+        {"text": "tryed", "correct": false},
+        {"text": "opened", "correct": true},
+        {"text": "closeed", "correct": false},
+        {"text": "jumped", "correct": true}
       ],
-      "explanation": "Liked, cleaned, walked образованы верно. Studyed и playd — с ошибкой."
+      "explanation": "Dance на -e → +d: danced; open, jump → +ed. Правильно tried (согласная + y → ied) и closed (на -e → только -d)."
     },
     {
       "type": "dropdown",
-      "text": "I ___ (like) that film.",
+      "text": "They ___ (smile) at me.",
       "options": [
-        {"text": "liked", "correct": true},
-        {"text": "likeed", "correct": false},
-        {"text": "likd", "correct": false}
+        {"text": "smiled", "correct": true},
+        {"text": "smileed", "correct": false},
+        {"text": "smild", "correct": false}
       ],
-      "explanation": "Глагол на -e получает только -d: liked."
+      "explanation": "Глагол на -e получает только -d: smiled."
     },
     {
       "type": "dropdown",
-      "text": "___ you play football yesterday? (вопрос)",
+      "text": "___ they visit the museum last week? (вопрос)",
       "options": [
         {"text": "Did", "correct": true},
         {"text": "Do", "correct": false},
         {"text": "Does", "correct": false}
       ],
-      "explanation": "Вопрос в Past Simple образуется с помощью did."
+      "explanation": "Last week — прошлое, поэтому вопрос в Past Simple образуется с помощью Did."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: He ___ (clean) the room yesterday.",
-      "answer": "cleaned",
-      "explanation": "Правильный глагол clean получает окончание -ed: cleaned."
+      "text": "Впиши форму глагола: He ___ (cook) dinner yesterday.",
+      "answer": "cooked",
+      "explanation": "Правильный глагол cook получает окончание -ed: cooked."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши отрицание: He ___ (not / clean) the room yesterday.",
-      "answer": "didn't clean",
-      "accepted": ["didn't clean", "did not clean"],
+      "text": "Впиши отрицание: I ___ (not / watch) TV last night.",
+      "answer": "didn't watch",
+      "accepted": ["didn't watch", "didn’t watch", "did not watch"],
       "explanation": "Отрицание образуется через did not (didn't) + глагол без -ed."
     },
     {
       "type": "matching",
       "text": "Соедини начальную форму глагола с формой Past Simple",
       "pairs": [
-        {"left": "study", "right": "studied"},
-        {"left": "like", "right": "liked"},
-        {"left": "walk", "right": "walked"},
-        {"left": "clean", "right": "cleaned"}
+        {"left": "cry", "right": "cried"},
+        {"left": "live", "right": "lived"},
+        {"left": "paint", "right": "painted"},
+        {"left": "listen", "right": "listened"}
       ],
-      "explanation": "Проверь по правилу образования -ed формы."
+      "explanation": "Cry: согласная + y → ied; live: на -e → +d; paint, listen: просто +ed."
     }
   ]
 }

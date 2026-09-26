@@ -5,8 +5,8 @@
       "text": "Что есть в холодильнике у Тома, по диалогу?",
       "options": [
         {"text": "some vegetables and some fish", "correct": true},
-        {"text": "some milk and bread", "correct": false},
-        {"text": "some sweets and sugar", "correct": false}
+        {"text": "some milk and cheese", "correct": false},
+        {"text": "some sweets and cake", "correct": false}
       ],
       "explanation": "Том говорит: we have some vegetables and some fish in the fridge."
     },
@@ -18,71 +18,71 @@
         {"text": "Yes, there is some milk.", "correct": false},
         {"text": "There is a lot of milk.", "correct": false}
       ],
-      "explanation": "Том говорит: No, there isn't any milk."
+      "explanation": "Том отвечает: No, there isn't any milk."
     },
     {
       "type": "multiple",
-      "text": "Что решили не есть сегодня мама и Том? (выбери все верные варианты)",
+      "text": "Что ещё есть у Тома, кроме овощей и рыбы? (выбери все верные варианты)",
       "options": [
-        {"text": "sweets", "correct": true},
-        {"text": "too much sugar", "correct": true},
-        {"text": "vegetables", "correct": false},
-        {"text": "fish", "correct": false}
+        {"text": "bread", "correct": true},
+        {"text": "rice", "correct": true},
+        {"text": "cheese", "correct": false},
+        {"text": "sweets", "correct": false}
       ],
-      "explanation": "Мама говорит: Let's not eat any sweets today — too much sugar is unhealthy."
+      "explanation": "Том говорит: But we have some bread and rice."
     },
     {
       "type": "dropdown",
-      "text": "Is there ___ milk left?",
+      "text": "We haven't got ___ eggs.",
       "options": [
         {"text": "any", "correct": true},
         {"text": "some", "correct": false},
         {"text": "a", "correct": false}
       ],
-      "explanation": "В вопросе используется any, а не some."
+      "explanation": "Отрицание — any."
     },
     {
       "type": "dropdown",
-      "text": "We have ___ bread and rice.",
+      "text": "I'd like ___ water, please.",
       "options": [
         {"text": "some", "correct": true},
         {"text": "any", "correct": false},
         {"text": "a", "correct": false}
       ],
-      "explanation": "В утвердительном предложении используется some."
+      "explanation": "Утвердительная просьба — some. Water неисчисляемое, a не ставится."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I'll have some fruit as a ___ (перекус).",
-      "answer": "snack",
-      "explanation": "«Перекус» — snack."
+      "text": "Впиши слово: Fast food is ___ (вредная) food.",
+      "answer": "unhealthy",
+      "explanation": "«Вредный (для здоровья)» — unhealthy."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: too much ___ is unhealthy (сахар).",
-      "answer": "sugar",
-      "explanation": "«Сахар» — sugar."
+      "text": "Впиши слово: A healthy ___ (питание) has a lot of vegetables.",
+      "answer": "diet",
+      "explanation": "«Питание, диета» — diet."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "too much sugar", "right": "слишком много сахара"},
-        {"left": "isn't any milk", "right": "нет молока"},
-        {"left": "some fruit as a snack", "right": "немного фруктов на перекус"},
-        {"left": "healthy food", "right": "полезная еда"}
+        {"left": "meat", "right": "мясо"},
+        {"left": "water", "right": "вода"},
+        {"left": "food", "right": "еда"},
+        {"left": "snack", "right": "перекус"}
       ],
-      "explanation": "Проверь по диалогу мамы и Тома."
+      "explanation": "Это слова по теме «Здоровое питание»."
     },
     {
       "type": "single",
-      "text": "Что Том съест вместо сладостей?",
+      "text": "Почему мама предлагает сегодня не есть сладости?",
       "options": [
-        {"text": "some fruit", "correct": true},
-        {"text": "some rice", "correct": false},
-        {"text": "some bread", "correct": false}
+        {"text": "Too much sugar is unhealthy.", "correct": true},
+        {"text": "They have no money.", "correct": false},
+        {"text": "Tom doesn't like sweets.", "correct": false}
       ],
-      "explanation": "Том говорит: I'll have some fruit as a snack instead."
+      "explanation": "Мама говорит: too much sugar is unhealthy."
     }
   ]
 }

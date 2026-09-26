@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери верную форму: I ___ this letter right now.",
+      "text": "Выбери верную форму: Look! My little brother ___ with our cat.",
       "options": [
-        {"text": "am writing", "correct": true},
-        {"text": "write", "correct": false},
-        {"text": "writes", "correct": false}
+        {"text": "is playing", "correct": true},
+        {"text": "plays", "correct": false},
+        {"text": "play", "correct": false}
       ],
-      "explanation": "Right now указывает на действие в момент речи — Present Continuous."
+      "explanation": "Look! — действие происходит сейчас, Present Continuous: is playing."
     },
     {
       "type": "single",
-      "text": "Выбери верную форму: My friend ___ in London.",
+      "text": "Выбери верную форму: My pen friend Sam ___ three languages.",
       "options": [
-        {"text": "lives", "correct": true},
-        {"text": "is living", "correct": false},
-        {"text": "live", "correct": false}
+        {"text": "speaks", "correct": true},
+        {"text": "is speaking", "correct": false},
+        {"text": "speak", "correct": false}
       ],
-      "explanation": "Место жительства — факт, используем Present Simple, для he/she/it +s: lives."
+      "explanation": "Знание языков — постоянный факт, Present Simple. Sam — он (he), поэтому speaks."
     },
     {
       "type": "multiple",
-      "text": "Какие фразы-маркеры указывают на Present Continuous? (выбери все верные варианты)",
+      "text": "В каких предложениях время выбрано верно? (выбери все верные варианты)",
       "options": [
-        {"text": "right now", "correct": true},
-        {"text": "usually", "correct": false},
-        {"text": "at the moment", "correct": true},
-        {"text": "every day", "correct": false},
-        {"text": "now", "correct": true}
+        {"text": "We often write emails to each other.", "correct": true},
+        {"text": "Listen! Somebody is knocking at the door.", "correct": true},
+        {"text": "She is going to school every day.", "correct": false},
+        {"text": "Look! The children play in the snow.", "correct": false}
       ],
-      "explanation": "Right now, at the moment, now указывают на действие в момент речи — Present Continuous. Usually и every day — маркеры Present Simple."
+      "explanation": "Often — привычка (Present Simple), Listen! — сейчас (Present Continuous). Every day требует Present Simple (goes), а Look! — Present Continuous (are playing)."
     },
     {
       "type": "dropdown",
-      "text": "It ___ at the moment, so I can't play outside.",
+      "text": "Be quiet, please! The baby ___.",
       "options": [
-        {"text": "is raining", "correct": true},
-        {"text": "rains", "correct": false},
-        {"text": "rained", "correct": false}
+        {"text": "is sleeping", "correct": true},
+        {"text": "sleeps", "correct": false},
+        {"text": "slept", "correct": false}
       ],
-      "explanation": "At the moment указывает на действие сейчас — Present Continuous."
+      "explanation": "Ребёнок спит прямо сейчас — Present Continuous: is sleeping."
     },
     {
       "type": "dropdown",
-      "text": "I usually ___ football after school.",
+      "text": "My dad never ___ coffee.",
       "options": [
-        {"text": "play", "correct": true},
-        {"text": "am playing", "correct": false},
-        {"text": "played", "correct": false}
+        {"text": "drinks", "correct": true},
+        {"text": "is drinking", "correct": false},
+        {"text": "drink", "correct": false}
       ],
-      "explanation": "Usually указывает на привычку — Present Simple."
+      "explanation": "Never — привычка, Present Simple. My dad — он (he), поэтому drinks."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: Right now I ___ (do) my homework.",
-      "answer": "am doing",
-      "explanation": "Right now — действие в момент речи, Present Continuous: am doing."
+      "text": "Впиши форму глагола: At the moment we ___ (sit) in a café.",
+      "answer": "are sitting",
+      "explanation": "At the moment — сейчас, Present Continuous: are + sitting (t удваивается)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: My hobby ___ (be) reading.",
-      "answer": "is",
-      "explanation": "Факт о хобби — Present Simple, для it/hobby используется is."
+      "text": "Впиши форму глагола: Tom ___ (watch) cartoons on Sundays.",
+      "answer": "watches",
+      "explanation": "On Sundays — регулярное действие, Present Simple. Tom — он (he), после ch добавляем -es: watches."
     },
     {
       "type": "matching",
-      "text": "Соедини предложение со временем, которое в нём используется",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I am writing this letter now.", "right": "Present Continuous"},
-        {"left": "I usually play football.", "right": "Present Simple"},
-        {"left": "It is raining at the moment.", "right": "Present Continuous"},
-        {"left": "My hobby is reading.", "right": "Present Simple"}
+        {"left": "I often send postcards.", "right": "Я часто отправляю открытки."},
+        {"left": "I am sending you a photo now.", "right": "Сейчас я отправляю тебе фото."},
+        {"left": "She reads a lot.", "right": "Она много читает."},
+        {"left": "She is reading a comic now.", "right": "Она сейчас читает комикс."}
       ],
-      "explanation": "Present Continuous используется для действий сейчас, Present Simple — для привычек и фактов."
+      "explanation": "Present Simple — привычка, обычное действие; Present Continuous (am/is/are + -ing) — то, что происходит сейчас."
     },
     {
       "type": "single",
-      "text": "I live in Moscow and I usually ___ to school by bus.",
+      "text": "In summer we usually ___ to the countryside.",
       "options": [
         {"text": "go", "correct": true},
-        {"text": "am going", "correct": false},
+        {"text": "are going", "correct": false},
         {"text": "goes", "correct": false}
       ],
-      "explanation": "Usually указывает на привычку — Present Simple, I без -s: go."
+      "explanation": "Usually — привычка, Present Simple. С we глагол без -s: go."
     }
   ]
 }

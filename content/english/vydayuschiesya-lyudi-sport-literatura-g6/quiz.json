@@ -2,88 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Выбери правильную форму: Leo Tolstoy ___ many famous novels.",
+      "text": "Выбери правильную форму: Chekhov ___ (go) to Sakhalin in 1890.",
       "options": [
-        {"text": "wrote", "correct": true},
-        {"text": "writed", "correct": false},
-        {"text": "writes", "correct": false}
+        {"text": "went", "correct": true},
+        {"text": "goed", "correct": false},
+        {"text": "goes", "correct": false}
       ],
-      "explanation": "Write — неправильный глагол, форма прошедшего времени: wrote."
+      "explanation": "Go — неправильный глагол: go → went."
     },
     {
       "type": "single",
-      "text": "Как правильно составить вопрос в Past Simple: «Она быстро стала знаменитой?»",
+      "text": "Как правильно спросить в Past Simple: «Он выиграл матч?»",
       "options": [
-        {"text": "Did she become famous quickly?", "correct": true},
-        {"text": "Did she became famous quickly?", "correct": false},
-        {"text": "Was she become famous quickly?", "correct": false}
+        {"text": "Did he win the match?", "correct": true},
+        {"text": "Did he won the match?", "correct": false},
+        {"text": "Was he win the match?", "correct": false}
       ],
-      "explanation": "После did глагол используется в начальной форме: did she become, а не became."
+      "explanation": "Вопрос: Did + подлежащее + глагол в начальной форме (win, а не won)."
     },
     {
       "type": "multiple",
-      "text": "Какие формы глаголов — неправильные Past Simple? (выбери все верные варианты)",
+      "text": "Какие формы — неправильные глаголы в Past Simple? (выбери все верные варианты)",
       "options": [
-        {"text": "wrote", "correct": true},
-        {"text": "won", "correct": true},
-        {"text": "worked", "correct": false},
-        {"text": "became", "correct": true}
+        {"text": "ran", "correct": true},
+        {"text": "gave", "correct": true},
+        {"text": "played", "correct": false},
+        {"text": "took", "correct": true},
+        {"text": "wanted", "correct": false}
       ],
-      "explanation": "Wrote, won, became — неправильные формы (write, win, become). Worked — правильный глагол (work + -ed)."
+      "explanation": "Ran (run), gave (give), took (take) — неправильные формы. Played и wanted образованы по правилу (+ -ed)."
     },
     {
       "type": "dropdown",
-      "text": "The athlete ___ (win) a gold medal at the competition.",
+      "text": "The team ___ (lose) the final match.",
       "options": [
-        {"text": "won", "correct": true},
-        {"text": "winned", "correct": false},
-        {"text": "wins", "correct": false}
+        {"text": "lost", "correct": true},
+        {"text": "losed", "correct": false},
+        {"text": "loses", "correct": false}
       ],
-      "explanation": "Win — неправильный глагол, форма Past Simple: won (не winned)."
+      "explanation": "Lose — неправильный глагол: lose → lost."
     },
     {
       "type": "dropdown",
-      "text": "She ___ (become) a champion at the age of sixteen.",
+      "text": "Marina Tsvetaeva ___ (begin) writing poems very early.",
       "options": [
-        {"text": "became", "correct": true},
-        {"text": "becomed", "correct": false},
-        {"text": "becomes", "correct": false}
+        {"text": "began", "correct": true},
+        {"text": "begun", "correct": false},
+        {"text": "begined", "correct": false}
       ],
-      "explanation": "Become — неправильный глагол, форма Past Simple: became."
+      "explanation": "Begin — неправильный глагол: begin → began (begun — это третья форма, не Past Simple)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму глагола: He ___ (write) his first poem when he was twelve.",
-      "answer": "wrote",
-      "explanation": "Write — неправильный глагол, форма Past Simple: wrote."
+      "text": "Впиши правильную форму глагола: The famous skater ___ (fall) on the ice, but she still won.",
+      "answer": "fell",
+      "explanation": "Fall — неправильный глагол: fall → fell."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: She ___ (not/win) the first competition.",
-      "answer": "didn't win",
-      "accepted": ["didn't win", "did not win"],
-      "explanation": "Отрицание в Past Simple: did not / didn't + глагол в начальной форме."
+      "text": "Впиши отрицание в Past Simple: The writer ___ (not/finish) his last novel.",
+      "answer": "didn't finish",
+      "accepted": ["didn't finish", "did not finish", "didn’t finish"],
+      "explanation": "Отрицание: didn't + глагол в начальной форме."
     },
     {
       "type": "matching",
       "text": "Соедини начальную форму глагола с формой Past Simple",
       "pairs": [
-        {"left": "write", "right": "wrote"},
-        {"left": "win", "right": "won"},
-        {"left": "become", "right": "became"},
-        {"left": "be", "right": "was"}
+        {"left": "swim", "right": "swam"},
+        {"left": "teach", "right": "taught"},
+        {"left": "speak", "right": "spoke"},
+        {"left": "think", "right": "thought"}
       ],
-      "explanation": "Проверь по правилу неправильных глаголов из урока."
+      "explanation": "Это неправильные глаголы, их формы нужно запомнить."
     },
     {
       "type": "single",
-      "text": "Какой вопрос правильно построен в Past Simple?",
+      "text": "Выбери правильное предложение:",
       "options": [
-        {"text": "Did she win the competition?", "correct": true},
-        {"text": "Did she won the competition?", "correct": false},
-        {"text": "Does she won the competition?", "correct": false}
+        {"text": "She became famous after her first book.", "correct": true},
+        {"text": "She becomed famous after her first book.", "correct": false},
+        {"text": "She becomes famous after her first book last year.", "correct": false}
       ],
-      "explanation": "После did глагол используется в начальной форме: did she win, а не won или does won."
+      "explanation": "Become — неправильный глагол: become → became."
     }
   ]
 }

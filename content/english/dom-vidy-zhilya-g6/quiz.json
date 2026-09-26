@@ -2,87 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно: «В гостиной есть диван»?",
+      "text": "Как правильно: «В ванной есть зеркало»?",
       "options": [
-        {"text": "There is a sofa in the living room.", "correct": true},
-        {"text": "There are a sofa in the living room.", "correct": false},
-        {"text": "There a sofa in the living room.", "correct": false}
+        {"text": "There is a mirror in the bathroom.", "correct": true},
+        {"text": "There are a mirror in the bathroom.", "correct": false},
+        {"text": "There a mirror in the bathroom.", "correct": false}
       ],
-      "explanation": "Sofa — единственное число, значит there is."
+      "explanation": "Mirror (зеркало) — единственное число, значит there is."
     },
     {
       "type": "single",
-      "text": "Как правильно: «В нашей квартире две спальни»?",
+      "text": "Как правильно: «На кухне пять стульев»?",
       "options": [
-        {"text": "There are two bedrooms in our flat.", "correct": true},
-        {"text": "There is two bedrooms in our flat.", "correct": false},
-        {"text": "There bedrooms two in our flat.", "correct": false}
+        {"text": "There are five chairs in the kitchen.", "correct": true},
+        {"text": "There is five chairs in the kitchen.", "correct": false},
+        {"text": "There chairs five in the kitchen.", "correct": false}
       ],
-      "explanation": "Two bedrooms — множественное число, значит there are."
+      "explanation": "Five chairs — множественное число, значит there are."
     },
     {
       "type": "multiple",
       "text": "В каких предложениях there is / there are употреблены верно? (выбери все верные варианты)",
       "options": [
-        {"text": "There is a lamp on the table.", "correct": true},
-        {"text": "There are three rooms in the flat.", "correct": true},
-        {"text": "There is two sofas in the room.", "correct": false},
-        {"text": "There isn't a garage here.", "correct": true}
+        {"text": "There is a TV in the living room.", "correct": true},
+        {"text": "There are two cats in the garden.", "correct": true},
+        {"text": "There is three windows in my room.", "correct": false},
+        {"text": "There aren't any flowers on the balcony.", "correct": true},
+        {"text": "There are a computer on the desk.", "correct": false}
       ],
-      "explanation": "Two sofas — множественное число, нужно there are, а не there is."
+      "explanation": "A TV — ед. ч. (there is), two cats — мн. ч. (there are), any flowers — мн. ч. (there aren't). Three windows требует there are, а a computer — there is."
     },
     {
       "type": "dropdown",
-      "text": "___ there any lamps in the bedroom?",
+      "text": "___ there a fridge in the kitchen?",
       "options": [
-        {"text": "Are", "correct": true},
-        {"text": "Is", "correct": false},
+        {"text": "Is", "correct": true},
+        {"text": "Are", "correct": false},
         {"text": "Do", "correct": false}
       ],
-      "explanation": "Lamps — множественное число, вопрос: Are there...?"
+      "explanation": "A fridge — единственное число, вопрос: Is there...?"
     },
     {
       "type": "dropdown",
-      "text": "There ___ a garage near our house (гаража нет).",
+      "text": "There ___ any pictures on the walls (картин нет).",
       "options": [
-        {"text": "isn't", "correct": true},
-        {"text": "aren't", "correct": false},
+        {"text": "aren't", "correct": true},
+        {"text": "isn't", "correct": false},
         {"text": "don't", "correct": false}
       ],
-      "explanation": "Garage — единственное число, отрицание: there isn't."
+      "explanation": "Pictures — множественное число, отрицание: there aren't."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: ___ is a table in the kitchen. (В кухне есть стол.)",
-      "answer": "There",
-      "explanation": "Утверждение о существовании начинается с There is."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши краткий положительный ответ на вопрос «Is there a sofa in the room?»: Yes, there ___.",
+      "text": "Впиши is или are: There ___ a carpet on the floor. (На полу есть ковёр.)",
       "answer": "is",
-      "explanation": "Краткий ответ для единственного числа: Yes, there is."
+      "explanation": "A carpet — единственное число, значит there is."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши краткий положительный ответ на вопрос «Are there any chairs in the garden?»: Yes, there ___.",
+      "answer": "are",
+      "explanation": "Chairs — множественное число, краткий ответ: Yes, there are."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "There is a sofa in the room.", "right": "В комнате есть диван."},
-        {"left": "There are two bedrooms.", "right": "Есть две спальни."},
-        {"left": "There isn't a garage.", "right": "Гаража нет."},
-        {"left": "Are there any shelves?", "right": "Есть ли полки?"}
+        {"left": "There is a clock on the wall.", "right": "На стене висят часы."},
+        {"left": "There are three beds in the room.", "right": "В комнате три кровати."},
+        {"left": "There isn't a lift in our house.", "right": "В нашем доме нет лифта."},
+        {"left": "Is there a bus stop near your house?", "right": "Рядом с твоим домом есть остановка?"}
       ],
-      "explanation": "Проверь по правилу there is / there are из урока."
+      "explanation": "There is — есть (ед. ч.), there are — есть (мн. ч.), there isn't — нет, Is there...? — есть ли...?"
     },
     {
       "type": "single",
-      "text": "There are three rooms in our flat. Что значит это предложение?",
+      "text": "There are four flats on each floor. Что значит это предложение?",
       "options": [
-        {"text": "В нашей квартире три комнаты.", "correct": true},
-        {"text": "В нашей квартире есть комната.", "correct": false},
-        {"text": "У нас нет комнат.", "correct": false}
+        {"text": "На каждом этаже четыре квартиры.", "correct": true},
+        {"text": "На каждом этаже есть квартира.", "correct": false},
+        {"text": "На этаже нет квартир.", "correct": false}
       ],
-      "explanation": "Three rooms — множественное число, there are + количество."
+      "explanation": "There are + four flats — «есть четыре квартиры», on each floor — «на каждом этаже»."
     }
   ]
 }

@@ -5,8 +5,8 @@
       "text": "Во сколько Бен просыпается, по диалогу?",
       "options": [
         {"text": "at seven", "correct": true},
-        {"text": "at eight", "correct": false},
-        {"text": "at ten", "correct": false}
+        {"text": "at six", "correct": false},
+        {"text": "at eight", "correct": false}
       ],
       "explanation": "Бен говорит: I always wake up at seven."
     },
@@ -22,67 +22,67 @@
     },
     {
       "type": "multiple",
-      "text": "Что Бен делает утром, по диалогу? (выбери все верные варианты)",
+      "text": "Что Бен делает утром после того, как встаёт? (выбери все верные варианты)",
       "options": [
-        {"text": "wakes up at seven", "correct": true},
         {"text": "takes a shower", "correct": true},
+        {"text": "gets dressed", "correct": true},
         {"text": "does homework", "correct": false},
-        {"text": "gets dressed", "correct": true}
+        {"text": "watches TV", "correct": false}
       ],
-      "explanation": "Утром Бен просыпается, принимает душ и одевается; домашнее задание он делает вечером."
+      "explanation": "Бен говорит: Then I take a shower and get dressed."
     },
     {
       "type": "dropdown",
-      "text": "I ___ have breakfast at home (обычно).",
+      "text": "My dad ___ reads the newspaper at breakfast (иногда).",
       "options": [
-        {"text": "usually", "correct": true},
+        {"text": "sometimes", "correct": true},
         {"text": "never", "correct": false},
-        {"text": "sometimes", "correct": false}
+        {"text": "always", "correct": false}
       ],
-      "explanation": "Бен говорит: I usually have breakfast at home."
+      "explanation": "«Иногда» — sometimes."
     },
     {
       "type": "dropdown",
-      "text": "I'm ___ late for bed (никогда).",
+      "text": "Lisa ___ late for school (часто опаздывает).",
       "options": [
-        {"text": "never", "correct": true},
-        {"text": "always", "correct": false},
+        {"text": "is often", "correct": true},
+        {"text": "often is", "correct": false},
         {"text": "often", "correct": false}
       ],
-      "explanation": "Бен говорит: I'm never late for bed."
+      "explanation": "С глаголом to be наречие ставится после него: is often late."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши время: I always go to bed at ___ (десять).",
-      "answer": "ten",
-      "explanation": "Бен говорит: I always go to bed at ten."
+      "text": "Впиши слово: Doing exercises every morning is a good ___. (привычка)",
+      "answer": "habit",
+      "explanation": "«Привычка» — habit."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I never go to school without ___ (есть, eat).",
-      "answer": "eating",
-      "explanation": "После without используется форма -ing: eating."
+      "text": "Впиши глагол в нужной форме: My sister ___ (brush) her teeth twice a day.",
+      "answer": "brushes",
+      "explanation": "My sister — она (she); после sh добавляем -es: brushes."
     },
     {
       "type": "matching",
-      "text": "Соедини действие Бена с временем по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "wake up", "right": "at seven"},
-        {"left": "do homework", "right": "after dinner"},
-        {"left": "go to bed", "right": "at ten"},
-        {"left": "have breakfast", "right": "usually at home"}
+        {"left": "routine", "right": "распорядок дня"},
+        {"left": "have lunch", "right": "обедать"},
+        {"left": "early", "right": "рано"},
+        {"left": "late", "right": "поздно"}
       ],
-      "explanation": "Проверь по диалогу мамы и Бена."
+      "explanation": "Это слова по теме «Режим дня»."
     },
     {
       "type": "single",
-      "text": "Что Бен никогда не делает без завтрака?",
+      "text": "Во сколько Бен ложится спать?",
       "options": [
-        {"text": "go to school", "correct": true},
-        {"text": "do homework", "correct": false},
-        {"text": "take a shower", "correct": false}
+        {"text": "at ten", "correct": true},
+        {"text": "at nine", "correct": false},
+        {"text": "at eleven", "correct": false}
       ],
-      "explanation": "Бен говорит: I never go to school without eating!"
+      "explanation": "Бен говорит: I always go to bed at ten."
     }
   ]
 }

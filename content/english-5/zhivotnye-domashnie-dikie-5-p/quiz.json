@@ -2,49 +2,48 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно сказать «Обезьяна умеет лазить по деревьям»?",
+      "text": "Как правильно сказать «Кенгуру умеет прыгать»?",
       "options": [
-        {"text": "A monkey can climb trees.", "correct": true},
-        {"text": "A monkey cans climb trees.", "correct": false},
-        {"text": "A monkey can climbs trees.", "correct": false}
+        {"text": "A kangaroo can jump.", "correct": true},
+        {"text": "A kangaroo cans jump.", "correct": false},
+        {"text": "A kangaroo can jumps.", "correct": false}
       ],
-      "explanation": "После can глагол используется без -s и без to: can climb."
+      "explanation": "После can глагол используется без -s и без to: can jump."
     },
     {
       "type": "single",
-      "text": "Какая форма верна для вопроса про способность?",
+      "text": "Выбери верный вопрос: «Утка умеет плавать?»",
       "options": [
-        {"text": "Can a bear swim?", "correct": true},
-        {"text": "Does a bear can swim?", "correct": false},
-        {"text": "A bear can swim?", "correct": false}
+        {"text": "Can a duck swim?", "correct": true},
+        {"text": "Does a duck can swim?", "correct": false},
+        {"text": "A duck can swim?", "correct": false}
       ],
       "explanation": "В вопросе can выходит на первое место перед подлежащим."
     },
     {
       "type": "multiple",
-      "text": "Какие глаголы обозначают действия, которые умеют делать животные? (выбери все верные варианты)",
+      "text": "В каких предложениях can использован верно? (выбери все верные варианты)",
       "options": [
-        {"text": "swim", "correct": true},
-        {"text": "climb", "correct": true},
-        {"text": "run", "correct": true},
-        {"text": "table", "correct": false},
-        {"text": "hat", "correct": false}
+        {"text": "A dog can swim.", "correct": true},
+        {"text": "A goat can climbs.", "correct": false},
+        {"text": "A frog can jump.", "correct": true},
+        {"text": "A fish can to swim.", "correct": false}
       ],
-      "explanation": "Swim, climb, run — глаголы действия. Table и hat — существительные, не глаголы."
+      "explanation": "После can глагол в начальной форме — без -s и без to: can climb, can swim."
     },
     {
       "type": "dropdown",
-      "text": "Fish ___ (can't/can) live without water.",
+      "text": "A penguin ___ fly.",
       "options": [
         {"text": "can't", "correct": true},
         {"text": "can", "correct": false},
         {"text": "cans", "correct": false}
       ],
-      "explanation": "Рыбы не могут жить без воды — используется отрицание can't."
+      "explanation": "Пингвины не умеют летать — отрицание can't."
     },
     {
       "type": "dropdown",
-      "text": "A tiger can ___ (бегать) fast.",
+      "text": "A horse can ___ (бегать) fast.",
       "options": [
         {"text": "run", "correct": true},
         {"text": "runs", "correct": false},
@@ -54,26 +53,27 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши отрицательную форму: A dog ___ (can/fly) fly.",
+      "text": "Впиши отрицательную форму can: A cow ___ climb trees.",
       "answer": "can't",
-      "explanation": "Собака не умеет летать — отрицание can't."
+      "accepted": ["can't", "can’t", "cannot"],
+      "explanation": "Корова не умеет лазить по деревьям — can't."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: A bear can ___ (плавать).",
-      "answer": "swim",
-      "explanation": "«Плавать» — swim."
+      "text": "Впиши глагол: A parrot can ___ (летать).",
+      "answer": "fly",
+      "explanation": "«Летать» — fly."
     },
     {
       "type": "matching",
-      "text": "Соедини животное с его способностью",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "monkey", "right": "can climb trees"},
-        {"left": "tiger", "right": "can run fast"},
-        {"left": "bear", "right": "can swim"},
-        {"left": "dog", "right": "can't fly"}
+        {"left": "A lion can run fast.", "right": "Лев умеет быстро бегать."},
+        {"left": "A snake can't walk.", "right": "Змея не умеет ходить."},
+        {"left": "Can an elephant swim?", "right": "Слон умеет плавать?"},
+        {"left": "Monkeys can climb trees.", "right": "Обезьяны умеют лазить по деревьям."}
       ],
-      "explanation": "Проверь по примерам из урока про способности животных."
+      "explanation": "Can — умеет, can't — не умеет, в вопросе can стоит первым."
     }
   ]
 }

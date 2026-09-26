@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Куда хочет попасть турист в диалоге?",
+      "text": "На каком транспорте местный житель советует доехать до музея?",
       "options": [
-        {"text": "to the museum", "correct": true},
-        {"text": "to the library", "correct": false},
-        {"text": "to the church", "correct": false}
+        {"text": "the bus or the underground", "correct": true},
+        {"text": "a taxi or a tram", "correct": false},
+        {"text": "a bike", "correct": false}
       ],
-      "explanation": "Турист спрашивает: how can I get to the museum?"
+      "explanation": "Местный житель говорит: Take the bus or the underground."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «underground»?",
+      "text": "Как переводится слово «monument»?",
       "options": [
-        {"text": "метро", "correct": true},
-        {"text": "автобус", "correct": false},
-        {"text": "такси", "correct": false}
+        {"text": "памятник", "correct": true},
+        {"text": "фонтан", "correct": false},
+        {"text": "дворец", "correct": false}
       ],
-      "explanation": "«Underground» — метро."
+      "explanation": "«Monument» — памятник."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "Музей находится рядом с парком.", "correct": true},
-        {"text": "Станция метро напротив библиотеки.", "correct": true},
-        {"text": "Памятник находится на площади.", "correct": true},
-        {"text": "До музея нельзя дойти пешком.", "correct": false}
+        {"text": "Турист хочет попасть в музей.", "correct": true},
+        {"text": "До музея можно дойти пешком.", "correct": true},
+        {"text": "Памятник стоит рядом с библиотекой.", "correct": false},
+        {"text": "Турист едет на такси.", "correct": false}
       ],
-      "explanation": "По диалогу: museum next to the park, station opposite the library, monument on the square. Пешком дойти можно (just cross the bridge)."
+      "explanation": "Турист спрашивает дорогу к музею, и ему отвечают, что можно дойти пешком (it's not far). Памятник стоит на площади между мостом и церковью, про такси речи нет."
     },
     {
       "type": "dropdown",
-      "text": "The museum is ___ the park (рядом с).",
+      "text": "The café is ___ the cinema and the bank (между).",
       "options": [
-        {"text": "next to", "correct": true},
+        {"text": "between", "correct": true},
         {"text": "opposite", "correct": false},
-        {"text": "between", "correct": false}
+        {"text": "next to", "correct": false}
       ],
-      "explanation": "«Next to» — рядом с."
+      "explanation": "«Между» — between: between A and B."
     },
     {
       "type": "dropdown",
-      "text": "The station is ___ the library (напротив).",
+      "text": "The hospital is ___ the school (напротив).",
       "options": [
         {"text": "opposite", "correct": true},
-        {"text": "next to", "correct": false},
+        {"text": "between", "correct": false},
         {"text": "on the corner of", "correct": false}
       ],
-      "explanation": "«Opposite» — напротив."
+      "explanation": "«Напротив» — opposite."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: мост",
+      "text": "Впиши слово: Cross the ___ (мост) and turn left.",
       "answer": "bridge",
-      "explanation": "«Мост» — bridge, турист пересекает его в диалоге."
+      "explanation": "«Мост» — bridge."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопрос одним словом: ___ can I get to the museum?",
-      "answer": "How",
-      "explanation": "Вопрос о способе добраться начинается с How."
+      "text": "Впиши вопросительное слово: ___ is the nearest bus stop? (Где)",
+      "answer": "Where",
+      "explanation": "«Где?» — Where? Where is the nearest bus stop? — Где ближайшая остановка?"
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "monument", "right": "памятник"},
         {"left": "square", "right": "площадь"},
-        {"left": "bridge", "right": "мост"},
-        {"left": "library", "right": "библиотека"}
+        {"left": "church", "right": "церковь"},
+        {"left": "library", "right": "библиотека"},
+        {"left": "park", "right": "парк"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Эти слова встречаются в диалоге туриста и местного жителя."
     }
   ]
 }

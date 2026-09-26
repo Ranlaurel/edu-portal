@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «unhealthy»?",
+      "text": "Как переводится слово «vegetable»?",
       "options": [
-        {"text": "вредный", "correct": true},
-        {"text": "полезный", "correct": false},
-        {"text": "сладкий", "correct": false}
+        {"text": "овощ", "correct": true},
+        {"text": "орех", "correct": false},
+        {"text": "ягода", "correct": false}
       ],
-      "explanation": "«Unhealthy» — вредный (для здоровья)."
+      "explanation": "«Vegetable» — овощ."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «diet»?",
+      "text": "Как по-английски «мясо»?",
       "options": [
-        {"text": "питание, диета", "correct": true},
-        {"text": "перекус", "correct": false},
-        {"text": "еда (в общем)", "correct": false}
+        {"text": "meat", "correct": true},
+        {"text": "meal", "correct": false},
+        {"text": "mat", "correct": false}
       ],
-      "explanation": "«Diet» — питание, диета."
+      "explanation": "«Мясо» — meat. Meal — приём пищи, mat — коврик."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают продукты питания? (выбери все верные варианты)",
+      "text": "Какие слова обозначают напитки? (выбери все верные варианты)",
       "options": [
-        {"text": "meat", "correct": true},
-        {"text": "healthy", "correct": false},
-        {"text": "fish", "correct": true},
-        {"text": "bread", "correct": true},
-        {"text": "diet", "correct": false}
+        {"text": "water", "correct": true},
+        {"text": "milk", "correct": true},
+        {"text": "bread", "correct": false},
+        {"text": "rice", "correct": false}
       ],
-      "explanation": "Meat, fish, bread — продукты. Healthy и diet — не продукты, а слова о питании в целом."
+      "explanation": "Water (вода) и milk (молоко) пьют. Bread и rice — еда."
     },
     {
       "type": "dropdown",
-      "text": "Перекус — это ___.",
+      "text": "An apple is a ___.",
       "options": [
-        {"text": "snack", "correct": true},
-        {"text": "diet", "correct": false},
-        {"text": "meat", "correct": false}
+        {"text": "fruit", "correct": true},
+        {"text": "vegetable", "correct": false},
+        {"text": "drink", "correct": false}
       ],
-      "explanation": "Snack — перекус."
+      "explanation": "Яблоко — фрукт: fruit."
     },
     {
       "type": "dropdown",
-      "text": "Сладости — это ___.",
+      "text": "Chocolate and candies are ___.",
       "options": [
         {"text": "sweets", "correct": true},
-        {"text": "sugar", "correct": false},
-        {"text": "fruit", "correct": false}
+        {"text": "vegetables", "correct": false},
+        {"text": "diet", "correct": false}
       ],
-      "explanation": "Sweets — сладости."
+      "explanation": "Шоколад и конфеты — сладости: sweets."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: питание, диета",
-      "answer": "diet",
-      "explanation": "«Питание, диета» переводится как diet."
+      "text": "Впиши английское слово: I don't put ___ in my tea. (сахар)",
+      "answer": "sugar",
+      "explanation": "«Сахар» — sugar."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: овощ",
-      "answer": "vegetable",
-      "explanation": "«Овощ» переводится как vegetable."
+      "text": "Впиши английское слово: Carrots are very ___ for you. (полезные)",
+      "answer": "healthy",
+      "explanation": "«Полезный (для здоровья)» — healthy."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
+        {"left": "food", "right": "еда"},
         {"left": "fish", "right": "рыба"},
         {"left": "bread", "right": "хлеб"},
-        {"left": "snack", "right": "перекус"},
-        {"left": "sweets", "right": "сладости"}
+        {"left": "diet", "right": "питание, диета"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «healthy»?",
+      "text": "Как перевести: «I have a snack after school»?",
       "options": [
-        {"text": "полезный (для здоровья)", "correct": true},
-        {"text": "вредный", "correct": false},
-        {"text": "сладкий", "correct": false}
+        {"text": "После школы я перекусываю.", "correct": true},
+        {"text": "После школы я обедаю дома.", "correct": false},
+        {"text": "После школы я ем сладости.", "correct": false}
       ],
-      "explanation": "«Healthy» — полезный для здоровья."
+      "explanation": "Have a snack — перекусить (snack — перекус)."
     }
   ]
 }

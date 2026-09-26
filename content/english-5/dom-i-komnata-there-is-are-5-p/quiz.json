@@ -2,89 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как ответить на «Is there a garden?», если сада нет?",
+      "text": "Как ответить на «Is there a piano in your house?», если пианино нет?",
       "options": [
         {"text": "No, there isn't.", "correct": true},
         {"text": "No, there aren't.", "correct": false},
         {"text": "No, it isn't.", "correct": false}
       ],
-      "explanation": "Garden — единственное число, ответ: No, there isn't."
+      "explanation": "Piano — единственное число, вопрос Is there...? — ответ No, there isn't."
     },
     {
       "type": "single",
-      "text": "Как перевести «В моём доме три спальни»?",
+      "text": "Как перевести «В нашей квартире четыре комнаты»?",
       "options": [
-        {"text": "There are three bedrooms in my house.", "correct": true},
-        {"text": "There is three bedrooms in my house.", "correct": false},
-        {"text": "My house there are three bedrooms.", "correct": false}
+        {"text": "There are four rooms in our flat.", "correct": true},
+        {"text": "There is four rooms in our flat.", "correct": false},
+        {"text": "Our flat there are four rooms.", "correct": false}
       ],
-      "explanation": "Bedrooms — множественное число, поэтому there are."
+      "explanation": "Rooms — множественное число, поэтому there are; предложение начинается с there."
     },
     {
       "type": "multiple",
       "text": "Какие фразы верно описывают дом? (выбери все верные варианты)",
       "options": [
-        {"text": "There is a window in the kitchen.", "correct": true},
-        {"text": "There are a lot of flowers there.", "correct": true},
-        {"text": "There is only one bathroom.", "correct": true},
-        {"text": "There are a kitchen.", "correct": false},
-        {"text": "There is two bathrooms.", "correct": false}
+        {"text": "There is a sofa in the living room.", "correct": true},
+        {"text": "There are two pictures on the wall.", "correct": true},
+        {"text": "There is a bath in the bathroom.", "correct": true},
+        {"text": "There are a big garden.", "correct": false},
+        {"text": "There is three windows.", "correct": false}
       ],
-      "explanation": "Kitchen (одно) требует is, bathrooms (много) требуют are."
+      "explanation": "Garden (один) требует there is, windows (много) — there are."
     },
     {
       "type": "dropdown",
-      "text": "___ two bathrooms? (вопрос)",
+      "text": "___ any flowers in the garden? (вопрос)",
       "options": [
         {"text": "Are there", "correct": true},
         {"text": "Is there", "correct": false},
         {"text": "There are", "correct": false}
       ],
-      "explanation": "Bathrooms — множественное число, вопрос: Are there...?"
+      "explanation": "Flowers — множественное число, вопрос: Are there...?"
     },
     {
       "type": "dropdown",
-      "text": "There ___ a garden in our flat. (отрицание)",
+      "text": "There ___ a computer in my room. (отрицание)",
       "options": [
         {"text": "isn't", "correct": true},
         {"text": "aren't", "correct": false},
         {"text": "don't", "correct": false}
       ],
-      "explanation": "Garden — единственное число, отрицание isn't."
+      "explanation": "Computer — единственное число, отрицание isn't."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: только одна ванная — There is only ___ bathroom.",
-      "answer": "one",
-      "explanation": "«Одна» переводится как one."
+      "text": "Задай вопрос: There is a shop near your house. → ___ there a shop near your house?",
+      "answer": "Is",
+      "explanation": "Shop — единственное число, вопрос начинается с Is there...?"
     },
     {
       "type": "fill_blank",
-      "text": "Составь отрицание: There is a garden in our flat. → There ___ a garden in our flat.",
-      "answer": "isn't",
-      "accepted": ["isn't", "is not"],
-      "explanation": "Отрицательная форма there is — there isn't."
+      "text": "Составь отрицание: There are chairs in the hall. → There ___ any chairs in the hall.",
+      "answer": "aren't",
+      "accepted": ["aren't", "aren’t", "are not"],
+      "explanation": "Chairs — множественное число, отрицание there aren't."
     },
     {
       "type": "matching",
       "text": "Соедини вопрос с правильным ответом",
       "pairs": [
-        {"left": "What rooms are there in your house?", "right": "There are three bedrooms and a kitchen."},
-        {"left": "Is there a garden?", "right": "Yes, there is."},
-        {"left": "Are there two bathrooms?", "right": "No, there aren't."},
-        {"left": "Is there a window in the kitchen?", "right": "Yes, there is."}
+        {"left": "Is there a lamp on your desk? (да)", "right": "Yes, there is."},
+        {"left": "Are there any shops in your street? (нет)", "right": "No, there aren't."},
+        {"left": "How many rooms are there?", "right": "There are five rooms."},
+        {"left": "Is there a TV in your bedroom? (нет)", "right": "No, there isn't."}
       ],
-      "explanation": "Проверь по диалогу из урока."
+      "explanation": "Краткий ответ повторяет there is/are: ед. ч. — is/isn't, мн. ч. — are/aren't; How many — называем количество."
     },
     {
       "type": "single",
-      "text": "Как перевести «На кухне есть окно»?",
+      "text": "Как перевести «На полу есть ковёр»?",
       "options": [
-        {"text": "There is a window in the kitchen.", "correct": true},
-        {"text": "There are a window in the kitchen.", "correct": false},
-        {"text": "Kitchen has there a window.", "correct": false}
+        {"text": "There is a carpet on the floor.", "correct": true},
+        {"text": "There are a carpet on the floor.", "correct": false},
+        {"text": "Floor has there a carpet.", "correct": false}
       ],
-      "explanation": "Window — единственное число, поэтому there is."
+      "explanation": "Carpet — единственное число, поэтому there is."
     }
   ]
 }

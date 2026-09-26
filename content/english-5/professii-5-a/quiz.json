@@ -2,78 +2,76 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «firefighter»?",
+      "text": "Как переводится «police officer»?",
       "options": [
-        {"text": "пожарный", "correct": true},
-        {"text": "полицейский", "correct": false},
+        {"text": "полицейский", "correct": true},
+        {"text": "пожарный", "correct": false},
         {"text": "водитель", "correct": false}
       ],
-      "explanation": "«Firefighter» — пожарный, человек, который тушит пожары."
+      "explanation": "«Police officer» — полицейский."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «она врач»?",
+      "text": "Как правильно сказать «Он инженер»?",
       "options": [
-        {"text": "She is a doctor", "correct": true},
-        {"text": "She a doctor", "correct": false},
-        {"text": "She is doctor", "correct": false}
+        {"text": "He is an engineer.", "correct": true},
+        {"text": "He is a engineer.", "correct": false},
+        {"text": "He engineer.", "correct": false}
       ],
-      "explanation": "Формула: подлежащее + is + a/an + профессия. Артикль a обязателен."
+      "explanation": "Engineer начинается с гласного звука, поэтому an; глагол is обязателен."
     },
     {
       "type": "multiple",
       "text": "Какие слова относятся к профессиям? (выбери все верные варианты)",
       "options": [
-        {"text": "teacher", "correct": true},
+        {"text": "artist", "correct": true},
+        {"text": "dentist", "correct": true},
         {"text": "street", "correct": false},
-        {"text": "driver", "correct": true},
-        {"text": "holiday", "correct": false},
-        {"text": "cook", "correct": true}
+        {"text": "holiday", "correct": false}
       ],
-      "explanation": "Teacher, driver, cook — профессии. Street и holiday — не профессии."
+      "explanation": "Artist (художник) и dentist (зубной врач) — профессии. Street и holiday — нет."
     },
     {
       "type": "dropdown",
-      "text": "My father ___ a police officer.",
+      "text": "My brothers ___ builders.",
       "options": [
-        {"text": "is", "correct": true},
-        {"text": "are", "correct": false},
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "Для He/She/It используется is: father is a police officer."
+      "explanation": "Brothers — множественное число, поэтому are."
     },
     {
       "type": "dropdown",
-      "text": "She is ___ cook.",
+      "text": "He is ___ actor.",
       "options": [
-        {"text": "a", "correct": true},
-        {"text": "an", "correct": false},
-        {"text": "the", "correct": false}
+        {"text": "an", "correct": true},
+        {"text": "a", "correct": false}
       ],
-      "explanation": "Cook начинается с согласного звука, поэтому нужен артикль a."
+      "explanation": "Actor начинается с гласного звука, поэтому an."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: повар",
       "answer": "cook",
-      "explanation": "«Повар» переводится как cook."
+      "explanation": "«Повар» — cook."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: My mother is a ___ (учитель).",
-      "answer": "teacher",
-      "explanation": "«Учитель» — teacher."
+      "text": "Впиши слово: My uncle is a ___ (водитель).",
+      "answer": "driver",
+      "explanation": "«Водитель» — driver."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "doctor", "right": "врач"},
-        {"left": "driver", "right": "водитель"},
+        {"left": "teacher", "right": "учитель"},
         {"left": "firefighter", "right": "пожарный"},
-        {"left": "police officer", "right": "полицейский"}
+        {"left": "nurse", "right": "медсестра"},
+        {"left": "doctor", "right": "врач"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

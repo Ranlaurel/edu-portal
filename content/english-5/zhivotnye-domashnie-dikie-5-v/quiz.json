@@ -2,76 +2,75 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится «wild animal»?",
+      "text": "Как переводится «pet»?",
       "options": [
-        {"text": "дикое животное", "correct": true},
-        {"text": "домашнее животное", "correct": false},
+        {"text": "питомец (домашнее животное)", "correct": true},
+        {"text": "дикое животное", "correct": false},
         {"text": "зоопарк", "correct": false}
       ],
-      "explanation": "«Wild animal» — дикое животное."
+      "explanation": "«Pet» — питомец, домашнее животное."
     },
     {
       "type": "single",
-      "text": "Как по-английски «зоопарк»?",
+      "text": "Как по-английски «лев»?",
       "options": [
-        {"text": "zoo", "correct": true},
-        {"text": "pet", "correct": false},
-        {"text": "farm", "correct": false}
+        {"text": "lion", "correct": true},
+        {"text": "tiger", "correct": false},
+        {"text": "bear", "correct": false}
       ],
-      "explanation": "«Зоопарк» — zoo."
+      "explanation": "«Лев» — lion."
     },
     {
       "type": "multiple",
       "text": "Какие животные обычно считаются дикими? (выбери все верные варианты)",
       "options": [
-        {"text": "lion", "correct": true},
-        {"text": "tiger", "correct": true},
+        {"text": "monkey", "correct": true},
         {"text": "elephant", "correct": true},
-        {"text": "cat", "correct": false},
-        {"text": "dog", "correct": false}
+        {"text": "hamster", "correct": false},
+        {"text": "goldfish", "correct": false}
       ],
-      "explanation": "Lion, tiger, elephant — дикие животные. Cat и dog — домашние питомцы."
+      "explanation": "Monkey (обезьяна) и elephant (слон) — дикие животные. Hamster (хомяк) и goldfish (золотая рыбка) — домашние питомцы."
     },
     {
       "type": "dropdown",
-      "text": "My pet is a ___ (кролик).",
+      "text": "My granny has got a ___ (кошка).",
       "options": [
-        {"text": "rabbit", "correct": true},
-        {"text": "bear", "correct": false},
-        {"text": "lion", "correct": false}
+        {"text": "cat", "correct": true},
+        {"text": "dog", "correct": false},
+        {"text": "bear", "correct": false}
       ],
-      "explanation": "«Кролик» — rabbit."
+      "explanation": "«Кошка» — cat."
     },
     {
       "type": "dropdown",
-      "text": "We saw a tiger and a ___ (медведя) at the zoo.",
+      "text": "Look! The ___ (тигр) is sleeping.",
       "options": [
-        {"text": "bear", "correct": true},
-        {"text": "monkey", "correct": false},
-        {"text": "cat", "correct": false}
+        {"text": "tiger", "correct": true},
+        {"text": "lion", "correct": false},
+        {"text": "bear", "correct": false}
       ],
+      "explanation": "«Тигр» — tiger."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: зоопарк",
+      "answer": "zoo",
+      "explanation": "«Зоопарк» — zoo."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: медведь",
+      "answer": "bear",
       "explanation": "«Медведь» — bear."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: обезьяна",
-      "answer": "monkey",
-      "explanation": "«Обезьяна» переводится как monkey."
-    },
-    {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: слон",
-      "answer": "elephant",
-      "explanation": "«Слон» переводится как elephant."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "dog", "right": "собака"},
-        {"left": "cat", "right": "кошка"},
+        {"left": "rabbit", "right": "кролик"},
         {"left": "animal", "right": "животное"},
-        {"left": "pet", "right": "питомец"}
+        {"left": "wild animal", "right": "дикое животное"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     }

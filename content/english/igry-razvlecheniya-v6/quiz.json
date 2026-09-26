@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «score»?",
+      "text": "Как переводится слово «win»?",
       "options": [
-        {"text": "счёт", "correct": true},
-        {"text": "ход", "correct": false},
-        {"text": "команда", "correct": false}
+        {"text": "выигрывать", "correct": true},
+        {"text": "начинать", "correct": false},
+        {"text": "бросать", "correct": false}
       ],
-      "explanation": "«Score» — счёт (в игре)."
+      "explanation": "«Win» — выигрывать."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «puzzle»?",
+      "text": "Как по-английски «команда»?",
       "options": [
-        {"text": "головоломка", "correct": true},
-        {"text": "карточная игра", "correct": false},
-        {"text": "правила", "correct": false}
+        {"text": "team", "correct": true},
+        {"text": "class", "correct": false},
+        {"text": "family", "correct": false}
       ],
-      "explanation": "«Puzzle» — головоломка."
+      "explanation": "«Команда» — team."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают виды игр? (выбери все верные варианты)",
+      "text": "Какие слова обозначают виды игр? (выбери все верные варианты)",
       "options": [
         {"text": "board game", "correct": true},
-        {"text": "score", "correct": false},
-        {"text": "video game", "correct": true},
         {"text": "card game", "correct": true},
-        {"text": "turn", "correct": false}
+        {"text": "winner", "correct": false},
+        {"text": "ball", "correct": false}
       ],
-      "explanation": "Board game, video game, card game — виды игр. Score и turn — не виды игр."
+      "explanation": "Board game — настольная игра, card game — карточная игра. Winner — победитель, ball — мяч."
     },
     {
       "type": "dropdown",
-      "text": "Проигрывать — это ___.",
+      "text": "If you make a mistake, you can ___ the game.",
       "options": [
         {"text": "lose", "correct": true},
         {"text": "win", "correct": false},
-        {"text": "play", "correct": false}
+        {"text": "fun", "correct": false}
       ],
-      "explanation": "Lose — проигрывать, win — выигрывать."
+      "explanation": "Если ошибёшься, можешь проиграть — lose."
     },
     {
       "type": "dropdown",
-      "text": "Как по-английски «игрок»?",
+      "text": "Messi is a famous football ___.",
       "options": [
         {"text": "player", "correct": true},
         {"text": "team", "correct": false},
-        {"text": "turn", "correct": false}
+        {"text": "game", "correct": false}
       ],
-      "explanation": "Player — игрок."
+      "explanation": "Месси — известный футболист, то есть игрок: player."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: правила игры",
+      "text": "Впиши английское слово: Do you know the ___ of this game? (правила)",
       "answer": "rules",
       "explanation": "«Правила игры» — rules."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: веселье",
-      "answer": "fun",
-      "explanation": "«Веселье» — fun."
+      "text": "Впиши английское слово: What's the ___? — It's two to one. (счёт)",
+      "answer": "score",
+      "explanation": "«Счёт» в игре — score."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "team", "right": "команда"},
-        {"left": "win", "right": "выигрывать"},
+        {"left": "video game", "right": "видеоигра"},
+        {"left": "puzzle", "right": "головоломка"},
         {"left": "turn", "right": "ход, очередь"},
-        {"left": "outdoor game", "right": "игра на улице"}
+        {"left": "fun", "right": "веселье"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «game»?",
+      "text": "Как перевести: «We play outdoor games in summer.»?",
       "options": [
-        {"text": "игра", "correct": true},
-        {"text": "игрок", "correct": false},
-        {"text": "команда", "correct": false}
+        {"text": "Летом мы играем в игры на улице.", "correct": true},
+        {"text": "Летом мы играем в настольные игры.", "correct": false},
+        {"text": "Летом мы играем в видеоигры.", "correct": false}
       ],
-      "explanation": "«Game» — игра."
+      "explanation": "Outdoor games — игры на улице."
     }
   ]
 }

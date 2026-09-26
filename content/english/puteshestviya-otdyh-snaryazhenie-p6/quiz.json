@@ -2,88 +2,89 @@
   "questions": [
     {
       "type": "single",
-      "text": "We ___ travel abroad this summer for a beach holiday.",
+      "text": "Какой отдых планируют этим летом, по тексту?",
       "options": [
-        {"text": "are going to", "correct": true},
-        {"text": "is going to", "correct": false},
-        {"text": "go to", "correct": false}
+        {"text": "a beach holiday abroad", "correct": true},
+        {"text": "a skiing holiday", "correct": false},
+        {"text": "a holiday at grandma's house", "correct": false}
       ],
-      "explanation": "We требует формы are going to для выражения плана."
+      "explanation": "В тексте: We are going to travel abroad this summer for a beach holiday."
     },
     {
       "type": "single",
-      "text": "I am going to pack my suitcase and don't forget the passport and ___!",
+      "text": "Что рассказчик напоминает себе не забыть, когда собирает чемодан?",
       "options": [
-        {"text": "ticket", "correct": true},
-        {"text": "souvenir", "correct": false},
-        {"text": "tent", "correct": false}
+        {"text": "the passport and the ticket", "correct": true},
+        {"text": "a map and a camera", "correct": false},
+        {"text": "sunglasses and a hat", "correct": false}
       ],
-      "explanation": "Ticket (билет) нужен вместе с паспортом для поездки."
+      "explanation": "В тексте: don't forget the passport and ticket!"
     },
     {
       "type": "multiple",
-      "text": "Что нужно взять в поход с палатками (camping)? (выбери все верные варианты)",
+      "text": "Что нужно семье для похода с палатками (camping), по тексту? (выбери все верные варианты)",
       "options": [
         {"text": "a tent", "correct": true},
         {"text": "a backpack", "correct": true},
-        {"text": "a souvenir", "correct": false},
-        {"text": "a passport", "correct": false},
-        {"text": "a suitcase", "correct": false}
+        {"text": "a sofa", "correct": false},
+        {"text": "a piano", "correct": false}
       ],
-      "explanation": "Tent и backpack нужны для похода с палатками. Souvenir, passport, suitcase не относятся напрямую к camping."
+      "explanation": "В тексте: we need a tent and a backpack."
     },
     {
       "type": "dropdown",
-      "text": "My family ___ go camping, so we need a tent and a backpack.",
+      "text": "My friends ___ going to visit Rome.",
       "options": [
-        {"text": "is going to", "correct": true},
-        {"text": "are going to", "correct": false},
-        {"text": "am going to", "correct": false}
+        {"text": "are", "correct": true},
+        {"text": "is", "correct": false},
+        {"text": "am", "correct": false}
       ],
-      "explanation": "Family — единственное число, требует is going to."
+      "explanation": "My friends — они (they): are going to."
     },
     {
       "type": "dropdown",
-      "text": "___ you going to do sightseeing and buy a souvenir?",
+      "text": "___ your mum going to rent a car?",
       "options": [
-        {"text": "Are", "correct": true},
-        {"text": "Is", "correct": false},
-        {"text": "Do", "correct": false}
+        {"text": "Is", "correct": true},
+        {"text": "Are", "correct": false},
+        {"text": "Does", "correct": false}
       ],
-      "explanation": "Вопрос к you строится с Are: Are you going to...?"
+      "explanation": "Your mum — она (she): Is she going to...?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму глагола: We ___ (go) camping next weekend.",
-      "answer": "are going to go",
-      "explanation": "План на будущее: are going to go."
+      "text": "Впиши форму глагола с going to: We ___ (take) a lot of photos.",
+      "answer": "are going to take",
+      "accepted": ["are going to take", "'re going to take", "’re going to take"],
+      "explanation": "С we — are going to + глагол."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши форму: I ___ (not/forget) my ticket.",
-      "answer": "am not going to forget",
-      "explanation": "Отрицание плана: am not going to forget."
+      "text": "Впиши отрицание с going to: He ___ (not/fly) by plane.",
+      "answer": "isn't going to fly",
+      "accepted": ["isn't going to fly", "is not going to fly", "isn’t going to fly", "'s not going to fly"],
+      "explanation": "Отрицание с he: isn't (is not) going to + глагол."
     },
     {
       "type": "matching",
-      "text": "Соедини начало предложения с его завершением",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "We are going to travel", "right": "abroad this summer."},
-        {"left": "I am going to pack", "right": "my suitcase."},
-        {"left": "My family is going to go", "right": "camping."},
-        {"left": "Don't forget your", "right": "passport!"}
+        {"left": "sightseeing", "right": "осмотр достопримечательностей"},
+        {"left": "souvenir", "right": "сувенир"},
+        {"left": "suitcase", "right": "чемодан"},
+        {"left": "abroad", "right": "за границей"}
       ],
-      "explanation": "Части предложений соответствуют по смыслу планам на поездку из урока."
+      "explanation": "Эти слова встречаются в тексте о планах на поездку."
     },
     {
       "type": "single",
-      "text": "Is he ___ pack a tent?",
+      "text": "Is she ___ travel by train?",
       "options": [
         {"text": "going to", "correct": true},
         {"text": "go to", "correct": false},
         {"text": "will", "correct": false}
       ],
-      "explanation": "Вопрос о плане с he строится: Is he going to...?"
+      "explanation": "Вопрос: Is she going to + глагол?"
     }
   ]
 }

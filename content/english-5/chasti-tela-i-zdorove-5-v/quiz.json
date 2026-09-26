@@ -2,45 +2,35 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «stomach»?",
+      "text": "Как переводится слово «leg»?",
       "options": [
-        {"text": "живот", "correct": true},
-        {"text": "спина", "correct": false},
-        {"text": "нога", "correct": false}
+        {"text": "нога", "correct": true},
+        {"text": "рука (от плеча)", "correct": false},
+        {"text": "спина", "correct": false}
       ],
-      "explanation": "«Stomach» — живот."
+      "explanation": "«Leg» — нога."
     },
     {
       "type": "single",
-      "text": "Как по-английски «зуб»?",
+      "text": "Как по-английски «рука (от плеча)»?",
       "options": [
-        {"text": "tooth", "correct": true},
-        {"text": "foot", "correct": false},
+        {"text": "arm", "correct": true},
+        {"text": "hand", "correct": false},
         {"text": "head", "correct": false}
       ],
-      "explanation": "«Зуб» — tooth."
+      "explanation": "Рука от плеча — arm, а кисть руки — hand."
     },
     {
       "type": "multiple",
-      "text": "Какие слова означают части тела? (выбери все верные варианты)",
+      "text": "Какие слова означают «больной»? (выбери все верные варианты)",
       "options": [
-        {"text": "leg", "correct": true},
+        {"text": "ill", "correct": true},
+        {"text": "sick", "correct": true},
+        {"text": "hurt", "correct": false},
         {"text": "doctor", "correct": false},
-        {"text": "back", "correct": true},
-        {"text": "a cold", "correct": false},
-        {"text": "hand", "correct": true}
+        {"text": "a cold", "correct": false}
       ],
-      "explanation": "Leg, back, hand — части тела. Doctor (врач) и a cold (простуда) — не части тела."
-    },
-    {
-      "type": "dropdown",
-      "text": "«Ступня» по-английски — это ___.",
-      "options": [
-        {"text": "foot", "correct": true},
-        {"text": "leg", "correct": false},
-        {"text": "hand", "correct": false}
-      ],
-      "explanation": "«Foot» — ступня, «leg» — нога целиком."
+      "explanation": "Ill и sick — больной. Hurt — болеть (о части тела), doctor — врач, a cold — простуда."
     },
     {
       "type": "dropdown",
@@ -53,37 +43,47 @@
       "explanation": "«Простуда» — a cold. Ill — это прилагательное «больной»."
     },
     {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: врач",
-      "answer": "doctor",
-      "explanation": "«Врач» переводится как doctor."
+      "type": "dropdown",
+      "text": "«Болеть» (о части тела) по-английски — это ___.",
+      "options": [
+        {"text": "hurt", "correct": true},
+        {"text": "hand", "correct": false},
+        {"text": "back", "correct": false}
+      ],
+      "explanation": "Hurt — болеть: My arm hurts (у меня болит рука)."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: голова",
       "answer": "head",
-      "explanation": "«Голова» переводится как head."
+      "explanation": "«Голова» — head."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: кисть руки",
+      "answer": "hand",
+      "explanation": "«Кисть руки» — hand."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "arm", "right": "рука (от плеча)"},
-        {"left": "back", "right": "спина"},
+        {"left": "stomach", "right": "живот"},
         {"left": "tooth", "right": "зуб"},
-        {"left": "ill", "right": "больной"}
+        {"left": "back", "right": "спина"},
+        {"left": "doctor", "right": "врач"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «hand»?",
+      "text": "Как переводится слово «foot»?",
       "options": [
-        {"text": "кисть руки", "correct": true},
-        {"text": "ступня", "correct": false},
-        {"text": "живот", "correct": false}
+        {"text": "ступня", "correct": true},
+        {"text": "нога", "correct": false},
+        {"text": "кисть руки", "correct": false}
       ],
-      "explanation": "«Hand» — кисть руки, а «arm» — рука от плеча."
+      "explanation": "«Foot» — ступня, а «leg» — нога целиком."
     }
   ]
 }

@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «chore»?",
+      "text": "Как переводится слово «duty»?",
       "options": [
-        {"text": "домашняя обязанность", "correct": true},
-        {"text": "правило", "correct": false},
-        {"text": "разрешение", "correct": false}
+        {"text": "обязанность", "correct": true},
+        {"text": "привычка", "correct": false},
+        {"text": "награда", "correct": false}
       ],
-      "explanation": "«Chore» — домашняя обязанность (например, уборка)."
+      "explanation": "«Duty» — обязанность, долг."
     },
     {
       "type": "single",
-      "text": "Как переводится фраза «wash up»?",
+      "text": "Как по-английски «накрывать на стол»?",
       "options": [
-        {"text": "мыть посуду", "correct": true},
-        {"text": "убирать комнату", "correct": false},
-        {"text": "выгуливать собаку", "correct": false}
+        {"text": "lay the table", "correct": true},
+        {"text": "wash the table", "correct": false},
+        {"text": "buy the table", "correct": false}
       ],
-      "explanation": "«Wash up» — мыть посуду."
+      "explanation": "«Накрывать на стол» — lay the table."
     },
     {
       "type": "multiple",
-      "text": "Какие фразы обозначают домашние обязанности? (выбери все верные варианты)",
+      "text": "Какие фразы означают уборку в доме? (выбери все верные варианты)",
       "options": [
-        {"text": "make the bed", "correct": true},
-        {"text": "allowed", "correct": false},
-        {"text": "lay the table", "correct": true},
-        {"text": "walk the dog", "correct": true},
+        {"text": "clean the room", "correct": true},
+        {"text": "vacuum", "correct": true},
+        {"text": "watch TV", "correct": false},
+        {"text": "go to bed", "correct": false}
+      ],
+      "explanation": "Clean the room — убирать комнату, vacuum — пылесосить. Watch TV и go to bed к уборке не относятся."
+    },
+    {
+      "type": "dropdown",
+      "text": "After homework, watching TV is ___ (разрешено).",
+      "options": [
+        {"text": "allowed", "correct": true},
+        {"text": "forbidden", "correct": false},
         {"text": "rule", "correct": false}
       ],
-      "explanation": "Make the bed, lay the table, walk the dog — обязанности. Allowed и rule — не обязанности."
+      "explanation": "«Разрешено» — allowed, а forbidden — «запрещено»."
     },
     {
       "type": "dropdown",
-      "text": "Есть в спальне ___ (запрещено).",
+      "text": "Как по-английски «выгуливать собаку»?",
       "options": [
-        {"text": "forbidden", "correct": true},
-        {"text": "allowed", "correct": false},
-        {"text": "duty", "correct": false}
+        {"text": "walk the dog", "correct": true},
+        {"text": "feed the dog", "correct": false},
+        {"text": "wash the dog", "correct": false}
       ],
-      "explanation": "Forbidden — запрещено."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как по-английски «пылесосить»?",
-      "options": [
-        {"text": "vacuum", "correct": true},
-        {"text": "tidy up", "correct": false},
-        {"text": "wash up", "correct": false}
-      ],
-      "explanation": "Vacuum — пылесосить."
+      "explanation": "«Выгуливать собаку» — walk the dog. Feed — кормить, wash — мыть."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: обязанность",
-      "answer": "duty",
-      "explanation": "«Обязанность» — duty."
+      "text": "Впиши английское слово: Our school has a new ___ about phones. (правило)",
+      "answer": "rule",
+      "explanation": "«Правило» — rule."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод: заправлять кровать (два слова)",
-      "answer": "make the bed",
-      "explanation": "«Заправлять кровать» — make the bed."
+      "text": "Впиши недостающее слово: I always ___ up after dinner. (мою посуду)",
+      "answer": "wash",
+      "explanation": "«Мыть посуду» — wash up."
     },
     {
       "type": "matching",
       "text": "Соедини английскую фразу с переводом",
       "pairs": [
-        {"left": "take out the rubbish", "right": "выносить мусор"},
-        {"left": "water the plants", "right": "поливать растения"},
+        {"left": "make the bed", "right": "заправлять кровать"},
         {"left": "do the shopping", "right": "ходить за покупками"},
-        {"left": "allowed", "right": "разрешено"}
+        {"left": "take out the rubbish", "right": "выносить мусор"},
+        {"left": "water the plants", "right": "поливать растения"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «rule»?",
+      "text": "Мама говорит: «Tidy up your desk, please.» Что нужно сделать?",
       "options": [
-        {"text": "правило", "correct": true},
-        {"text": "обязанность", "correct": false},
-        {"text": "запрет", "correct": false}
+        {"text": "навести порядок на столе", "correct": true},
+        {"text": "купить новый стол", "correct": false},
+        {"text": "вымыть пол", "correct": false}
       ],
-      "explanation": "«Rule» — правило."
+      "explanation": "Tidy up — наводить порядок, desk — письменный стол."
     }
   ]
 }

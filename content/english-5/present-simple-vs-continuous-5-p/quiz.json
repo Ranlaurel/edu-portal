@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какое время нужно: «Listen! The birds ___ (sing)»?",
+      "text": "Какое время нужно: «Look! The dog ___ (run) after the cat»?",
       "options": [
-        {"text": "are singing", "correct": true},
-        {"text": "sing", "correct": false},
-        {"text": "sings", "correct": false}
+        {"text": "is running", "correct": true},
+        {"text": "runs", "correct": false},
+        {"text": "run", "correct": false}
       ],
-      "explanation": "Listen! — сигнал Present Continuous, действие происходит сейчас."
+      "explanation": "Look! — сигнал Present Continuous: действие происходит сейчас."
     },
     {
       "type": "single",
-      "text": "Как перевести «Она обычно не готовит, но сегодня готовит ужин»?",
+      "text": "Как перевести «Я обычно хожу в школу пешком, но сегодня еду на автобусе»?",
       "options": [
-        {"text": "She doesn't usually cook, but she is cooking dinner today.", "correct": true},
-        {"text": "She isn't usually cooking, but she cooks dinner today.", "correct": false},
-        {"text": "She doesn't cook usually, but she cook dinner today.", "correct": false}
+        {"text": "I usually walk to school, but today I am going by bus.", "correct": true},
+        {"text": "I am usually walking to school, but today I go by bus.", "correct": false},
+        {"text": "I usually walks to school, but today I going by bus.", "correct": false}
       ],
-      "explanation": "Привычка — Present Simple (doesn't usually cook), а сегодняшнее действие — Present Continuous (is cooking)."
+      "explanation": "Привычка — Present Simple (usually walk), сегодняшнее действие — Present Continuous (am going)."
     },
     {
       "type": "multiple",
       "text": "Какие слова сигнализируют о Present Continuous? (выбери все верные варианты)",
       "options": [
-        {"text": "Look!", "correct": true},
         {"text": "Listen!", "correct": true},
+        {"text": "right now", "correct": true},
         {"text": "sometimes", "correct": false},
-        {"text": "right now", "correct": true}
+        {"text": "every day", "correct": false}
       ],
-      "explanation": "Look!, Listen! и right now указывают на действие сейчас. Sometimes — сигнал Present Simple."
+      "explanation": "Listen! и right now указывают на действие сейчас. Sometimes и every day — сигналы Present Simple."
     },
     {
       "type": "dropdown",
-      "text": "We ___ (not/watch) TV right now, we ___ (talk).",
+      "text": "Tom ___ (not/sleep) now, he ___ (read).",
       "options": [
-        {"text": "aren't watching / are talking", "correct": true},
-        {"text": "don't watch / talk", "correct": false},
-        {"text": "isn't watching / is talking", "correct": false}
+        {"text": "isn't sleeping / is reading", "correct": true},
+        {"text": "doesn't sleep / reads", "correct": false},
+        {"text": "aren't sleeping / are reading", "correct": false}
       ],
-      "explanation": "Right now — Present Continuous: aren't watching, are talking (для we)."
+      "explanation": "Now — Present Continuous; для he: isn't sleeping, is reading."
     },
     {
       "type": "dropdown",
-      "text": "She ___ (sometimes/cook) dinner.",
+      "text": "We ___ (sometimes/go) to the cinema.",
       "options": [
-        {"text": "sometimes cooks", "correct": true},
-        {"text": "is sometimes cooking", "correct": false},
-        {"text": "sometimes cook", "correct": false}
+        {"text": "sometimes go", "correct": true},
+        {"text": "are sometimes going", "correct": false},
+        {"text": "sometimes goes", "correct": false}
       ],
-      "explanation": "Sometimes — сигнал Present Simple, she требует -s: cooks."
+      "explanation": "Sometimes — сигнал Present Simple; для we глагол без -s: go."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним словом: сегодня",
-      "answer": "today",
-      "explanation": "«Сегодня» переводится как today."
+      "text": "Впиши перевод (на этой неделе): I am staying with Granny ___.",
+      "answer": "this week",
+      "explanation": "«На этой неделе» — this week."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: I ___ (play) chess right now.",
-      "answer": "am playing",
-      "explanation": "Right now — Present Continuous, для I: am playing."
+      "text": "Впиши правильную форму: Be quiet! Dad ___ (sleep).",
+      "answer": "is sleeping",
+      "explanation": "Действие происходит сейчас — Present Continuous; Dad = he: is sleeping."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом",
+      "text": "Соедини слово с переводом",
       "pairs": [
-        {"left": "right now", "right": "прямо сейчас"},
-        {"left": "this week", "right": "на этой неделе"},
         {"left": "sometimes", "right": "иногда"},
-        {"left": "Look!", "right": "Смотри!"}
+        {"left": "today", "right": "сегодня"},
+        {"left": "usually", "right": "обычно"},
+        {"left": "never", "right": "никогда"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

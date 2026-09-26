@@ -22,67 +22,67 @@
     },
     {
       "type": "multiple",
-      "text": "Что сделала спортсменка, по диалогу? (выбери все верные варианты)",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "won many gold medals", "correct": true},
-        {"text": "became a champion at sixteen", "correct": true},
-        {"text": "wrote a bestseller", "correct": false},
-        {"text": "set a new record", "correct": true}
+        {"text": "Одна из книг Толстого стала бестселлером.", "correct": true},
+        {"text": "Толстой писал и стихотворения.", "correct": true},
+        {"text": "Спортсменка не выиграла ни одной медали.", "correct": false},
+        {"text": "Толстой был спортсменом.", "correct": false}
       ],
-      "explanation": "Спортсменка выиграла медали, стала чемпионкой в 16 лет и установила рекорд; книгу написал Толстой, а не она."
+      "explanation": "В диалоге: One of his books became a bestseller; He wrote poems too. Спортсменка выиграла много золотых медалей."
     },
     {
       "type": "dropdown",
-      "text": "The athlete ___ (win) many gold medals.",
+      "text": "Our football team ___ (win) the cup last year.",
       "options": [
         {"text": "won", "correct": true},
         {"text": "winned", "correct": false},
         {"text": "wins", "correct": false}
       ],
-      "explanation": "Win — неправильный глагол, Past Simple: won."
+      "explanation": "Win — неправильный глагол: win → won."
     },
     {
       "type": "dropdown",
-      "text": "Tolstoy ___ (write) poems too.",
+      "text": "The famous singer ___ (sing) at our festival.",
       "options": [
-        {"text": "wrote", "correct": true},
-        {"text": "writed", "correct": false},
-        {"text": "writes", "correct": false}
+        {"text": "sang", "correct": true},
+        {"text": "singed", "correct": false},
+        {"text": "sings", "correct": false}
       ],
-      "explanation": "Write — неправильный глагол, Past Simple: wrote."
+      "explanation": "Sing — неправильный глагол: sing → sang."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: one of his books ___ (стал) a bestseller (become).",
+      "text": "Впиши форму Past Simple: That runner ___ (become) the fastest man in the world.",
       "answer": "became",
-      "explanation": "Become — неправильный глагол, Past Simple: became."
+      "explanation": "Become — неправильный глагол: become → became."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: he is famous mostly as the ___ of great novels (автор).",
-      "answer": "author",
-      "explanation": "«Автор» — author."
+      "text": "Впиши слово: This young writer has a great ___ (талант).",
+      "answer": "talent",
+      "explanation": "«Талант» — talent."
     },
     {
       "type": "matching",
-      "text": "Соедини факт с человеком по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "wrote many novels", "right": "Leo Tolstoy"},
-        {"left": "became a champion at sixteen", "right": "the athlete"},
-        {"left": "set a new record", "right": "the athlete"},
-        {"left": "one book became a bestseller", "right": "Leo Tolstoy"}
+        {"left": "writer", "right": "писатель"},
+        {"left": "novel", "right": "роман"},
+        {"left": "medal", "right": "медаль"},
+        {"left": "competition", "right": "соревнование"}
       ],
-      "explanation": "Проверь по диалогу ученика и учителя."
+      "explanation": "Эти слова встречаются в диалоге ученика и учителя."
     },
     {
       "type": "single",
-      "text": "Как в основном известен Толстой, по диалогу?",
+      "text": "Что ещё сделала спортсменка, кроме того, что стала чемпионкой?",
       "options": [
-        {"text": "as the author of great novels", "correct": true},
-        {"text": "as a famous athlete", "correct": false},
-        {"text": "as a champion", "correct": false}
+        {"text": "set a new record", "correct": true},
+        {"text": "wrote a book", "correct": false},
+        {"text": "became a coach", "correct": false}
       ],
-      "explanation": "Учитель говорит: he is famous mostly as the author of great novels."
+      "explanation": "Учитель говорит: ...and set a new record."
     }
   ]
 }

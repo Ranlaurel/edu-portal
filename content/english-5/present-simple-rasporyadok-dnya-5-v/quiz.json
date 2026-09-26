@@ -2,67 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится фраза «get up»?",
+      "text": "Как переводится фраза «have breakfast»?",
       "options": [
-        {"text": "вставать", "correct": true},
-        {"text": "ложиться спать", "correct": false},
-        {"text": "умываться", "correct": false}
+        {"text": "завтракать", "correct": true},
+        {"text": "ужинать", "correct": false},
+        {"text": "вставать", "correct": false}
       ],
-      "explanation": "«Get up» — вставать (с кровати)."
+      "explanation": "«Have breakfast» — завтракать."
     },
     {
       "type": "single",
-      "text": "Как по-английски «делать домашнее задание»?",
+      "text": "Как по-английски «ужинать»?",
       "options": [
-        {"text": "do homework", "correct": true},
-        {"text": "go to school", "correct": false},
-        {"text": "have dinner", "correct": false}
+        {"text": "have dinner", "correct": true},
+        {"text": "have lunch", "correct": false},
+        {"text": "go to bed", "correct": false}
       ],
-      "explanation": "«Делать домашнее задание» — do homework."
+      "explanation": "«Ужинать» — have dinner, а have lunch — обедать."
     },
     {
       "type": "multiple",
-      "text": "Какие слова означают приёмы пищи? (выбери все верные варианты)",
+      "text": "Какие слова — наречия частоты (как часто)? (выбери все верные варианты)",
       "options": [
-        {"text": "have breakfast", "correct": true},
-        {"text": "have lunch", "correct": true},
-        {"text": "go to bed", "correct": false},
-        {"text": "have dinner", "correct": true},
-        {"text": "wash", "correct": false}
+        {"text": "usually", "correct": true},
+        {"text": "never", "correct": true},
+        {"text": "now", "correct": false},
+        {"text": "yesterday", "correct": false}
       ],
-      "explanation": "Have breakfast, have lunch, have dinner — приёмы пищи. Go to bed и wash — нет."
+      "explanation": "Usually (обычно) и never (никогда) показывают, как часто что-то происходит. Now — сейчас, yesterday — вчера."
     },
     {
       "type": "dropdown",
-      "text": "«Никогда» по-английски — это ___.",
+      "text": "«Всегда» по-английски — это ___.",
       "options": [
-        {"text": "never", "correct": true},
-        {"text": "always", "correct": false},
-        {"text": "usually", "correct": false}
+        {"text": "always", "correct": true},
+        {"text": "often", "correct": false},
+        {"text": "sometimes", "correct": false}
       ],
-      "explanation": "«Никогда» — never."
+      "explanation": "«Всегда» — always."
     },
     {
       "type": "dropdown",
       "text": "«Каждый день» по-английски — это ___.",
       "options": [
         {"text": "every day", "correct": true},
-        {"text": "always", "correct": false},
-        {"text": "go to school", "correct": false}
+        {"text": "every week", "correct": false},
+        {"text": "today", "correct": false}
       ],
       "explanation": "«Каждый день» — every day."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним/двумя английскими словами: ложиться спать",
+      "text": "Впиши перевод английскими словами: ложиться спать",
       "answer": "go to bed",
-      "explanation": "«Ложиться спать» переводится как go to bed."
+      "explanation": "«Ложиться спать» — go to bed."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: всегда",
-      "answer": "always",
-      "explanation": "«Всегда» переводится как always."
+      "text": "Впиши перевод английскими словами: вставать",
+      "answer": "get up",
+      "explanation": "«Вставать» — get up."
     },
     {
       "type": "matching",
@@ -70,20 +69,20 @@
       "pairs": [
         {"left": "wash", "right": "умываться"},
         {"left": "have lunch", "right": "обедать"},
-        {"left": "usually", "right": "обычно"},
-        {"left": "go to school", "right": "идти в школу"}
+        {"left": "go to school", "right": "идти в школу"},
+        {"left": "do homework", "right": "делать домашнее задание"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «always»?",
+      "text": "Как переводится фраза «come home»?",
       "options": [
-        {"text": "всегда", "correct": true},
-        {"text": "никогда", "correct": false},
-        {"text": "обычно", "correct": false}
+        {"text": "приходить домой", "correct": true},
+        {"text": "уходить из дома", "correct": false},
+        {"text": "ложиться спать", "correct": false}
       ],
-      "explanation": "«Always» — всегда."
+      "explanation": "«Come home» — приходить домой: I come home at three."
     }
   ]
 }

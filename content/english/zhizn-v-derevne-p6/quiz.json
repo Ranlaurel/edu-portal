@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Что Ник думает о жизни в деревне?",
+      "text": "Что Лена думает о жизни в городе?",
       "options": [
-        {"text": "она тише и спокойнее, чем в городе", "correct": true},
-        {"text": "она более шумная, чем в городе", "correct": false},
-        {"text": "она такая же, как в городе", "correct": false}
+        {"text": "она интереснее", "correct": true},
+        {"text": "она тише", "correct": false},
+        {"text": "она скучнее", "correct": false}
       ],
-      "explanation": "Ник говорит: life here is quieter than in the city, и village life is more peaceful."
+      "explanation": "Лена говорит: I think city life is more interesting."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «neighbour»?",
+      "text": "Что есть у соседа Ника?",
       "options": [
-        {"text": "сосед", "correct": true},
-        {"text": "фермер", "correct": false},
-        {"text": "животное", "correct": false}
+        {"text": "a farm with lots of animals", "correct": true},
+        {"text": "a big shop", "correct": false},
+        {"text": "a new car", "correct": false}
       ],
-      "explanation": "«Neighbour» — сосед."
+      "explanation": "Ник говорит: my neighbour has a farm with lots of animals."
     },
     {
       "type": "multiple",
       "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "У соседа Ника есть ферма с животными.", "correct": true},
+        {"text": "Деревня Ника небольшая.", "correct": true},
         {"text": "Воздух в деревне чище, чем в городе.", "correct": true},
-        {"text": "Лена думает, что городская жизнь интереснее.", "correct": true},
-        {"text": "Ник живёт в большом городе.", "correct": false}
+        {"text": "Ник не любит сельскую местность.", "correct": false},
+        {"text": "Лена считает деревенскую жизнь шумной.", "correct": false}
       ],
-      "explanation": "По диалогу: сосед Ника имеет ферму, воздух чище, Лена считает город интереснее, а Ник живёт в маленькой деревне."
+      "explanation": "Ник: Our village is small и the fresh air here is cleaner. Он любит деревню, а Лене нравится, что там спокойнее."
     },
     {
       "type": "dropdown",
-      "text": "The air here is ___ (clean) than in a crowded city.",
+      "text": "A horse is ___ (strong) than a sheep.",
       "options": [
-        {"text": "cleaner", "correct": true},
-        {"text": "more clean", "correct": false},
-        {"text": "cleanest", "correct": false}
+        {"text": "stronger", "correct": true},
+        {"text": "more strong", "correct": false},
+        {"text": "strongest", "correct": false}
       ],
-      "explanation": "Короткое прилагательное clean: +er → cleaner."
+      "explanation": "Strong — короткое прилагательное: stronger than."
     },
     {
       "type": "dropdown",
-      "text": "Village life is ___ (peaceful) than noisy city life.",
+      "text": "For me, the countryside is ___ (beautiful) than the city.",
       "options": [
-        {"text": "more peaceful", "correct": true},
-        {"text": "peacefuler", "correct": false},
-        {"text": "most peaceful", "correct": false}
+        {"text": "more beautiful", "correct": true},
+        {"text": "beautifuller", "correct": false},
+        {"text": "most beautiful", "correct": false}
       ],
-      "explanation": "Длинное прилагательное peaceful: more + прилагательное."
+      "explanation": "Beautiful — длинное прилагательное: more beautiful than."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: многолюдный",
-      "answer": "crowded",
-      "explanation": "«Многолюдный» — crowded, упоминается в диалоге про город."
+      "text": "Впиши слово: There are cows in the ___ (поле).",
+      "answer": "field",
+      "explanation": "«Поле» — field."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши сравнительную форму: Life on a farm is ___ (good) for animals.",
+      "text": "Впиши сравнительную форму: My new bike is ___ (good) than my old one.",
       "answer": "better",
-      "explanation": "Good — исключение: better."
+      "explanation": "Исключение: good → better."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "countryside", "right": "сельская местность"},
-        {"left": "farm", "right": "ферма"},
-        {"left": "neighbour", "right": "сосед"},
-        {"left": "noisy", "right": "шумный"}
+        {"left": "crowded", "right": "многолюдный"},
+        {"left": "noisy", "right": "шумный"},
+        {"left": "village", "right": "деревня"}
       ],
-      "explanation": "Проверь по диалогу и словам из урока."
+      "explanation": "Эти слова встречаются в диалоге Ника и Лены."
     }
   ]
 }

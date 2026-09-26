@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «luggage»?",
+      "text": "Как переводится слово «trip»?",
       "options": [
-        {"text": "багаж", "correct": true},
-        {"text": "билет", "correct": false},
-        {"text": "сувенир", "correct": false}
+        {"text": "поездка", "correct": true},
+        {"text": "гостиница", "correct": false},
+        {"text": "карта", "correct": false}
       ],
-      "explanation": "Luggage (baggage) — багаж."
+      "explanation": "«Trip» — поездка."
     },
     {
       "type": "single",
-      "text": "Как будет «за границей» на английском?",
+      "text": "Как по-английски «паспорт»?",
       "options": [
-        {"text": "abroad", "correct": true},
-        {"text": "journey", "correct": false},
-        {"text": "sightseeing", "correct": false}
+        {"text": "passport", "correct": true},
+        {"text": "postcard", "correct": false},
+        {"text": "password", "correct": false}
       ],
-      "explanation": "Abroad — за границей."
+      "explanation": "«Паспорт» — passport. Postcard — открытка, password — пароль."
     },
     {
       "type": "multiple",
-      "text": "Что относится к снаряжению для путешествия? (выбери все верные варианты)",
+      "text": "Что берут с собой в поход с палатками? (выбери все верные варианты)",
       "options": [
-        {"text": "suitcase", "correct": true},
-        {"text": "tourist", "correct": false},
-        {"text": "backpack", "correct": true},
         {"text": "tent", "correct": true},
-        {"text": "journey", "correct": false}
+        {"text": "backpack", "correct": true},
+        {"text": "sofa", "correct": false},
+        {"text": "piano", "correct": false}
       ],
-      "explanation": "Suitcase, backpack, tent — снаряжение. Tourist (турист) и journey (путешествие) — не снаряжение."
+      "explanation": "В поход берут палатку (tent) и рюкзак (backpack)."
     },
     {
       "type": "dropdown",
-      "text": "Don't forget your passport and ___.",
+      "text": "At the station we must show our ___ to get on the train.",
       "options": [
         {"text": "ticket", "correct": true},
-        {"text": "tent", "correct": false},
-        {"text": "souvenir", "correct": false}
+        {"text": "souvenir", "correct": false},
+        {"text": "tent", "correct": false}
       ],
-      "explanation": "Ticket — билет, нужен вместе с паспортом для поездки."
+      "explanation": "Чтобы сесть в поезд, показывают билет — ticket."
     },
     {
       "type": "dropdown",
-      "text": "We bought a nice ___ after sightseeing.",
+      "text": "London is full of ___ in summer — people from many countries.",
       "options": [
-        {"text": "souvenir", "correct": true},
-        {"text": "passport", "correct": false},
-        {"text": "luggage", "correct": false}
+        {"text": "tourists", "correct": true},
+        {"text": "tickets", "correct": false},
+        {"text": "tents", "correct": false}
       ],
-      "explanation": "Souvenir — сувенир, покупают после осмотра достопримечательностей."
+      "explanation": "Люди, которые приезжают посмотреть город, — tourists (туристы)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: чемодан",
+      "text": "Впиши английское слово: My ___ is very heavy, but it has wheels. (чемодан)",
       "answer": "suitcase",
-      "explanation": "«Чемодан» переводится как suitcase."
+      "explanation": "«Чемодан» — suitcase."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: турист",
-      "answer": "tourist",
-      "explanation": "«Турист» переводится как tourist."
+      "text": "Впиши английское слово: I want to ___ around the world. (путешествовать)",
+      "answer": "travel",
+      "explanation": "«Путешествовать» — travel."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
+        {"left": "luggage", "right": "багаж"},
         {"left": "journey", "right": "путешествие (обычно долгое)"},
-        {"left": "beach holiday", "right": "пляжный отдых"},
-        {"left": "camping", "right": "отдых с палатками"},
-        {"left": "passport", "right": "паспорт"}
+        {"left": "sightseeing", "right": "осмотр достопримечательностей"},
+        {"left": "abroad", "right": "за границей"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "I packed my suitcase and ___ for the trip.",
+      "text": "Как перевести: «We bought a souvenir for grandma»?",
       "options": [
-        {"text": "backpack", "correct": true},
-        {"text": "souvenir", "correct": false},
-        {"text": "sightseeing", "correct": false}
+        {"text": "Мы купили сувенир для бабушки.", "correct": true},
+        {"text": "Мы купили билет для бабушки.", "correct": false},
+        {"text": "Мы отправили открытку бабушке.", "correct": false}
       ],
-      "explanation": "Backpack (рюкзак) — вещь, которую можно упаковать вместе с чемоданом."
+      "explanation": "Souvenir — сувенир, bought — купили."
     }
   ]
 }

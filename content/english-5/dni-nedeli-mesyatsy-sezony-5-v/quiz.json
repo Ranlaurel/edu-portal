@@ -2,35 +2,34 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «autumn»?",
+      "text": "Как переводится слово «spring»?",
       "options": [
-        {"text": "осень", "correct": true},
-        {"text": "весна", "correct": false},
-        {"text": "зима", "correct": false}
+        {"text": "весна", "correct": true},
+        {"text": "осень", "correct": false},
+        {"text": "лето", "correct": false}
       ],
-      "explanation": "«Autumn» — осень."
+      "explanation": "«Spring» — весна."
     },
     {
       "type": "single",
-      "text": "Как по-английски «пятница»?",
+      "text": "Как по-английски «декабрь»?",
       "options": [
-        {"text": "Friday", "correct": true},
-        {"text": "Monday", "correct": false},
-        {"text": "Sunday", "correct": false}
+        {"text": "December", "correct": true},
+        {"text": "October", "correct": false},
+        {"text": "November", "correct": false}
       ],
-      "explanation": "«Пятница» переводится как Friday."
+      "explanation": "«Декабрь» — December."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают месяцы? (выбери все верные варианты)",
+      "text": "Какие слова обозначают дни недели? (выбери все верные варианты)",
       "options": [
-        {"text": "January", "correct": true},
-        {"text": "Monday", "correct": false},
-        {"text": "May", "correct": true},
-        {"text": "September", "correct": true},
-        {"text": "spring", "correct": false}
+        {"text": "Monday", "correct": true},
+        {"text": "Sunday", "correct": true},
+        {"text": "month", "correct": false},
+        {"text": "March", "correct": false}
       ],
-      "explanation": "January, May, September — месяцы. Monday — день недели, spring — время года."
+      "explanation": "Monday (понедельник) и Sunday (воскресенье) — дни недели. Month — месяц, March — март."
     },
     {
       "type": "dropdown",
@@ -38,52 +37,52 @@
       "options": [
         {"text": "winter", "correct": true},
         {"text": "summer", "correct": false},
-        {"text": "spring", "correct": false}
+        {"text": "autumn", "correct": false}
       ],
       "explanation": "«Winter» — зима."
     },
     {
       "type": "dropdown",
-      "text": "Выбери месяц «декабрь»:",
+      "text": "Выбери месяц «май»:",
       "options": [
-        {"text": "December", "correct": true},
-        {"text": "January", "correct": false},
-        {"text": "September", "correct": false}
+        {"text": "May", "correct": true},
+        {"text": "March", "correct": false},
+        {"text": "Monday", "correct": false}
       ],
-      "explanation": "«December» — декабрь."
+      "explanation": "«May» — май."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: месяц",
-      "answer": "month",
-      "explanation": "«Месяц» переводится как month."
+      "text": "Впиши слово: A year has twelve ___ (месяцев).",
+      "answer": "months",
+      "explanation": "«Месяц» — month, во множественном числе months."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: лето",
       "answer": "summer",
-      "explanation": "«Лето» переводится как summer."
+      "explanation": "«Лето» — summer."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "Monday", "right": "понедельник"},
-        {"left": "Sunday", "right": "воскресенье"},
-        {"left": "May", "right": "май"},
-        {"left": "spring", "right": "весна"}
+        {"left": "January", "right": "январь"},
+        {"left": "September", "right": "сентябрь"},
+        {"left": "autumn", "right": "осень"},
+        {"left": "Friday", "right": "пятница"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «September»?",
+      "text": "Какие из этих слов пишутся по-английски с маленькой буквы?",
       "options": [
-        {"text": "сентябрь", "correct": true},
-        {"text": "январь", "correct": false},
-        {"text": "декабрь", "correct": false}
+        {"text": "времена года (spring, summer...)", "correct": true},
+        {"text": "дни недели (Monday, Tuesday...)", "correct": false},
+        {"text": "месяцы (January, February...)", "correct": false}
       ],
-      "explanation": "«September» — сентябрь."
+      "explanation": "Дни недели и месяцы пишутся с большой буквы, а времена года — с маленькой: spring, summer, autumn, winter."
     }
   ]
 }

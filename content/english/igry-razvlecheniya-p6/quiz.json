@@ -2,13 +2,13 @@
   "questions": [
     {
       "type": "single",
-      "text": "В какую игру любит играть Том, по диалогу?",
+      "text": "Какая игра у Тома любимая, по диалогу?",
       "options": [
-        {"text": "board games", "correct": true},
-        {"text": "video games", "correct": false},
-        {"text": "outdoor games", "correct": false}
+        {"text": "a card game", "correct": true},
+        {"text": "a video game", "correct": false},
+        {"text": "a puzzle", "correct": false}
       ],
-      "explanation": "Том говорит: I love board games."
+      "explanation": "Том говорит: My favourite is a card game."
     },
     {
       "type": "single",
@@ -22,65 +22,65 @@
     },
     {
       "type": "multiple",
-      "text": "Что делает Том по диалогу? (выбери все верные варианты)",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "plays board games", "correct": true},
-        {"text": "knows all the rules", "correct": true},
-        {"text": "never loses", "correct": false},
-        {"text": "keeps the score", "correct": true}
+        {"text": "Том обычно выигрывает.", "correct": true},
+        {"text": "Иногда Том проигрывает.", "correct": true},
+        {"text": "Том не знает правил.", "correct": false},
+        {"text": "Том никогда не играет в саду.", "correct": false}
       ],
-      "explanation": "Том играет в настольные игры, знает правила и ведёт счёт, но иногда проигрывает — значит, не «никогда не проигрывает»."
+      "explanation": "Том говорит: I do (usually win) и sometimes I lose too. Правила он знает (I know all the rules), а в саду они играют (we play it in the garden)."
     },
     {
       "type": "dropdown",
-      "text": "___ do you play video games? (где)",
+      "text": "___ do you play football with? — With my friends.",
       "options": [
-        {"text": "Where", "correct": true},
-        {"text": "Who", "correct": false},
+        {"text": "Who", "correct": true},
+        {"text": "Where", "correct": false},
         {"text": "How many", "correct": false}
       ],
-      "explanation": "Where — вопрос о месте."
+      "explanation": "Ответ — люди (my friends), значит спрашиваем who: Who do you play with? — С кем ты играешь?"
     },
     {
       "type": "dropdown",
-      "text": "___ players do you need for this game?",
+      "text": "___ puzzles have you got? — Ten.",
       "options": [
         {"text": "How many", "correct": true},
-        {"text": "How", "correct": false},
-        {"text": "What", "correct": false}
+        {"text": "Where", "correct": false},
+        {"text": "Who", "correct": false}
       ],
-      "explanation": "How many — вопрос о количестве исчисляемых предметов (игроков)."
+      "explanation": "Ответ — число (ten), поэтому how many (сколько)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопросительное слово: ___ usually wins? (кто)",
-      "answer": "Who",
-      "explanation": "Who — вопрос о человеке."
+      "text": "Впиши вопросительное слово: ___ is the score now? — Three to two. (какой)",
+      "answer": "What",
+      "explanation": "«Какой счёт?» — What is the score?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: it's my ___ now (очередь).",
+      "text": "Впиши слово: Wait, it's not your ___! (очередь)",
       "answer": "turn",
-      "explanation": "«Очередь» — turn."
+      "explanation": "«Ход, очередь» в игре — turn."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "keep the score", "right": "вести счёт"},
-        {"left": "board games", "right": "настольные игры"},
-        {"left": "outdoor game", "right": "игра на улице"},
-        {"left": "it's my turn", "right": "это моя очередь"}
+        {"left": "board game", "right": "настольная игра"},
+        {"left": "team", "right": "команда"},
+        {"left": "rules", "right": "правила"},
+        {"left": "puzzle", "right": "головоломка"}
       ],
-      "explanation": "Проверь по диалогу Эммы и Тома."
+      "explanation": "Эти слова встречаются в диалоге Эммы и Тома."
     },
     {
       "type": "single",
       "text": "Где Том играет в видеоигры?",
       "options": [
         {"text": "at home", "correct": true},
-        {"text": "in the garden", "correct": false},
-        {"text": "at school", "correct": false}
+        {"text": "at school", "correct": false},
+        {"text": "at a friend's house", "correct": false}
       ],
       "explanation": "Том отвечает: At home."
     }

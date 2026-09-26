@@ -8,7 +8,7 @@
         {"text": "sister", "correct": false},
         {"text": "Ann", "correct": false}
       ],
-      "explanation": "В диалоге Том говорит: my grandmother cooks dinner."
+      "explanation": "Том говорит: my grandmother cooks dinner."
     },
     {
       "type": "single",
@@ -16,73 +16,73 @@
       "options": [
         {"text": "у сестры Тома", "correct": true},
         {"text": "у брата Тома", "correct": false},
-        {"text": "у Ann", "correct": false}
+        {"text": "у Ани", "correct": false}
       ],
-      "explanation": "Том говорит: My sister's birthday (в мае)."
+      "explanation": "На вопрос Whose birthday is in May? Том отвечает: My sister's birthday."
     },
     {
       "type": "multiple",
-      "text": "Что делает семья Тома на день рождения? (выбери все верные варианты по диалогу)",
+      "text": "Кто есть в семье у Тома, по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "celebrate with a cake", "correct": true},
-        {"text": "invite guests", "correct": true},
-        {"text": "go shopping", "correct": false},
-        {"text": "cook dinner", "correct": true}
+        {"text": "a brother", "correct": true},
+        {"text": "a sister", "correct": true},
+        {"text": "a son", "correct": false},
+        {"text": "a daughter", "correct": false}
       ],
-      "explanation": "По диалогу: празднуют с тортом, готовят ужин и приглашают гостей."
+      "explanation": "Том говорит: I have a brother, a sister and a lot of relatives."
     },
     {
       "type": "dropdown",
-      "text": "My grandmother always ___ (cook) dinner for guests.",
+      "text": "My uncle ___ (bring) presents every New Year.",
       "options": [
-        {"text": "cooks", "correct": true},
-        {"text": "cook", "correct": false},
-        {"text": "cooking", "correct": false}
+        {"text": "brings", "correct": true},
+        {"text": "bring", "correct": false},
+        {"text": "bringing", "correct": false}
       ],
-      "explanation": "Present Simple, he/she/it + -s: cooks."
+      "explanation": "Регулярное действие — Present Simple. My uncle — он (he): brings."
     },
     {
       "type": "dropdown",
-      "text": "Whose birthday is in May? — My ___ birthday.",
+      "text": "This is my ___ dog (собака моего друга).",
       "options": [
-        {"text": "sister's", "correct": true},
-        {"text": "sister", "correct": false},
-        {"text": "sisters", "correct": false}
+        {"text": "friend's", "correct": true},
+        {"text": "friends", "correct": false},
+        {"text": "friend", "correct": false}
       ],
-      "explanation": "Притяжательный падеж: sister's birthday."
+      "explanation": "Принадлежность одному человеку: friend + 's."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: We always ___ (celebrate) my sister's birthday with a cake.",
-      "answer": "celebrate",
-      "explanation": "We — без -s: we celebrate."
+      "text": "Впиши слово: We always have a big ___ (торт) on birthdays.",
+      "answer": "cake",
+      "explanation": "«Торт» — cake."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: My family invites a lot of ___ (гости) on holidays.",
-      "answer": "guests",
-      "explanation": "«Гости» — guests."
+      "text": "Впиши форму глагола: My granny ___ (knit) warm socks for us.",
+      "answer": "knits",
+      "explanation": "My granny — она (she), в Present Simple добавляем -s: knits."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "my sister's birthday", "right": "день рождения моей сестры"},
-        {"left": "invite guests", "right": "приглашать гостей"},
-        {"left": "celebrate with a cake", "right": "праздновать с тортом"},
-        {"left": "cook dinner", "right": "готовить ужин"}
+        {"left": "relatives", "right": "родственники"},
+        {"left": "guests", "right": "гости"},
+        {"left": "grandparents", "right": "бабушка и дедушка"},
+        {"left": "celebrate", "right": "праздновать"}
       ],
-      "explanation": "Проверь по диалогу и лексике урока."
+      "explanation": "Эти слова встречаются в диалоге Ани и Тома."
     },
     {
       "type": "single",
-      "text": "Do your grandparents come too? — Yes, my grandmother ___ dinner.",
+      "text": "Сколько у Тома родственников, по его словам?",
       "options": [
-        {"text": "cooks", "correct": true},
-        {"text": "cook", "correct": false},
-        {"text": "is cook", "correct": false}
+        {"text": "a lot of relatives", "correct": true},
+        {"text": "only two relatives", "correct": false},
+        {"text": "no relatives", "correct": false}
       ],
-      "explanation": "Present Simple для she: cooks."
+      "explanation": "Том говорит: I have... a lot of relatives."
     }
   ]
 }

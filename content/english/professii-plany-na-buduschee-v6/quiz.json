@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «engineer»?",
+      "text": "Как переводится слово «lawyer»?",
       "options": [
-        {"text": "инженер", "correct": true},
-        {"text": "учёный", "correct": false},
-        {"text": "художник", "correct": false}
+        {"text": "юрист", "correct": true},
+        {"text": "строитель", "correct": false},
+        {"text": "водитель", "correct": false}
       ],
-      "explanation": "«Engineer» — инженер, специалист технической профессии."
+      "explanation": "«Lawyer» — юрист (law — закон)."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «vet»?",
+      "text": "Как по-английски «художник»?",
       "options": [
-        {"text": "ветеринар", "correct": true},
-        {"text": "юрист", "correct": false},
-        {"text": "пилот", "correct": false}
+        {"text": "artist", "correct": true},
+        {"text": "driver", "correct": false},
+        {"text": "dancer", "correct": false}
       ],
-      "explanation": "«Vet» — ветеринар."
+      "explanation": "«Художник» — artist. Driver — водитель, dancer — танцор."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают профессии? (выбери все верные варианты)",
+      "text": "Кто лечит людей или животных? (выбери все верные варианты)",
       "options": [
+        {"text": "doctor", "correct": true},
         {"text": "vet", "correct": true},
-        {"text": "pilot", "correct": true},
-        {"text": "profession", "correct": false},
-        {"text": "chef", "correct": true},
-        {"text": "job", "correct": false}
+        {"text": "builder", "correct": false},
+        {"text": "driver", "correct": false}
       ],
-      "explanation": "Vet, pilot, chef — конкретные профессии. Profession и job — общие слова для обозначения профессии."
+      "explanation": "Doctor (врач) лечит людей, vet (ветеринар) — животных. Builder — строитель, driver — водитель."
     },
     {
       "type": "dropdown",
-      "text": "Программист — это ___.",
+      "text": "A ___ flies planes.",
+      "options": [
+        {"text": "pilot", "correct": true},
+        {"text": "chef", "correct": false},
+        {"text": "lawyer", "correct": false}
+      ],
+      "explanation": "Самолётом управляет пилот — pilot."
+    },
+    {
+      "type": "dropdown",
+      "text": "A ___ writes computer programs.",
       "options": [
         {"text": "programmer", "correct": true},
-        {"text": "engineer", "correct": false},
-        {"text": "artist", "correct": false}
-      ],
-      "explanation": "Programmer — программист."
-    },
-    {
-      "type": "dropdown",
-      "text": "Певец — это ___.",
-      "options": [
-        {"text": "singer", "correct": true},
-        {"text": "artist", "correct": false},
+        {"text": "singer", "correct": false},
         {"text": "chef", "correct": false}
       ],
-      "explanation": "Singer — певец."
+      "explanation": "Компьютерные программы пишет программист — programmer."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: программист",
-      "answer": "programmer",
-      "explanation": "«Программист» переводится как programmer."
+      "text": "Впиши английское слово: My mum builds bridges. She is an ___. (инженер)",
+      "answer": "engineer",
+      "explanation": "«Инженер» — engineer."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: пожарный",
-      "answer": "firefighter",
-      "explanation": "«Пожарный» переводится как firefighter."
+      "text": "Впиши английское слово: Our English ___ is very kind. (учитель)",
+      "answer": "teacher",
+      "explanation": "«Учитель» — teacher."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "lawyer", "right": "юрист"},
-        {"left": "police officer", "right": "полицейский"},
         {"left": "singer", "right": "певец"},
+        {"left": "firefighter", "right": "пожарный"},
+        {"left": "police officer", "right": "полицейский"},
         {"left": "businessman", "right": "бизнесмен"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «chef»?",
+      "text": "A ___ cooks food in a restaurant.",
       "options": [
-        {"text": "повар", "correct": true},
-        {"text": "врач", "correct": false},
-        {"text": "учитель", "correct": false}
+        {"text": "chef", "correct": true},
+        {"text": "vet", "correct": false},
+        {"text": "artist", "correct": false}
       ],
-      "explanation": "«Chef» — повар (шеф-повар)."
+      "explanation": "Еду в ресторане готовит повар — chef."
     }
   ]
 }

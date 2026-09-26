@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «collection»?",
+      "text": "Как переводится слово «draw»?",
       "options": [
-        {"text": "коллекция", "correct": true},
-        {"text": "навык", "correct": false},
-        {"text": "марка", "correct": false}
+        {"text": "рисовать (карандашом)", "correct": true},
+        {"text": "писать", "correct": false},
+        {"text": "читать", "correct": false}
       ],
-      "explanation": "«Collection» — коллекция."
+      "explanation": "«Draw» — рисовать карандашом, ручкой."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «skill»?",
+      "text": "Как по-английски «коллекция»?",
       "options": [
-        {"text": "навык", "correct": true},
-        {"text": "хобби", "correct": false},
-        {"text": "коллекция", "correct": false}
+        {"text": "collection", "correct": true},
+        {"text": "album", "correct": false},
+        {"text": "box", "correct": false}
       ],
-      "explanation": "«Skill» — навык."
+      "explanation": "«Коллекция» — collection."
     },
     {
       "type": "multiple",
-      "text": "Какие слова обозначают творческие занятия? (выбери все верные варианты)",
+      "text": "Какие занятия связаны с музыкой? (выбери все верные варианты)",
       "options": [
-        {"text": "paint", "correct": true},
-        {"text": "draw", "correct": true},
-        {"text": "collection", "correct": false},
         {"text": "sing", "correct": true},
-        {"text": "skill", "correct": false}
+        {"text": "play an instrument", "correct": true},
+        {"text": "ride a bike", "correct": false},
+        {"text": "play chess", "correct": false}
       ],
-      "explanation": "Paint, draw, sing — занятия. Collection и skill — не глаголы занятий."
+      "explanation": "Sing — петь, play an instrument — играть на инструменте. Ride a bike и play chess с музыкой не связаны."
     },
     {
       "type": "dropdown",
-      "text": "Рисовать красками — это ___.",
-      "options": [
-        {"text": "paint", "correct": true},
-        {"text": "draw", "correct": false},
-        {"text": "knit", "correct": false}
-      ],
-      "explanation": "Paint — рисовать красками, draw — рисовать карандашом."
-    },
-    {
-      "type": "dropdown",
-      "text": "Как по-английски «вязать»?",
+      "text": "Grandma makes warm socks. She likes to ___.",
       "options": [
         {"text": "knit", "correct": true},
-        {"text": "sing", "correct": false},
-        {"text": "collect", "correct": false}
+        {"text": "dance", "correct": false},
+        {"text": "paint", "correct": false}
       ],
-      "explanation": "Knit — вязать."
+      "explanation": "Носки вяжут: knit — вязать."
+    },
+    {
+      "type": "dropdown",
+      "text": "I've got a new camera. I like to ___ of birds.",
+      "options": [
+        {"text": "take photos", "correct": true},
+        {"text": "play chess", "correct": false},
+        {"text": "sing", "correct": false}
+      ],
+      "explanation": "С фотоаппаратом фотографируют: take photos."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: коллекционировать",
+      "text": "Впиши английское слово: My dad has a lot of old coins. He likes to ___ them. (коллекционировать)",
       "answer": "collect",
       "explanation": "«Коллекционировать» — collect."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: марка",
-      "answer": "stamp",
-      "explanation": "«Марка» — stamp."
+      "text": "Впиши английское слово: This book is very ___. (интересная)",
+      "answer": "interesting",
+      "explanation": "«Интересный» — interesting."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "play chess", "right": "играть в шахматы"},
-        {"left": "ride a bike", "right": "кататься на велосипеде"},
-        {"left": "take photos", "right": "фотографировать"},
-        {"left": "interesting", "right": "интересный"}
+        {"left": "hobby", "right": "хобби"},
+        {"left": "skill", "right": "навык"},
+        {"left": "stamp", "right": "марка"},
+        {"left": "dance", "right": "танцевать"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «hobby»?",
+      "text": "Как переводится слово «paint»?",
       "options": [
-        {"text": "хобби", "correct": true},
-        {"text": "навык", "correct": false},
-        {"text": "коллекция", "correct": false}
+        {"text": "рисовать красками", "correct": true},
+        {"text": "строить", "correct": false},
+        {"text": "лепить", "correct": false}
       ],
-      "explanation": "«Hobby» — хобби."
+      "explanation": "«Paint» — рисовать красками."
     }
   ]
 }

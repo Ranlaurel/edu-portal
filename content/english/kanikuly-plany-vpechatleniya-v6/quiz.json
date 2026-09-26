@@ -2,88 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «exciting»?",
+      "text": "Как переводится слово «terrible»?",
       "options": [
-        {"text": "увлекательный", "correct": true},
-        {"text": "скучный", "correct": false},
-        {"text": "ужасный", "correct": false}
+        {"text": "ужасный", "correct": true},
+        {"text": "удобный", "correct": false},
+        {"text": "тёплый", "correct": false}
       ],
-      "explanation": "Exciting — увлекательный."
+      "explanation": "«Terrible» — ужасный."
     },
     {
       "type": "single",
-      "text": "Как будет «впечатление» на английском?",
+      "text": "Как по-английски «отдыхать, расслабляться»?",
       "options": [
-        {"text": "impression", "correct": true},
-        {"text": "memory", "correct": false},
-        {"text": "holiday", "correct": false}
+        {"text": "relax", "correct": true},
+        {"text": "return", "correct": false},
+        {"text": "repeat", "correct": false}
       ],
-      "explanation": "Impression — впечатление."
+      "explanation": "«Отдыхать, расслабляться» — relax. Return — возвращаться, repeat — повторять."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают положительные эмоции от отдыха? (выбери все верные варианты)",
+      "text": "Какие слова описывают хорошие впечатления от отдыха? (выбери все верные варианты)",
       "options": [
         {"text": "amazing", "correct": true},
-        {"text": "boring", "correct": false},
         {"text": "exciting", "correct": true},
-        {"text": "terrible", "correct": false},
-        {"text": "enjoy", "correct": true}
+        {"text": "sad", "correct": false},
+        {"text": "tired", "correct": false}
       ],
-      "explanation": "Amazing, exciting, enjoy — положительные слова. Boring и terrible — отрицательные."
+      "explanation": "Amazing — потрясающий, exciting — увлекательный. Sad — грустный, tired — уставший."
     },
     {
       "type": "dropdown",
-      "text": "We ___ at a small hotel near the beach.",
+      "text": "Next summer I want to ___ my grandparents in Kazan.",
       "options": [
-        {"text": "stayed", "correct": true},
-        {"text": "swam", "correct": false},
-        {"text": "took", "correct": false}
+        {"text": "visit", "correct": true},
+        {"text": "swim", "correct": false},
+        {"text": "walk", "correct": false}
       ],
-      "explanation": "Stay (at/in) — останавливаться где-то, подходит к слову hotel."
+      "explanation": "Visit — посещать, навещать."
     },
     {
       "type": "dropdown",
-      "text": "I love taking ___ on holiday.",
+      "text": "Let's go to the park and ___ the dog.",
       "options": [
-        {"text": "photos", "correct": true},
-        {"text": "memories", "correct": false},
-        {"text": "impressions", "correct": false}
+        {"text": "walk", "correct": true},
+        {"text": "stay", "correct": false},
+        {"text": "relax", "correct": false}
       ],
-      "explanation": "Take photos — устойчивое выражение «фотографировать»."
+      "explanation": "Walk — гулять; walk the dog — выгуливать собаку."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: скучный",
+      "text": "Впиши английское слово: This film is so ___! I want to sleep. (скучный)",
       "answer": "boring",
-      "explanation": "«Скучный» переводится как boring."
+      "explanation": "«Скучный» — boring."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: воспоминание",
+      "text": "Впиши английское слово: I have a happy ___ of that summer. (воспоминание)",
       "answer": "memory",
-      "explanation": "«Воспоминание» переводится как memory."
+      "explanation": "«Воспоминание» — memory."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "relax", "right": "отдыхать, расслабляться"},
-        {"left": "terrible", "right": "ужасный"},
-        {"left": "have fun", "right": "веселиться"},
-        {"left": "visit", "right": "посещать"}
+        {"left": "impression", "right": "впечатление"},
+        {"left": "enjoy", "right": "наслаждаться"},
+        {"left": "take photos", "right": "фотографировать"},
+        {"left": "holiday", "right": "каникулы, отпуск"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     },
     {
       "type": "single",
-      "text": "We had an ___ holiday by the sea.",
+      "text": "We ___ in the pool every morning.",
       "options": [
-        {"text": "amazing", "correct": true},
-        {"text": "boring", "correct": false},
-        {"text": "terrible", "correct": false}
+        {"text": "swim", "correct": true},
+        {"text": "visit", "correct": false},
+        {"text": "take", "correct": false}
       ],
-      "explanation": "Amazing (потрясающий) — положительное впечатление, подходит по смыслу."
+      "explanation": "Swim — плавать: в бассейне плавают."
     }
   ]
 }

@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как ответить на «What time is it?», если сейчас 4:15?",
+      "text": "Как ответить на «What time is it?», если сейчас 10:15?",
       "options": [
-        {"text": "It's a quarter past four.", "correct": true},
-        {"text": "It's a quarter to four.", "correct": false},
-        {"text": "It's four o'clock.", "correct": false}
+        {"text": "It's a quarter past ten.", "correct": true},
+        {"text": "It's a quarter to ten.", "correct": false},
+        {"text": "It's ten o'clock.", "correct": false}
       ],
-      "explanation": "4:15 — это четверть после четырёх: a quarter past four."
+      "explanation": "10:15 — это четверть после десяти: a quarter past ten."
     },
     {
       "type": "single",
-      "text": "Как перевести «В нашей школе сто учеников»?",
+      "text": "Как перевести «В нашем классе двадцать пять учеников»?",
       "options": [
-        {"text": "There are a hundred pupils in our school.", "correct": true},
-        {"text": "There is a hundred pupils in our school.", "correct": false},
-        {"text": "There are hundred pupil in our school.", "correct": false}
+        {"text": "There are twenty-five pupils in our class.", "correct": true},
+        {"text": "There is twenty-five pupils in our class.", "correct": false},
+        {"text": "There are twenty-five pupil in our class.", "correct": false}
       ],
-      "explanation": "Pupils — множественное число, нужно there are; hundred требует артикль a."
+      "explanation": "Pupils — множественное число, поэтому there are и pupils с -s; 25 пишется через дефис."
     },
     {
       "type": "multiple",
-      "text": "Какие фразы верно называют возраст и время? (выбери все верные варианты)",
+      "text": "Какие фразы составлены верно? (выбери все верные варианты)",
       "options": [
-        {"text": "I am eleven.", "correct": true},
-        {"text": "The lesson starts at nine o'clock.", "correct": true},
-        {"text": "He is sixty-five.", "correct": true},
-        {"text": "It's o'clock nine.", "correct": false},
-        {"text": "I am eleven years", "correct": false}
+        {"text": "I am twelve.", "correct": true},
+        {"text": "The film starts at seven o'clock.", "correct": true},
+        {"text": "My mum is thirty-eight.", "correct": true},
+        {"text": "It's o'clock eight.", "correct": false},
+        {"text": "He is fifty years.", "correct": false}
       ],
-      "explanation": "Порядок слов «o'clock nine» неверен (нужно nine o'clock); возраст называем просто числом: I am eleven."
+      "explanation": "Возраст называем просто числом (I am twelve) или с years old; «fifty years» без old неверно. Порядок «o'clock eight» неверен — нужно eight o'clock."
     },
     {
       "type": "dropdown",
-      "text": "The lesson starts at nine ___.",
+      "text": "School starts at eight ___.",
       "options": [
         {"text": "o'clock", "correct": true},
         {"text": "hour", "correct": false},
         {"text": "past", "correct": false}
       ],
-      "explanation": "Для ровного часа используется o'clock: nine o'clock."
+      "explanation": "Для ровного часа используется o'clock: eight o'clock."
     },
     {
       "type": "dropdown",
-      "text": "It's twenty ___ three. (без двадцати три)",
+      "text": "It's five ___ eleven. (без пяти одиннадцать)",
       "options": [
         {"text": "to", "correct": true},
         {"text": "past", "correct": false},
         {"text": "half", "correct": false}
       ],
-      "explanation": "To используется перед следующим часом: без двадцати до трёх."
+      "explanation": "To используется перед следующим часом: пять минут до одиннадцати."
     },
     {
       "type": "fill_blank",
-      "text": "Напиши число 43 словом (через дефис)",
-      "answer": "forty-three",
-      "explanation": "Десятки и единицы соединяются дефисом: forty-three."
+      "text": "Напиши число 67 словом (через дефис)",
+      "answer": "sixty-seven",
+      "explanation": "Десятки и единицы соединяются дефисом: sixty-seven."
     },
     {
       "type": "fill_blank",
-      "text": "Напиши время 6:30 словами (half ___ six)",
-      "answer": "past",
-      "explanation": "Половина после часа выражается словом past: half past six."
+      "text": "Впиши слово: 7:45 — It's a ___ to eight.",
+      "answer": "quarter",
+      "explanation": "15 минут — quarter: без четверти восемь = a quarter to eight."
     },
     {
       "type": "matching",
       "text": "Соедини вопрос с правильным ответом",
       "pairs": [
-        {"left": "What time is it? (4:15)", "right": "It's a quarter past four."},
-        {"left": "How old are you? (11)", "right": "I am eleven."},
-        {"left": "How many pupils are there? (30)", "right": "There are thirty pupils."},
-        {"left": "How old is your grandfather? (65)", "right": "He is sixty-five."}
+        {"left": "What time is it? (1:20)", "right": "It's twenty past one."},
+        {"left": "How old are you? (10)", "right": "I am ten."},
+        {"left": "How many pupils are there? (15)", "right": "There are fifteen pupils."},
+        {"left": "How old is your grandmother? (70)", "right": "She is seventy."}
       ],
-      "explanation": "Время называем через It's, возраст — просто числом с глаголом to be."
+      "explanation": "Время называем через It's, возраст — числом с глаголом to be, количество — через there are."
     },
     {
       "type": "single",
-      "text": "Как перевести «Сейчас без двадцати три»?",
+      "text": "Как перевести «Сейчас без двадцати девять»?",
       "options": [
-        {"text": "It's twenty to three.", "correct": true},
-        {"text": "It's twenty past three.", "correct": false},
-        {"text": "It's three to twenty.", "correct": false}
+        {"text": "It's twenty to nine.", "correct": true},
+        {"text": "It's twenty past nine.", "correct": false},
+        {"text": "It's nine to twenty.", "correct": false}
       ],
-      "explanation": "«Без двадцати» переводится как twenty to."
+      "explanation": "«Без двадцати» — twenty to: двадцать минут до девяти."
     }
   ]
 }

@@ -5,14 +5,14 @@
       "text": "Что хочет примерить Анна сначала?",
       "options": [
         {"text": "this jacket", "correct": true},
-        {"text": "those boots", "correct": false},
-        {"text": "these trainers", "correct": false}
+        {"text": "a dress", "correct": false},
+        {"text": "these jeans", "correct": false}
       ],
       "explanation": "Анна говорит: I'd like to try on this jacket."
     },
     {
       "type": "single",
-      "text": "Какая цена куртки по диалогу?",
+      "text": "Сколько стоит куртка, по диалогу?",
       "options": [
         {"text": "£30", "correct": true},
         {"text": "£38", "correct": false},
@@ -22,67 +22,67 @@
     },
     {
       "type": "multiple",
-      "text": "Что в итоге покупает Анна? (выбери все верные варианты)",
+      "text": "Что верно по диалогу? (выбери все верные варианты)",
       "options": [
-        {"text": "the jacket", "correct": true},
-        {"text": "those boots", "correct": true},
-        {"text": "the trainers", "correct": false},
-        {"text": "a dress", "correct": false}
+        {"text": "Анне нужен 38-й размер.", "correct": true},
+        {"text": "Ботинки, которые хочет Анна, стоят на витрине.", "correct": true},
+        {"text": "Разговор происходит вечером.", "correct": false},
+        {"text": "Продавец не предлагает помощь.", "correct": false}
       ],
-      "explanation": "Анна говорит: I'll just take the jacket and those boots."
+      "explanation": "Анна говорит: Size 38 и those boots in the shop window. Продавец здоровается Good morning и сразу предлагает помощь: Can I help you?"
     },
     {
       "type": "dropdown",
-      "text": "I'd like ___ boots in the shop window (те, вдалеке).",
+      "text": "Can I see ___ scarf in the window? (тот, вдалеке)",
       "options": [
-        {"text": "those", "correct": true},
-        {"text": "these", "correct": false},
-        {"text": "this", "correct": false}
+        {"text": "that", "correct": true},
+        {"text": "those", "correct": false},
+        {"text": "these", "correct": false}
       ],
-      "explanation": "Those — те, для предметов подальше (на витрине)."
+      "explanation": "Шарф один и далеко — that."
     },
     {
       "type": "dropdown",
-      "text": "Would you like to ___ these trainers?",
+      "text": "I'd ___ a smaller size, please.",
       "options": [
-        {"text": "try on", "correct": true},
-        {"text": "try", "correct": false},
-        {"text": "trying on", "correct": false}
+        {"text": "like", "correct": true},
+        {"text": "liking", "correct": false},
+        {"text": "likes", "correct": false}
       ],
-      "explanation": "Try on — примерять; после like to используется базовая форма глагола."
+      "explanation": "Вежливая просьба: I'd like + существительное."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши размер, который называет Анна.",
-      "answer": "38",
-      "explanation": "Анна говорит: Size 38."
+      "text": "Впиши слово: Where can I ___ on this dress? (примерить)",
+      "answer": "try",
+      "explanation": "«Примерять» — try on."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши слово: I'd like this jacket. What's the ___? (цена)",
-      "answer": "price",
-      "explanation": "«Цена» — price."
+      "text": "Впиши слово: This ___ is too short for me. (юбка)",
+      "answer": "skirt",
+      "explanation": "«Юбка» — skirt."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом по диалогу",
+      "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "shop window", "right": "витрина"},
-        {"left": "try on", "right": "примерять"},
-        {"left": "I'd like", "right": "я хотел(а) бы"},
-        {"left": "size", "right": "размер"}
+        {"left": "shop assistant", "right": "продавец"},
+        {"left": "clothes", "right": "одежда"},
+        {"left": "dress", "right": "платье"},
+        {"left": "trainers", "right": "кроссовки"}
       ],
-      "explanation": "Проверь по диалогу Анны и продавца."
+      "explanation": "Это слова по теме «Покупки: одежда и обувь»."
     },
     {
       "type": "single",
-      "text": "Какого цвета боты хочет Анна?",
+      "text": "Какого цвета ботинки хочет Анна?",
       "options": [
         {"text": "black", "correct": true},
         {"text": "blue", "correct": false},
         {"text": "white", "correct": false}
       ],
-      "explanation": "Анна говорит: those boots... in black colour."
+      "explanation": "Анна говорит: in black colour."
     }
   ]
 }

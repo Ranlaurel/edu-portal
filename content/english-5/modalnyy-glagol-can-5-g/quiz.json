@@ -2,66 +2,66 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно перевести «Я умею плавать»?",
+      "text": "Как правильно перевести «Я умею быстро бегать»?",
       "options": [
-        {"text": "I can swim.", "correct": true},
-        {"text": "I can to swim.", "correct": false},
-        {"text": "I cans swim.", "correct": false}
+        {"text": "I can run fast.", "correct": true},
+        {"text": "I can to run fast.", "correct": false},
+        {"text": "I cans run fast.", "correct": false}
       ],
-      "explanation": "После can глагол ставится без to и без окончания: can swim."
+      "explanation": "После can глагол ставится без to и без окончания: can run."
     },
     {
       "type": "single",
       "text": "Какое предложение правильное?",
       "options": [
-        {"text": "She can sing well.", "correct": true},
-        {"text": "She can sings well.", "correct": false},
-        {"text": "She cans sing well.", "correct": false}
+        {"text": "He can read well.", "correct": true},
+        {"text": "He can reads well.", "correct": false},
+        {"text": "He cans read well.", "correct": false}
       ],
-      "explanation": "Can — модальный глагол, не меняется по лицам, после него глагол без -s."
+      "explanation": "Can — модальный глагол, не меняется по лицам, и после него глагол без -s: can read."
     },
     {
       "type": "multiple",
       "text": "Какие предложения построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "I can draw.", "correct": true},
-        {"text": "He can jumps high.", "correct": false},
-        {"text": "My dog can jump high.", "correct": true},
-        {"text": "She can to sing.", "correct": false}
+        {"text": "We can play football.", "correct": true},
+        {"text": "She can writes.", "correct": false},
+        {"text": "My dad can drive a car.", "correct": true},
+        {"text": "Tom can to dance.", "correct": false}
       ],
-      "explanation": "После can глагол всегда без -s и без to."
+      "explanation": "После can глагол всегда в начальной форме — без -s и без to: can write, can dance."
     },
     {
       "type": "dropdown",
-      "text": "My brother ___ swim, but he ___ sing.",
+      "text": "My sister ___ cook, but she ___ ride a bike. (умеет готовить, но не умеет кататься)",
       "options": [
         {"text": "can / can't", "correct": true},
         {"text": "cans / can't", "correct": false},
         {"text": "can / not can", "correct": false}
       ],
-      "explanation": "Can не меняется по лицам, отрицание — can't."
+      "explanation": "Can не меняется по лицам (без -s), отрицание — can't."
     },
     {
       "type": "dropdown",
-      "text": "She ___ (can/sing) well.",
+      "text": "Fish ___ walk. (рыбы не умеют ходить)",
       "options": [
-        {"text": "can sing", "correct": true},
-        {"text": "can sings", "correct": false},
-        {"text": "cans sing", "correct": false}
+        {"text": "can't", "correct": true},
+        {"text": "can", "correct": false},
+        {"text": "doesn't can", "correct": false}
       ],
-      "explanation": "После can глагол без окончания -s: can sing."
+      "explanation": "«Не умеют» — can't; can не образует отрицание через don't/doesn't."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши модальный глагол: I ___ draw (я умею рисовать).",
+      "text": "Впиши модальный глагол: Monkeys ___ climb trees (обезьяны умеют лазать по деревьям).",
       "answer": "can",
-      "explanation": "«Умею» переводится через can."
+      "explanation": "«Умеют» — can."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши отрицательную форму can: She ___ sing (она не умеет петь).",
+      "text": "Впиши отрицательную форму can: Penguins ___ fly (пингвины не умеют летать).",
       "answer": "can't",
-      "accepted": ["can't", "cannot"],
+      "accepted": ["can't", "can’t", "cannot"],
       "explanation": "Отрицание can — can't (cannot)."
     },
     {
@@ -77,13 +77,13 @@
     },
     {
       "type": "single",
-      "text": "Как переводится слово «jump»?",
+      "text": "Как перевести «Моя бабушка не умеет кататься на коньках»?",
       "options": [
-        {"text": "прыгать", "correct": true},
-        {"text": "плавать", "correct": false},
-        {"text": "петь", "correct": false}
+        {"text": "My granny can't skate.", "correct": true},
+        {"text": "My granny can't skates.", "correct": false},
+        {"text": "My granny doesn't can skate.", "correct": false}
       ],
-      "explanation": "«Jump» — прыгать."
+      "explanation": "Отрицание — can't, после него глагол без -s: can't skate."
     }
   ]
 }

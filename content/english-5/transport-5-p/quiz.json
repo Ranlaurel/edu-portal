@@ -12,29 +12,28 @@
     },
     {
       "type": "single",
-      "text": "Как правильно спросить «как ты добираешься до школы?»",
+      "text": "Как правильно спросить «Как ты добираешься до парка?»",
       "options": [
-        {"text": "How do you get to school?", "correct": true},
-        {"text": "How you get to school?", "correct": false},
-        {"text": "How do get you to school?", "correct": false}
+        {"text": "How do you get to the park?", "correct": true},
+        {"text": "How you get to the park?", "correct": false},
+        {"text": "How do get you to the park?", "correct": false}
       ],
-      "explanation": "В вопросе Present Simple: How + do + you + get to + место."
+      "explanation": "Вопрос в Present Simple: How + do + you + get to + место."
     },
     {
       "type": "multiple",
-      "text": "Какие слова описывают скорость транспорта? (выбери все верные варианты)",
+      "text": "Какие ответы подходят к вопросу «How do you get to school?» (выбери все верные варианты)",
       "options": [
-        {"text": "fast", "correct": true},
-        {"text": "cheap", "correct": false},
-        {"text": "slow", "correct": true},
-        {"text": "expensive", "correct": false},
-        {"text": "every day", "correct": false}
+        {"text": "I go by bus.", "correct": true},
+        {"text": "I go on foot.", "correct": true},
+        {"text": "It's fast.", "correct": false},
+        {"text": "I get up at seven.", "correct": false}
       ],
-      "explanation": "Fast и slow описывают скорость. Cheap/expensive — цену, every day — частоту."
+      "explanation": "На вопрос «как ты добираешься?» называем способ: by bus, on foot."
     },
     {
       "type": "dropdown",
-      "text": "I go by bus ___ (каждый день).",
+      "text": "Dad goes to work by car ___ (каждый день).",
       "options": [
         {"text": "every day", "correct": true},
         {"text": "fast", "correct": false},
@@ -44,13 +43,13 @@
     },
     {
       "type": "dropdown",
-      "text": "The metro is ___, but the bus is slow.",
+      "text": "The plane is fast, but the ship is ___.",
       "options": [
-        {"text": "fast", "correct": true},
-        {"text": "slowly", "correct": false},
-        {"text": "fastly", "correct": false}
+        {"text": "slow", "correct": true},
+        {"text": "fast", "correct": false},
+        {"text": "slowly", "correct": false}
       ],
-      "explanation": "Fast — прилагательное и наречие одновременно, используется без -ly."
+      "explanation": "Нужно прилагательное «медленный» — slow (противопоставление с fast)."
     },
     {
       "type": "fill_blank",
@@ -60,20 +59,20 @@
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним словом: медленный",
-      "answer": "slow",
-      "explanation": "«Медленный» — slow."
+      "text": "Впиши глагол: How do you ___ to the station?",
+      "answer": "get",
+      "explanation": "«Как ты добираешься до...?» — How do you get to...?"
     },
     {
       "type": "matching",
-      "text": "Соедини слово с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "underground", "right": "метро"},
-        {"left": "fast", "right": "быстрый"},
-        {"left": "slow", "right": "медленный"},
-        {"left": "every day", "right": "каждый день"}
+        {"left": "I go by tram every day.", "right": "Я каждый день езжу на трамвае."},
+        {"left": "A taxi is expensive.", "right": "Такси дорогое."},
+        {"left": "My mum goes to work on foot.", "right": "Мама ходит на работу пешком."},
+        {"left": "We go to the sea by train.", "right": "Мы едем на море на поезде."}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "By + транспорт, но on foot — пешком."
     }
   ]
 }

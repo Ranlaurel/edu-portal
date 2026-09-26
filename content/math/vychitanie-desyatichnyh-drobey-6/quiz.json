@@ -2,36 +2,36 @@
   "questions": [
     {
       "type": "single",
-      "text": "Вычисли 8,7 − 2,3.",
+      "text": "Вычисли 9,8 − 4,2.",
       "options": [
-        {"text": "6,4", "correct": true},
-        {"text": "6,6", "correct": false},
+        {"text": "5,6", "correct": true},
         {"text": "5,4", "correct": false},
-        {"text": "11,0", "correct": false}
+        {"text": "4,6", "correct": false},
+        {"text": "14,0", "correct": false}
       ],
-      "explanation": "Целые: 8−2=6, десятые: 7−3=4. Итог 6,4."
+      "explanation": "Целые: 9−4=5, десятые: 8−2=6. Итог 5,6."
     },
     {
       "type": "single",
-      "text": "Вычисли 10 − 3,4.",
+      "text": "Вычисли 10 − 2,7.",
       "options": [
-        {"text": "6,6", "correct": true},
-        {"text": "7,6", "correct": false},
-        {"text": "6,4", "correct": false},
-        {"text": "13,4", "correct": false}
+        {"text": "7,3", "correct": true},
+        {"text": "8,3", "correct": false},
+        {"text": "8,7", "correct": false},
+        {"text": "12,7", "correct": false}
       ],
-      "explanation": "10,0 − 3,4: занимаем у целых для десятых (10−4=6), целые становятся 9−3=6. Итог 6,6."
+      "explanation": "10,0 − 2,7: занимаем у целых для десятых (10−7=3), целые становятся 9−2=7. Итог 7,3."
     },
     {
       "type": "single",
-      "text": "Вычисли 5 − 1,25.",
+      "text": "Вычисли 7 − 2,35.",
       "options": [
-        {"text": "3,75", "correct": true},
-        {"text": "4,75", "correct": false},
-        {"text": "3,25", "correct": false},
-        {"text": "6,25", "correct": false}
+        {"text": "4,65", "correct": true},
+        {"text": "5,65", "correct": false},
+        {"text": "4,35", "correct": false},
+        {"text": "9,35", "correct": false}
       ],
-      "explanation": "5,00 − 1,25 = 3,75."
+      "explanation": "7,00 − 2,35 = 4,65."
     },
     {
       "type": "multiple",
@@ -49,56 +49,58 @@
       "type": "multiple",
       "text": "Какие разности вычислены верно? (выбери все верные варианты)",
       "options": [
-        {"text": "7,8 − 3,5 = 4,3", "correct": true},
-        {"text": "9,6 − 4,25 = 5,35", "correct": true},
-        {"text": "12,3 − 5,8 = 6,5", "correct": true},
-        {"text": "15,0 − 8,3 = 7,3", "correct": false},
-        {"text": "20 − 7,25 = 12,75", "correct": true}
+        {"text": "8,9 − 4,7 = 4,2", "correct": true},
+        {"text": "11,4 − 6,35 = 5,05", "correct": true},
+        {"text": "14,2 − 6,7 = 7,5", "correct": true},
+        {"text": "16,0 − 9,4 = 7,6", "correct": false},
+        {"text": "30 − 12,45 = 17,55", "correct": true}
       ],
-      "explanation": "7,8−3,5=4,3; 9,6−4,25=5,35; 12,3−5,8=6,5; 20−7,25=12,75. Но 15,0−8,3=6,7, а не 7,3."
+      "explanation": "8,9−4,7=4,2; 11,40−6,35=5,05; 14,2−6,7=7,5; 30,00−12,45=17,55. Но 16,0−9,4=6,6, а не 7,6 — забыли, что заняли единицу у целых."
     },
     {
       "type": "dropdown",
-      "text": "Вычисли 6,5 − 2,15: ___",
+      "text": "Вычисли 8,4 − 3,25: ___",
       "options": [
-        {"text": "4,35", "correct": true},
-        {"text": "4,45", "correct": false},
-        {"text": "4,25", "correct": false}
+        {"text": "5,15", "correct": true},
+        {"text": "5,25", "correct": false},
+        {"text": "5,05", "correct": false}
       ],
-      "explanation": "6,50 − 2,15 = 4,35."
+      "explanation": "8,40 − 3,25 = 5,15."
     },
     {
       "type": "dropdown",
-      "text": "Вычисли 15,0 − 8,3: ___",
+      "text": "Вычисли 13,0 − 5,6: ___",
       "options": [
-        {"text": "6,7", "correct": true},
-        {"text": "7,3", "correct": false},
-        {"text": "6,3", "correct": false}
+        {"text": "7,4", "correct": true},
+        {"text": "8,4", "correct": false},
+        {"text": "8,6", "correct": false}
       ],
-      "explanation": "Занимаем у целых: десятые 10−3=7, целые 14−8=6. Итог 6,7."
+      "explanation": "Занимаем у целых: десятые 10−6=4, целые 12−5=7. Итог 7,4."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 10 − 4,6 = ___.",
-      "answer": "5,4",
-      "explanation": "10,0 − 4,6: занимаем у целых, десятые 10−6=4, целые 9−4=5. Итог 5,4."
+      "text": "Впиши только число: 10 − 6,3 = ___.",
+      "answer": "3,7",
+      "explanation": "10,0 − 6,3: занимаем у целых, десятые 10−3=7, целые 9−6=3. Итог 3,7.",
+      "accepted": ["3,7", "3.7"]
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 9,05 − 3,4 = ___.",
-      "answer": "5,65",
-      "explanation": "9,05 − 3,40 = 5,65."
+      "text": "Впиши только число: 8,06 − 2,5 = ___.",
+      "answer": "5,56",
+      "explanation": "8,06 − 2,50 = 5,56.",
+      "accepted": ["5,56", "5.56"]
     },
     {
       "type": "matching",
       "text": "Соедини разность дробей с результатом:",
       "pairs": [
-        {"left": "8,7 − 2,3", "right": "6,4"},
-        {"left": "7,4 − 2,25", "right": "5,15"},
-        {"left": "9 − 3,45", "right": "5,55"},
-        {"left": "20 − 7,25", "right": "12,75"}
+        {"left": "6,9 − 1,4", "right": "5,5"},
+        {"left": "7,3 − 2,45", "right": "4,85"},
+        {"left": "8 − 2,65", "right": "5,35"},
+        {"left": "25 − 9,75", "right": "15,25"}
       ],
-      "explanation": "Вычитание выполняется поразрядно с выравниванием запятых: 8,7−2,3=6,4; 7,40−2,25=5,15; 9,00−3,45=5,55; 20,00−7,25=12,75."
+      "explanation": "Вычитание выполняется поразрядно с выравниванием запятых: 6,9−1,4=5,5; 7,30−2,45=4,85; 8,00−2,65=5,35; 25,00−9,75=15,25."
     }
   ]
 }

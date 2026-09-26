@@ -2,79 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «tradition»?",
+      "text": "Как переводится слово «holiday»?",
       "options": [
-        {"text": "традиция", "correct": true},
-        {"text": "праздник", "correct": false},
+        {"text": "праздник", "correct": true},
+        {"text": "традиция", "correct": false},
         {"text": "подарок", "correct": false}
       ],
-      "explanation": "«Tradition» — традиция."
+      "explanation": "«Holiday» — праздник."
     },
     {
       "type": "single",
-      "text": "Как правильно сказать «Рождество — мой любимый праздник»?",
+      "text": "Как правильно сказать «Эта вечеринка весёлая»?",
       "options": [
-        {"text": "Christmas is my favourite holiday", "correct": true},
-        {"text": "Christmas are my favourite holiday", "correct": false},
-        {"text": "Christmas favourite is my holiday", "correct": false}
+        {"text": "This party is fun.", "correct": true},
+        {"text": "This party are fun.", "correct": false},
+        {"text": "This party fun is.", "correct": false}
       ],
-      "explanation": "Christmas — единственное число, используем is."
+      "explanation": "Party — единственное число, поэтому is."
     },
     {
       "type": "multiple",
       "text": "Какие слова относятся к праздникам? (выбери все верные варианты)",
       "options": [
-        {"text": "present", "correct": true},
-        {"text": "bridge", "correct": false},
         {"text": "decorate", "correct": true},
-        {"text": "customer", "correct": false},
-        {"text": "card", "correct": true}
+        {"text": "card", "correct": true},
+        {"text": "bridge", "correct": false},
+        {"text": "customer", "correct": false}
       ],
-      "explanation": "Present, decorate, card — слова про праздники. Bridge и customer — не относятся к теме."
+      "explanation": "Decorate (украшать) и card (открытка) — слова про праздники. Bridge и customer к теме не относятся."
     },
     {
       "type": "dropdown",
-      "text": "These cards ___ beautiful.",
+      "text": "These balloons ___ red.",
       "options": [
         {"text": "are", "correct": true},
         {"text": "is", "correct": false},
         {"text": "am", "correct": false}
       ],
-      "explanation": "Cards — множественное число, используем are."
+      "explanation": "Balloons — множественное число, поэтому are."
     },
     {
       "type": "dropdown",
-      "text": "New Year ___ in January.",
+      "text": "My birthday party ___ on Sunday.",
       "options": [
         {"text": "is", "correct": true},
         {"text": "are", "correct": false},
         {"text": "be", "correct": false}
       ],
-      "explanation": "New Year — единственное число, используем is."
+      "explanation": "Party — единственное число, поэтому is."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: украшать",
-      "answer": "decorate",
-      "explanation": "«Украшать» переводится как decorate."
+      "text": "Впиши перевод одним английским словом: традиция",
+      "answer": "tradition",
+      "explanation": "«Традиция» — tradition."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: подарок",
       "answer": "present",
       "accepted": ["present", "gift"],
-      "explanation": "«Подарок» переводится как present или gift."
+      "explanation": "«Подарок» — present или gift."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "holiday", "right": "праздник"},
+        {"left": "New Year", "right": "Новый год"},
+        {"left": "Christmas", "right": "Рождество"},
         {"left": "tree", "right": "дерево, ёлка"},
-        {"left": "card", "right": "открытка"},
-        {"left": "tradition", "right": "традиция"}
+        {"left": "candle", "right": "свеча"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

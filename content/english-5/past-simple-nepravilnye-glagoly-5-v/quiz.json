@@ -2,76 +2,75 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какая форма Past Simple у глагола go?",
+      "text": "Какая форма Past Simple у глагола do?",
+      "options": [
+        {"text": "did", "correct": true},
+        {"text": "doed", "correct": false},
+        {"text": "done", "correct": false}
+      ],
+      "explanation": "Do — неправильный глагол, его прошедшая форма did."
+    },
+    {
+      "type": "single",
+      "text": "Как переводится глагол «gave»?",
+      "options": [
+        {"text": "дал", "correct": true},
+        {"text": "взял", "correct": false},
+        {"text": "получил", "correct": false}
+      ],
+      "explanation": "«Gave» — прошедшая форма глагола give (дал)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие формы относятся к Past Simple неправильных глаголов? (выбери все верные варианты)",
+      "options": [
+        {"text": "saw", "correct": true},
+        {"text": "got", "correct": true},
+        {"text": "played", "correct": false},
+        {"text": "walked", "correct": false}
+      ],
+      "explanation": "Saw (see) и got (get) — формы неправильных глаголов. Played и walked — правильные (с -ed)."
+    },
+    {
+      "type": "dropdown",
+      "text": "Yesterday I ___ (go) to the park.",
       "options": [
         {"text": "went", "correct": true},
         {"text": "goed", "correct": false},
         {"text": "gone", "correct": false}
       ],
-      "explanation": "Go — неправильный глагол, его форма прошедшего времени — went."
-    },
-    {
-      "type": "single",
-      "text": "Как переводится глагол «bought»?",
-      "options": [
-        {"text": "купил", "correct": true},
-        {"text": "продал", "correct": false},
-        {"text": "взял", "correct": false}
-      ],
-      "explanation": "«Bought» — прошедшая форма глагола buy (купил)."
-    },
-    {
-      "type": "multiple",
-      "text": "Какие формы глаголов относятся к Past Simple неправильных глаголов? (выбери все верные варианты)",
-      "options": [
-        {"text": "saw", "correct": true},
-        {"text": "wrote", "correct": true},
-        {"text": "played", "correct": false},
-        {"text": "took", "correct": true},
-        {"text": "walked", "correct": false}
-      ],
-      "explanation": "Saw, wrote, took — формы неправильных глаголов. Played и walked — правильные (с -ed)."
+      "explanation": "Прошедшая форма go — went."
     },
     {
       "type": "dropdown",
-      "text": "Yesterday I ___ (see) a great film.",
+      "text": "Mum ___ (buy) some bread.",
       "options": [
-        {"text": "saw", "correct": true},
-        {"text": "seed", "correct": false},
-        {"text": "seen", "correct": false}
+        {"text": "bought", "correct": true},
+        {"text": "buyed", "correct": false},
+        {"text": "brought", "correct": false}
       ],
-      "explanation": "Прошедшая форма see — saw."
-    },
-    {
-      "type": "dropdown",
-      "text": "She ___ (write) a letter.",
-      "options": [
-        {"text": "wrote", "correct": true},
-        {"text": "writed", "correct": false},
-        {"text": "written", "correct": false}
-      ],
-      "explanation": "Прошедшая форма write — wrote."
+      "explanation": "Прошедшая форма buy — bought. Brought — это форма другого глагола (bring — приносить)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши прошедшую форму глагола eat",
-      "answer": "ate",
-      "explanation": "Прошедшая форма eat — ate."
+      "text": "Впиши прошедшую форму глагола have",
+      "answer": "had",
+      "explanation": "Прошедшая форма have — had."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши прошедшую форму глагола give",
-      "answer": "gave",
-      "explanation": "Прошедшая форма give — gave."
+      "text": "Впиши прошедшую форму глагола read",
+      "answer": "read",
+      "explanation": "У read прошедшая форма пишется так же — read (но читается [рэд])."
     },
     {
       "type": "matching",
       "text": "Соедини начальную форму глагола с формой Past Simple",
       "pairs": [
-        {"left": "come", "right": "came"},
-        {"left": "get", "right": "got"},
-        {"left": "have", "right": "had"},
-        {"left": "take", "right": "took"}
+        {"left": "eat", "right": "ate"},
+        {"left": "write", "right": "wrote"},
+        {"left": "take", "right": "took"},
+        {"left": "come", "right": "came"}
       ],
       "explanation": "Проверь по списку неправильных глаголов из урока."
     }

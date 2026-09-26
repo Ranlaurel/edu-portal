@@ -2,21 +2,21 @@
   "questions": [
     {
       "type": "single",
-      "text": "Какая форма верна: «I ___ (read) a book now»?",
+      "text": "Какая форма верна: «We ___ (dance) now»?",
       "options": [
-        {"text": "am reading", "correct": true},
-        {"text": "is reading", "correct": false},
-        {"text": "reading", "correct": false}
+        {"text": "are dancing", "correct": true},
+        {"text": "is dancing", "correct": false},
+        {"text": "dancing", "correct": false}
       ],
-      "explanation": "Для I используется am + глагол-ing: am reading."
+      "explanation": "Для we используется are + глагол-ing: are dancing."
     },
     {
       "type": "single",
-      "text": "Как правильно образовать отрицание: «She is sleeping»?",
+      "text": "Как правильно образовать отрицание: «Tom is running»?",
       "options": [
-        {"text": "She isn't sleeping.", "correct": true},
-        {"text": "She not is sleeping.", "correct": false},
-        {"text": "She don't sleeping.", "correct": false}
+        {"text": "Tom isn't running.", "correct": true},
+        {"text": "Tom not is running.", "correct": false},
+        {"text": "Tom don't running.", "correct": false}
       ],
       "explanation": "Отрицание в Present Continuous: isn't/aren't/am not + глагол-ing."
     },
@@ -24,66 +24,66 @@
       "type": "multiple",
       "text": "В каких предложениях глагол правильно стоит в Present Continuous? (выбери все верные варианты)",
       "options": [
-        {"text": "He is playing football.", "correct": true},
-        {"text": "They watching TV.", "correct": false},
-        {"text": "I am reading a book.", "correct": true},
-        {"text": "She reading now.", "correct": false}
+        {"text": "She is drawing a picture.", "correct": true},
+        {"text": "We singing a song.", "correct": false},
+        {"text": "The dog is sleeping.", "correct": true},
+        {"text": "My dad cooking now.", "correct": false}
       ],
-      "explanation": "В Present Continuous нужен глагол-связка am/is/are перед глаголом-ing."
+      "explanation": "В Present Continuous перед глаголом-ing обязательно нужен am/is/are: We are singing, My dad is cooking."
     },
     {
       "type": "dropdown",
-      "text": "___ he cooking dinner? — Yes, he is.",
+      "text": "___ you listening to me? — Yes, I am.",
       "options": [
-        {"text": "Is", "correct": true},
-        {"text": "Are", "correct": false},
+        {"text": "Are", "correct": true},
+        {"text": "Is", "correct": false},
         {"text": "Do", "correct": false}
       ],
-      "explanation": "Для he в вопросе используется Is."
+      "explanation": "Для you в вопросе используется Are."
     },
     {
       "type": "dropdown",
-      "text": "They ___ (watch) TV at the moment.",
+      "text": "The children ___ (swim) in the river at the moment.",
       "options": [
-        {"text": "are watching", "correct": true},
-        {"text": "is watching", "correct": false},
-        {"text": "watch", "correct": false}
+        {"text": "are swimming", "correct": true},
+        {"text": "is swimming", "correct": false},
+        {"text": "swim", "correct": false}
       ],
-      "explanation": "Для they используется are + глагол-ing."
+      "explanation": "Children — множественное число: are + глагол-ing."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: He ___ (play) football at the moment.",
-      "answer": "is playing",
-      "explanation": "He — is + глагол-ing: is playing."
+      "text": "Впиши правильную форму: Mum ___ (write) a letter now.",
+      "answer": "is writing",
+      "explanation": "Mum = she: is + глагол-ing; write теряет -e: writing."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши отрицательную форму: She ___ (not/sleep) now.",
-      "answer": "isn't sleeping",
-      "accepted": ["isn't sleeping", "is not sleeping"],
-      "explanation": "Отрицание для she: isn't + глагол-ing."
+      "text": "Впиши отрицательную форму: I ___ (not/watch) TV now.",
+      "answer": "am not watching",
+      "accepted": ["am not watching", "’m not watching", "'m not watching"],
+      "explanation": "Отрицание для I: am not + глагол-ing."
     },
     {
       "type": "matching",
       "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "I am reading a book now.", "right": "Я сейчас читаю книгу."},
-        {"left": "He is playing football.", "right": "Он играет в футбол."},
-        {"left": "She isn't sleeping now.", "right": "Она сейчас не спит."},
-        {"left": "Is he cooking dinner?", "right": "Он готовит ужин?"}
+        {"left": "The cat is drinking milk.", "right": "Кошка пьёт молоко."},
+        {"left": "We are having lunch.", "right": "Мы обедаем."},
+        {"left": "He isn't doing his homework.", "right": "Он не делает уроки."},
+        {"left": "Is it raining?", "right": "Идёт дождь?"}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Present Continuous — действие прямо сейчас: am/is/are + глагол-ing."
     },
     {
       "type": "single",
-      "text": "Как задать вопрос к предложению «They are playing football»?",
+      "text": "Как задать вопрос к предложению «She is reading a magazine»?",
       "options": [
-        {"text": "Are they playing football?", "correct": true},
-        {"text": "Do they playing football?", "correct": false},
-        {"text": "Is they playing football?", "correct": false}
+        {"text": "Is she reading a magazine?", "correct": true},
+        {"text": "Does she reading a magazine?", "correct": false},
+        {"text": "Are she reading a magazine?", "correct": false}
       ],
-      "explanation": "Для they вопрос строится через Are + подлежащее + глагол-ing."
+      "explanation": "Для she вопрос строится через Is + подлежащее + глагол-ing."
     }
   ]
 }

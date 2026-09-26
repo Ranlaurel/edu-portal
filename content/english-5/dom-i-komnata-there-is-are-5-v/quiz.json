@@ -2,45 +2,35 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «garden»?",
+      "text": "Как переводится слово «flat»?",
       "options": [
-        {"text": "сад", "correct": true},
-        {"text": "гостиная", "correct": false},
-        {"text": "кухня", "correct": false}
+        {"text": "квартира", "correct": true},
+        {"text": "дом", "correct": false},
+        {"text": "комната", "correct": false}
       ],
-      "explanation": "«Garden» — сад."
+      "explanation": "«Flat» — квартира."
     },
     {
       "type": "single",
-      "text": "Как по-английски «спальня»?",
+      "text": "Как по-английски «гостиная»?",
       "options": [
-        {"text": "bedroom", "correct": true},
-        {"text": "bathroom", "correct": false},
-        {"text": "living room", "correct": false}
+        {"text": "living room", "correct": true},
+        {"text": "bedroom", "correct": false},
+        {"text": "bathroom", "correct": false}
       ],
-      "explanation": "«Спальня» переводится как bedroom."
+      "explanation": "«Гостиная» — living room."
     },
     {
       "type": "multiple",
       "text": "Какие слова обозначают комнаты в доме? (выбери все верные варианты)",
       "options": [
-        {"text": "bedroom", "correct": true},
-        {"text": "window", "correct": false},
         {"text": "kitchen", "correct": true},
         {"text": "bathroom", "correct": true},
-        {"text": "wall", "correct": false}
+        {"text": "roof", "correct": false},
+        {"text": "chair", "correct": false},
+        {"text": "street", "correct": false}
       ],
-      "explanation": "Bedroom, kitchen, bathroom — комнаты. Window (окно) и wall (стена) — части комнаты, не комнаты."
-    },
-    {
-      "type": "dropdown",
-      "text": "Выбери слово с переводом «квартира»:",
-      "options": [
-        {"text": "flat", "correct": true},
-        {"text": "house", "correct": false},
-        {"text": "room", "correct": false}
-      ],
-      "explanation": "«Flat» — квартира."
+      "explanation": "Kitchen (кухня) и bathroom (ванная) — комнаты. Roof — крыша, chair — стул, street — улица."
     },
     {
       "type": "dropdown",
@@ -53,37 +43,47 @@
       "explanation": "«Door» — дверь."
     },
     {
-      "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: гостиная",
-      "answer": "living room",
-      "explanation": "«Гостиная» переводится как living room."
+      "type": "dropdown",
+      "text": "Выбери слово с переводом «спальня»:",
+      "options": [
+        {"text": "bedroom", "correct": true},
+        {"text": "living room", "correct": false},
+        {"text": "kitchen", "correct": false}
+      ],
+      "explanation": "«Спальня» — bedroom (bed — кровать)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: стена",
-      "answer": "wall",
-      "explanation": "«Стена» переводится как wall."
+      "text": "Впиши перевод одним английским словом: сад",
+      "answer": "garden",
+      "explanation": "«Сад» — garden."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Впиши перевод одним английским словом: окно",
+      "answer": "window",
+      "explanation": "«Окно» — window."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
         {"left": "house", "right": "дом"},
-        {"left": "window", "right": "окно"},
-        {"left": "floor", "right": "пол / этаж"},
-        {"left": "room", "right": "комната"}
+        {"left": "room", "right": "комната"},
+        {"left": "wall", "right": "стена"},
+        {"left": "upstairs", "right": "наверху"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «bathroom»?",
+      "text": "Что значит слово «floor» в предложении «My flat is on the fifth floor»?",
       "options": [
-        {"text": "ванная", "correct": true},
-        {"text": "спальня", "correct": false},
-        {"text": "кухня", "correct": false}
+        {"text": "этаж", "correct": true},
+        {"text": "пол", "correct": false},
+        {"text": "стена", "correct": false}
       ],
-      "explanation": "«Bathroom» — ванная."
+      "explanation": "Floor — это и «пол», и «этаж»; on the fifth floor — на пятом этаже."
     }
   ]
 }

@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как переводится слово «sugar»?",
+      "text": "Как переводится слово «food»?",
       "options": [
-        {"text": "сахар", "correct": true},
-        {"text": "сыр", "correct": false},
-        {"text": "рис", "correct": false}
+        {"text": "еда", "correct": true},
+        {"text": "напиток", "correct": false},
+        {"text": "сладости", "correct": false}
       ],
-      "explanation": "«Sugar» — сахар."
+      "explanation": "«Food» — еда."
     },
     {
       "type": "single",
-      "text": "Как по-английски «сладости»?",
+      "text": "Как по-английски «сыр»?",
       "options": [
-        {"text": "sweets", "correct": true},
-        {"text": "bread", "correct": false},
-        {"text": "milk", "correct": false}
+        {"text": "cheese", "correct": true},
+        {"text": "sugar", "correct": false},
+        {"text": "juice", "correct": false}
       ],
-      "explanation": "«Сладости» — sweets."
+      "explanation": "«Сыр» — cheese."
     },
     {
       "type": "single",
-      "text": "Как переводится слово «juice»?",
+      "text": "Как переводится слово «apple»?",
       "options": [
-        {"text": "сок", "correct": true},
-        {"text": "вода", "correct": false},
-        {"text": "молоко", "correct": false}
+        {"text": "яблоко", "correct": true},
+        {"text": "яйцо", "correct": false},
+        {"text": "хлеб", "correct": false}
       ],
-      "explanation": "«Juice» — сок."
+      "explanation": "«Apple» — яблоко."
     },
     {
       "type": "multiple",
       "text": "Какие слова относятся к напиткам? (выбери все верные варианты)",
       "options": [
-        {"text": "juice", "correct": true},
-        {"text": "milk", "correct": true},
         {"text": "water", "correct": true},
-        {"text": "bread", "correct": false},
-        {"text": "egg", "correct": false}
+        {"text": "milk", "correct": true},
+        {"text": "cake", "correct": false},
+        {"text": "soup", "correct": false},
+        {"text": "meat", "correct": false}
       ],
-      "explanation": "Juice, milk, water — напитки (drinks). Bread (хлеб) и egg (яйцо) — еда, а не напитки."
+      "explanation": "Water (вода) и milk (молоко) — напитки. Cake (торт), soup (суп), meat (мясо) — еда."
     },
     {
       "type": "dropdown",
-      "text": "Can I have some ___, please? — я прошу сок.",
+      "text": "Can I have a glass of ___, please? — я прошу сок.",
       "options": [
         {"text": "juice", "correct": true},
         {"text": "rice", "correct": false},
-        {"text": "cheese", "correct": false}
+        {"text": "bread", "correct": false}
       ],
-      "explanation": "«Сок» — juice, поэтому подходит именно это слово."
+      "explanation": "«Сок» — juice."
     },
     {
       "type": "dropdown",
-      "text": "We need ___ and eggs for dinner. — нам нужен рис и яйца.",
+      "text": "Children like ___. — дети любят сладости.",
       "options": [
-        {"text": "rice", "correct": true},
+        {"text": "sweets", "correct": true},
         {"text": "sugar", "correct": false},
-        {"text": "juice", "correct": false}
+        {"text": "salt", "correct": false}
       ],
-      "explanation": "«Рис» — rice, это слово подходит по смыслу предложения из урока."
+      "explanation": "«Сладости» — sweets, а sugar — сахар."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: рис",
       "answer": "rice",
-      "explanation": "«Рис» переводится как rice."
+      "explanation": "«Рис» — rice."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: яйцо",
-      "answer": "egg",
-      "explanation": "«Яйцо» переводится как egg."
+      "text": "Впиши перевод одним английским словом: хлеб",
+      "answer": "bread",
+      "explanation": "«Хлеб» — bread."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "bread", "right": "хлеб"},
-        {"left": "cheese", "right": "сыр"},
+        {"left": "egg", "right": "яйцо"},
+        {"left": "sugar", "right": "сахар"},
         {"left": "drink", "right": "напиток"},
-        {"left": "apple", "right": "яблоко"}
+        {"left": "tea", "right": "чай"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

@@ -2,78 +2,78 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «В центре города есть старый замок»?",
+      "text": "Как сказать «Рядом с мостом есть красивая статуя»?",
       "options": [
-        {"text": "There is an old castle in the city centre.", "correct": true},
-        {"text": "There are an old castle in the city centre.", "correct": false},
-        {"text": "It has an old castle in the city centre.", "correct": false}
+        {"text": "There is a beautiful statue near the bridge.", "correct": true},
+        {"text": "There are a beautiful statue near the bridge.", "correct": false},
+        {"text": "It has a beautiful statue near the bridge.", "correct": false}
       ],
-      "explanation": "A castle — единственное число, значит there is."
+      "explanation": "Statue — единственное число, поэтому there is. Конструкция «it has» здесь не подходит."
     },
     {
       "type": "single",
-      "text": "Какое время используется для описания традиций (регулярных действий)?",
+      "text": "Выбери правильное предложение о традиции:",
       "options": [
-        {"text": "Present Simple", "correct": true},
-        {"text": "Present Continuous", "correct": false},
-        {"text": "Past Simple", "correct": false}
+        {"text": "People make pancakes at Maslenitsa.", "correct": true},
+        {"text": "People makes pancakes at Maslenitsa.", "correct": false},
+        {"text": "People making pancakes at Maslenitsa.", "correct": false}
       ],
-      "explanation": "Регулярные действия/традиции описываются в Present Simple."
+      "explanation": "Традиции описываем в Present Simple. People — множественное число, поэтому make без -s."
     },
     {
       "type": "multiple",
       "text": "Какие предложения построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "There are many tourists near the tower.", "correct": true},
-        {"text": "People celebrate this festival every summer.", "correct": true},
-        {"text": "There is many landmarks in London.", "correct": false},
-        {"text": "Children wear special costumes.", "correct": true},
-        {"text": "There aren't any bridge over this river.", "correct": false}
+        {"text": "There are two museums in our town.", "correct": true},
+        {"text": "My grandmother bakes a cake for every holiday.", "correct": true},
+        {"text": "There is five statues in the park.", "correct": false},
+        {"text": "The festival start in June.", "correct": false},
+        {"text": "There aren't any theatres in the village.", "correct": true}
       ],
-      "explanation": "С landmarks (множественное число) нужно there are. С bridges во множественном числе — bridges, не bridge."
+      "explanation": "Five statues — множественное число, нужно there are. The festival — он (it), нужно starts."
     },
     {
       "type": "dropdown",
-      "text": "___ many landmarks in London. (there is / there are)",
+      "text": "___ any famous towers in your city?",
       "options": [
-        {"text": "There are", "correct": true},
-        {"text": "There is", "correct": false},
-        {"text": "Is there", "correct": false}
+        {"text": "Are there", "correct": true},
+        {"text": "Is there", "correct": false},
+        {"text": "There are", "correct": false}
       ],
-      "explanation": "Landmarks — множественное число, значит there are."
+      "explanation": "Это вопрос о множественном числе (towers): Are there...?"
     },
     {
       "type": "dropdown",
-      "text": "People ___ (celebrate) this tradition every year.",
+      "text": "My dad ___ fireworks on New Year's Eve.",
       "options": [
-        {"text": "celebrate", "correct": true},
-        {"text": "celebrates", "correct": false},
-        {"text": "celebrating", "correct": false}
+        {"text": "watches", "correct": true},
+        {"text": "watch", "correct": false},
+        {"text": "watching", "correct": false}
       ],
-      "explanation": "People — множественное число, окончание -s к глаголу не добавляется."
+      "explanation": "My dad — он (he), в Present Simple добавляем -es: watches."
     },
     {
       "type": "fill_blank",
-      "text": "Составь вопрос: ___ there a museum in your town? (Is/Are)",
-      "answer": "Is",
-      "explanation": "A museum — единственное число, вопрос строится как Is there...?"
+      "text": "Впиши is или are: There ___ a big square in front of the palace.",
+      "answer": "is",
+      "explanation": "A big square — единственное число, значит there is."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши глагол: Children ___ (wear) special costumes on this day.",
-      "answer": "wear",
-      "explanation": "Children — множественное число, окончание -s не добавляется: wear."
+      "text": "Впиши глагол в нужной форме: My sister ___ (give) presents to all her friends at Christmas.",
+      "answer": "gives",
+      "explanation": "My sister — она (she), в Present Simple добавляем -s: gives."
     },
     {
       "type": "matching",
-      "text": "Соедини правило с примером",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "there is", "right": "an old castle"},
-        {"left": "there are", "right": "many tourists"},
-        {"left": "Present Simple (they)", "right": "celebrate"},
-        {"left": "Present Simple (he/she/it)", "right": "celebrates"}
+        {"left": "There is a tower near the river.", "right": "У реки есть башня."},
+        {"left": "There aren't any shops on this street.", "right": "На этой улице нет магазинов."},
+        {"left": "People sing songs at the festival.", "right": "На фестивале люди поют песни."},
+        {"left": "She decorates the tree in December.", "right": "Она наряжает ёлку в декабре."}
       ],
-      "explanation": "There is/are зависят от числа существительного, глагол в Present Simple меняется по лицам."
+      "explanation": "There is / there aren't описывают, что где есть или нет; Present Simple — что люди обычно делают."
     }
   ]
 }

@@ -2,75 +2,76 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как правильно составить вопрос «Ты умеешь готовить?»",
+      "text": "Как правильно составить вопрос «Твой папа умеет плавать?»",
       "options": [
-        {"text": "Can you cook?", "correct": true},
-        {"text": "You can cook?", "correct": false},
-        {"text": "Do you can cook?", "correct": false}
+        {"text": "Can your dad swim?", "correct": true},
+        {"text": "Your dad can swim?", "correct": false},
+        {"text": "Does your dad can swim?", "correct": false}
       ],
       "explanation": "Вопрос строится через перестановку: Can + подлежащее + глагол."
     },
     {
       "type": "single",
-      "text": "Как ответить «Нет» на вопрос «Can he speak English?»",
+      "text": "Как ответить «Да» на вопрос «Can your sister play the piano?»",
       "options": [
-        {"text": "No, he can't.", "correct": true},
-        {"text": "No, he not can.", "correct": false},
-        {"text": "No, he doesn't.", "correct": false}
+        {"text": "Yes, she can.", "correct": true},
+        {"text": "Yes, she cans.", "correct": false},
+        {"text": "Yes, she does.", "correct": false}
       ],
-      "explanation": "Краткий отрицательный ответ: No, he can't."
+      "explanation": "Краткий ответ повторяет can: Yes, she can (без -s)."
     },
     {
       "type": "multiple",
       "text": "Какие вопросы построены правильно? (выбери все верные варианты)",
       "options": [
-        {"text": "Can you ride a bike?", "correct": true},
-        {"text": "Can she plays chess?", "correct": false},
-        {"text": "Can he skate?", "correct": true},
-        {"text": "Does he can dance?", "correct": false}
+        {"text": "Can they sing?", "correct": true},
+        {"text": "Can he runs fast?", "correct": false},
+        {"text": "Can you draw?", "correct": true},
+        {"text": "Do you can jump?", "correct": false}
       ],
-      "explanation": "Вопрос: Can + подлежащее + глагол без -s и без to."
+      "explanation": "Вопрос: Can + подлежащее + глагол без -s и без to. Do/does с can не используются."
     },
     {
       "type": "dropdown",
-      "text": "___ you ride a bike? — Yes, I can.",
+      "text": "___ your parents speak French? — Yes, they can.",
       "options": [
         {"text": "Can", "correct": true},
-        {"text": "Do", "correct": false},
-        {"text": "Are", "correct": false}
+        {"text": "Does", "correct": false},
+        {"text": "Is", "correct": false}
       ],
-      "explanation": "Вопрос про умение строится через Can."
+      "explanation": "Ответ Yes, they can показывает, что вопрос про умение — через Can."
     },
     {
       "type": "dropdown",
-      "text": "Can she ___ (play) chess?",
+      "text": "Can he ___ (ride) a horse?",
       "options": [
-        {"text": "play", "correct": true},
-        {"text": "plays", "correct": false},
-        {"text": "to play", "correct": false}
+        {"text": "ride", "correct": true},
+        {"text": "rides", "correct": false},
+        {"text": "to ride", "correct": false}
       ],
-      "explanation": "После can глагол без -s и без to: play."
+      "explanation": "После can глагол без -s и без to: ride."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: лазать",
       "answer": "climb",
-      "explanation": "«Лазать» переводится как climb."
+      "explanation": "«Лазать» — climb."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод: говорить по-английски",
-      "answer": "speak English",
-      "explanation": "«Говорить по-английски» переводится как speak English."
+      "text": "Впиши краткий ответ: Can your brother cook? — No, he ___.",
+      "answer": "can't",
+      "accepted": ["can't", "can’t", "cannot"],
+      "explanation": "Краткий отрицательный ответ: No, he can't."
     },
     {
       "type": "matching",
-      "text": "Соедини английское слово с переводом",
+      "text": "Соедини английское выражение с переводом",
       "pairs": [
         {"left": "dance", "right": "танцевать"},
         {"left": "ride a bike", "right": "кататься на велосипеде"},
         {"left": "skate", "right": "кататься на коньках"},
-        {"left": "climb", "right": "лазать"}
+        {"left": "play chess", "right": "играть в шахматы"}
       ],
       "explanation": "Проверь по таблице слов из урока."
     }

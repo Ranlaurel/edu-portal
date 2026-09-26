@@ -2,48 +2,48 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как удобнее вычислить 90 − (20 + 15)?",
+      "text": "Как удобнее вычислить 80 − (30 + 17)?",
       "options": [
-        {"text": "90 − 20 − 15", "correct": true},
-        {"text": "90 + 20 + 15", "correct": false},
-        {"text": "90 − 20 + 15", "correct": false},
-        {"text": "20 + 15 − 90", "correct": false}
+        {"text": "80 − 30 − 17", "correct": true},
+        {"text": "80 + 30 + 17", "correct": false},
+        {"text": "80 − 30 + 17", "correct": false},
+        {"text": "30 + 17 − 80", "correct": false}
       ],
-      "explanation": "Чтобы вычесть из числа сумму, можно вычитать слагаемые по очереди: a − (b + c) = a − b − c."
+      "explanation": "Чтобы вычесть из числа сумму, можно вычитать слагаемые по очереди: a − (b + c) = a − b − c. Получаем 80 − 30 − 17 = 50 − 17 = 33."
     },
     {
       "type": "single",
-      "text": "Вычисли: (40 + 25) − 15.",
+      "text": "Вычисли: (50 + 36) − 20.",
       "options": [
-        {"text": "50", "correct": true},
-        {"text": "60", "correct": false},
-        {"text": "40", "correct": false},
-        {"text": "80", "correct": false}
+        {"text": "66", "correct": true},
+        {"text": "106", "correct": false},
+        {"text": "56", "correct": false},
+        {"text": "46", "correct": false}
       ],
-      "explanation": "(40 + 25) − 15 = (40 − 15) + 25 = 25 + 25 = 50."
+      "explanation": "(50 + 36) − 20 = (50 − 20) + 36 = 30 + 36 = 66."
     },
     {
       "type": "single",
-      "text": "Вычисли: 100 − (60 − 25).",
+      "text": "Вычисли: 150 − (90 − 35).",
       "options": [
-        {"text": "65", "correct": true},
-        {"text": "15", "correct": false},
-        {"text": "45", "correct": false},
-        {"text": "75", "correct": false}
+        {"text": "95", "correct": true},
+        {"text": "25", "correct": false},
+        {"text": "55", "correct": false},
+        {"text": "105", "correct": false}
       ],
-      "explanation": "a − (b − c) = a − b + c, поэтому 100 − 60 + 25 = 40 + 25 = 65."
+      "explanation": "a − (b − c) = a − b + c, поэтому 150 − 90 + 35 = 60 + 35 = 95. Ответ 25 получится, если ошибочно вычесть и 35."
     },
     {
       "type": "multiple",
       "text": "Выбери верные равенства (выбери все верные варианты).",
       "options": [
-        {"text": "120 − (30 + 40) = 50", "correct": true},
-        {"text": "340 − (140 + 60) = 140", "correct": true},
-        {"text": "(72 + 9) − 22 = 59", "correct": true},
-        {"text": "500 − (250 − 70) = 180", "correct": false},
-        {"text": "200 − (80 − 30) = 150", "correct": true}
+        {"text": "130 − (40 + 50) = 40", "correct": true},
+        {"text": "250 − (150 + 70) = 30", "correct": true},
+        {"text": "(63 + 8) − 13 = 58", "correct": true},
+        {"text": "400 − (200 − 60) = 140", "correct": false},
+        {"text": "300 − (90 − 40) = 250", "correct": true}
       ],
-      "explanation": "Все верны, кроме последнего варианта с 180: 500 − (250 − 70) = 500 − 180 = 320, а не 180."
+      "explanation": "Все верны, кроме варианта с 140: 400 − (200 − 60) = 400 − 200 + 60 = 260, а не 140 (вычитаемое 60 нужно прибавить, а не вычесть)."
     },
     {
       "type": "multiple",
@@ -58,46 +58,46 @@
     },
     {
       "type": "dropdown",
-      "text": "(55 + 18) − 15 = ___",
+      "text": "(65 + 14) − 25 = ___",
       "options": [
-        {"text": "58", "correct": true},
-        {"text": "48", "correct": false},
-        {"text": "68", "correct": false}
+        {"text": "54", "correct": true},
+        {"text": "44", "correct": false},
+        {"text": "64", "correct": false}
       ],
-      "explanation": "(55 + 18) − 15 = (55 − 15) + 18 = 40 + 18 = 58."
+      "explanation": "(65 + 14) − 25 = (65 − 25) + 14 = 40 + 14 = 54."
     },
     {
       "type": "dropdown",
-      "text": "500 − (250 − 70) = ___",
+      "text": "600 − (300 − 80) = ___",
       "options": [
-        {"text": "320", "correct": true},
-        {"text": "180", "correct": false},
+        {"text": "380", "correct": true},
+        {"text": "220", "correct": false},
         {"text": "280", "correct": false}
       ],
-      "explanation": "500 − (250 − 70) = 500 − 250 + 70 = 250 + 70 = 320."
+      "explanation": "600 − (300 − 80) = 600 − 300 + 80 = 300 + 80 = 380."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 120 − (30 + 40) = ___.",
-      "answer": "50",
-      "explanation": "120 − (30 + 40) = 120 − 30 − 40 = 90 − 40 = 50."
+      "text": "Впиши только число: 170 − (40 + 60) = ___.",
+      "answer": "70",
+      "explanation": "170 − (40 + 60) = 170 − 40 − 60 = 130 − 60 = 70."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши только число: 340 − (140 + 60) = ___.",
-      "answer": "140",
-      "explanation": "340 − (140 + 60) = 340 − 140 − 60 = 200 − 60 = 140."
+      "text": "Впиши только число: 480 − (180 + 90) = ___.",
+      "answer": "210",
+      "explanation": "480 − (180 + 90) = 480 − 180 − 90 = 300 − 90 = 210."
     },
     {
       "type": "matching",
       "text": "Соедини выражение с его значением:",
       "pairs": [
-        {"left": "160 − (70 + 30)", "right": "60"},
-        {"left": "(72 + 9) − 22", "right": "59"},
-        {"left": "100 − (60 − 25)", "right": "65"},
-        {"left": "200 − (80 − 30)", "right": "150"}
+        {"left": "180 − (50 + 30)", "right": "100"},
+        {"left": "(84 + 7) − 24", "right": "67"},
+        {"left": "120 − (70 − 25)", "right": "75"},
+        {"left": "250 − (90 − 40)", "right": "200"}
       ],
-      "explanation": "Значения найдены по свойствам вычитания суммы и разности: 160−100=60, 81−22=59, 100−35=65, 200−50=150."
+      "explanation": "Значения найдены по свойствам вычитания суммы и разности: 180 − 50 − 30 = 100; 84 − 24 + 7 = 67; 120 − 70 + 25 = 75; 250 − 90 + 40 = 200."
     }
   ]
 }

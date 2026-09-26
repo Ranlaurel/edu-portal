@@ -2,87 +2,87 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как спросить «в какую игру тебе нравится играть»?",
+      "text": "Как спросить «Где твой брат играет в теннис?»",
       "options": [
-        {"text": "What game do you like playing?", "correct": true},
-        {"text": "You like playing what game?", "correct": false},
-        {"text": "Do you like playing what game?", "correct": false}
+        {"text": "Where does your brother play tennis?", "correct": true},
+        {"text": "Where your brother plays tennis?", "correct": false},
+        {"text": "Where does your brother plays tennis?", "correct": false}
       ],
-      "explanation": "Вопросительное слово what ставится в начале вопроса."
+      "explanation": "Порядок: Where + does + подлежащее + глагол без -s (does уже показывает 3-е лицо)."
     },
     {
       "type": "single",
-      "text": "Как спросить «кто выиграл в настольную игру»?",
+      "text": "Как спросить «Сколько у тебя карт?»",
       "options": [
-        {"text": "Who won the board game?", "correct": true},
-        {"text": "Who did win the board game?", "correct": false},
-        {"text": "Won who the board game?", "correct": false}
+        {"text": "How many cards do you have?", "correct": true},
+        {"text": "How much cards do you have?", "correct": false},
+        {"text": "How many cards you have?", "correct": false}
       ],
-      "explanation": "Who won — здесь who само выступает подлежащим, вспомогательный do не нужен."
+      "explanation": "Cards можно посчитать, поэтому how many. После него нужен do: How many cards do you have?"
     },
     {
       "type": "multiple",
       "text": "Какие вопросы построены грамматически верно? (выбери все верные варианты)",
       "options": [
-        {"text": "Where do you play video games?", "correct": true},
-        {"text": "How many players are there in the team?", "correct": true},
-        {"text": "Where you play video games?", "correct": false},
-        {"text": "How players many there are?", "correct": false}
+        {"text": "What do you do after school?", "correct": true},
+        {"text": "How do you win this game?", "correct": true},
+        {"text": "What you play at weekends?", "correct": false},
+        {"text": "Where does she plays chess?", "correct": false}
       ],
-      "explanation": "Верный порядок: вопросительное слово + do/does + подлежащее + глагол."
+      "explanation": "Нужен порядок: вопросительное слово + do/does + подлежащее + глагол. В «What you play» пропущен do, а после does глагол идёт без -s."
     },
     {
       "type": "dropdown",
-      "text": "___ won the game?",
+      "text": "___ is your favourite player? — Messi.",
       "options": [
         {"text": "Who", "correct": true},
-        {"text": "What", "correct": false},
-        {"text": "Where", "correct": false}
+        {"text": "Where", "correct": false},
+        {"text": "How many", "correct": false}
       ],
-      "explanation": "Who — вопрос о человеке, который выиграл."
+      "explanation": "Спрашиваем о человеке — who (кто)."
     },
     {
       "type": "dropdown",
-      "text": "___ do you play chess?",
+      "text": "___ do you keep your puzzles? — In the big box.",
       "options": [
         {"text": "Where", "correct": true},
         {"text": "Who", "correct": false},
         {"text": "How many", "correct": false}
       ],
-      "explanation": "Where — вопрос о месте."
+      "explanation": "Ответ — место (in the box), значит спрашиваем where (где)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопросительное слово: ___ many players are there in the team?",
-      "answer": "How",
-      "explanation": "How many — сколько (для исчисляемых существительных)."
+      "text": "Впиши вопросительное слово: ___ is your favourite computer game? (какая)",
+      "answer": "What",
+      "explanation": "«Что/какой» — what: What is your favourite game?"
     },
     {
       "type": "fill_blank",
-      "text": "Впиши вопросительное слово: ___ do you play this card game? (как)",
-      "answer": "How",
-      "explanation": "How — как."
+      "text": "Впиши вспомогательный глагол: Where ___ your sister play volleyball?",
+      "answer": "does",
+      "explanation": "Your sister — она (she), поэтому вспомогательный глагол does."
     },
     {
       "type": "matching",
-      "text": "Соедини вопросительное слово с его значением",
+      "text": "Соедини вопрос с переводом",
       "pairs": [
-        {"left": "what", "right": "что"},
-        {"left": "where", "right": "где"},
-        {"left": "who", "right": "кто"},
-        {"left": "how many", "right": "сколько"}
+        {"left": "Who is the winner?", "right": "Кто победитель?"},
+        {"left": "What games do they play?", "right": "В какие игры они играют?"},
+        {"left": "How many teams are there?", "right": "Сколько там команд?"},
+        {"left": "How do you say it in English?", "right": "Как это сказать по-английски?"}
       ],
-      "explanation": "Проверь по правилу вопросительных слов из урока."
+      "explanation": "Who — кто, what — что/какой, how many — сколько, how — как."
     },
     {
       "type": "single",
-      "text": "Какой порядок слов используется в вопросе с do/does?",
+      "text": "Выбери вопрос с правильным порядком слов:",
       "options": [
-        {"text": "вопросительное слово + do/does + подлежащее + глагол", "correct": true},
-        {"text": "подлежащее + do/does + вопросительное слово + глагол", "correct": false},
-        {"text": "глагол + do/does + подлежащее + вопросительное слово", "correct": false}
+        {"text": "How do you play dominoes?", "correct": true},
+        {"text": "How you do play dominoes?", "correct": false},
+        {"text": "How play you dominoes?", "correct": false}
       ],
-      "explanation": "Верный порядок: вопросительное слово в начале, затем do/does, подлежащее, глагол."
+      "explanation": "Порядок: вопросительное слово + do + подлежащее + глагол."
     }
   ]
 }

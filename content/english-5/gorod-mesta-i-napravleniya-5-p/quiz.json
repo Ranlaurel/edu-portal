@@ -12,69 +12,67 @@
     },
     {
       "type": "single",
-      "text": "Как правильно спросить «как мне добраться до музея?»",
+      "text": "Как правильно спросить «Как мне добраться до вокзала?»",
       "options": [
-        {"text": "How can I get to the museum?", "correct": true},
-        {"text": "How I can get museum?", "correct": false},
-        {"text": "How get to museum I can?", "correct": false}
+        {"text": "How can I get to the station?", "correct": true},
+        {"text": "How I can get station?", "correct": false},
+        {"text": "How get to station I can?", "correct": false}
       ],
       "explanation": "Правильный порядок слов в вопросе: How can I get to + место?"
     },
     {
       "type": "multiple",
-      "text": "Какие фразы используются, чтобы объяснить дорогу? (выбери все верные варианты)",
+      "text": "Какие предложения помогают объяснить дорогу? (выбери все верные варианты)",
       "options": [
-        {"text": "turn left", "correct": true},
-        {"text": "shop assistant", "correct": false},
-        {"text": "go straight", "correct": true},
-        {"text": "favourite", "correct": false},
-        {"text": "turn right", "correct": true}
+        {"text": "Turn left at the cinema.", "correct": true},
+        {"text": "The shop is next to the bank.", "correct": true},
+        {"text": "I like ice cream.", "correct": false},
+        {"text": "My sister is ten.", "correct": false}
       ],
-      "explanation": "Turn left, go straight, turn right — фразы для объяснения дороги."
+      "explanation": "Направление (turn left) и предлоги места (next to) помогают объяснить дорогу. Остальные предложения — не о дороге."
     },
     {
       "type": "dropdown",
-      "text": "Go straight and ___ at the bank (налево).",
-      "options": [
-        {"text": "turn left", "correct": true},
-        {"text": "turn right", "correct": false},
-        {"text": "go straight", "correct": false}
-      ],
-      "explanation": "«Налево» — turn left."
-    },
-    {
-      "type": "dropdown",
-      "text": "The station is next to the park, ___ (направо).",
+      "text": "Go to the bridge and ___ (направо).",
       "options": [
         {"text": "turn right", "correct": true},
         {"text": "turn left", "correct": false},
         {"text": "go straight", "correct": false}
       ],
-      "explanation": "«Направо» — turn right."
+      "explanation": "«Повернуть направо» — turn right."
+    },
+    {
+      "type": "dropdown",
+      "text": "___, where is the hospital? (Извините)",
+      "options": [
+        {"text": "Excuse me", "correct": true},
+        {"text": "Turn left", "correct": false},
+        {"text": "Go straight", "correct": false}
+      ],
+      "explanation": "Вежливое обращение к прохожему — Excuse me (извините)."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним словом: извините",
-      "answer": "excuse me",
-      "accepted": ["excuse me"],
-      "explanation": "«Извините» — excuse me."
+      "text": "Впиши предлог: The cafe is ___ the park (напротив).",
+      "answer": "opposite",
+      "explanation": "«Напротив» — opposite."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши фразу: How can I get ___ the library? (предлог)",
+      "text": "Впиши предлог: How can I get ___ the zoo?",
       "answer": "to",
       "explanation": "Формула вопроса: How can I get to + место."
     },
     {
       "type": "matching",
-      "text": "Соедини фразу с переводом",
+      "text": "Соедини предложение с переводом",
       "pairs": [
-        {"left": "turn left", "right": "повернуть налево"},
-        {"left": "turn right", "right": "повернуть направо"},
-        {"left": "go straight", "right": "идти прямо"},
-        {"left": "excuse me", "right": "извините"}
+        {"left": "The bank is between the shop and the cafe.", "right": "Банк между магазином и кафе."},
+        {"left": "The school is near the river.", "right": "Школа рядом с рекой."},
+        {"left": "The post office is on Main Street.", "right": "Почта на Главной улице."},
+        {"left": "The toy shop is in the shopping centre.", "right": "Магазин игрушек в торговом центре."}
       ],
-      "explanation": "Проверь по таблице фраз из урока."
+      "explanation": "Between — между, near — рядом, on — на (улице), in — в, внутри."
     }
   ]
 }

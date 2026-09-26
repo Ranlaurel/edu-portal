@@ -2,88 +2,88 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как перевести «У меня болит живот»?",
+      "text": "Как перевести «У него болит спина»?",
       "options": [
-        {"text": "My stomach hurts.", "correct": true},
-        {"text": "My stomach hurt.", "correct": false},
-        {"text": "I have got a stomach.", "correct": false}
+        {"text": "His back hurts.", "correct": true},
+        {"text": "He back hurts.", "correct": false},
+        {"text": "His back hurting.", "correct": false}
       ],
-      "explanation": "Stomach — единственное число, поэтому hurts."
+      "explanation": "«У него» — his; back — единственное число, поэтому hurts."
     },
     {
       "type": "single",
-      "text": "Как перевести «У меня болят зубы»?",
+      "text": "Как перевести «У меня болят ступни»?",
       "options": [
-        {"text": "My teeth hurt.", "correct": true},
-        {"text": "My tooth hurts.", "correct": false},
-        {"text": "My teeth hurts.", "correct": false}
+        {"text": "My feet hurt.", "correct": true},
+        {"text": "My feet hurts.", "correct": false},
+        {"text": "My foots hurt.", "correct": false}
       ],
-      "explanation": "Teeth — множественное число от tooth, поэтому глагол hurt без -s."
+      "explanation": "Множественное число от foot — feet (не foots); с мн. ч. глагол hurt без -s."
     },
     {
       "type": "multiple",
       "text": "Какие слова переводятся как части тела? (выбери все верные варианты)",
       "options": [
-        {"text": "back", "correct": true},
+        {"text": "leg", "correct": true},
         {"text": "sick", "correct": false},
-        {"text": "hand", "correct": true},
-        {"text": "foot", "correct": true},
+        {"text": "nose", "correct": true},
+        {"text": "finger", "correct": true},
         {"text": "doctor", "correct": false}
       ],
-      "explanation": "Back, hand, foot — части тела. Sick (больной) и doctor (врач) — нет."
+      "explanation": "Leg (нога), nose (нос), finger (палец) — части тела. Sick (больной) и doctor (врач) — нет."
     },
     {
       "type": "dropdown",
-      "text": "My hand ___ (hurt) after writing.",
+      "text": "Her teeth ___ (hurt).",
       "options": [
-        {"text": "hurts", "correct": true},
-        {"text": "hurt", "correct": false},
+        {"text": "hurt", "correct": true},
+        {"text": "hurts", "correct": false},
         {"text": "hurting", "correct": false}
       ],
-      "explanation": "Hand — единственное число, поэтому hurts."
+      "explanation": "Teeth — множественное число от tooth, поэтому hurt без -s."
     },
     {
       "type": "dropdown",
-      "text": "He has got a cold, so he feels ___.",
+      "text": "I can't go to school today. I am ___.",
       "options": [
         {"text": "sick", "correct": true},
         {"text": "doctor", "correct": false},
-        {"text": "back", "correct": false}
+        {"text": "tooth", "correct": false}
       ],
-      "explanation": "Sick — больной, плохо себя чувствующий."
+      "explanation": "Sick — больной: I am sick — я болен."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши перевод одним английским словом: спина",
-      "answer": "back",
-      "explanation": "«Спина» переводится как back."
+      "text": "Впиши перевод одним английским словом: живот",
+      "answer": "stomach",
+      "explanation": "«Живот» — stomach."
     },
     {
       "type": "fill_blank",
-      "text": "Впиши правильную форму: My arm ___ (hurt) a lot.",
+      "text": "Впиши правильную форму глагола: Her head ___ (hurt).",
       "answer": "hurts",
-      "explanation": "Arm — единственное число, поэтому hurts."
+      "explanation": "Head — единственное число, поэтому hurts."
     },
     {
       "type": "matching",
       "text": "Соедини английскую фразу с переводом",
       "pairs": [
-        {"left": "My back hurts.", "right": "У меня болит спина."},
-        {"left": "My teeth hurt.", "right": "У меня болят зубы."},
-        {"left": "He feels sick.", "right": "Он плохо себя чувствует."},
-        {"left": "My stomach hurts.", "right": "У меня болит живот."}
+        {"left": "He has got a cold.", "right": "У него простуда."},
+        {"left": "Our eyes hurt.", "right": "У нас болят глаза."},
+        {"left": "Their ears hurt.", "right": "У них болят уши."},
+        {"left": "My arm hurts.", "right": "У меня болит рука."}
       ],
-      "explanation": "Проверь по примерам из урока."
+      "explanation": "Простуда — have/has got a cold; мн. ч. (eyes, ears) → hurt, ед. ч. (arm) → hurts."
     },
     {
       "type": "single",
-      "text": "Переведи слово «tooth».",
+      "text": "Переведи слово «hand».",
       "options": [
-        {"text": "зуб", "correct": true},
-        {"text": "нога", "correct": false},
-        {"text": "рука", "correct": false}
+        {"text": "кисть руки", "correct": true},
+        {"text": "рука (от плеча)", "correct": false},
+        {"text": "ступня", "correct": false}
       ],
-      "explanation": "«Tooth» — зуб, множественное число teeth."
+      "explanation": "Hand — кисть руки, а arm — рука от плеча."
     }
   ]
 }

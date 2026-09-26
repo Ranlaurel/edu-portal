@@ -2,77 +2,77 @@
   "questions": [
     {
       "type": "single",
-      "text": "Как сказать «эти туфли» (предметы рядом)?",
+      "text": "Как сказать «эти яблоки» (яблоки рядом)?",
       "options": [
-        {"text": "these shoes", "correct": true},
-        {"text": "this shoes", "correct": false},
-        {"text": "those shoes", "correct": false}
+        {"text": "these apples", "correct": true},
+        {"text": "this apples", "correct": false},
+        {"text": "those apples", "correct": false}
       ],
-      "explanation": "These используется для предметов во множественном числе, находящихся рядом."
+      "explanation": "These — для нескольких предметов, которые рядом."
     },
     {
       "type": "single",
-      "text": "Как сказать «те цветы» (предметы далеко)?",
+      "text": "Как сказать «те птицы» (птицы далеко)?",
       "options": [
-        {"text": "those flowers", "correct": true},
-        {"text": "these flowers", "correct": false},
-        {"text": "that flowers", "correct": false}
+        {"text": "those birds", "correct": true},
+        {"text": "these birds", "correct": false},
+        {"text": "that birds", "correct": false}
       ],
-      "explanation": "Those используется для предметов во множественном числе, находящихся далеко."
+      "explanation": "Those — для нескольких предметов, которые далеко."
     },
     {
       "type": "multiple",
-      "text": "Какие местоимения используются для множественного числа? (выбери все верные варианты)",
+      "text": "В каких предложениях местоимение выбрано верно? (выбери все верные варианты)",
       "options": [
-        {"text": "these", "correct": true},
-        {"text": "those", "correct": true},
-        {"text": "this", "correct": false},
-        {"text": "that", "correct": false}
+        {"text": "These books are mine. (книги рядом)", "correct": true},
+        {"text": "Those trees are tall. (деревья далеко)", "correct": true},
+        {"text": "This socks are new. (носки рядом)", "correct": false},
+        {"text": "That cars are fast. (машины далеко)", "correct": false}
       ],
-      "explanation": "These и those — множественное число, this и that — единственное."
+      "explanation": "Для множественного числа — these (рядом) и those (далеко): These socks, Those cars."
     },
     {
       "type": "dropdown",
-      "text": "___ shoes are new (туфли рядом).",
+      "text": "___ cats are funny (кошки рядом).",
       "options": [
         {"text": "These", "correct": true},
         {"text": "This", "correct": false},
         {"text": "Those", "correct": false}
       ],
-      "explanation": "Множественное число, предметы рядом — these."
+      "explanation": "Множественное число, рядом — these."
     },
     {
       "type": "dropdown",
-      "text": "___ flowers are beautiful (цветы далеко).",
+      "text": "___ houses are old (дома далеко).",
       "options": [
         {"text": "Those", "correct": true},
         {"text": "These", "correct": false},
         {"text": "That", "correct": false}
       ],
-      "explanation": "Множественное число, предметы далеко — those."
+      "explanation": "Множественное число, далеко — those."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: окно",
       "answer": "window",
-      "explanation": "«Окно» переводится как window."
+      "explanation": "«Окно» — window."
     },
     {
       "type": "fill_blank",
       "text": "Впиши перевод одним английским словом: картинка",
       "answer": "picture",
-      "explanation": "«Картинка» переводится как picture."
+      "explanation": "«Картинка» — picture."
     },
     {
       "type": "matching",
       "text": "Соедини английское слово с переводом",
       "pairs": [
-        {"left": "window", "right": "окно"},
-        {"left": "picture", "right": "картинка"},
         {"left": "shoes", "right": "туфли"},
-        {"left": "flowers", "right": "цветы"}
+        {"left": "flowers", "right": "цветы"},
+        {"left": "toys", "right": "игрушки"},
+        {"left": "keys", "right": "ключи"}
       ],
-      "explanation": "Проверь по таблице слов из урока."
+      "explanation": "Проверь по словам урока."
     }
   ]
 }

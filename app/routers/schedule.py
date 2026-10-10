@@ -3,6 +3,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 from fastapi import APIRouter, Depends, Request
+from fastapi.responses import RedirectResponse
 from sqlalchemy.orm import Session
 
 from app.db import get_db
@@ -25,6 +26,9 @@ WEEKDAY_RU = {
 def schedule_page(request: Request, db: Session = Depends(get_db)):
     grade = current_grade(request)
     schedule_path = CONTENT_DIR / f"schedule-{grade}.json"
+    if not schedule_path.exists():
+        # ОГЭ has no school-year calendar: the plan is the task map on /oge.
+        return RedirectResponse("/oge" if grade == 9 else "/subjects")
     data = json.loads(schedule_path.read_text(encoding="utf-8"))
     topics_by_slug = {t.slug: t for t in db.query(Topic).all()}
 

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Результат пробного варианта{% endblock %}
+{% block content %}
+<a class="back-link" href="/oge">← к подготовке к ОГЭ</a>
+<h1>Результат · {{ config.title }}</h1>
+
+<div class="exam-score">
+  <div class="exam-score-main">
+    <span class="exam-score-num">{{ attempt.primary_score }}</span>
+    <span class="exam-score-of">из {{ attempt.max_score }} первичных баллов</span>
+  </div>
+  {% if attempt.mark %}
+  <div class="exam-score-mark">Оценка <span class="mark mark-{{ attempt.mark }}">{{ attempt.mark }}</span></div>
+  {% else %}
+  <div class="quiz-hint">Вариант неполный (в банке есть не все задания), поэтому оценка не выставлена.</div>
+  {% endif %}
+</div>
+{% for n in notes %}<p class="exam-note">{{ n }}</p>{% endfor %}
+<p class="quiz-hint">Шкала перевода — {{ config.scale_source }}</p>
+
+<table class="exam-breakdown">
+  <thead><tr><th>№</th><th>Задание</th><th>Твой ответ</th><th>Верный ответ</th><th>Баллы</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+    {% if r.missing %}
+    <tr class="row-missing"><td>{{ r.task.id }}</td><td>{{ r.task.title }}</td><td colspan="3" class="quiz-hint">нет в банке заданий</td></tr>
+    {% else %}
+    <tr class="{{ 'row-ok' if r.result.correct else 'row-bad' }}">
+      <td>{{ r.task.id }}</td>
+      <td>
+        {{ r.task.title }}
+        {% if r.question and r.question.explanation and not r.result.correct %}
+        <details><summary>разбор</summary><div class="quiz-hint">{{ r.question.explanation }}</div></details>
+        {% endif %}
+        {% if r.topic and not r.result.correct %}<a class="quiz-hint" href="/topics/{{ r.topic.id }}/lesson">теория →</a>{% endif %}
+      </td>
+      <td>{% if r.result.self %}<span class="quiz-hint">самопроверка</span>{% else %}{{ r.given or '—' }}{% endif %}</td>
+      <td>{{ r.correct_answer or '' }}</td>
+      <td>{{ r.result.points }} / {{ r.result.max }}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
+
+<form method="post" action="/oge/{{ attempt.subject.slug }}/exam">
+  <button class="btn btn-primary">Ещё один вариант</button>
+  <a class="btn btn-secondary" href="/oge">К карте заданий</a>
+</form>
+{% endblock %}

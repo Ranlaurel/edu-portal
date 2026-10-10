@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Пробный вариант: {{ config.title }}{% endblock %}
+{% block content %}
+<a class="back-link" href="/oge">← к подготовке к ОГЭ</a>
+<h1>Пробный вариант · {{ config.title }}</h1>
+<p class="quiz-hint">
+  Отвечай как на экзамене: краткий ответ — число или слово без пробелов, номера — без запятых.
+  {% if incomplete %}Банк заданий пока неполный: в варианте не все номера КИМ, оценка не будет выставлена.{% endif %}
+  Ответы сохраняются в браузере, можно закрыть вкладку и вернуться.
+</p>
+
+<div class="exam-timer" id="exam-timer" data-minutes="{{ config.duration_minutes }}" data-started="{{ attempt.started_at.isoformat() }}Z"></div>
+
+<div id="exam-root"></div>
+
+<button id="exam-submit" class="btn btn-primary">Завершить и проверить</button>
+
+<script>
+  window.EXAM_ID = {{ attempt.id }};
+  window.EXAM_QUESTIONS = {{ questions_json | safe }};
+</script>
+<script src="/static/oge_exam.js?v=1"></script>
+{% endblock %}

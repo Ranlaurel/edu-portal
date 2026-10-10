@@ -58,6 +58,7 @@ class Topic(Base):
     slug = Column(String, unique=True, nullable=False)
     order = Column(Integer, default=0)
     has_content = Column(Boolean, default=False)
+    exam_task = Column(String, nullable=True)  # ОГЭ: номер задания КИМ ("6", "13", "ГК"), None for school topics
 
     section = relationship("Section", back_populates="topics")
     lesson = relationship("Lesson", back_populates="topic", uselist=False)
@@ -84,6 +85,9 @@ class Question(Base):
     explanation = Column(Text, nullable=True)
     answer = Column(Text, nullable=True)  # fill_blank correct answer (accepted list joined by "|")
     order = Column(Integer, default=0)
+    exam_task = Column(String, nullable=True)  # overrides Topic.exam_task (e.g. math tasks 1-5 share one topic)
+    exam_set = Column(String, nullable=True)  # questions sharing a set are drawn into a variant together
+    extra = Column(Text, nullable=True)  # JSON: {"exam": bool, "any_order": bool, "reference": md, "criteria": [...]}
 
     topic = relationship("Topic", back_populates="questions")
     options = relationship("Option", back_populates="question", order_by="Option.order")
@@ -142,3 +146,24 @@ class Attempt(Base):
     created_at = Column(DateTime, server_default=func.now())
 
     topic = relationship("Topic")
+
+
+class ExamAttempt(Base):
+    """One mock ОГЭ variant: generated, taken, (self-)checked, scored."""
+
+    __tablename__ = "exam_attempts"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    subject_id = Column(Integer, ForeignKey("subjects.id"), nullable=False)
+    status = Column(String, default="in_progress", nullable=False)  # in_progress | self_check | finished
+    variant_json = Column(Text, nullable=False)  # [{"task": "6", "question_id": 12}, ...]
+    answers_json = Column(Text, nullable=True)  # {"<question_id>": answer}
+    results_json = Column(Text, nullable=True)  # {"<task>": {"points", "max", "correct", "criteria"}}
+    primary_score = Column(Integer, nullable=True)
+    max_score = Column(Integer, nullable=True)
+    mark = Column(Integer, nullable=True)  # 2..5, None when the variant was incomplete
+    started_at = Column(DateTime, server_default=func.now())
+    finished_at = Column(DateTime, nullable=True)
+
+    subject = relationship("Subject")

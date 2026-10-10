@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Самопроверка{% endblock %}
+{% block content %}
+<a class="back-link" href="/oge">← к подготовке к ОГЭ</a>
+<h1>Самопроверка развёрнутых ответов</h1>
+<p class="quiz-hint">Задания с кратким ответом уже проверены. Развёрнутые ответы на экзамене проверяют эксперты по критериям ФИПИ — оцени себя так же честно: сравни свой ответ с эталоном и выставь балл по каждому критерию.</p>
+
+<form method="post" action="/oge/exam/{{ attempt.id }}/self-check">
+  {% for item in items %}
+  <section class="question-card self-check-card">
+    <div class="exam-task-head">
+      <span class="exam-task-num">Задание {{ item.task.id }}</span>
+      <span class="q-type-label">{{ item.task.title }} · максимум {{ item.task.points }}</span>
+    </div>
+    <details class="self-check-prompt">
+      <summary>Условие</summary>
+      <div class="rich">{{ item.prompt_html | safe }}</div>
+    </details>
+
+    {% if item.no_text %}
+    <div class="rich self-check-reference">{{ item.reference_html | safe }}</div>
+    {% else %}
+    <div class="self-check-cols">
+      <div>
+        <h3>Твой ответ</h3>
+        <div class="self-check-answer">{% if item.answer %}{{ item.answer }}{% else %}<em>ответа нет</em>{% endif %}</div>
+      </div>
+      <div>
+        <h3>Эталон</h3>
+        <div class="rich self-check-reference">{{ item.reference_html | safe }}</div>
+      </div>
+    </div>
+    {% endif %}
+
+    <h3>Критерии</h3>
+    <table class="criteria-table">
+      {% for c in item.criteria %}
+      <tr>
+        <td><strong>{{ c.code }}</strong></td>
+        <td>{{ c.text }}</td>
+        <td>
+          <select name="score-{{ item.task.id }}-{{ c.code }}" class="q-select">
+            {% for p in range(c.max + 1) %}<option value="{{ p }}">{{ p }}</option>{% endfor %}
+          </select>
+          <span class="quiz-hint">из {{ c.max }}</span>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </section>
+  {% endfor %}
+
+  <button class="btn btn-primary">Подсчитать результат</button>
+</form>
+{% endblock %}

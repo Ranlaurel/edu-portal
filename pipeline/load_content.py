@@ -16,6 +16,9 @@ from app.models import Attempt, Lesson, MatchPair, Option, Question, Section, Su
 
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 
+# Optional per-question fields kept as JSON in Question.extra (see CONTENT_SPEC.md, "ОГЭ").
+EXTRA_KEYS = ("exam", "any_order", "reference", "criteria", "no_text")
+
 
 def load_subject(db, subject_dir: Path):
     manifest_path = subject_dir / "topics.json"
@@ -68,6 +71,8 @@ def load_subject(db, subject_dir: Path):
                 topic.title = topic_data["title"]
                 topic.order = topic_data.get("order", 0)
                 topic.section_id = section.id  # topic may have moved to a different section
+            exam_task = topic_data.get("exam_task")
+            topic.exam_task = str(exam_task) if exam_task is not None else None
 
             load_topic_content(db, subject_dir, topic, topic_data["slug"])
 
@@ -151,6 +156,11 @@ def load_topic_content(db, subject_dir: Path, topic: Topic, slug: str):
         if q_data["type"] == "fill_blank":
             accepted = q_data.get("accepted") or [q_data["answer"]]
             question.answer = "|".join(a.strip().lower() for a in accepted)
+        exam_task = q_data.get("exam_task")
+        question.exam_task = str(exam_task) if exam_task is not None else None
+        question.exam_set = q_data.get("exam_set")
+        extra = {key: q_data[key] for key in EXTRA_KEYS if key in q_data}
+        question.extra = json.dumps(extra, ensure_ascii=False) if extra else None
         db.flush()
 
         if q_data["type"] in ("single", "multiple", "dropdown"):

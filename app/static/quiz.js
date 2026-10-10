@@ -17,8 +17,13 @@
     const card = el("div", "question-card");
     card.id = "q-card-" + q.id;
     const label = el("div", "q-type-label", typeLabel(q.type));
-    const text = el("div", "question-text", (index + 1) + ". " + q.text);
     card.appendChild(label);
+    if (q.type === "self_check") {
+      renderSelfCheck(card, q, index);
+      card.appendChild(el("div", "explanation", ""));
+      return card;
+    }
+    const text = el("div", "question-text", (index + 1) + ". " + q.text);
     card.appendChild(text);
 
     if (q.type === "single" || q.type === "multiple") {
@@ -84,7 +89,67 @@
       dropdown: "Выбери из списка",
       fill_blank: "Впиши ответ",
       matching: "Соедини пары",
+      self_check: "Развёрнутый ответ · самопроверка",
     }[type] || "";
+  }
+
+  // Развёрнутый ответ: write first, then open the reference and score yourself by
+  // the ФИПИ criteria. Counts as solved at half the points or more.
+  function renderSelfCheck(card, q, index) {
+    const text = el("div", "question-text rich");
+    text.innerHTML = q.html; // our own content, rendered from markdown on the server
+    text.insertAdjacentText("afterbegin", (index + 1) + ". ");
+    card.appendChild(text);
+
+    const answer = { text: "", scores: null };
+    if (!q.no_text) {
+      const area = el("textarea", "exam-textarea");
+      area.rows = 8;
+      area.placeholder = "Напиши свой ответ...";
+      area.addEventListener("input", () => {
+        answer.text = area.value;
+        state[q.id] = answer;
+      });
+      card.appendChild(area);
+    }
+
+    const reveal = el("button", "btn btn-secondary", q.no_text ? "Открыть критерии" : "Сверить с эталоном");
+    reveal.type = "button";
+    const panel = el("div", "self-check-panel");
+    panel.style.display = "none";
+    reveal.addEventListener("click", () => {
+      if (!q.no_text && !answer.text.trim() && !confirm("Ты ещё ничего не написал. Всё равно открыть эталон?")) return;
+      reveal.style.display = "none";
+      panel.style.display = "block";
+      answer.scores = {};
+      state[q.id] = answer;
+    });
+
+    const ref = el("div", "rich self-check-reference");
+    ref.innerHTML = q.reference_html;
+    panel.appendChild(el("h3", "", "Эталон"));
+    panel.appendChild(ref);
+    panel.appendChild(el("h3", "", "Оцени себя по критериям"));
+    q.criteria.forEach((c) => {
+      const row = el("div", "criteria-row");
+      row.appendChild(el("strong", "", c.code + " "));
+      row.appendChild(el("span", "", c.text + " "));
+      const select = el("select", "q-select");
+      for (let p = 0; p <= c.max; p++) {
+        const o = el("option", "", String(p));
+        o.value = p;
+        select.appendChild(o);
+      }
+      select.addEventListener("change", () => {
+        if (submitted) return;
+        answer.scores[c.code] = parseInt(select.value, 10);
+      });
+      row.appendChild(select);
+      row.appendChild(el("span", "quiz-hint", " из " + c.max));
+      panel.appendChild(row);
+    });
+    card.appendChild(reveal);
+    card.appendChild(panel);
   }
 
   function renderMatching(card, q) {

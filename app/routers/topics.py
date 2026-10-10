@@ -11,7 +11,7 @@ from app.templating import templates
 
 router = APIRouter()
 
-AVAILABLE_GRADES = (5, 6)
+AVAILABLE_GRADES = (5, 6, 9)  # 9 = ОГЭ
 
 
 def current_grade(request: Request) -> int:
@@ -36,7 +36,7 @@ def select_grade_page(request: Request, db: Session = Depends(get_db)):
 def select_grade(grade: int, request: Request):
     if grade in AVAILABLE_GRADES:
         request.session["grade"] = grade
-    return RedirectResponse("/subjects")
+    return RedirectResponse("/oge" if grade == 9 else "/subjects")
 
 
 @router.get("/subjects")

@@ -1,6 +1,7 @@
 import json
 import random
 
+import markdown as md
 from fastapi import APIRouter, Depends, Request
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
@@ -17,8 +18,42 @@ router = APIRouter()
 PASS_THRESHOLD = 70
 
 
+def question_extra(q: Question) -> dict:
+    raw = getattr(q, "extra", None)
+    return json.loads(raw) if raw else {}
+
+
+def normalize_answer(value: str) -> str:
+    """Forgiving short-answer comparison, the way ОГЭ answer forms are read:
+    case, ё/е, spaces and decimal comma vs dot don't matter."""
+    return (value or "").strip().lower().replace("ё", "е").replace(" ", "").replace(",", ".")
+
+
+def self_check_points_one(given, max_points: int) -> int:
+    try:
+        value = int(given)
+    except (TypeError, ValueError):
+        value = 0
+    return max(0, min(value, max_points))
+
+
+def self_check_points(q: Question, scores) -> tuple[int, int]:
+    """(earned, max) for a self_check answer; each criterion is clamped to its own max."""
+    criteria = question_extra(q).get("criteria") or []
+    scores = scores if isinstance(scores, dict) else {}
+    earned = sum(self_check_points_one(scores.get(c["code"], 0), c["max"]) for c in criteria)
+    return earned, sum(c["max"] for c in criteria)
+
+
 def serialize_question(q: Question) -> dict:
     base = {"id": q.id, "type": q.type, "text": q.text}
+    if q.type == "self_check":
+        extra = question_extra(q)
+        base["html"] = md.markdown(q.text, extensions=["tables"])
+        base["reference_html"] = md.markdown(extra.get("reference") or "", extensions=["tables"])
+        base["criteria"] = extra.get("criteria") or []
+        base["no_text"] = bool(extra.get("no_text"))  # checklist-style: score your other texts, nothing to write here
+        return base
     if q.type in ("single", "multiple", "dropdown"):
         opts = list(q.options)
         random.shuffle(opts)
@@ -46,9 +81,19 @@ def grade_question(q: Question, user_answer) -> bool:
         return given_ids == correct_ids
 
     if q.type == "fill_blank":
-        accepted = set((q.answer or "").split("|"))
-        given = (user_answer or "").strip().lower()
+        if not isinstance(user_answer, str):
+            return False
+        accepted = [normalize_answer(a) for a in (q.answer or "").split("|")]
+        given = normalize_answer(user_answer)
+        if question_extra(q).get("any_order"):
+            # "запишите номера в любом порядке": 135 == 531
+            return sorted(given) in [sorted(a) for a in accepted]
         return given in accepted
+
+    if q.type == "self_check":
+        # Self-assessed against the reference: counts as solved at half the points or more.
+        earned, max_points = self_check_points(q, (user_answer or {}).get("scores") if isinstance(user_answer, dict) else None)
+        return max_points > 0 and earned * 2 >= max_points
 
     if q.type == "matching":
         given = user_answer or {}

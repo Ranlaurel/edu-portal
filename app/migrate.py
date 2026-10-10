@@ -31,4 +31,15 @@ def run(engine):
             if "display_name" not in user_cols:
                 conn.execute(text("ALTER TABLE users ADD COLUMN display_name VARCHAR"))
 
+        if "topics" in tables:
+            topic_cols = [row[1] for row in conn.execute(text("PRAGMA table_info(topics)"))]
+            if "exam_task" not in topic_cols:
+                conn.execute(text("ALTER TABLE topics ADD COLUMN exam_task VARCHAR"))
+
+        if "questions" in tables:
+            q_cols = [row[1] for row in conn.execute(text("PRAGMA table_info(questions)"))]
+            for col, ddl in (("exam_task", "VARCHAR"), ("exam_set", "VARCHAR"), ("extra", "TEXT")):
+                if col not in q_cols:
+                    conn.execute(text(f"ALTER TABLE questions ADD COLUMN {col} {ddl}"))
+
         conn.commit()

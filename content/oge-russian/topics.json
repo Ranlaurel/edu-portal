@@ -130,8 +130,8 @@
       "order": 11,
       "topics": [
         {
-          "slug": "oge-r-11",
-          "title": "Выразительные средства лексики и фразеологии",
+          "slug": "oge-r-11-vyrazitelnye-sredstva",
+          "title": "Средства выразительности",
           "order": 1,
           "exam_task": "11"
         }
@@ -142,8 +142,8 @@
       "order": 12,
       "topics": [
         {
-          "slug": "oge-r-12",
-          "title": "Лексический анализ слова",
+          "slug": "oge-r-12-leksicheskiy-analiz",
+          "title": "Синонимы, антонимы, стилистически окрашенные слова",
           "order": 1,
           "exam_task": "12"
         }

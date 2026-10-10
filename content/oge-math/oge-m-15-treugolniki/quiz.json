@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "В треугольнике ABC угол A прямой, AB = 8, AC = 6. Найдите BC.",
+      "answer": "10",
+      "explanation": "По теореме Пифагора BC = √(8² + 6²) = √100 = 10.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 276 220\" width=\"276\" role=\"img\" aria-label=\"чертёж\"><polygon points=\"26.0,194.0 250.0,194.0 26.0,26.0\" fill=\"#4f46e5\" fill-opacity=\".06\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M38.6 194.0 L38.6 181.4 L26.0 181.4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"26.0\" cy=\"194.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"13.7\" y=\"208.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"250.0\" cy=\"194.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"264.4\" y=\"204.4\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"26.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"17.5\" y=\"18.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">C</text></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Два угла треугольника равны 47° и 68°. Найдите третий угол. Ответ дайте в градусах.",
+      "answer": "65",
+      "explanation": "180° − 47° − 68° = 65°.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Угол при вершине равнобедренного треугольника равен 40°. Найдите угол при основании. Ответ дайте в градусах.",
+      "answer": "70",
+      "explanation": "Углы при основании равны: (180° − 40°) / 2 = 70°.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Катет прямоугольного треугольника равен 5, гипотенуза — 13. Найдите второй катет.",
+      "answer": "12",
+      "explanation": "√(13² − 5²) = √(169 − 25) = √144 = 12.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Катеты прямоугольного треугольника равны 7 и 10. Найдите его площадь.",
+      "answer": "35",
+      "explanation": "S = ½ · 7 · 10 = 35.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Сторона треугольника равна 18. Найдите среднюю линию, параллельную этой стороне.",
+      "answer": "9",
+      "explanation": "Средняя линия равна половине параллельной стороны: 18 / 2 = 9.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "В треугольнике ABC угол C прямой, BC = 3, AB = 5. Найдите sin A.",
+      "answer": "0,6",
+      "explanation": "sin A = противолежащий катет / гипотенуза = BC / AB = 3 / 5 = 0,6.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 212 172\" width=\"212\" role=\"img\" aria-label=\"чертёж\"><polygon points=\"26.0,146.0 186.0,26.0 186.0,146.0\" fill=\"#4f46e5\" fill-opacity=\".06\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M168.0 146.0 L168.0 128.0 L186.0 128.0\" fill=\"none\" stroke=\"currentColor\"/><text x=\"204.7\" y=\"83.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#4f46e5\">3</text><text x=\"90.0\" y=\"78.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"#4f46e5\">5</text><circle cx=\"26.0\" cy=\"146.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"5.4\" y=\"158.7\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"186.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"198.2\" y=\"12.7\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"186.0\" cy=\"146.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"203.6\" y=\"164.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">C</text></svg>"
+    },
+    {
+      "type": "single",
+      "text": "Чему равна сумма углов любого треугольника?",
+      "options": [
+        {
+          "text": "180°",
+          "correct": true
+        },
+        {
+          "text": "360°",
+          "correct": false
+        },
+        {
+          "text": "90°",
+          "correct": false
+        },
+        {
+          "text": "зависит от вида треугольника",
+          "correct": false
+        }
+      ],
+      "explanation": "Сумма углов треугольника всегда 180°."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие тройки чисел могут быть сторонами прямоугольного треугольника? (выбери все верные)",
+      "options": [
+        {
+          "text": "3, 4, 5",
+          "correct": true
+        },
+        {
+          "text": "6, 8, 10",
+          "correct": true
+        },
+        {
+          "text": "5, 12, 13",
+          "correct": true
+        },
+        {
+          "text": "4, 5, 6",
+          "correct": false
+        },
+        {
+          "text": "2, 3, 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Проверяем a² + b² = c²: 9 + 16 = 25, 36 + 64 = 100, 25 + 144 = 169. Для 4, 5, 6: 16 + 25 ≠ 36."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини элемент треугольника с определением.",
+      "pairs": [
+        {
+          "left": "медиана",
+          "right": "соединяет вершину с серединой противоположной стороны"
+        },
+        {
+          "left": "биссектриса",
+          "right": "делит угол пополам"
+        },
+        {
+          "left": "высота",
+          "right": "перпендикуляр из вершины к прямой, содержащей сторону"
+        },
+        {
+          "left": "средняя линия",
+          "right": "соединяет середины двух сторон"
+        }
+      ],
+      "explanation": "Основные отрезки в треугольнике, которые встречаются в задании 15."
+    }
+  ]
+}

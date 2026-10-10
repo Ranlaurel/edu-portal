@@ -1,0 +1,136 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "Точка O — центр окружности. Центральный угол AOB равен 110°. Найдите вписанный угол ACB, опирающийся на ту же дугу. Ответ дайте в градусах.",
+      "answer": "55",
+      "explanation": "Вписанный угол равен половине центрального, опирающегося на ту же дугу: 110° / 2 = 55°.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" width=\"256\" role=\"img\" aria-label=\"чертёж\"><circle cx=\"128.0\" cy=\"128.0\" r=\"102.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"128.0\" y1=\"128.0\" x2=\"39.6\" y2=\"179.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"128.0\" y1=\"128.0\" x2=\"216.4\" y2=\"179.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"158.6\" y1=\"32.1\" x2=\"39.6\" y2=\"179.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"158.6\" y1=\"32.1\" x2=\"216.4\" y2=\"179.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"128.0\" cy=\"128.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"109.7\" y=\"129.3\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">O</text><circle cx=\"39.6\" cy=\"179.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"23.0\" y=\"192.6\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"216.4\" cy=\"179.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"232.3\" y=\"193.8\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"158.6\" cy=\"32.1\" r=\"2.5\" fill=\"currentColor\"/><text x=\"162.9\" y=\"18.9\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">C</text></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Вписанный угол равен 35°. Найдите центральный угол, опирающийся на ту же дугу. Ответ дайте в градусах.",
+      "answer": "70",
+      "explanation": "Центральный угол вдвое больше вписанного: 35° · 2 = 70°.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "AB — диаметр окружности, C — точка на окружности. Найдите угол ACB. Ответ дайте в градусах.",
+      "answer": "90",
+      "explanation": "Вписанный угол, опирающийся на диаметр, прямой.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "К окружности с центром O радиуса 5 проведена касательная AB (B — точка касания). Найдите AB, если AO = 13.",
+      "answer": "12",
+      "explanation": "Радиус OB перпендикулярен касательной, треугольник OBA прямоугольный: AB = √(13² − 5²) = 12.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 304 192\" width=\"304\" role=\"img\" aria-label=\"чертёж\"><circle cx=\"96.0\" cy=\"96.0\" r=\"70.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"96.0\" y1=\"96.0\" x2=\"278.0\" y2=\"96.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"96.0\" y1=\"96.0\" x2=\"122.9\" y2=\"31.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"278.0\" y1=\"96.0\" x2=\"122.9\" y2=\"31.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M120.5 37.1 L126.3 39.6 L128.7 33.7\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"96.0\" cy=\"96.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"88.6\" y=\"103.3\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">O</text><circle cx=\"122.9\" cy=\"31.3\" r=\"2.5\" fill=\"currentColor\"/><text x=\"117.5\" y=\"30.9\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"278.0\" cy=\"96.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"285.6\" y=\"102.5\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Окружность вписана в квадрат со стороной 14. Найдите её радиус.",
+      "answer": "7",
+      "explanation": "Диаметр вписанной окружности равен стороне квадрата, радиус — половине: 7.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Длина хорды AB равна 16, расстояние от центра окружности до хорды равно 6. Найдите радиус окружности.",
+      "answer": "10",
+      "explanation": "Перпендикуляр из центра делит хорду пополам: √(8² + 6²) = 10.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Как связаны вписанный и центральный углы, опирающиеся на одну дугу?",
+      "options": [
+        {
+          "text": "вписанный в 2 раза меньше",
+          "correct": true
+        },
+        {
+          "text": "они равны",
+          "correct": false
+        },
+        {
+          "text": "вписанный в 2 раза больше",
+          "correct": false
+        },
+        {
+          "text": "в сумме дают 180°",
+          "correct": false
+        }
+      ],
+      "explanation": "Вписанный угол равен половине дуги, центральный — всей дуге."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие утверждения верны? (выбери все верные)",
+      "options": [
+        {
+          "text": "Касательная перпендикулярна радиусу в точке касания",
+          "correct": true
+        },
+        {
+          "text": "Отрезки касательных из одной точки равны",
+          "correct": true
+        },
+        {
+          "text": "Диаметр — самая длинная хорда",
+          "correct": true
+        },
+        {
+          "text": "Любой вписанный угол равен 90°",
+          "correct": false
+        }
+      ],
+      "explanation": "Прямым бывает только вписанный угол, опирающийся на диаметр."
+    },
+    {
+      "type": "dropdown",
+      "text": "Центр окружности, описанной около прямоугольного треугольника, лежит ___",
+      "options": [
+        {
+          "text": "на середине гипотенузы",
+          "correct": true
+        },
+        {
+          "text": "в вершине прямого угла",
+          "correct": false
+        },
+        {
+          "text": "на середине катета",
+          "correct": false
+        }
+      ],
+      "explanation": "Гипотенуза — диаметр описанной окружности, поэтому центр — её середина."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини понятие с определением.",
+      "pairs": [
+        {
+          "left": "хорда",
+          "right": "отрезок, соединяющий две точки окружности"
+        },
+        {
+          "left": "диаметр",
+          "right": "хорда, проходящая через центр"
+        },
+        {
+          "left": "касательная",
+          "right": "прямая, имеющая с окружностью одну общую точку"
+        },
+        {
+          "left": "радиус",
+          "right": "отрезок от центра до точки окружности"
+        }
+      ],
+      "explanation": "Основные элементы окружности."
+    }
+  ]
+}

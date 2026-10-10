@@ -130,8 +130,8 @@
       "order": 15,
       "topics": [
         {
-          "slug": "oge-m-15",
-          "title": "Треугольники и их элементы",
+          "slug": "oge-m-15-treugolniki",
+          "title": "Треугольники",
           "order": 1,
           "exam_task": "15"
         }
@@ -142,8 +142,8 @@
       "order": 16,
       "topics": [
         {
-          "slug": "oge-m-16",
-          "title": "Окружность и её элементы",
+          "slug": "oge-m-16-okruzhnost",
+          "title": "Окружность: углы, касательные, хорды",
           "order": 1,
           "exam_task": "16"
         }
@@ -154,7 +154,7 @@
       "order": 17,
       "topics": [
         {
-          "slug": "oge-m-17",
+          "slug": "oge-m-17-chetyrehugolniki",
           "title": "Четырёхугольники и многоугольники",
           "order": 1,
           "exam_task": "17"
@@ -166,8 +166,8 @@
       "order": 18,
       "topics": [
         {
-          "slug": "oge-m-18",
-          "title": "Фигуры на квадратной решётке",
+          "slug": "oge-m-18-reshetka",
+          "title": "Фигуры на клетчатой бумаге",
           "order": 1,
           "exam_task": "18"
         }
@@ -178,8 +178,8 @@
       "order": 19,
       "topics": [
         {
-          "slug": "oge-m-19",
-          "title": "Анализ геометрических высказываний",
+          "slug": "oge-m-19-utverzhdeniya",
+          "title": "Верные и неверные геометрические утверждения",
           "order": 1,
           "exam_task": "19"
         }

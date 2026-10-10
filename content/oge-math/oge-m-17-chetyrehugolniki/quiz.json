@@ -1,0 +1,122 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "Сторона AD параллелограмма ABCD равна 12, а высота, проведённая к ней, равна 5. Найдите площадь параллелограмма.",
+      "answer": "60",
+      "explanation": "S = a · h = 12 · 5 = 60.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 292 124\" width=\"292\" role=\"img\" aria-label=\"чертёж\"><polygon points=\"26.0,98.0 74.0,26.0 266.0,26.0 218.0,98.0\" fill=\"#4f46e5\" fill-opacity=\".06\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"74.0\" y1=\"26.0\" x2=\"74.0\" y2=\"98.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M74.0 87.2 L84.8 87.2 L84.8 98.0\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"26.0\" cy=\"98.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"13.3\" y=\"106.5\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"74.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"63.4\" y=\"23.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"266.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"278.6\" y=\"27.0\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"218.0\" cy=\"98.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"230.5\" y=\"107.2\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">D</text></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "Один из углов параллелограмма равен 64°. Найдите больший угол этого параллелограмма. Ответ дайте в градусах.",
+      "answer": "116",
+      "explanation": "Соседние углы в сумме дают 180°: 180° − 64° = 116°.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Основания трапеции равны 7 и 13, высота — 6. Найдите площадь трапеции.",
+      "answer": "60",
+      "explanation": "S = (7 + 13) / 2 · 6 = 10 · 6 = 60.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Диагонали ромба равны 10 и 24. Найдите площадь ромба.",
+      "answer": "120",
+      "explanation": "S = d₁ · d₂ / 2 = 10 · 24 / 2 = 120.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Стороны прямоугольника равны 9 и 12. Найдите его диагональ.",
+      "answer": "15",
+      "explanation": "√(9² + 12²) = √225 = 15.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите сумму углов выпуклого шестиугольника. Ответ дайте в градусах.",
+      "answer": "720",
+      "explanation": "(6 − 2) · 180° = 720°.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Диагонали ромба равны 10 и 24. Найдите сторону ромба.",
+      "answer": "13",
+      "explanation": "Диагонали ромба перпендикулярны и делятся пополам: сторона = √(5² + 12²) = 13."
+    },
+    {
+      "type": "single",
+      "text": "В каком четырёхугольнике диагонали обязательно перпендикулярны?",
+      "options": [
+        {
+          "text": "в ромбе",
+          "correct": true
+        },
+        {
+          "text": "в прямоугольнике",
+          "correct": false
+        },
+        {
+          "text": "в параллелограмме",
+          "correct": false
+        },
+        {
+          "text": "в трапеции",
+          "correct": false
+        }
+      ],
+      "explanation": "Перпендикулярность диагоналей — свойство ромба (и квадрата)."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие формулы площади верны? (выбери все верные)",
+      "options": [
+        {
+          "text": "параллелограмм: S = a · h",
+          "correct": true
+        },
+        {
+          "text": "трапеция: S = (a + b) / 2 · h",
+          "correct": true
+        },
+        {
+          "text": "ромб: S = d₁ · d₂ / 2",
+          "correct": true
+        },
+        {
+          "text": "прямоугольник: S = 2(a + b)",
+          "correct": false
+        }
+      ],
+      "explanation": "2(a + b) — это периметр прямоугольника, а не площадь."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фигуру со свойством её диагоналей.",
+      "pairs": [
+        {
+          "left": "параллелограмм",
+          "right": "делятся точкой пересечения пополам"
+        },
+        {
+          "left": "прямоугольник",
+          "right": "равны"
+        },
+        {
+          "left": "ромб",
+          "right": "перпендикулярны"
+        },
+        {
+          "left": "квадрат",
+          "right": "равны и перпендикулярны"
+        }
+      ],
+      "explanation": "Каждая следующая фигура — частный случай параллелограмма со своими дополнительными свойствами."
+    }
+  ]
+}

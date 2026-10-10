@@ -1,0 +1,132 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "На клетчатой бумаге с размером клетки 1 × 1 изображена фигура. Найдите площадь треугольника.",
+      "answer": "12",
+      "explanation": "Основание по сетке — 6 клеток, высота — 4: S = ½ · 6 · 4 = 12.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 -2 238 160\" width=\"238\" role=\"img\" aria-label=\"фигура на клетчатой бумаге\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"0\" x2=\"26\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"52\" y1=\"0\" x2=\"52\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"78\" y1=\"0\" x2=\"78\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"104\" y1=\"0\" x2=\"104\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"130\" y1=\"0\" x2=\"130\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"156\" y1=\"0\" x2=\"156\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"182\" y1=\"0\" x2=\"182\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"208\" y1=\"0\" x2=\"208\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"234\" y1=\"0\" x2=\"234\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"0\" x2=\"234\" y2=\"0\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"26\" x2=\"234\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"52\" x2=\"234\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"78\" x2=\"234\" y2=\"78\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"104\" x2=\"234\" y2=\"104\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"130\" x2=\"234\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"156\" x2=\"234\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><polygon points=\"26,130 182,130 78,26\" fill=\"#4f46e5\" fill-opacity=\".12\" stroke=\"#4f46e5\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "На клетчатой бумаге с размером клетки 1 × 1 изображена фигура. Найдите площадь трапеции.",
+      "answer": "20",
+      "explanation": "Основания 7 и 3, высота 4: S = (7 + 3) / 2 · 4 = 20.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 -2 264 160\" width=\"264\" role=\"img\" aria-label=\"фигура на клетчатой бумаге\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"0\" x2=\"26\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"52\" y1=\"0\" x2=\"52\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"78\" y1=\"0\" x2=\"78\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"104\" y1=\"0\" x2=\"104\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"130\" y1=\"0\" x2=\"130\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"156\" y1=\"0\" x2=\"156\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"182\" y1=\"0\" x2=\"182\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"208\" y1=\"0\" x2=\"208\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"234\" y1=\"0\" x2=\"234\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"260\" y1=\"0\" x2=\"260\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"0\" x2=\"260\" y2=\"0\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"26\" x2=\"260\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"52\" x2=\"260\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"78\" x2=\"260\" y2=\"78\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"104\" x2=\"260\" y2=\"104\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"156\" x2=\"260\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><polygon points=\"26,130 208,130 156,26 78,26\" fill=\"#4f46e5\" fill-opacity=\".12\" stroke=\"#4f46e5\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "На клетчатой бумаге с размером клетки 1 × 1 изображена фигура. Найдите площадь параллелограмма.",
+      "answer": "15",
+      "explanation": "Сторона по сетке — 5, высота — 3: S = 5 · 3 = 15.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 -2 264 134\" width=\"264\" role=\"img\" aria-label=\"фигура на клетчатой бумаге\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"0\" x2=\"26\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"52\" y1=\"0\" x2=\"52\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"78\" y1=\"0\" x2=\"78\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"104\" y1=\"0\" x2=\"104\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"130\" y1=\"0\" x2=\"130\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"156\" y1=\"0\" x2=\"156\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"182\" y1=\"0\" x2=\"182\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"208\" y1=\"0\" x2=\"208\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"234\" y1=\"0\" x2=\"234\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"260\" y1=\"0\" x2=\"260\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"0\" x2=\"260\" y2=\"0\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"26\" x2=\"260\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"52\" x2=\"260\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"78\" x2=\"260\" y2=\"78\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"104\" x2=\"260\" y2=\"104\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><polygon points=\"26,104 156,104 208,26 78,26\" fill=\"#4f46e5\" fill-opacity=\".12\" stroke=\"#4f46e5\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "На клетчатой бумаге с размером клетки 1 × 1 изображена фигура. Найдите длину отрезка.",
+      "answer": "5",
+      "explanation": "Сдвиг 3 клетки по горизонтали и 4 по вертикали: √(3² + 4²) = 5.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 -2 160 186\" width=\"160\" role=\"img\" aria-label=\"фигура на клетчатой бумаге\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"0\" x2=\"26\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"52\" y1=\"0\" x2=\"52\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"78\" y1=\"0\" x2=\"78\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"104\" y1=\"0\" x2=\"104\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"130\" y1=\"0\" x2=\"130\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"156\" y1=\"0\" x2=\"156\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"0\" x2=\"156\" y2=\"0\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"26\" x2=\"156\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"52\" x2=\"156\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"78\" x2=\"156\" y2=\"78\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"104\" x2=\"156\" y2=\"104\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"130\" x2=\"156\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"156\" x2=\"156\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"182\" x2=\"156\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"156\" x2=\"104\" y2=\"52\" stroke=\"#4f46e5\" stroke-width=\"2.5\"/><circle cx=\"26\" cy=\"156\" r=\"3\" fill=\"#4f46e5\"/><circle cx=\"104\" cy=\"52\" r=\"3\" fill=\"#4f46e5\"/></svg>"
+    },
+    {
+      "type": "fill_blank",
+      "text": "На клетчатой бумаге с размером клетки 1 × 1 изображена фигура. Найдите площадь треугольника.",
+      "answer": "10",
+      "explanation": "Основание 4 клетки, высота (опущенная вне основания) — 5: S = ½ · 4 · 5 = 10.",
+      "exam": true,
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 -2 264 186\" width=\"264\" role=\"img\" aria-label=\"фигура на клетчатой бумаге\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"26\" y1=\"0\" x2=\"26\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"52\" y1=\"0\" x2=\"52\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"78\" y1=\"0\" x2=\"78\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"104\" y1=\"0\" x2=\"104\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"130\" y1=\"0\" x2=\"130\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"156\" y1=\"0\" x2=\"156\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"182\" y1=\"0\" x2=\"182\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"208\" y1=\"0\" x2=\"208\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"234\" y1=\"0\" x2=\"234\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"260\" y1=\"0\" x2=\"260\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"0\" x2=\"260\" y2=\"0\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"26\" x2=\"260\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"52\" x2=\"260\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"78\" x2=\"260\" y2=\"78\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"104\" x2=\"260\" y2=\"104\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"156\" x2=\"260\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\".2\"/><line x1=\"0\" y1=\"182\" x2=\"260\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\".2\"/><polygon points=\"26,156 130,156 208,26\" fill=\"#4f46e5\" fill-opacity=\".12\" stroke=\"#4f46e5\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "single",
+      "text": "Треугольник на клетчатой бумаге: основание 8 клеток, высота 3 клетки. Какова площадь?",
+      "options": [
+        {
+          "text": "12",
+          "correct": true
+        },
+        {
+          "text": "24",
+          "correct": false
+        },
+        {
+          "text": "11",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": false
+        }
+      ],
+      "explanation": "½ · 8 · 3 = 12."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие способы подходят для нахождения площади фигуры на клетчатой бумаге? (выбери все верные)",
+      "options": [
+        {
+          "text": "формула площади с основанием и высотой по сетке",
+          "correct": true
+        },
+        {
+          "text": "достроить до прямоугольника и вычесть лишнее",
+          "correct": true
+        },
+        {
+          "text": "разбить на прямоугольники и треугольники",
+          "correct": true
+        },
+        {
+          "text": "сложить длины всех сторон",
+          "correct": false
+        }
+      ],
+      "explanation": "Сумма сторон — это периметр, а не площадь."
+    },
+    {
+      "type": "dropdown",
+      "text": "Отрезок сдвинут на 5 клеток по горизонтали и 12 по вертикали. Его длина ___",
+      "options": [
+        {
+          "text": "13",
+          "correct": true
+        },
+        {
+          "text": "17",
+          "correct": false
+        },
+        {
+          "text": "7",
+          "correct": false
+        }
+      ],
+      "explanation": "√(25 + 144) = √169 = 13."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини фигуру с формулой площади.",
+      "pairs": [
+        {
+          "left": "треугольник",
+          "right": "½ · a · h"
+        },
+        {
+          "left": "трапеция",
+          "right": "(a + b) / 2 · h"
+        },
+        {
+          "left": "параллелограмм",
+          "right": "a · h"
+        },
+        {
+          "left": "ромб",
+          "right": "d₁ · d₂ / 2"
+        }
+      ],
+      "explanation": "Эти формулы применяются к фигурам на клетчатой бумаге так же, как к любым другим."
+    }
+  ]
+}

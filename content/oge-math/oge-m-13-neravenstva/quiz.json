@@ -1,0 +1,206 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "Укажите решение неравенства 3x − 5 > 7.",
+      "options": [
+        {
+          "text": "(4; +∞)",
+          "correct": true
+        },
+        {
+          "text": "(−∞; 4)",
+          "correct": false
+        },
+        {
+          "text": "(2/3; +∞)",
+          "correct": false
+        },
+        {
+          "text": "(−∞; 2/3)",
+          "correct": false
+        }
+      ],
+      "explanation": "3x > 12, x > 4.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Укажите решение неравенства x² − 9 < 0.",
+      "options": [
+        {
+          "text": "(−3; 3)",
+          "correct": true
+        },
+        {
+          "text": "(−∞; −3) ∪ (3; +∞)",
+          "correct": false
+        },
+        {
+          "text": "(−∞; 3)",
+          "correct": false
+        },
+        {
+          "text": "(−3; +∞)",
+          "correct": false
+        }
+      ],
+      "explanation": "Корни ±3, ветви параболы вверх, ниже оси — между корнями.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Укажите решение неравенства −2x + 6 ≥ 0.",
+      "options": [
+        {
+          "text": "(−∞; 3]",
+          "correct": true
+        },
+        {
+          "text": "[3; +∞)",
+          "correct": false
+        },
+        {
+          "text": "(−∞; −3]",
+          "correct": false
+        },
+        {
+          "text": "[−3; +∞)",
+          "correct": false
+        }
+      ],
+      "explanation": "−2x ≥ −6, делим на −2 и меняем знак: x ≤ 3.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Укажите решение неравенства x² − 4x ≥ 0.",
+      "options": [
+        {
+          "text": "(−∞; 0] ∪ [4; +∞)",
+          "correct": true
+        },
+        {
+          "text": "[0; 4]",
+          "correct": false
+        },
+        {
+          "text": "[4; +∞)",
+          "correct": false
+        },
+        {
+          "text": "(−∞; 0]",
+          "correct": false
+        }
+      ],
+      "explanation": "x(x − 4) ≥ 0, корни 0 и 4, ветви вверх — выше оси снаружи от корней, концы включены.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Укажите решение системы неравенств { x − 2 > 0; 5 − x > 0 }.",
+      "options": [
+        {
+          "text": "(2; 5)",
+          "correct": true
+        },
+        {
+          "text": "(−∞; 2)",
+          "correct": false
+        },
+        {
+          "text": "(5; +∞)",
+          "correct": false
+        },
+        {
+          "text": "нет решений",
+          "correct": false
+        }
+      ],
+      "explanation": "x > 2 и x < 5, пересечение — (2; 5).",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Сколько целых чисел являются решениями неравенства x² < 10?",
+      "answer": "7",
+      "explanation": "−√10 < x < √10, √10 ≈ 3,16. Целые решения: −3, −2, −1, 0, 1, 2, 3 — семь.",
+      "exam": true
+    },
+    {
+      "type": "multiple",
+      "text": "Какие числа являются решениями неравенства 2x + 1 ≤ 5? (выбери все верные)",
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        },
+        {
+          "text": "2",
+          "correct": true
+        },
+        {
+          "text": "−3",
+          "correct": true
+        },
+        {
+          "text": "3",
+          "correct": false
+        },
+        {
+          "text": "2,5",
+          "correct": false
+        }
+      ],
+      "explanation": "2x ≤ 4, x ≤ 2. Подходят 0, 2 и −3."
+    },
+    {
+      "type": "dropdown",
+      "text": "При делении обеих частей неравенства на отрицательное число знак неравенства ___",
+      "options": [
+        {
+          "text": "меняется на противоположный",
+          "correct": true
+        },
+        {
+          "text": "сохраняется",
+          "correct": false
+        },
+        {
+          "text": "становится знаком равенства",
+          "correct": false
+        }
+      ],
+      "explanation": "Например, из −2x > 4 следует x < −2."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини неравенство с множеством его решений.",
+      "pairs": [
+        {
+          "left": "x > 3",
+          "right": "(3; +∞)"
+        },
+        {
+          "left": "x ≤ −1",
+          "right": "(−∞; −1]"
+        },
+        {
+          "left": "x² ≤ 0",
+          "right": "только x = 0"
+        },
+        {
+          "left": "x² > −1",
+          "right": "(−∞; +∞)"
+        }
+      ],
+      "explanation": "Квадрат неотрицателен: x² ≤ 0 только при x = 0, а x² > −1 при любом x."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите наибольшее целое решение неравенства 5 − 2x > 0.",
+      "answer": "2",
+      "explanation": "−2x > −5, x < 2,5. Наибольшее целое — 2."
+    }
+  ]
+}

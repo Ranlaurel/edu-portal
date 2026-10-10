@@ -149,6 +149,7 @@ h2 { font-size: 1.2rem; }
 .question-card.result-correct { border-color: var(--green); background: var(--green-bg); }
 .question-card.result-incorrect { border-color: var(--red); background: var(--red-bg); }
 .question-text { font-weight: 600; margin-bottom: 12px; }
+.question-text:not(.rich) { white-space: pre-line; }
 .q-type-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 6px; }
 
 .option-list { display: flex; flex-direction: column; gap: 8px; }

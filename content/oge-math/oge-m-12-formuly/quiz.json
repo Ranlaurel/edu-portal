@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "Закон Ома: I = U / R, где I — сила тока (А), U — напряжение (В), R — сопротивление (Ом). Найдите R, если U = 220 В, I = 4 А.",
+      "answer": "55",
+      "explanation": "R = U / I = 220 / 4 = 55 Ом.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Площадь трапеции S = (a + b) / 2 · h. Найдите высоту h, если a = 5, b = 9, S = 42.",
+      "answer": "6",
+      "explanation": "42 = (5 + 9) / 2 · h = 7h, значит h = 6.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Температура по Фаренгейту tF = 1,8 · tC + 32. Найдите tF, если tC = 25.",
+      "answer": "77",
+      "explanation": "1,8 · 25 + 32 = 45 + 32 = 77.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Мощность тока P = I² · R. Найдите P (в ваттах), если I = 3 А, R = 12 Ом.",
+      "answer": "108",
+      "explanation": "P = 3² · 12 = 9 · 12 = 108 Вт.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Центростремительное ускорение a = ω² · R. Найдите R (в метрах), если ω = 4 с⁻¹, a = 48 м/с².",
+      "answer": "3",
+      "explanation": "48 = 16 · R, R = 3 м.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Кинетическая энергия E = m · v² / 2. Найдите E (в джоулях), если m = 4 кг, v = 5 м/с.",
+      "answer": "50",
+      "explanation": "E = 4 · 25 / 2 = 50 Дж.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Из формулы S = v · t выразите t.",
+      "options": [
+        {
+          "text": "t = S / v",
+          "correct": true
+        },
+        {
+          "text": "t = S · v",
+          "correct": false
+        },
+        {
+          "text": "t = v / S",
+          "correct": false
+        },
+        {
+          "text": "t = S − v",
+          "correct": false
+        }
+      ],
+      "explanation": "Чтобы найти неизвестный множитель, произведение делят на известный множитель."
+    },
+    {
+      "type": "multiple",
+      "text": "Формула P = I² · R. Какие выражения верны? (выбери все верные)",
+      "options": [
+        {
+          "text": "R = P / I²",
+          "correct": true
+        },
+        {
+          "text": "I² = P / R",
+          "correct": true
+        },
+        {
+          "text": "R = P · I²",
+          "correct": false
+        },
+        {
+          "text": "I = P / R",
+          "correct": false
+        }
+      ],
+      "explanation": "Делим обе части на I², чтобы найти R, или на R, чтобы найти I². Сам ток I = √(P / R), а не P / R."
+    },
+    {
+      "type": "dropdown",
+      "text": "В формуле E = m · v² / 2 при увеличении скорости в 2 раза энергия увеличится в ___",
+      "options": [
+        {
+          "text": "4 раза",
+          "correct": true
+        },
+        {
+          "text": "2 раза",
+          "correct": false
+        },
+        {
+          "text": "8 раз",
+          "correct": false
+        }
+      ],
+      "explanation": "Скорость стоит в квадрате: (2v)² = 4v²."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини формулу с величиной, которую она выражает.",
+      "pairs": [
+        {
+          "left": "S = v · t",
+          "right": "пройденный путь"
+        },
+        {
+          "left": "I = U / R",
+          "right": "сила тока"
+        },
+        {
+          "left": "S = a · h / 2",
+          "right": "площадь треугольника"
+        },
+        {
+          "left": "P = 2(a + b)",
+          "right": "периметр прямоугольника"
+        }
+      ],
+      "explanation": "Узнавать формулы не обязательно для решения, но помогает проверить ответ на здравый смысл."
+    }
+  ]
+}

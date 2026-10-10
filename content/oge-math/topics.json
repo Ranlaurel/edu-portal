@@ -82,7 +82,7 @@
       "order": 11,
       "topics": [
         {
-          "slug": "oge-m-11",
+          "slug": "oge-m-11-grafiki",
           "title": "Графики функций",
           "order": 1,
           "exam_task": "11"
@@ -94,7 +94,7 @@
       "order": 12,
       "topics": [
         {
-          "slug": "oge-m-12",
+          "slug": "oge-m-12-formuly",
           "title": "Расчёты по формулам",
           "order": 1,
           "exam_task": "12"
@@ -106,7 +106,7 @@
       "order": 13,
       "topics": [
         {
-          "slug": "oge-m-13",
+          "slug": "oge-m-13-neravenstva",
           "title": "Неравенства и системы неравенств",
           "order": 1,
           "exam_task": "13"
@@ -118,7 +118,7 @@
       "order": 14,
       "topics": [
         {
-          "slug": "oge-m-14",
+          "slug": "oge-m-14-progressii",
           "title": "Арифметическая и геометрическая прогрессии",
           "order": 1,
           "exam_task": "14"

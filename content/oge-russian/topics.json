@@ -94,7 +94,7 @@
       "order": 8,
       "topics": [
         {
-          "slug": "oge-r-8",
+          "slug": "oge-r-8-morfologicheskie-normy",
           "title": "Морфологические нормы",
           "order": 1,
           "exam_task": "8"
@@ -106,8 +106,8 @@
       "order": 9,
       "topics": [
         {
-          "slug": "oge-r-9",
-          "title": "Грамматическая синонимия словосочетаний",
+          "slug": "oge-r-9-sinonimiya-slovosochetaniy",
+          "title": "Синонимия словосочетаний: согласование, управление, примыкание",
           "order": 1,
           "exam_task": "9"
         }
@@ -118,7 +118,7 @@
       "order": 10,
       "topics": [
         {
-          "slug": "oge-r-10",
+          "slug": "oge-r-10-smyslovoy-analiz",
           "title": "Смысловой анализ текста",
           "order": 1,
           "exam_task": "10"

@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "type": "self_check",
+      "exam": true,
+      "criteria": [
+        {
+          "code": "23",
+          "text": "2 — ход решения верный, все шаги обоснованы, получен верный ответ; 1 — ход решения верный, но допущена вычислительная ошибка или не все шаги обоснованы; 0 — решение не соответствует ни одному из критериев",
+          "max": 2
+        }
+      ],
+      "text": "Биссектриса угла A параллелограмма ABCD пересекает сторону BC в точке K. Найдите периметр параллелограмма, если BK = 7, CK = 12.",
+      "reference": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 153\" width=\"404\" role=\"img\" aria-label=\"чертёж\"><polygon points=\"26.0,126.8 74.0,26.0 378.0,26.0 330.0,126.8\" fill=\"#4f46e5\" fill-opacity=\".06\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"26.0\" y1=\"126.8\" x2=\"186.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"26.0\" cy=\"126.8\" r=\"2.5\" fill=\"currentColor\"/><text x=\"17.7\" y=\"134.7\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"74.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"65.6\" y=\"28.3\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"378.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"386.6\" y=\"29.1\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"330.0\" cy=\"126.8\" r=\"2.5\" fill=\"currentColor\"/><text x=\"338.0\" y=\"135.5\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">D</text><circle cx=\"186.0\" cy=\"26.0\" r=\"2.5\" fill=\"currentColor\"/><text x=\"183.3\" y=\"22.6\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">K</text></svg>\n\n∠BAK = ∠KAD, так как AK — биссектриса.\n\n∠KAD = ∠BKA как накрест лежащие при BC ∥ AD и секущей AK.\n\nЗначит, ∠BAK = ∠BKA, треугольник ABK равнобедренный: AB = BK = 7.\n\nBC = BK + KC = 19.\n\nP = 2(AB + BC) = 2(7 + 19) = 52.\n\n**Ответ: 52.**",
+      "explanation": "Ключ — равнобедренный треугольник ABK."
+    },
+    {
+      "type": "self_check",
+      "exam": true,
+      "criteria": [
+        {
+          "code": "23",
+          "text": "2 — ход решения верный, все шаги обоснованы, получен верный ответ; 1 — ход решения верный, но допущена вычислительная ошибка или не все шаги обоснованы; 0 — решение не соответствует ни одному из критериев",
+          "max": 2
+        }
+      ],
+      "text": "В прямоугольном треугольнике ABC с прямым углом C известны катеты: AC = 6, BC = 8. Найдите медиану CK этого треугольника.",
+      "reference": "По теореме Пифагора AB = √(6² + 8²) = 10.\n\nМедиана, проведённая из вершины прямого угла, равна половине гипотенузы (центр описанной окружности — середина гипотенузы): CK = AB / 2 = 5.\n\n**Ответ: 5.**",
+      "explanation": "Медиана к гипотенузе равна радиусу описанной окружности."
+    },
+    {
+      "type": "self_check",
+      "exam": true,
+      "criteria": [
+        {
+          "code": "23",
+          "text": "2 — ход решения верный, все шаги обоснованы, получен верный ответ; 1 — ход решения верный, но допущена вычислительная ошибка или не все шаги обоснованы; 0 — решение не соответствует ни одному из критериев",
+          "max": 2
+        }
+      ],
+      "text": "Прямая, параллельная стороне AC треугольника ABC, пересекает стороны AB и BC в точках M и N соответственно. Найдите AM, если AB = 16, AC = 20, MN = 15.",
+      "reference": "∠BMN = ∠BAC как соответственные при MN ∥ AC, угол B общий — треугольники MBN и ABC подобны по двум углам.\n\nBM / BA = MN / AC = 15 / 20 = 3/4 → BM = 16 · 3/4 = 12.\n\nAM = AB − BM = 16 − 12 = 4.\n\n**Ответ: 4.**",
+      "explanation": "Подобие треугольников по двум углам."
+    }
+  ]
+}

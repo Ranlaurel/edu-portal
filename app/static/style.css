@@ -397,7 +397,7 @@ a.task-cell:hover { border-color: var(--primary); }
 .question-context { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; overflow-x: auto; }
 .question-context table { border-collapse: collapse; font-size: .9rem; }
 .question-context th, .question-context td { border: 1px solid var(--border); padding: 4px 8px; text-align: left; }
-.question-context svg { max-width: 100%; height: auto; }
+.question-context svg, .rich svg { max-width: 100%; height: auto; }
 .context-ref { font-size: .85rem; color: var(--muted); margin-bottom: 6px; }
 .listen-box { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; margin: 10px 0; }
 .listen-text { white-space: pre-wrap; background: var(--bg); border-radius: 8px; padding: 8px 14px; }

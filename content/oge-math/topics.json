@@ -202,8 +202,8 @@
       "order": 21,
       "topics": [
         {
-          "slug": "oge-m-21",
-          "title": "Текстовая задача",
+          "slug": "oge-m-21-tekstovaya-zadacha",
+          "title": "Текстовые задачи: движение, работа, смеси",
           "order": 1,
           "exam_task": "21"
         }
@@ -214,8 +214,8 @@
       "order": 22,
       "topics": [
         {
-          "slug": "oge-m-22",
-          "title": "Функции и их графики",
+          "slug": "oge-m-22-funkcii",
+          "title": "Графики с параметром",
           "order": 1,
           "exam_task": "22"
         }
@@ -226,8 +226,8 @@
       "order": 23,
       "topics": [
         {
-          "slug": "oge-m-23",
-          "title": "Геометрическая задача на вычисление",
+          "slug": "oge-m-23-geometriya-vychislenie",
+          "title": "Геометрия: задачи на вычисление",
           "order": 1,
           "exam_task": "23"
         }
@@ -238,8 +238,8 @@
       "order": 24,
       "topics": [
         {
-          "slug": "oge-m-24",
-          "title": "Геометрическая задача на доказательство",
+          "slug": "oge-m-24-dokazatelstvo",
+          "title": "Геометрия: задачи на доказательство",
           "order": 1,
           "exam_task": "24"
         }
@@ -250,8 +250,8 @@
       "order": 25,
       "topics": [
         {
-          "slug": "oge-m-25",
-          "title": "Геометрическая задача повышенной сложности",
+          "slug": "oge-m-25-geometriya-povyshennaya",
+          "title": "Геометрия повышенной сложности",
           "order": 1,
           "exam_task": "25"
         }

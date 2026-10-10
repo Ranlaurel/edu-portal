@@ -34,8 +34,8 @@
       "order": 7,
       "topics": [
         {
-          "slug": "oge-m-7",
-          "title": "Числовые неравенства, координатная прямая",
+          "slug": "oge-m-7-koordinatnaya-pryamaya",
+          "title": "Числа на координатной прямой",
           "order": 1,
           "exam_task": "7"
         }
@@ -46,8 +46,8 @@
       "order": 8,
       "topics": [
         {
-          "slug": "oge-m-8",
-          "title": "Числа, вычисления и алгебраические выражения",
+          "slug": "oge-m-8-stepeni-korni",
+          "title": "Степени и корни",
           "order": 1,
           "exam_task": "8"
         }

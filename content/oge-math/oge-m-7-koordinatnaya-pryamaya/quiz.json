@@ -1,0 +1,191 @@
+{
+  "questions": [
+    {
+      "type": "single",
+      "text": "На координатной прямой отмечены числа a и b. Какое из утверждений верно?",
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 56\" width=\"440\" role=\"img\" aria-label=\"координатная прямая\"><line x1=\"10\" y1=\"30\" x2=\"430\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M430 30 l-8 -4 v8 z\" fill=\"currentColor\"/><line x1=\"20.0\" y1=\"25\" x2=\"20.0\" y2=\"35\" stroke=\"currentColor\"/><text x=\"20.0\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><line x1=\"77.1\" y1=\"25\" x2=\"77.1\" y2=\"35\" stroke=\"currentColor\"/><text x=\"77.1\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><line x1=\"134.3\" y1=\"25\" x2=\"134.3\" y2=\"35\" stroke=\"currentColor\"/><text x=\"134.3\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><line x1=\"191.4\" y1=\"25\" x2=\"191.4\" y2=\"35\" stroke=\"currentColor\"/><text x=\"191.4\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">0</text><line x1=\"248.6\" y1=\"25\" x2=\"248.6\" y2=\"35\" stroke=\"currentColor\"/><text x=\"248.6\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">1</text><line x1=\"305.7\" y1=\"25\" x2=\"305.7\" y2=\"35\" stroke=\"currentColor\"/><text x=\"305.7\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">2</text><line x1=\"362.9\" y1=\"25\" x2=\"362.9\" y2=\"35\" stroke=\"currentColor\"/><text x=\"362.9\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">3</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"35\" stroke=\"currentColor\"/><text x=\"420.0\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">4</text><circle cx=\"111.4\" cy=\"30\" r=\"4\" fill=\"#4f46e5\"/><text x=\"111.4\" y=\"18\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">a</text><circle cx=\"340.0\" cy=\"30\" r=\"4\" fill=\"#4f46e5\"/><text x=\"340.0\" y=\"18\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">b</text></svg>",
+      "options": [
+        {
+          "text": "a + b > 0",
+          "correct": true
+        },
+        {
+          "text": "a · b > 0",
+          "correct": false
+        },
+        {
+          "text": "a − b > 0",
+          "correct": false
+        },
+        {
+          "text": "a / b > 0",
+          "correct": false
+        }
+      ],
+      "explanation": "a ≈ −1,4, b ≈ 2,6. Сумма ≈ 1,2 > 0. Произведение и частное отрицательны (знаки разные), a − b ≈ −4 < 0.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Какое из чисел принадлежит отрезку [3; 4]?",
+      "options": [
+        {
+          "text": "√10",
+          "correct": true
+        },
+        {
+          "text": "√8",
+          "correct": false
+        },
+        {
+          "text": "√17",
+          "correct": false
+        },
+        {
+          "text": "√20",
+          "correct": false
+        }
+      ],
+      "explanation": "9 ≤ 10 ≤ 16, значит 3 ≤ √10 ≤ 4. √8 < 3, а √17 и √20 больше 4.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Между какими двумя соседними целыми числами находится √50? В ответе запишите меньшее из них.",
+      "answer": "7",
+      "explanation": "49 < 50 < 64, значит 7 < √50 < 8. Меньшее — 7.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Какое из чисел наибольшее?",
+      "options": [
+        {
+          "text": "5/7",
+          "correct": true
+        },
+        {
+          "text": "0,7",
+          "correct": false
+        },
+        {
+          "text": "0,71",
+          "correct": false
+        },
+        {
+          "text": "7/10",
+          "correct": false
+        }
+      ],
+      "explanation": "5/7 ≈ 0,714; 0,71 и 0,7 = 7/10 меньше.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
+      "context": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 56\" width=\"440\" role=\"img\" aria-label=\"координатная прямая\"><line x1=\"10\" y1=\"30\" x2=\"430\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M430 30 l-8 -4 v8 z\" fill=\"currentColor\"/><line x1=\"20.0\" y1=\"25\" x2=\"20.0\" y2=\"35\" stroke=\"currentColor\"/><text x=\"20.0\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">0</text><line x1=\"220.0\" y1=\"25\" x2=\"220.0\" y2=\"35\" stroke=\"currentColor\"/><text x=\"220.0\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">1</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"35\" stroke=\"currentColor\"/><text x=\"420.0\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">2</text><circle cx=\"134.0\" cy=\"30\" r=\"4\" fill=\"#4f46e5\"/><text x=\"134.0\" y=\"18\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"currentColor\">A</text></svg>",
+      "options": [
+        {
+          "text": "4/7",
+          "correct": true
+        },
+        {
+          "text": "7/8",
+          "correct": false
+        },
+        {
+          "text": "2/9",
+          "correct": false
+        },
+        {
+          "text": "1,4",
+          "correct": false
+        }
+      ],
+      "explanation": "Точка A чуть правее середины отрезка [0; 1]: 4/7 ≈ 0,57. 7/8 = 0,875, 2/9 ≈ 0,22, 1,4 > 1.",
+      "exam": true
+    },
+    {
+      "type": "multiple",
+      "text": "Какие числа лежат между 1 и 2? (выбери все верные)",
+      "options": [
+        {
+          "text": "3/2",
+          "correct": true
+        },
+        {
+          "text": "√3",
+          "correct": true
+        },
+        {
+          "text": "7/4",
+          "correct": true
+        },
+        {
+          "text": "√5",
+          "correct": false
+        },
+        {
+          "text": "0,9",
+          "correct": false
+        }
+      ],
+      "explanation": "3/2 = 1,5; √3 ≈ 1,73; 7/4 = 1,75. √5 ≈ 2,24 > 2, а 0,9 < 1."
+    },
+    {
+      "type": "dropdown",
+      "text": "Сравните: −3/4 ___ −0,7",
+      "options": [
+        {
+          "text": "<",
+          "correct": true
+        },
+        {
+          "text": ">",
+          "correct": false
+        },
+        {
+          "text": "=",
+          "correct": false
+        }
+      ],
+      "explanation": "−3/4 = −0,75. Из двух отрицательных больше то, что ближе к нулю: −0,75 < −0,7."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини число с промежутком, которому оно принадлежит.",
+      "pairs": [
+        {
+          "left": "√2",
+          "right": "(1; 2)"
+        },
+        {
+          "left": "√7",
+          "right": "(2; 3)"
+        },
+        {
+          "left": "√15",
+          "right": "(3; 4)"
+        },
+        {
+          "left": "√26",
+          "right": "(5; 6)"
+        }
+      ],
+      "explanation": "1 < 2 < 4, 4 < 7 < 9, 9 < 15 < 16, 25 < 26 < 36."
+    },
+    {
+      "type": "fill_blank",
+      "text": "Сколько целых чисел расположено между −√5 и √10?",
+      "answer": "6",
+      "explanation": "−√5 ≈ −2,24, √10 ≈ 3,16. Целые числа −2, −1, 0, 1, 2, 3 — всего шесть.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Запишите наименьшее целое число, которое больше √30.",
+      "answer": "6",
+      "explanation": "25 < 30 < 36, значит 5 < √30 < 6, наименьшее целое больше √30 — это 6."
+    }
+  ]
+}

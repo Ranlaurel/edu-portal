@@ -34,8 +34,8 @@
       "order": 3,
       "topics": [
         {
-          "slug": "oge-r-3",
-          "title": "Синтаксический анализ предложения",
+          "slug": "oge-r-3-slozhnoe-predlozhenie",
+          "title": "Сложное предложение: основы и виды связи",
           "order": 1,
           "exam_task": "3"
         }
@@ -58,8 +58,8 @@
       "order": 5,
       "topics": [
         {
-          "slug": "oge-r-5",
-          "title": "Пунктуационный анализ предложения",
+          "slug": "oge-r-5-zapyatye-slozhnoe",
+          "title": "Запятые в сложном предложении и при однородных членах",
           "order": 1,
           "exam_task": "5"
         }
@@ -82,8 +82,8 @@
       "order": 7,
       "topics": [
         {
-          "slug": "oge-r-7",
-          "title": "Орфографический анализ слов",
+          "slug": "oge-r-7-pristavki",
+          "title": "Правописание приставок",
           "order": 1,
           "exam_task": "7"
         }

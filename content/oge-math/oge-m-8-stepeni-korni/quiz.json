@@ -1,0 +1,138 @@
+{
+  "questions": [
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения √45 · √5.",
+      "answer": "15",
+      "explanation": "√45 · √5 = √225 = 15.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения (√13 − 2)(√13 + 2).",
+      "answer": "9",
+      "explanation": "Разность квадратов: 13 − 4 = 9.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения 2⁻³ · 16.",
+      "answer": "2",
+      "explanation": "2⁻³ = 1/8, 16 ÷ 8 = 2. Или 2⁻³ · 2⁴ = 2¹ = 2.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения (a⁵)² ÷ a⁸ при a = 3.",
+      "answer": "9",
+      "explanation": "(a⁵)² = a¹⁰, a¹⁰ ÷ a⁸ = a² = 9.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения √(2⁴ · 3²).",
+      "answer": "12",
+      "explanation": "√(2⁴ · 3²) = 2² · 3 = 12.",
+      "exam": true
+    },
+    {
+      "type": "fill_blank",
+      "text": "Найдите значение выражения 7⁸ · 7⁻⁶.",
+      "answer": "49",
+      "explanation": "7⁸⁺⁽⁻⁶⁾ = 7² = 49.",
+      "exam": true
+    },
+    {
+      "type": "single",
+      "text": "Чему равно (−2)⁴?",
+      "options": [
+        {
+          "text": "16",
+          "correct": true
+        },
+        {
+          "text": "−16",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": false
+        },
+        {
+          "text": "−8",
+          "correct": false
+        }
+      ],
+      "explanation": "Чётная степень отрицательного числа положительна: (−2)⁴ = 16."
+    },
+    {
+      "type": "multiple",
+      "text": "Какие выражения равны 1? (выбери все верные)",
+      "options": [
+        {
+          "text": "5⁰",
+          "correct": true
+        },
+        {
+          "text": "(−1)²",
+          "correct": true
+        },
+        {
+          "text": "1⁻³",
+          "correct": true
+        },
+        {
+          "text": "0¹",
+          "correct": false
+        },
+        {
+          "text": "(−1)³",
+          "correct": false
+        }
+      ],
+      "explanation": "Любое ненулевое число в нулевой степени — 1; (−1)² = 1; 1⁻³ = 1. 0¹ = 0, (−1)³ = −1."
+    },
+    {
+      "type": "dropdown",
+      "text": "Для любого числа x выражение √(x²) равно ___",
+      "options": [
+        {
+          "text": "|x|",
+          "correct": true
+        },
+        {
+          "text": "x",
+          "correct": false
+        },
+        {
+          "text": "−x",
+          "correct": false
+        }
+      ],
+      "explanation": "Арифметический корень неотрицателен, поэтому √(x²) = |x|. Например, √((−5)²) = 5."
+    },
+    {
+      "type": "matching",
+      "text": "Соедини степень с её значением.",
+      "pairs": [
+        {
+          "left": "2⁻¹",
+          "right": "0,5"
+        },
+        {
+          "left": "10⁻²",
+          "right": "0,01"
+        },
+        {
+          "left": "5⁻¹",
+          "right": "0,2"
+        },
+        {
+          "left": "4⁻²",
+          "right": "0,0625"
+        }
+      ],
+      "explanation": "a⁻ⁿ = 1/aⁿ: 1/2, 1/100, 1/5, 1/16."
+    }
+  ]
+}

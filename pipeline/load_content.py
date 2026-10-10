@@ -17,7 +17,7 @@ from app.models import Attempt, Lesson, MatchPair, Option, Question, Section, Su
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 
 # Optional per-question fields kept as JSON in Question.extra (see CONTENT_SPEC.md, "ОГЭ").
-EXTRA_KEYS = ("exam", "any_order", "reference", "criteria", "no_text")
+EXTRA_KEYS = ("exam", "any_order", "reference", "criteria", "no_text", "context", "listen_text")
 
 
 def load_subject(db, subject_dir: Path):

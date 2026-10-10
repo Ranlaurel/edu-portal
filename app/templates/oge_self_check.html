@@ -15,6 +15,7 @@
     <details class="self-check-prompt">
       <summary>Условие</summary>
       <div class="rich">{{ item.prompt_html | safe }}</div>
+      {% if item.listen_text %}<h3>Исходный текст</h3><div class="rich listen-text">{{ item.listen_text }}</div>{% endif %}
     </details>
 
     {% if item.no_text %}

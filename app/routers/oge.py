@@ -307,6 +307,7 @@ def self_check_page(attempt_id: int, request: Request, db: Session = Depends(get
                 "criteria": extra.get("criteria") or [],
                 "answer": answer_text(answers, q.id),
                 "no_text": bool(extra.get("no_text")),
+                "listen_text": extra.get("listen_text"),
             }
         )
     return templates.TemplateResponse(

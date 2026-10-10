@@ -39,11 +39,13 @@
     head.appendChild(el("span", "exam-task-num", "Задание " + q.task));
     head.appendChild(el("span", "q-type-label", q.task_title + " · " + pointsLabel(q.points)));
     card.appendChild(head);
+    OgeMedia.renderContext(card, q);
 
     if (q.type === "self_check") {
       const text = el("div", "question-text rich");
       text.innerHTML = q.html; // our own content, rendered from markdown on the server
       card.appendChild(text);
+      if (q.listen_text) OgeMedia.renderListen(card, q.listen_text);
       if (q.no_text) {
         card.appendChild(el("div", "quiz-hint", "Здесь ничего писать не нужно: оценишь свои тексты на шаге самопроверки."));
         return card;

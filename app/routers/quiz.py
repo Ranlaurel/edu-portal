@@ -47,8 +47,13 @@ def self_check_points(q: Question, scores) -> tuple[int, int]:
 
 def serialize_question(q: Question) -> dict:
     base = {"id": q.id, "type": q.type, "text": q.text}
+    extra = question_extra(q)
+    if extra.get("context"):
+        # Shared text/table/SVG the question is built on (ОГЭ math 1-5, Russian text tasks).
+        base["context_html"] = md.markdown(extra["context"], extensions=["tables"])
+    if extra.get("listen_text"):
+        base["listen_text"] = extra["listen_text"]  # изложение: played aloud, not shown
     if q.type == "self_check":
-        extra = question_extra(q)
         base["html"] = md.markdown(q.text, extensions=["tables"])
         base["reference_html"] = md.markdown(extra.get("reference") or "", extensions=["tables"])
         base["criteria"] = extra.get("criteria") or []

@@ -18,6 +18,7 @@
     card.id = "q-card-" + q.id;
     const label = el("div", "q-type-label", typeLabel(q.type));
     card.appendChild(label);
+    OgeMedia.renderContext(card, q);
     if (q.type === "self_check") {
       renderSelfCheck(card, q, index);
       card.appendChild(el("div", "explanation", ""));
@@ -100,6 +101,7 @@
     text.innerHTML = q.html; // our own content, rendered from markdown on the server
     text.insertAdjacentText("afterbegin", (index + 1) + ". ");
     card.appendChild(text);
+    if (q.listen_text) OgeMedia.renderListen(card, q.listen_text);
 
     const answer = { text: "", scores: null };
     if (!q.no_text) {
